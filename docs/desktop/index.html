@@ -1,0 +1,239 @@
+<!DOCTYPE html><html>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Docs/Desktop.md | Things to Remember</title>
+
+
+<link href="https://fonts.googleapis.com/css?family=Oxygen|Oxygen+Mono:300,400,700" rel="stylesheet">
+
+
+<link rel="stylesheet" href="/normalize.min.css">
+
+<link rel="stylesheet" href="/book.min.10fb0ad8a0ad8e88648d3207b12be2833cd3df8a6e3b0955cbe49dc7fba8541c.css">
+
+
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" style="display: none" id="menu-control" />
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav role="navigation">
+<h2 class="book-brand">
+  <a href="https://kovasap.bitbucket.io/">Things to Remember</a>
+</h2>
+
+
+
+    
+  
+  
+
+  <style>
+  nav ul a[href$="\2f docs\2f desktop\2f "] {
+      color: #004ed0;
+  }
+  </style><ul>
+<li><strong>Philosophy</strong>
+
+<ul>
+<li><a href="/docs/software/">Software</a></li>
+</ul></li>
+<li><strong>Projects</strong>
+
+<ul>
+<li><a href="/docs/website/">This Website</a></li>
+<li><a href="/docs/desktop/">Desktop Environment</a><br /></li>
+</ul></li>
+<li><strong>Media</strong>
+
+<ul>
+<li><a href="/docs/music/">Music</a></li>
+</ul></li>
+<li><strong>How To</strong>
+
+<ul>
+<li><a href="/docs/finances/">Finances</a></li>
+<li><a href="/docs/cooking-staples/">Cooking</a></li>
+</ul></li>
+</ul>
+
+<script>
+(function() {
+  var menu = document.querySelector('aside.book-menu nav')
+  addEventListener('beforeunload', function(event) {
+    localStorage.setItem('menu.scrollTop', menu.scrollTop)
+  });
+
+  menu.scrollTop = localStorage.getItem('menu.scrollTop')
+})()
+</script>
+
+
+
+</nav>
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" />
+  </label>
+  <strong>Docs/Desktop.md</strong>
+</header>
+
+      
+<article class="markdown">
+
+<h1 id="my-desktop-environment">My Desktop Environment</h1>
+
+<!--
+To link this documentation more with my actual config, one idea is to add
+something like this to all the settings I document in my rc files:
+
+## SETTING_NAME ##
+some code that applies a setting
+## END ##
+
+Then, when I'm writing docs in this website I can simply reference the
+SETTING_NAME instead of inlining the code.  To make this work I need to write
+code that parses all my rc files and constructs some kind of mapping from
+SETTING_NAMES to the code (and the language to get syntax highlighting right and
+the filename).  Then, I need to replace the names I put in this documentation
+with the values from the mapping.  This code would run when the website is
+built.  
+-->
+
+<h2 id="color-brightness">Color and Brightness</h2>
+
+<h3 id="temperature">Temperature</h3>
+
+<p>I find that dim screens make it easier for me to read and work for longer
+without straining or fatiguing my eyes.  Therefore, I generally keep my screen
+at a low brightness level.  I also use <a href="http://jonls.dk/redshift/">Redshift</a> to
+keep my screen at a low temperature (low 3000Ks).  Currently I use a constant
+temperature all the time, as opposed to making the color lower at night.</p>
+
+<h3 id="selective-brightness">Selective Window Brightness</h3>
+
+<p>I prefer dark, lower contrast color schemes for coding or working on the command
+line.  They feel easier on my eyes and allow for more variety of color for use
+in (for example) syntax highlighting.  I find that colors blend into light
+backgrounds more, and are therefore less readable.</p>
+
+<p>However, most documents in the world are rendered with black text on a white
+background.  I find this perfectly readable, but starkly different from my dark
+color schemes.  This makes it quite jarring to switch between the two, which I
+often do when I&rsquo;m writing or coding while looking at a reference document in my
+web browser.</p>
+
+<p>To fix this issue, I&rsquo;ve tried a couple things:</p>
+
+<ul>
+<li>Using a page dimmer in my web browser.
+
+<ul>
+<li>This is generally a good solution, but (since these usually inject dimming
+javascript or css into the page that is being viewed) does not work when
+viewing web browser settings or reading pdfs or using any UI that is not
+strictly on the page.</li>
+</ul></li>
+<li>Boosting the brightness of my terminal and dimming everything globally.
+
+<ul>
+<li>Works for all light colored programs!</li>
+<li>The best way I could find to do this was to take the colors in the terminal
+colorscheme (as hex strings) and increase their brightness value to make new
+hex string colors, which I used as my colorscheme.  This definitly makes the
+terminal brighter but, as the brightness goes up, colors start maxing out
+util they all become white (#ffffff).  I wasn&rsquo;t able to boost brightness
+enough with this trick while keeping my colors distinct.</li>
+</ul></li>
+</ul>
+
+<p>The current solution I have is to selectively apply color filters to different
+programs using <a href="https://wiki.archlinux.org/index.php/Compton">Compton</a>.  This is
+not a feature that Compton supports natively, so I had to apply a patch I found
+<a href="https://github.com/chjj/compton/issues/266">here</a>.  The patched code can be
+found <a href="https://github.com/kovasap/compton">here</a>.  To configure this method, you
+can add shaders (functions that change pixel colors) to the
+<code>compton-chg-saturate-brightness-contrast.glsl</code> file in the root of that
+repository.  I run it by adding this to my <code>~/.xinitrc</code>:</p>
+
+<pre><code>~/.xinitrc
+---
+compton --glx-prog-win-rule ~/compton/compton-chg-saturate-brightness-contrast.glsl:'class_g=&quot;Google-chrome&quot;' --backend glx -b
+</code></pre>
+
+<p>Another idea I had to help fix my problem was to selectively dim brighter
+pixels, while keeping dimmer pixels unchanged.  I read that using the
+<a href="https://en.wikipedia.org/wiki/HSL_and_HSV">HSV</a> color encoding could provide a
+good way to define what &ldquo;brighter&rdquo; means and a way to change it.  Luckily,
+Compton provided a easy way to mess with this!  My fiddling can be found in the
+<a href="https://github.com/kovasap/compton/blob/94efb6c9a1f80e8dbf61409dfa9b476f15a06a16/compton-chg-saturate-brightness-contrast.glsl#L64"><code>compton-chg-saturate-brightness-contrast.glsl</code></a>
+file in my fork of the Compton repository. One thing I tried here was to use a
+function like
+<a href="https://www.wolframalpha.com/input/?i=plot+x+*+(1+-+a+*+x)+for+a%3D0,0.1,0.2,0.3,+x%3D0.0..1.0">this</a>
+to map the &ldquo;value&rdquo; (V in HSV) to a dimmer value (notice how higher <code>V</code> values
+are &ldquo;dimmed&rdquo; more than lower ones).</p>
+
+<p>One fun tool for this experimentation was a color picker like
+<a href="https://alloyui.com/examples/color-picker/hsv.html">this</a> one.  When changing
+the shader, the 2d color picker would have its colors changed, verifying the
+change made in the shader!  For example, after setting the shader to map <code>V</code>
+values above 0.8 to 0.0, I could see the part of the color picker with those
+values turn black.</p>
+
+<p>In the end, I may just stick with selectively dimming entire bright windows
+globally, as opposed to dimming certain colors.  But it was fun to mess with and
+I may return to it in the future!</p>
+
+<p>Another thing to try going forward would be other color representation models,
+such as <a href="https://en.wikipedia.org/wiki/CIELAB_color_space">CIELAB</a> or
+<a href="https://en.wikipedia.org/wiki/YCbCr">YCbCr</a>.</p>
+</article>
+
+      
+
+      
+    </div>
+
+    
+  
+  
+  <aside class="book-toc fixed">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#my-desktop-environment">My Desktop Environment</a>
+<ul>
+<li><a href="#color-brightness">Color and Brightness</a>
+<ul>
+<li><a href="#temperature">Temperature</a></li>
+<li><a href="#selective-brightness">Selective Window Brightness</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+  
+  
+  
+</body>
+
+</html>
