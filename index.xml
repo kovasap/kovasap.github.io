@@ -51,31 +51,22 @@ Roasted Vegetables All at 425F.
     
     <item>
       <title></title>
+      <link>https://kovasap.bitbucket.io/docs/great-talks-and-articles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.bitbucket.io/docs/great-talks-and-articles/</guid>
+      <description>Great Talks/Articles After each talk/article are listed my major takeaways from it.
+Software  Simple made Easy by Rich Hickey  Complex = entangled = difficult to reason about To make systems more understandable, need to reduce them to small, independant pieces (like pure functions with no side effects)  Hammock Driven Development by Rich Hickey  Stepping back from a problem and doing other things or sleeping allows unconscious parts of your mind draw connections that you otherwise wouldn&amp;rsquo;t draw.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.bitbucket.io/docs/music/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.bitbucket.io/docs/music/</guid>
       <description> Music Roughly ordered by current into-ness.
 Flow/Immersive  hubris. jakob God is an Astronaut Night Verses Intervals 65daysofstatic Unprocessed  Pump  Russian Circles Zeal and Ardor  Catchy  Tender Metal Mother Pair of Arrows Neon Trees  Chill/Background  Ratatat El Ten Eleven Glitch Mob Tim Hecker Nick Johnston  </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.bitbucket.io/docs/software/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.bitbucket.io/docs/software/</guid>
-      <description>Software Thoughts Excellent reflection on why rewriting is dangerous, but tempting: https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.bitbucket.io/docs/talks/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.bitbucket.io/docs/talks/</guid>
-      <description>Great Talks After each talk are listed my major takeaways from it.
-Software  Simple made Easy by Rich Hickey  Complex = entangled = difficult to reason about To make systems more understandable, need to reduce them to small, independant pieces (like pure functions with no side effects)  Hammock Driven Development by Rich Hickey  Stepping back from a problem and doing other things or sleeping allows unconscious parts of your mind draw connections that you otherwise wouldn&amp;rsquo;t draw.</description>
     </item>
     
     <item>

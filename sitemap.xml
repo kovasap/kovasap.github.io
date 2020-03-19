@@ -23,17 +23,12 @@
   </url>
   
   <url>
+    <loc>https://kovasap.bitbucket.io/docs/great-talks-and-articles/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kovasap.bitbucket.io/docs/music/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kovasap.bitbucket.io/docs/software/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kovasap.bitbucket.io/docs/talks/</loc>
     <priority>0</priority>
   </url>
   
