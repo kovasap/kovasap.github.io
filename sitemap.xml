@@ -18,6 +18,11 @@
   </url>
   
   <url>
+    <loc>https://kovasap.bitbucket.io/docs/divinity-os2-build-idea/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kovasap.bitbucket.io/docs/finances/</loc>
     <priority>0</priority>
   </url>
