@@ -63,6 +63,10 @@ return (Math.sqrt((Math.pow((new cljs.core.Keyword(null,"x","x",2099068185).cljs
 sketches.perlin_flow.sketch_mouse_clicked = (function sketches$perlin_flow$sketch_mouse_clicked(state,event){
 sketches.perlin_flow.affected_particles = cljs.core.filter.call(null,cljs.core.partial.call(null,sketches.perlin_flow.in_circle_QMARK_,new cljs.core.Keyword(null,"x","x",2099068185).cljs$core$IFn$_invoke$arity$1(event),new cljs.core.Keyword(null,"y","y",-1757859776).cljs$core$IFn$_invoke$arity$1(event),sketches.perlin_flow.click_radius),new cljs.core.Keyword(null,"particles","particles",801881788).cljs$core$IFn$_invoke$arity$1(state));
 
+cljs.pprint.pprint.call(null,"Affected Particles:");
+
+cljs.pprint.pprint.call(null,cljs.core.count.call(null,sketches.perlin_flow.affected_particles));
+
 return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"particles","particles",801881788),cljs.core.map.call(null,(function (p){
 if(cljs.core.truth_(sketches.perlin_flow.in_circle_QMARK_.call(null,new cljs.core.Keyword(null,"x","x",2099068185).cljs$core$IFn$_invoke$arity$1(event),new cljs.core.Keyword(null,"y","y",-1757859776).cljs$core$IFn$_invoke$arity$1(event),sketches.perlin_flow.click_radius,p))){
 return cljs.core.assoc.call(null,p,new cljs.core.Keyword(null,"vx","vx",-1685168462),(new cljs.core.Keyword(null,"vx","vx",-1685168462).cljs$core$IFn$_invoke$arity$1(p) + (sketches.perlin_flow.click_push_strength * (new cljs.core.Keyword(null,"x","x",2099068185).cljs$core$IFn$_invoke$arity$1(p) - new cljs.core.Keyword(null,"x","x",2099068185).cljs$core$IFn$_invoke$arity$1(event)))),new cljs.core.Keyword(null,"vy","vy",-2018509997),(new cljs.core.Keyword(null,"vy","vy",-2018509997).cljs$core$IFn$_invoke$arity$1(p) + (sketches.perlin_flow.click_push_strength * (new cljs.core.Keyword(null,"y","y",-1757859776).cljs$core$IFn$_invoke$arity$1(p) - new cljs.core.Keyword(null,"y","y",-1757859776).cljs$core$IFn$_invoke$arity$1(event)))));
@@ -81,57 +85,57 @@ cljs.core.apply.call(null,quil.core.background,new cljs.core.Keyword(null,"backg
 
 quil.core.no_stroke.call(null);
 
-var seq__9503 = cljs.core.seq.call(null,new cljs.core.Keyword(null,"particles","particles",801881788).cljs$core$IFn$_invoke$arity$1(state));
-var chunk__9504 = null;
-var count__9505 = (0);
-var i__9506 = (0);
+var seq__9539 = cljs.core.seq.call(null,new cljs.core.Keyword(null,"particles","particles",801881788).cljs$core$IFn$_invoke$arity$1(state));
+var chunk__9540 = null;
+var count__9541 = (0);
+var i__9542 = (0);
 while(true){
-if((i__9506 < count__9505)){
-var p = cljs.core._nth.call(null,chunk__9504,i__9506);
+if((i__9542 < count__9541)){
+var p = cljs.core._nth.call(null,chunk__9540,i__9542);
 cljs.core.apply.call(null,quil.core.fill,cljs.core.conj.call(null,new cljs.core.Keyword(null,"color","color",1011675173).cljs$core$IFn$_invoke$arity$1(p),(50)));
 
 quil.core.ellipse.call(null,new cljs.core.Keyword(null,"x","x",2099068185).cljs$core$IFn$_invoke$arity$1(p),new cljs.core.Keyword(null,"y","y",-1757859776).cljs$core$IFn$_invoke$arity$1(p),new cljs.core.Keyword(null,"size","size",1098693007).cljs$core$IFn$_invoke$arity$1(p),new cljs.core.Keyword(null,"size","size",1098693007).cljs$core$IFn$_invoke$arity$1(p));
 
 
-var G__9507 = seq__9503;
-var G__9508 = chunk__9504;
-var G__9509 = count__9505;
-var G__9510 = (i__9506 + (1));
-seq__9503 = G__9507;
-chunk__9504 = G__9508;
-count__9505 = G__9509;
-i__9506 = G__9510;
+var G__9543 = seq__9539;
+var G__9544 = chunk__9540;
+var G__9545 = count__9541;
+var G__9546 = (i__9542 + (1));
+seq__9539 = G__9543;
+chunk__9540 = G__9544;
+count__9541 = G__9545;
+i__9542 = G__9546;
 continue;
 } else {
-var temp__5720__auto__ = cljs.core.seq.call(null,seq__9503);
+var temp__5720__auto__ = cljs.core.seq.call(null,seq__9539);
 if(temp__5720__auto__){
-var seq__9503__$1 = temp__5720__auto__;
-if(cljs.core.chunked_seq_QMARK_.call(null,seq__9503__$1)){
-var c__4351__auto__ = cljs.core.chunk_first.call(null,seq__9503__$1);
-var G__9511 = cljs.core.chunk_rest.call(null,seq__9503__$1);
-var G__9512 = c__4351__auto__;
-var G__9513 = cljs.core.count.call(null,c__4351__auto__);
-var G__9514 = (0);
-seq__9503 = G__9511;
-chunk__9504 = G__9512;
-count__9505 = G__9513;
-i__9506 = G__9514;
+var seq__9539__$1 = temp__5720__auto__;
+if(cljs.core.chunked_seq_QMARK_.call(null,seq__9539__$1)){
+var c__4351__auto__ = cljs.core.chunk_first.call(null,seq__9539__$1);
+var G__9547 = cljs.core.chunk_rest.call(null,seq__9539__$1);
+var G__9548 = c__4351__auto__;
+var G__9549 = cljs.core.count.call(null,c__4351__auto__);
+var G__9550 = (0);
+seq__9539 = G__9547;
+chunk__9540 = G__9548;
+count__9541 = G__9549;
+i__9542 = G__9550;
 continue;
 } else {
-var p = cljs.core.first.call(null,seq__9503__$1);
+var p = cljs.core.first.call(null,seq__9539__$1);
 cljs.core.apply.call(null,quil.core.fill,cljs.core.conj.call(null,new cljs.core.Keyword(null,"color","color",1011675173).cljs$core$IFn$_invoke$arity$1(p),(50)));
 
 quil.core.ellipse.call(null,new cljs.core.Keyword(null,"x","x",2099068185).cljs$core$IFn$_invoke$arity$1(p),new cljs.core.Keyword(null,"y","y",-1757859776).cljs$core$IFn$_invoke$arity$1(p),new cljs.core.Keyword(null,"size","size",1098693007).cljs$core$IFn$_invoke$arity$1(p),new cljs.core.Keyword(null,"size","size",1098693007).cljs$core$IFn$_invoke$arity$1(p));
 
 
-var G__9515 = cljs.core.next.call(null,seq__9503__$1);
-var G__9516 = null;
-var G__9517 = (0);
-var G__9518 = (0);
-seq__9503 = G__9515;
-chunk__9504 = G__9516;
-count__9505 = G__9517;
-i__9506 = G__9518;
+var G__9551 = cljs.core.next.call(null,seq__9539__$1);
+var G__9552 = null;
+var G__9553 = (0);
+var G__9554 = (0);
+seq__9539 = G__9551;
+chunk__9540 = G__9552;
+count__9541 = G__9553;
+i__9542 = G__9554;
 continue;
 }
 } else {
@@ -142,7 +146,7 @@ break;
 }
 });
 sketches.perlin_flow.create = (function sketches$perlin_flow$create(canvas){
-return quil.core.sketch.call(null,new cljs.core.Keyword(null,"host","host",-1558485167),canvas,new cljs.core.Keyword(null,"size","size",1098693007),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [sketches.perlin_flow.w,sketches.perlin_flow.h], null),new cljs.core.Keyword(null,"draw","draw",1358331674),new cljs.core.Var(function(){return sketches.perlin_flow.sketch_draw;},new cljs.core.Symbol("sketches.perlin-flow","sketch-draw","sketches.perlin-flow/sketch-draw",-1861499172,null),cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"ns","ns",441598760),new cljs.core.Keyword(null,"name","name",1843675177),new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"arglists","arglists",1661989754),new cljs.core.Keyword(null,"doc","doc",1913296891),new cljs.core.Keyword(null,"test","test",577538877)],[new cljs.core.Symbol(null,"sketches.perlin-flow","sketches.perlin-flow",-1548302130,null),new cljs.core.Symbol(null,"sketch-draw","sketch-draw",1130795881,null),"src/sketches/perlin_flow.cljs",18,1,115,115,cljs.core.list(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null,"state","state",-348086572,null)], null)),"Draws the current state to the canvas. Called on each iteration after\n  sketch-update.",(cljs.core.truth_(sketches.perlin_flow.sketch_draw)?sketches.perlin_flow.sketch_draw.cljs$lang$test:null)])),new cljs.core.Keyword(null,"setup","setup",1987730512),new cljs.core.Var(function(){return sketches.perlin_flow.sketch_setup;},new cljs.core.Symbol("sketches.perlin-flow","sketch-setup","sketches.perlin-flow/sketch-setup",314602490,null),cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"ns","ns",441598760),new cljs.core.Keyword(null,"name","name",1843675177),new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"arglists","arglists",1661989754),new cljs.core.Keyword(null,"doc","doc",1913296891),new cljs.core.Keyword(null,"test","test",577538877)],[new cljs.core.Symbol(null,"sketches.perlin-flow","sketches.perlin-flow",-1548302130,null),new cljs.core.Symbol(null,"sketch-setup","sketch-setup",-1605195929,null),"src/sketches/perlin_flow.cljs",19,1,38,38,cljs.core.list(cljs.core.PersistentVector.EMPTY),"Returns the initial state to use for the update-render loop.",(cljs.core.truth_(sketches.perlin_flow.sketch_setup)?sketches.perlin_flow.sketch_setup.cljs$lang$test:null)])),new cljs.core.Keyword(null,"update","update",1045576396),new cljs.core.Var(function(){return sketches.perlin_flow.sketch_update;},new cljs.core.Symbol("sketches.perlin-flow","sketch-update","sketches.perlin-flow/sketch-update",-421996464,null),cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"ns","ns",441598760),new cljs.core.Keyword(null,"name","name",1843675177),new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"arglists","arglists",1661989754),new cljs.core.Keyword(null,"doc","doc",1913296891),new cljs.core.Keyword(null,"test","test",577538877)],[new cljs.core.Symbol(null,"sketches.perlin-flow","sketches.perlin-flow",-1548302130,null),new cljs.core.Symbol(null,"sketch-update","sketch-update",877495773,null),"src/sketches/perlin_flow.cljs",20,1,66,66,cljs.core.list(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null,"state","state",-348086572,null)], null)),"Receives the current state. Returns the next state to render.",(cljs.core.truth_(sketches.perlin_flow.sketch_update)?sketches.perlin_flow.sketch_update.cljs$lang$test:null)])),new cljs.core.Keyword(null,"mouse-clicked","mouse-clicked",-199339421),new cljs.core.Var(function(){return sketches.perlin_flow.sketch_mouse_clicked;},new cljs.core.Symbol("sketches.perlin-flow","sketch-mouse-clicked","sketches.perlin-flow/sketch-mouse-clicked",-58498497,null),cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"ns","ns",441598760),new cljs.core.Keyword(null,"name","name",1843675177),new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"arglists","arglists",1661989754),new cljs.core.Keyword(null,"doc","doc",1913296891),new cljs.core.Keyword(null,"test","test",577538877)],[new cljs.core.Symbol(null,"sketches.perlin-flow","sketches.perlin-flow",-1548302130,null),new cljs.core.Symbol(null,"sketch-mouse-clicked","sketch-mouse-clicked",859605408,null),"src/sketches/perlin_flow.cljs",27,1,95,95,cljs.core.list(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null,"state","state",-348086572,null),new cljs.core.Symbol(null,"event","event",1941966969,null)], null)),"Modifies the current state based on a mouse click.",(cljs.core.truth_(sketches.perlin_flow.sketch_mouse_clicked)?sketches.perlin_flow.sketch_mouse_clicked.cljs$lang$test:null)])),new cljs.core.Keyword(null,"middleware","middleware",1462115504),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [quil.middleware.fun_mode], null),new cljs.core.Keyword(null,"settings","settings",1556144875),(function (){
+return quil.core.sketch.call(null,new cljs.core.Keyword(null,"host","host",-1558485167),canvas,new cljs.core.Keyword(null,"size","size",1098693007),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [sketches.perlin_flow.w,sketches.perlin_flow.h], null),new cljs.core.Keyword(null,"draw","draw",1358331674),new cljs.core.Var(function(){return sketches.perlin_flow.sketch_draw;},new cljs.core.Symbol("sketches.perlin-flow","sketch-draw","sketches.perlin-flow/sketch-draw",-1861499172,null),cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"ns","ns",441598760),new cljs.core.Keyword(null,"name","name",1843675177),new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"arglists","arglists",1661989754),new cljs.core.Keyword(null,"doc","doc",1913296891),new cljs.core.Keyword(null,"test","test",577538877)],[new cljs.core.Symbol(null,"sketches.perlin-flow","sketches.perlin-flow",-1548302130,null),new cljs.core.Symbol(null,"sketch-draw","sketch-draw",1130795881,null),"src/sketches/perlin_flow.cljs",18,1,117,117,cljs.core.list(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null,"state","state",-348086572,null)], null)),"Draws the current state to the canvas. Called on each iteration after\n  sketch-update.",(cljs.core.truth_(sketches.perlin_flow.sketch_draw)?sketches.perlin_flow.sketch_draw.cljs$lang$test:null)])),new cljs.core.Keyword(null,"setup","setup",1987730512),new cljs.core.Var(function(){return sketches.perlin_flow.sketch_setup;},new cljs.core.Symbol("sketches.perlin-flow","sketch-setup","sketches.perlin-flow/sketch-setup",314602490,null),cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"ns","ns",441598760),new cljs.core.Keyword(null,"name","name",1843675177),new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"arglists","arglists",1661989754),new cljs.core.Keyword(null,"doc","doc",1913296891),new cljs.core.Keyword(null,"test","test",577538877)],[new cljs.core.Symbol(null,"sketches.perlin-flow","sketches.perlin-flow",-1548302130,null),new cljs.core.Symbol(null,"sketch-setup","sketch-setup",-1605195929,null),"src/sketches/perlin_flow.cljs",19,1,38,38,cljs.core.list(cljs.core.PersistentVector.EMPTY),"Returns the initial state to use for the update-render loop.",(cljs.core.truth_(sketches.perlin_flow.sketch_setup)?sketches.perlin_flow.sketch_setup.cljs$lang$test:null)])),new cljs.core.Keyword(null,"update","update",1045576396),new cljs.core.Var(function(){return sketches.perlin_flow.sketch_update;},new cljs.core.Symbol("sketches.perlin-flow","sketch-update","sketches.perlin-flow/sketch-update",-421996464,null),cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"ns","ns",441598760),new cljs.core.Keyword(null,"name","name",1843675177),new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"arglists","arglists",1661989754),new cljs.core.Keyword(null,"doc","doc",1913296891),new cljs.core.Keyword(null,"test","test",577538877)],[new cljs.core.Symbol(null,"sketches.perlin-flow","sketches.perlin-flow",-1548302130,null),new cljs.core.Symbol(null,"sketch-update","sketch-update",877495773,null),"src/sketches/perlin_flow.cljs",20,1,66,66,cljs.core.list(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null,"state","state",-348086572,null)], null)),"Receives the current state. Returns the next state to render.",(cljs.core.truth_(sketches.perlin_flow.sketch_update)?sketches.perlin_flow.sketch_update.cljs$lang$test:null)])),new cljs.core.Keyword(null,"mouse-clicked","mouse-clicked",-199339421),new cljs.core.Var(function(){return sketches.perlin_flow.sketch_mouse_clicked;},new cljs.core.Symbol("sketches.perlin-flow","sketch-mouse-clicked","sketches.perlin-flow/sketch-mouse-clicked",-58498497,null),cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"ns","ns",441598760),new cljs.core.Keyword(null,"name","name",1843675177),new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"arglists","arglists",1661989754),new cljs.core.Keyword(null,"doc","doc",1913296891),new cljs.core.Keyword(null,"test","test",577538877)],[new cljs.core.Symbol(null,"sketches.perlin-flow","sketches.perlin-flow",-1548302130,null),new cljs.core.Symbol(null,"sketch-mouse-clicked","sketch-mouse-clicked",859605408,null),"src/sketches/perlin_flow.cljs",27,1,95,95,cljs.core.list(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null,"state","state",-348086572,null),new cljs.core.Symbol(null,"event","event",1941966969,null)], null)),"Modifies the current state based on a mouse click.",(cljs.core.truth_(sketches.perlin_flow.sketch_mouse_clicked)?sketches.perlin_flow.sketch_mouse_clicked.cljs$lang$test:null)])),new cljs.core.Keyword(null,"middleware","middleware",1462115504),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [quil.middleware.fun_mode], null),new cljs.core.Keyword(null,"settings","settings",1556144875),(function (){
 quil.core.random_seed.call(null,(666));
 
 return quil.core.noise_seed.call(null,(666));

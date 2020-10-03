@@ -99,6 +99,8 @@
   (def affected-particles
     (filter (partial in-circle? (:x event) (:y event) click-radius)
             (:particles state)))
+  (cljs.pprint/pprint "Affected Particles:")
+  (cljs.pprint/pprint (count affected-particles))
   ; Set velocity of all affected particles to point away from the pointer.
   {:particles
    (map (fn [p]
