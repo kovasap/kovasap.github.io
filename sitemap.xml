@@ -3,12 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://kovasap.bitbucket.io/docs/antifragile-summary/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.bitbucket.io/docs/art/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.bitbucket.io/docs/claire-letter/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kovasap.bitbucket.io/docs/climbing-checklist/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kovasap.bitbucket.io/docs/cooking/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.bitbucket.io/docs/cool_links/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.bitbucket.io/docs/creativity/</loc>
     <priority>0</priority>
   </url>
   
@@ -23,17 +48,62 @@
   </url>
   
   <url>
-    <loc>https://kovasap.bitbucket.io/docs/finances/</loc>
+    <loc>https://kovasap.bitbucket.io/docs/growing-own-food/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kovasap.bitbucket.io/docs/great-talks-and-articles/</loc>
+    <loc>https://kovasap.bitbucket.io/docs/how-to-be-healthy/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.bitbucket.io/docs/how-to-be-productive/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.bitbucket.io/docs/how-to-finance/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.bitbucket.io/docs/idea-sources/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kovasap.bitbucket.io/docs/music/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.bitbucket.io/docs/notes-on-notetaking/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.bitbucket.io/docs/personal-user-manual/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.bitbucket.io/docs/podcasts/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.bitbucket.io/docs/society-and-economics/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.bitbucket.io/docs/software/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.bitbucket.io/docs/vim-tricks/</loc>
     <priority>0</priority>
   </url>
   

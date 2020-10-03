@@ -11,6 +11,36 @@
     
     <item>
       <title></title>
+      <link>https://kovasap.bitbucket.io/docs/antifragile-summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.bitbucket.io/docs/antifragile-summary/</guid>
+      <description>Notes from &amp;ldquo;Antifragile&amp;rdquo; What is Antifragility? Fragile - hurt by random variation Robust - not sensitive to anything Antifraile - hurt by lack of variation
+Convexity/Concavity The fragile is well represented by a concave distribution - outcomes are fine most of the time, but can sometimes be catastrophic.
+The antifragile is well represented by a convex distribution - outcomes are fine most of the time, but can sometimes be very good.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.bitbucket.io/docs/art/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.bitbucket.io/docs/art/</guid>
+      <description>   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.bitbucket.io/docs/claire-letter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.bitbucket.io/docs/claire-letter/</guid>
+      <description>I think the big problem we have is that we do not have enough shared projects/interests. I have too many things that I&amp;rsquo;m interested in that are completely independent. To solve this we need to do more things together that we are BOTH really into. Really groundbreaking i know.
+Collaboration One source is collaborating on a shared problem. This could be a teacher/student relationship where one person is helping another solve a problem they know the solution to.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.bitbucket.io/docs/climbing-checklist/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -33,6 +63,24 @@ Roasted Vegetables All at 425F.
     
     <item>
       <title></title>
+      <link>https://kovasap.bitbucket.io/docs/cool_links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.bitbucket.io/docs/cool_links/</guid>
+      <description>Cool Links https://www.heywhatsthat.com/</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.bitbucket.io/docs/creativity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.bitbucket.io/docs/creativity/</guid>
+      <description> Game Design  20 Lessons from 20 Years of MTG by Mark Rosewater  Creativity comes from constraining your problem space   </description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.bitbucket.io/docs/desktop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -51,21 +99,50 @@ Roasted Vegetables All at 425F.
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/finances/</link>
+      <link>https://kovasap.bitbucket.io/docs/growing-own-food/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/finances/</guid>
-      <description> Finances Stock options  Excellent Reference  </description>
+      <guid>https://kovasap.bitbucket.io/docs/growing-own-food/</guid>
+      <description>Growing your own food Hydroponics for leafy greens Most leafy greens should take about a month to grow hydroponically. Therefore, if I want to eat two plants a day, I need 60 plant growing stations in my system. This is a 10x6 system, which seems fairly small actually.
+Materials  Grow lights Basins with baskets for plants   To make things easy, it would be cool to come up with a reusable solution for the material to plant the seeds in, since I would be harvesting and replanting 2 per day.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/great-talks-and-articles/</link>
+      <link>https://kovasap.bitbucket.io/docs/how-to-be-healthy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/great-talks-and-articles/</guid>
-      <description>Great Talks/Articles After each talk/article are listed my major takeaways from it.
-Software  Simple made Easy by Rich Hickey  Complex = entangled = difficult to reason about To make systems more understandable, need to reduce them to small, independant pieces (like pure functions with no side effects)  Hammock Driven Development by Rich Hickey  Stepping back from a problem and doing other things or sleeping allows unconscious parts of your mind draw connections that you otherwise wouldn&amp;rsquo;t draw.</description>
+      <guid>https://kovasap.bitbucket.io/docs/how-to-be-healthy/</guid>
+      <description>What should I eat? Mostly vegan, with fish 2-3 times per week1.
+Things to avoid  Refined sugars  Danger of Fast Carbs  Red meat  When should I eat? Probably mostly earlier in the day23, and within a 8-12 hour window34.
+ Meal Timing And Frequency Effects on Cardiovascular Disease  Eating meals earlier in the day might be healthier Eating meals on a regular schedule is likely healthier   Should I fast for prolonged periods?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.bitbucket.io/docs/how-to-be-productive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.bitbucket.io/docs/how-to-be-productive/</guid>
+      <description>Sprints, and Taking Breaks Working on mentally hard tasks depletes mental energy reserves in a localized way, similarly to how physically hard tasks deplete muscle energy reserves [CITATION NEEDED beyond own experience]. Therefore, feeling stressed or guilty about not being able to continue focusing on a task is counterproductive - use of willpower to keep focused is a patch solution that many times actually depletes even more mental energy. A better solution is to move to another location and take a break by zoning out or otherwise doing nothing.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.bitbucket.io/docs/how-to-finance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.bitbucket.io/docs/how-to-finance/</guid>
+      <description> Financial Strategy Stock options  Excellent Reference  Retirement Finance To look at  Option writing as income strategy  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.bitbucket.io/docs/idea-sources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.bitbucket.io/docs/idea-sources/</guid>
+      <description> Sources of General Ideas Blogs  danluu Paul Graham  </description>
     </item>
     
     <item>
@@ -80,12 +157,71 @@ Flow/Immersive  hubris. jakob God is an Astronaut Night Verses Intervals 65dayso
     
     <item>
       <title></title>
+      <link>https://kovasap.bitbucket.io/docs/notes-on-notetaking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.bitbucket.io/docs/notes-on-notetaking/</guid>
+      <description>See - https://tkainrad.dev/posts/managing-my-personal-knowledge-base/ - https://vimways.org/2019/personal-notetaking-in-vim/</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.bitbucket.io/docs/personal-user-manual/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.bitbucket.io/docs/personal-user-manual/</guid>
+      <description>Personal User Manual Sleep Wear socks to sleep so that: 1. Feet don&amp;rsquo;t get uncomfortably cold 1. Sheets can lie more nicely around my body, without needing to be stretched out to cover my feet (and letting more breezes in).
+Playing FPS or other games within and hour or so of sleeping can make it harder to fall asleep, but may not affect sleep quality after falling asleep.
+Food Overeating kills productivity.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.bitbucket.io/docs/podcasts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.bitbucket.io/docs/podcasts/</guid>
+      <description> Podcasts Have Listened  Programming Throwdown  Random discussions of programming languages and other topics Very casual  Radiolab  High production value stories   Am Listening  Joe Rogan Experience  Long and varied.  Found My Fitness  Deep dives into health related topics.  Peter Attia Drive  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.bitbucket.io/docs/society-and-economics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.bitbucket.io/docs/society-and-economics/</guid>
+      <description> Interesting Talks/Articles  Downsides of Meritocracy  Excessive work justifying class is harmful for everyone, particularly the wealthy.   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.bitbucket.io/docs/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.bitbucket.io/docs/software/</guid>
+      <description>Talks/Articles  Getting things done by Johnathan Blow  Depth first approach to problem solving can be bad because you end up going in the wrong direction (which you would have avoided going breath-first)  Simple made Easy by Rich Hickey  Complex = entangled = difficult to reason about To make systems more understandable, need to reduce them to small, independant pieces (like pure functions with no side effects)  Hammock Driven Development by Rich Hickey  Stepping back from a problem and doing other things or sleeping allows unconscious parts of your mind draw connections that you otherwise wouldn&amp;rsquo;t draw.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.bitbucket.io/docs/vim-tricks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.bitbucket.io/docs/vim-tricks/</guid>
+      <description> Vim Tricks Search/Replace See http://vimregex.com/#substitute for details.
+Convert protos to bzl dictionaries Replace text: text2 with &amp;quot;text&amp;quot;: text2,:
+:%s/\(\S.*[^&amp;quot;]\): \(.*\)$/&amp;quot;\1&amp;quot;: \2,/g  Replace floating points number with quoted variants:
+:%s/[^&amp;quot;]\(\d\+\)\.\(\d\+\)/&amp;quot;\1\.\2&amp;quot;/g  </description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.bitbucket.io/docs/website/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.bitbucket.io/docs/website/</guid>
-      <description>This Website This website was setup using Hugo and is hosted using Bitbucket. It uses the hugo-book theme. Originally, it was started by copying the example project in the hugo-book repository, and modifying the pages.
-Cool tips to check out for improvement: - https://gohugo.io/content-management/shortcodes/#figure - https://marcmolla.bitbucket.io/blog/bitbucket-and-continuous-integration-of-a-hugo-site/</description>
+      <description>This Website This website was setup using Hugo and is hosted using Github. It uses the hugo-book theme. Originally, it was started by copying the example project in the hugo-book repository, and modifying the pages.
+Cool tips to check out for improvement: - https://gohugo.io/content-management/shortcodes/#figure - https://tkainrad.dev/posts/using-hugo-gitlab-pages-and-cloudflare-to-create-and-run-this-website/ - https://stackoverflow.com/questions/17207458/how-to-add-google-analytics-tracking-id-to-github-pages</description>
     </item>
     
   </channel>
