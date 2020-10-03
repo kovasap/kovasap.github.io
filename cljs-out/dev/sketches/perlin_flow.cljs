@@ -81,6 +81,37 @@
    })
 
 
+(def click-radius 100)
+(def click-push-strength 1)
+
+(defn in-circle?
+  "Checks if the point map with coordinates stored as :x and :y is in the
+  circle with radius r and center (xc, yc)"
+  [xc yc r pt-map]
+  (< (Math/sqrt (+ (Math/pow (- (:x pt-map) xc) 2)
+                   (Math/pow (- (:y pt-map) yc) 2)))
+     r))
+
+(defn sketch-mouse-clicked
+  "Modifies the current state based on a mouse click."
+  [state event]
+  ; Get all particles within click-radius of the click point.
+  (def affected-particles
+    (filter (partial in-circle? (:x event) (:y event) click-radius)
+            (:particles state)))
+  ; Set velocity of all affected particles to point away from the pointer.
+  {:particles
+   (map (fn [p]
+          (cond (in-circle? (:x event) (:y event) click-radius p)
+                (assoc p
+                       :vx (+ (:vx p)
+                              (* click-push-strength (- (:x p) (:x event))))
+                       :vy (+ (:vy p)
+                              (* click-push-strength (- (:y p) (:y event)))))
+                :else p))
+        (:particles state))})
+
+
 (defn sketch-draw
   "Draws the current state to the canvas. Called on each iteration after
   sketch-update."
@@ -100,6 +131,7 @@
     :draw #'sketch-draw
     :setup #'sketch-setup
     :update #'sketch-update
+    :mouse-clicked #'sketch-mouse-clicked
     :middleware [middleware/fun-mode]
     :settings (fn []
                 ; (q/pixel-density 1)
