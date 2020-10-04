@@ -85,57 +85,57 @@ cljs.core.apply.call(null,quil.core.background,new cljs.core.Keyword(null,"backg
 
 quil.core.no_stroke.call(null);
 
-var seq__8585 = cljs.core.seq.call(null,new cljs.core.Keyword(null,"particles","particles",801881788).cljs$core$IFn$_invoke$arity$1(state));
-var chunk__8586 = null;
-var count__8587 = (0);
-var i__8588 = (0);
+var seq__8535 = cljs.core.seq.call(null,new cljs.core.Keyword(null,"particles","particles",801881788).cljs$core$IFn$_invoke$arity$1(state));
+var chunk__8536 = null;
+var count__8537 = (0);
+var i__8538 = (0);
 while(true){
-if((i__8588 < count__8587)){
-var p = cljs.core._nth.call(null,chunk__8586,i__8588);
+if((i__8538 < count__8537)){
+var p = cljs.core._nth.call(null,chunk__8536,i__8538);
 cljs.core.apply.call(null,quil.core.fill,cljs.core.conj.call(null,new cljs.core.Keyword(null,"color","color",1011675173).cljs$core$IFn$_invoke$arity$1(p),(50)));
 
 quil.core.ellipse.call(null,new cljs.core.Keyword(null,"x","x",2099068185).cljs$core$IFn$_invoke$arity$1(p),new cljs.core.Keyword(null,"y","y",-1757859776).cljs$core$IFn$_invoke$arity$1(p),new cljs.core.Keyword(null,"size","size",1098693007).cljs$core$IFn$_invoke$arity$1(p),new cljs.core.Keyword(null,"size","size",1098693007).cljs$core$IFn$_invoke$arity$1(p));
 
 
-var G__8589 = seq__8585;
-var G__8590 = chunk__8586;
-var G__8591 = count__8587;
-var G__8592 = (i__8588 + (1));
-seq__8585 = G__8589;
-chunk__8586 = G__8590;
-count__8587 = G__8591;
-i__8588 = G__8592;
+var G__8539 = seq__8535;
+var G__8540 = chunk__8536;
+var G__8541 = count__8537;
+var G__8542 = (i__8538 + (1));
+seq__8535 = G__8539;
+chunk__8536 = G__8540;
+count__8537 = G__8541;
+i__8538 = G__8542;
 continue;
 } else {
-var temp__5720__auto__ = cljs.core.seq.call(null,seq__8585);
+var temp__5720__auto__ = cljs.core.seq.call(null,seq__8535);
 if(temp__5720__auto__){
-var seq__8585__$1 = temp__5720__auto__;
-if(cljs.core.chunked_seq_QMARK_.call(null,seq__8585__$1)){
-var c__4351__auto__ = cljs.core.chunk_first.call(null,seq__8585__$1);
-var G__8593 = cljs.core.chunk_rest.call(null,seq__8585__$1);
-var G__8594 = c__4351__auto__;
-var G__8595 = cljs.core.count.call(null,c__4351__auto__);
-var G__8596 = (0);
-seq__8585 = G__8593;
-chunk__8586 = G__8594;
-count__8587 = G__8595;
-i__8588 = G__8596;
+var seq__8535__$1 = temp__5720__auto__;
+if(cljs.core.chunked_seq_QMARK_.call(null,seq__8535__$1)){
+var c__4351__auto__ = cljs.core.chunk_first.call(null,seq__8535__$1);
+var G__8543 = cljs.core.chunk_rest.call(null,seq__8535__$1);
+var G__8544 = c__4351__auto__;
+var G__8545 = cljs.core.count.call(null,c__4351__auto__);
+var G__8546 = (0);
+seq__8535 = G__8543;
+chunk__8536 = G__8544;
+count__8537 = G__8545;
+i__8538 = G__8546;
 continue;
 } else {
-var p = cljs.core.first.call(null,seq__8585__$1);
+var p = cljs.core.first.call(null,seq__8535__$1);
 cljs.core.apply.call(null,quil.core.fill,cljs.core.conj.call(null,new cljs.core.Keyword(null,"color","color",1011675173).cljs$core$IFn$_invoke$arity$1(p),(50)));
 
 quil.core.ellipse.call(null,new cljs.core.Keyword(null,"x","x",2099068185).cljs$core$IFn$_invoke$arity$1(p),new cljs.core.Keyword(null,"y","y",-1757859776).cljs$core$IFn$_invoke$arity$1(p),new cljs.core.Keyword(null,"size","size",1098693007).cljs$core$IFn$_invoke$arity$1(p),new cljs.core.Keyword(null,"size","size",1098693007).cljs$core$IFn$_invoke$arity$1(p));
 
 
-var G__8597 = cljs.core.next.call(null,seq__8585__$1);
-var G__8598 = null;
-var G__8599 = (0);
-var G__8600 = (0);
-seq__8585 = G__8597;
-chunk__8586 = G__8598;
-count__8587 = G__8599;
-i__8588 = G__8600;
+var G__8547 = cljs.core.next.call(null,seq__8535__$1);
+var G__8548 = null;
+var G__8549 = (0);
+var G__8550 = (0);
+seq__8535 = G__8547;
+chunk__8536 = G__8548;
+count__8537 = G__8549;
+i__8538 = G__8550;
 continue;
 }
 } else {
