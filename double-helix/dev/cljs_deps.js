@@ -10,10 +10,6 @@ goog.addDependency("../clojure/data.js", ['clojure.data'], ['cljs.core', 'clojur
 goog.addDependency("../devtools/defaults.js", ['devtools.defaults'], ['cljs.core']);
 goog.addDependency("../devtools/prefs.js", ['devtools.prefs'], ['cljs.core', 'devtools.defaults']);
 goog.addDependency("../devtools/util.js", ['devtools.util'], ['cljs.core', 'devtools.version', 'goog.userAgent', 'cljs.pprint', 'devtools.context', 'clojure.data', 'devtools.prefs']);
-goog.addDependency("../figwheel/main.js", ['figwheel.main'], ['cljs.core']);
-goog.addDependency("../figwheel/tools/heads_up.js", ['figwheel.tools.heads_up'], ['goog.dom', 'goog.string', 'cljs.core', 'goog.dom.dataset', 'goog.object', 'cljs.pprint', 'goog.Promise', 'clojure.string']);
-goog.addDependency("../figwheel/core.js", ['figwheel.core'], ['goog.string', 'goog.debug.Console', 'cljs.core', 'goog.object', 'goog.events.EventTarget', 'figwheel.tools.heads_up', 'goog.log', 'clojure.set', 'goog.Promise', 'goog.string.format', 'goog.async.Deferred', 'goog.events.Event', 'clojure.string']);
-goog.addDependency("../figwheel/repl.js", ['figwheel.repl'], ['goog.userAgent.product', 'goog.net.XhrIo', 'goog.json', 'goog.string', 'goog.debug.Console', 'goog.storage.mechanism.HTML5SessionStorage', 'goog.Uri.QueryData', 'goog.net.jsloader', 'goog.Uri', 'cljs.core', 'goog.object', 'goog.log', 'goog.html.legacyconversions', 'goog.Promise', 'goog.storage.mechanism.mechanismfactory', 'goog.net.WebSocket', 'clojure.string', 'goog.array']);
 goog.addDependency("../devtools/protocols.js", ['devtools.protocols'], ['cljs.core']);
 goog.addDependency("../devtools/format.js", ['devtools.format'], ['cljs.core', 'devtools.context']);
 goog.addDependency("../devtools/munging.js", ['devtools.munging'], ['cljs.core', 'goog.object', 'goog.string.StringBuffer', 'devtools.context', 'clojure.string']);
@@ -32,7 +28,6 @@ goog.addDependency("../devtools/formatters/core.js", ['devtools.formatters.core'
 goog.addDependency("../devtools/formatters.js", ['devtools.formatters'], ['devtools.formatters.core', 'devtools.util', 'cljs.core', 'goog.labs.userAgent.browser', 'devtools.context', 'devtools.prefs']);
 goog.addDependency("../devtools/hints.js", ['devtools.hints'], ['cljs.stacktrace', 'cljs.core', 'devtools.context', 'devtools.prefs']);
 goog.addDependency("../devtools/core.js", ['devtools.core'], ['devtools.toolbox', 'devtools.util', 'cljs.core', 'devtools.async', 'devtools.formatters', 'devtools.hints', 'devtools.context', 'devtools.defaults', 'devtools.prefs']);
-goog.addDependency("../figwheel/repl/preload.js", ['figwheel.repl.preload'], ['cljs.core', 'figwheel.repl']);
 goog.addDependency("../devtools/preload.js", ['devtools.preload'], ['cljs.core', 'devtools.core', 'devtools.prefs']);
 goog.addDependency("../cljsjs/p5/development/p5.inc.js", ['cljsjs.p5'], [], {'foreign-lib': true});
 goog.addDependency("../quil/middlewares/deprecated_options.js", ['quil.middlewares.deprecated_options'], ['cljs.core']);
@@ -45,4 +40,3 @@ goog.addDependency("../quil/middlewares/navigation_2d.js", ['quil.middlewares.na
 goog.addDependency("../quil/middlewares/fun_mode.js", ['quil.middlewares.fun_mode'], ['cljs.core', 'quil.core']);
 goog.addDependency("../quil/middleware.js", ['quil.middleware'], ['cljs.core', 'quil.middlewares.navigation_3d', 'quil.middlewares.navigation_2d', 'quil.middlewares.fun_mode']);
 goog.addDependency("../sketches/double_helix.js", ['sketches.double_helix'], ['sketches.common', 'cljs.core', 'cljs.pprint', 'quil.core', 'quil.middleware']);
-goog.addDependency("../sketches/perlin_flow.js", ['sketches.perlin_flow'], ['cljs.core', 'cljs.pprint', 'quil.core', 'quil.middleware']);
