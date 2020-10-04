@@ -141,5 +141,5 @@
                 (q/noise-seed 666))))
 
 ; Make sure that only one instance of the sketch is ever created.
-(defonce sketch (create "sketch"))
+(defonce sketch (create "perlin-flow"))
 

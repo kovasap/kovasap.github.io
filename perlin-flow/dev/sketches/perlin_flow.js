@@ -85,57 +85,57 @@ cljs.core.apply.call(null,quil.core.background,new cljs.core.Keyword(null,"backg
 
 quil.core.no_stroke.call(null);
 
-var seq__8605 = cljs.core.seq.call(null,new cljs.core.Keyword(null,"particles","particles",801881788).cljs$core$IFn$_invoke$arity$1(state));
-var chunk__8606 = null;
-var count__8607 = (0);
-var i__8608 = (0);
+var seq__8585 = cljs.core.seq.call(null,new cljs.core.Keyword(null,"particles","particles",801881788).cljs$core$IFn$_invoke$arity$1(state));
+var chunk__8586 = null;
+var count__8587 = (0);
+var i__8588 = (0);
 while(true){
-if((i__8608 < count__8607)){
-var p = cljs.core._nth.call(null,chunk__8606,i__8608);
+if((i__8588 < count__8587)){
+var p = cljs.core._nth.call(null,chunk__8586,i__8588);
 cljs.core.apply.call(null,quil.core.fill,cljs.core.conj.call(null,new cljs.core.Keyword(null,"color","color",1011675173).cljs$core$IFn$_invoke$arity$1(p),(50)));
 
 quil.core.ellipse.call(null,new cljs.core.Keyword(null,"x","x",2099068185).cljs$core$IFn$_invoke$arity$1(p),new cljs.core.Keyword(null,"y","y",-1757859776).cljs$core$IFn$_invoke$arity$1(p),new cljs.core.Keyword(null,"size","size",1098693007).cljs$core$IFn$_invoke$arity$1(p),new cljs.core.Keyword(null,"size","size",1098693007).cljs$core$IFn$_invoke$arity$1(p));
 
 
-var G__8609 = seq__8605;
-var G__8610 = chunk__8606;
-var G__8611 = count__8607;
-var G__8612 = (i__8608 + (1));
-seq__8605 = G__8609;
-chunk__8606 = G__8610;
-count__8607 = G__8611;
-i__8608 = G__8612;
+var G__8589 = seq__8585;
+var G__8590 = chunk__8586;
+var G__8591 = count__8587;
+var G__8592 = (i__8588 + (1));
+seq__8585 = G__8589;
+chunk__8586 = G__8590;
+count__8587 = G__8591;
+i__8588 = G__8592;
 continue;
 } else {
-var temp__5720__auto__ = cljs.core.seq.call(null,seq__8605);
+var temp__5720__auto__ = cljs.core.seq.call(null,seq__8585);
 if(temp__5720__auto__){
-var seq__8605__$1 = temp__5720__auto__;
-if(cljs.core.chunked_seq_QMARK_.call(null,seq__8605__$1)){
-var c__4351__auto__ = cljs.core.chunk_first.call(null,seq__8605__$1);
-var G__8613 = cljs.core.chunk_rest.call(null,seq__8605__$1);
-var G__8614 = c__4351__auto__;
-var G__8615 = cljs.core.count.call(null,c__4351__auto__);
-var G__8616 = (0);
-seq__8605 = G__8613;
-chunk__8606 = G__8614;
-count__8607 = G__8615;
-i__8608 = G__8616;
+var seq__8585__$1 = temp__5720__auto__;
+if(cljs.core.chunked_seq_QMARK_.call(null,seq__8585__$1)){
+var c__4351__auto__ = cljs.core.chunk_first.call(null,seq__8585__$1);
+var G__8593 = cljs.core.chunk_rest.call(null,seq__8585__$1);
+var G__8594 = c__4351__auto__;
+var G__8595 = cljs.core.count.call(null,c__4351__auto__);
+var G__8596 = (0);
+seq__8585 = G__8593;
+chunk__8586 = G__8594;
+count__8587 = G__8595;
+i__8588 = G__8596;
 continue;
 } else {
-var p = cljs.core.first.call(null,seq__8605__$1);
+var p = cljs.core.first.call(null,seq__8585__$1);
 cljs.core.apply.call(null,quil.core.fill,cljs.core.conj.call(null,new cljs.core.Keyword(null,"color","color",1011675173).cljs$core$IFn$_invoke$arity$1(p),(50)));
 
 quil.core.ellipse.call(null,new cljs.core.Keyword(null,"x","x",2099068185).cljs$core$IFn$_invoke$arity$1(p),new cljs.core.Keyword(null,"y","y",-1757859776).cljs$core$IFn$_invoke$arity$1(p),new cljs.core.Keyword(null,"size","size",1098693007).cljs$core$IFn$_invoke$arity$1(p),new cljs.core.Keyword(null,"size","size",1098693007).cljs$core$IFn$_invoke$arity$1(p));
 
 
-var G__8617 = cljs.core.next.call(null,seq__8605__$1);
-var G__8618 = null;
-var G__8619 = (0);
-var G__8620 = (0);
-seq__8605 = G__8617;
-chunk__8606 = G__8618;
-count__8607 = G__8619;
-i__8608 = G__8620;
+var G__8597 = cljs.core.next.call(null,seq__8585__$1);
+var G__8598 = null;
+var G__8599 = (0);
+var G__8600 = (0);
+seq__8585 = G__8597;
+chunk__8586 = G__8598;
+count__8587 = G__8599;
+i__8588 = G__8600;
 continue;
 }
 } else {
@@ -154,7 +154,7 @@ return quil.core.noise_seed.call(null,(666));
 });
 if((typeof sketches !== 'undefined') && (typeof sketches.perlin_flow !== 'undefined') && (typeof sketches.perlin_flow.sketch !== 'undefined')){
 } else {
-sketches.perlin_flow.sketch = sketches.perlin_flow.create.call(null,"sketch");
+sketches.perlin_flow.sketch = sketches.perlin_flow.create.call(null,"perlin-flow");
 }
 
 //# sourceMappingURL=perlin_flow.js.map

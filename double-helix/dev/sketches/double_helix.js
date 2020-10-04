@@ -64,7 +64,7 @@ return quil.core.noise_seed.call(null,(666));
 });
 if((typeof sketches !== 'undefined') && (typeof sketches.double_helix !== 'undefined') && (typeof sketches.double_helix.sketch !== 'undefined')){
 } else {
-sketches.double_helix.sketch = sketches.double_helix.create.call(null,"sketch");
+sketches.double_helix.sketch = sketches.double_helix.create.call(null,"double-helix");
 }
 
 //# sourceMappingURL=double_helix.js.map
