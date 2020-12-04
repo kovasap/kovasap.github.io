@@ -13,7 +13,17 @@
   </url>
   
   <url>
-    <loc>https://kovasap.bitbucket.io/docs/claire-letter/</loc>
+    <loc>https://kovasap.bitbucket.io/docs/art/double-helix/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.bitbucket.io/docs/art/perlin-flow/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.bitbucket.io/docs/brain-notes/</loc>
     <priority>0</priority>
   </url>
   
@@ -48,6 +58,31 @@
   </url>
   
   <url>
+    <loc>https://kovasap.bitbucket.io/docs/event-reports/2020-8-10-lake-erie/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.bitbucket.io/docs/event-reports/2020-8-12-mile-high-club/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.bitbucket.io/docs/fasting/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.bitbucket.io/docs/game-ideas/general-theory/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.bitbucket.io/docs/game-ideas/roguelike-base-builder/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kovasap.bitbucket.io/docs/growing-own-food/</loc>
     <priority>0</priority>
   </url>
@@ -63,7 +98,17 @@
   </url>
   
   <url>
+    <loc>https://kovasap.bitbucket.io/docs/how-to-build-skills/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kovasap.bitbucket.io/docs/how-to-finance/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.bitbucket.io/docs/how-to-write/</loc>
     <priority>0</priority>
   </url>
   
@@ -99,6 +144,11 @@
   
   <url>
     <loc>https://kovasap.bitbucket.io/docs/software/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.bitbucket.io/docs/valorant-tips/</loc>
     <priority>0</priority>
   </url>
   
