@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docs on Things to Remember</title>
-    <link>https://kovasap.bitbucket.io/docs/</link>
+    <link>https://kovasap.github.io/docs/</link>
     <description>Recent content in Docs on Things to Remember</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="https://kovasap.bitbucket.io/docs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kovasap.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/antifragile-summary/</link>
+      <link>https://kovasap.github.io/docs/antifragile-summary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/antifragile-summary/</guid>
+      <guid>https://kovasap.github.io/docs/antifragile-summary/</guid>
       <description>Notes from &amp;ldquo;Antifragile&amp;rdquo; What is Antifragility? Fragile - hurt by random variation Robust - not sensitive to anything Antifraile - hurt by lack of variation
 Convexity/Concavity The fragile is well represented by a concave distribution - outcomes are fine most of the time, but can sometimes be catastrophic.
 The antifragile is well represented by a convex distribution - outcomes are fine most of the time, but can sometimes be very good.</description>
@@ -22,38 +22,38 @@ The antifragile is well represented by a convex distribution - outcomes are fine
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/art/</link>
+      <link>https://kovasap.github.io/docs/art/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/art/</guid>
+      <guid>https://kovasap.github.io/docs/art/</guid>
       <description>Art Source can be found at https://github.com/kovasap/generative-art.
  perlin flow double helix  TODO: Add images with links instead of this bulleted list</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/art/double-helix/</link>
+      <link>https://kovasap.github.io/docs/art/double-helix/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/art/double-helix/</guid>
+      <guid>https://kovasap.github.io/docs/art/double-helix/</guid>
       <description>Double Helix</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/art/perlin-flow/</link>
+      <link>https://kovasap.github.io/docs/art/perlin-flow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/art/perlin-flow/</guid>
+      <guid>https://kovasap.github.io/docs/art/perlin-flow/</guid>
       <description>Perlin Flow</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/brain-notes/</link>
+      <link>https://kovasap.github.io/docs/brain-notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/brain-notes/</guid>
+      <guid>https://kovasap.github.io/docs/brain-notes/</guid>
       <description>Mind as Multiple Actors Informed by: - https://en.wikipedia.org/wiki/Inside_Out_(2015_film) - https://www.eagleman.com/incognito
 I find a useful way to think about my mind is as a congress of many (simple-ish) actors.
 Myers-Briggs Type Indication (MBTI) Extroverted - Introverted Intuitive - Observant One perspective: If your brain is trying to build a wall of information, a more Observant mind will use bricks it finds with its senses in the world around it (either via memories or present sensations).</description>
@@ -61,20 +61,20 @@ Myers-Briggs Type Indication (MBTI) Extroverted - Introverted Intuitive - Observ
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/climbing-checklist/</link>
+      <link>https://kovasap.github.io/docs/climbing-checklist/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/climbing-checklist/</guid>
+      <guid>https://kovasap.github.io/docs/climbing-checklist/</guid>
       <description>Climbing Safety Checklist At time of writing, I recently finished reading The Checklist Manifesto by Atul Gawande. This book makes the strong point that human beings are not inherently perfectly disciplined, and will inevitably cut corners when doing a task many times. This is especially true when the corners that are cut are usually not important, even if sometimes they are crucially so.
 Reading this made me think of the process of climbing, which has many such steps.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/cooking/</link>
+      <link>https://kovasap.github.io/docs/cooking/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/cooking/</guid>
+      <guid>https://kovasap.github.io/docs/cooking/</guid>
       <description>Staples Oats  1 cup rolled oats 2 cups water  Boil water, add oats, cook for 5 mins on stovetop. Watch out for boiling over in first couple minutes!
 Try adding Mexican blend cheese and red pepper flakes!
 Roasted Vegetables All at 425F.
@@ -83,47 +83,47 @@ Roasted Vegetables All at 425F.
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/cool_links/</link>
+      <link>https://kovasap.github.io/docs/cool_links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/cool_links/</guid>
+      <guid>https://kovasap.github.io/docs/cool_links/</guid>
       <description>Cool Links https://www.heywhatsthat.com/</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/creativity/</link>
+      <link>https://kovasap.github.io/docs/creativity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/creativity/</guid>
+      <guid>https://kovasap.github.io/docs/creativity/</guid>
       <description> Game Design  20 Lessons from 20 Years of MTG by Mark Rosewater  Creativity comes from constraining your problem space   </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/desktop/</link>
+      <link>https://kovasap.github.io/docs/desktop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/desktop/</guid>
+      <guid>https://kovasap.github.io/docs/desktop/</guid>
       <description>My Desktop Environment Color and Brightness Temperature I find that dim screens make it easier for me to read and work for longer without straining or fatiguing my eyes. Therefore, I generally keep my screen at a low brightness level.
 On Linux I use Redshift to keep my screen at a low temperature (low 3000Ks). Currently I use a constant temperature all the time, as opposed to making the color lower at night.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/divinity-os2-build-idea/</link>
+      <link>https://kovasap.github.io/docs/divinity-os2-build-idea/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/divinity-os2-build-idea/</guid>
+      <guid>https://kovasap.github.io/docs/divinity-os2-build-idea/</guid>
       <description>Skills: - Adrenaline (1 scoundrel) - Battering Ram (1 warfare) - Battle Stomp (1 warfare) - Crippling Blow (1 warfare) - Enrage (2 warfare) - Phoenix Dive (2 warfare) - Whirlwind (2 warfare) - Challenge (3 warfare) maybe - Tentacle lash (1 polymorph) - Heart of Steel (1 polymorph) - Smoke Cover (1 aero, 1 scoundrel) - Teleportation (2 aero) - Nether Swap (2 aero) - Uncanny Evasion (2 aero)</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/event-reports/2020-8-10-lake-erie/</link>
+      <link>https://kovasap.github.io/docs/event-reports/2020-8-10-lake-erie/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/event-reports/2020-8-10-lake-erie/</guid>
+      <guid>https://kovasap.github.io/docs/event-reports/2020-8-10-lake-erie/</guid>
       <description>Mt. Erie Climbing Done in Mid-August 2020.
 Matthew&amp;rsquo;s review and recap of the day: Kovas on rappel. Our approach scramble to get to the crag.
 A bad (artsy?) shot of the cliff base.</description>
@@ -131,10 +131,10 @@ A bad (artsy?) shot of the cliff base.</description>
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/event-reports/2020-8-12-mile-high-club/</link>
+      <link>https://kovasap.github.io/docs/event-reports/2020-8-12-mile-high-club/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/event-reports/2020-8-12-mile-high-club/</guid>
+      <guid>https://kovasap.github.io/docs/event-reports/2020-8-12-mile-high-club/</guid>
       <description>Mile High Club Done in Mid-August 2020.
 A climb I discovered on Mountain Project to do while I was in the area on a camping trip.
 We started the day a bit after 8, taking a quick sub-30 minute drive to get to the trailhead from our camp site. The road down to the Sunrise Mine trailhead was a bit rough in places, with at least a single large washout that I was impressed our large van could handle - the clearance was better that I thought!</description>
@@ -142,28 +142,28 @@ We started the day a bit after 8, taking a quick sub-30 minute drive to get to t
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/fasting/</link>
+      <link>https://kovasap.github.io/docs/fasting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/fasting/</guid>
+      <guid>https://kovasap.github.io/docs/fasting/</guid>
       <description>Fasting Fasting Mimicking Diet - January 2020 I started getting interested in fasting after reading The Longevity Diet by Valter Longo. Based on the information in the book, it seemed like fasting provided some easily attainable health benefits, if making it a habit wasn&amp;rsquo;t too disruptive to my life. My first experiment happened shortly after reading the book. I attempted a DIY-Fasting Mimicking Diet (FMD) as described in the book for 5 days.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/game-ideas/general-theory/</link>
+      <link>https://kovasap.github.io/docs/game-ideas/general-theory/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/game-ideas/general-theory/</guid>
+      <guid>https://kovasap.github.io/docs/game-ideas/general-theory/</guid>
       <description>Game Types/Mechanics/Appeals Engine Building When a player continually updates a state (e.g. a farm or rpg character or desk) with new elements, with each step making the state better at acheiving some goal. Often, the state will become even better with each update that the last update made it; the rate of state betterment per step is convex. In the end, the state may be able to &amp;ldquo;go infinite&amp;rdquo; or otherwise reach some victory game state in one turn.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/game-ideas/roguelike-base-builder/</link>
+      <link>https://kovasap.github.io/docs/game-ideas/roguelike-base-builder/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/game-ideas/roguelike-base-builder/</guid>
+      <guid>https://kovasap.github.io/docs/game-ideas/roguelike-base-builder/</guid>
       <description>Rogue-like Base Builder Concept Game is played on a square grid in two phases.
 Setup Phase Here, the player uses resources they&amp;rsquo;ve accumulated to build a base defending their sage (you). This includes: - Building walls - Deploying units as archers/warriors - Digging moats - Making traps - Building farms or other buildings that do not help defend, but accumulate resources for next round.
 Combat Phase After setup, the base is attacked by a wave of enemies.</description>
@@ -171,20 +171,20 @@ Combat Phase After setup, the base is attacked by a wave of enemies.</descriptio
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/growing-own-food/</link>
+      <link>https://kovasap.github.io/docs/growing-own-food/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/growing-own-food/</guid>
+      <guid>https://kovasap.github.io/docs/growing-own-food/</guid>
       <description>Growing your own food Hydroponics for leafy greens Most leafy greens should take about a month to grow hydroponically. Therefore, if I want to eat two plants a day, I need 60 plant growing stations in my system. This is a 10x6 system, which seems fairly small actually.
 Materials  Grow lights Basins with baskets for plants   To make things easy, it would be cool to come up with a reusable solution for the material to plant the seeds in, since I would be harvesting and replanting 2 per day.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/how-to-be-healthy/</link>
+      <link>https://kovasap.github.io/docs/how-to-be-healthy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/how-to-be-healthy/</guid>
+      <guid>https://kovasap.github.io/docs/how-to-be-healthy/</guid>
       <description>What should I eat? Mostly vegan, with fish 2-3 times per week1.
 Things to avoid  Refined sugars  Danger of Fast Carbs  Red meat  When should I eat? Probably mostly earlier in the day23, and within a 8-12 hour window34.
  Meal Timing And Frequency Effects on Cardiovascular Disease  Eating meals earlier in the day might be healthier Eating meals on a regular schedule is likely healthier   Recently I&amp;rsquo;ve found eating a small, high fat/fiber meal at ~11am, then eating the rest of my food after I&amp;rsquo;m done being productive for the day is good for focus.</description>
@@ -192,67 +192,67 @@ Things to avoid  Refined sugars  Danger of Fast Carbs  Red meat  When should I e
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/how-to-be-productive/</link>
+      <link>https://kovasap.github.io/docs/how-to-be-productive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/how-to-be-productive/</guid>
+      <guid>https://kovasap.github.io/docs/how-to-be-productive/</guid>
       <description>Sprints, and Taking Breaks Working on mentally hard tasks depletes mental energy reserves in a localized way, similarly to how physically hard tasks deplete muscle energy reserves [CITATION NEEDED beyond own experience]. Therefore, feeling stressed or guilty about not being able to continue focusing on a task is counterproductive - use of willpower to keep focused is a patch solution that many times actually depletes even more mental energy. A better solution is to move to another location and take a break by zoning out or otherwise doing nothing.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/how-to-build-skills/</link>
+      <link>https://kovasap.github.io/docs/how-to-build-skills/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/how-to-build-skills/</guid>
+      <guid>https://kovasap.github.io/docs/how-to-build-skills/</guid>
       <description>Look at https://news.ycombinator.com/item?id=24696658 for an example of writing practice.
 Advice for artistic practice: - https://www.youtube.com/watch?v=M6NsEDwHHiE - https://www.youtube.com/watch?v=vtt1ycq2rVI</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/how-to-finance/</link>
+      <link>https://kovasap.github.io/docs/how-to-finance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/how-to-finance/</guid>
+      <guid>https://kovasap.github.io/docs/how-to-finance/</guid>
       <description> Financial Strategy Stock options  Excellent Reference  Retirement Finance To look at  Option writing as income strategy  </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/how-to-write/</link>
+      <link>https://kovasap.github.io/docs/how-to-write/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/how-to-write/</guid>
+      <guid>https://kovasap.github.io/docs/how-to-write/</guid>
       <description>How to Write Writers Block Try talking to someone (or yourself) about your topic, recording the conversation, then using speech-to-text technology to fill your blank page with a first draft.
 https://vasilishynkarenka.com/8questions/</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/idea-sources/</link>
+      <link>https://kovasap.github.io/docs/idea-sources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/idea-sources/</guid>
+      <guid>https://kovasap.github.io/docs/idea-sources/</guid>
       <description> Sources of General Ideas Blogs  danluu Paul Graham  </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/music/</link>
+      <link>https://kovasap.github.io/docs/music/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/music/</guid>
+      <guid>https://kovasap.github.io/docs/music/</guid>
       <description> Music Roughly ordered by current into-ness.
 Flow/Immersive  hubris. jakob God is an Astronaut Night Verses Intervals 65daysofstatic Unprocessed  Pump  Russian Circles Zeal and Ardor  Catchy  Tender Metal Mother Pair of Arrows Neon Trees  Chill/Background  Ratatat El Ten Eleven Glitch Mob Tim Hecker Nick Johnston  </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/notes-on-notetaking/</link>
+      <link>https://kovasap.github.io/docs/notes-on-notetaking/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/notes-on-notetaking/</guid>
+      <guid>https://kovasap.github.io/docs/notes-on-notetaking/</guid>
       <description>Notes on Notetaking See - https://tkainrad.dev/posts/managing-my-personal-knowledge-base/ - https://vimways.org/2019/personal-notetaking-in-vim/
 Graph Notetaking Idea Use a set of nodes connected to other notes in a graph (like zettelkasten) to store knowledge. Each note should have:
  Constraints under which the notes info doesn&amp;rsquo;t apply (limitation of a study) Some new knowledge, assuming the constraint References to other notes  In addition, the body of notes should contain guiding essays that string together notes in an easy to understand way.</description>
@@ -260,10 +260,10 @@ Graph Notetaking Idea Use a set of nodes connected to other notes in a graph (li
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/personal-user-manual/</link>
+      <link>https://kovasap.github.io/docs/personal-user-manual/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/personal-user-manual/</guid>
+      <guid>https://kovasap.github.io/docs/personal-user-manual/</guid>
       <description>Personal User Manual Sleep Wear socks to sleep so that: 1. Feet don&amp;rsquo;t get uncomfortably cold 1. Sheets can lie more nicely around my body, without needing to be stretched out to cover my feet (and letting more breezes in).
 Playing FPS or other games within and hour or so of sleeping can make it harder to fall asleep, but may not affect sleep quality after falling asleep.
 Food Overeating kills productivity.</description>
@@ -271,47 +271,47 @@ Food Overeating kills productivity.</description>
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/podcasts/</link>
+      <link>https://kovasap.github.io/docs/podcasts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/podcasts/</guid>
+      <guid>https://kovasap.github.io/docs/podcasts/</guid>
       <description> Podcasts Have Listened  Programming Throwdown  Random discussions of programming languages and other topics Very casual  Radiolab  High production value stories   Am Listening  Joe Rogan Experience  Long and varied.  Found My Fitness  Deep dives into health related topics.  Peter Attia Drive  </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/society-and-economics/</link>
+      <link>https://kovasap.github.io/docs/society-and-economics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/society-and-economics/</guid>
+      <guid>https://kovasap.github.io/docs/society-and-economics/</guid>
       <description> Interesting Talks/Articles  Downsides of Meritocracy  Excessive work justifying class is harmful for everyone, particularly the wealthy.   </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/software/</link>
+      <link>https://kovasap.github.io/docs/software/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/software/</guid>
+      <guid>https://kovasap.github.io/docs/software/</guid>
       <description>Talks/Articles  Getting things done by Johnathan Blow  Depth first approach to problem solving can be bad because you end up going in the wrong direction (which you would have avoided going breath-first)  Simple made Easy by Rich Hickey  Complex = entangled = difficult to reason about To make systems more understandable, need to reduce them to small, independant pieces (like pure functions with no side effects)  Hammock Driven Development by Rich Hickey  Stepping back from a problem and doing other things or sleeping allows unconscious parts of your mind draw connections that you otherwise wouldn&amp;rsquo;t draw.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/valorant-tips/</link>
+      <link>https://kovasap.github.io/docs/valorant-tips/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/valorant-tips/</guid>
+      <guid>https://kovasap.github.io/docs/valorant-tips/</guid>
       <description>Valorant Tips Angle Pushing In a scenario with two people fighting around a corner, the person further from the corner should have an advantage - they will be able to see their opponent slightly earlier.
 The person peeking should also have a slight advantage, provided they peek only one possible enemy location at once. This is enhanced with more certainty of enemy position, with the most extreme example being a prefire.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/vim-tricks/</link>
+      <link>https://kovasap.github.io/docs/vim-tricks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/vim-tricks/</guid>
+      <guid>https://kovasap.github.io/docs/vim-tricks/</guid>
       <description> Vim Tricks Search/Replace See http://vimregex.com/#substitute for details.
 Convert protos to bzl dictionaries Replace text: text2 with &amp;quot;text&amp;quot;: text2,:
 :%s/\(\S.*[^&amp;quot;]\): \(.*\)$/&amp;quot;\1&amp;quot;: \2,/g  Replace floating points number with quoted variants:
@@ -320,10 +320,10 @@ Convert protos to bzl dictionaries Replace text: text2 with &amp;quot;text&amp;q
     
     <item>
       <title></title>
-      <link>https://kovasap.bitbucket.io/docs/website/</link>
+      <link>https://kovasap.github.io/docs/website/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.bitbucket.io/docs/website/</guid>
+      <guid>https://kovasap.github.io/docs/website/</guid>
       <description> This Website This website was setup using Hugo and is hosted using Github. It uses the hugo-book theme. Originally, it was started by copying the example project in the hugo-book repository, and modifying the pages.
 Cool tips to check out for improvement:
  https://gohugo.io/content-management/shortcodes/#figure https://tkainrad.dev/posts/using-hugo-gitlab-pages-and-cloudflare-to-create-and-run-this-website/ https://stackoverflow.com/questions/17207458/how-to-add-google-analytics-tracking-id-to-github-pages  </description>
