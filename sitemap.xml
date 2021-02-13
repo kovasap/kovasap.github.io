@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://kovasap.github.io/docs/antifragile-summary/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://kovasap.github.io/docs/art/</loc>
     <priority>0</priority>
   </url>
@@ -28,12 +23,27 @@
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/climbing-checklist/</loc>
+    <loc>https://kovasap.github.io/docs/climbing/event-reports/2020-8-10-lake-erie/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/cooking/</loc>
+    <loc>https://kovasap.github.io/docs/climbing/event-reports/2020-8-12-mile-high-club/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/climbing/event-reports/first-512/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/climbing/media/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/climbing/safety-checklist/</loc>
     <priority>0</priority>
   </url>
   
@@ -58,17 +68,17 @@
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/event-reports/2020-8-10-lake-erie/</loc>
+    <loc>https://kovasap.github.io/docs/eating/cooking/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/event-reports/2020-8-12-mile-high-club/</loc>
+    <loc>https://kovasap.github.io/docs/eating/fasting/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/fasting/</loc>
+    <loc>https://kovasap.github.io/docs/eating/food/</loc>
     <priority>0</priority>
   </url>
   
@@ -83,12 +93,12 @@
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/growing-own-food/</loc>
+    <loc>https://kovasap.github.io/docs/games/oxygen-not-included/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/how-to-be-healthy/</loc>
+    <loc>https://kovasap.github.io/docs/games/valorant/</loc>
     <priority>0</priority>
   </url>
   
@@ -113,17 +123,37 @@
   </url>
   
   <url>
+    <loc>https://kovasap.github.io/docs/hydroponics/journal/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/hydroponics/my-setup/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kovasap.github.io/docs/idea-sources/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/music/</loc>
+    <loc>https://kovasap.github.io/docs/learning/notetaking/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/notes-on-notetaking/</loc>
+    <loc>https://kovasap.github.io/docs/life-philosophy/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/longevity/overview/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/music/</loc>
     <priority>0</priority>
   </url>
   
@@ -138,17 +168,22 @@
   </url>
   
   <url>
+    <loc>https://kovasap.github.io/docs/recommended-non-fiction/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/rhetoric/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kovasap.github.io/docs/society-and-economics/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kovasap.github.io/docs/software/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kovasap.github.io/docs/valorant-tips/</loc>
     <priority>0</priority>
   </url>
   
