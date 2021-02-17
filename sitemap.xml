@@ -23,6 +23,11 @@
   </url>
   
   <url>
+    <loc>https://kovasap.github.io/docs/chess/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kovasap.github.io/docs/climbing/event-reports/2020-8-10-lake-erie/</loc>
     <priority>0</priority>
   </url>
@@ -149,6 +154,11 @@
   
   <url>
     <loc>https://kovasap.github.io/docs/longevity/overview/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/motivation/</loc>
     <priority>0</priority>
   </url>
   
