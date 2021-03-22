@@ -116,7 +116,7 @@ Reading this made me think of the process of climbing, which has many such steps
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/cool_links/</guid>
-      <description> Cool Links  https://www.heywhatsthat.com/ https://wallpapercave.com/pc-4k-macro-wallpapers  </description>
+      <description> Cool Links  https://www.heywhatsthat.com/ https://wallpapercave.com/pc-4k-macro-wallpapers https://puzzgrid.com/best.php https://www.kickstarter.com/projects/1024146278/dungeon-alchemisttm?utm_medium=referral&amp;amp;utm_source=14.backer.camp&amp;amp;ref=7lylru&amp;amp;gclid=Cj0KCQiAvvKBBhCXARIsACTePW-zbM6RyiiFjokTbsNoOYAwrXOKUDo4s2EPqUHY5DpD9qMbXjS8ta0aAivFEALw_wcB  </description>
     </item>
     
     <item>
@@ -217,15 +217,6 @@ Dreko farm for plastic: https://forums.kleientertainment.com/forums/topic/95124-
       <description>Valorant Well made Counter-Strike inspired FPS with Overwatch-like abilities.
 Tips Disclaimer: I am not that great at this game, these are my random thoughts that I&amp;rsquo;m hoping will lead to me playing better, but are not proven!
 Angle Pushing In a scenario with two people fighting around a corner, the person further from the corner should have an advantage - they will be able to see their opponent slightly earlier.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/how-to-be-productive/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/how-to-be-productive/</guid>
-      <description>Sprints, and Taking Breaks Working on mentally hard tasks depletes mental energy reserves in a localized way, similarly to how physically hard tasks deplete muscle energy reserves [CITATION NEEDED beyond own experience]. Therefore, feeling stressed or guilty about not being able to continue focusing on a task is counterproductive - use of willpower to keep focused is a patch solution that many times actually depletes even more mental energy. A better solution is to move to another location and take a break by zoning out or otherwise doing nothing.</description>
     </item>
     
     <item>
@@ -419,6 +410,15 @@ Convert protos to bzl dictionaries Replace text: text2 with &amp;quot;text&amp;q
       <guid>https://kovasap.github.io/docs/website/</guid>
       <description>This Website This website was setup using Hugo and is hosted using Github. It uses the hugo-book theme. Originally, it was started by copying the example project in the hugo-book repository, and modifying the pages.
 I also added Google Analytics to the site via the googleAnalytics field in the config.yaml file - the hugo-book theme handles the rest. I also needed to make a Google Analytics account with a &amp;ldquo;Universal Analytics&amp;rdquo; property as described at https://support.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/what-to-believe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/what-to-believe/</guid>
+      <description>What to Believe In order to make good decisions, people need to build an understanding of how the world works by gathering information. Luckily, it is getting easier and easier to do this as technology becomes more and more efficient at sending data around the world. Unfortunately, simply gathering information is not enough; one must also make sure that the information is of high enough quality to use in world modelling or decision making.</description>
     </item>
     
   </channel>
