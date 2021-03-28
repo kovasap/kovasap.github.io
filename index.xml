@@ -210,6 +210,16 @@ Dreko farm for plastic: https://forums.kleientertainment.com/forums/topic/95124-
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/games/top-10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/games/top-10/</guid>
+      <description> My Top 10 Favorite (Video) Games TODO finish and explain
+1. Fire Emblem 1. Overwatch 1. Darkest Dungeon 1. Islanders (maybe) 1. Bad North (maybe) </description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/games/valorant/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -235,7 +245,7 @@ Advice for artistic practice: - https://www.youtube.com/watch?v=M6NsEDwHHiE - ht
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/how-to-finance/</guid>
-      <description> Financial Strategy Real Estate and Housing  NYT Buy vs Rent Calculator  Stock options  Excellent Reference  Retirement Finance To look at  Option writing as income strategy  </description>
+      <description>Financial Strategy Real Estate and Housing  NYT Buy vs Rent Calculator My house comparison speadsheet (TODO add when finalized)  Stock options  Excellent Reference  Stocks Tax Loss Harvesting  Basics summarized  The Value Factor Investment returns can theoretically be explained by different factors described here. Total market index funds do not expose you fully to the value factor, which might be useful to do for maximizing returns in the long run.</description>
     </item>
     
     <item>
@@ -328,6 +338,18 @@ What makes a next step trivially easy?</description>
       <guid>https://kovasap.github.io/docs/music/</guid>
       <description> Music Roughly ordered by current into-ness.
 Flow/Immersive  hubris. jakob God is an Astronaut Night Verses Intervals 65daysofstatic Unprocessed  Pump  Russian Circles Zeal and Ardor  Catchy  Tender Metal Mother Pair of Arrows Neon Trees  Chill/Background  Ratatat El Ten Eleven Glitch Mob Tim Hecker Nick Johnston  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/personal-data/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/personal-data/tools/</guid>
+      <description>Personal Data Management and Tracking Tools Google Drive Excellent generous free storage, with good integrations.
+Cronometer Excellent free and detailed food tracking. If you want to use the free plan, https://pi-hole.net/ is really helpful to make the app more usable.
+Heart Rate Monitoring I have yet to find a good solution here. Notes:
+ https://forum.quantifiedself.com/t/heart-rate-monitor-recommendations-for-24-7-continuous-monitoring-and-logging/327/57  Manual General-Purpose Tracking Nomie presents a clean UI with lots of customizability and some kind of magical syncing using blockchain.</description>
     </item>
     
     <item>

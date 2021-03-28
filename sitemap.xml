@@ -103,6 +103,11 @@
   </url>
   
   <url>
+    <loc>https://kovasap.github.io/docs/games/top-10/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kovasap.github.io/docs/games/valorant/</loc>
     <priority>0</priority>
   </url>
@@ -159,6 +164,11 @@
   
   <url>
     <loc>https://kovasap.github.io/docs/music/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/personal-data/tools/</loc>
     <priority>0</priority>
   </url>
   
