@@ -471,7 +471,7 @@ Convert protos to bzl dictionaries Replace text: text2 with &amp;quot;text&amp;q
       
       <guid>https://kovasap.github.io/docs/website/</guid>
       <description>This Website This website was setup using Hugo and is hosted using Github. It uses the hugo-book theme. Originally, it was started by copying the example project in the hugo-book repository, and modifying the pages.
-I also added Google Analytics to the site via the googleAnalytics field in the config.yaml file - the hugo-book theme handles the rest. I also needed to make a Google Analytics account with a &amp;ldquo;Universal Analytics&amp;rdquo; property as described at https://support.</description>
+Google Analytics I added Google Analytics to the site via the googleAnalytics field in the config.yaml file - the hugo-book theme handles the rest. I also needed to make a Google Analytics account with a &amp;ldquo;Universal Analytics&amp;rdquo; property as described at https://support.</description>
     </item>
     
     <item>
