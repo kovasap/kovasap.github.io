@@ -101,6 +101,17 @@ Reading this made me think of the process of climbing, which has many such steps
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/computing-config/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/computing-config/</guid>
+      <description>My Computing Environment My complete configuration files (&amp;ldquo;dotfiles&amp;rdquo;) can be found at https://github.com/kovasap/dotfiles.
+Color and Brightness Temperature I find that dim screens make it easier for me to read and work for longer without straining or fatiguing my eyes. Therefore, I generally keep my screen at a low brightness level.
+On Linux I use Redshift to keep my screen at a low temperature (low 3000Ks). Currently I use a constant temperature all the time, as opposed to making the color lower at night.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/cool_links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -119,12 +130,11 @@ Reading this made me think of the process of climbing, which has many such steps
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/desktop/</link>
+      <link>https://kovasap.github.io/docs/cronic-stress/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/desktop/</guid>
-      <description>My Desktop Environment Color and Brightness Temperature I find that dim screens make it easier for me to read and work for longer without straining or fatiguing my eyes. Therefore, I generally keep my screen at a low brightness level.
-On Linux I use Redshift to keep my screen at a low temperature (low 3000Ks). Currently I use a constant temperature all the time, as opposed to making the color lower at night.</description>
+      <guid>https://kovasap.github.io/docs/cronic-stress/</guid>
+      <description>Cronic Stress TODO add to this</description>
     </item>
     
     <item>
@@ -163,7 +173,16 @@ Roasted Vegetables All at 425F.
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/eating/food/</guid>
-      <description>Food Goals  Delay chronic diseases as long as possible. Described well in this talk by Peter Attia. The big (linked!) ones are:  Cardiovascular disease. Cancer. Neurodegenerative disease. Diabetes/Metabolic Syndrome.  Maintain sustained energy levels as much as possible, avoiding:  Periods of low motivation. &amp;ldquo;Food coma-ing&amp;rdquo;. &amp;ldquo;Snack train-ing&amp;rdquo;, or continuous distraction by a desire to eat more.   What should I eat and when? The most convincing diet structure I&amp;rsquo;ve found has been The Longevity Diet by Valter Longo.</description>
+      <description>Food Goals  Delay chronic diseases as long as possible. Described well in this talk by Peter Attia. The big ones are:  Cardiovascular disease. Cancer. Neurodegenerative disease. Diabetes/Metabolic Syndrome.  Maintain sustained energy levels as much as possible, avoiding:  Periods of low motivation. &amp;ldquo;Food coma-ing&amp;rdquo;. &amp;ldquo;Snack train-ing&amp;rdquo;, or continuous distraction by a desire to eat more.   What should I eat and when? The most convincing diet structure I&amp;rsquo;ve found has been The Longevity Diet by Valter Longo.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/exercise/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/exercise/</guid>
+      <description>Exercise TODO add to this</description>
     </item>
     
     <item>
@@ -285,6 +304,17 @@ Goals My diet goals suggest that I eat a lot of leafy greens. Unfortunately, the
       
       <guid>https://kovasap.github.io/docs/idea-sources/</guid>
       <description> Sources of General Ideas Blogs  danluu Paul Graham  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/intentional-living/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/intentional-living/</guid>
+      <description>Living Intentionally It&amp;rsquo;s easy to get swept up in life and let your behavior be dictated by your environment (e.g. what others around you are doing).
+It&amp;rsquo;s dangerous to do this since your environment is not a sentient being and therefore does not care about anything, let alone your personal happiness/satisfaction/fulfillment.
+It&amp;rsquo;s worth taking a step back and consciously running through whether you agree with your environment&amp;rsquo;s influence or not frequently.</description>
     </item>
     
     <item>
@@ -446,6 +476,16 @@ Books by David Eagleman Incognito, Livewired, The Brain: The Story of You. All g
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/sleep/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/sleep/</guid>
+      <description>Sleep Some tips and tricks that work for me to get better sleep.
+Smart Alarm Sleep as Android has a feature where instead of setting an alarm to go off at 8am, you tell the app to wake you up say between 7am and 8am. Then the app uses your movements to wake you up during a lighter sleep phase. I&amp;rsquo;ve found this to be way more pleasant than waking up at a fixed time.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/society-and-economics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -460,6 +500,17 @@ Books by David Eagleman Incognito, Livewired, The Brain: The Story of You. All g
       
       <guid>https://kovasap.github.io/docs/software/</guid>
       <description>Talks/Articles  Getting things done by Johnathan Blow  Depth first approach to problem solving can be bad because you end up going in the wrong direction (which you would have avoided going breath-first)  Simple made Easy by Rich Hickey  Complex = entangled = difficult to reason about To make systems more understandable, need to reduce them to small, independant pieces (like pure functions with no side effects)  Hammock Driven Development by Rich Hickey  Stepping back from a problem and doing other things or sleeping allows unconscious parts of your mind draw connections that you otherwise wouldn&amp;rsquo;t draw.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/values/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/values/</guid>
+      <description>My Values I aspire to be a vigorous, wise person that is capable of intentionally crafting and living a consistently fulfilling life. A fulfilling life contains met goals, is interesting, is free of disempowerment, includes meaningful relationships, and has the potential to inspire and empower others.
+Vigor Energy to achieve goals in my experience comes from two main sources:
+Physical Health: Exercise, sleep, food, cronic stress and other environmental influences all effect personal vigor in complex and inter-dependant ways.</description>
     </item>
     
     <item>

@@ -48,6 +48,11 @@
   </url>
   
   <url>
+    <loc>https://kovasap.github.io/docs/computing-config/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kovasap.github.io/docs/cool_links/</loc>
     <priority>0</priority>
   </url>
@@ -58,7 +63,7 @@
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/desktop/</loc>
+    <loc>https://kovasap.github.io/docs/cronic-stress/</loc>
     <priority>0</priority>
   </url>
   
@@ -79,6 +84,11 @@
   
   <url>
     <loc>https://kovasap.github.io/docs/eating/food/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/exercise/</loc>
     <priority>0</priority>
   </url>
   
@@ -139,6 +149,11 @@
   
   <url>
     <loc>https://kovasap.github.io/docs/idea-sources/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/intentional-living/</loc>
     <priority>0</priority>
   </url>
   
@@ -218,12 +233,22 @@
   </url>
   
   <url>
+    <loc>https://kovasap.github.io/docs/sleep/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kovasap.github.io/docs/society-and-economics/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kovasap.github.io/docs/software/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/values/</loc>
     <priority>0</priority>
   </url>
   
