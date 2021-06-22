@@ -11,16 +11,6 @@
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/art/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/art/</guid>
-      <description>Art Source can be found at https://github.com/kovasap/generative-art.
- perlin flow double helix  TODO: Add images with links instead of this bulleted list</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://kovasap.github.io/docs/art/double-helix/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -30,22 +20,21 @@
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/art/generative-art/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/art/generative-art/</guid>
+      <description>Art Source can be found at https://github.com/kovasap/generative-art.
+ perlin flow double helix  TODO: Add images with links instead of this bulleted list</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/art/perlin-flow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/art/perlin-flow/</guid>
       <description>Perlin Flow</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/chess/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/chess/</guid>
-      <description>Chess I play my chess on chess.com, which has a great UI and cool analysis features.
-I&amp;rsquo;ve learned a lot from watching GothamChess on YouTube, especially his opening videos.
-I want to try out chessable at some point.</description>
     </item>
     
     <item>
@@ -101,88 +90,11 @@ Reading this made me think of the process of climbing, which has many such steps
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/computing-config/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/computing-config/</guid>
-      <description>My Computing Environment My complete configuration files (&amp;ldquo;dotfiles&amp;rdquo;) can be found at https://github.com/kovasap/dotfiles.
-Color and Brightness Temperature I find that dim screens make it easier for me to read and work for longer without straining or fatiguing my eyes. Therefore, I generally keep my screen at a low brightness level.
-On Linux I use Redshift to keep my screen at a low temperature (low 3000Ks). Currently I use a constant temperature all the time, as opposed to making the color lower at night.</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://kovasap.github.io/docs/cool_links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/cool_links/</guid>
       <description> Cool Links  https://www.heywhatsthat.com/ https://wallpapercave.com/pc-4k-macro-wallpapers https://puzzgrid.com/best.php https://www.kickstarter.com/projects/1024146278/dungeon-alchemisttm?utm_medium=referral&amp;amp;utm_source=14.backer.camp&amp;amp;ref=7lylru&amp;amp;gclid=Cj0KCQiAvvKBBhCXARIsACTePW-zbM6RyiiFjokTbsNoOYAwrXOKUDo4s2EPqUHY5DpD9qMbXjS8ta0aAivFEALw_wcB  </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/creativity/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/creativity/</guid>
-      <description> Game Design  20 Lessons from 20 Years of MTG by Mark Rosewater  Creativity comes from constraining your problem space   </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/cronic-stress/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/cronic-stress/</guid>
-      <description>Cronic Stress TODO add to this</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/divinity-os2-build-idea/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/divinity-os2-build-idea/</guid>
-      <description>Skills: - Adrenaline (1 scoundrel) - Battering Ram (1 warfare) - Battle Stomp (1 warfare) - Crippling Blow (1 warfare) - Enrage (2 warfare) - Phoenix Dive (2 warfare) - Whirlwind (2 warfare) - Challenge (3 warfare) maybe - Tentacle lash (1 polymorph) - Heart of Steel (1 polymorph) - Smoke Cover (1 aero, 1 scoundrel) - Teleportation (2 aero) - Nether Swap (2 aero) - Uncanny Evasion (2 aero)</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/eating/cooking/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/eating/cooking/</guid>
-      <description>Staples Oats  1 cup rolled oats 2 cups water  Boil water, add oats, cook for 5 mins on stovetop. Watch out for boiling over in first couple minutes! Can also microwave for 3 mins.
-Try adding Mexican blend cheese and red pepper flakes!
-Roasted Vegetables All at 425F.
-   Vegetable Size Time (mins)     Potato 1&amp;frasl;2 in 40 - 50   Zucchini 1&amp;frasl;2 in 20   Broccoli floret 20   Brussel Sprout halved 20   Tomato (roma) sliced 15    See also this chart.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/eating/fasting/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/eating/fasting/</guid>
-      <description>Fasting Fasting Mimicking Diet - January 2020 I started getting interested in fasting after reading The Longevity Diet by Valter Longo. Based on the information in the book, it seemed like fasting provided some easily attainable health benefits, if making it a habit wasn&amp;rsquo;t too disruptive to my life. My first experiment happened shortly after reading the book. I attempted a DIY-Fasting Mimicking Diet (FMD) as described in the book for 5 days.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/eating/food/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/eating/food/</guid>
-      <description>Food Goals  Delay chronic diseases as long as possible. Described well in this talk by Peter Attia. The big ones are:  Cardiovascular disease. Cancer. Neurodegenerative disease. Diabetes/Metabolic Syndrome.  Maintain sustained energy levels as much as possible, avoiding:  Periods of low motivation. &amp;ldquo;Food coma-ing&amp;rdquo;. &amp;ldquo;Snack train-ing&amp;rdquo;, or continuous distraction by a desire to eat more.   What should I eat and when? The most convincing diet structure I&amp;rsquo;ve found has been The Longevity Diet by Valter Longo.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/exercise/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/exercise/</guid>
-      <description>Exercise TODO add to this</description>
     </item>
     
     <item>
@@ -202,7 +114,18 @@ Roasted Vegetables All at 425F.
       <guid>https://kovasap.github.io/docs/game-ideas/roguelike-base-builder/</guid>
       <description>Rogue-like Base Builder Concept Game is played on a square grid in two phases.
 Setup Phase Here, the player uses resources they&amp;rsquo;ve accumulated to build a base defending their sage (you). This includes: - Building walls - Deploying units as archers/warriors - Digging moats - Making traps - Building farms or other buildings that do not help defend, but accumulate resources for next round.
-Combat Phase After setup, the base is attacked by a wave of enemies.</description>
+Buildings/units would be purchased from a store like Autochess/Underlords, with many options and synergies.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/games/chess/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/games/chess/</guid>
+      <description>Chess I play my chess on chess.com, which has a great UI and cool analysis features.
+I&amp;rsquo;ve learned a lot from watching GothamChess on YouTube, especially his opening videos.
+I want to try out chessable at some point.</description>
     </item>
     
     <item>
@@ -240,21 +163,98 @@ Angle Pushing In a scenario with two people fighting around a corner, the person
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/health_and_longevity/chronic-stress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/health_and_longevity/chronic-stress/</guid>
+      <description>Chronic Stress Is bad.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/health_and_longevity/circadian-rhythm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/health_and_longevity/circadian-rhythm/</guid>
+      <description>Circadian Rhythm https://www.salk.edu/scientist/satchidananda-panda/</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/health_and_longevity/cooking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/health_and_longevity/cooking/</guid>
+      <description>Staples Oats  1 cup rolled oats 2 cups water  Boil water, add oats, cook for 5 mins on stovetop. Watch out for boiling over in first couple minutes! Can also microwave for 3 mins.
+Roasted Vegetables All at 425F.
+   Vegetable Size Time (mins)     Potato 1&amp;frasl;2 in 40 - 50   Zucchini 1&amp;frasl;2 in 20   Broccoli floret 20   Brussel Sprout halved 20   Tomato (roma) sliced 15    See also this chart.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/health_and_longevity/dna-testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/health_and_longevity/dna-testing/</guid>
+      <description>DNA Testing It seems like AncestryDNA gives the biggest bang-for-buck in terms of SNPs to analyze via promethease or foundmyfitness based on https://geneticgenie.org/article/best-dna-raw-data-23andme-ancestrydna-or-myheritage/
+Promethease seems to have been bought and paired down in the info it returns based on https://www.reddit.com/r/promethease/comments/bczfcb/alternatives_to_promethease/.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/health_and_longevity/exercise/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/health_and_longevity/exercise/</guid>
+      <description>Exercise TODO add to this</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/health_and_longevity/fasting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/health_and_longevity/fasting/</guid>
+      <description>Fasting Fasting Mimicking Diet - January 2020 I started getting interested in fasting after reading The Longevity Diet by Valter Longo. Based on the information in the book, it seemed like fasting provided some easily attainable health benefits, if making it a habit wasn&amp;rsquo;t too disruptive to my life. My first experiment happened shortly after reading the book. I attempted a DIY-Fasting Mimicking Diet (FMD) as described in the book for 5 days.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/health_and_longevity/food/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/health_and_longevity/food/</guid>
+      <description>Food Goals  Delay chronic diseases as long as possible. Described well in this talk by Peter Attia. The big ones are:  Cardiovascular disease. Cancer. Neurodegenerative disease. Diabetes/Metabolic Syndrome.  Maintain sustained energy levels as much as possible, avoiding:  Periods of low motivation. &amp;ldquo;Food coma-ing&amp;rdquo;. &amp;ldquo;Snack train-ing&amp;rdquo;, or continuous distraction by a desire to eat more.   What should I eat and when? The most convincing diet structure I&amp;rsquo;ve found has been The Longevity Diet by Valter Longo.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/health_and_longevity/influences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/health_and_longevity/influences/</guid>
+      <description>Influences These works have guided by thinking about how to maintain good health for as long as possible. They are roughly sorted by their level of influence on my thinking.
+Lifespan by David Sinclair Cool review of a new theory of aging that seems promising to be. Also does some good review of longevity concepts. This was my introduction to the field (specifically a Joe Rogan Experience David Sinclair interview).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/health_and_longevity/sleep/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/health_and_longevity/sleep/</guid>
+      <description>Sleep Some tips and tricks that work for me to get better sleep.
+Smart Alarm Sleep as Android has a feature where instead of setting an alarm to go off at 8am, you tell the app to wake you up say between 7am and 8am. Then the app uses your movements to wake you up during a lighter sleep phase. I&amp;rsquo;ve found this to be way more pleasant than waking up at a fixed time.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/how-to-build-skills/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/how-to-build-skills/</guid>
       <description>Look at https://news.ycombinator.com/item?id=24696658 for an example of writing practice.
 Advice for artistic practice: - https://www.youtube.com/watch?v=M6NsEDwHHiE - https://www.youtube.com/watch?v=vtt1ycq2rVI</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/how-to-finance/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/how-to-finance/</guid>
-      <description>Financial Strategy Real Estate and Housing  NYT Buy vs Rent Calculator My house comparison speadsheet (TODO add when finalized)  Stock options  Excellent Reference  Stocks Tax Loss Harvesting  Basics summarized  The Value Factor Investment returns can theoretically be explained by different factors described here. Total market index funds do not expose you fully to the value factor, which might be useful to do for maximizing returns in the long run.</description>
     </item>
     
     <item>
@@ -299,36 +299,6 @@ Goals My diet goals suggest that I eat a lot of leafy greens. Unfortunately, the
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/idea-sources/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/idea-sources/</guid>
-      <description> Sources of General Ideas Blogs  danluu Paul Graham  </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/intentional-living/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/intentional-living/</guid>
-      <description>Living Intentionally It&amp;rsquo;s easy to get swept up in life and let your behavior be dictated by your environment (e.g. what others around you are doing).
-It&amp;rsquo;s dangerous to do this since your environment is not a sentient being and therefore does not care about anything, let alone your personal happiness/satisfaction/fulfillment.
-It&amp;rsquo;s worth taking a step back and consciously running through whether you agree with your environment&amp;rsquo;s influence or not frequently.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/learning/notetaking/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/learning/notetaking/</guid>
-      <description>Notes on Notetaking References  https://tkainrad.dev/posts/managing-my-personal-knowledge-base/ https://vimways.org/2019/personal-notetaking-in-vim/  Graph Notetaking Idea Use a set of nodes connected to other notes in a graph (like zettelkasten) to store knowledge. Each note should have:
- Constraints under which the notes info doesn&amp;rsquo;t apply (limitation of a study) Some new knowledge, assuming the constraint References to other notes  In addition, the body of notes should contain guiding essays that string together notes in an easy to understand way.</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://kovasap.github.io/docs/life-philosophy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -338,10 +308,30 @@ It&amp;rsquo;s worth taking a step back and consciously running through whether 
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/lifestyle-hacks/hang-drying-cloths/</link>
+      <link>https://kovasap.github.io/docs/lifestyle-optimizations/computing-config/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/lifestyle-hacks/hang-drying-cloths/</guid>
+      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/computing-config/</guid>
+      <description>My Computing Environment My complete configuration files (&amp;ldquo;dotfiles&amp;rdquo;) can be found at https://github.com/kovasap/dotfiles.
+Color and Brightness Temperature I find that dim screens make it easier for me to read and work for longer without straining or fatiguing my eyes. Therefore, I generally keep my screen at a low brightness level.
+On Linux I use Redshift to keep my screen at a low temperature (low 3000Ks). Currently I use a constant temperature all the time, as opposed to making the color lower at night.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/lifestyle-optimizations/financial-strategy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/financial-strategy/</guid>
+      <description>Financial Strategy Real Estate and Housing  NYT Buy vs Rent Calculator My house comparison spreadsheet (TODO add when finalized)  Stock options  Excellent Reference  Stocks Tax Loss Harvesting  Basics summarized  The Value Factor Investment returns can theoretically be explained by different factors described here. Total market index funds do not expose you fully to the value factor, which might be useful to do for maximizing returns in the long run.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/lifestyle-optimizations/hang-drying-cloths/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/hang-drying-cloths/</guid>
       <description>Hang (Air) Drying Cloths I&amp;rsquo;ve found that hang drying cloths over using a cloths dryer has some pretty neat advantages:
 Less Work IF you hang dry your cloths in a place where they can stay indefinitely, then hang drying leads to this laundry workflow:
  Wash cloths Hang dry - this must happen now because cloths are wet! Easily find what you want to wear (since everything is hanging up) and wear it.</description>
@@ -349,24 +339,58 @@ Less Work IF you hang dry your cloths in a place where they can stay indefinitel
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/lifestyle-hacks/phone-case/</link>
+      <link>https://kovasap.github.io/docs/lifestyle-optimizations/personal-data-tracking/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/lifestyle-hacks/phone-case/</guid>
+      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/personal-data-tracking/</guid>
+      <description>Personal Data Management and Tracking Tools Google Drive Excellent generous free storage, with good integrations.
+Cronometer Excellent free and detailed food tracking. If you want to use the free plan, https://pi-hole.net/ is really helpful to make the app more usable.
+Heart Rate Monitoring I have yet to find a good solution here. Notes:
+ https://forum.quantifiedself.com/t/heart-rate-monitor-recommendations-for-24-7-continuous-monitoring-and-logging/327/57  Manual General-Purpose Tracking Nomie presents a clean UI with lots of customizability and some kind of magical syncing using blockchain.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/lifestyle-optimizations/phone-case/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/phone-case/</guid>
       <description>3-in-1 Phone Case This system for a wallet, keys, and phone in one package has been serving me pretty well. It doesn&amp;rsquo;t add much noticeable bulk to my phone at all, and even makes it a bit easier to hold because my fingers can grab the pouch instead of the other side of the phone.
 I used a cheap, thin rubber phone case with the Sinjimoru Card Holder for this system.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/longevity/overview/</link>
+      <link>https://kovasap.github.io/docs/lifestyle-optimizations/vim-tricks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/longevity/overview/</guid>
-      <description>Longevity Overview Living as long as possible would be great!
-Resources Lifespan by David Sinclair Cool review of a new theory of aging that seems promising to be. Also does some good review of longevity concepts. This was my introduction to the field (specifically a Joe Rogan Experience David Sinclair interview).
-Biohack Stack Good place for ideas to experiment with. Good example of an interesting profile: https://biohackstack.com/posts/michael-lustgarten/.
-Tests to Try  http://aging.</description>
+      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/vim-tricks/</guid>
+      <description> Vim Tricks Search/Replace See http://vimregex.com/#substitute for details.
+Convert protos to bzl dictionaries Replace text: text2 with &amp;quot;text&amp;quot;: text2,:
+:%s/\(\S.*[^&amp;quot;]\): \(.*\)$/&amp;quot;\1&amp;quot;: \2,/g  Replace floating points number with quoted variants:
+:%s/[^&amp;quot;]\(\d\+\)\.\(\d\+\)/&amp;quot;\1\.\2&amp;quot;/g  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/lifestyle-optimizations/website/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/website/</guid>
+      <description>This Website This website serves as a useful place to organize and share my thoughts.
+Website setup was done using Hugo and is hosted using Github Pages. It uses the hugo-book theme. Originally, it was started by copying the example project in the hugo-book repository, and modifying the pages.
+Google Analytics I added Google Analytics to the site via the googleAnalytics field in the config.yaml file - the hugo-book theme handles the rest.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/manifesto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/manifesto/</guid>
+      <description>Personal Manifesto I aspire to be a vigorous and wise person that feels empowered to both help myself and others become more vigorous and wise.
+Personal Characteristics Vigor Energy to achieve goals in my experience comes from two main sources:
+Physical Health: Exercise, sleep, food, cronic stress, circadian rhythm, and other environmental influences all effect personal vigor in complex and inter-dependant ways. Spending time untangling this web of interactions for oneself is a worthy endeavor that has personally helped me feel more consistently energetic.</description>
     </item>
     
     <item>
@@ -381,6 +405,35 @@ Professing - Performing - A State of Action In this state, the information alrea
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/mind/brain-juice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/mind/brain-juice/</guid>
+      <description>Brain Juice I&amp;rsquo;m not sure exactly how, but I feel that my brain behaves similarly to my muscles in that it can tire on both short and long timescales when used. My mind feels tired after making lots of new connections (learning new things) and especially when critically re-validating my existing connections. It also feels tired when doing the same thing many times, even if that thing is a simple expression of a deeply ingrained skill.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/mind/creativity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/mind/creativity/</guid>
+      <description> Game Design  20 Lessons from 20 Years of MTG by Mark Rosewater  Creativity comes from constraining your problem space   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/mind/influences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/mind/influences/</guid>
+      <description>Influences These works have guided my thinking about how the mind works. They are roughly sorted by their level of influence on my thinking.
+Atomic Habits by James Clear Refreshing read that shows that building good habits and systems in your life is much more effective and doable than using raw willpower to get achieve goals.
+Books by David Eagleman Incognito, Livewired, The Brain: The Story of You. All great pop-neuroscience reads!</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/mind/mbti/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -390,20 +443,10 @@ Professing - Performing - A State of Action In this state, the information alrea
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/mind/mental-congress/</link>
+      <link>https://kovasap.github.io/docs/mind/motivation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/mind/mental-congress/</guid>
-      <description>Mind as Multiple Actors Informed by: - https://en.wikipedia.org/wiki/Inside_Out_(2015_film) - https://www.eagleman.com/incognito
-I find a useful way to think about my mind is as a congress of many (simple-ish) actors.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/motivation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/motivation/</guid>
+      <guid>https://kovasap.github.io/docs/mind/motivation/</guid>
       <description>Motivation NOTE This is a random theory of mine; don&amp;rsquo;t put too much stock into it!
 Motivation to do something requires that the &amp;ldquo;something&amp;rdquo; is attainable and meaningful (has a point/purpose).
 (Perceived) Attainability Objectives that are perceived - which is really all that matters with respect to motivation - to be attainable have a trivially easy to accomplish next step on the path toward them.
@@ -422,46 +465,11 @@ Flow/Immersive  hubris. jakob God is an Astronaut Night Verses Intervals 65dayso
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/personal-data/tools/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/personal-data/tools/</guid>
-      <description>Personal Data Management and Tracking Tools Google Drive Excellent generous free storage, with good integrations.
-Cronometer Excellent free and detailed food tracking. If you want to use the free plan, https://pi-hole.net/ is really helpful to make the app more usable.
-Heart Rate Monitoring I have yet to find a good solution here. Notes:
- https://forum.quantifiedself.com/t/heart-rate-monitor-recommendations-for-24-7-continuous-monitoring-and-logging/327/57  Manual General-Purpose Tracking Nomie presents a clean UI with lots of customizability and some kind of magical syncing using blockchain.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/personal-user-manual/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/personal-user-manual/</guid>
-      <description>Personal User Manual Sleep Wear socks to sleep so that: 1. Feet don&amp;rsquo;t get uncomfortably cold 1. Sheets can lie more nicely around my body, without needing to be stretched out to cover my feet (and letting more breezes in).
-Playing FPS or other games within and hour or so of sleeping can make it harder to fall asleep, but may not affect sleep quality after falling asleep.
-Food Overeating kills productivity.</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://kovasap.github.io/docs/podcasts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/podcasts/</guid>
       <description> Podcasts Have Listened  Programming Throwdown  Random discussions of programming languages and other topics Very casual  Radiolab  High production value stories   Am Listening  Joe Rogan Experience  Long and varied.  Found My Fitness  Deep dives into health related topics.  Peter Attia Drive  </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/recommended-non-fiction/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/recommended-non-fiction/</guid>
-      <description>Recommended Non-Fiction Reads Atomic Habits by James Clear Refreshing read that shows that building good habits and systems in your life is much more effective and doable than using raw willpower to get achieve goals.
-Paul Graham&amp;rsquo;s Blog Cool insights about investing, technology, and life.
-Robert Sapolsky&amp;rsquo;s Human Behavioral Biology Lecture Cool lecture series, not done yet!
-Books by David Eagleman Incognito, Livewired, The Brain: The Story of You. All great pop-neuroscience reads!</description>
     </item>
     
     <item>
@@ -472,16 +480,6 @@ Books by David Eagleman Incognito, Livewired, The Brain: The Story of You. All g
       <guid>https://kovasap.github.io/docs/rhetoric/</guid>
       <description>&amp;ldquo;This is a decent video about some of what I was talking about earlier, it gets into how think tanks have worked historically and how &amp;ldquo;&amp;ldquo;the marketplace of ideas&amp;rdquo;&amp;rdquo; is now actually a very real marketplace with lots of ? thrown around with high impact on public opinion and political policy, but it is not incentivized based on truth/rigor: https://youtu.be/UsPvDYO19ys&amp;quot;
 &amp;ldquo;Intellectual grifters are most successful when their audience is uneducated and/or bad at critically examining ideas/logic/evidence.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/sleep/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/sleep/</guid>
-      <description>Sleep Some tips and tricks that work for me to get better sleep.
-Smart Alarm Sleep as Android has a feature where instead of setting an alarm to go off at 8am, you tell the app to wake you up say between 7am and 8am. Then the app uses your movements to wake you up during a lighter sleep phase. I&amp;rsquo;ve found this to be way more pleasant than waking up at a fixed time.</description>
     </item>
     
     <item>
@@ -504,43 +502,30 @@ Smart Alarm Sleep as Android has a feature where instead of setting an alarm to 
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/values/</link>
+      <link>https://kovasap.github.io/docs/understanding-the-world/influences/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/values/</guid>
-      <description>My Values I aspire to be a vigorous, wise person that is capable of intentionally crafting and living a consistently fulfilling life. A fulfilling life contains met goals, is interesting, is free of disempowerment, includes meaningful relationships, and has the potential to inspire and empower others.
-Vigor Energy to achieve goals in my experience comes from two main sources:
-Physical Health: Exercise, sleep, food, cronic stress and other environmental influences all effect personal vigor in complex and inter-dependant ways.</description>
+      <guid>https://kovasap.github.io/docs/understanding-the-world/influences/</guid>
+      <description>Influences These works have guided my thinking about how to discover truths about the world. They include examinations of general patterns that reappear in many parts of the world - understanding these I feel helps hasten future discovery, so I put them in this section of the website. These sources are roughly sorted by their level of influence on my thinking.
+Antifragile by Nassim Taleb Really insightful book into types of systems in the world and how they behave.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/vim-tricks/</link>
+      <link>https://kovasap.github.io/docs/understanding-the-world/notetaking/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/vim-tricks/</guid>
-      <description> Vim Tricks Search/Replace See http://vimregex.com/#substitute for details.
-Convert protos to bzl dictionaries Replace text: text2 with &amp;quot;text&amp;quot;: text2,:
-:%s/\(\S.*[^&amp;quot;]\): \(.*\)$/&amp;quot;\1&amp;quot;: \2,/g  Replace floating points number with quoted variants:
-:%s/[^&amp;quot;]\(\d\+\)\.\(\d\+\)/&amp;quot;\1\.\2&amp;quot;/g  </description>
+      <guid>https://kovasap.github.io/docs/understanding-the-world/notetaking/</guid>
+      <description>Notes on Notetaking References  https://tkainrad.dev/posts/managing-my-personal-knowledge-base/ https://vimways.org/2019/personal-notetaking-in-vim/  Graph Notetaking Idea Use a set of nodes connected to other notes in a graph (like zettelkasten) to store knowledge. Each note should have:
+ Constraints under which the notes info doesn&amp;rsquo;t apply (limitation of a study) Some new knowledge, assuming the constraint References to other notes  In addition, the body of notes should contain guiding essays that string together notes in an easy to understand way.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/website/</link>
+      <link>https://kovasap.github.io/docs/understanding-the-world/what-to-believe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/website/</guid>
-      <description>This Website This website was setup using Hugo and is hosted using Github. It uses the hugo-book theme. Originally, it was started by copying the example project in the hugo-book repository, and modifying the pages.
-Google Analytics I added Google Analytics to the site via the googleAnalytics field in the config.yaml file - the hugo-book theme handles the rest. I also needed to make a Google Analytics account with a &amp;ldquo;Universal Analytics&amp;rdquo; property as described at https://support.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/what-to-believe/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/what-to-believe/</guid>
+      <guid>https://kovasap.github.io/docs/understanding-the-world/what-to-believe/</guid>
       <description>What to Believe In order to make good decisions, people need to build an understanding of how the world works by gathering information. Luckily, it is getting easier and easier to do this as technology becomes more and more efficient at sending data around the world. Unfortunately, simply gathering information is not enough; one must also make sure that the information is of high enough quality to use in world modelling or decision making.</description>
     </item>
     

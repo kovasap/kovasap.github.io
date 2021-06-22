@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:title" content="" />
+<meta property="og:description" content="My Computing Environment My complete configuration files (&ldquo;dotfiles&rdquo;) can be found at https://github.com/kovasap/dotfiles.
+Color and Brightness Temperature I find that dim screens make it easier for me to read and work for longer without straining or fatiguing my eyes. Therefore, I generally keep my screen at a low brightness level.
+On Linux I use Redshift to keep my screen at a low temperature (low 3000Ks). Currently I use a constant temperature all the time, as opposed to making the color lower at night." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kovasap.github.io/docs/lifestyle-optimizations/computing-config/" />
+
+<title>Computing Config | Things to Remember</title>
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<link rel="stylesheet" href="/book.min.d54f2886415be97240a76611f87e576a761d64c07020a767fa0ffd1bdc8bda93.css" integrity="sha256-1U8ohkFb6XJAp2YR&#43;H5XanYdZMBwIKdn&#43;g/9G9yL2pM=">
+
+
+<script defer src="/search.min.a37e5e197f1f64743b6add2b64a6c7ba60e6aeac8b17049767ae2de9f2ab068a.js" integrity="sha256-o35eGX8fZHQ7at0rZKbHumDmrqyLFwSXZ64t6fKrBoo="></script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-184778596-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav>
+<h2 class="book-brand">
+  <a href="https://kovasap.github.io/"><span>Things to Remember</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" placeholder="Search" id="book-search-input" maxlength="64" />
+  <div class="book-search-spinner spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+    <ul>
+<li><a href="/docs/manifesto/" ><strong>Personal Manifesto</strong></a></li>
+<li><details><summary><strong>Health and Longevity</strong></summary><ul>
+  <li><a href="/docs/health_and_longevity/influences/">Influences</a></li>
+  <li><a href="/docs/health_and_longevity/sleep/">Sleep</a></li>
+  <li><a href="/docs/health_and_longevity/food/">What Food and When?</a></li>
+  <li><a href="/docs/health_and_longevity/cooking/">Cooking</a></li>
+  <li><a href="/docs/health_and_longevity/fasting/">Fasting</a></li>
+  <li><a href="/docs/health_and_longevity/dna-testing/">DNA Testing</a></li>
+  <li><a href="/docs/health_and_longevity/chronic-stress/">Chronic Stress</a></li>
+  <li><a href="/docs/health_and_longevity/exercise/">Exercise</a></li>
+</ul></details></li>
+<li><details><summary><strong>Understanding the World</strong></summary><ul>
+  <li><a href="/docs/understanding-the-world/influences/">Influences</a></li>
+  <li><a href="/docs/understanding-the-world/what-to-believe/">What to Believe</a></li>
+  <li><a href="/docs/understanding-the-world/notetaking/">Notetaking</a></li>
+</ul></details></li>
+<li><details><summary><strong>The Human Mind</strong></summary><ul>
+  <li><a href="/docs/mind/influences/">Influences</a></li>
+  <li><a href="/docs/mind/mbti/">Myers-Briggs Personality Typing</a></li>
+</ul></details></li>
+<li><details><summary><strong>Lifestyle Optimizations</strong></summary><ul>
+  <li><em>Projects and tricks that make my life run smoothly.</em></li>
+  <li><a href="/docs/lifestyle-optimizations/website/">This Website</a></li>
+  <li><a href="/docs/lifestyle-optimizations/computing-config/"class=active>My Computer Configuration (dotfiles)</a></li>
+  <li><a href="/docs/lifestyle-optimizations/personal-data-tracking/">Personal Data Tracking</a></li>
+  <li><a href="/docs/lifestyle-optimizations/financial-strategy/">Financial Strategy</a></li>
+  <li><a href="/docs/lifestyle-optimizations/hang-drying-cloths/">Hang Drying Cloths</a></li>
+  <li><a href="/docs/lifestyle-optimizations/phone-case/">Phone Case</a></li>
+  <li><a href="/docs/lifestyle-optimizations/vim-tricks/">Vim Tricks</a></li>
+</ul></details></li>
+<li><details><summary><strong>Art</strong></summary><ul>
+  <li><a href="/docs/art/generative-art/">Generative Art</a></li>
+</ul></details></li>
+<li><details><summary><strong>Interpersonal</strong></summary><ul>
+  <li><a href="/docs/how-to-work-with-others/" >Working with Others</a></li>
+</ul></details></li>
+<li><details><summary><strong>Hydroponics</strong></summary><ul>
+  <li><a href="/docs/hydroponics/my-setup/" >My Setup</a></li>
+  <li><a href="/docs/hydroponics/journal/" >Journal</a></li>
+</ul></details></li>
+<li><details><summary><strong>Games</strong></summary><ul>
+  <li><a href="/docs/games/top-10/">Top 10 All Time</a></li>
+  <li><a href="/docs/games/oxygen-not-included/">Oxygen Not Included</a></li>
+  <li><a href="/docs/games/valorant/">Valorant</a></li>
+  <li><a href="/docs/games/chess/">Chess</a></li>
+</ul></details></li>
+<li><details><summary><strong>Media</strong></summary><ul>
+  <li><a href="/docs/music/" >Music</a></li>
+</ul></details></li>
+<li><details><summary><strong>How To</strong></summary><ul>
+  <li><a href="/docs/how-to-finance/" >Finances</a></li>
+</ul></details></li>
+<li><details><summary><strong>Ideas</strong></summary><ul>
+  <li><a href="/docs/software/" >Software</a></li>
+</ul></details></li>
+<li><details><summary><strong>Climbing</strong></summary><ul>
+  <li><a href="/docs/climbing/media/" >Media/Inspiration</a></li>
+  <li><a href="/docs/climbing/safety-checklist/" >Safety Checklist</a></li>
+  <li><details><summary><strong>Event Reports</strong></summary><ul>
+    <li><a href="/docs/climbing/event-reports/2020-8-10-lake-erie/" >Aug. 2020 - Mt. Erie</a></li>
+    <li><a href="/docs/climbing/event-reports/2020-8-12-mile-high-club/" >Aug. 2020 - Mile High Club</a></li>
+    <li><a href="/docs/climbing/event-reports/first-512/" >Jan 12, 2018 - My first 5.12!</a></li>
+  </ul></details></li>
+</ul></details></li>
+</ul>
+
+
+
+
+
+
+
+</nav>
+
+
+<script>
+(function() {
+  var menu = document.querySelector("aside.book-menu nav");
+  addEventListener("beforeunload", function(event) {
+    localStorage.setItem("menu.scrollTop", menu.scrollTop);
+  });
+  menu.scrollTop = localStorage.getItem("menu.scrollTop");
+})();
+</script>
+
+    </aside>
+
+    <div class="book-page">
+      <header class="flex align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" alt="Menu" />
+  </label>
+  <strong>Computing Config</strong>
+</header>
+
+      
+<article class="markdown">
+
+<h1 id="my-computing-environment">My Computing Environment</h1>
+
+<!--
+To link this documentation more with my actual config, one idea is to add
+something like this to all the settings I document in my rc files:
+
+## SETTING_NAME ##
+some code that applies a setting
+## END ##
+
+Then, when I'm writing docs in this website I can simply reference the
+SETTING_NAME instead of inlining the code.  To make this work I need to write
+code that parses all my rc files and constructs some kind of mapping from
+SETTING_NAMES to the code (and the language to get syntax highlighting right and
+the filename).  Then, I need to replace the names I put in this documentation
+with the values from the mapping.  This code would run when the website is
+built.  
+-->
+
+<p>My complete configuration files (&ldquo;dotfiles&rdquo;) can be found at
+<a href="https://github.com/kovasap/dotfiles">https://github.com/kovasap/dotfiles</a>.</p>
+
+<h2 id="color-brightness">Color and Brightness</h2>
+
+<h3 id="temperature">Temperature</h3>
+
+<p>I find that dim screens make it easier for me to read and work for longer
+without straining or fatiguing my eyes.  Therefore, I generally keep my screen
+at a low brightness level.</p>
+
+<h4 id="on-linux">On Linux</h4>
+
+<p>I use <a href="http://jonls.dk/redshift/">Redshift</a> to
+keep my screen at a low temperature (low 3000Ks).  Currently I use a constant
+temperature all the time, as opposed to making the color lower at night.</p>
+
+<h4 id="on-windows">On Windows</h4>
+
+<p>I use <a href="https://justgetflux.com/">f.lux</a> with default settings (changing color over
+the day).  I frequently mess with the color temperature slider based on what I am doing.</p>
+
+<h3 id="selective-brightness">Selective Window Brightness</h3>
+
+<h4 id="on-linux-1">On Linux</h4>
+
+<p>I prefer dark, lower contrast color schemes for coding or working on the command
+line.  They feel easier on my eyes and allow for more variety of color for use
+in (for example) syntax highlighting.  I find that colors blend into light
+backgrounds more, and are therefore less readable.</p>
+
+<p>However, most documents in the world are rendered with black text on a white
+background.  I find this perfectly readable, but starkly different from my dark
+color schemes.  This makes it quite jarring to switch between the two, which I
+often do when I&rsquo;m writing or coding while looking at a reference document in my
+web browser.</p>
+
+<p>To fix this issue, I&rsquo;ve tried a couple things:</p>
+
+<ul>
+<li>Using a page dimmer in my web browser.
+
+<ul>
+<li>This is generally a good solution, but (since these usually inject dimming
+javascript or css into the page that is being viewed) does not work when
+viewing web browser settings or reading pdfs or using any UI that is not
+strictly on the page.</li>
+</ul></li>
+<li>Boosting the brightness of my terminal and dimming everything globally.
+
+<ul>
+<li>Works for all light colored programs!</li>
+<li>The best way I could find to do this was to take the colors in the terminal
+colorscheme (as hex strings) and increase their brightness value to make new
+hex string colors, which I used as my colorscheme.  This definitly makes the
+terminal brighter but, as the brightness goes up, colors start maxing out
+util they all become white (#ffffff).  I wasn&rsquo;t able to boost brightness
+enough with this trick while keeping my colors distinct.</li>
+</ul></li>
+</ul>
+
+<p>The current solution I have is to selectively apply color filters to different
+programs using <a href="https://wiki.archlinux.org/index.php/Compton">Compton</a>.  This is
+not a feature that Compton supports natively, so I had to apply a patch I found
+<a href="https://github.com/chjj/compton/issues/266">here</a>.  The patched code can be
+found <a href="https://github.com/kovasap/compton">here</a>.  To configure this method, you
+can add shaders (functions that change pixel colors) to the
+<code>compton-chg-saturate-brightness-contrast.glsl</code> file in the root of that
+repository.  I run it by adding this to my <code>~/.xinitrc</code>:</p>
+
+<pre><code>~/.xinitrc
+---
+compton --glx-prog-win-rule ~/compton/compton-chg-saturate-brightness-contrast.glsl:'class_g=&quot;Google-chrome&quot;' --backend glx -b
+</code></pre>
+
+<p>Another idea I had to help fix my problem was to selectively dim brighter
+pixels, while keeping dimmer pixels unchanged.  I read that using the
+<a href="https://en.wikipedia.org/wiki/HSL_and_HSV">HSV</a> color encoding could provide a
+good way to define what &ldquo;brighter&rdquo; means and a way to change it.  Luckily,
+Compton provided a easy way to mess with this!  My fiddling can be found in the
+<a href="https://github.com/kovasap/compton/blob/94efb6c9a1f80e8dbf61409dfa9b476f15a06a16/compton-chg-saturate-brightness-contrast.glsl#L64"><code>compton-chg-saturate-brightness-contrast.glsl</code></a>
+file in my fork of the Compton repository. One thing I tried here was to use a
+function like
+<a href="https://www.wolframalpha.com/input/?i=plot+x+*+(1+-+a+*+x)+for+a%3D0,0.1,0.2,0.3,+x%3D0.0..1.0">this</a>
+to map the &ldquo;value&rdquo; (V in HSV) to a dimmer value (notice how higher <code>V</code> values
+are &ldquo;dimmed&rdquo; more than lower ones).</p>
+
+<p>One fun tool for this experimentation was a color picker like
+<a href="https://alloyui.com/examples/color-picker/hsv.html">this</a> one.  When changing
+the shader, the 2d color picker would have its colors changed, verifying the
+change made in the shader!  For example, after setting the shader to map <code>V</code>
+values above 0.8 to 0.0, I could see the part of the color picker with those
+values turn black.</p>
+
+<p>In the end, I may just stick with selectively dimming entire bright windows
+globally, as opposed to dimming certain colors.  But it was fun to mess with and
+I may return to it in the future!</p>
+
+<p>Another thing to try going forward would be other color representation models,
+such as <a href="https://en.wikipedia.org/wiki/CIELAB_color_space">CIELAB</a> or
+<a href="https://en.wikipedia.org/wiki/YCbCr">YCbCr</a>.</p>
+
+<h4 id="on-windows-1">On Windows</h4>
+
+<p>Because I often game on windows, I prefer to have my secondary monitor be dimmer
+than the primary to not distract from the game I&rsquo;m playing, but still be there to
+look stuff up.  I use the exellent <a href="https://www.pangobright.com/">Pangolin Screen Brightness</a>
+utility to do this.</p>
+</article>
+
+      
+
+      
+    </div>
+
+    
+  
+
+  <aside class="book-toc levels-6 fixed">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#my-computing-environment">My Computing Environment</a>
+<ul>
+<li><a href="#color-brightness">Color and Brightness</a>
+<ul>
+<li><a href="#temperature">Temperature</a>
+<ul>
+<li><a href="#on-linux">On Linux</a></li>
+<li><a href="#on-windows">On Windows</a></li>
+</ul></li>
+<li><a href="#selective-brightness">Selective Window Brightness</a>
+<ul>
+<li><a href="#on-linux-1">On Linux</a></li>
+<li><a href="#on-windows-1">On Windows</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+
+  
+</body>
+
+</html>

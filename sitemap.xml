@@ -3,22 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://kovasap.github.io/docs/art/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://kovasap.github.io/docs/art/double-helix/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/art/perlin-flow/</loc>
+    <loc>https://kovasap.github.io/docs/art/generative-art/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/chess/</loc>
+    <loc>https://kovasap.github.io/docs/art/perlin-flow/</loc>
     <priority>0</priority>
   </url>
   
@@ -48,47 +43,7 @@
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/computing-config/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://kovasap.github.io/docs/cool_links/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kovasap.github.io/docs/creativity/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kovasap.github.io/docs/cronic-stress/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kovasap.github.io/docs/divinity-os2-build-idea/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kovasap.github.io/docs/eating/cooking/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kovasap.github.io/docs/eating/fasting/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kovasap.github.io/docs/eating/food/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kovasap.github.io/docs/exercise/</loc>
     <priority>0</priority>
   </url>
   
@@ -99,6 +54,11 @@
   
   <url>
     <loc>https://kovasap.github.io/docs/game-ideas/roguelike-base-builder/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/games/chess/</loc>
     <priority>0</priority>
   </url>
   
@@ -118,12 +78,52 @@
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/how-to-build-skills/</loc>
+    <loc>https://kovasap.github.io/docs/health_and_longevity/chronic-stress/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/how-to-finance/</loc>
+    <loc>https://kovasap.github.io/docs/health_and_longevity/circadian-rhythm/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/health_and_longevity/cooking/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/health_and_longevity/dna-testing/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/health_and_longevity/exercise/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/health_and_longevity/fasting/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/health_and_longevity/food/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/health_and_longevity/influences/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/health_and_longevity/sleep/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/how-to-build-skills/</loc>
     <priority>0</priority>
   </url>
   
@@ -148,37 +148,47 @@
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/idea-sources/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kovasap.github.io/docs/intentional-living/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kovasap.github.io/docs/learning/notetaking/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://kovasap.github.io/docs/life-philosophy/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/lifestyle-hacks/hang-drying-cloths/</loc>
+    <loc>https://kovasap.github.io/docs/lifestyle-optimizations/computing-config/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/lifestyle-hacks/phone-case/</loc>
+    <loc>https://kovasap.github.io/docs/lifestyle-optimizations/financial-strategy/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/longevity/overview/</loc>
+    <loc>https://kovasap.github.io/docs/lifestyle-optimizations/hang-drying-cloths/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/lifestyle-optimizations/personal-data-tracking/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/lifestyle-optimizations/phone-case/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/lifestyle-optimizations/vim-tricks/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/lifestyle-optimizations/website/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/manifesto/</loc>
     <priority>0</priority>
   </url>
   
@@ -188,17 +198,27 @@
   </url>
   
   <url>
+    <loc>https://kovasap.github.io/docs/mind/brain-juice/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/mind/creativity/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/mind/influences/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kovasap.github.io/docs/mind/mbti/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/mind/mental-congress/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kovasap.github.io/docs/motivation/</loc>
+    <loc>https://kovasap.github.io/docs/mind/motivation/</loc>
     <priority>0</priority>
   </url>
   
@@ -208,32 +228,12 @@
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/personal-data/tools/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kovasap.github.io/docs/personal-user-manual/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://kovasap.github.io/docs/podcasts/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/recommended-non-fiction/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://kovasap.github.io/docs/rhetoric/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kovasap.github.io/docs/sleep/</loc>
     <priority>0</priority>
   </url>
   
@@ -248,22 +248,17 @@
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/values/</loc>
+    <loc>https://kovasap.github.io/docs/understanding-the-world/influences/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/vim-tricks/</loc>
+    <loc>https://kovasap.github.io/docs/understanding-the-world/notetaking/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/website/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kovasap.github.io/docs/what-to-believe/</loc>
+    <loc>https://kovasap.github.io/docs/understanding-the-world/what-to-believe/</loc>
     <priority>0</priority>
   </url>
   
