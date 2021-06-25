@@ -130,6 +130,16 @@ I want to try out chessable at some point.</description>
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/games/fps-principles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/games/fps-principles/</guid>
+      <description>Core First Person Shooter (FPS) Principles These are some general guidelines I&amp;rsquo;ve learned over my many hours playing FPS games. I&amp;rsquo;m writing them here so I don&amp;rsquo;t forget them, and so others might learn something - or point out flaws in my reasoning so I can get better!
+Information, and Proactivity Most FPS fights come down to proactively acting on information about where exactly your opponent is. If you know with precision where your opponent is, and they don&amp;rsquo;t know where you are, you can confidently peek at them and often even prefire (or shoot as you are peeking).</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/games/oxygen-not-included/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -148,17 +158,6 @@ Dreko farm for plastic: https://forums.kleientertainment.com/forums/topic/95124-
       <description>My Top 10 Favorite (Video) Games TODO finish and explain
 1. Fire Emblem 7 &amp;amp; 8 I first played this game on the Game Boy Advance when I was in middle school. For some reason the art style and especially animation really spoke to me, and I found the gameplay loop very compelling. Fair warning though that this game may be on this list mostly because of nostalgia.
 One aspect of this game that I really enjoy is the process of building your party over time and making sure you train the right characters.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/games/valorant/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/games/valorant/</guid>
-      <description>Valorant Well made Counter-Strike inspired FPS with Overwatch-like abilities.
-Tips Disclaimer: I am not that great at this game, these are my random thoughts that I&amp;rsquo;m hoping will lead to me playing better, but are not proven!
-Angle Pushing In a scenario with two people fighting around a corner, the person further from the corner should have an advantage - they will be able to see their opponent slightly earlier.</description>
     </item>
     
     <item>
@@ -234,7 +233,9 @@ Promethease seems to have been bought and paired down in the info it returns bas
       
       <guid>https://kovasap.github.io/docs/health_and_longevity/influences/</guid>
       <description>Influences These works have guided by thinking about how to maintain good health for as long as possible. They are roughly sorted by their level of influence on my thinking.
-Lifespan by David Sinclair Cool review of a new theory of aging that seems promising to be. Also does some good review of longevity concepts. This was my introduction to the field (specifically a Joe Rogan Experience David Sinclair interview).</description>
+[The Longevity Diet by Valter Longo](https://www.valterlongo.com/daily-longevity-diet-for-adults/).
+Good examination of fasting, as well as an overview of different ways to think about how to determine which diet is the healthiest long term (Longo&amp;rsquo;s &amp;ldquo;5 Pillars&amp;rdquo;).
+Lifespan by David Sinclair Cool review of a new theory of aging that seems promising to be.</description>
     </item>
     
     <item>
