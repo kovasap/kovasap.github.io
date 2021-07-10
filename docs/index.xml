@@ -99,19 +99,19 @@ Reading this made me think of the process of climbing, which has many such steps
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/game-ideas/general-theory/</link>
+      <link>https://kovasap.github.io/docs/gamedev/common-patterns/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/game-ideas/general-theory/</guid>
-      <description>Game Types/Mechanics/Appeals Engine Building When a player continually updates a state (e.g. a farm or rpg character or desk) with new elements, with each step making the state better at acheiving some goal. Often, the state will become even better with each update that the last update made it; the rate of state betterment per step is convex. In the end, the state may be able to &amp;ldquo;go infinite&amp;rdquo; or otherwise reach some victory game state in one turn.</description>
+      <guid>https://kovasap.github.io/docs/gamedev/common-patterns/</guid>
+      <description>Game Types/Mechanics/Appeals Engine Building When a player continually updates a state (e.g. a farm or rpg character or desk) with new elements, with each step making the state better at achieving some goal. Often, the state will become even better with each update that the last update made it; the rate of state betterment per step is convex. In the end, the state may be able to &amp;ldquo;go infinite&amp;rdquo; or otherwise reach some victory game state in one turn.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/game-ideas/roguelike-base-builder/</link>
+      <link>https://kovasap.github.io/docs/gamedev/game-ideas/roguelike-base-builder/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/game-ideas/roguelike-base-builder/</guid>
+      <guid>https://kovasap.github.io/docs/gamedev/game-ideas/roguelike-base-builder/</guid>
       <description>Rogue-like Base Builder Concept Game is played on a square grid in two phases.
 Setup Phase Here, the player uses resources they&amp;rsquo;ve accumulated to build a base defending their sage (you). This includes: - Building walls - Deploying units as archers/warriors - Digging moats - Making traps - Building farms or other buildings that do not help defend, but accumulate resources for next round.
 Buildings/units would be purchased from a store like Autochess/Underlords, with many options and synergies.</description>
@@ -119,10 +119,19 @@ Buildings/units would be purchased from a store like Autochess/Underlords, with 
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/games/chess/</link>
+      <link>https://kovasap.github.io/docs/gamedev/gamedev-context/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/games/chess/</guid>
+      <guid>https://kovasap.github.io/docs/gamedev/gamedev-context/</guid>
+      <description> Useful Gamedev Context and Concepts The story of SNKRX 20 Lessons from 20 Years of MTG by Mark Rosewater /r/gamedev on Reddit </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/gaming/chess/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/gaming/chess/</guid>
       <description>Chess I play my chess on chess.com, which has a great UI and cool analysis features.
 I&amp;rsquo;ve learned a lot from watching GothamChess on YouTube, especially his opening videos.
 I want to try out chessable at some point.</description>
@@ -130,20 +139,20 @@ I want to try out chessable at some point.</description>
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/games/fps-principles/</link>
+      <link>https://kovasap.github.io/docs/gaming/fps-principles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/games/fps-principles/</guid>
+      <guid>https://kovasap.github.io/docs/gaming/fps-principles/</guid>
       <description>Core First Person Shooter (FPS) Principles These are some general guidelines I&amp;rsquo;ve learned over my many hours playing FPS games. I&amp;rsquo;m writing them here so I don&amp;rsquo;t forget them, and so others might learn something - or point out flaws in my reasoning so I can get better!
 Information, and Proactivity Most FPS fights come down to proactively acting on information about where exactly your opponent is. If you know with precision where your opponent is, and they don&amp;rsquo;t know where you are, you can confidently peek at them and often even prefire (or shoot as you are peeking).</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/games/oxygen-not-included/</link>
+      <link>https://kovasap.github.io/docs/gaming/oxygen-not-included/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/games/oxygen-not-included/</guid>
+      <guid>https://kovasap.github.io/docs/gaming/oxygen-not-included/</guid>
       <description>Oxygen Not Included A cool base building game with a focus on designing complex interacting systems.
 Build Ideas Arbor tree -&amp;gt; ethanol setup: - https://forums.kleientertainment.com/forums/topic/110495-trees-petroleum-generator/ - https://forums.kleientertainment.com/forums/topic/111356-arbor-tree-farming/?tab=comments
 Dreko farm for plastic: https://forums.kleientertainment.com/forums/topic/95124-an-easy-to-build-compact-and-efficient-glossy-drecko-farm/</description>
@@ -151,99 +160,95 @@ Dreko farm for plastic: https://forums.kleientertainment.com/forums/topic/95124-
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/games/top-10/</link>
+      <link>https://kovasap.github.io/docs/gaming/top-10/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/games/top-10/</guid>
-      <description>My Top 10 Favorite (Video) Games TODO finish and explain
-1. Fire Emblem 7 &amp;amp; 8 I first played this game on the Game Boy Advance when I was in middle school. For some reason the art style and especially animation really spoke to me, and I found the gameplay loop very compelling. Fair warning though that this game may be on this list mostly because of nostalgia.
-One aspect of this game that I really enjoy is the process of building your party over time and making sure you train the right characters.</description>
+      <guid>https://kovasap.github.io/docs/gaming/top-10/</guid>
+      <description>My Top 10 Favorite (Video) Games Currently this list does not have a strict order.
+Fire Emblem 7 &amp;amp; 8 I first played this game on the Game Boy Advance when I was in middle school. For some reason the art style and especially animation really spoke to me, and I found the gameplay loop very compelling. Fair warning though that this game may be on this list mostly because of nostalgia.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/health_and_longevity/chronic-stress/</link>
+      <link>https://kovasap.github.io/docs/health-and-longevity/chronic-stress/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/health_and_longevity/chronic-stress/</guid>
+      <guid>https://kovasap.github.io/docs/health-and-longevity/chronic-stress/</guid>
       <description>Chronic Stress Is bad.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/health_and_longevity/circadian-rhythm/</link>
+      <link>https://kovasap.github.io/docs/health-and-longevity/circadian-rhythm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/health_and_longevity/circadian-rhythm/</guid>
+      <guid>https://kovasap.github.io/docs/health-and-longevity/circadian-rhythm/</guid>
       <description>Circadian Rhythm https://www.salk.edu/scientist/satchidananda-panda/</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/health_and_longevity/cooking/</link>
+      <link>https://kovasap.github.io/docs/health-and-longevity/cooking/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/health_and_longevity/cooking/</guid>
-      <description>Staples Oats  1 cup rolled oats 2 cups water  Boil water, add oats, cook for 5 mins on stovetop. Watch out for boiling over in first couple minutes! Can also microwave for 3 mins.
-Roasted Vegetables All at 425F.
-   Vegetable Size Time (mins)     Potato 1&amp;frasl;2 in 40 - 50   Zucchini 1&amp;frasl;2 in 20   Broccoli floret 20   Brussel Sprout halved 20   Tomato (roma) sliced 15    See also this chart.</description>
+      <guid>https://kovasap.github.io/docs/health-and-longevity/cooking/</guid>
+      <description>General Cooking Tips If you&amp;rsquo;re interested in experimenting with new food combinations, one technique that has served me pretty well I call the &amp;ldquo;trifecta of flavor&amp;rdquo;. The way it works is you take two foods that go well together (e.g. banana and peanut butter) and you add a third food that goes well with one of the foods but would be weird to combine with the other (e.g. spinach in this case).</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/health_and_longevity/dna-testing/</link>
+      <link>https://kovasap.github.io/docs/health-and-longevity/dna-testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/health_and_longevity/dna-testing/</guid>
+      <guid>https://kovasap.github.io/docs/health-and-longevity/dna-testing/</guid>
       <description>DNA Testing It seems like AncestryDNA gives the biggest bang-for-buck in terms of SNPs to analyze via promethease or foundmyfitness based on https://geneticgenie.org/article/best-dna-raw-data-23andme-ancestrydna-or-myheritage/
 Promethease seems to have been bought and paired down in the info it returns based on https://www.reddit.com/r/promethease/comments/bczfcb/alternatives_to_promethease/.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/health_and_longevity/exercise/</link>
+      <link>https://kovasap.github.io/docs/health-and-longevity/exercise/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/health_and_longevity/exercise/</guid>
+      <guid>https://kovasap.github.io/docs/health-and-longevity/exercise/</guid>
       <description>Exercise TODO add to this</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/health_and_longevity/fasting/</link>
+      <link>https://kovasap.github.io/docs/health-and-longevity/fasting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/health_and_longevity/fasting/</guid>
+      <guid>https://kovasap.github.io/docs/health-and-longevity/fasting/</guid>
       <description>Fasting Fasting Mimicking Diet - January 2020 I started getting interested in fasting after reading The Longevity Diet by Valter Longo. Based on the information in the book, it seemed like fasting provided some easily attainable health benefits, if making it a habit wasn&amp;rsquo;t too disruptive to my life. My first experiment happened shortly after reading the book. I attempted a DIY-Fasting Mimicking Diet (FMD) as described in the book for 5 days.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/health_and_longevity/food/</link>
+      <link>https://kovasap.github.io/docs/health-and-longevity/food/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/health_and_longevity/food/</guid>
+      <guid>https://kovasap.github.io/docs/health-and-longevity/food/</guid>
       <description>Food Goals  Delay chronic diseases as long as possible. Described well in this talk by Peter Attia. The big ones are:  Cardiovascular disease. Cancer. Neurodegenerative disease. Diabetes/Metabolic Syndrome.  Maintain sustained energy levels as much as possible, avoiding:  Periods of low motivation. &amp;ldquo;Food coma-ing&amp;rdquo;. &amp;ldquo;Snack train-ing&amp;rdquo;, or continuous distraction by a desire to eat more.   What should I eat and when? The most convincing diet structure I&amp;rsquo;ve found has been The Longevity Diet by Valter Longo.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/health_and_longevity/influences/</link>
+      <link>https://kovasap.github.io/docs/health-and-longevity/influences/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/health_and_longevity/influences/</guid>
+      <guid>https://kovasap.github.io/docs/health-and-longevity/influences/</guid>
       <description>Influences These works have guided by thinking about how to maintain good health for as long as possible. They are roughly sorted by their level of influence on my thinking.
-[The Longevity Diet by Valter Longo](https://www.valterlongo.com/daily-longevity-diet-for-adults/).
-Good examination of fasting, as well as an overview of different ways to think about how to determine which diet is the healthiest long term (Longo&amp;rsquo;s &amp;ldquo;5 Pillars&amp;rdquo;).
-Lifespan by David Sinclair Cool review of a new theory of aging that seems promising to be.</description>
+Kevin Bass Excellent science advocate that fights hard to avoid believing good stories that are not backed by evidence. Some of his work that resonates most strongly with me includes:
+ Good measured discussion of the Keto diet (on the Healthcare Unfiltered podcast).</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/health_and_longevity/sleep/</link>
+      <link>https://kovasap.github.io/docs/health-and-longevity/sleep/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/health_and_longevity/sleep/</guid>
+      <guid>https://kovasap.github.io/docs/health-and-longevity/sleep/</guid>
       <description>Sleep Some tips and tricks that work for me to get better sleep.
 Smart Alarm Sleep as Android has a feature where instead of setting an alarm to go off at 8am, you tell the app to wake you up say between 7am and 8am. Then the app uses your movements to wake you up during a lighter sleep phase. I&amp;rsquo;ve found this to be way more pleasant than waking up at a fixed time.</description>
     </item>
@@ -419,7 +424,7 @@ Professing - Performing - A State of Action In this state, the information alrea
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/mind/creativity/</guid>
-      <description> Game Design  20 Lessons from 20 Years of MTG by Mark Rosewater  Creativity comes from constraining your problem space   </description>
+      <description>Creativity Constraining the Problem Space One of the main enemies of creative work getting done is the &amp;ldquo;blank page&amp;rdquo; - the mental state of staring at a blank page and being paralyzed either with too many thoughts or no thoughts. One useful tool to avoid this is by constraining your problem space, sometimes dramatically. For instance, what if you could only fold the page and do nothing else? Suddenly, it&amp;rsquo;s much easier (for me at least) to start just doing something.</description>
     </item>
     
     <item>
@@ -430,7 +435,7 @@ Professing - Performing - A State of Action In this state, the information alrea
       <guid>https://kovasap.github.io/docs/mind/influences/</guid>
       <description>Influences These works have guided my thinking about how the mind works. They are roughly sorted by their level of influence on my thinking.
 Atomic Habits by James Clear Refreshing read that shows that building good habits and systems in your life is much more effective and doable than using raw willpower to get achieve goals.
-Books by David Eagleman Incognito, Livewired, The Brain: The Story of You. All great pop-neuroscience reads!</description>
+Thinking, Fast and Slow by Daniel Kahneman Video inspired by book done by Veritasium here.</description>
     </item>
     
     <item>

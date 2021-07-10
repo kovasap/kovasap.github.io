@@ -48,77 +48,82 @@
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/game-ideas/general-theory/</loc>
+    <loc>https://kovasap.github.io/docs/gamedev/common-patterns/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/game-ideas/roguelike-base-builder/</loc>
+    <loc>https://kovasap.github.io/docs/gamedev/game-ideas/roguelike-base-builder/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/games/chess/</loc>
+    <loc>https://kovasap.github.io/docs/gamedev/gamedev-context/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/games/fps-principles/</loc>
+    <loc>https://kovasap.github.io/docs/gaming/chess/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/games/oxygen-not-included/</loc>
+    <loc>https://kovasap.github.io/docs/gaming/fps-principles/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/games/top-10/</loc>
+    <loc>https://kovasap.github.io/docs/gaming/oxygen-not-included/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/health_and_longevity/chronic-stress/</loc>
+    <loc>https://kovasap.github.io/docs/gaming/top-10/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/health_and_longevity/circadian-rhythm/</loc>
+    <loc>https://kovasap.github.io/docs/health-and-longevity/chronic-stress/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/health_and_longevity/cooking/</loc>
+    <loc>https://kovasap.github.io/docs/health-and-longevity/circadian-rhythm/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/health_and_longevity/dna-testing/</loc>
+    <loc>https://kovasap.github.io/docs/health-and-longevity/cooking/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/health_and_longevity/exercise/</loc>
+    <loc>https://kovasap.github.io/docs/health-and-longevity/dna-testing/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/health_and_longevity/fasting/</loc>
+    <loc>https://kovasap.github.io/docs/health-and-longevity/exercise/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/health_and_longevity/food/</loc>
+    <loc>https://kovasap.github.io/docs/health-and-longevity/fasting/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/health_and_longevity/influences/</loc>
+    <loc>https://kovasap.github.io/docs/health-and-longevity/food/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/health_and_longevity/sleep/</loc>
+    <loc>https://kovasap.github.io/docs/health-and-longevity/influences/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/health-and-longevity/sleep/</loc>
     <priority>0</priority>
   </url>
   
