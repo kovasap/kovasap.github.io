@@ -263,6 +263,11 @@
   </url>
   
   <url>
+    <loc>https://kovasap.github.io/docs/understanding-the-world/physics/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kovasap.github.io/docs/understanding-the-world/what-to-believe/</loc>
     <priority>0</priority>
   </url>
