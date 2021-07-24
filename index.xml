@@ -128,6 +128,15 @@ Buildings/units would be purchased from a store like Autochess/Underlords, with 
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/gamedev/mechanic-ideas/low-friction-turn-based-tactics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/gamedev/mechanic-ideas/low-friction-turn-based-tactics/</guid>
+      <description>Minimizing UI Friction in Turn Based Tactics Games Games like XCOM, Fire Emblem, Warhammer 40k Mechanicus, Gloomhaven Digital etc. sometimes have a problem with requiring many clicks/actions from the player to execute actions. To minimize this, you could have the player&amp;rsquo;s options for what a character should do on a tile appear as a button on that tile. For multiple actions these buttons could be arranged in a grid.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/gaming/chess/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -170,6 +179,17 @@ Fire Emblem 7 &amp;amp; 8 I first played this game on the Game Boy Advance when 
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/health-and-longevity/cgm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/health-and-longevity/cgm/</guid>
+      <description>Continuous Glucose Monitoring Continuous glucose monitoring is really cool because it gives a continuous look inside your body. This kind of biomarker is rare, and it feels like there is a lot of info that can be gleaned from this kind of data.
+A great article about what CGM might be able to tell us can be found at https://thedietwars.com/peter-attia-cgm/.
+My Usage I tried out a Freestyle Libre CGM that I was prescribed by my doctor (surprisingly, it was fully covered by my high-deductible insurance too!</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/health-and-longevity/chronic-stress/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -201,8 +221,10 @@ Fire Emblem 7 &amp;amp; 8 I first played this game on the Game Boy Advance when 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/health-and-longevity/dna-testing/</guid>
-      <description>DNA Testing It seems like AncestryDNA gives the biggest bang-for-buck in terms of SNPs to analyze via promethease or foundmyfitness based on https://geneticgenie.org/article/best-dna-raw-data-23andme-ancestrydna-or-myheritage/
-Promethease seems to have been bought and paired down in the info it returns based on https://www.reddit.com/r/promethease/comments/bczfcb/alternatives_to_promethease/.</description>
+      <description>DNA Testing It seems like AncestryDNA gives the biggest bang-for-buck in terms of SNPs to analyze via promethease or foundmyfitness based on https://geneticgenie.org/article/best-dna-raw-data-23andme-ancestrydna-or-myheritage/.
+Promethease seems to have been bought and paired down in the info it returns based on https://www.reddit.com/r/promethease/comments/bczfcb/alternatives_to_promethease/.
+I analyzed my AncestryDNA data with several services:
+ Free reports from https://www.foundmyfitness.com/genetics  Really easy to read and well summarized reports!  Free search from https://codegen.eu/faq/  Not as user friendly, but a good search engine.</description>
     </item>
     
     <item>
@@ -305,6 +327,35 @@ Goals My diet goals suggest that I eat a lot of leafy greens. Unfortunately, the
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/investing-and-finances/expected-house-return/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/investing-and-finances/expected-house-return/</guid>
+      <description>Expected Returns for Buying a House Looking at list prices for homes can be a strange experience. To me, a list price is just a large number that has little or any meaning to the impact buying that house will have on my finances. To confidently judge whether a house I&amp;rsquo;m interested in buying is actually a good deal, I made the spreadsheet described here. The primary goal of the spreadsheet is to translate details about the house (e.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/investing-and-finances/housing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/investing-and-finances/housing/</guid>
+      <description>Housing Buying vs Renting Financially, there is no clear answer whether to buy or rent a home in the general case. To determine which is the best option for a specific situation, this NYT calculator is a great back-of-the-envelope style resource.. This Ben Felix video does a great job digging into the factors at play that determine which decision is best.
+To aid in my own home search, I [made a spreadsheet]() that calculates the expected return-on-investment for a given candidate house.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/investing-and-finances/strategies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/investing-and-finances/strategies/</guid>
+      <description>Investment Strategies Stock options  Excellent Reference  Tax Loss Harvesting Good descriptions:
+ https://www.moneyunder30.com/profit-from-tax-loss-harvesting https://www.madfientist.com/tax-loss-harvesting/   Sell your losing investment. Buy another (intermediate) investment that you are happy holding. If you want, sell your intermediate investment and buy back your original &amp;gt;30 days after the original sale.  Make sure that your intermediate investment hasn&amp;rsquo;t gone up in value when you do this, otherwise you will cancel out your losses!</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/life-philosophy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -321,15 +372,6 @@ Goals My diet goals suggest that I eat a lot of leafy greens. Unfortunately, the
       <description>My Computing Environment My complete configuration files (&amp;ldquo;dotfiles&amp;rdquo;) can be found at https://github.com/kovasap/dotfiles.
 Color and Brightness Temperature I find that dim screens make it easier for me to read and work for longer without straining or fatiguing my eyes. Therefore, I generally keep my screen at a low brightness level.
 On Linux I use Redshift to keep my screen at a low temperature (low 3000Ks). Currently I use a constant temperature all the time, as opposed to making the color lower at night.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/lifestyle-optimizations/financial-strategy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/financial-strategy/</guid>
-      <description>Financial Strategy Real Estate and Housing  NYT Buy vs Rent Calculator My house comparison spreadsheet (TODO add when finalized)  Stock options  Excellent Reference  Stocks Tax Loss Harvesting  Basics summarized  The Value Factor Investment returns can theoretically be explained by different factors described here. Total market index funds do not expose you fully to the value factor, which might be useful to do for maximizing returns in the long run.</description>
     </item>
     
     <item>
@@ -499,11 +541,22 @@ Flow/Immersive  hubris. jakob God is an Astronaut Night Verses Intervals 65dayso
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/software/</link>
+      <link>https://kovasap.github.io/docs/software-dev/choosing-a-language/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/software/</guid>
-      <description>Talks/Articles  Getting things done by Johnathan Blow  Depth first approach to problem solving can be bad because you end up going in the wrong direction (which you would have avoided going breath-first)  Simple made Easy by Rich Hickey  Complex = entangled = difficult to reason about To make systems more understandable, need to reduce them to small, independant pieces (like pure functions with no side effects)  Hammock Driven Development by Rich Hickey  Stepping back from a problem and doing other things or sleeping allows unconscious parts of your mind draw connections that you otherwise wouldn&amp;rsquo;t draw.</description>
+      <guid>https://kovasap.github.io/docs/software-dev/choosing-a-language/</guid>
+      <description>Choosing a Language When deciding what programming language to use, there are several important factors:
+The ergonomics of the language itself. This includes things like the type system, immutability/functional programming support, OOP support, etc. Mostly, these features contribute to how pleasant it is to develop in the language, which leads to productivity gains and potentially ease of debugging.
+The library/tooling ecosystem around the language. Some very non-ergonomic languages may still be the right choice because lots of libraries have been written for that language, so the total amount of work to do to accomplish anything is dramatically reduced.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/software-dev/influences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/software-dev/influences/</guid>
+      <description>Influences  Getting things done by Johnathan Blow  Depth first approach to problem solving can be bad because you end up going in the wrong direction (which you would have avoided going breath-first)  Simple made Easy by Rich Hickey  Complex = entangled = difficult to reason about To make systems more understandable, need to reduce them to small, independant pieces (like pure functions with no side effects)  Hammock Driven Development by Rich Hickey  Stepping back from a problem and doing other things or sleeping allows unconscious parts of your mind draw connections that you otherwise wouldn&amp;rsquo;t draw.</description>
     </item>
     
     <item>
