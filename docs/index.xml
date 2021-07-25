@@ -346,12 +346,33 @@ To aid in my own home search, I [made a spreadsheet]() that calculates the expec
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/investing-and-finances/influences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/investing-and-finances/influences/</guid>
+      <description>Investing and Finance Influences These books/blogs/podcasts/people have most shaped how I understand finances.
+Early Retirement Extreme The ERE book and the blog&amp;rsquo;s most popular posts are an excellent view into a strongly coherent and appealing life philosophy. Highly, highly recommend.
+Mr Money Mustache My first introduction to the idea of financial independance. I haven&amp;rsquo;t read a lot of the articles, but the ones I did read were very influential.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/investing-and-finances/strategies/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/investing-and-finances/strategies/</guid>
-      <description>Investment Strategies Stock options  Excellent Reference  Tax Loss Harvesting Good descriptions:
- https://www.moneyunder30.com/profit-from-tax-loss-harvesting https://www.madfientist.com/tax-loss-harvesting/   Sell your losing investment. Buy another (intermediate) investment that you are happy holding. If you want, sell your intermediate investment and buy back your original &amp;gt;30 days after the original sale.  Make sure that your intermediate investment hasn&amp;rsquo;t gone up in value when you do this, otherwise you will cancel out your losses!</description>
+      <description>Investment Strategies Stock options  Excellent Reference  The Value Factor Investment returns can theoretically be explained by different factors described here. Total market index funds do not expose you fully to the value factor, which might be useful to do for maximizing returns in the long run. Here are some first steps to do this (that I have yet to follow):
+ https://www.pwlcapital.com/wp-content/uploads/2019/03/PWL-WP-Felix-Factor-Investing-with-ETFs_08-2019-Final.pdf https://investor.vanguard.com/etf/profile/portfolio/vtv  Leverage Using leverage (taking loans to buy investments) can be a power way to &amp;ldquo;time diversify&amp;rdquo;, as explained in this Ben Felix video.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/investing-and-finances/taxes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/investing-and-finances/taxes/</guid>
+      <description>Taxes Selling Stock Selling stock at a gain is a taxable event. If you&amp;rsquo;ve held the stock for &amp;lt; 1 year, it is taxed as ordinary income; otherwise it is taxed at a lower capital gains rate. This Motley Fool page has a good explanation with examples.
+Note that your capital gains themselves help determine your capital gains tax rate. If you make no ordinary income, but sell stock resulting in a $1 million gain, your income for the purposes of determining your capital gains tax rate will be $1 million.</description>
     </item>
     
     <item>
