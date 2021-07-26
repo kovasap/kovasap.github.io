@@ -15,7 +15,7 @@
 <link rel="stylesheet" href="/book.min.be44f6673a41275b9436efc852918436fb51e59c220e075bf646ebd54b84068b.css" integrity="sha256-vkT2ZzpBJ1uUNu/IUpGENvtR5ZwiDgdb9kbr1UuEBos=">
 
 
-<script defer src="/search.min.5f72d005eac15a2a4a76df3be83a586458ec5f9f26ee9a948e7bdbd815703ecd.js" integrity="sha256-X3LQBerBWipKdt876DpYZFjsX58m7pqUjnvb2BVwPs0="></script>
+<script defer src="/search.min.767c89a4cc83bf3ed9ddf613a39cd36f6500cbb0740bc766073e0282a8795a7b.js" integrity="sha256-dnyJpMyDvz7Z3fYTo5zTb2UAy7B0C8dmBz4Cgqh5Wns="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -83,6 +83,7 @@ https://github.com/alex-shpak/hugo-book
   <li><a href="/docs/mind/mbti/">Myers-Briggs Personality Typing</a></li>
   <li><a href="/docs/mind/creativity/">Creativity</a></li>
   <li><a href="/docs/mind/motivation/">Motivation</a></li>
+  <li><a href="/docs/mind/working-with-others/">Workings with Others</a></li>
 </ul></details></li>
 <li><details><summary><strong>Investing and Finances</strong></summary><ul>
   <li><a href="/docs/investing-and-finances/influences/">Influences</a></li>
@@ -102,9 +103,6 @@ https://github.com/alex-shpak/hugo-book
 </ul></details></li>
 <li><details><summary><strong>Art</strong></summary><ul>
   <li><a href="/docs/art/generative-art/">Generative Art</a></li>
-</ul></details></li>
-<li><details><summary><strong>Interpersonal</strong></summary><ul>
-  <li><a href="/docs/how-to-work-with-others/" >Working with Others</a></li>
 </ul></details></li>
 <li><details><summary><strong>Hydroponics</strong></summary><ul>
   <li><a href="/docs/hydroponics/my-setup/" >My Setup</a></li>
@@ -263,6 +261,12 @@ can spend on the house. Used for color coding.</li>
 the house per month <strong>on average</strong>. You should always have some buffer,
 since many housing expenses come in large lump payments.  Used for color
 coding.</li>
+<li><strong>Portfolio Start Size</strong>: <br/> The amount of money you have in your
+investment portfolio when you buy the home. Used to calculate how much of
+your investment portfolio is made up of by the house</li>
+<li><strong>Yearly Investment</strong>: <br/> The amount of money you are investing per year
+into your portfolio.  Used to calculate how much of your investment
+portfolio is made up of by the house</li>
 </ul>
 
 <h3 id="income">Income</h3>
@@ -353,8 +357,12 @@ property (see &ldquo;Goals&rdquo; input section).</li>
 <li><strong>&ldquo;Rent&rdquo; Cashflow</strong>: <br/> Cashflow considering the &ldquo;rent&rdquo; you are &ldquo;paying&rdquo;.</li>
 <li><strong>Money Put In</strong>: <br/> The total amount of money you have spent on the
 property.</li>
-<li><strong>Money Put In w/&ldquo;Rent&rdquo;</strong>: <br/> The last column considering the &ldquo;rent&rdquo; you
-are &ldquo;paying&rdquo;.</li>
+<li><strong>Rest of Portfolio Value</strong>: <br/> The value of your investments, minus the
+house.</li>
+<li><strong>Percent of Portfolio</strong>: <br/> The percentage of the portfolio that is made
+up of by the house.</li>
+<li><strong>Money Put In w/&ldquo;Rent&rdquo;</strong>: <br/> The &ldquo;Money Put In&rdquo; column considering the
+&ldquo;rent&rdquo; you are &ldquo;paying&rdquo;.</li>
 <li><strong>Cost to Sell</strong>: <br/> The amount of money you need to pay to others when
 selling the house.  This includes paying off the mortgage, paying realtors,
 etc.</li>
@@ -374,7 +382,10 @@ after the sale of the property this year.</li>
 money you put into the property.</li>
 <li><strong>IRR w/&ldquo;Rent&rdquo;</strong>: <br/> The time-adjusted rate of return you have made on
 all the money you put into the property, considering also the value you got
-out of it by living in it.</li>
+out of it by living in it.  <strong>If this value is less than your expected
+investment growth rate, financially you probably shouldn&rsquo;t buy the house.</strong></li>
+<li><strong>Portfolio Return w/&ldquo;Rent&rdquo;</strong>: <br/> The return of your entire portfolio
+including the house, given that you sell the house this year.</li>
 <li><strong>Rental Delta</strong>: <br/> To translate the rate of return to a &ldquo;dollars per
 month&rdquo; figure, fill in the top cell of this column until the <strong>IRR w/Rent
 Delta</strong> column matches your expected <strong>Investment Growth Rate</strong> for the year
