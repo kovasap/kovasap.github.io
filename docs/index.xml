@@ -444,6 +444,15 @@ Google Analytics I added Google Analytics to the site via the googleAnalytics fi
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/lifestyle-optimizations/youtube-downloading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/youtube-downloading/</guid>
+      <description>Ad-Free YouTube Viewing Sometimes YouTube videos are riddled with ads that make them hard to watch. To combat this issue, I created a small script that downloads the youtube video at the URL currently on your clipboard and plays it with your default video player. I made a hotkey to run this scipt in my window manager (QTile). So now when I want to watch a YouTube video I just need to copy the url to my clipboard and then hit &amp;ldquo;mod-y&amp;rdquo; on my keyboard (mod is the windows key)!</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/manifesto/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -570,6 +579,16 @@ Flow/Immersive  hubris. jakob God is an Astronaut Night Verses Intervals 65dayso
       <description>Choosing a Language When deciding what programming language to use, there are several important factors:
 The ergonomics of the language itself. This includes things like the type system, immutability/functional programming support, OOP support, etc. Mostly, these features contribute to how pleasant it is to develop in the language, which leads to productivity gains and potentially ease of debugging.
 The library/tooling ecosystem around the language. Some very non-ergonomic languages may still be the right choice because lots of libraries have been written for that language, so the total amount of work to do to accomplish anything is dramatically reduced.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/software-dev/impact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/software-dev/impact/</guid>
+      <description> Impact Doing the right thing is infinitely more important than doing something.
+ https://news.ycombinator.com/item?id=28025693  </description>
     </item>
     
     <item>
