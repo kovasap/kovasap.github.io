@@ -103,6 +103,11 @@
   </url>
   
   <url>
+    <loc>https://kovasap.github.io/docs/health-and-longevity/avoiding-accidents/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kovasap.github.io/docs/health-and-longevity/cgm/</loc>
     <priority>0</priority>
   </url>
@@ -178,6 +183,11 @@
   </url>
   
   <url>
+    <loc>https://kovasap.github.io/docs/investing-and-finances/financial-independence/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kovasap.github.io/docs/investing-and-finances/housing/</loc>
     <priority>0</priority>
   </url>
@@ -219,6 +229,11 @@
   
   <url>
     <loc>https://kovasap.github.io/docs/lifestyle-optimizations/phone-case/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/lifestyle-optimizations/taut-line-hitch/</loc>
     <priority>0</priority>
   </url>
   
