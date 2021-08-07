@@ -198,6 +198,11 @@
   </url>
   
   <url>
+    <loc>https://kovasap.github.io/docs/investing-and-finances/monthly-costs-of-car-ownership/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kovasap.github.io/docs/investing-and-finances/strategies/</loc>
     <priority>0</priority>
   </url>
@@ -289,6 +294,11 @@
   
   <url>
     <loc>https://kovasap.github.io/docs/mind/motivation/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/mind/things-to-do-when-unmotivated/</loc>
     <priority>0</priority>
   </url>
   
