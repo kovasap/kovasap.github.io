@@ -318,6 +318,11 @@
   </url>
   
   <url>
+    <loc>https://kovasap.github.io/docs/random-ideas/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kovasap.github.io/docs/rhetoric/</loc>
     <priority>0</priority>
   </url>
