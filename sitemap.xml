@@ -58,6 +58,10 @@
   </url>
   
   <url>
+    <loc>https://kovasap.github.io/docs/datavis/seattle-rain/</loc>
+  </url>
+  
+  <url>
     <loc>https://kovasap.github.io/docs/gamedev/common-patterns/</loc>
     <priority>0</priority>
   </url>

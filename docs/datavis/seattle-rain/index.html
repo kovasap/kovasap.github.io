@@ -4,15 +4,12 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:title" content="" />
-<meta property="og:description" content="Personal Data Management and Tracking Tools Google Drive Excellent generous free storage, with good integrations.
-Cronometer Excellent free and detailed food tracking. If you want to use the free plan, https://pi-hole.net/ is really helpful to make the app more usable.
-ActivityWatch Superb way to track computer and phone usage. Great UI and general feature set.
-See also https://karpathy.github.io/2014/08/03/quantifying-productivity/.
-Heart Rate Monitoring I have yet to find a good solution here." />
+<meta property="og:description" content="Rain in Seattle As I&rsquo;ve experience Seattle weather day to day, my mind has come up with random theories for periods of the day (morning, afternoon) when it rains the most/least. This is important to me enough to think about because I commute by bike. Dodging the rain is really nice when possible so that I don&rsquo;t get as wet on the way to work.
+Unfortunately, there doesn&rsquo;t seem to be much correlation at all with time of day and precipitation." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://kovasap.github.io/docs/lifestyle-optimizations/personal-data-tracking/" />
+<meta property="og:url" content="https://kovasap.github.io/docs/datavis/seattle-rain/" />
 
-<title>Personal Data Tracking | Things to Remember</title>
+<title>Seattle Rain | Things to Remember</title>
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 
 
@@ -38,6 +35,8 @@ https://github.com/alex-shpak/hugo-book
 -->
 
   
+
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
 
 </head>
@@ -109,7 +108,7 @@ https://github.com/alex-shpak/hugo-book
   <li><em>Projects and tricks that make my life run smoothly.</em></li>
   <li><a href="/docs/lifestyle-optimizations/website/">This Website</a></li>
   <li><a href="/docs/lifestyle-optimizations/computing-config/">My Computer Configuration (dotfiles)</a></li>
-  <li><a href="/docs/lifestyle-optimizations/personal-data-tracking/"class=active>Personal Data Tracking</a></li>
+  <li><a href="/docs/lifestyle-optimizations/personal-data-tracking/">Personal Data Tracking</a></li>
   <li><a href="/docs/lifestyle-optimizations/hang-drying-cloths/">Hang Drying Cloths</a></li>
   <li><a href="/docs/lifestyle-optimizations/taut-line-hitch/">Taut-line hitch (most useful knot I know)</a></li>
   <li><a href="/docs/lifestyle-optimizations/phone-case/">Phone Case</a></li>
@@ -121,7 +120,7 @@ https://github.com/alex-shpak/hugo-book
   <li><a href="/docs/music/" >Cool Music</a></li>
 </ul></details></li>
 <li><details><summary><strong>Data Visualization</strong></summary><ul>
-  <li><a href="/docs/datavis/seattle-rain/">Rain in Seattle</a></li>
+  <li><a href="/docs/datavis/seattle-rain/"class=active>Rain in Seattle</a></li>
 </ul></details></li>
 <li><details><summary><strong>Hydroponics</strong></summary><ul>
   <li><a href="/docs/hydroponics/my-setup/" >My Setup</a></li>
@@ -185,48 +184,73 @@ https://github.com/alex-shpak/hugo-book
   <label for="menu-control">
     <img src="/svg/menu.svg" alt="Menu" />
   </label>
-  <strong>Personal Data Tracking</strong>
+  <strong>Seattle Rain</strong>
 </header>
 
       
 <article class="markdown">
 
-<h1 id="personal-data-management-and-tracking-tools">Personal Data Management and Tracking Tools</h1>
+<h1 id="rain-in-seattle">Rain in Seattle</h1>
 
-<h2 id="google-drive-https-drive-google-com"><a href="https://drive.google.com">Google Drive</a></h2>
+<p>As I&rsquo;ve experience Seattle weather day to day, my mind has come up with random
+theories for periods of the day (morning, afternoon) when it rains the
+most/least. This is important to me enough to think about because I commute by
+bike. Dodging the rain is really nice when possible so that I don&rsquo;t get as wet
+on the way to work.</p>
 
-<p>Excellent generous free storage, with good integrations.</p>
+<p><strong>Unfortunately, there doesn&rsquo;t seem to be much correlation at all with time of
+day and precipitation.</strong> Read on to see how I discovered this&hellip;</p>
 
-<h2 id="cronometer-https-cronometer-com"><a href="https://cronometer.com/">Cronometer</a></h2>
+<h2 id="data">Data</h2>
 
-<p>Excellent free and <em>detailed</em> food tracking.  If you want to use the free plan,
-<a href="https://pi-hole.net/">https://pi-hole.net/</a> is really helpful to make the app more usable.</p>
+<p>I thought I&rsquo;d try answering the question once and for all by looking at some
+weather station data.  I first tried getting data via this service:
+<a href="https://www.ncdc.noaa.gov/cdo-web/datasets">https://www.ncdc.noaa.gov/cdo-web/datasets</a>.  Unfortunately, the data I got was
+pretty inconsistent. I talked to a meteorologist from NOAA via their help email
+and was redirected to some <a href="https://www1.ncdc.noaa.gov/pub/data/hpd/auto/v2/beta/15min/">beta
+data</a>. For this
+data, I needed to pick a station, so I looked in the <code>hpd-stations-inventory</code>
+file and found a list of Washington stations with coordinates. I loaded these
+up using <a href="https://webapps.stackexchange.com/a/102780">Google Maps</a> and found
+that the Everett station was the closest one to Seattle (there was no station
+in Seattle proper 🙁). Then I found and downloaded the file corresponding to
+this station ID (USC00452675).</p>
 
-<h2 id="activitywatch-https-activitywatch-net"><a href="https://activitywatch.net/">ActivityWatch</a></h2>
+<h2 id="analysis">Analysis</h2>
 
-<p>Superb way to track computer and phone usage. Great UI and general feature set.</p>
+<p>I analyzed the data using plotly with <a href="https://github.com/kovasap/weather-data">this
+code</a>. This code calculates the
+probability that it will rain in all the historical data during any given
+15-minute interval and plots that number, with error bars given as the standard
+deviation.  I first did data from 2019-2021 for speed of processing&hellip;</p>
 
-<p>See also <a href="https://karpathy.github.io/2014/08/03/quantifying-productivity/">https://karpathy.github.io/2014/08/03/quantifying-productivity/</a>.</p>
 
-<h2 id="heart-rate-monitoring">Heart Rate Monitoring</h2>
 
-<p>I have yet to find a good solution here.  Notes:</p>
 
-<ul>
-<li><a href="https://forum.quantifiedself.com/t/heart-rate-monitor-recommendations-for-24-7-continuous-monitoring-and-logging/327/57">https://forum.quantifiedself.com/t/heart-rate-monitor-recommendations-for-24-7-continuous-monitoring-and-logging/327/57</a></li>
-</ul>
+<div id="/USC00452675.15m.2019-2021.csv.json" class="plotly" style="height:1800px maxHeight:1800px"></div>
+<script>
+Plotly.d3.json("/USC00452675.15m.2019-2021.csv.json", function(err, fig) {
+    Plotly.plot('\/USC00452675.15m.2019-2021.csv.json', fig.data, fig.layout, {responsive: false});
+});
+</script>
 
-<h2 id="manual-general-purpose-tracking">Manual General-Purpose Tracking</h2>
 
-<p><a href="https://v5.nomie.app/">Nomie</a> presents a clean UI with lots of customizability
-and some kind of magical syncing using blockchain.  Haven&rsquo;t used extensively
-yet, but very impressed so far!</p>
+<p>&hellip;and I saw some trends! Especially in August and July it looked like it
+didn&rsquo;t ever rain in the afternoon. This got me excited to think I&rsquo;d learned
+something, so I ran with more data (2000-2021)&hellip;</p>
 
-<h2 id="interesting-ideas-to-try">Interesting Ideas To Try</h2>
 
-<ul>
-<li>Mood tracking via heart data: <a href="https://upmood.com/">https://upmood.com/</a></li>
-</ul>
+
+
+<div id="/USC00452675.15m.2000-2021.csv.json" class="plotly" style="height:1800px maxHeight:1800px"></div>
+<script>
+Plotly.d3.json("/USC00452675.15m.2000-2021.csv.json", function(err, fig) {
+    Plotly.plot('\/USC00452675.15m.2000-2021.csv.json', fig.data, fig.layout, {responsive: false});
+});
+</script>
+
+
+<p>&hellip;and everything averaged out 😦.</p>
 </article>
 
       
@@ -240,14 +264,10 @@ yet, but very impressed so far!</p>
   <aside class="book-toc levels-6 fixed">
     <nav id="TableOfContents">
 <ul>
-<li><a href="#personal-data-management-and-tracking-tools">Personal Data Management and Tracking Tools</a>
+<li><a href="#rain-in-seattle">Rain in Seattle</a>
 <ul>
-<li><a href="#google-drive-https-drive-google-com"><a href="https://drive.google.com">Google Drive</a></a></li>
-<li><a href="#cronometer-https-cronometer-com"><a href="https://cronometer.com/">Cronometer</a></a></li>
-<li><a href="#activitywatch-https-activitywatch-net"><a href="https://activitywatch.net/">ActivityWatch</a></a></li>
-<li><a href="#heart-rate-monitoring">Heart Rate Monitoring</a></li>
-<li><a href="#manual-general-purpose-tracking">Manual General-Purpose Tracking</a></li>
-<li><a href="#interesting-ideas-to-try">Interesting Ideas To Try</a></li>
+<li><a href="#data">Data</a></li>
+<li><a href="#analysis">Analysis</a></li>
 </ul></li>
 </ul>
 </nav>
