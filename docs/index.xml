@@ -7,47 +7,6 @@
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://kovasap.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/art/double-helix/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/art/double-helix/</guid>
-      <description>Double Helix #    </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/art/generative-art/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/art/generative-art/</guid>
-      <description>Generative Art #  Inspiration #  I was originally inspired to work on generative art after viewing this blog: https://beesandbombs.tumblr.com/. I find it fun to try to imagine how each of these gifs were generated - each one is like a visual puzzle.
-My Art #  Click on each piece to see it in motion!
-
- Note this was done from a tutorial - it&#39;s not an original!</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/art/judging-art/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/art/judging-art/</guid>
-      <description>Judging Art #  How can you tell what art is high quality and/or worth consuming?
-Reviews #  Good, but can be biased by competing interests.
-Meaning #  It would be cool to ask many people to give a ranked list of the 50 most meaningful experiences in their lives. From this, you could extract art entries and rank them by their occurrence, which would probably give a good list of what is worth experiencing yourself.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/art/perlin-flow/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/art/perlin-flow/</guid>
-      <description>Perlin Flow #    </description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://kovasap.github.io/docs/climbing/event-reports/2019-10-7-namaste-wall-zion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -135,6 +94,15 @@ Reading this made me think of the process of climbing, which has many such steps
       <guid>https://kovasap.github.io/docs/datavis/seattle-rain/</guid>
       <description>Rain in Seattle #  As I&amp;rsquo;ve experience Seattle weather day to day, my mind has come up with random theories for periods of the day (morning, afternoon) when it rains the most/least. This is important to me enough to think about because I commute by bike. Dodging the rain is really nice when possible so that I don&amp;rsquo;t get as wet on the way to work.
 Unfortunately, there doesn&amp;rsquo;t seem to be much correlation at all with time of day and precipitation.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/favorite-music/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/favorite-music/</guid>
+      <description>My Favorite Music #  Flow/Immersive #   hubris. jakob God is an Astronaut Night Verses Intervals 65daysofstatic Unprocessed  Pump #   Russian Circles Zeal and Ardor  Catchy #   Tender Metal Mother Pair of Arrows Neon Trees  Chill/Background #   Ratatat El Ten Eleven Glitch Mob Tim Hecker Nick Johnston  </description>
     </item>
     
     <item>
@@ -675,16 +643,6 @@ Not only is it hard work to do this model-sharing, but it can create cognitive d
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/music/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/music/</guid>
-      <description>Music #  Roughly ordered by current into-ness.
-Flow/Immersive #   hubris. jakob God is an Astronaut Night Verses Intervals 65daysofstatic Unprocessed  Pump #   Russian Circles Zeal and Ardor  Catchy #   Tender Metal Mother Pair of Arrows Neon Trees  Chill/Background #   Ratatat El Ten Eleven Glitch Mob Tim Hecker Nick Johnston  </description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://kovasap.github.io/docs/podcasts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -818,6 +776,47 @@ Antifragile by Nassim Taleb #  Really insightful book into types of systems in t
       
       <guid>https://kovasap.github.io/docs/understanding-the-world/what-to-believe/</guid>
       <description>What to Believe #  In order to make good decisions, people need to build an understanding of how the world works by gathering information. Luckily, it is getting easier and easier to do this as technology becomes more and more efficient at sending data around the world. Unfortunately, simply gathering information is not enough; one must also make sure that the information is of high enough quality to use in world modelling or decision making.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/visual-art/double-helix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/visual-art/double-helix/</guid>
+      <description>Double Helix #    </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/visual-art/generative-art/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/visual-art/generative-art/</guid>
+      <description>Generative Art #  Inspiration #  I was originally inspired to work on generative art after viewing this blog: https://beesandbombs.tumblr.com/. I find it fun to try to imagine how each of these gifs were generated - each one is like a visual puzzle.
+My Art #  Click on each piece to see it in motion!
+
+ Note this was done from a tutorial - it&#39;s not an original!</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/visual-art/judging-art/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/visual-art/judging-art/</guid>
+      <description>Judging Art #  How can you tell what art is high quality and/or worth consuming?
+Reviews #  Good, but can be biased by competing interests.
+Meaning #  It would be cool to ask many people to give a ranked list of the 50 most meaningful experiences in their lives. From this, you could extract art entries and rank them by their occurrence, which would probably give a good list of what is worth experiencing yourself.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/visual-art/perlin-flow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/visual-art/perlin-flow/</guid>
+      <description>Perlin Flow #    </description>
     </item>
     
   </channel>

@@ -3,22 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://kovasap.github.io/docs/art/double-helix/</loc>
-  </url>
-  
-  <url>
-    <loc>https://kovasap.github.io/docs/art/generative-art/</loc>
-  </url>
-  
-  <url>
-    <loc>https://kovasap.github.io/docs/art/judging-art/</loc>
-  </url>
-  
-  <url>
-    <loc>https://kovasap.github.io/docs/art/perlin-flow/</loc>
-  </url>
-  
-  <url>
     <loc>https://kovasap.github.io/docs/climbing/event-reports/2019-10-7-namaste-wall-zion/</loc>
   </url>
   
@@ -52,6 +36,10 @@
   
   <url>
     <loc>https://kovasap.github.io/docs/datavis/seattle-rain/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/favorite-music/</loc>
   </url>
   
   <url>
@@ -267,10 +255,6 @@
   </url>
   
   <url>
-    <loc>https://kovasap.github.io/docs/music/</loc>
-  </url>
-  
-  <url>
     <loc>https://kovasap.github.io/docs/podcasts/</loc>
   </url>
   
@@ -324,6 +308,22 @@
   
   <url>
     <loc>https://kovasap.github.io/docs/understanding-the-world/what-to-believe/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/visual-art/double-helix/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/visual-art/generative-art/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/visual-art/judging-art/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kovasap.github.io/docs/visual-art/perlin-flow/</loc>
   </url>
   
   <url>
