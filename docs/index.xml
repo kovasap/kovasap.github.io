@@ -455,6 +455,16 @@ On Linux #  I use Redshift to keep my screen at a low temperature (low 3000Ks).<
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/lifestyle-optimizations/energy-monitoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/energy-monitoring/</guid>
+      <description>(Home) Energy Monitoring #  This is a project I haven&amp;rsquo;t completed yet, but want to. The ultimate goal is to get a realtime datafeed of total home power usage, so I can have more direct feedback to how my appliance usage effects power consumption.
+Options: #   All-in-one solution: https://www.amazon.com/Aeotec-Energy-Z-Wave-electricity-monitor/dp/B00XD8WZX6?pldnSite=1#customerReviews DIY power monitoring: https://power-monitor.dalbrecht.tech/overview/ Open source system: https://guide.openenergymonitor.org/setup/  </description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/lifestyle-optimizations/hang-drying-cloths/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -462,6 +472,15 @@ On Linux #  I use Redshift to keep my screen at a low temperature (low 3000Ks).<
       <description>Hang (Air) Drying Cloths #  I&amp;rsquo;ve found that hang drying cloths over using a cloths dryer has some pretty neat advantages:
 Less Work #  IF you hang dry your cloths in a place where they can stay indefinitely, then hang drying leads to this laundry workflow:
  Wash cloths Hang dry - this must happen now because cloths are wet! Easily find what you want to wear (since everything is hanging up) and wear it.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/lifestyle-optimizations/internet-troubleshooting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/internet-troubleshooting/</guid>
+      <description>Internet and Home Network Troubleshooting #  Lag when playing games #  When downloading stuff and playing games at the same time, the game&amp;rsquo;s packets can be queued behind the download&amp;rsquo;s packets, causing lag. This can be measured with this test: https://www.waveform.com/tools/bufferbloat. QoS and SQM are router features that can be enabled from the router&amp;rsquo;s web interface that are supposed to help with this. https://www.bufferbloat.net/projects/bloat/wiki/What_can_I_do_about_Bufferbloat/ is another good resource.</description>
     </item>
     
     <item>
