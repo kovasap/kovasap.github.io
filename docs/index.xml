@@ -773,6 +773,17 @@ The library/tooling ecosystem around the language. Some very non-ergonomic langu
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/thought-experiments/two-glasses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/thought-experiments/two-glasses/</guid>
+      <description>Mixing Milk Tea #  Given a glass of tea and a glass of (almond) milk, each 9/10ths full, how many times would you need to mix the glasses for each to contain a 50% mixture of tea and milk?
+This python code:
+max_size = 10 a_volume, a_tea_fraction = 9, 1.0 b_volume, b_tea_fraction = 9, 0.0 mixes = 0 while a_tea_fraction &amp;gt; 0.51: mixes += 1 print(mixes, a_tea_fraction, b_tea_fraction) if a_volume !</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/understanding-the-world/applying-theories/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
