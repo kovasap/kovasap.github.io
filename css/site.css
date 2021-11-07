@@ -33,6 +33,9 @@ a:hover {
   text-decoration: underline;
 }
 
+.dev-notes {
+  font-size: 0.7em;
+}
 
 foreignObject {
   overflow: visible;
