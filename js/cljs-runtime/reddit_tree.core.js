@@ -3,8 +3,8 @@ reddit_tree.core.print_comment_bodies = (function reddit_tree$core$print_comment
 cljs.core.prn.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"body","body",-2049205669).cljs$core$IFn$_invoke$arity$1(comments_json)], 0));
 
 if(cljs.core.truth_(new cljs.core.Keyword(null,"data","data",-232669377).cljs$core$IFn$_invoke$arity$1(comments_json))){
-var G__30870 = new cljs.core.Keyword(null,"data","data",-232669377).cljs$core$IFn$_invoke$arity$1(comments_json);
-return (reddit_tree.core.print_comment_bodies.cljs$core$IFn$_invoke$arity$1 ? reddit_tree.core.print_comment_bodies.cljs$core$IFn$_invoke$arity$1(G__30870) : reddit_tree.core.print_comment_bodies.call(null,G__30870));
+var G__31524 = new cljs.core.Keyword(null,"data","data",-232669377).cljs$core$IFn$_invoke$arity$1(comments_json);
+return (reddit_tree.core.print_comment_bodies.cljs$core$IFn$_invoke$arity$1 ? reddit_tree.core.print_comment_bodies.cljs$core$IFn$_invoke$arity$1(G__31524) : reddit_tree.core.print_comment_bodies.call(null,G__31524));
 } else {
 if(cljs.core.truth_(new cljs.core.Keyword(null,"children","children",-940561982).cljs$core$IFn$_invoke$arity$1(comments_json))){
 return cljs.core.mapv.cljs$core$IFn$_invoke$arity$2(reddit_tree.core.print_comment_bodies,new cljs.core.Keyword(null,"children","children",-940561982).cljs$core$IFn$_invoke$arity$1(comments_json));
@@ -18,14 +18,14 @@ return null;
  */
 reddit_tree.core._QMARK_assoc = (function reddit_tree$core$_QMARK_assoc(var_args){
 var args__4824__auto__ = [];
-var len__4818__auto___30925 = arguments.length;
-var i__4819__auto___30926 = (0);
+var len__4818__auto___31579 = arguments.length;
+var i__4819__auto___31580 = (0);
 while(true){
-if((i__4819__auto___30926 < len__4818__auto___30925)){
-args__4824__auto__.push((arguments[i__4819__auto___30926]));
+if((i__4819__auto___31580 < len__4818__auto___31579)){
+args__4824__auto__.push((arguments[i__4819__auto___31580]));
 
-var G__30927 = (i__4819__auto___30926 + (1));
-i__4819__auto___30926 = G__30927;
+var G__31581 = (i__4819__auto___31580 + (1));
+i__4819__auto___31580 = G__31581;
 continue;
 } else {
 }
@@ -43,11 +43,11 @@ return cljs.core.into.cljs$core$IFn$_invoke$arity$2(m,cljs.core.map.cljs$core$IF
 (reddit_tree.core._QMARK_assoc.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(reddit_tree.core._QMARK_assoc.cljs$lang$applyTo = (function (seq30871){
-var G__30872 = cljs.core.first(seq30871);
-var seq30871__$1 = cljs.core.next(seq30871);
+(reddit_tree.core._QMARK_assoc.cljs$lang$applyTo = (function (seq31525){
+var G__31526 = cljs.core.first(seq31525);
+var seq31525__$1 = cljs.core.next(seq31525);
 var self__4805__auto__ = this;
-return self__4805__auto__.cljs$core$IFn$_invoke$arity$variadic(G__30872,seq30871__$1);
+return self__4805__auto__.cljs$core$IFn$_invoke$arity$variadic(G__31526,seq31525__$1);
 }));
 
 reddit_tree.core.is_map = (function reddit_tree$core$is_map(thing){
@@ -59,10 +59,10 @@ return (((thing instanceof cljs.core.PersistentHashMap)) || ((thing instanceof c
 reddit_tree.core.simplify_comment_tree = (function reddit_tree$core$simplify_comment_tree(comments_json){
 if(reddit_tree.core.is_map(comments_json)){
 var data = new cljs.core.Keyword(null,"data","data",-232669377).cljs$core$IFn$_invoke$arity$1(comments_json);
-return cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(reddit_tree.core._QMARK_assoc.cljs$core$IFn$_invoke$arity$variadic(data,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"children","children",-940561982),(cljs.core.truth_(new cljs.core.Keyword(null,"children","children",-940561982).cljs$core$IFn$_invoke$arity$1(data))?(function (){var G__30873 = new cljs.core.Keyword(null,"children","children",-940561982).cljs$core$IFn$_invoke$arity$1(data);
-return (reddit_tree.core.simplify_comment_tree.cljs$core$IFn$_invoke$arity$1 ? reddit_tree.core.simplify_comment_tree.cljs$core$IFn$_invoke$arity$1(G__30873) : reddit_tree.core.simplify_comment_tree.call(null,G__30873));
-})():((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("",new cljs.core.Keyword(null,"replies","replies",-1389888974).cljs$core$IFn$_invoke$arity$1(data)))?cljs.core.PersistentVector.EMPTY:((reddit_tree.core.is_map(new cljs.core.Keyword(null,"replies","replies",-1389888974).cljs$core$IFn$_invoke$arity$1(data)))?(function (){var G__30874 = new cljs.core.Keyword(null,"children","children",-940561982).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"data","data",-232669377).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"replies","replies",-1389888974).cljs$core$IFn$_invoke$arity$1(data)));
-return (reddit_tree.core.simplify_comment_tree.cljs$core$IFn$_invoke$arity$1 ? reddit_tree.core.simplify_comment_tree.cljs$core$IFn$_invoke$arity$1(G__30874) : reddit_tree.core.simplify_comment_tree.call(null,G__30874));
+return cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(reddit_tree.core._QMARK_assoc.cljs$core$IFn$_invoke$arity$variadic(data,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"children","children",-940561982),(cljs.core.truth_(new cljs.core.Keyword(null,"children","children",-940561982).cljs$core$IFn$_invoke$arity$1(data))?(function (){var G__31527 = new cljs.core.Keyword(null,"children","children",-940561982).cljs$core$IFn$_invoke$arity$1(data);
+return (reddit_tree.core.simplify_comment_tree.cljs$core$IFn$_invoke$arity$1 ? reddit_tree.core.simplify_comment_tree.cljs$core$IFn$_invoke$arity$1(G__31527) : reddit_tree.core.simplify_comment_tree.call(null,G__31527));
+})():((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("",new cljs.core.Keyword(null,"replies","replies",-1389888974).cljs$core$IFn$_invoke$arity$1(data)))?cljs.core.PersistentVector.EMPTY:((reddit_tree.core.is_map(new cljs.core.Keyword(null,"replies","replies",-1389888974).cljs$core$IFn$_invoke$arity$1(data)))?(function (){var G__31528 = new cljs.core.Keyword(null,"children","children",-940561982).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"data","data",-232669377).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"replies","replies",-1389888974).cljs$core$IFn$_invoke$arity$1(data)));
+return (reddit_tree.core.simplify_comment_tree.cljs$core$IFn$_invoke$arity$1 ? reddit_tree.core.simplify_comment_tree.cljs$core$IFn$_invoke$arity$1(G__31528) : reddit_tree.core.simplify_comment_tree.call(null,G__31528));
 })():cljs.core.PersistentVector.EMPTY
 )))], 0)),new cljs.core.Keyword(null,"replies","replies",-1389888974));
 } else {
@@ -79,14 +79,14 @@ return comments_json;
  */
 reddit_tree.core.filter_fields = (function reddit_tree$core$filter_fields(var_args){
 var args__4824__auto__ = [];
-var len__4818__auto___30928 = arguments.length;
-var i__4819__auto___30929 = (0);
+var len__4818__auto___31582 = arguments.length;
+var i__4819__auto___31583 = (0);
 while(true){
-if((i__4819__auto___30929 < len__4818__auto___30928)){
-args__4824__auto__.push((arguments[i__4819__auto___30929]));
+if((i__4819__auto___31583 < len__4818__auto___31582)){
+args__4824__auto__.push((arguments[i__4819__auto___31583]));
 
-var G__30930 = (i__4819__auto___30929 + (1));
-i__4819__auto___30929 = G__30930;
+var G__31584 = (i__4819__auto___31583 + (1));
+i__4819__auto___31583 = G__31584;
 continue;
 } else {
 }
@@ -120,11 +120,11 @@ return comments_json;
 (reddit_tree.core.filter_fields.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(reddit_tree.core.filter_fields.cljs$lang$applyTo = (function (seq30875){
-var G__30876 = cljs.core.first(seq30875);
-var seq30875__$1 = cljs.core.next(seq30875);
+(reddit_tree.core.filter_fields.cljs$lang$applyTo = (function (seq31529){
+var G__31530 = cljs.core.first(seq31529);
+var seq31529__$1 = cljs.core.next(seq31529);
 var self__4805__auto__ = this;
-return self__4805__auto__.cljs$core$IFn$_invoke$arity$variadic(G__30876,seq30875__$1);
+return self__4805__auto__.cljs$core$IFn$_invoke$arity$variadic(G__31530,seq31529__$1);
 }));
 
 reddit_tree.core.example_data = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"children","children",-940561982),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"score","score",-1963588780),(2),new cljs.core.Keyword(null,"children","children",-940561982),cljs.core.PersistentVector.EMPTY], null)], null)], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"children","children",-940561982),new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"score","score",-1963588780),(1),new cljs.core.Keyword(null,"body","body",-2049205669),"A",new cljs.core.Keyword(null,"children","children",-940561982),cljs.core.PersistentVector.EMPTY], null),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"score","score",-1963588780),(1),new cljs.core.Keyword(null,"body","body",-2049205669),"B",new cljs.core.Keyword(null,"children","children",-940561982),cljs.core.PersistentVector.EMPTY], null),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"score","score",-1963588780),(1),new cljs.core.Keyword(null,"body","body",-2049205669),"C",new cljs.core.Keyword(null,"children","children",-940561982),cljs.core.PersistentVector.EMPTY], null),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"score","score",-1963588780),(0),new cljs.core.Keyword(null,"body","body",-2049205669),"D",new cljs.core.Keyword(null,"children","children",-940561982),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"score","score",-1963588780),(1),new cljs.core.Keyword(null,"body","body",-2049205669),"E",new cljs.core.Keyword(null,"children","children",-940561982),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"score","score",-1963588780),(2),new cljs.core.Keyword(null,"body","body",-2049205669),"F",new cljs.core.Keyword(null,"children","children",-940561982),cljs.core.PersistentVector.EMPTY], null)], null)], null),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"score","score",-1963588780),(1),new cljs.core.Keyword(null,"body","body",-2049205669),"G",new cljs.core.Keyword(null,"children","children",-940561982),cljs.core.PersistentVector.EMPTY], null)], null)], null)], null)], null)], null);
@@ -148,8 +148,8 @@ return ((x__4298__auto__ < y__4299__auto__) ? x__4298__auto__ : y__4299__auto__)
 return (reddit_tree.core.min_opacity + ((reddit_tree.core.max_opacity - reddit_tree.core.min_opacity) * time_frac));
 });
 reddit_tree.core.get_nodes = (function reddit_tree$core$get_nodes(var_args){
-var G__30878 = arguments.length;
-switch (G__30878) {
+var G__31532 = arguments.length;
+switch (G__31532) {
 case 1:
 return reddit_tree.core.get_nodes.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -204,9 +204,9 @@ return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"no
 reddit_tree.core.add_secs_after_op = (function reddit_tree$core$add_secs_after_op(post_data,comment_data){
 var op_time = new cljs.core.Keyword(null,"created","created",-704993748).cljs$core$IFn$_invoke$arity$1(cljs.core.first(new cljs.core.Keyword(null,"children","children",-940561982).cljs$core$IFn$_invoke$arity$1(post_data)));
 if(reddit_tree.core.is_map(comment_data)){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(comment_data,new cljs.core.Keyword(null,"secs-after-op","secs-after-op",-1126788048),(new cljs.core.Keyword(null,"created","created",-704993748).cljs$core$IFn$_invoke$arity$1(comment_data) - op_time),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"children","children",-940561982),(function (){var G__30879 = post_data;
-var G__30880 = new cljs.core.Keyword(null,"children","children",-940561982).cljs$core$IFn$_invoke$arity$1(comment_data);
-return (reddit_tree.core.add_secs_after_op.cljs$core$IFn$_invoke$arity$2 ? reddit_tree.core.add_secs_after_op.cljs$core$IFn$_invoke$arity$2(G__30879,G__30880) : reddit_tree.core.add_secs_after_op.call(null,G__30879,G__30880));
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(comment_data,new cljs.core.Keyword(null,"secs-after-op","secs-after-op",-1126788048),(new cljs.core.Keyword(null,"created","created",-704993748).cljs$core$IFn$_invoke$arity$1(comment_data) - op_time),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"children","children",-940561982),(function (){var G__31533 = post_data;
+var G__31534 = new cljs.core.Keyword(null,"children","children",-940561982).cljs$core$IFn$_invoke$arity$1(comment_data);
+return (reddit_tree.core.add_secs_after_op.cljs$core$IFn$_invoke$arity$2 ? reddit_tree.core.add_secs_after_op.cljs$core$IFn$_invoke$arity$2(G__31533,G__31534) : reddit_tree.core.add_secs_after_op.call(null,G__31533,G__31534));
 })()], 0));
 } else {
 if((comment_data instanceof cljs.core.PersistentVector)){
@@ -220,8 +220,8 @@ return comment_data;
 reddit_tree.core.get_max_time_secs = (function reddit_tree$core$get_max_time_secs(comment_data){
 if(reddit_tree.core.is_map(comment_data)){
 var x__4295__auto__ = new cljs.core.Keyword(null,"secs-after-op","secs-after-op",-1126788048).cljs$core$IFn$_invoke$arity$1(comment_data);
-var y__4296__auto__ = (function (){var G__30881 = new cljs.core.Keyword(null,"children","children",-940561982).cljs$core$IFn$_invoke$arity$1(comment_data);
-return (reddit_tree.core.get_max_time_secs.cljs$core$IFn$_invoke$arity$1 ? reddit_tree.core.get_max_time_secs.cljs$core$IFn$_invoke$arity$1(G__30881) : reddit_tree.core.get_max_time_secs.call(null,G__30881));
+var y__4296__auto__ = (function (){var G__31535 = new cljs.core.Keyword(null,"children","children",-940561982).cljs$core$IFn$_invoke$arity$1(comment_data);
+return (reddit_tree.core.get_max_time_secs.cljs$core$IFn$_invoke$arity$1 ? reddit_tree.core.get_max_time_secs.cljs$core$IFn$_invoke$arity$1(G__31535) : reddit_tree.core.get_max_time_secs.call(null,G__31535));
 })();
 return ((x__4295__auto__ > y__4296__auto__) ? x__4295__auto__ : y__4296__auto__);
 } else {
@@ -243,47 +243,47 @@ reddit_tree.core.reddit_comment_graph = reagent.core.atom.cljs$core$IFn$_invoke$
 reddit_tree.core.update_reddit_data_BANG_ = (function reddit_tree$core$update_reddit_data_BANG_(link){
 var c__26566__auto__ = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
 cljs.core.async.impl.dispatch.run((function (){
-var f__26567__auto__ = (function (){var switch__26543__auto__ = (function (state_30909){
-var state_val_30910 = (state_30909[(1)]);
-if((state_val_30910 === (1))){
-var inst_30882 = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(link),".json?limit=10000"].join('');
-var inst_30883 = [new cljs.core.Keyword(null,"with-credentials?","with-credentials?",-1773202222)];
-var inst_30884 = [false];
-var inst_30885 = cljs.core.PersistentHashMap.fromArrays(inst_30883,inst_30884);
-var inst_30886 = cljs_http.client.get.cljs$core$IFn$_invoke$arity$variadic(inst_30882,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([inst_30885], 0));
-var state_30909__$1 = state_30909;
-return cljs.core.async.impl.ioc_helpers.take_BANG_(state_30909__$1,(2),inst_30886);
+var f__26567__auto__ = (function (){var switch__26543__auto__ = (function (state_31563){
+var state_val_31564 = (state_31563[(1)]);
+if((state_val_31564 === (1))){
+var inst_31536 = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(link),".json?limit=10000"].join('');
+var inst_31537 = [new cljs.core.Keyword(null,"with-credentials?","with-credentials?",-1773202222)];
+var inst_31538 = [false];
+var inst_31539 = cljs.core.PersistentHashMap.fromArrays(inst_31537,inst_31538);
+var inst_31540 = cljs_http.client.get.cljs$core$IFn$_invoke$arity$variadic(inst_31536,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([inst_31539], 0));
+var state_31563__$1 = state_31563;
+return cljs.core.async.impl.ioc_helpers.take_BANG_(state_31563__$1,(2),inst_31540);
 } else {
-if((state_val_30910 === (2))){
-var inst_30888 = (state_30909[(2)]);
-var inst_30892 = new cljs.core.Keyword(null,"body","body",-2049205669).cljs$core$IFn$_invoke$arity$1(inst_30888);
-var inst_30893 = reddit_tree.core.filter_fields.cljs$core$IFn$_invoke$arity$variadic(inst_30892,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"title","title",636505583),new cljs.core.Keyword(null,"selftext","selftext",621378021),new cljs.core.Keyword(null,"score","score",-1963588780),new cljs.core.Keyword(null,"body","body",-2049205669),new cljs.core.Keyword(null,"replies","replies",-1389888974),new cljs.core.Keyword(null,"children","children",-940561982),new cljs.core.Keyword(null,"data","data",-232669377),new cljs.core.Keyword(null,"created","created",-704993748),new cljs.core.Keyword(null,"permalink","permalink",1009167849)], 0));
-var inst_30894 = reddit_tree.core.simplify_comment_tree(inst_30893);
-var inst_30895 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(inst_30894,(0),null);
-var inst_30896 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(inst_30894,(1),null);
-var inst_30897 = reddit_tree.core.add_secs_after_op(inst_30895,inst_30896);
-var inst_30898 = reddit_tree.core.get_max_time_secs(inst_30897);
-var inst_30899 = cljs.core.reset_BANG_(reddit_tree.core.max_time_secs,inst_30898);
-var inst_30900 = cljs.core.deref(reddit_tree.core.max_time_secs);
-var inst_30901 = cljs.core.reset_BANG_(reddit_tree.core.slider_secs_after_op,inst_30900);
-var inst_30902 = new cljs.core.Keyword(null,"children","children",-940561982).cljs$core$IFn$_invoke$arity$1(inst_30895);
-var inst_30903 = cljs.core.first(inst_30902);
-var inst_30904 = cljs.core.reset_BANG_(reddit_tree.core.reddit_post_data,inst_30903);
-var inst_30905 = cljs.core.reset_BANG_(reddit_tree.core.reddit_comment_data,inst_30897);
-var inst_30906 = reddit_tree.core.make_reddit_comment_data_into_graph(inst_30897);
-var inst_30907 = cljs.core.reset_BANG_(reddit_tree.core.reddit_comment_graph,inst_30906);
-var state_30909__$1 = (function (){var statearr_30911 = state_30909;
-(statearr_30911[(7)] = inst_30905);
+if((state_val_31564 === (2))){
+var inst_31542 = (state_31563[(2)]);
+var inst_31546 = new cljs.core.Keyword(null,"body","body",-2049205669).cljs$core$IFn$_invoke$arity$1(inst_31542);
+var inst_31547 = reddit_tree.core.filter_fields.cljs$core$IFn$_invoke$arity$variadic(inst_31546,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"title","title",636505583),new cljs.core.Keyword(null,"selftext","selftext",621378021),new cljs.core.Keyword(null,"score","score",-1963588780),new cljs.core.Keyword(null,"body","body",-2049205669),new cljs.core.Keyword(null,"replies","replies",-1389888974),new cljs.core.Keyword(null,"children","children",-940561982),new cljs.core.Keyword(null,"data","data",-232669377),new cljs.core.Keyword(null,"created","created",-704993748),new cljs.core.Keyword(null,"permalink","permalink",1009167849)], 0));
+var inst_31548 = reddit_tree.core.simplify_comment_tree(inst_31547);
+var inst_31549 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(inst_31548,(0),null);
+var inst_31550 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(inst_31548,(1),null);
+var inst_31551 = reddit_tree.core.add_secs_after_op(inst_31549,inst_31550);
+var inst_31552 = reddit_tree.core.get_max_time_secs(inst_31551);
+var inst_31553 = cljs.core.reset_BANG_(reddit_tree.core.max_time_secs,inst_31552);
+var inst_31554 = cljs.core.deref(reddit_tree.core.max_time_secs);
+var inst_31555 = cljs.core.reset_BANG_(reddit_tree.core.slider_secs_after_op,inst_31554);
+var inst_31556 = new cljs.core.Keyword(null,"children","children",-940561982).cljs$core$IFn$_invoke$arity$1(inst_31549);
+var inst_31557 = cljs.core.first(inst_31556);
+var inst_31558 = cljs.core.reset_BANG_(reddit_tree.core.reddit_post_data,inst_31557);
+var inst_31559 = cljs.core.reset_BANG_(reddit_tree.core.reddit_comment_data,inst_31551);
+var inst_31560 = reddit_tree.core.make_reddit_comment_data_into_graph(inst_31551);
+var inst_31561 = cljs.core.reset_BANG_(reddit_tree.core.reddit_comment_graph,inst_31560);
+var state_31563__$1 = (function (){var statearr_31565 = state_31563;
+(statearr_31565[(7)] = inst_31553);
 
-(statearr_30911[(8)] = inst_30899);
+(statearr_31565[(8)] = inst_31555);
 
-(statearr_30911[(9)] = inst_30904);
+(statearr_31565[(9)] = inst_31558);
 
-(statearr_30911[(10)] = inst_30901);
+(statearr_31565[(10)] = inst_31559);
 
-return statearr_30911;
+return statearr_31565;
 })();
-return cljs.core.async.impl.ioc_helpers.return_chan(state_30909__$1,inst_30907);
+return cljs.core.async.impl.ioc_helpers.return_chan(state_31563__$1,inst_31561);
 } else {
 return null;
 }
@@ -292,17 +292,17 @@ return null;
 return (function() {
 var reddit_tree$core$update_reddit_data_BANG__$_state_machine__26544__auto__ = null;
 var reddit_tree$core$update_reddit_data_BANG__$_state_machine__26544__auto____0 = (function (){
-var statearr_30912 = [null,null,null,null,null,null,null,null,null,null,null];
-(statearr_30912[(0)] = reddit_tree$core$update_reddit_data_BANG__$_state_machine__26544__auto__);
+var statearr_31566 = [null,null,null,null,null,null,null,null,null,null,null];
+(statearr_31566[(0)] = reddit_tree$core$update_reddit_data_BANG__$_state_machine__26544__auto__);
 
-(statearr_30912[(1)] = (1));
+(statearr_31566[(1)] = (1));
 
-return statearr_30912;
+return statearr_31566;
 });
-var reddit_tree$core$update_reddit_data_BANG__$_state_machine__26544__auto____1 = (function (state_30909){
+var reddit_tree$core$update_reddit_data_BANG__$_state_machine__26544__auto____1 = (function (state_31563){
 while(true){
 var ret_value__26545__auto__ = (function (){try{while(true){
-var result__26546__auto__ = switch__26543__auto__(state_30909);
+var result__26546__auto__ = switch__26543__auto__(state_31563);
 if(cljs.core.keyword_identical_QMARK_(result__26546__auto__,new cljs.core.Keyword(null,"recur","recur",-437573268))){
 continue;
 } else {
@@ -310,14 +310,14 @@ return result__26546__auto__;
 }
 break;
 }
-}catch (e30913){var ex__26547__auto__ = e30913;
-var statearr_30914_30932 = state_30909;
-(statearr_30914_30932[(2)] = ex__26547__auto__);
+}catch (e31567){var ex__26547__auto__ = e31567;
+var statearr_31568_31586 = state_31563;
+(statearr_31568_31586[(2)] = ex__26547__auto__);
 
 
-if(cljs.core.seq((state_30909[(4)]))){
-var statearr_30915_30933 = state_30909;
-(statearr_30915_30933[(1)] = cljs.core.first((state_30909[(4)])));
+if(cljs.core.seq((state_31563[(4)]))){
+var statearr_31569_31587 = state_31563;
+(statearr_31569_31587[(1)] = cljs.core.first((state_31563[(4)])));
 
 } else {
 throw ex__26547__auto__;
@@ -326,8 +326,8 @@ throw ex__26547__auto__;
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
 }})();
 if(cljs.core.keyword_identical_QMARK_(ret_value__26545__auto__,new cljs.core.Keyword(null,"recur","recur",-437573268))){
-var G__30934 = state_30909;
-state_30909 = G__30934;
+var G__31588 = state_31563;
+state_31563 = G__31588;
 continue;
 } else {
 return ret_value__26545__auto__;
@@ -335,12 +335,12 @@ return ret_value__26545__auto__;
 break;
 }
 });
-reddit_tree$core$update_reddit_data_BANG__$_state_machine__26544__auto__ = function(state_30909){
+reddit_tree$core$update_reddit_data_BANG__$_state_machine__26544__auto__ = function(state_31563){
 switch(arguments.length){
 case 0:
 return reddit_tree$core$update_reddit_data_BANG__$_state_machine__26544__auto____0.call(this);
 case 1:
-return reddit_tree$core$update_reddit_data_BANG__$_state_machine__26544__auto____1.call(this,state_30909);
+return reddit_tree$core$update_reddit_data_BANG__$_state_machine__26544__auto____1.call(this,state_31563);
 }
 throw(new Error('Invalid arity: ' + arguments.length));
 };
@@ -349,10 +349,10 @@ reddit_tree$core$update_reddit_data_BANG__$_state_machine__26544__auto__.cljs$co
 return reddit_tree$core$update_reddit_data_BANG__$_state_machine__26544__auto__;
 })()
 })();
-var state__26568__auto__ = (function (){var statearr_30916 = f__26567__auto__();
-(statearr_30916[(6)] = c__26566__auto__);
+var state__26568__auto__ = (function (){var statearr_31570 = f__26567__auto__();
+(statearr_31570[(6)] = c__26566__auto__);
 
-return statearr_30916;
+return statearr_31570;
 })();
 return cljs.core.async.impl.ioc_helpers.run_state_machine_wrapped(state__26568__auto__);
 }));
@@ -400,6 +400,17 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(node,new cljs.core.Keyword(
 }));
 })], null)], null);
 });
+reddit_tree.core.secs_after_op_slider = (function reddit_tree$core$secs_after_op_slider(value,max){
+return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"input","input",556931961),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"type","type",1174270348),"range",new cljs.core.Keyword(null,"value","value",305978217),value,new cljs.core.Keyword(null,"min","min",444991522),(0),new cljs.core.Keyword(null,"max","max",61366548),max,new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"width","width",-384071477),"100%"], null),new cljs.core.Keyword(null,"on-change","on-change",-732046149),(function (e){
+var new_value = e.target.value;
+cljs.core.reset_BANG_(reddit_tree.core.slider_secs_after_op,new_value);
+
+return reddit_tree.core.update_nodes_BANG_((function (node){
+var selected_by_slider = ((0) <= (cljs.core.deref(reddit_tree.core.slider_secs_after_op) - new cljs.core.Keyword(null,"secs-after-op","secs-after-op",-1126788048).cljs$core$IFn$_invoke$arity$1(node)));
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(node,new cljs.core.Keyword(null,"opacity","opacity",397153780),((selected_by_slider)?(1):(0)));
+}));
+})], null)], null);
+});
 /**
  * Converts seconds to a string with hours, minutes, and seconds.
  */
@@ -416,22 +427,22 @@ var input_value = reagent.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.nth.
 reddit_tree.core.update_reddit_data_BANG_(cljs.core.deref(input_value));
 
 return (function (){
-return new cljs.core.PersistentVector(null, 8, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h2","h2",-372662728),"Reddit Comment Analyzer"], null),new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p","p",151049309),"Enter URL Here:",new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"br","br",934104792)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [reddit_tree.core.url_input,input_value], null)], null),new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"b","b",1482224470),new cljs.core.Keyword(null,"title","title",636505583).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(reddit_tree.core.reddit_post_data))], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"br","br",934104792)], null)," posted on ",reddit_tree.core.format_reddit_timestamp(new cljs.core.Keyword(null,"created","created",-704993748).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(reddit_tree.core.reddit_post_data)))], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p","p",151049309),"Time after OP (slider uses log scale): ",reddit_tree.core.secs_to_days_hrs_mins_secs_str(cljs.core.deref(reddit_tree.core.slider_secs_after_op))], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [reddit_tree.core.secs_after_op_log_slider,cljs.core.deref(reddit_tree.core.slider_secs_after_op),cljs.core.deref(reddit_tree.core.max_time_secs)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [reddit_tree.graph.viz,reagent.core.track.cljs$core$IFn$_invoke$arity$variadic(reddit_tree.graph.prechew,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([reddit_tree.core.reddit_comment_graph], 0))], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p","p",151049309),"Double click on nodes to go directly to the comment they ","represent."], null),new cljs.core.PersistentVector(null, 8, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p","p",151049309),"Each node in the graph is a comment. The nodes are sized by ","their score (upvotes - downvotes). Their opacity represents ","their posting time relative to the original post (OP) - darker ","is older (closer to OP). All comments will have the same ","(minimum) opacity if they were posted more than ",goog.string.format("%.2f",(((cljs.core.deref(reddit_tree.core.max_time_secs) / (60)) / (60)) / (24)))," days after the original post."], null),new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),cljs.core.count(new cljs.core.Keyword(null,"nodes","nodes",-2099585805).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(reddit_tree.core.reddit_comment_graph)))," total comments,",new cljs.core.PersistentVector(null, 9, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"ul","ul",-1349521403),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"li","li",723558921),cljs.core.count(cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__30917_SHARP_){
-return (new cljs.core.Keyword(null,"score","score",-1963588780).cljs$core$IFn$_invoke$arity$1(p1__30917_SHARP_) >= (1000));
-}),new cljs.core.Keyword(null,"nodes","nodes",-2099585805).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(reddit_tree.core.reddit_comment_graph))))," with score greater than 1000,"], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"li","li",723558921),cljs.core.count(cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__30918_SHARP_){
-return ((((99) < new cljs.core.Keyword(null,"score","score",-1963588780).cljs$core$IFn$_invoke$arity$1(p1__30918_SHARP_))) && ((new cljs.core.Keyword(null,"score","score",-1963588780).cljs$core$IFn$_invoke$arity$1(p1__30918_SHARP_) < (1001))));
-}),new cljs.core.Keyword(null,"nodes","nodes",-2099585805).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(reddit_tree.core.reddit_comment_graph))))," with score between 100 and 1000,"], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"li","li",723558921),cljs.core.count(cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__30919_SHARP_){
-return ((((49) < new cljs.core.Keyword(null,"score","score",-1963588780).cljs$core$IFn$_invoke$arity$1(p1__30919_SHARP_))) && ((new cljs.core.Keyword(null,"score","score",-1963588780).cljs$core$IFn$_invoke$arity$1(p1__30919_SHARP_) < (101))));
-}),new cljs.core.Keyword(null,"nodes","nodes",-2099585805).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(reddit_tree.core.reddit_comment_graph))))," with score between 50 and 100,"], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"li","li",723558921),cljs.core.count(cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__30920_SHARP_){
-return ((((14) < new cljs.core.Keyword(null,"score","score",-1963588780).cljs$core$IFn$_invoke$arity$1(p1__30920_SHARP_))) && ((new cljs.core.Keyword(null,"score","score",-1963588780).cljs$core$IFn$_invoke$arity$1(p1__30920_SHARP_) < (51))));
-}),new cljs.core.Keyword(null,"nodes","nodes",-2099585805).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(reddit_tree.core.reddit_comment_graph))))," with score between 15 and 50,"], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"li","li",723558921),cljs.core.count(cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__30921_SHARP_){
-return ((((6) < new cljs.core.Keyword(null,"score","score",-1963588780).cljs$core$IFn$_invoke$arity$1(p1__30921_SHARP_))) && ((new cljs.core.Keyword(null,"score","score",-1963588780).cljs$core$IFn$_invoke$arity$1(p1__30921_SHARP_) < (16))));
-}),new cljs.core.Keyword(null,"nodes","nodes",-2099585805).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(reddit_tree.core.reddit_comment_graph))))," with score between 5 and 15,"], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"li","li",723558921),cljs.core.count(cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__30922_SHARP_){
-return ((((2) < new cljs.core.Keyword(null,"score","score",-1963588780).cljs$core$IFn$_invoke$arity$1(p1__30922_SHARP_))) && ((new cljs.core.Keyword(null,"score","score",-1963588780).cljs$core$IFn$_invoke$arity$1(p1__30922_SHARP_) < (6))));
-}),new cljs.core.Keyword(null,"nodes","nodes",-2099585805).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(reddit_tree.core.reddit_comment_graph))))," with score between 2 and 5,"], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"li","li",723558921),cljs.core.count(cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__30923_SHARP_){
-return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"score","score",-1963588780).cljs$core$IFn$_invoke$arity$1(p1__30923_SHARP_),(1));
-}),new cljs.core.Keyword(null,"nodes","nodes",-2099585805).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(reddit_tree.core.reddit_comment_graph))))," with score of 1,"], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"li","li",723558921),cljs.core.count(cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__30924_SHARP_){
-return (new cljs.core.Keyword(null,"score","score",-1963588780).cljs$core$IFn$_invoke$arity$1(p1__30924_SHARP_) < (0));
+return new cljs.core.PersistentVector(null, 8, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h2","h2",-372662728),"Reddit Comment Analyzer"], null),new cljs.core.PersistentVector(null, 6, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p","p",151049309),"Enter URL Here:",new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"br","br",934104792)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [reddit_tree.core.url_input,input_value], null)], null),new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"b","b",1482224470),new cljs.core.Keyword(null,"title","title",636505583).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(reddit_tree.core.reddit_post_data))], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"br","br",934104792)], null)," posted on ",reddit_tree.core.format_reddit_timestamp(new cljs.core.Keyword(null,"created","created",-704993748).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(reddit_tree.core.reddit_post_data)))], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span","span",1394872991),"Scroll through time:",new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [reddit_tree.core.secs_after_op_slider,cljs.core.deref(reddit_tree.core.slider_secs_after_op),cljs.core.deref(reddit_tree.core.max_time_secs)], null)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span","span",1394872991),"Log scale:",new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [reddit_tree.core.secs_after_op_log_slider,cljs.core.deref(reddit_tree.core.slider_secs_after_op),cljs.core.deref(reddit_tree.core.max_time_secs)], null)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p","p",151049309),"Time after OP: ",reddit_tree.core.secs_to_days_hrs_mins_secs_str(cljs.core.deref(reddit_tree.core.slider_secs_after_op))], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [reddit_tree.graph.viz,reagent.core.track.cljs$core$IFn$_invoke$arity$variadic(reddit_tree.graph.prechew,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([reddit_tree.core.reddit_comment_graph], 0))], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p","p",151049309),"Double click on nodes to go directly to the comment they ","represent."], null),new cljs.core.PersistentVector(null, 8, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p","p",151049309),"Each node in the graph is a comment. The nodes are sized by ","their score (upvotes - downvotes). Their opacity represents ","their posting time relative to the original post (OP) - darker ","is older (closer to OP). All comments will have the same ","(minimum) opacity if they were posted more than ",goog.string.format("%.2f",(((cljs.core.deref(reddit_tree.core.max_time_secs) / (60)) / (60)) / (24)))," days after the original post."], null),new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),cljs.core.count(new cljs.core.Keyword(null,"nodes","nodes",-2099585805).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(reddit_tree.core.reddit_comment_graph)))," total comments,",new cljs.core.PersistentVector(null, 9, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"ul","ul",-1349521403),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"li","li",723558921),cljs.core.count(cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__31571_SHARP_){
+return (new cljs.core.Keyword(null,"score","score",-1963588780).cljs$core$IFn$_invoke$arity$1(p1__31571_SHARP_) >= (1000));
+}),new cljs.core.Keyword(null,"nodes","nodes",-2099585805).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(reddit_tree.core.reddit_comment_graph))))," with score greater than 1000,"], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"li","li",723558921),cljs.core.count(cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__31572_SHARP_){
+return ((((99) < new cljs.core.Keyword(null,"score","score",-1963588780).cljs$core$IFn$_invoke$arity$1(p1__31572_SHARP_))) && ((new cljs.core.Keyword(null,"score","score",-1963588780).cljs$core$IFn$_invoke$arity$1(p1__31572_SHARP_) < (1001))));
+}),new cljs.core.Keyword(null,"nodes","nodes",-2099585805).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(reddit_tree.core.reddit_comment_graph))))," with score between 100 and 1000,"], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"li","li",723558921),cljs.core.count(cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__31573_SHARP_){
+return ((((49) < new cljs.core.Keyword(null,"score","score",-1963588780).cljs$core$IFn$_invoke$arity$1(p1__31573_SHARP_))) && ((new cljs.core.Keyword(null,"score","score",-1963588780).cljs$core$IFn$_invoke$arity$1(p1__31573_SHARP_) < (101))));
+}),new cljs.core.Keyword(null,"nodes","nodes",-2099585805).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(reddit_tree.core.reddit_comment_graph))))," with score between 50 and 100,"], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"li","li",723558921),cljs.core.count(cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__31574_SHARP_){
+return ((((14) < new cljs.core.Keyword(null,"score","score",-1963588780).cljs$core$IFn$_invoke$arity$1(p1__31574_SHARP_))) && ((new cljs.core.Keyword(null,"score","score",-1963588780).cljs$core$IFn$_invoke$arity$1(p1__31574_SHARP_) < (51))));
+}),new cljs.core.Keyword(null,"nodes","nodes",-2099585805).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(reddit_tree.core.reddit_comment_graph))))," with score between 15 and 50,"], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"li","li",723558921),cljs.core.count(cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__31575_SHARP_){
+return ((((6) < new cljs.core.Keyword(null,"score","score",-1963588780).cljs$core$IFn$_invoke$arity$1(p1__31575_SHARP_))) && ((new cljs.core.Keyword(null,"score","score",-1963588780).cljs$core$IFn$_invoke$arity$1(p1__31575_SHARP_) < (16))));
+}),new cljs.core.Keyword(null,"nodes","nodes",-2099585805).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(reddit_tree.core.reddit_comment_graph))))," with score between 5 and 15,"], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"li","li",723558921),cljs.core.count(cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__31576_SHARP_){
+return ((((2) < new cljs.core.Keyword(null,"score","score",-1963588780).cljs$core$IFn$_invoke$arity$1(p1__31576_SHARP_))) && ((new cljs.core.Keyword(null,"score","score",-1963588780).cljs$core$IFn$_invoke$arity$1(p1__31576_SHARP_) < (6))));
+}),new cljs.core.Keyword(null,"nodes","nodes",-2099585805).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(reddit_tree.core.reddit_comment_graph))))," with score between 2 and 5,"], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"li","li",723558921),cljs.core.count(cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__31577_SHARP_){
+return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"score","score",-1963588780).cljs$core$IFn$_invoke$arity$1(p1__31577_SHARP_),(1));
+}),new cljs.core.Keyword(null,"nodes","nodes",-2099585805).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(reddit_tree.core.reddit_comment_graph))))," with score of 1,"], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"li","li",723558921),cljs.core.count(cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__31578_SHARP_){
+return (new cljs.core.Keyword(null,"score","score",-1963588780).cljs$core$IFn$_invoke$arity$1(p1__31578_SHARP_) < (0));
 }),new cljs.core.Keyword(null,"nodes","nodes",-2099585805).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(reddit_tree.core.reddit_comment_graph))))," with score less than 0."], null)], null)], null),new cljs.core.PersistentVector(null, 6, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"class","class",-2030961996),"dev-notes"], null),"Source code can be found at ",new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"a","a",-2123407586),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"href","href",-793805698),"https://github.com/kovasap/reddit-tree"], null),"github.com/kovasap/reddit-tree"], null),".",new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"details","details",1956795411),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"summary","summary",380847952),"Raw Data"], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p","p",151049309),"Graph Data: ",cljs.core.deref(reddit_tree.core.reddit_comment_graph)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p","p",151049309),"Post Data: ",cljs.core.deref(reddit_tree.core.reddit_post_data)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p","p",151049309),"Comment Data: ",cljs.core.deref(reddit_tree.core.reddit_comment_data)], null)], null)], null)], null);
 });
 });
