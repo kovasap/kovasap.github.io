@@ -16,11 +16,31 @@
   </url><url>
     <loc>https://kovasap.github.io/docs/climbing/safety-checklist/</loc>
   </url><url>
-    <loc>https://kovasap.github.io/docs/cool_links/</loc>
+    <loc>https://kovasap.github.io/docs/datavis/reddit-tree/</loc>
   </url><url>
     <loc>https://kovasap.github.io/docs/datavis/seattle-rain/</loc>
   </url><url>
-    <loc>https://kovasap.github.io/docs/favorite-music/</loc>
+    <loc>https://kovasap.github.io/docs/DRAFT-cool-links/</loc>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/DRAFT-favorite-music/</loc>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/DRAFT-how-to-build-skills/</loc>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/DRAFT-how-to-write/</loc>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/DRAFT-life-philosophy/</loc>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/DRAFT-podcasts/</loc>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/DRAFT-purposeful-work/</loc>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/DRAFT-random-ideas/</loc>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/DRAFT-rhetoric/</loc>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/DRAFT-society-and-economics/</loc>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/FREEWRITE/</loc>
   </url><url>
     <loc>https://kovasap.github.io/docs/gamedev/common-patterns/</loc>
   </url><url>
@@ -40,17 +60,17 @@
   </url><url>
     <loc>https://kovasap.github.io/docs/gaming/oxygen-not-included/</loc>
   </url><url>
-    <loc>https://kovasap.github.io/docs/gaming/top-10/</loc>
+    <loc>https://kovasap.github.io/docs/gaming/top-10-all-time/</loc>
   </url><url>
     <loc>https://kovasap.github.io/docs/health-and-longevity/avoiding-accidents/</loc>
   </url><url>
     <loc>https://kovasap.github.io/docs/health-and-longevity/causes-of-death/</loc>
   </url><url>
-    <loc>https://kovasap.github.io/docs/health-and-longevity/cgm/</loc>
-  </url><url>
     <loc>https://kovasap.github.io/docs/health-and-longevity/chronic-stress/</loc>
   </url><url>
     <loc>https://kovasap.github.io/docs/health-and-longevity/circadian-rhythm/</loc>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/health-and-longevity/continuous-glucose-monitoring/</loc>
   </url><url>
     <loc>https://kovasap.github.io/docs/health-and-longevity/cooking/</loc>
   </url><url>
@@ -72,15 +92,11 @@
   </url><url>
     <loc>https://kovasap.github.io/docs/health-and-longevity/tracking-health/</loc>
   </url><url>
-    <loc>https://kovasap.github.io/docs/how-to-build-skills/</loc>
-  </url><url>
-    <loc>https://kovasap.github.io/docs/how-to-write/</loc>
-  </url><url>
     <loc>https://kovasap.github.io/docs/hydroponics/journal/</loc>
   </url><url>
     <loc>https://kovasap.github.io/docs/hydroponics/my-setup/</loc>
   </url><url>
-    <loc>https://kovasap.github.io/docs/investing-and-finances/expected-house-return/</loc>
+    <loc>https://kovasap.github.io/docs/investing-and-finances/comprehensive-housing-return-estimator/</loc>
   </url><url>
     <loc>https://kovasap.github.io/docs/investing-and-finances/financial-independence/</loc>
   </url><url>
@@ -94,17 +110,17 @@
   </url><url>
     <loc>https://kovasap.github.io/docs/investing-and-finances/taxes/</loc>
   </url><url>
-    <loc>https://kovasap.github.io/docs/life-philosophy/</loc>
-  </url><url>
     <loc>https://kovasap.github.io/docs/lifestyle-optimizations/android-apps/</loc>
-  </url><url>
-    <loc>https://kovasap.github.io/docs/lifestyle-optimizations/computing-config/</loc>
-  </url><url>
-    <loc>https://kovasap.github.io/docs/lifestyle-optimizations/energy-monitoring/</loc>
   </url><url>
     <loc>https://kovasap.github.io/docs/lifestyle-optimizations/hang-drying-cloths/</loc>
   </url><url>
-    <loc>https://kovasap.github.io/docs/lifestyle-optimizations/internet-troubleshooting/</loc>
+    <loc>https://kovasap.github.io/docs/lifestyle-optimizations/home-energy-monitoring/</loc>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/lifestyle-optimizations/home-network-and-internet-troubleshooting/</loc>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/lifestyle-optimizations/my-computer-configuration-dotfiles/</loc>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/lifestyle-optimizations/no-ad-youtube-viewing/</loc>
   </url><url>
     <loc>https://kovasap.github.io/docs/lifestyle-optimizations/personal-data-tracking/</loc>
   </url><url>
@@ -114,11 +130,9 @@
   </url><url>
     <loc>https://kovasap.github.io/docs/lifestyle-optimizations/taut-line-hitch/</loc>
   </url><url>
+    <loc>https://kovasap.github.io/docs/lifestyle-optimizations/this-website/</loc>
+  </url><url>
     <loc>https://kovasap.github.io/docs/lifestyle-optimizations/vim-tricks/</loc>
-  </url><url>
-    <loc>https://kovasap.github.io/docs/lifestyle-optimizations/website/</loc>
-  </url><url>
-    <loc>https://kovasap.github.io/docs/lifestyle-optimizations/youtube-downloading/</loc>
   </url><url>
     <loc>https://kovasap.github.io/docs/manifesto/</loc>
   </url><url>
@@ -138,27 +152,17 @@
   </url><url>
     <loc>https://kovasap.github.io/docs/mind/influences/</loc>
   </url><url>
-    <loc>https://kovasap.github.io/docs/mind/mbti/</loc>
-  </url><url>
     <loc>https://kovasap.github.io/docs/mind/motivation/</loc>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/mind/myers-briggs-personality-typing/</loc>
   </url><url>
     <loc>https://kovasap.github.io/docs/mind/things-to-do-when-unmotivated/</loc>
   </url><url>
     <loc>https://kovasap.github.io/docs/mind/working-with-others/</loc>
   </url><url>
-    <loc>https://kovasap.github.io/docs/morality/efficiency-morality/</loc>
+    <loc>https://kovasap.github.io/docs/morality/efficient-living-and-morality/</loc>
   </url><url>
     <loc>https://kovasap.github.io/docs/morality/right-to-risk/</loc>
-  </url><url>
-    <loc>https://kovasap.github.io/docs/podcasts/</loc>
-  </url><url>
-    <loc>https://kovasap.github.io/docs/purposeful-work/</loc>
-  </url><url>
-    <loc>https://kovasap.github.io/docs/random-ideas/</loc>
-  </url><url>
-    <loc>https://kovasap.github.io/docs/rhetoric/</loc>
-  </url><url>
-    <loc>https://kovasap.github.io/docs/society-and-economics/</loc>
   </url><url>
     <loc>https://kovasap.github.io/docs/software-dev/choosing-a-language/</loc>
   </url><url>
@@ -186,13 +190,13 @@
   </url><url>
     <loc>https://kovasap.github.io/docs/understanding-the-world/what-to-believe/</loc>
   </url><url>
-    <loc>https://kovasap.github.io/docs/visual-art/double-helix/</loc>
+    <loc>https://kovasap.github.io/docs/visual-art/double-helix-unindexed/</loc>
   </url><url>
     <loc>https://kovasap.github.io/docs/visual-art/generative-art/</loc>
   </url><url>
     <loc>https://kovasap.github.io/docs/visual-art/judging-art/</loc>
   </url><url>
-    <loc>https://kovasap.github.io/docs/visual-art/perlin-flow/</loc>
+    <loc>https://kovasap.github.io/docs/visual-art/perlin-flow-unindexed/</loc>
   </url><url>
     <loc>https://kovasap.github.io/docs/</loc>
   </url><url>

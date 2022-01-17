@@ -79,11 +79,13 @@ Reading this made me think of the process of climbing, which has many such steps
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/cool_links/</link>
+      <link>https://kovasap.github.io/docs/datavis/reddit-tree/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/cool_links/</guid>
-      <description>Cool Links #   https://www.heywhatsthat.com/ https://wallpapercave.com/pc-4k-macro-wallpapers https://puzzgrid.com/best.php https://www.kickstarter.com/projects/1024146278/dungeon-alchemisttm?utm_medium=referral&amp;utm_source=14.backer.camp&amp;ref=7lylru&amp;gclid=Cj0KCQiAvvKBBhCXARIsACTePW-zbM6RyiiFjokTbsNoOYAwrXOKUDo4s2EPqUHY5DpD9qMbXjS8ta0aAivFEALw_wcB  </description>
+      <guid>https://kovasap.github.io/docs/datavis/reddit-tree/</guid>
+      <description>Reddit Comment Tree #  I was curious about which Reddit comments end up getting many upvotes, so I made this visualization:
+LINK
+The code can be found at github.com/kovasap/reddit-tree.</description>
     </item>
     
     <item>
@@ -98,11 +100,109 @@ Unfortunately, there doesn&amp;rsquo;t seem to be much correlation at all with t
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/favorite-music/</link>
+      <link>https://kovasap.github.io/docs/DRAFT-cool-links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/favorite-music/</guid>
+      <guid>https://kovasap.github.io/docs/DRAFT-cool-links/</guid>
+      <description>Cool Links #   https://www.heywhatsthat.com/ https://wallpapercave.com/pc-4k-macro-wallpapers https://puzzgrid.com/best.php https://www.kickstarter.com/projects/1024146278/dungeon-alchemisttm?utm_medium=referral&amp;utm_source=14.backer.camp&amp;ref=7lylru&amp;gclid=Cj0KCQiAvvKBBhCXARIsACTePW-zbM6RyiiFjokTbsNoOYAwrXOKUDo4s2EPqUHY5DpD9qMbXjS8ta0aAivFEALw_wcB  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/DRAFT-favorite-music/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/DRAFT-favorite-music/</guid>
       <description>My Favorite Music #  Flow/Immersive #   hubris. jakob God is an Astronaut Night Verses Intervals 65daysofstatic Unprocessed  Pump #   Russian Circles Zeal and Ardor  Catchy #   Tender Metal Mother Pair of Arrows Neon Trees  Chill/Background #   Ratatat El Ten Eleven Glitch Mob Tim Hecker Nick Johnston  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/DRAFT-how-to-build-skills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/DRAFT-how-to-build-skills/</guid>
+      <description>Look at https://news.ycombinator.com/item?id=24696658 for an example of writing practice.
+Advice for artistic practice:
+ https://www.youtube.com/watch?v=M6NsEDwHHiE https://www.youtube.com/watch?v=vtt1ycq2rVI  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/DRAFT-how-to-write/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/DRAFT-how-to-write/</guid>
+      <description>How to Write #  Writers Block #  Try talking to someone (or yourself) about your topic, recording the conversation, then using speech-to-text technology to fill your blank page with a first draft.
+https://vasilishynkarenka.com/8questions/</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/DRAFT-life-philosophy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/DRAFT-life-philosophy/</guid>
+      <description>Life Philosophy and Goals #  My life consists of my habits and environment, as well as my accumulated internal mental state (believes, abilties, memories). I strive to shape these factors such that I feel fulfilled and am satisfied with my life trajectory. Aspects of life that make up these factors interact in a web of cause and effect, and play off each other in complex, non-isolated ways. Here, I try to describe how I personally manage these factors to hopefully improve the lives of others that stumble across this description.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/DRAFT-podcasts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/DRAFT-podcasts/</guid>
+      <description>Podcasts #  Have Listened #   Programming Throwdown  Random discussions of programming languages and other topics Very casual   Radiolab  High production value stories    Am Listening #   Joe Rogan Experience  Long and varied.   Found My Fitness  Deep dives into health related topics.   Peter Attia Drive  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/DRAFT-purposeful-work/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/DRAFT-purposeful-work/</guid>
+      <description>Purposeful Work #  I want to build experiences that are (1) pleasurable to engage in and (2) lead to some concrete useful output.
+I love video games, and other forms of interactive art, because they are designed to be very pleasurable to engage in. They provide a intentionally balanced difficulty curve, where the experience is hard enough to be engaging, but doesn&amp;rsquo;t stonewall the player. They also provide a sense of progression that helps keep the player feeling like they are working towards something meaningful.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/DRAFT-random-ideas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/DRAFT-random-ideas/</guid>
+      <description>&amp;ldquo;System 1&amp;rdquo; Chatbot #  A chatbot that simulates talking to the &amp;ldquo;system 1&amp;rdquo; part of the brain only as described in &amp;ldquo;Thinking, Fast and Slow&amp;rdquo;.
+Water Saving Toilet #  Make a toilet where urine is redirected (like a composting toilet) into a separate area with no water in it (the back of the toilet still has water). Then, when you pee in that area you don&amp;rsquo;t need to flush, but when you poop (or otherwise flush), the rising water will drain into the pee area as well, washing it.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/DRAFT-rhetoric/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/DRAFT-rhetoric/</guid>
+      <description>&amp;ldquo;This is a decent video about some of what I was talking about earlier, it gets into how think tanks have worked historically and how &amp;ldquo;&amp;ldquo;the marketplace of ideas&amp;rdquo;&amp;rdquo; is now actually a very real marketplace with lots of ? thrown around with high impact on public opinion and political policy, but it is not incentivized based on truth/rigor: https://youtu.be/UsPvDYO19ys&#34;
+&amp;ldquo;Intellectual grifters are most successful when their audience is uneducated and/or bad at critically examining ideas/logic/evidence.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/DRAFT-society-and-economics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/DRAFT-society-and-economics/</guid>
+      <description>Interesting Talks/Articles #   Downsides of Meritocracy Excessive work justifying class is harmful for everyone, particularly the wealthy.  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/FREEWRITE/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/FREEWRITE/</guid>
+      <description>01/16/2022 Week in review #  Started on the biomarker correlator project with Michael Lustgarten, made good progress. Clojure is still kinda frustrating to work with, so many functions to learn! It seems like there is a lot of initial breath to master before getting really in the flow.
+Modded Skyrim and started a playthrough. It&amp;rsquo;s fun to get distracted by all the random things in the world :).
+Took lunch home every day at work, which made me feel a lot more productive.</description>
     </item>
     
     <item>
@@ -198,10 +298,10 @@ Build Ideas #  Arbor tree -&amp;gt; ethanol setup:
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/gaming/top-10/</link>
+      <link>https://kovasap.github.io/docs/gaming/top-10-all-time/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/gaming/top-10/</guid>
+      <guid>https://kovasap.github.io/docs/gaming/top-10-all-time/</guid>
       <description>My Top 10 Favorite (Video) Games #  Currently this list does not have a strict order.
 Fire Emblem 7 &amp;amp; 8 #  I first played this game on the Game Boy Advance when I was in middle school. For some reason the art style and especially animation really spoke to me, and I found the gameplay loop very compelling. Fair warning though that this game may be on this list mostly because of nostalgia.</description>
     </item>
@@ -223,18 +323,8 @@ Transportation #  TODO review data at https://www.cdc.gov/transportationsafety/b
       
       <guid>https://kovasap.github.io/docs/health-and-longevity/causes-of-death/</guid>
       <description>Causes of Death #  To avoid death, it&amp;rsquo;s helpful to know what will most likely cause it.
-https://www.reddit.com/r/dataisbeautiful/comments/qs14fn/top_20_causes_of_death_by_age_group_average/?utm_medium=android_app&amp;utm_source=share</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/health-and-longevity/cgm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/health-and-longevity/cgm/</guid>
-      <description>Continuous Glucose Monitoring #  Continuous glucose monitoring is really cool because it gives a continuous look inside your body. This kind of biomarker is rare, and it feels like there is a lot of info that can be gleaned from this kind of data.
-A great article about what CGM might be able to tell us can be found at https://thedietwars.com/peter-attia-cgm/.
-An interesting anecdote about GCM learnings can be found at https://medium.</description>
+https://www.reddit.com/r/dataisbeautiful/comments/qs14fn/top_20_causes_of_death_by_age_group_average/?utm_medium=android_app&amp;utm_source=share
+This is an excellent visualization: https://vizhub.healthdata.org/gbd-compare/</description>
     </item>
     
     <item>
@@ -253,6 +343,17 @@ An interesting anecdote about GCM learnings can be found at https://medium.</des
       
       <guid>https://kovasap.github.io/docs/health-and-longevity/circadian-rhythm/</guid>
       <description>Circadian Rhythm #  https://www.salk.edu/scientist/satchidananda-panda/</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/health-and-longevity/continuous-glucose-monitoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/health-and-longevity/continuous-glucose-monitoring/</guid>
+      <description>Continuous Glucose Monitoring #  Continuous glucose monitoring is really cool because it gives a continuous look inside your body. This kind of biomarker is rare, and it feels like there is a lot of info that can be gleaned from this kind of data.
+A great article about what CGM might be able to tell us can be found at https://thedietwars.com/peter-attia-cgm/.
+An interesting anecdote about GCM learnings can be found at https://medium.</description>
     </item>
     
     <item>
@@ -355,27 +456,6 @@ Smart Alarm #  Sleep as Android has a feature where instead of setting an alarm 
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/how-to-build-skills/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/how-to-build-skills/</guid>
-      <description>Look at https://news.ycombinator.com/item?id=24696658 for an example of writing practice.
-Advice for artistic practice:
- https://www.youtube.com/watch?v=M6NsEDwHHiE https://www.youtube.com/watch?v=vtt1ycq2rVI  </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/how-to-write/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/how-to-write/</guid>
-      <description>How to Write #  Writers Block #  Try talking to someone (or yourself) about your topic, recording the conversation, then using speech-to-text technology to fill your blank page with a first draft.
-https://vasilishynkarenka.com/8questions/</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://kovasap.github.io/docs/hydroponics/journal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -396,10 +476,10 @@ Goals #  My diet goals suggest that I eat a lot of leafy greens. Unfortunately, 
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/investing-and-finances/expected-house-return/</link>
+      <link>https://kovasap.github.io/docs/investing-and-finances/comprehensive-housing-return-estimator/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/investing-and-finances/expected-house-return/</guid>
+      <guid>https://kovasap.github.io/docs/investing-and-finances/comprehensive-housing-return-estimator/</guid>
       <description>Expected Returns for Buying a House #  Looking at list prices for homes can be a strange experience. To me, a list price is just a large number that has little or any meaning to the impact buying that house will have on my finances. To confidently judge whether a house I&amp;rsquo;m interested in buying is actually a good deal, I made the spreadsheet described here. The primary goal of the spreadsheet is to translate details about the house (e.</description>
     </item>
     
@@ -466,41 +546,11 @@ Note that your capital gains themselves help determine your capital gains tax ra
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/life-philosophy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/life-philosophy/</guid>
-      <description>Life Philosophy and Goals #  My life consists of my habits and environment, as well as my accumulated internal mental state (believes, abilties, memories). I strive to shape these factors such that I feel fulfilled and am satisfied with my life trajectory. Aspects of life that make up these factors interact in a web of cause and effect, and play off each other in complex, non-isolated ways. Here, I try to describe how I personally manage these factors to hopefully improve the lives of others that stumble across this description.</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://kovasap.github.io/docs/lifestyle-optimizations/android-apps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/lifestyle-optimizations/android-apps/</guid>
       <description>Android Apps #  Flowx #  Really cool weather app that is beautiful, elegant in it&amp;rsquo;s interface, and very informative. I&amp;rsquo;d say it takes about a week to get used to it, but after that it&amp;rsquo;s the best weather source I&amp;rsquo;ve ever used.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/lifestyle-optimizations/computing-config/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/computing-config/</guid>
-      <description>My Computing Environment #  My complete configuration files (&amp;ldquo;dotfiles&amp;rdquo;) can be found at https://github.com/kovasap/dotfiles.
-Color and Brightness #  Temperature #  I find that dim screens make it easier for me to read and work for longer without straining or fatiguing my eyes. Therefore, I generally keep my screen at a low brightness level.
-On Linux #  I use Redshift to keep my screen at a low temperature (low 3000Ks).</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/lifestyle-optimizations/energy-monitoring/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/energy-monitoring/</guid>
-      <description>(Home) Energy Monitoring #  This is a project I haven&amp;rsquo;t completed yet, but want to. The ultimate goal is to get a realtime datafeed of total home power usage, so I can have more direct feedback to how my appliance usage effects power consumption.
-Options: #   All-in-one solution: https://www.amazon.com/Aeotec-Energy-Z-Wave-electricity-monitor/dp/B00XD8WZX6?pldnSite=1#customerReviews DIY power monitoring: https://power-monitor.dalbrecht.tech/overview/ Open source system: https://guide.openenergymonitor.org/setup/ Cheaper system: https://shop.emporiaenergy.com/collections/emporia-products/products/gen-2-emporia-vue-whole-home-energy-monitor  Emporia Vue Gen 2 Resources: #   https://github.</description>
     </item>
     
     <item>
@@ -516,11 +566,41 @@ Less Work #  IF you hang dry your cloths in a place where they can stay indefini
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/lifestyle-optimizations/internet-troubleshooting/</link>
+      <link>https://kovasap.github.io/docs/lifestyle-optimizations/home-energy-monitoring/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/internet-troubleshooting/</guid>
+      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/home-energy-monitoring/</guid>
+      <description>(Home) Energy Monitoring #  This is a project I haven&amp;rsquo;t completed yet, but want to. The ultimate goal is to get a realtime datafeed of total home power usage, so I can have more direct feedback to how my appliance usage effects power consumption.
+Options: #   All-in-one solution: https://www.amazon.com/Aeotec-Energy-Z-Wave-electricity-monitor/dp/B00XD8WZX6?pldnSite=1#customerReviews DIY power monitoring: https://power-monitor.dalbrecht.tech/overview/ Open source system: https://guide.openenergymonitor.org/setup/ Cheaper system: https://shop.emporiaenergy.com/collections/emporia-products/products/gen-2-emporia-vue-whole-home-energy-monitor  Emporia Vue Gen 2 Resources: #   https://github.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/lifestyle-optimizations/home-network-and-internet-troubleshooting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/home-network-and-internet-troubleshooting/</guid>
       <description>Internet and Home Network Troubleshooting #  Lag when playing games #  When downloading stuff and playing games at the same time, the game&amp;rsquo;s packets can be queued behind the download&amp;rsquo;s packets, causing lag. This can be measured with this test: https://www.waveform.com/tools/bufferbloat. QoS and SQM are router features that can be enabled from the router&amp;rsquo;s web interface that are supposed to help with this. https://www.bufferbloat.net/projects/bloat/wiki/What_can_I_do_about_Bufferbloat/ is another good resource.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/lifestyle-optimizations/my-computer-configuration-dotfiles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/my-computer-configuration-dotfiles/</guid>
+      <description>My Computing Environment #  My complete configuration files (&amp;ldquo;dotfiles&amp;rdquo;) can be found at https://github.com/kovasap/dotfiles.
+Color and Brightness #  Temperature #  I find that dim screens make it easier for me to read and work for longer without straining or fatiguing my eyes. Therefore, I generally keep my screen at a low brightness level.
+On Linux #  I use Redshift to keep my screen at a low temperature (low 3000Ks).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/lifestyle-optimizations/no-ad-youtube-viewing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/no-ad-youtube-viewing/</guid>
+      <description>Ad-Free YouTube Viewing #  Sometimes YouTube videos are riddled with ads that make them hard to watch. To combat this issue, I created a small script that downloads the youtube video at the URL currently on your clipboard and plays it with your default video player. I made a hotkey to run this scipt in my window manager (QTile). So now when I want to watch a YouTube video I just need to copy the url to my clipboard and then hit &amp;ldquo;mod-y&amp;rdquo; on my keyboard (mod is the windows key)!</description>
     </item>
     
     <item>
@@ -568,6 +648,17 @@ See wikipedia for instructions on how to tie. Some of the many uses I&amp;rsquo;
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/lifestyle-optimizations/this-website/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/this-website/</guid>
+      <description>This Website #  This website serves as a useful place to organize and share my thoughts.
+Website setup was done using Hugo and is hosted using Github Pages. It uses the hugo-book theme. Originally, it was started by copying the example project in the hugo-book repository, and modifying the pages.
+Google Analytics #  I added Google Analytics to the site via the googleAnalytics field in the config.yaml file - the hugo-book theme handles the rest.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/lifestyle-optimizations/vim-tricks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -576,26 +667,6 @@ See wikipedia for instructions on how to tie. Some of the many uses I&amp;rsquo;
 Convert protos to bzl dictionaries #  Replace text: text2 with &amp;quot;text&amp;quot;: text2,:
 :%s/\(\S.*[^&amp;quot;]\): \(.*\)$/&amp;quot;\1&amp;quot;: \2,/g Replace floating points number with quoted variants:
 :%s/[^&amp;quot;]\(\d\+\)\.\(\d\+\)/&amp;quot;\1\.\2&amp;quot;/g </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/lifestyle-optimizations/website/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/website/</guid>
-      <description>This Website #  This website serves as a useful place to organize and share my thoughts.
-Website setup was done using Hugo and is hosted using Github Pages. It uses the hugo-book theme. Originally, it was started by copying the example project in the hugo-book repository, and modifying the pages.
-Google Analytics #  I added Google Analytics to the site via the googleAnalytics field in the config.yaml file - the hugo-book theme handles the rest.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/lifestyle-optimizations/youtube-downloading/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/youtube-downloading/</guid>
-      <description>Ad-Free YouTube Viewing #  Sometimes YouTube videos are riddled with ads that make them hard to watch. To combat this issue, I created a small script that downloads the youtube video at the URL currently on your clipboard and plays it with your default video player. I made a hotkey to run this scipt in my window manager (QTile). So now when I want to watch a YouTube video I just need to copy the url to my clipboard and then hit &amp;ldquo;mod-y&amp;rdquo; on my keyboard (mod is the windows key)!</description>
     </item>
     
     <item>
@@ -695,15 +766,6 @@ Thinking, Fast and Slow by Daniel Kahneman #  Video inspired by book done by Ver
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/mind/mbti/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/mind/mbti/</guid>
-      <description>Myers-Briggs Type Indication (MBTI) #  Extroverted - Introverted #  Intuitive - Observant #  One perspective: If your brain is trying to build a wall of information, a more Observant mind will use bricks it finds with its senses in the world around it (either via memories or present sensations). A more Intuitive mind will gather less bricks from around it and instead spent more time combining the bricks it already has into new &amp;ldquo;fusion&amp;rdquo; bricks to build into the wall.</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://kovasap.github.io/docs/mind/motivation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -712,6 +774,15 @@ Thinking, Fast and Slow by Daniel Kahneman #  Video inspired by book done by Ver
 Motivation to do something requires that the &amp;ldquo;something&amp;rdquo; is attainable and meaningful (has a point/purpose).
 (Perceived) Attainability #  Objectives that are perceived - which is really all that matters with respect to motivation - to be attainable have a trivially easy to accomplish next step on the path toward them.
 What makes a next step trivially easy?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/mind/myers-briggs-personality-typing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/mind/myers-briggs-personality-typing/</guid>
+      <description>Myers-Briggs Type Indication (MBTI) #  Extroverted - Introverted #  Intuitive - Observant #  One perspective: If your brain is trying to build a wall of information, a more Observant mind will use bricks it finds with its senses in the world around it (either via memories or present sensations). A more Intuitive mind will gather less bricks from around it and instead spent more time combining the bricks it already has into new &amp;ldquo;fusion&amp;rdquo; bricks to build into the wall.</description>
     </item>
     
     <item>
@@ -736,10 +807,10 @@ Not only is it hard work to do this model-sharing, but it can create cognitive d
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/morality/efficiency-morality/</link>
+      <link>https://kovasap.github.io/docs/morality/efficient-living-and-morality/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/morality/efficiency-morality/</guid>
+      <guid>https://kovasap.github.io/docs/morality/efficient-living-and-morality/</guid>
       <description>Efficiency and Morality #  A thought experiment based on some simplified assumptions. Could very well have large holes in it, but currently has a large influence on how I make decisions.
 Assumption 1: Our goal is to maximize positive emotions. #  Our goal is to maximize the amount of time people feel positive emotions:
  happiness fulfillment satisfaction empowerment energy  And minimize the time spent feeling negative emotions:</description>
@@ -754,54 +825,6 @@ Assumption 1: Our goal is to maximize positive emotions. #  Our goal is to maxim
       <description>Right to Risk #  Reading https://www.piratewires.com/p/the-crime-of-curiosity made me think about how much personally dangerous/risky behavior we should legally allow. Should we allow unhealthy eating? Motorcycle riding? Messing with your own gut microbiome? Messing with your own genes? Climbing? Self-harm? Attempted suicide?
 Insurance #  More dangerous behaviors cost money. Who pays?
 Responsibility and Legality #  If you have a child, or are personally responsible for someone, then hurting yourself pretty directly hurts that person.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/podcasts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/podcasts/</guid>
-      <description>Podcasts #  Have Listened #   Programming Throwdown  Random discussions of programming languages and other topics Very casual   Radiolab  High production value stories    Am Listening #   Joe Rogan Experience  Long and varied.   Found My Fitness  Deep dives into health related topics.   Peter Attia Drive  </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/purposeful-work/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/purposeful-work/</guid>
-      <description>Purposeful Work #  I want to build experiences that are (1) pleasurable to engage in and (2) lead to some concrete useful output.
-I love video games, and other forms of interactive art, because they are designed to be very pleasurable to engage in. They provide a intentionally balanced difficulty curve, where the experience is hard enough to be engaging, but doesn&amp;rsquo;t stonewall the player. They also provide a sense of progression that helps keep the player feeling like they are working towards something meaningful.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/random-ideas/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/random-ideas/</guid>
-      <description>&amp;ldquo;System 1&amp;rdquo; Chatbot #  A chatbot that simulates talking to the &amp;ldquo;system 1&amp;rdquo; part of the brain only as described in &amp;ldquo;Thinking, Fast and Slow&amp;rdquo;.
-Water Saving Toilet #  Make a toilet where urine is redirected (like a composting toilet) into a separate area with no water in it (the back of the toilet still has water). Then, when you pee in that area you don&amp;rsquo;t need to flush, but when you poop (or otherwise flush), the rising water will drain into the pee area as well, washing it.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/rhetoric/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/rhetoric/</guid>
-      <description>&amp;ldquo;This is a decent video about some of what I was talking about earlier, it gets into how think tanks have worked historically and how &amp;ldquo;&amp;ldquo;the marketplace of ideas&amp;rdquo;&amp;rdquo; is now actually a very real marketplace with lots of ? thrown around with high impact on public opinion and political policy, but it is not incentivized based on truth/rigor: https://youtu.be/UsPvDYO19ys&#34;
-&amp;ldquo;Intellectual grifters are most successful when their audience is uneducated and/or bad at critically examining ideas/logic/evidence.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/society-and-economics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/society-and-economics/</guid>
-      <description>Interesting Talks/Articles #   Downsides of Meritocracy Excessive work justifying class is harmful for everyone, particularly the wealthy.  </description>
     </item>
     
     <item>
@@ -935,10 +958,10 @@ There is often the temptation in software development to do a complete rewrite o
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/visual-art/double-helix/</link>
+      <link>https://kovasap.github.io/docs/visual-art/double-helix-unindexed/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/visual-art/double-helix/</guid>
+      <guid>https://kovasap.github.io/docs/visual-art/double-helix-unindexed/</guid>
       <description>Double Helix #    </description>
     </item>
     
@@ -967,10 +990,10 @@ Meaning #  It would be cool to ask many people to give a ranked list of the 50 m
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/visual-art/perlin-flow/</link>
+      <link>https://kovasap.github.io/docs/visual-art/perlin-flow-unindexed/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/visual-art/perlin-flow/</guid>
+      <guid>https://kovasap.github.io/docs/visual-art/perlin-flow-unindexed/</guid>
       <description>Perlin Flow #    </description>
     </item>
     
