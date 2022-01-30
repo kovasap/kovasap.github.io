@@ -104,7 +104,7 @@ Unfortunately, there doesn&amp;rsquo;t seem to be much correlation at all with t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/DRAFT-cool-links/</guid>
-      <description>Cool Links #   https://www.heywhatsthat.com/ https://wallpapercave.com/pc-4k-macro-wallpapers https://puzzgrid.com/best.php https://www.kickstarter.com/projects/1024146278/dungeon-alchemisttm?utm_medium=referral&amp;utm_source=14.backer.camp&amp;ref=7lylru&amp;gclid=Cj0KCQiAvvKBBhCXARIsACTePW-zbM6RyiiFjokTbsNoOYAwrXOKUDo4s2EPqUHY5DpD9qMbXjS8ta0aAivFEALw_wcB  </description>
+      <description>Cool Links #   https://www.heywhatsthat.com/ https://wallpapercave.com/pc-4k-macro-wallpapers https://puzzgrid.com/best.php https://www.kickstarter.com/projects/1024146278/dungeon-alchemisttm?utm_medium=referral&amp;utm_source=14.backer.camp&amp;ref=7lylru&amp;gclid=Cj0KCQiAvvKBBhCXARIsACTePW-zbM6RyiiFjokTbsNoOYAwrXOKUDo4s2EPqUHY5DpD9qMbXjS8ta0aAivFEALw_wcB https://ciechanow.ski/gps/  </description>
     </item>
     
     <item>
@@ -822,9 +822,29 @@ Assumption 1: Our goal is to maximize positive emotions. #  Our goal is to maxim
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/morality/right-to-risk/</guid>
-      <description>Right to Risk #  Reading https://www.piratewires.com/p/the-crime-of-curiosity made me think about how much personally dangerous/risky behavior we should legally allow. Should we allow unhealthy eating? Motorcycle riding? Messing with your own gut microbiome? Messing with your own genes? Climbing? Self-harm? Attempted suicide?
+      <description>Right to Risk #  Reading https://www.piratewires.com/p/the-crime-of-curiosity made me think about how much personally dangerous/risky behavior we should legally allow. Should we allow unhealthy eating? Motorcycle riding? Messing with your own gut microbiome? Messing with your own genes? Climbing? Self-harm? Attempted suicide? Not getting vaccinated for COVID-19?
 Insurance #  More dangerous behaviors cost money. Who pays?
 Responsibility and Legality #  If you have a child, or are personally responsible for someone, then hurting yourself pretty directly hurts that person.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/software-dev/actionable-tips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/software-dev/actionable-tips/</guid>
+      <description>Actionable Tips to Improve Code #  Here are various specific and actionable things you can try out to improve code quality (and/or challenge yourself).
+ Minimize the number of arguments each function takes (ideally to 1 or 2 only). This was taken from Clean Code, Ch. 3. Don&amp;rsquo;t mutate anything (instead copy). This may be more possible in some languages than others  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/software-dev/auto-input-data-collection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/software-dev/auto-input-data-collection/</guid>
+      <description>Auto Input Data Collection #  Frequently when I am debugging code, I will make some changes to a single function, then re-run tests that call my function as well as many others above it in the stack. If there are few large tests, they make take a long time doing lots of computations that I don&amp;rsquo;t care about in the process of testing my function.
+One solution to this is to write unit tests that test every function.</description>
     </item>
     
     <item>
