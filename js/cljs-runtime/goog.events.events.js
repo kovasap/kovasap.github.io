@@ -45,16 +45,6 @@ goog.events.listen_ = function(src, type, listener, callOnce, opt_options, opt_h
     throw new Error("Invalid event type");
   }
   var capture = goog.isObject(opt_options) ? !!opt_options.capture : !!opt_options;
-  if (capture && !goog.events.BrowserFeature.HAS_W3C_EVENT_SUPPORT) {
-    if (goog.events.CAPTURE_SIMULATION_MODE == goog.events.CaptureSimulationMode.OFF_AND_FAIL) {
-      goog.asserts.fail("Can not register capture listener in IE8-.");
-      return null;
-    } else {
-      if (goog.events.CAPTURE_SIMULATION_MODE == goog.events.CaptureSimulationMode.OFF_AND_SILENT) {
-        return null;
-      }
-    }
-  }
   var listenerMap = goog.events.getListenerMap_(src);
   if (!listenerMap) {
     src[goog.events.LISTENER_MAP_PROP_] = listenerMap = new goog.events.ListenerMap(src);
@@ -91,14 +81,9 @@ goog.events.listen_ = function(src, type, listener, callOnce, opt_options, opt_h
   return listenerObj;
 };
 goog.events.getProxy = function() {
-  var proxyCallbackFunction = goog.events.handleBrowserEvent_;
-  var f = goog.events.BrowserFeature.HAS_W3C_EVENT_SUPPORT ? function(eventObject) {
+  const proxyCallbackFunction = goog.events.handleBrowserEvent_;
+  const f = function(eventObject) {
     return proxyCallbackFunction.call(f.src, f.listener, eventObject);
-  } : function(eventObject) {
-    var v = proxyCallbackFunction.call(f.src, f.listener, eventObject);
-    if (!v) {
-      return v;
-    }
   };
   return f;
 };
@@ -306,34 +291,6 @@ goog.events.protectBrowserEventEntryPoint = function(errorHandler) {
 goog.events.handleBrowserEvent_ = function(listener, opt_evt) {
   if (listener.removed) {
     return true;
-  }
-  if (!goog.events.BrowserFeature.HAS_W3C_EVENT_SUPPORT) {
-    var ieEvent = opt_evt || goog.getObjectByName("window.event");
-    var evt = new goog.events.BrowserEvent(ieEvent, this);
-    var retval = true;
-    if (goog.events.CAPTURE_SIMULATION_MODE == goog.events.CaptureSimulationMode.ON) {
-      if (!goog.events.isMarkedIeEvent_(ieEvent)) {
-        goog.events.markIeEvent_(ieEvent);
-        var ancestors = [];
-        for (var parent = evt.currentTarget; parent; parent = parent.parentNode) {
-          ancestors.push(parent);
-        }
-        var type = listener.type;
-        for (var i = ancestors.length - 1; !evt.hasPropagationStopped() && i >= 0; i--) {
-          evt.currentTarget = ancestors[i];
-          var result = goog.events.fireListeners_(ancestors[i], type, true, evt);
-          retval = retval && result;
-        }
-        for (var i = 0; !evt.hasPropagationStopped() && i < ancestors.length; i++) {
-          evt.currentTarget = ancestors[i];
-          var result = goog.events.fireListeners_(ancestors[i], type, false, evt);
-          retval = retval && result;
-        }
-      }
-    } else {
-      retval = goog.events.fireListener(listener, evt);
-    }
-    return retval;
   }
   return goog.events.fireListener(listener, new goog.events.BrowserEvent(opt_evt, this));
 };

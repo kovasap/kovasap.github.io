@@ -14,7 +14,7 @@ goog.date.UtcDateTime = function(opt_year, opt_month, opt_date, opt_hours, opt_m
 };
 goog.inherits(goog.date.UtcDateTime, goog.date.DateTime);
 goog.date.UtcDateTime.fromTimestamp = function(timestamp) {
-  var date = new goog.date.UtcDateTime;
+  var date = new goog.date.UtcDateTime();
   date.setTime(timestamp);
   return date;
 };

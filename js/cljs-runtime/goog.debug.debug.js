@@ -1,7 +1,6 @@
 goog.provide("goog.debug");
 goog.require("goog.array");
 goog.require("goog.debug.errorcontext");
-goog.require("goog.userAgent");
 goog.debug.LOGGING_ENABLED = goog.define("goog.debug.LOGGING_ENABLED", goog.DEBUG);
 goog.debug.FORCE_SLOPPY_STACKS = goog.define("goog.debug.FORCE_SLOPPY_STACKS", false);
 goog.debug.CHECK_FOR_THROWN_EVENT = goog.define("goog.debug.CHECK_FOR_THROWN_EVENT", false);
@@ -9,9 +8,6 @@ goog.debug.catchErrors = function(logFunc, opt_cancel, opt_target) {
   var target = opt_target || goog.global;
   var oldErrorHandler = target.onerror;
   var retVal = !!opt_cancel;
-  if (goog.userAgent.WEBKIT && !goog.userAgent.isVersionOrHigher("535.3")) {
-    retVal = !retVal;
-  }
   target.onerror = function(message, url, line, opt_col, opt_error) {
     if (oldErrorHandler) {
       oldErrorHandler(message, url, line, opt_col, opt_error);
@@ -159,7 +155,7 @@ goog.debug.normalizeErrorObject = function(err) {
     return {"message":message, "name":err.name || "UnknownError", "lineNumber":lineNumber, "fileName":fileName, "stack":stack || "Not available"};
   }
   err.stack = stack;
-  return err;
+  return {"message":err.message, "name":err.name, "lineNumber":err.lineNumber, "fileName":err.fileName, "stack":err.stack};
 };
 goog.debug.serializeErrorStack_ = function(e, seen) {
   if (!seen) {
@@ -249,7 +245,7 @@ goog.debug.getStacktraceSimple = function(opt_depth) {
 };
 goog.debug.MAX_STACK_DEPTH = 50;
 goog.debug.getNativeStackTrace_ = function(fn) {
-  var tempErr = new Error;
+  var tempErr = new Error();
   if (Error.captureStackTrace) {
     Error.captureStackTrace(tempErr, fn);
     return String(tempErr.stack);

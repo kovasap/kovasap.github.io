@@ -1,123 +1,163 @@
-goog.provide("goog.labs.userAgent.browser");
-goog.require("goog.array");
-goog.require("goog.labs.userAgent.util");
-goog.require("goog.object");
-goog.require("goog.string.internal");
-goog.labs.userAgent.browser.matchOpera_ = function() {
-  return goog.labs.userAgent.util.matchUserAgent("Opera");
-};
-goog.labs.userAgent.browser.matchIE_ = function() {
-  return goog.labs.userAgent.util.matchUserAgent("Trident") || goog.labs.userAgent.util.matchUserAgent("MSIE");
-};
-goog.labs.userAgent.browser.matchEdgeHtml_ = function() {
-  return goog.labs.userAgent.util.matchUserAgent("Edge");
-};
-goog.labs.userAgent.browser.matchEdgeChromium_ = function() {
-  return goog.labs.userAgent.util.matchUserAgent("Edg/");
-};
-goog.labs.userAgent.browser.matchOperaChromium_ = function() {
-  return goog.labs.userAgent.util.matchUserAgent("OPR");
-};
-goog.labs.userAgent.browser.matchFirefox_ = function() {
-  return goog.labs.userAgent.util.matchUserAgent("Firefox") || goog.labs.userAgent.util.matchUserAgent("FxiOS");
-};
-goog.labs.userAgent.browser.matchSafari_ = function() {
-  return goog.labs.userAgent.util.matchUserAgent("Safari") && !(goog.labs.userAgent.browser.matchChrome_() || goog.labs.userAgent.browser.matchCoast_() || goog.labs.userAgent.browser.matchOpera_() || goog.labs.userAgent.browser.matchEdgeHtml_() || goog.labs.userAgent.browser.matchEdgeChromium_() || goog.labs.userAgent.browser.matchOperaChromium_() || goog.labs.userAgent.browser.matchFirefox_() || goog.labs.userAgent.browser.isSilk() || goog.labs.userAgent.util.matchUserAgent("Android"));
-};
-goog.labs.userAgent.browser.matchCoast_ = function() {
-  return goog.labs.userAgent.util.matchUserAgent("Coast");
-};
-goog.labs.userAgent.browser.matchIosWebview_ = function() {
-  return (goog.labs.userAgent.util.matchUserAgent("iPad") || goog.labs.userAgent.util.matchUserAgent("iPhone")) && !goog.labs.userAgent.browser.matchSafari_() && !goog.labs.userAgent.browser.matchChrome_() && !goog.labs.userAgent.browser.matchCoast_() && !goog.labs.userAgent.browser.matchFirefox_() && goog.labs.userAgent.util.matchUserAgent("AppleWebKit");
-};
-goog.labs.userAgent.browser.matchChrome_ = function() {
-  return (goog.labs.userAgent.util.matchUserAgent("Chrome") || goog.labs.userAgent.util.matchUserAgent("CriOS")) && !goog.labs.userAgent.browser.matchEdgeHtml_();
-};
-goog.labs.userAgent.browser.matchAndroidBrowser_ = function() {
-  return goog.labs.userAgent.util.matchUserAgent("Android") && !(goog.labs.userAgent.browser.isChrome() || goog.labs.userAgent.browser.isFirefox() || goog.labs.userAgent.browser.isOpera() || goog.labs.userAgent.browser.isSilk());
-};
-goog.labs.userAgent.browser.isOpera = goog.labs.userAgent.browser.matchOpera_;
-goog.labs.userAgent.browser.isIE = goog.labs.userAgent.browser.matchIE_;
-goog.labs.userAgent.browser.isEdge = goog.labs.userAgent.browser.matchEdgeHtml_;
-goog.labs.userAgent.browser.isEdgeChromium = goog.labs.userAgent.browser.matchEdgeChromium_;
-goog.labs.userAgent.browser.isOperaChromium = goog.labs.userAgent.browser.matchOperaChromium_;
-goog.labs.userAgent.browser.isFirefox = goog.labs.userAgent.browser.matchFirefox_;
-goog.labs.userAgent.browser.isSafari = goog.labs.userAgent.browser.matchSafari_;
-goog.labs.userAgent.browser.isCoast = goog.labs.userAgent.browser.matchCoast_;
-goog.labs.userAgent.browser.isIosWebview = goog.labs.userAgent.browser.matchIosWebview_;
-goog.labs.userAgent.browser.isChrome = goog.labs.userAgent.browser.matchChrome_;
-goog.labs.userAgent.browser.isAndroidBrowser = goog.labs.userAgent.browser.matchAndroidBrowser_;
-goog.labs.userAgent.browser.isSilk = function() {
-  return goog.labs.userAgent.util.matchUserAgent("Silk");
-};
-goog.labs.userAgent.browser.getVersion = function() {
-  var userAgentString = goog.labs.userAgent.util.getUserAgent();
-  if (goog.labs.userAgent.browser.isIE()) {
-    return goog.labs.userAgent.browser.getIEVersion_(userAgentString);
+goog.loadModule(function(exports) {
+  "use strict";
+  goog.module("goog.labs.userAgent.browser");
+  goog.module.declareLegacyNamespace();
+  const googArray = goog.require("goog.array");
+  const googObject = goog.require("goog.object");
+  const util = goog.require("goog.labs.userAgent.util");
+  const {compareVersions} = goog.require("goog.string.internal");
+  function useUserAgentBrand() {
+    const userAgentData = util.getUserAgentData();
+    return !!userAgentData && userAgentData.brands.length > 0;
   }
-  var versionTuples = goog.labs.userAgent.util.extractVersionTuples(userAgentString);
-  var versionMap = {};
-  goog.array.forEach(versionTuples, function(tuple) {
-    var key = tuple[0];
-    var value = tuple[1];
-    versionMap[key] = value;
-  });
-  var versionMapHasKey = goog.partial(goog.object.containsKey, versionMap);
-  function lookUpValueWithKeys(keys) {
-    var key = goog.array.find(keys, versionMapHasKey);
-    return versionMap[key] || "";
+  function matchOpera() {
+    if (util.ASSUME_CLIENT_HINTS_SUPPORT || util.getUserAgentData()) {
+      return false;
+    }
+    return util.matchUserAgent("Opera");
   }
-  if (goog.labs.userAgent.browser.isOpera()) {
-    return lookUpValueWithKeys(["Version", "Opera"]);
+  function matchIE() {
+    if (util.ASSUME_CLIENT_HINTS_SUPPORT || util.getUserAgentData()) {
+      return false;
+    }
+    return util.matchUserAgent("Trident") || util.matchUserAgent("MSIE");
   }
-  if (goog.labs.userAgent.browser.isEdge()) {
-    return lookUpValueWithKeys(["Edge"]);
+  function matchEdgeHtml() {
+    if (util.ASSUME_CLIENT_HINTS_SUPPORT || util.getUserAgentData()) {
+      return false;
+    }
+    return util.matchUserAgent("Edge");
   }
-  if (goog.labs.userAgent.browser.isEdgeChromium()) {
-    return lookUpValueWithKeys(["Edg"]);
+  function matchEdgeChromium() {
+    if (useUserAgentBrand()) {
+      return util.matchUserAgentDataBrand("Edge");
+    }
+    return util.matchUserAgent("Edg/");
   }
-  if (goog.labs.userAgent.browser.isChrome()) {
-    return lookUpValueWithKeys(["Chrome", "CriOS", "HeadlessChrome"]);
+  function matchOperaChromium() {
+    if (useUserAgentBrand()) {
+      return util.matchUserAgentDataBrand("Opera");
+    }
+    return util.matchUserAgent("OPR");
   }
-  var tuple = versionTuples[2];
-  return tuple && tuple[1] || "";
-};
-goog.labs.userAgent.browser.isVersionOrHigher = function(version) {
-  return goog.string.internal.compareVersions(goog.labs.userAgent.browser.getVersion(), version) >= 0;
-};
-goog.labs.userAgent.browser.getIEVersion_ = function(userAgent) {
-  var rv = /rv: *([\d\.]*)/.exec(userAgent);
-  if (rv && rv[1]) {
-    return rv[1];
+  function matchFirefox() {
+    if (useUserAgentBrand()) {
+      return util.matchUserAgentDataBrand("Firefox");
+    }
+    return util.matchUserAgent("Firefox") || util.matchUserAgent("FxiOS");
   }
-  var version = "";
-  var msie = /MSIE +([\d\.]+)/.exec(userAgent);
-  if (msie && msie[1]) {
-    var tridentVersion = /Trident\/(\d.\d)/.exec(userAgent);
-    if (msie[1] == "7.0") {
-      if (tridentVersion && tridentVersion[1]) {
-        switch(tridentVersion[1]) {
-          case "4.0":
-            version = "8.0";
-            break;
-          case "5.0":
-            version = "9.0";
-            break;
-          case "6.0":
-            version = "10.0";
-            break;
-          case "7.0":
-            version = "11.0";
-            break;
+  function matchSafari() {
+    if (useUserAgentBrand()) {
+      return util.matchUserAgentDataBrand("Safari");
+    }
+    return util.matchUserAgent("Safari") && !(matchChrome() || matchCoast() || matchOpera() || matchEdgeHtml() || matchEdgeChromium() || matchOperaChromium() || matchFirefox() || isSilk() || util.matchUserAgent("Android"));
+  }
+  function matchCoast() {
+    if (util.ASSUME_CLIENT_HINTS_SUPPORT || util.getUserAgentData()) {
+      return false;
+    }
+    return util.matchUserAgent("Coast");
+  }
+  function matchIosWebview() {
+    return (util.matchUserAgent("iPad") || util.matchUserAgent("iPhone")) && !matchSafari() && !matchChrome() && !matchCoast() && !matchFirefox() && util.matchUserAgent("AppleWebKit");
+  }
+  function matchChrome() {
+    if (useUserAgentBrand()) {
+      return util.matchUserAgentDataBrand("Chromium");
+    }
+    return (util.matchUserAgent("Chrome") || util.matchUserAgent("CriOS")) && !matchEdgeHtml();
+  }
+  function matchAndroidBrowser() {
+    return util.matchUserAgent("Android") && !(isChrome() || isFirefox() || isOpera() || isSilk());
+  }
+  const isOpera = matchOpera;
+  const isIE = matchIE;
+  const isEdge = matchEdgeHtml;
+  const isEdgeChromium = matchEdgeChromium;
+  const isOperaChromium = matchOperaChromium;
+  const isFirefox = matchFirefox;
+  const isSafari = matchSafari;
+  const isCoast = matchCoast;
+  const isIosWebview = matchIosWebview;
+  const isChrome = matchChrome;
+  const isAndroidBrowser = matchAndroidBrowser;
+  function isSilk() {
+    if (useUserAgentBrand()) {
+      return util.matchUserAgentDataBrand("Silk");
+    }
+    return util.matchUserAgent("Silk");
+  }
+  function getVersion() {
+    const userAgentString = util.getUserAgent();
+    if (isIE()) {
+      return getIEVersion(userAgentString);
+    }
+    const versionTuples = util.extractVersionTuples(userAgentString);
+    const versionMap = {};
+    versionTuples.forEach(tuple => {
+      const key = tuple[0];
+      const value = tuple[1];
+      versionMap[key] = value;
+    });
+    const versionMapHasKey = goog.partial(googObject.containsKey, versionMap);
+    function lookUpValueWithKeys(keys) {
+      const key = googArray.find(keys, versionMapHasKey);
+      return versionMap[key] || "";
+    }
+    if (isOpera()) {
+      return lookUpValueWithKeys(["Version", "Opera"]);
+    }
+    if (isEdge()) {
+      return lookUpValueWithKeys(["Edge"]);
+    }
+    if (isEdgeChromium()) {
+      return lookUpValueWithKeys(["Edg"]);
+    }
+    if (isChrome()) {
+      return lookUpValueWithKeys(["Chrome", "CriOS", "HeadlessChrome"]);
+    }
+    const tuple = versionTuples[2];
+    return tuple && tuple[1] || "";
+  }
+  function isVersionOrHigher(version) {
+    return compareVersions(getVersion(), version) >= 0;
+  }
+  function getIEVersion(userAgent) {
+    const rv = /rv: *([\d\.]*)/.exec(userAgent);
+    if (rv && rv[1]) {
+      return rv[1];
+    }
+    let version = "";
+    const msie = /MSIE +([\d\.]+)/.exec(userAgent);
+    if (msie && msie[1]) {
+      const tridentVersion = /Trident\/(\d.\d)/.exec(userAgent);
+      if (msie[1] == "7.0") {
+        if (tridentVersion && tridentVersion[1]) {
+          switch(tridentVersion[1]) {
+            case "4.0":
+              version = "8.0";
+              break;
+            case "5.0":
+              version = "9.0";
+              break;
+            case "6.0":
+              version = "10.0";
+              break;
+            case "7.0":
+              version = "11.0";
+              break;
+          }
+        } else {
+          version = "7.0";
         }
       } else {
-        version = "7.0";
+        version = msie[1];
       }
-    } else {
-      version = msie[1];
     }
+    return version;
   }
-  return version;
-};
+  exports = {getVersion, isAndroidBrowser, isChrome, isCoast, isEdge, isEdgeChromium, isFirefox, isIE, isIosWebview, isOpera, isOperaChromium, isSafari, isSilk, isVersionOrHigher,};
+  return exports;
+});
 
 //# sourceMappingURL=goog.labs.useragent.browser.js.map

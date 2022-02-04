@@ -12,7 +12,7 @@ goog.scope(function() {
   reader.Reader = function Transit$Reader(unmarshaller, options) {
     this.unmarshaller = unmarshaller;
     this.options = options || {};
-    this.cache = this.options["cache"] ? this.options["cache"] : new caching.ReadCache;
+    this.cache = this.options["cache"] ? this.options["cache"] : new caching.ReadCache();
   };
   reader.Reader.prototype.read = function(str) {
     var ret = this.unmarshaller.unmarshal(str, this.cache);

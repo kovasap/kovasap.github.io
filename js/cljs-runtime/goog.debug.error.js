@@ -2,17 +2,20 @@ goog.loadModule(function(exports) {
   "use strict";
   goog.module("goog.debug.Error");
   goog.module.declareLegacyNamespace();
-  function DebugError(opt_msg) {
+  function DebugError(msg = undefined, cause = undefined) {
     if (Error.captureStackTrace) {
       Error.captureStackTrace(this, DebugError);
     } else {
-      const stack = (new Error).stack;
+      const stack = (new Error()).stack;
       if (stack) {
         this.stack = stack;
       }
     }
-    if (opt_msg) {
-      this.message = String(opt_msg);
+    if (msg) {
+      this.message = String(msg);
+    }
+    if (cause !== undefined) {
+      this.cause = cause;
     }
     this.reportErrorToServer = true;
   }

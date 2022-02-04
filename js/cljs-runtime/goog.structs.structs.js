@@ -14,6 +14,9 @@ goog.structs.getValues = function(col) {
   if (col.getValues && typeof col.getValues == "function") {
     return col.getValues();
   }
+  if (typeof Map !== "undefined" && col instanceof Map || typeof Set !== "undefined" && col instanceof Set) {
+    return Array.from(col.values());
+  }
   if (typeof col === "string") {
     return col.split("");
   }
@@ -32,6 +35,12 @@ goog.structs.getKeys = function(col) {
     return col.getKeys();
   }
   if (col.getValues && typeof col.getValues == "function") {
+    return undefined;
+  }
+  if (typeof Map !== "undefined" && col instanceof Map) {
+    return Array.from(col.keys());
+  }
+  if (typeof Set !== "undefined" && col instanceof Set) {
     return undefined;
   }
   if (goog.isArrayLike(col) || typeof col === "string") {
@@ -61,7 +70,7 @@ goog.structs.isEmpty = function(col) {
     return col.isEmpty();
   }
   if (goog.isArrayLike(col) || typeof col === "string") {
-    return goog.array.isEmpty(col);
+    return col.length === 0;
   }
   return goog.object.isEmpty(col);
 };
@@ -81,7 +90,7 @@ goog.structs.forEach = function(col, f, opt_obj) {
     col.forEach(f, opt_obj);
   } else {
     if (goog.isArrayLike(col) || typeof col === "string") {
-      goog.array.forEach(col, f, opt_obj);
+      Array.prototype.forEach.call(col, f, opt_obj);
     } else {
       var keys = goog.structs.getKeys(col);
       var values = goog.structs.getValues(col);
@@ -97,7 +106,7 @@ goog.structs.filter = function(col, f, opt_obj) {
     return col.filter(f, opt_obj);
   }
   if (goog.isArrayLike(col) || typeof col === "string") {
-    return goog.array.filter(col, f, opt_obj);
+    return Array.prototype.filter.call(col, f, opt_obj);
   }
   var rv;
   var keys = goog.structs.getKeys(col);
@@ -125,7 +134,7 @@ goog.structs.map = function(col, f, opt_obj) {
     return col.map(f, opt_obj);
   }
   if (goog.isArrayLike(col) || typeof col === "string") {
-    return goog.array.map(col, f, opt_obj);
+    return Array.prototype.map.call(col, f, opt_obj);
   }
   var rv;
   var keys = goog.structs.getKeys(col);
@@ -149,7 +158,7 @@ goog.structs.some = function(col, f, opt_obj) {
     return col.some(f, opt_obj);
   }
   if (goog.isArrayLike(col) || typeof col === "string") {
-    return goog.array.some(col, f, opt_obj);
+    return Array.prototype.some.call(col, f, opt_obj);
   }
   var keys = goog.structs.getKeys(col);
   var values = goog.structs.getValues(col);
@@ -166,7 +175,7 @@ goog.structs.every = function(col, f, opt_obj) {
     return col.every(f, opt_obj);
   }
   if (goog.isArrayLike(col) || typeof col === "string") {
-    return goog.array.every(col, f, opt_obj);
+    return Array.prototype.every.call(col, f, opt_obj);
   }
   var keys = goog.structs.getKeys(col);
   var values = goog.structs.getValues(col);

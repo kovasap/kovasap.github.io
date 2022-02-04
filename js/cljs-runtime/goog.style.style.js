@@ -1,9 +1,9 @@
 goog.provide("goog.style");
-goog.require("goog.array");
 goog.require("goog.asserts");
 goog.require("goog.dom");
 goog.require("goog.dom.NodeType");
 goog.require("goog.dom.TagName");
+goog.require("goog.dom.safe");
 goog.require("goog.dom.vendor");
 goog.require("goog.html.SafeStyleSheet");
 goog.require("goog.math.Box");
@@ -422,13 +422,9 @@ goog.style.setOpacity = function(el, alpha) {
 };
 goog.style.setTransparentBackgroundImage = function(el, src) {
   var style = el.style;
-  if (goog.userAgent.IE && !goog.userAgent.isVersionOrHigher("8")) {
-    style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(" + 'src\x3d"' + src + '", sizingMethod\x3d"crop")';
-  } else {
-    style.backgroundImage = "url(" + src + ")";
-    style.backgroundPosition = "top left";
-    style.backgroundRepeat = "no-repeat";
-  }
+  style.backgroundImage = "url(" + src + ")";
+  style.backgroundPosition = "top left";
+  style.backgroundRepeat = "no-repeat";
 };
 goog.style.clearTransparentBackgroundImage = function(el) {
   var style = el.style;
@@ -462,7 +458,7 @@ goog.style.installSafeStyleSheet = function(safeStyleSheet, opt_node) {
       body.parentNode.insertBefore(head, body);
     }
     var el = dh.createDom(goog.dom.TagName.STYLE);
-    var nonce = goog.getScriptNonce();
+    const nonce = goog.dom.safe.getStyleNonce();
     if (nonce) {
       el.setAttribute("nonce", nonce);
     }
@@ -489,26 +485,16 @@ goog.style.setSafeStyleSheet = function(element, safeStyleSheet) {
 };
 goog.style.setPreWrap = function(el) {
   var style = el.style;
-  if (goog.userAgent.IE && !goog.userAgent.isVersionOrHigher("8")) {
-    style.whiteSpace = "pre";
-    style.wordWrap = "break-word";
+  if (goog.userAgent.GECKO) {
+    style.whiteSpace = "-moz-pre-wrap";
   } else {
-    if (goog.userAgent.GECKO) {
-      style.whiteSpace = "-moz-pre-wrap";
-    } else {
-      style.whiteSpace = "pre-wrap";
-    }
+    style.whiteSpace = "pre-wrap";
   }
 };
 goog.style.setInlineBlock = function(el) {
   var style = el.style;
   style.position = "relative";
-  if (goog.userAgent.IE && !goog.userAgent.isVersionOrHigher("8")) {
-    style.zoom = "1";
-    style.display = "inline";
-  } else {
-    style.display = "inline-block";
-  }
+  style.display = "inline-block";
 };
 goog.style.isRightToLeft = function(el) {
   return "rtl" == goog.style.getStyle_(el, "direction");
@@ -518,7 +504,7 @@ goog.style.isUnselectable = function(el) {
   if (goog.style.unselectableStyle_) {
     return el.style[goog.style.unselectableStyle_].toLowerCase() == "none";
   } else {
-    if (goog.userAgent.IE || goog.userAgent.OPERA) {
+    if (goog.userAgent.IE) {
       return el.getAttribute("unselectable") == "on";
     }
   }
@@ -540,7 +526,7 @@ goog.style.setUnselectable = function(el, unselectable, opt_noRecurse) {
       }
     }
   } else {
-    if (goog.userAgent.IE || goog.userAgent.OPERA) {
+    if (goog.userAgent.IE) {
       var value = unselectable ? "on" : "";
       el.setAttribute("unselectable", value);
       if (descendants) {
@@ -557,7 +543,7 @@ goog.style.getBorderBoxSize = function(element) {
 goog.style.setBorderBoxSize = function(element, size) {
   var doc = goog.dom.getOwnerDocument(element);
   var isCss1CompatMode = goog.dom.getDomHelper(doc).isCss1CompatMode();
-  if (goog.userAgent.IE && !goog.userAgent.isVersionOrHigher("10") && (!isCss1CompatMode || !goog.userAgent.isVersionOrHigher("8"))) {
+  if (goog.userAgent.IE && !goog.userAgent.isVersionOrHigher("10") && !isCss1CompatMode) {
     var style = element.style;
     if (isCss1CompatMode) {
       var paddingBox = goog.style.getPaddingBox(element);
@@ -589,7 +575,7 @@ goog.style.getContentBoxSize = function(element) {
 goog.style.setContentBoxSize = function(element, size) {
   var doc = goog.dom.getOwnerDocument(element);
   var isCss1CompatMode = goog.dom.getDomHelper(doc).isCss1CompatMode();
-  if (goog.userAgent.IE && !goog.userAgent.isVersionOrHigher("10") && (!isCss1CompatMode || !goog.userAgent.isVersionOrHigher("8"))) {
+  if (goog.userAgent.IE && !goog.userAgent.isVersionOrHigher("10") && !isCss1CompatMode) {
     var style = element.style;
     if (isCss1CompatMode) {
       style.pixelWidth = size.width;
@@ -736,7 +722,7 @@ goog.style.getFontSize = function(el) {
 };
 goog.style.parseStyleAttribute = function(value) {
   var result = {};
-  goog.array.forEach(value.split(/\s*;\s*/), function(pair) {
+  value.split(/\s*;\s*/).forEach(function(pair) {
     var keyValue = pair.match(/\s*([\w-]+)\s*:(.+)/);
     if (keyValue) {
       var styleName = keyValue[1];

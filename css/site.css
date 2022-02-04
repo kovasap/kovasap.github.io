@@ -33,52 +33,12 @@ a:hover {
   text-decoration: underline;
 }
 
-.dev-notes {
-  font-size: 0.7em;
+.hide {
+  display: none;
+  position: absolute;
+  z-index: 100;
 }
 
-foreignObject {
-  overflow: visible;
-}
-
-.hover-text-div {
-  position: relative;
-  font-size: 0.8em;
-  line-height: 1em;
-  background-color: rgba(255, 255, 255, 0.7);
-  animation-name: fade-in;
-  animation-duration: 0.2s;
-  animation-fill-mode: forwards;
-}
-
-.hovered {
-  opacity: 1;
-}
-
-.fade-out-active {
-  animation-name: fade-out;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes fade-in {
-  from {
-    opacity: 0;
-    width: 0px;
-  }
-  to {
-    opacity: 1;
-    width: 200px;
-  }
-}
-
-@keyframes fade-out {
-  from {
-    opacity: 1;
-    width: 200px;
-  }
-  to {
-    opacity: 0;
-    width: 0px;
-  }
+.label:hover + .hide {
+  display: block;
 }

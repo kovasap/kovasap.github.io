@@ -72,7 +72,7 @@ goog.scope(function() {
     this.gen++;
   };
   caching.writeCache = function() {
-    return new caching.WriteCache;
+    return new caching.WriteCache();
   };
   caching.isCacheCode = function(string) {
     return string.charAt(0) === d.SUB && string.charAt(1) !== " ";
@@ -104,7 +104,7 @@ goog.scope(function() {
     this.idx = 0;
   };
   caching.readCache = function() {
-    return new caching.ReadCache;
+    return new caching.ReadCache();
   };
 });
 

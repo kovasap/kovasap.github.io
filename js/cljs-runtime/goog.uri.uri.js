@@ -2,9 +2,9 @@ goog.provide("goog.Uri");
 goog.provide("goog.Uri.QueryData");
 goog.require("goog.array");
 goog.require("goog.asserts");
+goog.require("goog.collections.maps");
 goog.require("goog.string");
 goog.require("goog.structs");
-goog.require("goog.structs.Map");
 goog.require("goog.uri.utils");
 goog.require("goog.uri.utils.ComponentIndex");
 goog.require("goog.uri.utils.StandardQueryParam");
@@ -396,7 +396,7 @@ goog.Uri.QueryData = function(opt_query, opt_ignoreCase) {
 };
 goog.Uri.QueryData.prototype.ensureKeyMapInitialized_ = function() {
   if (!this.keyMap_) {
-    this.keyMap_ = new goog.structs.Map;
+    this.keyMap_ = new Map();
     this.count_ = 0;
     if (this.encodedQuery_) {
       var self = this;
@@ -453,10 +453,10 @@ goog.Uri.QueryData.prototype.add = function(key, value) {
 goog.Uri.QueryData.prototype.remove = function(key) {
   this.ensureKeyMapInitialized_();
   key = this.getKeyName_(key);
-  if (this.keyMap_.containsKey(key)) {
+  if (this.keyMap_.has(key)) {
     this.invalidateCache_();
     this.count_ = goog.asserts.assertNumber(this.count_) - this.keyMap_.get(key).length;
-    return this.keyMap_.remove(key);
+    return this.keyMap_.delete(key);
   }
   return false;
 };
@@ -472,7 +472,7 @@ goog.Uri.QueryData.prototype.isEmpty = function() {
 goog.Uri.QueryData.prototype.containsKey = function(key) {
   this.ensureKeyMapInitialized_();
   key = this.getKeyName_(key);
-  return this.keyMap_.containsKey(key);
+  return this.keyMap_.has(key);
 };
 goog.Uri.QueryData.prototype.containsValue = function(value) {
   var vals = this.getValues();
@@ -481,19 +481,19 @@ goog.Uri.QueryData.prototype.containsValue = function(value) {
 goog.Uri.QueryData.prototype.forEach = function(f, opt_scope) {
   this.ensureKeyMapInitialized_();
   this.keyMap_.forEach(function(values, key) {
-    goog.array.forEach(values, function(value) {
+    values.forEach(function(value) {
       f.call(opt_scope, value, key, this);
     }, this);
   }, this);
 };
 goog.Uri.QueryData.prototype.getKeys = function() {
   this.ensureKeyMapInitialized_();
-  var vals = this.keyMap_.getValues();
-  var keys = this.keyMap_.getKeys();
-  var rv = [];
-  for (var i = 0; i < keys.length; i++) {
-    var val = vals[i];
-    for (var j = 0; j < val.length; j++) {
+  const vals = Array.from(this.keyMap_.values());
+  const keys = Array.from(this.keyMap_.keys());
+  const rv = [];
+  for (let i = 0; i < keys.length; i++) {
+    const val = vals[i];
+    for (let j = 0; j < val.length; j++) {
       rv.push(keys[i]);
     }
   }
@@ -501,15 +501,15 @@ goog.Uri.QueryData.prototype.getKeys = function() {
 };
 goog.Uri.QueryData.prototype.getValues = function(opt_key) {
   this.ensureKeyMapInitialized_();
-  var rv = [];
+  let rv = [];
   if (typeof opt_key === "string") {
     if (this.containsKey(opt_key)) {
-      rv = goog.array.concat(rv, this.keyMap_.get(this.getKeyName_(opt_key)));
+      rv = rv.concat(this.keyMap_.get(this.getKeyName_(opt_key)));
     }
   } else {
-    var values = this.keyMap_.getValues();
-    for (var i = 0; i < values.length; i++) {
-      rv = goog.array.concat(rv, values[i]);
+    const values = Array.from(this.keyMap_.values());
+    for (let i = 0; i < values.length; i++) {
+      rv = rv.concat(values[i]);
     }
   }
   return rv;
@@ -547,12 +547,12 @@ goog.Uri.QueryData.prototype.toString = function() {
   if (!this.keyMap_) {
     return "";
   }
-  var sb = [];
-  var keys = this.keyMap_.getKeys();
+  const sb = [];
+  const keys = Array.from(this.keyMap_.keys());
   for (var i = 0; i < keys.length; i++) {
-    var key = keys[i];
-    var encodedKey = goog.string.urlEncode(key);
-    var val = this.getValues(key);
+    const key = keys[i];
+    const encodedKey = goog.string.urlEncode(key);
+    const val = this.getValues(key);
     for (var j = 0; j < val.length; j++) {
       var param = encodedKey;
       if (val[j] !== "") {
@@ -579,10 +579,10 @@ goog.Uri.QueryData.prototype.filterKeys = function(keys) {
   return this;
 };
 goog.Uri.QueryData.prototype.clone = function() {
-  var rv = new goog.Uri.QueryData;
+  var rv = new goog.Uri.QueryData();
   rv.encodedQuery_ = this.encodedQuery_;
   if (this.keyMap_) {
-    rv.keyMap_ = this.keyMap_.clone();
+    rv.keyMap_ = new Map(this.keyMap_);
     rv.count_ = this.count_;
   }
   return rv;

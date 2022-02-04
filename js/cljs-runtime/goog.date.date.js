@@ -10,15 +10,12 @@ goog.require("goog.i18n.DateTimeSymbols");
 goog.require("goog.string");
 goog.date.weekDay = {MON:0, TUE:1, WED:2, THU:3, FRI:4, SAT:5, SUN:6};
 goog.date.month = {JAN:0, FEB:1, MAR:2, APR:3, MAY:4, JUN:5, JUL:6, AUG:7, SEP:8, OCT:9, NOV:10, DEC:11};
-goog.date.formatMonthAndYear = function(monthName, yearNum) {
-  var MSG_MONTH_AND_YEAR = goog.getMsg("{$monthName} {$yearNum}", {"monthName":monthName, "yearNum":String(yearNum)});
-  return MSG_MONTH_AND_YEAR;
-};
 goog.date.splitDateStringRegex_ = new RegExp("^(\\d{4})(?:(?:-?(\\d{2})(?:-?(\\d{2}))?)|" + "(?:-?(\\d{3}))|(?:-?W(\\d{2})(?:-?([1-7]))?))?$");
 goog.date.splitTimeStringRegex_ = /^(\d{2})(?::?(\d{2})(?::?(\d{2})(\.\d+)?)?)?$/;
 goog.date.splitTimezoneStringRegex_ = /Z|(?:([-+])(\d{2})(?::?(\d{2}))?)$/;
 goog.date.splitDurationRegex_ = new RegExp("^(-)?P(?:(\\d+)Y)?(?:(\\d+)M)?(?:(\\d+)D)?" + "(T(?:(\\d+)H)?(?:(\\d+)M)?(?:(\\d+(?:\\.\\d+)?)S)?)?$");
 goog.date.MS_PER_DAY = 24 * 60 * 60 * 1000;
+goog.date.MS_PER_GREGORIAN_CYCLE_ = 146097 * 24 * 60 * 60 * 1000;
 goog.date.isLeapYear = function(year) {
   return year % 4 == 0 && (year % 100 != 0 || year % 400 == 0);
 };
@@ -158,7 +155,14 @@ goog.date.setIso8601TimeOnly_ = function(d, formatted) {
     var minute = Number(timeParts[2]) || 0;
     var second = Number(timeParts[3]) || 0;
     var millisecond = timeParts[4] ? Number(timeParts[4]) * 1000 : 0;
-    var utc = Date.UTC(year, month, day, hour, minute, second, millisecond);
+    const twoDigitYear = year >= 0 && year < 100;
+    if (twoDigitYear) {
+      year += 400;
+    }
+    let utc = Date.UTC(year, month, day, hour, minute, second, millisecond);
+    if (twoDigitYear) {
+      utc -= goog.date.MS_PER_GREGORIAN_CYCLE_;
+    }
     d.setTime(utc + offsetMinutes * 60000);
   } else {
     d.setHours(Number(timeParts[1]));
@@ -448,10 +452,12 @@ goog.date.Date.prototype.add = function(interval) {
     this.setDate(date);
   }
   if (interval.days) {
-    var noon = new Date(this.getYear(), this.getMonth(), this.getDate(), 12);
-    var result = new Date(noon.getTime() + interval.days * 86400000);
+    const initialYear = this.getYear();
+    const yearAdjustment = initialYear >= 0 && initialYear <= 99 ? -1900 : 0;
+    const noon = new Date(initialYear, this.getMonth(), this.getDate(), 12);
+    const result = new Date(noon.getTime() + interval.days * 86400000);
     this.setDate(1);
-    this.setFullYear(result.getFullYear());
+    this.setFullYear(result.getFullYear() + yearAdjustment);
     this.setMonth(result.getMonth());
     this.setDate(result.getDate());
     this.maybeFixDst_(result.getDate());
@@ -462,7 +468,7 @@ goog.date.Date.prototype.toIsoString = function(opt_verbose, opt_tz) {
   return str.join(opt_verbose ? "-" : "") + (opt_tz ? this.getTimezoneOffsetString() : "");
 };
 goog.date.Date.prototype.toUTCIsoString = function(opt_verbose, opt_tz) {
-  var str = [this.getUTCFullYear(), goog.string.padNumber(this.getUTCMonth() + 1, 2), goog.string.padNumber(this.getUTCDate(), 2)];
+  var str = [goog.string.padNumber(this.getUTCFullYear(), 4), goog.string.padNumber(this.getUTCMonth() + 1, 2), goog.string.padNumber(this.getUTCDate(), 2)];
   return str.join(opt_verbose ? "-" : "") + (opt_tz ? "Z" : "");
 };
 goog.date.Date.prototype.equals = function(other) {
@@ -496,7 +502,7 @@ goog.date.DateTime = function(opt_year, opt_month, opt_date, opt_hours, opt_minu
 };
 goog.inherits(goog.date.DateTime, goog.date.Date);
 goog.date.DateTime.fromTimestamp = function(timestamp) {
-  var date = new goog.date.DateTime;
+  var date = new goog.date.DateTime();
   date.setTime(timestamp);
   return date;
 };

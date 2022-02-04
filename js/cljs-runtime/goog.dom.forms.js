@@ -48,7 +48,7 @@ goog.dom.forms.submitFormDataInNewWindow = function(actionUri, method, formData)
   return true;
 };
 goog.dom.forms.getFormDataMap = function(form) {
-  var map = new goog.structs.Map;
+  var map = new goog.structs.Map();
   goog.dom.forms.getFormDataHelper_(form, map, goog.dom.forms.addFormDataToMap_);
   return map;
 };

@@ -23,14 +23,10 @@ goog.fs.url.findUrlObject_ = function() {
   if (goog.global.URL !== undefined && goog.global.URL.createObjectURL !== undefined) {
     return goog.global.URL;
   } else {
-    if (goog.global.webkitURL !== undefined && goog.global.webkitURL.createObjectURL !== undefined) {
-      return goog.global.webkitURL;
+    if (goog.global.createObjectURL !== undefined) {
+      return goog.global;
     } else {
-      if (goog.global.createObjectURL !== undefined) {
-        return goog.global;
-      } else {
-        return null;
-      }
+      return null;
     }
   }
 };

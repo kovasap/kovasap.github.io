@@ -75,6 +75,9 @@ goog.loadModule(function(exports) {
     isOdd() {
       return (this.low_ & 1) == 1;
     }
+    hashCode() {
+      return this.getLowBits() ^ this.getHighBits();
+    }
     equals(other) {
       return this.low_ == other.low_ && this.high_ == other.high_;
     }

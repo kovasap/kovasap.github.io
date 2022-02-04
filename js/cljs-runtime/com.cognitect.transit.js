@@ -47,7 +47,7 @@ goog.scope(function() {
     Handler.prototype.rep = obj["rep"];
     Handler.prototype.stringRep = obj["stringRep"];
     Handler.prototype.getVerboseHandler = obj["getVerboseHandler"];
-    return new Handler;
+    return new Handler();
   };
   transit.makeBuilder = function(obj) {
     var Builder = function() {
@@ -56,7 +56,7 @@ goog.scope(function() {
     Builder.prototype.add = obj["add"];
     Builder.prototype.finalize = obj["finalize"];
     Builder.prototype.fromArray = obj["fromArray"];
-    return new Builder;
+    return new Builder();
   };
   transit.date = types.date;
   transit.integer = types.intValue;

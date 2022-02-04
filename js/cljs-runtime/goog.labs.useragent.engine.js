@@ -1,63 +1,69 @@
-goog.provide("goog.labs.userAgent.engine");
-goog.require("goog.array");
-goog.require("goog.labs.userAgent.util");
-goog.require("goog.string");
-goog.labs.userAgent.engine.isPresto = function() {
-  return goog.labs.userAgent.util.matchUserAgent("Presto");
-};
-goog.labs.userAgent.engine.isTrident = function() {
-  return goog.labs.userAgent.util.matchUserAgent("Trident") || goog.labs.userAgent.util.matchUserAgent("MSIE");
-};
-goog.labs.userAgent.engine.isEdge = function() {
-  return goog.labs.userAgent.util.matchUserAgent("Edge");
-};
-goog.labs.userAgent.engine.isWebKit = function() {
-  return goog.labs.userAgent.util.matchUserAgentIgnoreCase("WebKit") && !goog.labs.userAgent.engine.isEdge();
-};
-goog.labs.userAgent.engine.isGecko = function() {
-  return goog.labs.userAgent.util.matchUserAgent("Gecko") && !goog.labs.userAgent.engine.isWebKit() && !goog.labs.userAgent.engine.isTrident() && !goog.labs.userAgent.engine.isEdge();
-};
-goog.labs.userAgent.engine.getVersion = function() {
-  var userAgentString = goog.labs.userAgent.util.getUserAgent();
-  if (userAgentString) {
-    var tuples = goog.labs.userAgent.util.extractVersionTuples(userAgentString);
-    var engineTuple = goog.labs.userAgent.engine.getEngineTuple_(tuples);
-    if (engineTuple) {
-      if (engineTuple[0] == "Gecko") {
-        return goog.labs.userAgent.engine.getVersionForKey_(tuples, "Firefox");
+goog.loadModule(function(exports) {
+  "use strict";
+  goog.module("goog.labs.userAgent.engine");
+  goog.module.declareLegacyNamespace();
+  const googArray = goog.require("goog.array");
+  const googString = goog.require("goog.string.internal");
+  const util = goog.require("goog.labs.userAgent.util");
+  function isPresto() {
+    return util.matchUserAgent("Presto");
+  }
+  function isTrident() {
+    return util.matchUserAgent("Trident") || util.matchUserAgent("MSIE");
+  }
+  function isEdge() {
+    return util.matchUserAgent("Edge");
+  }
+  function isWebKit() {
+    return util.matchUserAgentIgnoreCase("WebKit") && !isEdge();
+  }
+  function isGecko() {
+    return util.matchUserAgent("Gecko") && !isWebKit() && !isTrident() && !isEdge();
+  }
+  function getVersion() {
+    const userAgentString = util.getUserAgent();
+    if (userAgentString) {
+      const tuples = util.extractVersionTuples(userAgentString);
+      const engineTuple = getEngineTuple(tuples);
+      if (engineTuple) {
+        if (engineTuple[0] == "Gecko") {
+          return getVersionForKey(tuples, "Firefox");
+        }
+        return engineTuple[1];
       }
-      return engineTuple[1];
+      const browserTuple = tuples[0];
+      let info;
+      if (browserTuple && (info = browserTuple[2])) {
+        const match = /Trident\/([^\s;]+)/.exec(info);
+        if (match) {
+          return match[1];
+        }
+      }
     }
-    var browserTuple = tuples[0];
-    var info;
-    if (browserTuple && (info = browserTuple[2])) {
-      var match = /Trident\/([^\s;]+)/.exec(info);
-      if (match) {
-        return match[1];
+    return "";
+  }
+  function getEngineTuple(tuples) {
+    if (!isEdge()) {
+      return tuples[1];
+    }
+    for (let i = 0; i < tuples.length; i++) {
+      const tuple = tuples[i];
+      if (tuple[0] == "Edge") {
+        return tuple;
       }
     }
   }
-  return "";
-};
-goog.labs.userAgent.engine.getEngineTuple_ = function(tuples) {
-  if (!goog.labs.userAgent.engine.isEdge()) {
-    return tuples[1];
+  function isVersionOrHigher(version) {
+    return googString.compareVersions(getVersion(), version) >= 0;
   }
-  for (var i = 0; i < tuples.length; i++) {
-    var tuple = tuples[i];
-    if (tuple[0] == "Edge") {
-      return tuple;
-    }
+  function getVersionForKey(tuples, key) {
+    const pair = googArray.find(tuples, function(pair) {
+      return key == pair[0];
+    });
+    return pair && pair[1] || "";
   }
-};
-goog.labs.userAgent.engine.isVersionOrHigher = function(version) {
-  return goog.string.compareVersions(goog.labs.userAgent.engine.getVersion(), version) >= 0;
-};
-goog.labs.userAgent.engine.getVersionForKey_ = function(tuples, key) {
-  var pair = goog.array.find(tuples, function(pair) {
-    return key == pair[0];
-  });
-  return pair && pair[1] || "";
-};
+  exports = {getVersion, isEdge, isGecko, isPresto, isTrident, isVersionOrHigher, isWebKit,};
+  return exports;
+});
 
 //# sourceMappingURL=goog.labs.useragent.engine.js.map

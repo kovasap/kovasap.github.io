@@ -1,7 +1,7 @@
 goog.provide("goog.events.Listenable");
-goog.provide("goog.events.ListenableKey");
-goog.require("goog.events.EventId");
+goog.requireType("goog.events.EventId");
 goog.requireType("goog.events.EventLike");
+goog.requireType("goog.events.ListenableKey");
 goog.events.Listenable = function() {
 };
 goog.events.Listenable.IMPLEMENTED_BY_PROP = "closure_listenable_" + (Math.random() * 1e6 | 0);
@@ -33,17 +33,5 @@ goog.events.Listenable.prototype.getListener = function(type, listener, capture,
 };
 goog.events.Listenable.prototype.hasListener = function(opt_type, opt_capture) {
 };
-goog.events.ListenableKey = function() {
-};
-goog.events.ListenableKey.counter_ = 0;
-goog.events.ListenableKey.reserveKey = function() {
-  return ++goog.events.ListenableKey.counter_;
-};
-goog.events.ListenableKey.prototype.src;
-goog.events.ListenableKey.prototype.type;
-goog.events.ListenableKey.prototype.listener;
-goog.events.ListenableKey.prototype.capture;
-goog.events.ListenableKey.prototype.handler;
-goog.events.ListenableKey.prototype.key;
 
 //# sourceMappingURL=goog.events.listenable.js.map

@@ -113,11 +113,6 @@ goog.asserts.assertFinite = function(value, opt_message, var_args) {
   }
   return value;
 };
-goog.asserts.assertObjectPrototypeIsIntact = function() {
-  for (var key in Object.prototype) {
-    goog.asserts.fail(key + " should not be enumerable in Object.prototype.");
-  }
-};
 goog.asserts.getType_ = function(value) {
   if (value instanceof Function) {
     return value.displayName || value.name || "unknown type name";

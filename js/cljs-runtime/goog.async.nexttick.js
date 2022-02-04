@@ -1,16 +1,10 @@
 goog.provide("goog.async.nextTick");
-goog.provide("goog.async.throwException");
 goog.require("goog.debug.entryPointRegistry");
 goog.require("goog.dom");
 goog.require("goog.dom.TagName");
 goog.require("goog.functions");
 goog.require("goog.labs.userAgent.browser");
 goog.require("goog.labs.userAgent.engine");
-goog.async.throwException = function(exception) {
-  goog.global.setTimeout(function() {
-    throw exception;
-  }, 0);
-};
 goog.async.nextTick = function(callback, opt_context, opt_useSetImmediate) {
   var cb = callback;
   if (opt_context) {
@@ -63,7 +57,7 @@ goog.async.nextTick.getSetImmediateEmulator_ = function() {
     };
   }
   if (typeof Channel !== "undefined" && !goog.labs.userAgent.browser.isIE()) {
-    var channel = new Channel;
+    var channel = new Channel();
     var head = {};
     var tail = head;
     channel["port1"].onmessage = function() {

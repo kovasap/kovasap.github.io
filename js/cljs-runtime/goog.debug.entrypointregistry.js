@@ -1,10 +1,11 @@
 goog.provide("goog.debug.EntryPointMonitor");
 goog.provide("goog.debug.entryPointRegistry");
 goog.require("goog.asserts");
-goog.debug.EntryPointMonitor = function() {
+goog.debug.entryPointRegistry.EntryPointMonitor = function() {
 };
-goog.debug.EntryPointMonitor.prototype.wrap;
-goog.debug.EntryPointMonitor.prototype.unwrap;
+goog.debug.entryPointRegistry.EntryPointMonitor.prototype.wrap;
+goog.debug.entryPointRegistry.EntryPointMonitor.prototype.unwrap;
+goog.debug.EntryPointMonitor = goog.debug.entryPointRegistry.EntryPointMonitor;
 goog.debug.entryPointRegistry.refList_ = [];
 goog.debug.entryPointRegistry.monitors_ = [];
 goog.debug.entryPointRegistry.monitorsMayExist_ = false;

@@ -2,10 +2,8 @@ goog.provide("goog.debug.ErrorHandler");
 goog.provide("goog.debug.ErrorHandler.ProtectedFunctionError");
 goog.require("goog.Disposable");
 goog.require("goog.asserts");
-goog.require("goog.debug");
 goog.require("goog.debug.EntryPointMonitor");
 goog.require("goog.debug.Error");
-goog.require("goog.debug.Trace");
 goog.debug.ErrorHandler = function(handler) {
   goog.debug.ErrorHandler.base(this, "constructor");
   this.errorHandlerFn_ = handler;
@@ -13,23 +11,12 @@ goog.debug.ErrorHandler = function(handler) {
   this.prefixErrorMessages_ = false;
 };
 goog.inherits(goog.debug.ErrorHandler, goog.Disposable);
-goog.debug.ErrorHandler.prototype.addTracersToProtectedFunctions_ = false;
-goog.debug.ErrorHandler.prototype.setAddTracersToProtectedFunctions = function(newVal) {
-  this.addTracersToProtectedFunctions_ = newVal;
-};
 goog.debug.ErrorHandler.prototype.wrap = function(fn) {
   return this.protectEntryPoint(goog.asserts.assertFunction(fn));
 };
 goog.debug.ErrorHandler.prototype.unwrap = function(fn) {
   goog.asserts.assertFunction(fn);
   return fn[this.getFunctionIndex_(false)] || fn;
-};
-goog.debug.ErrorHandler.prototype.getStackTraceHolder_ = function(stackTrace) {
-  var buffer = [];
-  buffer.push("##PE_STACK_START##");
-  buffer.push(stackTrace.replace(/(\r\n|\r|\n)/g, "##STACK_BR##"));
-  buffer.push("##PE_STACK_END##");
-  return buffer.join("");
 };
 goog.debug.ErrorHandler.prototype.getFunctionIndex_ = function(wrapper) {
   return (wrapper ? "__wrapper_" : "__protected_") + goog.getUid(this) + "__";
@@ -44,26 +31,15 @@ goog.debug.ErrorHandler.prototype.protectEntryPoint = function(fn) {
 };
 goog.debug.ErrorHandler.prototype.getProtectedFunction = function(fn) {
   var that = this;
-  var tracers = this.addTracersToProtectedFunctions_;
-  if (tracers) {
-    var stackTrace = goog.debug.getStacktraceSimple(15);
-  }
   var googDebugErrorHandlerProtectedFunction = function() {
     var self = this;
     if (that.isDisposed()) {
       return fn.apply(self, arguments);
     }
-    if (tracers) {
-      var tracer = goog.debug.Trace.startTracer("protectedEntryPoint: " + that.getStackTraceHolder_(stackTrace));
-    }
     try {
       return fn.apply(self, arguments);
     } catch (e) {
       that.handleError_(e);
-    } finally {
-      if (tracers) {
-        goog.debug.Trace.stopTracer(tracer);
-      }
     }
   };
   googDebugErrorHandlerProtectedFunction[this.getFunctionIndex_(false)] = fn;
@@ -155,8 +131,7 @@ goog.debug.ErrorHandler.prototype.disposeInternal = function() {
 };
 goog.debug.ErrorHandler.ProtectedFunctionError = function(cause) {
   var message = goog.debug.ErrorHandler.ProtectedFunctionError.MESSAGE_PREFIX + (cause && cause.message ? String(cause.message) : String(cause));
-  goog.debug.ErrorHandler.ProtectedFunctionError.base(this, "constructor", message);
-  this.cause = cause;
+  goog.debug.ErrorHandler.ProtectedFunctionError.base(this, "constructor", message, cause);
   var stack = cause && cause.stack;
   if (stack && typeof stack === "string") {
     this.stack = stack;

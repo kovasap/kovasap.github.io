@@ -19,13 +19,6 @@ goog.loadModule(function(exports) {
       }
       return SafeScript.createSafeScriptSecurityPrivateDoNotAccessOrElse(scriptString);
     }
-    static fromConstantAndArgs(code, var_args) {
-      const args = [];
-      for (let i = 1; i < arguments.length; i++) {
-        args.push(SafeScript.stringify_(arguments[i]));
-      }
-      return SafeScript.createSafeScriptSecurityPrivateDoNotAccessOrElse("(" + Const.unwrap(code) + ")(" + args.join(", ") + ");");
-    }
     static fromJson(val) {
       return SafeScript.createSafeScriptSecurityPrivateDoNotAccessOrElse(SafeScript.stringify_(val));
     }
@@ -53,14 +46,12 @@ goog.loadModule(function(exports) {
       return new SafeScript(trustedScript, CONSTRUCTOR_TOKEN_PRIVATE);
     }
   }
-  if (goog.DEBUG) {
-    SafeScript.prototype.toString = function() {
-      return "SafeScript{" + this.privateDoNotAccessOrElseSafeScriptWrappedValue_ + "}";
-    };
-  }
+  SafeScript.prototype.toString = function() {
+    return this.privateDoNotAccessOrElseSafeScriptWrappedValue_.toString();
+  };
   SafeScript.EMPTY = {valueOf:function() {
     return SafeScript.createSafeScriptSecurityPrivateDoNotAccessOrElse("");
-  }, }.valueOf();
+  },}.valueOf();
   exports = SafeScript;
   return exports;
 });

@@ -2,7 +2,6 @@ goog.provide("goog.events.BrowserEvent");
 goog.provide("goog.events.BrowserEvent.MouseButton");
 goog.provide("goog.events.BrowserEvent.PointerType");
 goog.require("goog.debug");
-goog.require("goog.events.BrowserFeature");
 goog.require("goog.events.Event");
 goog.require("goog.events.EventType");
 goog.require("goog.reflect");
@@ -96,19 +95,11 @@ goog.events.BrowserEvent.prototype.init = function(e, opt_currentTarget) {
   this.state = e.state;
   this.event_ = e;
   if (e.defaultPrevented) {
-    this.preventDefault();
+    goog.events.BrowserEvent.superClass_.preventDefault.call(this);
   }
 };
 goog.events.BrowserEvent.prototype.isButton = function(button) {
-  if (!goog.events.BrowserFeature.HAS_W3C_BUTTON) {
-    if (this.type == "click") {
-      return button == goog.events.BrowserEvent.MouseButton.LEFT;
-    } else {
-      return !!(this.event_.button & goog.events.BrowserEvent.IE_BUTTON_MAP[button]);
-    }
-  } else {
-    return this.event_.button == button;
-  }
+  return this.event_.button == button;
 };
 goog.events.BrowserEvent.prototype.isMouseActionButton = function() {
   return this.isButton(goog.events.BrowserEvent.MouseButton.LEFT) && !(goog.userAgent.MAC && this.ctrlKey);
@@ -126,16 +117,6 @@ goog.events.BrowserEvent.prototype.preventDefault = function() {
   var be = this.event_;
   if (!be.preventDefault) {
     be.returnValue = false;
-    if (goog.events.BrowserFeature.SET_KEY_CODE_TO_PREVENT_DEFAULT) {
-      try {
-        var VK_F1 = 112;
-        var VK_F12 = 123;
-        if (be.ctrlKey || be.keyCode >= VK_F1 && be.keyCode <= VK_F12) {
-          be.keyCode = -1;
-        }
-      } catch (ex) {
-      }
-    }
   } else {
     be.preventDefault();
   }

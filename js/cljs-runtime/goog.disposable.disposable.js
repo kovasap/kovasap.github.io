@@ -1,12 +1,12 @@
 goog.provide("goog.Disposable");
-goog.provide("goog.dispose");
-goog.provide("goog.disposeAll");
 goog.require("goog.disposable.IDisposable");
+goog.require("goog.dispose");
+goog.require("goog.disposeAll");
 goog.Disposable = function() {
   this.creationStack;
   if (goog.Disposable.MONITORING_MODE != goog.Disposable.MonitoringMode.OFF) {
     if (goog.Disposable.INCLUDE_STACK_ON_CREATION) {
-      this.creationStack = (new Error).stack;
+      this.creationStack = (new Error()).stack;
     }
     goog.Disposable.instances_[goog.getUid(this)] = this;
   }
@@ -76,21 +76,6 @@ goog.Disposable.isDisposed = function(obj) {
     return obj.isDisposed();
   }
   return false;
-};
-goog.dispose = function(obj) {
-  if (obj && typeof obj.dispose == "function") {
-    obj.dispose();
-  }
-};
-goog.disposeAll = function(var_args) {
-  for (var i = 0, len = arguments.length; i < len; ++i) {
-    var disposable = arguments[i];
-    if (goog.isArrayLike(disposable)) {
-      goog.disposeAll.apply(null, disposable);
-    } else {
-      goog.dispose(disposable);
-    }
-  }
 };
 
 //# sourceMappingURL=goog.disposable.disposable.js.map

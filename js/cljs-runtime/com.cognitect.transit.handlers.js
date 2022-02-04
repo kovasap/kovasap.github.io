@@ -162,7 +162,7 @@ goog.scope(function() {
     return v.valueOf().toString();
   };
   handlers.DateHandler.prototype.getVerboseHandler = function(v) {
-    return new handlers.VerboseDateHandler;
+    return new handlers.VerboseDateHandler();
   };
   handlers.UUIDHandler = function Transit$UUIDHandler() {
   };
@@ -268,26 +268,26 @@ goog.scope(function() {
     return null;
   };
   handlers.defaultHandlers = function(hs) {
-    hs.set(null, new handlers.NilHandler);
-    hs.set(String, new handlers.StringHandler);
-    hs.set(Number, new handlers.NumberHandler);
-    hs.set(Long, new handlers.IntegerHandler);
-    hs.set(Boolean, new handlers.BooleanHandler);
-    hs.set(Array, new handlers.ArrayHandler);
-    hs.set(Object, new handlers.MapHandler);
-    hs.set(Date, new handlers.DateHandler);
-    hs.set(types.UUID, new handlers.UUIDHandler);
-    hs.set(types.Keyword, new handlers.KeywordHandler);
-    hs.set(types.Symbol, new handlers.SymbolHandler);
-    hs.set(types.TaggedValue, new handlers.TaggedHandler);
-    hs.set(types.TransitSet, new handlers.TransitSetHandler);
-    hs.set(types.TransitArrayMap, new handlers.TransitArrayMapHandler);
-    hs.set(types.TransitMap, new handlers.TransitMapHandler);
+    hs.set(null, new handlers.NilHandler());
+    hs.set(String, new handlers.StringHandler());
+    hs.set(Number, new handlers.NumberHandler());
+    hs.set(Long, new handlers.IntegerHandler());
+    hs.set(Boolean, new handlers.BooleanHandler());
+    hs.set(Array, new handlers.ArrayHandler());
+    hs.set(Object, new handlers.MapHandler());
+    hs.set(Date, new handlers.DateHandler());
+    hs.set(types.UUID, new handlers.UUIDHandler());
+    hs.set(types.Keyword, new handlers.KeywordHandler());
+    hs.set(types.Symbol, new handlers.SymbolHandler());
+    hs.set(types.TaggedValue, new handlers.TaggedHandler());
+    hs.set(types.TransitSet, new handlers.TransitSetHandler());
+    hs.set(types.TransitArrayMap, new handlers.TransitArrayMapHandler());
+    hs.set(types.TransitMap, new handlers.TransitMapHandler());
     if (typeof goog.global.Buffer != "undefined") {
-      hs.set(goog.global.Buffer, new handlers.BufferHandler);
+      hs.set(goog.global.Buffer, new handlers.BufferHandler());
     }
     if (typeof Uint8Array != "undefined") {
-      hs.set(Uint8Array, new handlers.Uint8ArrayHandler);
+      hs.set(Uint8Array, new handlers.Uint8ArrayHandler());
     }
     return hs;
   };

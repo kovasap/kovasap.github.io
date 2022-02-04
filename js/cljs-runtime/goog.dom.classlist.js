@@ -38,16 +38,16 @@ goog.dom.classlist.add = function(element, className) {
 };
 goog.dom.classlist.addAll = function(element, classesToAdd) {
   if (goog.dom.classlist.ALWAYS_USE_DOM_TOKEN_LIST || element.classList) {
-    goog.array.forEach(classesToAdd, function(className) {
+    Array.prototype.forEach.call(classesToAdd, function(className) {
       goog.dom.classlist.add(element, className);
     });
     return;
   }
   var classMap = {};
-  goog.array.forEach(goog.dom.classlist.get(element), function(className) {
+  Array.prototype.forEach.call(goog.dom.classlist.get(element), function(className) {
     classMap[className] = true;
   });
-  goog.array.forEach(classesToAdd, function(className) {
+  Array.prototype.forEach.call(classesToAdd, function(className) {
     classMap[className] = true;
   });
   var newClassName = "";
@@ -62,19 +62,19 @@ goog.dom.classlist.remove = function(element, className) {
     return;
   }
   if (goog.dom.classlist.contains(element, className)) {
-    goog.dom.classlist.set(element, goog.array.filter(goog.dom.classlist.get(element), function(c) {
+    goog.dom.classlist.set(element, Array.prototype.filter.call(goog.dom.classlist.get(element), function(c) {
       return c != className;
     }).join(" "));
   }
 };
 goog.dom.classlist.removeAll = function(element, classesToRemove) {
   if (goog.dom.classlist.ALWAYS_USE_DOM_TOKEN_LIST || element.classList) {
-    goog.array.forEach(classesToRemove, function(className) {
+    Array.prototype.forEach.call(classesToRemove, function(className) {
       goog.dom.classlist.remove(element, className);
     });
     return;
   }
-  goog.dom.classlist.set(element, goog.array.filter(goog.dom.classlist.get(element), function(className) {
+  goog.dom.classlist.set(element, Array.prototype.filter.call(goog.dom.classlist.get(element), function(className) {
     return !goog.array.contains(classesToRemove, className);
   }).join(" "));
 };

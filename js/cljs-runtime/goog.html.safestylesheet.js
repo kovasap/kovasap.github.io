@@ -5,7 +5,6 @@ goog.loadModule(function(exports) {
   const Const = goog.require("goog.string.Const");
   const SafeStyle = goog.require("goog.html.SafeStyle");
   const TypedString = goog.require("goog.string.TypedString");
-  const googArray = goog.require("goog.array");
   const googObject = goog.require("goog.object");
   const {assert, fail} = goog.require("goog.asserts");
   const {contains} = goog.require("goog.string.internal");
@@ -53,12 +52,12 @@ goog.loadModule(function(exports) {
       let result = "";
       const addArgument = argument => {
         if (Array.isArray(argument)) {
-          googArray.forEach(argument, addArgument);
+          argument.forEach(addArgument);
         } else {
           result += SafeStyleSheet.unwrap(argument);
         }
       };
-      googArray.forEach(arguments, addArgument);
+      Array.prototype.forEach.call(arguments, addArgument);
       return SafeStyleSheet.createSafeStyleSheetSecurityPrivateDoNotAccessOrElse(result);
     }
     static fromConstant(styleSheet) {
@@ -84,11 +83,9 @@ goog.loadModule(function(exports) {
       return new SafeStyleSheet(styleSheet, CONSTRUCTOR_TOKEN_PRIVATE);
     }
   }
-  if (goog.DEBUG) {
-    SafeStyleSheet.prototype.toString = function() {
-      return "SafeStyleSheet{" + this.privateDoNotAccessOrElseSafeStyleSheetWrappedValue_ + "}";
-    };
-  }
+  SafeStyleSheet.prototype.toString = function() {
+    return this.privateDoNotAccessOrElseSafeStyleSheetWrappedValue_.toString();
+  };
   SafeStyleSheet.EMPTY = SafeStyleSheet.createSafeStyleSheetSecurityPrivateDoNotAccessOrElse("");
   exports = SafeStyleSheet;
   return exports;

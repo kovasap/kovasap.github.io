@@ -125,7 +125,7 @@ goog.functions.create = function(constructor, var_args) {
   const temp = function() {
   };
   temp.prototype = constructor.prototype;
-  const obj = new temp;
+  const obj = new temp();
   constructor.apply(obj, Array.prototype.slice.call(arguments, 1));
   return obj;
 };
@@ -167,7 +167,7 @@ goog.functions.debounce = function(f, interval, opt_scope) {
 goog.functions.throttle = function(f, interval, opt_scope) {
   let timeout = 0;
   let shouldFire = false;
-  let args = [];
+  let storedArgs = [];
   const handleTimeout = function() {
     timeout = 0;
     if (shouldFire) {
@@ -177,10 +177,12 @@ goog.functions.throttle = function(f, interval, opt_scope) {
   };
   const fire = function() {
     timeout = goog.global.setTimeout(handleTimeout, interval);
+    let args = storedArgs;
+    storedArgs = [];
     f.apply(opt_scope, args);
   };
   return function(var_args) {
-    args = arguments;
+    storedArgs = arguments;
     if (!timeout) {
       fire();
     } else {

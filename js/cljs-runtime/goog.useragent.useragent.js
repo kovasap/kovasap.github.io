@@ -4,7 +4,7 @@ goog.require("goog.labs.userAgent.engine");
 goog.require("goog.labs.userAgent.platform");
 goog.require("goog.labs.userAgent.util");
 goog.require("goog.reflect");
-goog.require("goog.string");
+goog.require("goog.string.internal");
 goog.userAgent.ASSUME_IE = goog.define("goog.userAgent.ASSUME_IE", false);
 goog.userAgent.ASSUME_EDGE = goog.define("goog.userAgent.ASSUME_EDGE", false);
 goog.userAgent.ASSUME_GECKO = goog.define("goog.userAgent.ASSUME_GECKO", false);
@@ -56,7 +56,7 @@ goog.userAgent.isLegacyLinux_ = function() {
 goog.userAgent.LINUX = goog.userAgent.PLATFORM_KNOWN_ ? goog.userAgent.ASSUME_LINUX : goog.userAgent.isLegacyLinux_();
 goog.userAgent.isX11_ = function() {
   var navigator = goog.userAgent.getNavigatorTyped();
-  return !!navigator && goog.string.contains(navigator["appVersion"] || "", "X11");
+  return !!navigator && goog.string.internal.contains(navigator["appVersion"] || "", "X11");
 };
 goog.userAgent.X11 = goog.userAgent.PLATFORM_KNOWN_ ? goog.userAgent.ASSUME_X11 : goog.userAgent.isX11_();
 goog.userAgent.ANDROID = goog.userAgent.PLATFORM_KNOWN_ ? goog.userAgent.ASSUME_ANDROID : goog.labs.userAgent.platform.isAndroid();
@@ -104,15 +104,14 @@ goog.userAgent.getDocumentMode_ = function() {
 };
 goog.userAgent.VERSION = goog.userAgent.determineVersion_();
 goog.userAgent.compare = function(v1, v2) {
-  return goog.string.compareVersions(v1, v2);
+  return goog.string.internal.compareVersions(v1, v2);
 };
 goog.userAgent.isVersionOrHigherCache_ = {};
 goog.userAgent.isVersionOrHigher = function(version) {
   return goog.userAgent.ASSUME_ANY_VERSION || goog.reflect.cache(goog.userAgent.isVersionOrHigherCache_, version, function() {
-    return goog.string.compareVersions(goog.userAgent.VERSION, version) >= 0;
+    return goog.string.internal.compareVersions(goog.userAgent.VERSION, version) >= 0;
   });
 };
-goog.userAgent.isVersion = goog.userAgent.isVersionOrHigher;
 goog.userAgent.isDocumentModeOrHigher = function(documentMode) {
   return Number(goog.userAgent.DOCUMENT_MODE) >= documentMode;
 };

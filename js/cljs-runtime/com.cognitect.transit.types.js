@@ -858,7 +858,7 @@ goog.scope(function() {
   };
   types.TransitSet.prototype["add"] = types.TransitSet.prototype.add;
   types.TransitSet.prototype.clear = function() {
-    this.map = new types.TransitMap;
+    this.map = new types.TransitMap();
     this.size = 0;
   };
   types.TransitSet.prototype["clear"] = types.TransitSet.prototype.clear;

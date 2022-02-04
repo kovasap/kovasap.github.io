@@ -1,8 +1,6 @@
 goog.provide("goog.events.Event");
-goog.provide("goog.events.EventLike");
 goog.require("goog.Disposable");
 goog.require("goog.events.EventId");
-goog.events.EventLike;
 goog.events.Event = function(type, opt_target) {
   this.type = type instanceof goog.events.EventId ? String(type) : type;
   this.target = opt_target;

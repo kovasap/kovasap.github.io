@@ -24,7 +24,7 @@ goog.scope(function() {
     this.preferStrings = this.opts["preferStrings"] != null ? this.opts["preferStrings"] : true;
     this.objectBuilder = this.opts["objectBuilder"] || null;
     this.transform = this.opts["transform"] || null;
-    this.handlers = new handlers.Handlers;
+    this.handlers = new handlers.Handlers();
     var optsHandlers = this.opts["handlers"];
     if (optsHandlers) {
       if (util.isArray(optsHandlers) || !optsHandlers.forEach) {
@@ -400,7 +400,7 @@ goog.scope(function() {
     if (this.options["cache"] === false) {
       this.cache = null;
     } else {
-      this.cache = this.options["cache"] ? this.options["cache"] : new caching.WriteCache;
+      this.cache = this.options["cache"] ? this.options["cache"] : new caching.WriteCache();
     }
   };
   writer.Writer.prototype.marshaller = function() {

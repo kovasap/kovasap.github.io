@@ -3,7 +3,7 @@ goog.require("goog.events.ListenableKey");
 goog.requireType("goog.events.Listenable");
 goog.events.Listener = function(listener, proxy, src, type, capture, opt_handler) {
   if (goog.events.Listener.ENABLE_MONITORING) {
-    this.creationStack = (new Error).stack;
+    this.creationStack = (new Error()).stack;
   }
   this.listener = listener;
   this.proxy = proxy;

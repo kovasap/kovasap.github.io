@@ -10,10 +10,6 @@ goog.dom.vendor.getVendorJsPrefix = function() {
     } else {
       if (goog.userAgent.IE) {
         return "ms";
-      } else {
-        if (goog.userAgent.OPERA) {
-          return "O";
-        }
       }
     }
   }
@@ -28,10 +24,6 @@ goog.dom.vendor.getVendorPrefix = function() {
     } else {
       if (goog.userAgent.IE) {
         return "-ms";
-      } else {
-        if (goog.userAgent.OPERA) {
-          return "-o";
-        }
       }
     }
   }

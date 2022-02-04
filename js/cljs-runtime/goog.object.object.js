@@ -1,269 +1,282 @@
-goog.provide("goog.object");
-goog.object.forEach = function(obj, f, opt_obj) {
-  for (const key in obj) {
-    f.call(opt_obj, obj[key], key, obj);
-  }
-};
-goog.object.filter = function(obj, f, opt_obj) {
-  const res = {};
-  for (const key in obj) {
-    if (f.call(opt_obj, obj[key], key, obj)) {
-      res[key] = obj[key];
+goog.loadModule(function(exports) {
+  "use strict";
+  goog.module("goog.object");
+  goog.module.declareLegacyNamespace();
+  function forEach(obj, f, opt_obj) {
+    for (const key in obj) {
+      f.call(opt_obj, obj[key], key, obj);
     }
   }
-  return res;
-};
-goog.object.map = function(obj, f, opt_obj) {
-  const res = {};
-  for (const key in obj) {
-    res[key] = f.call(opt_obj, obj[key], key, obj);
-  }
-  return res;
-};
-goog.object.some = function(obj, f, opt_obj) {
-  for (const key in obj) {
-    if (f.call(opt_obj, obj[key], key, obj)) {
-      return true;
+  function filter(obj, f, opt_obj) {
+    const res = {};
+    for (const key in obj) {
+      if (f.call(opt_obj, obj[key], key, obj)) {
+        res[key] = obj[key];
+      }
     }
+    return res;
   }
-  return false;
-};
-goog.object.every = function(obj, f, opt_obj) {
-  for (const key in obj) {
-    if (!f.call(opt_obj, obj[key], key, obj)) {
-      return false;
+  function map(obj, f, opt_obj) {
+    const res = {};
+    for (const key in obj) {
+      res[key] = f.call(opt_obj, obj[key], key, obj);
     }
+    return res;
   }
-  return true;
-};
-goog.object.getCount = function(obj) {
-  let rv = 0;
-  for (const key in obj) {
-    rv++;
-  }
-  return rv;
-};
-goog.object.getAnyKey = function(obj) {
-  for (const key in obj) {
-    return key;
-  }
-};
-goog.object.getAnyValue = function(obj) {
-  for (const key in obj) {
-    return obj[key];
-  }
-};
-goog.object.contains = function(obj, val) {
-  return goog.object.containsValue(obj, val);
-};
-goog.object.getValues = function(obj) {
-  const res = [];
-  let i = 0;
-  for (const key in obj) {
-    res[i++] = obj[key];
-  }
-  return res;
-};
-goog.object.getKeys = function(obj) {
-  const res = [];
-  let i = 0;
-  for (const key in obj) {
-    res[i++] = key;
-  }
-  return res;
-};
-goog.object.getValueByKeys = function(obj, var_args) {
-  const isArrayLike = goog.isArrayLike(var_args);
-  const keys = isArrayLike ? var_args : arguments;
-  for (let i = isArrayLike ? 0 : 1; i < keys.length; i++) {
-    if (obj == null) {
-      return undefined;
+  function some(obj, f, opt_obj) {
+    for (const key in obj) {
+      if (f.call(opt_obj, obj[key], key, obj)) {
+        return true;
+      }
     }
-    obj = obj[keys[i]];
+    return false;
   }
-  return obj;
-};
-goog.object.containsKey = function(obj, key) {
-  return obj !== null && key in obj;
-};
-goog.object.containsValue = function(obj, val) {
-  for (const key in obj) {
-    if (obj[key] == val) {
-      return true;
+  function every(obj, f, opt_obj) {
+    for (const key in obj) {
+      if (!f.call(opt_obj, obj[key], key, obj)) {
+        return false;
+      }
     }
+    return true;
   }
-  return false;
-};
-goog.object.findKey = function(obj, f, opt_this) {
-  for (const key in obj) {
-    if (f.call(opt_this, obj[key], key, obj)) {
+  function getCount(obj) {
+    let rv = 0;
+    for (const key in obj) {
+      rv++;
+    }
+    return rv;
+  }
+  function getAnyKey(obj) {
+    for (const key in obj) {
       return key;
     }
   }
-  return undefined;
-};
-goog.object.findValue = function(obj, f, opt_this) {
-  const key = goog.object.findKey(obj, f, opt_this);
-  return key && obj[key];
-};
-goog.object.isEmpty = function(obj) {
-  for (const key in obj) {
-    return false;
-  }
-  return true;
-};
-goog.object.clear = function(obj) {
-  for (const i in obj) {
-    delete obj[i];
-  }
-};
-goog.object.remove = function(obj, key) {
-  let rv;
-  if (rv = key in obj) {
-    delete obj[key];
-  }
-  return rv;
-};
-goog.object.add = function(obj, key, val) {
-  if (obj !== null && key in obj) {
-    throw new Error('The object already contains the key "' + key + '"');
-  }
-  goog.object.set(obj, key, val);
-};
-goog.object.get = function(obj, key, opt_val) {
-  if (obj !== null && key in obj) {
-    return obj[key];
-  }
-  return opt_val;
-};
-goog.object.set = function(obj, key, value) {
-  obj[key] = value;
-};
-goog.object.setIfUndefined = function(obj, key, value) {
-  return key in obj ? obj[key] : obj[key] = value;
-};
-goog.object.setWithReturnValueIfNotSet = function(obj, key, f) {
-  if (key in obj) {
-    return obj[key];
-  }
-  const val = f();
-  obj[key] = val;
-  return val;
-};
-goog.object.equals = function(a, b) {
-  for (const k in a) {
-    if (!(k in b) || a[k] !== b[k]) {
-      return false;
+  function getAnyValue(obj) {
+    for (const key in obj) {
+      return obj[key];
     }
   }
-  for (const k in b) {
-    if (!(k in a)) {
-      return false;
+  function contains(obj, val) {
+    return containsValue(obj, val);
+  }
+  function getValues(obj) {
+    const res = [];
+    let i = 0;
+    for (const key in obj) {
+      res[i++] = obj[key];
     }
+    return res;
   }
-  return true;
-};
-goog.object.clone = function(obj) {
-  const res = {};
-  for (const key in obj) {
-    res[key] = obj[key];
+  function getKeys(obj) {
+    const res = [];
+    let i = 0;
+    for (const key in obj) {
+      res[i++] = key;
+    }
+    return res;
   }
-  return res;
-};
-goog.object.unsafeClone = function(obj) {
-  if (!obj || typeof obj !== "object") {
+  function getValueByKeys(obj, var_args) {
+    const isArrayLike = goog.isArrayLike(var_args);
+    const keys = isArrayLike ? var_args : arguments;
+    for (let i = isArrayLike ? 0 : 1; i < keys.length; i++) {
+      if (obj == null) {
+        return undefined;
+      }
+      obj = obj[keys[i]];
+    }
     return obj;
   }
-  if (typeof obj.clone === "function") {
-    return obj.clone();
+  function containsKey(obj, key) {
+    return obj !== null && key in obj;
   }
-  const clone = Array.isArray(obj) ? [] : typeof ArrayBuffer === "function" && typeof ArrayBuffer.isView === "function" && ArrayBuffer.isView(obj) && !(obj instanceof DataView) ? new obj.constructor(obj.length) : {};
-  for (const key in obj) {
-    clone[key] = goog.object.unsafeClone(obj[key]);
-  }
-  return clone;
-};
-goog.object.transpose = function(obj) {
-  const transposed = {};
-  for (const key in obj) {
-    transposed[obj[key]] = key;
-  }
-  return transposed;
-};
-goog.object.PROTOTYPE_FIELDS_ = ["constructor", "hasOwnProperty", "isPrototypeOf", "propertyIsEnumerable", "toLocaleString", "toString", "valueOf"];
-goog.object.extend = function(target, var_args) {
-  let key;
-  let source;
-  for (let i = 1; i < arguments.length; i++) {
-    source = arguments[i];
-    for (key in source) {
-      target[key] = source[key];
+  function containsValue(obj, val) {
+    for (const key in obj) {
+      if (obj[key] == val) {
+        return true;
+      }
     }
-    for (let j = 0; j < goog.object.PROTOTYPE_FIELDS_.length; j++) {
-      key = goog.object.PROTOTYPE_FIELDS_[j];
-      if (Object.prototype.hasOwnProperty.call(source, key)) {
+    return false;
+  }
+  function findKey(obj, f, thisObj = undefined) {
+    for (const key in obj) {
+      if (f.call(thisObj, obj[key], key, obj)) {
+        return key;
+      }
+    }
+    return undefined;
+  }
+  function findValue(obj, f, thisObj = undefined) {
+    const key = findKey(obj, f, thisObj);
+    return key && obj[key];
+  }
+  function isEmpty(obj) {
+    for (const key in obj) {
+      return false;
+    }
+    return true;
+  }
+  function clear(obj) {
+    for (const i in obj) {
+      delete obj[i];
+    }
+  }
+  function remove(obj, key) {
+    let rv;
+    if (rv = key in obj) {
+      delete obj[key];
+    }
+    return rv;
+  }
+  function add(obj, key, val) {
+    if (obj !== null && key in obj) {
+      throw new Error(`The object already contains the key "${key}"`);
+    }
+    set(obj, key, val);
+  }
+  function get(obj, key, val = undefined) {
+    if (obj !== null && key in obj) {
+      return obj[key];
+    }
+    return val;
+  }
+  function set(obj, key, value) {
+    obj[key] = value;
+  }
+  function setIfUndefined(obj, key, value) {
+    return key in obj ? obj[key] : obj[key] = value;
+  }
+  function setWithReturnValueIfNotSet(obj, key, f) {
+    if (key in obj) {
+      return obj[key];
+    }
+    const val = f();
+    obj[key] = val;
+    return val;
+  }
+  function equals(a, b) {
+    for (const k in a) {
+      if (!(k in b) || a[k] !== b[k]) {
+        return false;
+      }
+    }
+    for (const k in b) {
+      if (!(k in a)) {
+        return false;
+      }
+    }
+    return true;
+  }
+  function clone(obj) {
+    const res = {};
+    for (const key in obj) {
+      res[key] = obj[key];
+    }
+    return res;
+  }
+  function unsafeClone(obj) {
+    if (!obj || typeof obj !== "object") {
+      return obj;
+    }
+    if (typeof obj.clone === "function") {
+      return obj.clone();
+    }
+    if (typeof Map !== "undefined" && obj instanceof Map) {
+      return new Map(obj);
+    } else {
+      if (typeof Set !== "undefined" && obj instanceof Set) {
+        return new Set(obj);
+      }
+    }
+    const clone = Array.isArray(obj) ? [] : typeof ArrayBuffer === "function" && typeof ArrayBuffer.isView === "function" && ArrayBuffer.isView(obj) && !(obj instanceof DataView) ? new obj.constructor(obj.length) : {};
+    for (const key in obj) {
+      clone[key] = unsafeClone(obj[key]);
+    }
+    return clone;
+  }
+  function transpose(obj) {
+    const transposed = {};
+    for (const key in obj) {
+      transposed[obj[key]] = key;
+    }
+    return transposed;
+  }
+  const PROTOTYPE_FIELDS = ["constructor", "hasOwnProperty", "isPrototypeOf", "propertyIsEnumerable", "toLocaleString", "toString", "valueOf",];
+  function extend(target, var_args) {
+    let key;
+    let source;
+    for (let i = 1; i < arguments.length; i++) {
+      source = arguments[i];
+      for (key in source) {
         target[key] = source[key];
+      }
+      for (let j = 0; j < PROTOTYPE_FIELDS.length; j++) {
+        key = PROTOTYPE_FIELDS[j];
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
       }
     }
   }
-};
-goog.object.create = function(var_args) {
-  const argLength = arguments.length;
-  if (argLength == 1 && Array.isArray(arguments[0])) {
-    return goog.object.create.apply(null, arguments[0]);
-  }
-  if (argLength % 2) {
-    throw new Error("Uneven number of arguments");
-  }
-  const rv = {};
-  for (let i = 0; i < argLength; i += 2) {
-    rv[arguments[i]] = arguments[i + 1];
-  }
-  return rv;
-};
-goog.object.createSet = function(var_args) {
-  const argLength = arguments.length;
-  if (argLength == 1 && Array.isArray(arguments[0])) {
-    return goog.object.createSet.apply(null, arguments[0]);
-  }
-  const rv = {};
-  for (let i = 0; i < argLength; i++) {
-    rv[arguments[i]] = true;
-  }
-  return rv;
-};
-goog.object.createImmutableView = function(obj) {
-  let result = obj;
-  if (Object.isFrozen && !Object.isFrozen(obj)) {
-    result = Object.create(obj);
-    Object.freeze(result);
-  }
-  return result;
-};
-goog.object.isImmutableView = function(obj) {
-  return !!Object.isFrozen && Object.isFrozen(obj);
-};
-goog.object.getAllPropertyNames = function(obj, opt_includeObjectPrototype, opt_includeFunctionPrototype) {
-  if (!obj) {
-    return [];
-  }
-  if (!Object.getOwnPropertyNames || !Object.getPrototypeOf) {
-    return goog.object.getKeys(obj);
-  }
-  const visitedSet = {};
-  let proto = obj;
-  while (proto && (proto !== Object.prototype || !!opt_includeObjectPrototype) && (proto !== Function.prototype || !!opt_includeFunctionPrototype)) {
-    const names = Object.getOwnPropertyNames(proto);
-    for (let i = 0; i < names.length; i++) {
-      visitedSet[names[i]] = true;
+  function create(var_args) {
+    const argLength = arguments.length;
+    if (argLength == 1 && Array.isArray(arguments[0])) {
+      return create.apply(null, arguments[0]);
     }
-    proto = Object.getPrototypeOf(proto);
+    if (argLength % 2) {
+      throw new Error("Uneven number of arguments");
+    }
+    const rv = {};
+    for (let i = 0; i < argLength; i += 2) {
+      rv[arguments[i]] = arguments[i + 1];
+    }
+    return rv;
   }
-  return goog.object.getKeys(visitedSet);
-};
-goog.object.getSuperClass = function(constructor) {
-  var proto = Object.getPrototypeOf(constructor.prototype);
-  return proto && proto.constructor;
-};
+  function createSet(var_args) {
+    const argLength = arguments.length;
+    if (argLength == 1 && Array.isArray(arguments[0])) {
+      return createSet.apply(null, arguments[0]);
+    }
+    const rv = {};
+    for (let i = 0; i < argLength; i++) {
+      rv[arguments[i]] = true;
+    }
+    return rv;
+  }
+  function createImmutableView(obj) {
+    let result = obj;
+    if (Object.isFrozen && !Object.isFrozen(obj)) {
+      result = Object.create(obj);
+      Object.freeze(result);
+    }
+    return result;
+  }
+  function isImmutableView(obj) {
+    return !!Object.isFrozen && Object.isFrozen(obj);
+  }
+  function getAllPropertyNames(obj, includeObjectPrototype = undefined, includeFunctionPrototype = undefined) {
+    if (!obj) {
+      return [];
+    }
+    if (!Object.getOwnPropertyNames || !Object.getPrototypeOf) {
+      return getKeys(obj);
+    }
+    const visitedSet = {};
+    let proto = obj;
+    while (proto && (proto !== Object.prototype || !!includeObjectPrototype) && (proto !== Function.prototype || !!includeFunctionPrototype)) {
+      const names = Object.getOwnPropertyNames(proto);
+      for (let i = 0; i < names.length; i++) {
+        visitedSet[names[i]] = true;
+      }
+      proto = Object.getPrototypeOf(proto);
+    }
+    return getKeys(visitedSet);
+  }
+  function getSuperClass(constructor) {
+    const proto = Object.getPrototypeOf(constructor.prototype);
+    return proto && proto.constructor;
+  }
+  exports = {add, clear, clone, contains, containsKey, containsValue, create, createImmutableView, createSet, equals, every, extend, filter, findKey, findValue, forEach, get, getAllPropertyNames, getAnyKey, getAnyValue, getCount, getKeys, getSuperClass, getValueByKeys, getValues, isEmpty, isImmutableView, map, remove, set, setIfUndefined, setWithReturnValueIfNotSet, some, transpose, unsafeClone,};
+  return exports;
+});
 
 //# sourceMappingURL=goog.object.object.js.map

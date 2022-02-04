@@ -13,9 +13,9 @@ goog.string.caseInsensitiveStartsWith = goog.string.internal.caseInsensitiveStar
 goog.string.caseInsensitiveEndsWith = goog.string.internal.caseInsensitiveEndsWith;
 goog.string.caseInsensitiveEquals = goog.string.internal.caseInsensitiveEquals;
 goog.string.subs = function(str, var_args) {
-  var splitParts = str.split("%s");
-  var returnString = "";
-  var subsArguments = Array.prototype.slice.call(arguments, 1);
+  const splitParts = str.split("%s");
+  let returnString = "";
+  const subsArguments = Array.prototype.slice.call(arguments, 1);
   while (subsArguments.length && splitParts.length > 1) {
     returnString += splitParts.shift() + subsArguments.shift();
   }
@@ -84,16 +84,16 @@ goog.string.numberAwareCompare_ = function(str1, str2, tokenizerRegExp) {
   if (!str2) {
     return 1;
   }
-  var tokens1 = str1.toLowerCase().match(tokenizerRegExp);
-  var tokens2 = str2.toLowerCase().match(tokenizerRegExp);
-  var count = Math.min(tokens1.length, tokens2.length);
-  for (var i = 0; i < count; i++) {
-    var a = tokens1[i];
-    var b = tokens2[i];
+  const tokens1 = str1.toLowerCase().match(tokenizerRegExp);
+  const tokens2 = str2.toLowerCase().match(tokenizerRegExp);
+  const count = Math.min(tokens1.length, tokens2.length);
+  for (let i = 0; i < count; i++) {
+    const a = tokens1[i];
+    const b = tokens2[i];
     if (a != b) {
-      var num1 = parseInt(a, 10);
+      const num1 = parseInt(a, 10);
       if (!isNaN(num1)) {
-        var num2 = parseInt(b, 10);
+        const num2 = parseInt(b, 10);
         if (!isNaN(num2) && num1 - num2) {
           return num1 - num2;
         }
@@ -145,20 +145,20 @@ goog.string.unescapeEntitiesWithDocument = function(str, document) {
   return str;
 };
 goog.string.unescapeEntitiesUsingDom_ = function(str, opt_document) {
-  var seen = {"\x26amp;":"\x26", "\x26lt;":"\x3c", "\x26gt;":"\x3e", "\x26quot;":'"'};
-  var div;
+  const seen = {"\x26amp;":"\x26", "\x26lt;":"\x3c", "\x26gt;":"\x3e", "\x26quot;":'"'};
+  let div;
   if (opt_document) {
     div = opt_document.createElement("div");
   } else {
     div = goog.global.document.createElement("div");
   }
   return str.replace(goog.string.HTML_ENTITY_PATTERN_, function(s, entity) {
-    var value = seen[s];
+    let value = seen[s];
     if (value) {
       return value;
     }
     if (entity.charAt(0) == "#") {
-      var n = Number("0" + entity.substr(1));
+      const n = Number("0" + entity.substr(1));
       if (!isNaN(n)) {
         value = String.fromCharCode(n);
       }
@@ -183,7 +183,7 @@ goog.string.unescapePureXmlEntities_ = function(str) {
         return '"';
       default:
         if (entity.charAt(0) == "#") {
-          var n = Number("0" + entity.substr(1));
+          const n = Number("0" + entity.substr(1));
           if (!isNaN(n)) {
             return String.fromCharCode(n);
           }
@@ -200,9 +200,9 @@ goog.string.preserveSpaces = function(str) {
   return str.replace(/(^|[\n ]) /g, "$1" + goog.string.Unicode.NBSP);
 };
 goog.string.stripQuotes = function(str, quoteChars) {
-  var length = quoteChars.length;
-  for (var i = 0; i < length; i++) {
-    var quoteChar = length == 1 ? quoteChars : quoteChars.charAt(i);
+  const length = quoteChars.length;
+  for (let i = 0; i < length; i++) {
+    const quoteChar = length == 1 ? quoteChars : quoteChars.charAt(i);
     if (str.charAt(0) == quoteChar && str.charAt(str.length - 1) == quoteChar) {
       return str.substring(1, str.length - 1);
     }
@@ -229,13 +229,13 @@ goog.string.truncateMiddle = function(str, chars, opt_protectEscapedCharacters, 
     if (opt_trailingChars > chars) {
       opt_trailingChars = chars;
     }
-    var endPoint = str.length - opt_trailingChars;
-    var startPoint = chars - opt_trailingChars;
+    const endPoint = str.length - opt_trailingChars;
+    const startPoint = chars - opt_trailingChars;
     str = str.substring(0, startPoint) + "..." + str.substring(endPoint);
   } else {
     if (str.length > chars) {
-      var half = Math.floor(chars / 2);
-      var endPos = str.length - half;
+      let half = Math.floor(chars / 2);
+      const endPos = str.length - half;
       half += chars % 2;
       str = str.substring(0, half) + "..." + str.substring(endPos);
     }
@@ -249,18 +249,18 @@ goog.string.specialEscapeChars_ = {"\x00":"\\0", "\b":"\\b", "\f":"\\f", "\n":"\
 goog.string.jsEscapeCache_ = {"'":"\\'"};
 goog.string.quote = function(s) {
   s = String(s);
-  var sb = ['"'];
-  for (var i = 0; i < s.length; i++) {
-    var ch = s.charAt(i);
-    var cc = ch.charCodeAt(0);
+  const sb = ['"'];
+  for (let i = 0; i < s.length; i++) {
+    const ch = s.charAt(i);
+    const cc = ch.charCodeAt(0);
     sb[i + 1] = goog.string.specialEscapeChars_[ch] || (cc > 31 && cc < 127 ? ch : goog.string.escapeChar(ch));
   }
   sb.push('"');
   return sb.join("");
 };
 goog.string.escapeString = function(str) {
-  var sb = [];
-  for (var i = 0; i < str.length; i++) {
+  const sb = [];
+  for (let i = 0; i < str.length; i++) {
     sb[i] = goog.string.escapeChar(str.charAt(i));
   }
   return sb.join("");
@@ -272,8 +272,8 @@ goog.string.escapeChar = function(c) {
   if (c in goog.string.specialEscapeChars_) {
     return goog.string.jsEscapeCache_[c] = goog.string.specialEscapeChars_[c];
   }
-  var rv = c;
-  var cc = c.charCodeAt(0);
+  let rv = c;
+  const cc = c.charCodeAt(0);
   if (cc > 31 && cc < 127) {
     rv = c;
   } else {
@@ -298,7 +298,7 @@ goog.string.countOf = function(s, ss) {
   return s && ss ? s.split(ss).length - 1 : 0;
 };
 goog.string.removeAt = function(s, index, stringLength) {
-  var resultStr = s;
+  let resultStr = s;
   if (index >= 0 && index < s.length && stringLength > 0) {
     resultStr = s.substr(0, index) + s.substr(index + stringLength, s.length - index - stringLength);
   }
@@ -308,11 +308,11 @@ goog.string.remove = function(str, substr) {
   return str.replace(substr, "");
 };
 goog.string.removeAll = function(s, ss) {
-  var re = new RegExp(goog.string.regExpEscape(ss), "g");
+  const re = new RegExp(goog.string.regExpEscape(ss), "g");
   return s.replace(re, "");
 };
 goog.string.replaceAll = function(s, ss, replacement) {
-  var re = new RegExp(goog.string.regExpEscape(ss), "g");
+  const re = new RegExp(goog.string.regExpEscape(ss), "g");
   return s.replace(re, replacement.replace(/\$/g, "$$$$"));
 };
 goog.string.regExpEscape = function(s) {
@@ -324,12 +324,16 @@ goog.string.repeat = String.prototype.repeat ? function(string, length) {
   return (new Array(length + 1)).join(string);
 };
 goog.string.padNumber = function(num, length, opt_precision) {
-  var s = opt_precision !== undefined ? num.toFixed(opt_precision) : String(num);
-  var index = s.indexOf(".");
-  if (index == -1) {
+  let s = opt_precision !== undefined ? num.toFixed(opt_precision) : String(num);
+  let index = s.indexOf(".");
+  if (index === -1) {
     index = s.length;
   }
-  return goog.string.repeat("0", Math.max(0, length - index)) + s;
+  const sign = s[0] === "-" ? "-" : "";
+  if (sign) {
+    s = s.substring(1);
+  }
+  return sign + goog.string.repeat("0", Math.max(0, length - index)) + s;
 };
 goog.string.makeSafe = function(obj) {
   return obj == null ? "" : String(obj);
@@ -338,13 +342,13 @@ goog.string.buildString = function(var_args) {
   return Array.prototype.join.call(arguments, "");
 };
 goog.string.getRandomString = function() {
-  var x = 2147483648;
+  const x = 2147483648;
   return Math.floor(Math.random() * x).toString(36) + Math.abs(Math.floor(Math.random() * x) ^ goog.now()).toString(36);
 };
 goog.string.compareVersions = goog.string.internal.compareVersions;
 goog.string.hashCode = function(str) {
-  var result = 0;
-  for (var i = 0; i < str.length; ++i) {
+  let result = 0;
+  for (let i = 0; i < str.length; ++i) {
     result = 31 * result + str.charCodeAt(i) >>> 0;
   }
   return result;
@@ -354,7 +358,7 @@ goog.string.createUniqueString = function() {
   return "goog_" + goog.string.uniqueStringCounter_++;
 };
 goog.string.toNumber = function(str) {
-  var num = Number(str);
+  const num = Number(str);
   if (num == 0 && goog.string.isEmptyOrWhitespace(str)) {
     return NaN;
   }
@@ -375,9 +379,9 @@ goog.string.toSelectorCase = function(str) {
   return String(str).replace(/([A-Z])/g, "-$1").toLowerCase();
 };
 goog.string.toTitleCase = function(str, opt_delimiters) {
-  var delimiters = typeof opt_delimiters === "string" ? goog.string.regExpEscape(opt_delimiters) : "\\s";
+  let delimiters = typeof opt_delimiters === "string" ? goog.string.regExpEscape(opt_delimiters) : "\\s";
   delimiters = delimiters ? "|[" + delimiters + "]+" : "";
-  var regexp = new RegExp("(^" + delimiters + ")([a-z])", "g");
+  const regexp = new RegExp("(^" + delimiters + ")([a-z])", "g");
   return str.replace(regexp, function(all, p1, p2) {
     return p1 + p2.toUpperCase();
   });
@@ -395,8 +399,8 @@ goog.string.parseInt = function(value) {
   return NaN;
 };
 goog.string.splitLimit = function(str, separator, limit) {
-  var parts = str.split(separator);
-  var returnVal = [];
+  const parts = str.split(separator);
+  const returnVal = [];
   while (limit > 0 && parts.length) {
     returnVal.push(parts.shift());
     limit--;
@@ -414,12 +418,12 @@ goog.string.lastComponent = function(str, separators) {
       separators = [separators];
     }
   }
-  var lastSeparatorIndex = -1;
-  for (var i = 0; i < separators.length; i++) {
+  let lastSeparatorIndex = -1;
+  for (let i = 0; i < separators.length; i++) {
     if (separators[i] == "") {
       continue;
     }
-    var currentSeparatorIndex = str.lastIndexOf(separators[i]);
+    const currentSeparatorIndex = str.lastIndexOf(separators[i]);
     if (currentSeparatorIndex > lastSeparatorIndex) {
       lastSeparatorIndex = currentSeparatorIndex;
     }
@@ -430,24 +434,24 @@ goog.string.lastComponent = function(str, separators) {
   return str.slice(lastSeparatorIndex + 1);
 };
 goog.string.editDistance = function(a, b) {
-  var v0 = [];
-  var v1 = [];
+  const v0 = [];
+  const v1 = [];
   if (a == b) {
     return 0;
   }
   if (!a.length || !b.length) {
     return Math.max(a.length, b.length);
   }
-  for (var i = 0; i < b.length + 1; i++) {
+  for (let i = 0; i < b.length + 1; i++) {
     v0[i] = i;
   }
-  for (var i = 0; i < a.length; i++) {
+  for (let i = 0; i < a.length; i++) {
     v1[0] = i + 1;
-    for (var j = 0; j < b.length; j++) {
-      var cost = Number(a[i] != b[j]);
+    for (let j = 0; j < b.length; j++) {
+      const cost = Number(a[i] != b[j]);
       v1[j + 1] = Math.min(v1[j] + 1, v0[j + 1] + 1, v0[j] + cost);
     }
-    for (var j = 0; j < v0.length; j++) {
+    for (let j = 0; j < v0.length; j++) {
       v0[j] = v1[j];
     }
   }

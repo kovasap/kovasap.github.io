@@ -1,5 +1,4 @@
 goog.provide("goog.math");
-goog.require("goog.array");
 goog.require("goog.asserts");
 goog.math.randomInt = function(a) {
   return Math.floor(Math.random() * a);
@@ -105,7 +104,7 @@ goog.math.longestCommonSubsequence = function(array1, array2, opt_compareFn, opt
   return result;
 };
 goog.math.sum = function(var_args) {
-  return goog.array.reduce(arguments, function(sum, value) {
+  return Array.prototype.reduce.call(arguments, function(sum, value) {
     return sum + value;
   }, 0);
 };
@@ -118,7 +117,7 @@ goog.math.sampleVariance = function(var_args) {
     return 0;
   }
   var mean = goog.math.average.apply(null, arguments);
-  var variance = goog.math.sum.apply(null, goog.array.map(arguments, function(val) {
+  var variance = goog.math.sum.apply(null, Array.prototype.map.call(arguments, function(val) {
     return Math.pow(val - mean, 2);
   })) / (sampleSize - 1);
   return variance;

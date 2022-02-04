@@ -152,6 +152,11 @@ goog.dom.safe.setLinkHrefAndRel = function(link, url, rel) {
   if (goog.string.internal.caseInsensitiveContains(rel, "stylesheet")) {
     goog.asserts.assert(url instanceof goog.html.TrustedResourceUrl, 'URL must be TrustedResourceUrl because "rel" contains "stylesheet"');
     link.href = goog.html.TrustedResourceUrl.unwrap(url);
+    const win = link.ownerDocument && link.ownerDocument.defaultView;
+    const nonce = goog.dom.safe.getStyleNonce(win);
+    if (nonce) {
+      link.setAttribute("nonce", nonce);
+    }
   } else {
     if (url instanceof goog.html.TrustedResourceUrl) {
       link.href = goog.html.TrustedResourceUrl.unwrap(url);
@@ -180,7 +185,7 @@ goog.dom.safe.setScriptContent = function(script, content) {
 };
 goog.dom.safe.setNonceForScriptElement_ = function(script) {
   var win = script.ownerDocument && script.ownerDocument.defaultView;
-  var nonce = goog.getScriptNonce(win);
+  const nonce = goog.dom.safe.getScriptNonce(win);
   if (nonce) {
     script.setAttribute("nonce", nonce);
   }
@@ -214,7 +219,7 @@ goog.dom.safe.replaceLocation = function(loc, url) {
   }
   loc.replace(goog.html.SafeUrl.unwrap(safeUrl));
 };
-goog.dom.safe.openInWindow = function(url, opt_openerWin, opt_name, opt_specs, opt_replace) {
+goog.dom.safe.openInWindow = function(url, opt_openerWin, opt_name, opt_specs) {
   var safeUrl;
   if (url instanceof goog.html.SafeUrl) {
     safeUrl = url;
@@ -223,8 +228,8 @@ goog.dom.safe.openInWindow = function(url, opt_openerWin, opt_name, opt_specs, o
   }
   var win = opt_openerWin || goog.global;
   var name = opt_name instanceof goog.string.Const ? goog.string.Const.unwrap(opt_name) : opt_name || "";
-  if (opt_specs !== undefined || opt_replace !== undefined) {
-    return win.open(goog.html.SafeUrl.unwrap(safeUrl), name, opt_specs, opt_replace);
+  if (opt_specs !== undefined) {
+    return win.open(goog.html.SafeUrl.unwrap(safeUrl), name, opt_specs);
   } else {
     return win.open(goog.html.SafeUrl.unwrap(safeUrl), name);
   }
@@ -240,7 +245,7 @@ goog.dom.safe.createImageFromBlob = function(blob) {
     throw new Error("goog.dom.safe.createImageFromBlob only accepts MIME type image/.*.");
   }
   var objectUrl = goog.global.URL.createObjectURL(blob);
-  var image = new goog.global.Image;
+  var image = new goog.global.Image();
   image.onload = function() {
     goog.global.URL.revokeObjectURL(objectUrl);
   };
@@ -249,6 +254,27 @@ goog.dom.safe.createImageFromBlob = function(blob) {
 };
 goog.dom.safe.createContextualFragment = function(range, html) {
   return range.createContextualFragment(goog.html.SafeHtml.unwrapTrustedHTML(html));
+};
+goog.dom.safe.getScriptNonce = function(opt_window) {
+  return goog.dom.safe.getNonce_("script[nonce]", opt_window);
+};
+goog.dom.safe.getStyleNonce = function(opt_window) {
+  return goog.dom.safe.getNonce_('style[nonce],link[rel\x3d"stylesheet"][nonce]', opt_window);
+};
+goog.dom.safe.NONCE_PATTERN_ = /^[\w+/_-]+[=]{0,2}$/;
+goog.dom.safe.getNonce_ = function(selector, win) {
+  const doc = (win || goog.global).document;
+  if (!doc.querySelector) {
+    return "";
+  }
+  let el = doc.querySelector(selector);
+  if (el) {
+    const nonce = el["nonce"] || el.getAttribute("nonce");
+    if (nonce && goog.dom.safe.NONCE_PATTERN_.test(nonce)) {
+      return nonce;
+    }
+  }
+  return "";
 };
 
 //# sourceMappingURL=goog.dom.safe.js.map
