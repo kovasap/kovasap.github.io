@@ -117,6 +117,7 @@ goog.provide("goog.i18n.NumberFormatSymbols_zh_CN");
 goog.provide("goog.i18n.NumberFormatSymbols_zh_HK");
 goog.provide("goog.i18n.NumberFormatSymbols_zh_TW");
 goog.provide("goog.i18n.NumberFormatSymbols_zu");
+goog.requireType("goog.i18n.NumberFormatSymbolsType");
 goog.i18n.NumberFormatSymbols_af = {DECIMAL_SEP:",", GROUP_SEP:" ", PERCENT:"%", ZERO_DIGIT:"0", PLUS_SIGN:"+", MINUS_SIGN:"-", EXP_SYMBOL:"E", PERMILL:"‰", INFINITY:"∞", NAN:"NaN", DECIMAL_PATTERN:"#,##0.###", SCIENTIFIC_PATTERN:"#E0", PERCENT_PATTERN:"#,##0%", CURRENCY_PATTERN:"¤#,##0.00", DEF_CURRENCY_CODE:"ZAR"};
 goog.i18n.NumberFormatSymbols_am = {DECIMAL_SEP:".", GROUP_SEP:",", PERCENT:"%", ZERO_DIGIT:"0", PLUS_SIGN:"+", MINUS_SIGN:"-", EXP_SYMBOL:"E", PERMILL:"‰", INFINITY:"∞", NAN:"NaN", DECIMAL_PATTERN:"#,##0.###", SCIENTIFIC_PATTERN:"#E0", PERCENT_PATTERN:"#,##0%", CURRENCY_PATTERN:"¤#,##0.00", DEF_CURRENCY_CODE:"ETB"};
 goog.i18n.NumberFormatSymbols_ar = {DECIMAL_SEP:".", GROUP_SEP:",", PERCENT:"‎%‎", ZERO_DIGIT:"0", PLUS_SIGN:"‎+", MINUS_SIGN:"‎-", EXP_SYMBOL:"E", PERMILL:"‰", INFINITY:"∞", NAN:"ليس رقمًا", DECIMAL_PATTERN:"#,##0.###", SCIENTIFIC_PATTERN:"#E0", PERCENT_PATTERN:"#,##0%", CURRENCY_PATTERN:"¤ #,##0.00", DEF_CURRENCY_CODE:"EGP"};

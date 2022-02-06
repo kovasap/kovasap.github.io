@@ -16,7 +16,7 @@ goog.i18n.TimeZone.createTimeZone = function(timeZoneData) {
   if (typeof timeZoneData == "number") {
     return goog.i18n.TimeZone.createSimpleTimeZone_(timeZoneData);
   }
-  var tz = new goog.i18n.TimeZone;
+  var tz = new goog.i18n.TimeZone();
   tz.timeZoneId_ = timeZoneData["id"];
   tz.standardOffset_ = -timeZoneData["std_offset"];
   tz.tzNames_ = timeZoneData["names"];
@@ -25,7 +25,7 @@ goog.i18n.TimeZone.createTimeZone = function(timeZoneData) {
   return tz;
 };
 goog.i18n.TimeZone.createSimpleTimeZone_ = function(timeZoneOffsetInMinutes) {
-  var tz = new goog.i18n.TimeZone;
+  var tz = new goog.i18n.TimeZone();
   tz.standardOffset_ = timeZoneOffsetInMinutes;
   tz.timeZoneId_ = goog.i18n.TimeZone.composePosixTimeZoneID_(timeZoneOffsetInMinutes);
   var str = goog.i18n.TimeZone.composeUTCString_(timeZoneOffsetInMinutes);

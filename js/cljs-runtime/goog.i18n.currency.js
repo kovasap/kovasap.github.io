@@ -29,7 +29,7 @@ goog.i18n.currency.getGlobalCurrencySign = function(currencyCode) {
   return currencyCode == info[1] ? currencyCode : currencyCode + " " + info[1];
 };
 goog.i18n.currency.getGlobalCurrencySignWithFallback = function(currencyCode) {
-  var info = goog.i18n.currency.CurrencyInfo[currencyCode];
+  const info = goog.i18n.currency.CurrencyInfo[currencyCode];
   if (!info) {
     return currencyCode;
   }
