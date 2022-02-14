@@ -3,10 +3,10 @@ reagent.impl.input.these_inputs_have_selection_api = new cljs.core.PersistentHas
 reagent.impl.input.has_selection_api_QMARK_ = (function reagent$impl$input$has_selection_api_QMARK_(input_type){
 return cljs.core.contains_QMARK_(reagent.impl.input.these_inputs_have_selection_api,input_type);
 });
-reagent.impl.input.input_node_set_value = (function reagent$impl$input$input_node_set_value(node,rendered_value,dom_value,component,p__42409){
-var map__42410 = p__42409;
-var map__42410__$1 = cljs.core.__destructure_map(map__42410);
-var on_write = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__42410__$1,new cljs.core.Keyword(null,"on-write","on-write",31519475));
+reagent.impl.input.input_node_set_value = (function reagent$impl$input$input_node_set_value(node,rendered_value,dom_value,component,p__38088){
+var map__38089 = p__38088;
+var map__38089__$1 = cljs.core.__destructure_map(map__38089);
+var on_write = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__38089__$1,new cljs.core.Keyword(null,"on-write","on-write",31519475));
 if((!((((node === document.activeElement)) && (((reagent.impl.input.has_selection_api_QMARK_(node.type)) && (((typeof rendered_value === 'string') && (typeof dom_value === 'string'))))))))){
 (component.cljsDOMValue = rendered_value);
 
@@ -123,8 +123,8 @@ delete jsprops["value"];
 
 (jsprops.defaultValue = value);
 
-(jsprops.onChange = (function (p1__42413_SHARP_){
-return reagent.impl.input.input_handle_change(this$,on_change,p1__42413_SHARP_);
+(jsprops.onChange = (function (p1__38102_SHARP_){
+return reagent.impl.input.input_handle_change(this$,on_change,p1__38102_SHARP_);
 }));
 
 return (jsprops.ref = this$.reagentRefFn);
@@ -136,8 +136,8 @@ reagent.impl.input.input_unmount = (function reagent$impl$input$input_unmount(th
 return (this$.cljsInputLive = null);
 });
 reagent.impl.input.input_component_QMARK_ = (function reagent$impl$input$input_component_QMARK_(x){
-var G__42419 = x;
-switch (G__42419) {
+var G__38111 = x;
+switch (G__38111) {
 case "input":
 case "textarea":
 return true;

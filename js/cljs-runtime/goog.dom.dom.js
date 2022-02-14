@@ -153,24 +153,16 @@ goog.dom.setProperties = function(element, properties) {
     }
     if (key == "style") {
       element.style.cssText = val;
+    } else if (key == "class") {
+      element.className = val;
+    } else if (key == "for") {
+      element.htmlFor = val;
+    } else if (goog.dom.DIRECT_ATTRIBUTE_MAP_.hasOwnProperty(key)) {
+      element.setAttribute(goog.dom.DIRECT_ATTRIBUTE_MAP_[key], val);
+    } else if (goog.string.startsWith(key, "aria-") || goog.string.startsWith(key, "data-")) {
+      element.setAttribute(key, val);
     } else {
-      if (key == "class") {
-        element.className = val;
-      } else {
-        if (key == "for") {
-          element.htmlFor = val;
-        } else {
-          if (goog.dom.DIRECT_ATTRIBUTE_MAP_.hasOwnProperty(key)) {
-            element.setAttribute(goog.dom.DIRECT_ATTRIBUTE_MAP_[key], val);
-          } else {
-            if (goog.string.startsWith(key, "aria-") || goog.string.startsWith(key, "data-")) {
-              element.setAttribute(key, val);
-            } else {
-              element[key] = val;
-            }
-          }
-        }
-      }
+      element[key] = val;
     }
   });
 };
@@ -260,12 +252,10 @@ goog.dom.createDom_ = function(doc, args) {
   if (attributes) {
     if (typeof attributes === "string") {
       element.className = attributes;
+    } else if (Array.isArray(attributes)) {
+      element.className = attributes.join(" ");
     } else {
-      if (Array.isArray(attributes)) {
-        element.className = attributes.join(" ");
-      } else {
-        goog.dom.setProperties(element, attributes);
-      }
+      goog.dom.setProperties(element, attributes);
     }
   }
   if (args.length > 2) {
@@ -623,10 +613,8 @@ goog.dom.findCommonAncestor = function(var_args) {
   var i, count = arguments.length;
   if (!count) {
     return null;
-  } else {
-    if (count == 1) {
-      return arguments[0];
-    }
+  } else if (count == 1) {
+    return arguments[0];
   }
   var paths = [];
   var minLength = Infinity;
@@ -673,21 +661,17 @@ goog.dom.setTextContent = function(node, text) {
   goog.asserts.assert(node != null, "goog.dom.setTextContent expects a non-null value for node");
   if ("textContent" in node) {
     node.textContent = text;
-  } else {
-    if (node.nodeType == goog.dom.NodeType.TEXT) {
-      node.data = String(text);
-    } else {
-      if (node.firstChild && node.firstChild.nodeType == goog.dom.NodeType.TEXT) {
-        while (node.lastChild != node.firstChild) {
-          node.removeChild(goog.asserts.assert(node.lastChild));
-        }
-        node.firstChild.data = String(text);
-      } else {
-        goog.dom.removeChildren(node);
-        var doc = goog.dom.getOwnerDocument(node);
-        node.appendChild(doc.createTextNode(String(text)));
-      }
+  } else if (node.nodeType == goog.dom.NodeType.TEXT) {
+    node.data = String(text);
+  } else if (node.firstChild && node.firstChild.nodeType == goog.dom.NodeType.TEXT) {
+    while (node.lastChild != node.firstChild) {
+      node.removeChild(goog.asserts.assert(node.lastChild));
     }
+    node.firstChild.data = String(text);
+  } else {
+    goog.dom.removeChildren(node);
+    var doc = goog.dom.getOwnerDocument(node);
+    node.appendChild(doc.createTextNode(String(text)));
   }
 };
 goog.dom.getOuterHtml = function(element) {
@@ -827,23 +811,19 @@ goog.dom.getRawTextContent = function(node) {
 };
 goog.dom.getTextContent_ = function(node, buf, normalizeWhitespace) {
   if (node.nodeName in goog.dom.TAGS_TO_IGNORE_) {
-  } else {
-    if (node.nodeType == goog.dom.NodeType.TEXT) {
-      if (normalizeWhitespace) {
-        buf.push(String(node.nodeValue).replace(/(\r\n|\r|\n)/g, ""));
-      } else {
-        buf.push(node.nodeValue);
-      }
+  } else if (node.nodeType == goog.dom.NodeType.TEXT) {
+    if (normalizeWhitespace) {
+      buf.push(String(node.nodeValue).replace(/(\r\n|\r|\n)/g, ""));
     } else {
-      if (node.nodeName in goog.dom.PREDEFINED_TAG_VALUES_) {
-        buf.push(goog.dom.PREDEFINED_TAG_VALUES_[node.nodeName]);
-      } else {
-        var child = node.firstChild;
-        while (child) {
-          goog.dom.getTextContent_(child, buf, normalizeWhitespace);
-          child = child.nextSibling;
-        }
-      }
+      buf.push(node.nodeValue);
+    }
+  } else if (node.nodeName in goog.dom.PREDEFINED_TAG_VALUES_) {
+    buf.push(goog.dom.PREDEFINED_TAG_VALUES_[node.nodeName]);
+  } else {
+    var child = node.firstChild;
+    while (child) {
+      goog.dom.getTextContent_(child, buf, normalizeWhitespace);
+      child = child.nextSibling;
     }
   }
 };
@@ -867,18 +847,14 @@ goog.dom.getNodeAtOffset = function(parent, offset, opt_result) {
   while (stack.length > 0 && pos < offset) {
     cur = stack.pop();
     if (cur.nodeName in goog.dom.TAGS_TO_IGNORE_) {
+    } else if (cur.nodeType == goog.dom.NodeType.TEXT) {
+      var text = cur.nodeValue.replace(/(\r\n|\r|\n)/g, "").replace(/ +/g, " ");
+      pos += text.length;
+    } else if (cur.nodeName in goog.dom.PREDEFINED_TAG_VALUES_) {
+      pos += goog.dom.PREDEFINED_TAG_VALUES_[cur.nodeName].length;
     } else {
-      if (cur.nodeType == goog.dom.NodeType.TEXT) {
-        var text = cur.nodeValue.replace(/(\r\n|\r|\n)/g, "").replace(/ +/g, " ");
-        pos += text.length;
-      } else {
-        if (cur.nodeName in goog.dom.PREDEFINED_TAG_VALUES_) {
-          pos += goog.dom.PREDEFINED_TAG_VALUES_[cur.nodeName].length;
-        } else {
-          for (var i = cur.childNodes.length - 1; i >= 0; i--) {
-            stack.push(cur.childNodes[i]);
-          }
-        }
+      for (var i = cur.childNodes.length - 1; i >= 0; i--) {
+        stack.push(cur.childNodes[i]);
       }
     }
   }
@@ -892,10 +868,8 @@ goog.dom.isNodeList = function(val) {
   if (val && typeof val.length == "number") {
     if (goog.isObject(val)) {
       return typeof val.item == "function" || typeof val.item == "string";
-    } else {
-      if (typeof val === "function") {
-        return typeof val.item == "function";
-      }
+    } else if (typeof val === "function") {
+      return typeof val.item == "function";
     }
   }
   return false;
@@ -939,10 +913,8 @@ goog.dom.getPixelRatio = function() {
   var win = goog.dom.getWindow();
   if (win.devicePixelRatio !== undefined) {
     return win.devicePixelRatio;
-  } else {
-    if (win.matchMedia) {
-      return goog.dom.matchesPixelRatio_(3) || goog.dom.matchesPixelRatio_(2) || goog.dom.matchesPixelRatio_(1.5) || goog.dom.matchesPixelRatio_(1) || .75;
-    }
+  } else if (win.matchMedia) {
+    return goog.dom.matchesPixelRatio_(3) || goog.dom.matchesPixelRatio_(2) || goog.dom.matchesPixelRatio_(1.5) || goog.dom.matchesPixelRatio_(1) || .75;
   }
   return 1;
 };

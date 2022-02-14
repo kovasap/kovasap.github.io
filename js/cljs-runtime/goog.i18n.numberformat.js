@@ -188,18 +188,14 @@ goog.scope(function() {
     if (gotPositive && gotNegative) {
       if (this.positivePrefix_.length > this.negativePrefix_.length) {
         gotNegative = false;
-      } else {
-        if (this.positivePrefix_.length < this.negativePrefix_.length) {
-          gotPositive = false;
-        }
+      } else if (this.positivePrefix_.length < this.negativePrefix_.length) {
+        gotPositive = false;
       }
     }
     if (gotPositive) {
       pos[0] += this.positivePrefix_.length;
-    } else {
-      if (gotNegative) {
-        pos[0] += this.negativePrefix_.length;
-      }
+    } else if (gotNegative) {
+      pos[0] += this.negativePrefix_.length;
     }
     if (text.indexOf(this.getNumberFormatSymbols_().INFINITY, pos[0]) == pos[0]) {
       pos[0] += this.getNumberFormatSymbols_().INFINITY.length;
@@ -212,13 +208,11 @@ goog.scope(function() {
         return NaN;
       }
       pos[0] += this.positiveSuffix_.length;
-    } else {
-      if (gotNegative) {
-        if (!(text.indexOf(this.negativeSuffix_, pos[0]) == pos[0])) {
-          return NaN;
-        }
-        pos[0] += this.negativeSuffix_.length;
+    } else if (gotNegative) {
+      if (!(text.indexOf(this.negativeSuffix_, pos[0]) == pos[0])) {
+        return NaN;
       }
+      pos[0] += this.negativeSuffix_.length;
     }
     return gotNegative ? -ret : ret;
   };
@@ -242,61 +236,49 @@ goog.scope(function() {
       if (digit >= 0 && digit <= 9) {
         normalizedText += digit;
         sawDigit = true;
-      } else {
-        if (ch == decimal.charAt(0)) {
-          if (sawDecimal || sawExponent) {
-            break;
-          }
-          normalizedText += ".";
-          sawDecimal = true;
-        } else {
-          if (ch == grouping.charAt(0) && (" " != grouping.charAt(0) || pos[0] + 1 < text.length && this.getDigit_(text.charAt(pos[0] + 1)) >= 0)) {
-            if (sawDecimal || sawExponent) {
-              break;
-            }
-            continue;
-          } else {
-            if (ch == exponentChar.charAt(0)) {
-              if (sawExponent) {
-                break;
-              }
-              normalizedText += "E";
-              sawExponent = true;
-              exponentPos = pos[0];
-            } else {
-              if (ch == "+" || ch == "-") {
-                if (sawDigit && exponentPos != pos[0] - 1) {
-                  break;
-                }
-                normalizedText += ch;
-              } else {
-                if (this.multiplier_ == 1 && ch == this.getNumberFormatSymbols_().PERCENT.charAt(0)) {
-                  if (scale != 1) {
-                    break;
-                  }
-                  scale = 100;
-                  if (sawDigit) {
-                    pos[0]++;
-                    break;
-                  }
-                } else {
-                  if (this.multiplier_ == 1 && ch == this.getNumberFormatSymbols_().PERMILL.charAt(0)) {
-                    if (scale != 1) {
-                      break;
-                    }
-                    scale = 1000;
-                    if (sawDigit) {
-                      pos[0]++;
-                      break;
-                    }
-                  } else {
-                    break;
-                  }
-                }
-              }
-            }
-          }
+      } else if (ch == decimal.charAt(0)) {
+        if (sawDecimal || sawExponent) {
+          break;
         }
+        normalizedText += ".";
+        sawDecimal = true;
+      } else if (ch == grouping.charAt(0) && (" " != grouping.charAt(0) || pos[0] + 1 < text.length && this.getDigit_(text.charAt(pos[0] + 1)) >= 0)) {
+        if (sawDecimal || sawExponent) {
+          break;
+        }
+        continue;
+      } else if (ch == exponentChar.charAt(0)) {
+        if (sawExponent) {
+          break;
+        }
+        normalizedText += "E";
+        sawExponent = true;
+        exponentPos = pos[0];
+      } else if (ch == "+" || ch == "-") {
+        if (sawDigit && exponentPos != pos[0] - 1) {
+          break;
+        }
+        normalizedText += ch;
+      } else if (this.multiplier_ == 1 && ch == this.getNumberFormatSymbols_().PERCENT.charAt(0)) {
+        if (scale != 1) {
+          break;
+        }
+        scale = 100;
+        if (sawDigit) {
+          pos[0]++;
+          break;
+        }
+      } else if (this.multiplier_ == 1 && ch == this.getNumberFormatSymbols_().PERMILL.charAt(0)) {
+        if (scale != 1) {
+          break;
+        }
+        scale = 1000;
+        if (sawDigit) {
+          pos[0]++;
+          break;
+        }
+      } else {
+        break;
       }
     }
     if (this.multiplier_ != 1) {
@@ -315,11 +297,9 @@ goog.scope(function() {
     if (this.resetSignificantDigits_) {
       options.minimumSignificantDigits = 1;
       options.maximumSignificantDigits = Math.max(1, Math.min(21, this.significantDigits_));
-    } else {
-      if (this.resetFractionDigits_) {
-        options.minimumFractionDigits = Math.max(0, this.minimumFractionDigits_);
-        options.maximumFractionDigits = Math.min(20, Math.max(0, this.maximumFractionDigits_));
-      }
+    } else if (this.resetFractionDigits_) {
+      options.minimumFractionDigits = Math.max(0, this.minimumFractionDigits_);
+      options.maximumFractionDigits = Math.min(20, Math.max(0, this.maximumFractionDigits_));
     }
     switch(inputPattern) {
       case goog.i18n.NumberFormat.Format.DECIMAL:
@@ -451,17 +431,13 @@ goog.scope(function() {
     if (options.style === "percent" && this.overrideNumberFormatSymbols_ && this.overrideNumberFormatSymbols_["PERCENT"]) {
       const resultParts = this.intlFormatter_.formatToParts(number);
       const percentReplacement = this.overrideNumberFormatSymbols_["PERCENT"];
-      const parts = resultParts.map(element => {
-        return element.type === "percentSign" ? percentReplacement : element.value;
-      });
+      const parts = resultParts.map(element => element.type === "percentSign" ? percentReplacement : element.value);
       return parts.join("");
     }
     if (this.showTrailingZeros_) {
       const resultParts = this.intlFormatter_.formatToParts(number);
       let intSize = 0;
-      resultParts.forEach(element => {
-        return element.type === "integer" && element.value !== "0" ? intSize += element.value.length : 0;
-      });
+      resultParts.forEach(element => element.type === "integer" && element.value !== "0" ? intSize += element.value.length : 0);
       let fracSize = 0;
       for (let i = 0; i < resultParts.length; i++) {
         if (resultParts[i].type === "fraction") {
@@ -513,14 +489,8 @@ goog.scope(function() {
         return this.intlFormatter_.format(number);
       }
       const reducedResult = reducedFormatter.formatToParts(reducedNumber);
-      const baseFormattedParts = reducedResult.map(element => {
-        return element.type === "integer" || element.type === "group" || element.type === "decimal" || element.type === "fraction" ? element.value : "";
-      });
-      const compactAdditions = scaledResult.filter(entry => {
-        return entry.type === "compact" || entry.type === "literal";
-      }).map(entry => {
-        return entry.value;
-      });
+      const baseFormattedParts = reducedResult.map(element => element.type === "integer" || element.type === "group" || element.type === "decimal" || element.type === "fraction" ? element.value : "");
+      const compactAdditions = scaledResult.filter(entry => entry.type === "compact" || entry.type === "literal").map(entry => entry.value);
       return baseFormattedParts.concat(compactAdditions).join("");
     }
     return this.intlFormatter_.format(number);
@@ -557,17 +527,13 @@ goog.scope(function() {
           if (currentGroupSize === 1 || currentGroupSize > 0 && repeatedDigitIndex % currentGroupSize === 1) {
             parts.push(grouping);
           }
-        } else {
-          if (currentGroupSizeIndex < groupingArray.length) {
-            if (i === repeatedDigitLen) {
-              currentGroupSizeIndex += 1;
-            } else {
-              if (currentGroupSize === i - repeatedDigitLen - nonRepeatedGroupCompleteCount + 1) {
-                parts.push(grouping);
-                nonRepeatedGroupCompleteCount += currentGroupSize;
-                currentGroupSizeIndex += 1;
-              }
-            }
+        } else if (currentGroupSizeIndex < groupingArray.length) {
+          if (i === repeatedDigitLen) {
+            currentGroupSizeIndex += 1;
+          } else if (currentGroupSize === i - repeatedDigitLen - nonRepeatedGroupCompleteCount + 1) {
+            parts.push(grouping);
+            nonRepeatedGroupCompleteCount += currentGroupSize;
+            currentGroupSizeIndex += 1;
           }
         }
       }
@@ -639,10 +605,8 @@ goog.scope(function() {
       } else {
         parts = this.formatNumberGroupingNonRepeatingDigitsParts_(parts, zeroCode, intPart, this.groupingArray_);
       }
-    } else {
-      if (!fractionPresent) {
-        parts.push(String.fromCharCode(zeroCode));
-      }
+    } else if (!fractionPresent) {
+      parts.push(String.fromCharCode(zeroCode));
     }
     if (this.decimalSeparatorAlwaysShown_ || fractionPresent) {
       parts.push(decimal);
@@ -673,10 +637,8 @@ goog.scope(function() {
     if (exponent < 0) {
       exponent = -exponent;
       parts.push(this.getNumberFormatSymbols_().MINUS_SIGN);
-    } else {
-      if (this.useSignForPositiveExponent_) {
-        parts.push(this.getNumberFormatSymbols_().PLUS_SIGN);
-      }
+    } else if (this.useSignForPositiveExponent_) {
+      parts.push(this.getNumberFormatSymbols_().PLUS_SIGN);
     }
     const exponentDigits = "" + exponent;
     const zeroChar = this.getNumberFormatSymbols_().ZERO_DIGIT;
@@ -785,10 +747,8 @@ goog.scope(function() {
           case goog.i18n.NumberFormat.PATTERN_PERCENT_:
             if (!this.negativePercentSignExpected_ && this.multiplier_ != 1) {
               throw new Error("Too many percent/permill");
-            } else {
-              if (this.negativePercentSignExpected_ && this.multiplier_ != 100) {
-                throw new Error("Inconsistent use of percent/permill characters");
-              }
+            } else if (this.negativePercentSignExpected_ && this.multiplier_ != 100) {
+              throw new Error("Inconsistent use of percent/permill characters");
             }
             this.multiplier_ = 100;
             this.negativePercentSignExpected_ = false;
@@ -797,10 +757,8 @@ goog.scope(function() {
           case goog.i18n.NumberFormat.PATTERN_PER_MILLE_:
             if (!this.negativePercentSignExpected_ && this.multiplier_ != 1) {
               throw new Error("Too many percent/permill");
-            } else {
-              if (this.negativePercentSignExpected_ && this.multiplier_ != 1000) {
-                throw new Error("Inconsistent use of percent/permill characters");
-              }
+            } else if (this.negativePercentSignExpected_ && this.multiplier_ != 1000) {
+              throw new Error("Inconsistent use of percent/permill characters");
             }
             this.multiplier_ = 1000;
             this.negativePercentSignExpected_ = false;

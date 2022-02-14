@@ -53,14 +53,10 @@ goog.events.BrowserEvent.prototype.init = function(e, opt_currentTarget) {
         relatedTarget = null;
       }
     }
-  } else {
-    if (type == goog.events.EventType.MOUSEOVER) {
-      relatedTarget = e.fromElement;
-    } else {
-      if (type == goog.events.EventType.MOUSEOUT) {
-        relatedTarget = e.toElement;
-      }
-    }
+  } else if (type == goog.events.EventType.MOUSEOVER) {
+    relatedTarget = e.fromElement;
+  } else if (type == goog.events.EventType.MOUSEOUT) {
+    relatedTarget = e.toElement;
   }
   this.relatedTarget = relatedTarget;
   if (relevantTouch) {

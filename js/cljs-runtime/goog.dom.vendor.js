@@ -4,28 +4,20 @@ goog.require("goog.userAgent");
 goog.dom.vendor.getVendorJsPrefix = function() {
   if (goog.userAgent.WEBKIT) {
     return "Webkit";
-  } else {
-    if (goog.userAgent.GECKO) {
-      return "Moz";
-    } else {
-      if (goog.userAgent.IE) {
-        return "ms";
-      }
-    }
+  } else if (goog.userAgent.GECKO) {
+    return "Moz";
+  } else if (goog.userAgent.IE) {
+    return "ms";
   }
   return null;
 };
 goog.dom.vendor.getVendorPrefix = function() {
   if (goog.userAgent.WEBKIT) {
     return "-webkit";
-  } else {
-    if (goog.userAgent.GECKO) {
-      return "-moz";
-    } else {
-      if (goog.userAgent.IE) {
-        return "-ms";
-      }
-    }
+  } else if (goog.userAgent.GECKO) {
+    return "-moz";
+  } else if (goog.userAgent.IE) {
+    return "-ms";
   }
   return null;
 };

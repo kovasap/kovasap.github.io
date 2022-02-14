@@ -22,12 +22,10 @@ goog.fs.url.getUrlObject_ = function() {
 goog.fs.url.findUrlObject_ = function() {
   if (goog.global.URL !== undefined && goog.global.URL.createObjectURL !== undefined) {
     return goog.global.URL;
+  } else if (goog.global.createObjectURL !== undefined) {
+    return goog.global;
   } else {
-    if (goog.global.createObjectURL !== undefined) {
-      return goog.global;
-    } else {
-      return null;
-    }
+    return null;
   }
 };
 goog.fs.url.browserSupportsObjectUrls = function() {

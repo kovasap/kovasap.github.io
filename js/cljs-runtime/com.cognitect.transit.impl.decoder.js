@@ -121,12 +121,10 @@ goog.scope(function() {
         cache.write(val, asMapKey);
       }
       return val;
+    } else if (caching.isCacheCode(string)) {
+      return cache.read(string, asMapKey);
     } else {
-      if (caching.isCacheCode(string)) {
-        return cache.read(string, asMapKey);
-      } else {
-        return this.parseString(string, cache, asMapKey);
-      }
+      return this.parseString(string, cache, asMapKey);
     }
   };
   decoder.Decoder.prototype.decodeHash = function(hash, cache, asMapKey, tagValue) {
@@ -138,33 +136,31 @@ goog.scope(function() {
       } else {
         return types.taggedValue(tag.str, this.decode(val, cache, false, false));
       }
-    } else {
-      if (this.mapBuilder) {
-        if (ks.length < types.SMALL_ARRAY_MAP_THRESHOLD * 2 && this.mapBuilder.fromArray) {
-          var nodep = [];
-          for (var i = 0; i < ks.length; i++) {
-            var strKey = ks[i];
-            nodep.push(this.decode(strKey, cache, true, false));
-            nodep.push(this.decode(hash[strKey], cache, false, false));
-          }
-          return this.mapBuilder.fromArray(nodep, hash);
-        } else {
-          var ret = this.mapBuilder.init(hash);
-          for (var i = 0; i < ks.length; i++) {
-            var strKey = ks[i];
-            ret = this.mapBuilder.add(ret, this.decode(strKey, cache, true, false), this.decode(hash[strKey], cache, false, false), hash);
-          }
-          return this.mapBuilder.finalize(ret, hash);
-        }
-      } else {
+    } else if (this.mapBuilder) {
+      if (ks.length < types.SMALL_ARRAY_MAP_THRESHOLD * 2 && this.mapBuilder.fromArray) {
         var nodep = [];
         for (var i = 0; i < ks.length; i++) {
           var strKey = ks[i];
           nodep.push(this.decode(strKey, cache, true, false));
           nodep.push(this.decode(hash[strKey], cache, false, false));
         }
-        return types.map(nodep, false);
+        return this.mapBuilder.fromArray(nodep, hash);
+      } else {
+        var ret = this.mapBuilder.init(hash);
+        for (var i = 0; i < ks.length; i++) {
+          var strKey = ks[i];
+          ret = this.mapBuilder.add(ret, this.decode(strKey, cache, true, false), this.decode(hash[strKey], cache, false, false), hash);
+        }
+        return this.mapBuilder.finalize(ret, hash);
       }
+    } else {
+      var nodep = [];
+      for (var i = 0; i < ks.length; i++) {
+        var strKey = ks[i];
+        nodep.push(this.decode(strKey, cache, true, false));
+        nodep.push(this.decode(hash[strKey], cache, false, false));
+      }
+      return types.map(nodep, false);
     }
   };
   decoder.Decoder.prototype.decodeArrayHash = function(node, cache, asMapKey, tagValue) {
@@ -244,16 +240,14 @@ goog.scope(function() {
       var c = string.charAt(1);
       if (c === d.ESC || c === d.SUB || c === d.RES) {
         return string.substring(1);
+      } else if (c === d.TAG) {
+        return decoder.tag(string.substring(2));
       } else {
-        if (c === d.TAG) {
-          return decoder.tag(string.substring(2));
+        var handler = this.handlers[c];
+        if (handler == null) {
+          return this.defaultHandler(c, string.substring(2));
         } else {
-          var handler = this.handlers[c];
-          if (handler == null) {
-            return this.defaultHandler(c, string.substring(2));
-          } else {
-            return handler(string.substring(2), this);
-          }
+          return handler(string.substring(2), this);
         }
       }
     } else {

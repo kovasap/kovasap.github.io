@@ -65,17 +65,13 @@ goog.events.listen_ = function(src, type, listener, callOnce, opt_options, opt_h
       opt_options = false;
     }
     src.addEventListener(type.toString(), proxy, opt_options);
+  } else if (src.attachEvent) {
+    src.attachEvent(goog.events.getOnString_(type.toString()), proxy);
+  } else if (src.addListener && src.removeListener) {
+    goog.asserts.assert(type === "change", "MediaQueryList only has a change event");
+    src.addListener(proxy);
   } else {
-    if (src.attachEvent) {
-      src.attachEvent(goog.events.getOnString_(type.toString()), proxy);
-    } else {
-      if (src.addListener && src.removeListener) {
-        goog.asserts.assert(type === "change", "MediaQueryList only has a change event");
-        src.addListener(proxy);
-      } else {
-        throw new Error("addEventListener and attachEvent are unavailable.");
-      }
-    }
+    throw new Error("addEventListener and attachEvent are unavailable.");
   }
   goog.events.listenerCountEstimate_++;
   return listenerObj;
@@ -145,14 +141,10 @@ goog.events.unlistenByKey = function(key) {
   var proxy = listener.proxy;
   if (src.removeEventListener) {
     src.removeEventListener(type, proxy, listener.capture);
-  } else {
-    if (src.detachEvent) {
-      src.detachEvent(goog.events.getOnString_(type), proxy);
-    } else {
-      if (src.addListener && src.removeListener) {
-        src.removeListener(proxy);
-      }
-    }
+  } else if (src.detachEvent) {
+    src.detachEvent(goog.events.getOnString_(type), proxy);
+  } else if (src.addListener && src.removeListener) {
+    src.removeListener(proxy);
   }
   goog.events.listenerCountEstimate_--;
   var listenerMap = goog.events.getListenerMap_(src);

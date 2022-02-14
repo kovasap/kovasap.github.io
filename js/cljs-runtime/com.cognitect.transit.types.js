@@ -51,16 +51,14 @@ goog.scope(function() {
   types.intValue = function(s) {
     if (typeof s === "number") {
       return s;
+    } else if (s instanceof Long) {
+      return s;
     } else {
-      if (s instanceof Long) {
-        return s;
+      var n = Long.fromString(s, 10);
+      if (n.greaterThan(types.MAX_INT) || n.lessThan(types.MIN_INT)) {
+        return n;
       } else {
-        var n = Long.fromString(s, 10);
-        if (n.greaterThan(types.MAX_INT) || n.lessThan(types.MIN_INT)) {
-          return n;
-        } else {
-          return n.toNumber();
-        }
+        return n.toNumber();
       }
     }
   };
@@ -273,23 +271,19 @@ goog.scope(function() {
   types.binary = function(str, decoder) {
     if ((!decoder || decoder.preferBuffers !== false) && typeof goog.global.Buffer != "undefined") {
       return new goog.global.Buffer(str, "base64");
+    } else if (typeof Uint8Array != "undefined") {
+      return util.Base64ToUint8(str);
     } else {
-      if (typeof Uint8Array != "undefined") {
-        return util.Base64ToUint8(str);
-      } else {
-        return types.taggedValue("b", str);
-      }
+      return types.taggedValue("b", str);
     }
   };
   types.isBinary = function(x) {
     if (typeof goog.global.Buffer != "undefined" && x instanceof goog.global.Buffer) {
       return true;
+    } else if (typeof Uint8Array != "undefined" && x instanceof Uint8Array) {
+      return true;
     } else {
-      if (typeof Uint8Array != "undefined" && x instanceof Uint8Array) {
-        return true;
-      } else {
-        return x instanceof types.TaggedValue && x.tag === "b";
-      }
+      return x instanceof types.TaggedValue && x.tag === "b";
     }
   };
   types.uri = function(s) {
@@ -311,12 +305,10 @@ goog.scope(function() {
       var value = null;
       if (this.type === types.KEYS) {
         value = this.entries[this.idx];
+      } else if (this.type === types.VALUES) {
+        value = this.entries[this.idx + 1];
       } else {
-        if (this.type === types.VALUES) {
-          value = this.entries[this.idx + 1];
-        } else {
-          value = [this.entries[this.idx], this.entries[this.idx + 1]];
-        }
+        value = [this.entries[this.idx], this.entries[this.idx + 1]];
       }
       var ret = {"value":value, "done":false};
       this.idx += 2;
@@ -346,12 +338,10 @@ goog.scope(function() {
       var value = null;
       if (this.type === types.KEYS) {
         value = this.bucket[this.bucketIdx];
+      } else if (this.type === types.VALUES) {
+        value = this.bucket[this.bucketIdx + 1];
       } else {
-        if (this.type === types.VALUES) {
-          value = this.bucket[this.bucketIdx + 1];
-        } else {
-          value = [this.bucket[this.bucketIdx], this.bucket[this.bucketIdx + 1]];
-        }
+        value = [this.bucket[this.bucketIdx], this.bucket[this.bucketIdx + 1]];
       }
       var ret = {"value":value, "done":false};
       this.idx++;
@@ -379,36 +369,32 @@ goog.scope(function() {
         }
       }
       return true;
-    } else {
-      if (me instanceof types.TransitArrayMap && types.isMap(you)) {
-        if (me.size !== you.size) {
+    } else if (me instanceof types.TransitArrayMap && types.isMap(you)) {
+      if (me.size !== you.size) {
+        return false;
+      }
+      var entries = me._entries;
+      for (var j = 0; j < entries.length; j += 2) {
+        if (!eq.equals(entries[j + 1], you.get(entries[j]))) {
           return false;
         }
-        var entries = me._entries;
-        for (var j = 0; j < entries.length; j += 2) {
-          if (!eq.equals(entries[j + 1], you.get(entries[j]))) {
+      }
+      return true;
+    } else if (you != null && typeof you === "object") {
+      var ks = util.objectKeys(you), kslen = ks.length;
+      if (me.size === kslen) {
+        for (var i = 0; i < kslen; i++) {
+          var k = ks[i];
+          if (!me.has(k) || !eq.equals(you[k], me.get(k))) {
             return false;
           }
         }
         return true;
       } else {
-        if (you != null && typeof you === "object") {
-          var ks = util.objectKeys(you), kslen = ks.length;
-          if (me.size === kslen) {
-            for (var i = 0; i < kslen; i++) {
-              var k = ks[i];
-              if (!me.has(k) || !eq.equals(you[k], me.get(k))) {
-                return false;
-              }
-            }
-            return true;
-          } else {
-            return false;
-          }
-        } else {
-          return false;
-        }
+        return false;
       }
+    } else {
+      return false;
     }
   };
   types.SMALL_ARRAY_MAP_THRESHOLD = 8;
@@ -420,12 +406,10 @@ goog.scope(function() {
     }
     if (goog.typeOf(x) === "array") {
       return "[" + x.toString() + "]";
+    } else if (goog.typeOf(x) === "string") {
+      return '"' + x + '"';
     } else {
-      if (goog.typeOf(x) === "string") {
-        return '"' + x + '"';
-      } else {
-        return x.toString();
-      }
+      return x.toString();
     }
   };
   types.printMap = function(map) {

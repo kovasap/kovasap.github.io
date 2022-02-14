@@ -1,110 +1,110 @@
 goog.provide('redux.core');
 redux.core.pre_step = (function redux$core$pre_step(rf,f){
 return (function() {
-var G__42670 = null;
-var G__42670__0 = (function (){
+var G__42338 = null;
+var G__42338__0 = (function (){
 return (rf.cljs$core$IFn$_invoke$arity$0 ? rf.cljs$core$IFn$_invoke$arity$0() : rf.call(null));
 });
-var G__42670__1 = (function (acc){
+var G__42338__1 = (function (acc){
 return (rf.cljs$core$IFn$_invoke$arity$1 ? rf.cljs$core$IFn$_invoke$arity$1(acc) : rf.call(null,acc));
 });
-var G__42670__2 = (function (acc,x){
-var G__42626 = acc;
-var G__42627 = (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(x) : f.call(null,x));
-return (rf.cljs$core$IFn$_invoke$arity$2 ? rf.cljs$core$IFn$_invoke$arity$2(G__42626,G__42627) : rf.call(null,G__42626,G__42627));
+var G__42338__2 = (function (acc,x){
+var G__42276 = acc;
+var G__42277 = (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(x) : f.call(null,x));
+return (rf.cljs$core$IFn$_invoke$arity$2 ? rf.cljs$core$IFn$_invoke$arity$2(G__42276,G__42277) : rf.call(null,G__42276,G__42277));
 });
-G__42670 = function(acc,x){
+G__42338 = function(acc,x){
 switch(arguments.length){
 case 0:
-return G__42670__0.call(this);
+return G__42338__0.call(this);
 case 1:
-return G__42670__1.call(this,acc);
+return G__42338__1.call(this,acc);
 case 2:
-return G__42670__2.call(this,acc,x);
+return G__42338__2.call(this,acc,x);
 }
 throw(new Error('Invalid arity: ' + arguments.length));
 };
-G__42670.cljs$core$IFn$_invoke$arity$0 = G__42670__0;
-G__42670.cljs$core$IFn$_invoke$arity$1 = G__42670__1;
-G__42670.cljs$core$IFn$_invoke$arity$2 = G__42670__2;
-return G__42670;
+G__42338.cljs$core$IFn$_invoke$arity$0 = G__42338__0;
+G__42338.cljs$core$IFn$_invoke$arity$1 = G__42338__1;
+G__42338.cljs$core$IFn$_invoke$arity$2 = G__42338__2;
+return G__42338;
 })()
 });
 redux.core.post_complete = (function redux$core$post_complete(rf,f){
 return (function() {
-var G__42671 = null;
-var G__42671__0 = (function (){
+var G__42339 = null;
+var G__42339__0 = (function (){
 return (rf.cljs$core$IFn$_invoke$arity$0 ? rf.cljs$core$IFn$_invoke$arity$0() : rf.call(null));
 });
-var G__42671__1 = (function (acc){
-var G__42633 = (rf.cljs$core$IFn$_invoke$arity$1 ? rf.cljs$core$IFn$_invoke$arity$1(acc) : rf.call(null,acc));
-return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__42633) : f.call(null,G__42633));
+var G__42339__1 = (function (acc){
+var G__42282 = (rf.cljs$core$IFn$_invoke$arity$1 ? rf.cljs$core$IFn$_invoke$arity$1(acc) : rf.call(null,acc));
+return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__42282) : f.call(null,G__42282));
 });
-var G__42671__2 = (function (acc,x){
+var G__42339__2 = (function (acc,x){
 return (rf.cljs$core$IFn$_invoke$arity$2 ? rf.cljs$core$IFn$_invoke$arity$2(acc,x) : rf.call(null,acc,x));
 });
-G__42671 = function(acc,x){
+G__42339 = function(acc,x){
 switch(arguments.length){
 case 0:
-return G__42671__0.call(this);
+return G__42339__0.call(this);
 case 1:
-return G__42671__1.call(this,acc);
+return G__42339__1.call(this,acc);
 case 2:
-return G__42671__2.call(this,acc,x);
+return G__42339__2.call(this,acc,x);
 }
 throw(new Error('Invalid arity: ' + arguments.length));
 };
-G__42671.cljs$core$IFn$_invoke$arity$0 = G__42671__0;
-G__42671.cljs$core$IFn$_invoke$arity$1 = G__42671__1;
-G__42671.cljs$core$IFn$_invoke$arity$2 = G__42671__2;
-return G__42671;
+G__42339.cljs$core$IFn$_invoke$arity$0 = G__42339__0;
+G__42339.cljs$core$IFn$_invoke$arity$1 = G__42339__1;
+G__42339.cljs$core$IFn$_invoke$arity$2 = G__42339__2;
+return G__42339;
 })()
 });
 redux.core.with_xform = (function redux$core$with_xform(rf,xform){
 var rfv = cljs.core.volatile_BANG_(null);
 return (function() {
-var G__42674 = null;
-var G__42674__0 = (function (){
+var G__42344 = null;
+var G__42344__0 = (function (){
 cljs.core.vreset_BANG_(rfv,(xform.cljs$core$IFn$_invoke$arity$1 ? xform.cljs$core$IFn$_invoke$arity$1(rf) : xform.call(null,rf)));
 
-var fexpr__42641 = cljs.core.deref(rfv);
-return (fexpr__42641.cljs$core$IFn$_invoke$arity$0 ? fexpr__42641.cljs$core$IFn$_invoke$arity$0() : fexpr__42641.call(null));
+var fexpr__42290 = cljs.core.deref(rfv);
+return (fexpr__42290.cljs$core$IFn$_invoke$arity$0 ? fexpr__42290.cljs$core$IFn$_invoke$arity$0() : fexpr__42290.call(null));
 });
-var G__42674__1 = (function (acc){
-var fexpr__42642 = cljs.core.deref(rfv);
-return (fexpr__42642.cljs$core$IFn$_invoke$arity$1 ? fexpr__42642.cljs$core$IFn$_invoke$arity$1(acc) : fexpr__42642.call(null,acc));
+var G__42344__1 = (function (acc){
+var fexpr__42291 = cljs.core.deref(rfv);
+return (fexpr__42291.cljs$core$IFn$_invoke$arity$1 ? fexpr__42291.cljs$core$IFn$_invoke$arity$1(acc) : fexpr__42291.call(null,acc));
 });
-var G__42674__2 = (function (acc,x){
-var fexpr__42643 = cljs.core.deref(rfv);
-return (fexpr__42643.cljs$core$IFn$_invoke$arity$2 ? fexpr__42643.cljs$core$IFn$_invoke$arity$2(acc,x) : fexpr__42643.call(null,acc,x));
+var G__42344__2 = (function (acc,x){
+var fexpr__42294 = cljs.core.deref(rfv);
+return (fexpr__42294.cljs$core$IFn$_invoke$arity$2 ? fexpr__42294.cljs$core$IFn$_invoke$arity$2(acc,x) : fexpr__42294.call(null,acc,x));
 });
-G__42674 = function(acc,x){
+G__42344 = function(acc,x){
 switch(arguments.length){
 case 0:
-return G__42674__0.call(this);
+return G__42344__0.call(this);
 case 1:
-return G__42674__1.call(this,acc);
+return G__42344__1.call(this,acc);
 case 2:
-return G__42674__2.call(this,acc,x);
+return G__42344__2.call(this,acc,x);
 }
 throw(new Error('Invalid arity: ' + arguments.length));
 };
-G__42674.cljs$core$IFn$_invoke$arity$0 = G__42674__0;
-G__42674.cljs$core$IFn$_invoke$arity$1 = G__42674__1;
-G__42674.cljs$core$IFn$_invoke$arity$2 = G__42674__2;
-return G__42674;
+G__42344.cljs$core$IFn$_invoke$arity$0 = G__42344__0;
+G__42344.cljs$core$IFn$_invoke$arity$1 = G__42344__1;
+G__42344.cljs$core$IFn$_invoke$arity$2 = G__42344__2;
+return G__42344;
 })()
 });
 redux.core.juxt = (function redux$core$juxt(var_args){
 var args__4870__auto__ = [];
-var len__4864__auto___42677 = arguments.length;
-var i__4865__auto___42678 = (0);
+var len__4864__auto___42345 = arguments.length;
+var i__4865__auto___42346 = (0);
 while(true){
-if((i__4865__auto___42678 < len__4864__auto___42677)){
-args__4870__auto__.push((arguments[i__4865__auto___42678]));
+if((i__4865__auto___42346 < len__4864__auto___42345)){
+args__4870__auto__.push((arguments[i__4865__auto___42346]));
 
-var G__42679 = (i__4865__auto___42678 + (1));
-i__4865__auto___42678 = G__42679;
+var G__42347 = (i__4865__auto___42346 + (1));
+i__4865__auto___42346 = G__42347;
 continue;
 } else {
 }
@@ -117,19 +117,19 @@ return redux.core.juxt.cljs$core$IFn$_invoke$arity$variadic(argseq__4871__auto__
 
 (redux.core.juxt.cljs$core$IFn$_invoke$arity$variadic = (function (rfns){
 return (function() {
-var G__42680 = null;
-var G__42680__0 = (function (){
+var G__42348 = null;
+var G__42348__0 = (function (){
 return cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (f){
 return (f.cljs$core$IFn$_invoke$arity$0 ? f.cljs$core$IFn$_invoke$arity$0() : f.call(null));
 }),rfns);
 });
-var G__42680__1 = (function (acc){
+var G__42348__1 = (function (acc){
 return cljs.core.mapv.cljs$core$IFn$_invoke$arity$3((function (f,a){
-var G__42650 = cljs.core.unreduced(a);
-return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__42650) : f.call(null,G__42650));
+var G__42303 = cljs.core.unreduced(a);
+return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__42303) : f.call(null,G__42303));
 }),rfns,acc);
 });
-var G__42680__2 = (function (acc,x){
+var G__42348__2 = (function (acc,x){
 var all_reduced_QMARK_ = cljs.core.volatile_BANG_(true);
 var results = cljs.core.mapv.cljs$core$IFn$_invoke$arity$3((function (f,a){
 if((!(cljs.core.reduced_QMARK_(a)))){
@@ -146,30 +146,30 @@ return cljs.core.reduced(results);
 return results;
 }
 });
-G__42680 = function(acc,x){
+G__42348 = function(acc,x){
 switch(arguments.length){
 case 0:
-return G__42680__0.call(this);
+return G__42348__0.call(this);
 case 1:
-return G__42680__1.call(this,acc);
+return G__42348__1.call(this,acc);
 case 2:
-return G__42680__2.call(this,acc,x);
+return G__42348__2.call(this,acc,x);
 }
 throw(new Error('Invalid arity: ' + arguments.length));
 };
-G__42680.cljs$core$IFn$_invoke$arity$0 = G__42680__0;
-G__42680.cljs$core$IFn$_invoke$arity$1 = G__42680__1;
-G__42680.cljs$core$IFn$_invoke$arity$2 = G__42680__2;
-return G__42680;
+G__42348.cljs$core$IFn$_invoke$arity$0 = G__42348__0;
+G__42348.cljs$core$IFn$_invoke$arity$1 = G__42348__1;
+G__42348.cljs$core$IFn$_invoke$arity$2 = G__42348__2;
+return G__42348;
 })()
 }));
 
 (redux.core.juxt.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(redux.core.juxt.cljs$lang$applyTo = (function (seq42644){
+(redux.core.juxt.cljs$lang$applyTo = (function (seq42296){
 var self__4852__auto__ = this;
-return self__4852__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq42644));
+return self__4852__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq42296));
 }));
 
 redux.core.facet = (function redux$core$facet(rf,fns){
@@ -183,17 +183,17 @@ return cljs.core.zipmap(cljs.core.keys(kvs),acc);
 }));
 });
 redux.core.fuse_matrix = (function redux$core$fuse_matrix(rf,kvs){
-return redux.core.post_complete(redux.core.pre_step(redux.core.fuse(cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p__42660){
-var vec__42661 = p__42660;
-var k1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__42661,(0),null);
-var k2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__42661,(1),null);
-return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [k1,k2], null),(function (){var G__42664 = (function (p1__42657_SHARP_){
-return cljs.core.get.cljs$core$IFn$_invoke$arity$2(p1__42657_SHARP_,k1);
+return redux.core.post_complete(redux.core.pre_step(redux.core.fuse(cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p__42327){
+var vec__42328 = p__42327;
+var k1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__42328,(0),null);
+var k2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__42328,(1),null);
+return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [k1,k2], null),(function (){var G__42331 = (function (p1__42323_SHARP_){
+return cljs.core.get.cljs$core$IFn$_invoke$arity$2(p1__42323_SHARP_,k1);
 });
-var G__42665 = (function (p1__42658_SHARP_){
-return cljs.core.get.cljs$core$IFn$_invoke$arity$2(p1__42658_SHARP_,k2);
+var G__42332 = (function (p1__42324_SHARP_){
+return cljs.core.get.cljs$core$IFn$_invoke$arity$2(p1__42324_SHARP_,k2);
 });
-return (rf.cljs$core$IFn$_invoke$arity$2 ? rf.cljs$core$IFn$_invoke$arity$2(G__42664,G__42665) : rf.call(null,G__42664,G__42665));
+return (rf.cljs$core$IFn$_invoke$arity$2 ? rf.cljs$core$IFn$_invoke$arity$2(G__42331,G__42332) : rf.call(null,G__42331,G__42332));
 })()], null);
 }),redux.utils.pairs(cljs.core.keys(kvs))))),redux.utils.project(kvs)),redux.utils.complete_triangular_matrix);
 });

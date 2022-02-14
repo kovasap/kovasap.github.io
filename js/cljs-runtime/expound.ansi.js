@@ -18,14 +18,14 @@ return ["\u001B","[",codes__$2,"m"].join('');
  */
 expound.ansi.escape = (function expound$ansi$escape(var_args){
 var args__4870__auto__ = [];
-var len__4864__auto___45899 = arguments.length;
-var i__4865__auto___45900 = (0);
+var len__4864__auto___44205 = arguments.length;
+var i__4865__auto___44209 = (0);
 while(true){
-if((i__4865__auto___45900 < len__4864__auto___45899)){
-args__4870__auto__.push((arguments[i__4865__auto___45900]));
+if((i__4865__auto___44209 < len__4864__auto___44205)){
+args__4870__auto__.push((arguments[i__4865__auto___44209]));
 
-var G__45901 = (i__4865__auto___45900 + (1));
-i__4865__auto___45900 = G__45901;
+var G__44210 = (i__4865__auto___44209 + (1));
+i__4865__auto___44209 = G__44210;
 continue;
 } else {
 }
@@ -43,9 +43,9 @@ return expound.ansi.esc(codes);
 (expound.ansi.escape.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(expound.ansi.escape.cljs$lang$applyTo = (function (seq45859){
+(expound.ansi.escape.cljs$lang$applyTo = (function (seq44181){
 var self__4852__auto__ = this;
-return self__4852__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq45859));
+return self__4852__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq44181));
 }));
 
 /**
@@ -54,14 +54,14 @@ return self__4852__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq
  */
 expound.ansi.sgr = (function expound$ansi$sgr(var_args){
 var args__4870__auto__ = [];
-var len__4864__auto___45902 = arguments.length;
-var i__4865__auto___45903 = (0);
+var len__4864__auto___44213 = arguments.length;
+var i__4865__auto___44214 = (0);
 while(true){
-if((i__4865__auto___45903 < len__4864__auto___45902)){
-args__4870__auto__.push((arguments[i__4865__auto___45903]));
+if((i__4865__auto___44214 < len__4864__auto___44213)){
+args__4870__auto__.push((arguments[i__4865__auto___44214]));
 
-var G__45904 = (i__4865__auto___45903 + (1));
-i__4865__auto___45903 = G__45904;
+var G__44220 = (i__4865__auto___44214 + (1));
+i__4865__auto___44214 = G__44220;
 continue;
 } else {
 }
@@ -79,17 +79,17 @@ return [expound.ansi.esc(codes),cljs.core.str.cljs$core$IFn$_invoke$arity$1(stri
 (expound.ansi.sgr.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(expound.ansi.sgr.cljs$lang$applyTo = (function (seq45875){
-var G__45876 = cljs.core.first(seq45875);
-var seq45875__$1 = cljs.core.next(seq45875);
+(expound.ansi.sgr.cljs$lang$applyTo = (function (seq44188){
+var G__44189 = cljs.core.first(seq44188);
+var seq44188__$1 = cljs.core.next(seq44188);
 var self__4851__auto__ = this;
-return self__4851__auto__.cljs$core$IFn$_invoke$arity$variadic(G__45876,seq45875__$1);
+return self__4851__auto__.cljs$core$IFn$_invoke$arity$variadic(G__44189,seq44188__$1);
 }));
 
 expound.ansi._STAR_print_styles_STAR_ = cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"good-key","good-key",-1265033983),new cljs.core.Keyword(null,"warning-key","warning-key",-1487066651),new cljs.core.Keyword(null,"correct-key","correct-key",1087492967),new cljs.core.Keyword(null,"highlight","highlight",-800930873),new cljs.core.Keyword(null,"focus-path","focus-path",-2048689431),new cljs.core.Keyword(null,"bad-value","bad-value",-139100659),new cljs.core.Keyword(null,"footer","footer",1606445390),new cljs.core.Keyword(null,"header","header",119441134),new cljs.core.Keyword(null,"good-pred","good-pred",-629085297),new cljs.core.Keyword(null,"good","good",511701169),new cljs.core.Keyword(null,"focus-key","focus-key",2074966449),new cljs.core.Keyword(null,"pointer","pointer",85071187),new cljs.core.Keyword(null,"bad","bad",1127186645),new cljs.core.Keyword(null,"error-key","error-key",-1651308715),new cljs.core.Keyword(null,"none","none",1333468478),new cljs.core.Keyword(null,"message","message",-406056002)],[new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"green","green",-945526839)], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"bold","bold",-116809535)], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"green","green",-945526839)], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"bold","bold",-116809535)], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"magenta","magenta",1687937081)], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"red","red",-969428204)], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cyan","cyan",1118839274)], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cyan","cyan",1118839274)], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"green","green",-945526839)], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"green","green",-945526839)], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"bold","bold",-116809535)], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"magenta","magenta",1687937081)], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"red","red",-969428204)], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"red","red",-969428204)], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"none","none",1333468478)], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"magenta","magenta",1687937081)], null)]);
 expound.ansi.resolve_styles = (function expound$ansi$resolve_styles(styles){
-var temp__5751__auto__ = cljs.core.not_empty(cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (p1__45889_SHARP_){
-var or__4253__auto__ = (function (){var temp__5753__auto__ = expound.ansi._STAR_print_styles_STAR_.call(null,p1__45889_SHARP_);
+var temp__5751__auto__ = cljs.core.not_empty(cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (p1__44197_SHARP_){
+var or__4253__auto__ = (function (){var temp__5753__auto__ = expound.ansi._STAR_print_styles_STAR_.call(null,p1__44197_SHARP_);
 if(cljs.core.truth_(temp__5753__auto__)){
 var res = temp__5753__auto__;
 return res;
@@ -100,7 +100,7 @@ return null;
 if(cljs.core.truth_(or__4253__auto__)){
 return or__4253__auto__;
 } else {
-return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [p1__45889_SHARP_], null);
+return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [p1__44197_SHARP_], null);
 }
 }),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([styles], 0)));
 if(cljs.core.truth_(temp__5751__auto__)){
@@ -112,14 +112,14 @@ return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMP
 });
 expound.ansi.color = (function expound$ansi$color(var_args){
 var args__4870__auto__ = [];
-var len__4864__auto___45913 = arguments.length;
-var i__4865__auto___45914 = (0);
+var len__4864__auto___44228 = arguments.length;
+var i__4865__auto___44229 = (0);
 while(true){
-if((i__4865__auto___45914 < len__4864__auto___45913)){
-args__4870__auto__.push((arguments[i__4865__auto___45914]));
+if((i__4865__auto___44229 < len__4864__auto___44228)){
+args__4870__auto__.push((arguments[i__4865__auto___44229]));
 
-var G__45915 = (i__4865__auto___45914 + (1));
-i__4865__auto___45914 = G__45915;
+var G__44230 = (i__4865__auto___44229 + (1));
+i__4865__auto___44229 = G__44230;
 continue;
 } else {
 }
@@ -141,11 +141,11 @@ return s;
 (expound.ansi.color.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(expound.ansi.color.cljs$lang$applyTo = (function (seq45891){
-var G__45892 = cljs.core.first(seq45891);
-var seq45891__$1 = cljs.core.next(seq45891);
+(expound.ansi.color.cljs$lang$applyTo = (function (seq44198){
+var G__44199 = cljs.core.first(seq44198);
+var seq44198__$1 = cljs.core.next(seq44198);
 var self__4851__auto__ = this;
-return self__4851__auto__.cljs$core$IFn$_invoke$arity$variadic(G__45892,seq45891__$1);
+return self__4851__auto__.cljs$core$IFn$_invoke$arity$variadic(G__44199,seq44198__$1);
 }));
 
 

@@ -50,44 +50,36 @@ goog.debug.deepExpose = function(obj, opt_showFn) {
     try {
       if (obj === undefined) {
         str.push("undefined");
-      } else {
-        if (obj === null) {
-          str.push("NULL");
-        } else {
-          if (typeof obj === "string") {
-            str.push('"' + indentMultiline(obj) + '"');
-          } else {
-            if (typeof obj === "function") {
-              str.push(indentMultiline(String(obj)));
-            } else {
-              if (goog.isObject(obj)) {
-                if (!goog.hasUid(obj)) {
-                  uidsToCleanup.push(obj);
-                }
-                var uid = goog.getUid(obj);
-                if (ancestorUids[uid]) {
-                  str.push("*** reference loop detected (id\x3d" + uid + ") ***");
-                } else {
-                  ancestorUids[uid] = true;
-                  str.push("{");
-                  for (var x in obj) {
-                    if (!opt_showFn && typeof obj[x] === "function") {
-                      continue;
-                    }
-                    str.push("\n");
-                    str.push(nestspace);
-                    str.push(x + " \x3d ");
-                    helper(obj[x], nestspace);
-                  }
-                  str.push("\n" + space + "}");
-                  delete ancestorUids[uid];
-                }
-              } else {
-                str.push(obj);
-              }
-            }
-          }
+      } else if (obj === null) {
+        str.push("NULL");
+      } else if (typeof obj === "string") {
+        str.push('"' + indentMultiline(obj) + '"');
+      } else if (typeof obj === "function") {
+        str.push(indentMultiline(String(obj)));
+      } else if (goog.isObject(obj)) {
+        if (!goog.hasUid(obj)) {
+          uidsToCleanup.push(obj);
         }
+        var uid = goog.getUid(obj);
+        if (ancestorUids[uid]) {
+          str.push("*** reference loop detected (id\x3d" + uid + ") ***");
+        } else {
+          ancestorUids[uid] = true;
+          str.push("{");
+          for (var x in obj) {
+            if (!opt_showFn && typeof obj[x] === "function") {
+              continue;
+            }
+            str.push("\n");
+            str.push(nestspace);
+            str.push(x + " \x3d ");
+            helper(obj[x], nestspace);
+          }
+          str.push("\n" + space + "}");
+          delete ancestorUids[uid];
+        }
+      } else {
+        str.push(obj);
       }
     } catch (e) {
       str.push("*** " + e + " ***");
@@ -277,57 +269,53 @@ goog.debug.getStacktraceHelper_ = function(fn, visited) {
   var sb = [];
   if (goog.array.contains(visited, fn)) {
     sb.push("[...circular reference...]");
-  } else {
-    if (fn && visited.length < goog.debug.MAX_STACK_DEPTH) {
-      sb.push(goog.debug.getFunctionName(fn) + "(");
-      var args = fn.arguments;
-      for (var i = 0; args && i < args.length; i++) {
-        if (i > 0) {
-          sb.push(", ");
-        }
-        var argDesc;
-        var arg = args[i];
-        switch(typeof arg) {
-          case "object":
-            argDesc = arg ? "object" : "null";
-            break;
-          case "string":
-            argDesc = arg;
-            break;
-          case "number":
-            argDesc = String(arg);
-            break;
-          case "boolean":
-            argDesc = arg ? "true" : "false";
-            break;
-          case "function":
-            argDesc = goog.debug.getFunctionName(arg);
-            argDesc = argDesc ? argDesc : "[fn]";
-            break;
-          case "undefined":
-          default:
-            argDesc = typeof arg;
-            break;
-        }
-        if (argDesc.length > 40) {
-          argDesc = argDesc.substr(0, 40) + "...";
-        }
-        sb.push(argDesc);
+  } else if (fn && visited.length < goog.debug.MAX_STACK_DEPTH) {
+    sb.push(goog.debug.getFunctionName(fn) + "(");
+    var args = fn.arguments;
+    for (var i = 0; args && i < args.length; i++) {
+      if (i > 0) {
+        sb.push(", ");
       }
-      visited.push(fn);
-      sb.push(")\n");
-      try {
-        sb.push(goog.debug.getStacktraceHelper_(fn.caller, visited));
-      } catch (e) {
-        sb.push("[exception trying to get caller]\n");
+      var argDesc;
+      var arg = args[i];
+      switch(typeof arg) {
+        case "object":
+          argDesc = arg ? "object" : "null";
+          break;
+        case "string":
+          argDesc = arg;
+          break;
+        case "number":
+          argDesc = String(arg);
+          break;
+        case "boolean":
+          argDesc = arg ? "true" : "false";
+          break;
+        case "function":
+          argDesc = goog.debug.getFunctionName(arg);
+          argDesc = argDesc ? argDesc : "[fn]";
+          break;
+        case "undefined":
+        default:
+          argDesc = typeof arg;
+          break;
       }
-    } else {
-      if (fn) {
-        sb.push("[...long stack...]");
-      } else {
-        sb.push("[end]");
+      if (argDesc.length > 40) {
+        argDesc = argDesc.substr(0, 40) + "...";
       }
+      sb.push(argDesc);
     }
+    visited.push(fn);
+    sb.push(")\n");
+    try {
+      sb.push(goog.debug.getStacktraceHelper_(fn.caller, visited));
+    } catch (e) {
+      sb.push("[exception trying to get caller]\n");
+    }
+  } else if (fn) {
+    sb.push("[...long stack...]");
+  } else {
+    sb.push("[end]");
   }
   return sb.join("");
 };
@@ -353,12 +341,10 @@ goog.debug.makeWhitespaceVisible = function(string) {
 goog.debug.runtimeType = function(value) {
   if (value instanceof Function) {
     return value.displayName || value.name || "unknown type name";
+  } else if (value instanceof Object) {
+    return value.constructor.displayName || value.constructor.name || Object.prototype.toString.call(value);
   } else {
-    if (value instanceof Object) {
-      return value.constructor.displayName || value.constructor.name || Object.prototype.toString.call(value);
-    } else {
-      return value === null ? "null" : typeof value;
-    }
+    return value === null ? "null" : typeof value;
   }
 };
 goog.debug.fnNameCache_ = {};

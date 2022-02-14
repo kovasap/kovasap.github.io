@@ -157,16 +157,12 @@ goog.dom.safe.setLinkHrefAndRel = function(link, url, rel) {
     if (nonce) {
       link.setAttribute("nonce", nonce);
     }
+  } else if (url instanceof goog.html.TrustedResourceUrl) {
+    link.href = goog.html.TrustedResourceUrl.unwrap(url);
+  } else if (url instanceof goog.html.SafeUrl) {
+    link.href = goog.html.SafeUrl.unwrap(url);
   } else {
-    if (url instanceof goog.html.TrustedResourceUrl) {
-      link.href = goog.html.TrustedResourceUrl.unwrap(url);
-    } else {
-      if (url instanceof goog.html.SafeUrl) {
-        link.href = goog.html.SafeUrl.unwrap(url);
-      } else {
-        link.href = goog.html.SafeUrl.unwrap(goog.html.SafeUrl.sanitizeAssertUnchanged(url));
-      }
-    }
+    link.href = goog.html.SafeUrl.unwrap(goog.html.SafeUrl.sanitizeAssertUnchanged(url));
   }
 };
 goog.dom.safe.setObjectData = function(object, url) {
