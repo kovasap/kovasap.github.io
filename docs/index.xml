@@ -335,7 +335,10 @@ The code can be found at github.com/kovasap/biomarker-correlator.</description>
       <description>Causes of Death #  To avoid death, it&amp;rsquo;s helpful to know what will most likely cause it.
 https://www.reddit.com/r/dataisbeautiful/comments/qs14fn/top_20_causes_of_death_by_age_group_average/?utm_medium=android_app&amp;utm_source=share
 This is an excellent visualization: https://vizhub.healthdata.org/gbd-compare/
-From the same healthdata.org source, this shows which activities lead to the highest risk of death:</description>
+From the same healthdata.org source, this shows which activities lead to the highest risk of death:
+
+
+Another lens to look at this from is using a micromort.</description>
     </item>
     
     <item>
