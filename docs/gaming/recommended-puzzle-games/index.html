@@ -3,20 +3,16 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Mixing Milk Tea #  Given a glass of tea and a glass of (almond) milk, each 9/10ths full, how many times would you need to mix the glasses for each to contain a 50% mixture of tea and milk?
-This python code:
-max_size = 10 a_volume, a_tea_fraction = 9, 1.0 b_volume, b_tea_fraction = 9, 0.0 mixes = 0 while a_tea_fraction &gt; 0.51: mixes &#43;= 1 print(mixes, a_tea_fraction, b_tea_fraction) if a_volume !">
+<meta name="description" content="Puzzle Games I Recommend #  Word Games #   Wordle Quordle, although beware of BS words. DAT Creativity, try to come up with the most different words you can! Semantle, similar to DAT Creativity, but a daily game like Wordle.  Geometrical Games #   The Witness  &ldquo;Programming&rdquo; Games #   Opus Magnum  ">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
-<meta property="og:description" content="Mixing Milk Tea #  Given a glass of tea and a glass of (almond) milk, each 9/10ths full, how many times would you need to mix the glasses for each to contain a 50% mixture of tea and milk?
-This python code:
-max_size = 10 a_volume, a_tea_fraction = 9, 1.0 b_volume, b_tea_fraction = 9, 0.0 mixes = 0 while a_tea_fraction &gt; 0.51: mixes &#43;= 1 print(mixes, a_tea_fraction, b_tea_fraction) if a_volume !" />
+<meta property="og:description" content="Puzzle Games I Recommend #  Word Games #   Wordle Quordle, although beware of BS words. DAT Creativity, try to come up with the most different words you can! Semantle, similar to DAT Creativity, but a daily game like Wordle.  Geometrical Games #   The Witness  &ldquo;Programming&rdquo; Games #   Opus Magnum  " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://kovasap.github.io/docs/thought-experiments/two-glasses/" /><meta property="article:section" content="docs" />
+<meta property="og:url" content="https://kovasap.github.io/docs/gaming/recommended-puzzle-games/" /><meta property="article:section" content="docs" />
 
 
 
-<title>Two Glasses | Things to Remember</title>
+<title>Recommended Puzzle Games | Things to Remember</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.69a4a50d7658e64b802db581ef2cf19801fb87d9e398320ff2fcc19589a55e81.css" integrity="sha256-aaSlDXZY5kuALbWB7yzxmAH7h9njmDIP8vzBlYmlXoE=" crossorigin="anonymous">
@@ -375,7 +371,7 @@ https://github.com/alex-shpak/hugo-book
         <li><a href=
         "/docs/thought-experiments/artificial-intelligence/">Artificial
         Intelligence</a>
-        <li><a href="/docs/thought-experiments/two-glasses/"class=active>Two
+        <li><a href="/docs/thought-experiments/two-glasses/">Two
         Glasses</a>
       </ul>
     </details>
@@ -449,7 +445,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Two Glasses</strong>
+  <strong>Recommended Puzzle Games</strong>
 
   <label for="toc-control">
     
@@ -465,7 +461,9 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#follow-up-questions">Follow up questions</a></li>
+    <li><a href="#word-games">Word Games</a></li>
+    <li><a href="#geometrical-games">Geometrical Games</a></li>
+    <li><a href="#programming-games">&ldquo;Programming&rdquo; Games</a></li>
   </ul>
 </nav>
 
@@ -478,63 +476,37 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h1 id="mixing-milk-tea">
-  Mixing Milk Tea
-  <a class="anchor" href="#mixing-milk-tea">#</a>
+  <article class="markdown"><h1 id="puzzle-games-i-recommend">
+  Puzzle Games I Recommend
+  <a class="anchor" href="#puzzle-games-i-recommend">#</a>
 </h1>
-<p>Given a glass of tea and a glass of (almond) milk, each 9/10ths full, how many
-times would you need to mix the glasses for each to contain a 50% mixture of tea
-and milk?</p>
-<p>This python code:</p>
-<pre tabindex="0"><code>max_size = 10
-a_volume, a_tea_fraction = 9, 1.0
-b_volume, b_tea_fraction = 9, 0.0
-mixes = 0
-while a_tea_fraction &gt; 0.51:
- mixes += 1
- print(mixes, a_tea_fraction, b_tea_fraction)
- if a_volume != max_size:
-   # Mix B into A
-   amount_transferred = max_size - a_volume
-   a_tea_fraction = (a_volume * a_tea_fraction
-                     + amount_transferred * b_tea_fraction) / max_size
-   a_volume = max_size
-   b_volume -= amount_transferred
- else:
-   # Mix A into B
-   amount_transferred = max_size - b_volume
-   b_tea_fraction = (b_volume * b_tea_fraction
-                     + amount_transferred * a_tea_fraction) / max_size
-   b_volume = max_size
-   a_volume -= amount_transferred
-</code></pre><p>says this:</p>
-<pre tabindex="0"><code>1 1.0 0.0
-2 0.9 0.0
-3 0.9 0.18
-4 0.756 0.18
-5 0.756 0.2952
-6 0.66384 0.2952
-7 0.66384 0.36892800000000003
-8 0.6048576 0.36892800000000003
-9 0.6048576 0.41611392
-10 0.5671088639999999 0.41611392
-11 0.5671088639999999 0.4463129088000001
-12 0.54294967296 0.4463129088000001
-13 0.54294967296 0.465640261632
-14 0.5274877906944 0.465640261632
-15 0.5274877906944 0.47800976744448
-16 0.517592186044416 0.47800976744448
-17 0.517592186044416 0.4859262511644672
-18 0.5112589990684262 0.4859262511644672
-19 0.5112589990684262 0.49099280074525903
-</code></pre><p>Getting to complete 50-50 would take a very long time, but getting close takes
-about 16 mixes.</p>
-<h2 id="follow-up-questions">
-  Follow up questions
-  <a class="anchor" href="#follow-up-questions">#</a>
+<h2 id="word-games">
+  Word Games
+  <a class="anchor" href="#word-games">#</a>
 </h2>
-<p>If I only wanted to mix N times, how much milk tea can I make with two glasses
-of fixed size?</p>
+<ul>
+<li><a href="https://www.nytimes.com/games/wordle/index.html">Wordle</a></li>
+<li><a href="https://www.quordle.com/#/">Quordle</a>, although beware of <a href="https://www.reddit.com/r/Quordle/comments/t27irp/unfair_word_today/">BS
+words</a>.</li>
+<li><a href="https://www.datcreativity.com/">DAT Creativity</a>, try to come up with the
+most different words you can!</li>
+<li><a href="https://semantle.novalis.org/">Semantle</a>, similar to DAT Creativity, but a
+daily game like Wordle.</li>
+</ul>
+<h2 id="geometrical-games">
+  Geometrical Games
+  <a class="anchor" href="#geometrical-games">#</a>
+</h2>
+<ul>
+<li><a href="https://store.steampowered.com/app/210970/The_Witness/">The Witness</a></li>
+</ul>
+<h2 id="programming-games">
+  &ldquo;Programming&rdquo; Games
+  <a class="anchor" href="#programming-games">#</a>
+</h2>
+<ul>
+<li><a href="https://store.steampowered.com/app/558990/Opus_Magnum/">Opus Magnum</a></li>
+</ul>
 </article>
  
       
@@ -576,7 +548,9 @@ of fixed size?</p>
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#follow-up-questions">Follow up questions</a></li>
+    <li><a href="#word-games">Word Games</a></li>
+    <li><a href="#geometrical-games">Geometrical Games</a></li>
+    <li><a href="#programming-games">&ldquo;Programming&rdquo; Games</a></li>
   </ul>
 </nav>
 
