@@ -308,6 +308,15 @@ Fire Emblem 7 &amp;amp; 8 #  I first played this game on the Game Boy Advance wh
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/health-and-longevity/aging-science/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/health-and-longevity/aging-science/</guid>
+      <description>Aging Science #  (My) Open Questions #  Do cell lines age? Can they be used to study aging?</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/health-and-longevity/avoiding-accidents/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -757,6 +766,16 @@ Ability to Learn #  Tests judging intelligence, or general mental ability, are u
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/mind/education/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/mind/education/</guid>
+      <description>Thoughts on Education #  Extended Education Concept #  In high school and college I often felt extremely mentally busy. I was usually in 5+ hours a day of classes teaching radically different things. Synthesizing and remembering everything I was taught was difficult, and I fear that many of those hours were wasted simply because I didn&amp;rsquo;t have the mental bandwidth to get all the information to stick.
+Post-college, I feel like I have much more mental bandwidth for learning.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/mind/how-to-do-hard-tasks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -899,6 +918,16 @@ The library/tooling ecosystem around the language. Some very non-ergonomic langu
       <guid>https://kovasap.github.io/docs/software-dev/patterned-code/</guid>
       <description>Patterned Code #  I wonder if code with lots of visual patterns would be judged as more readable than other code. For instance:
 result = CodeGenerator(var) res = WordGenerator(var34) The above code may not have meaningful patterns, but is visually patterned.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/thought-experiments/artificial-intelligence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/thought-experiments/artificial-intelligence/</guid>
+      <description>Artificial Intelligence #  Reading Chapter 7 (Artificial Creativity) of &amp;ldquo;The Beginning of Infinity&amp;rdquo; by David Deutsch gave me some ideas for things to try out WRT creating some kind of artificial intelligence.
+Modelling the Intelligence #  The AI could be composed of &amp;ldquo;neurons&amp;rdquo; in a graph data structure. Each neuron would have multiple other neurons connected to it&amp;rsquo;s &amp;ldquo;input&amp;rdquo; side, and connect to one other neuron as it&amp;rsquo;s &amp;ldquo;output&amp;rdquo;.</description>
     </item>
     
     <item>

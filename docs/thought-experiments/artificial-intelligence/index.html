@@ -3,16 +3,18 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Brain Juice #  I&rsquo;m not sure exactly how, but I feel that my brain behaves similarly to my muscles in that it can tire on both short and long timescales when used. My mind feels tired after making lots of new connections (learning new things) and especially when critically re-validating my existing connections. It also feels tired when doing the same thing many times, even if that thing is a simple expression of a deeply ingrained skill.">
+<meta name="description" content="Artificial Intelligence #  Reading Chapter 7 (Artificial Creativity) of &ldquo;The Beginning of Infinity&rdquo; by David Deutsch gave me some ideas for things to try out WRT creating some kind of artificial intelligence.
+Modelling the Intelligence #  The AI could be composed of &ldquo;neurons&rdquo; in a graph data structure. Each neuron would have multiple other neurons connected to it&rsquo;s &ldquo;input&rdquo; side, and connect to one other neuron as it&rsquo;s &ldquo;output&rdquo;.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
-<meta property="og:description" content="Brain Juice #  I&rsquo;m not sure exactly how, but I feel that my brain behaves similarly to my muscles in that it can tire on both short and long timescales when used. My mind feels tired after making lots of new connections (learning new things) and especially when critically re-validating my existing connections. It also feels tired when doing the same thing many times, even if that thing is a simple expression of a deeply ingrained skill." />
+<meta property="og:description" content="Artificial Intelligence #  Reading Chapter 7 (Artificial Creativity) of &ldquo;The Beginning of Infinity&rdquo; by David Deutsch gave me some ideas for things to try out WRT creating some kind of artificial intelligence.
+Modelling the Intelligence #  The AI could be composed of &ldquo;neurons&rdquo; in a graph data structure. Each neuron would have multiple other neurons connected to it&rsquo;s &ldquo;input&rdquo; side, and connect to one other neuron as it&rsquo;s &ldquo;output&rdquo;." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://kovasap.github.io/docs/mind/brain-juice/" /><meta property="article:section" content="docs" />
+<meta property="og:url" content="https://kovasap.github.io/docs/thought-experiments/artificial-intelligence/" /><meta property="article:section" content="docs" />
 
 
 
-<title>Brain Juice | Things to Remember</title>
+<title>Artificial Intelligence | Things to Remember</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.69a4a50d7658e64b802db581ef2cf19801fb87d9e398320ff2fcc19589a55e81.css" integrity="sha256-aaSlDXZY5kuALbWB7yzxmAH7h9njmDIP8vzBlYmlXoE=" crossorigin="anonymous">
@@ -306,7 +308,7 @@ https://github.com/alex-shpak/hugo-book
         <li><a href=
         "/docs/mind/absorbing-and-professing/">Absorbing And
         Professing</a>
-        <li><a href="/docs/mind/brain-juice/"class=active>Brain Juice</a>
+        <li><a href="/docs/mind/brain-juice/">Brain Juice</a>
         <li><a href="/docs/mind/contentment/">Contentment</a>
         <li><a href="/docs/mind/creativity/">Creativity</a>
         <li><a href="/docs/mind/desires-and-deprivation/">Desires
@@ -442,7 +444,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Brain Juice</strong>
+  <strong>Artificial Intelligence</strong>
 
   <label for="toc-control">
     
@@ -456,7 +458,14 @@ https://github.com/alex-shpak/hugo-book
   <aside class="hidden clearfix">
     
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#modelling-the-intelligence">Modelling the Intelligence</a></li>
+    <li><a href="#evolution">Evolution</a></li>
+    <li><a href="#inputoutput">Input/Output</a></li>
+    <li><a href="#starting-points">Starting Points</a></li>
+  </ul>
+</nav>
 
 
 
@@ -467,16 +476,51 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h1 id="brain-juice">
-  Brain Juice
-  <a class="anchor" href="#brain-juice">#</a>
+  <article class="markdown"><h1 id="artificial-intelligence">
+  Artificial Intelligence
+  <a class="anchor" href="#artificial-intelligence">#</a>
 </h1>
-<p>I&rsquo;m not sure exactly how, but I feel that my brain behaves similarly to my
-muscles in that it can tire on both short and long timescales when used.  My
-mind feels tired after making lots of new connections (learning new things) and
-especially when critically re-validating my existing connections. It also feels
-tired when doing the same thing many times, even if that thing is a simple
-expression of a deeply ingrained skill.</p>
+<p>Reading Chapter 7 (Artificial Creativity) of &ldquo;The Beginning of Infinity&rdquo; by
+David Deutsch gave me some ideas for things to try out WRT creating some kind
+of artificial intelligence.</p>
+<h2 id="modelling-the-intelligence">
+  Modelling the Intelligence
+  <a class="anchor" href="#modelling-the-intelligence">#</a>
+</h2>
+<p>The AI could be composed of &ldquo;neurons&rdquo; in a graph data structure.  Each neuron
+would have multiple other neurons connected to it&rsquo;s &ldquo;input&rdquo; side, and connect
+to one other neuron as it&rsquo;s &ldquo;output&rdquo;.  It would carry a single &ldquo;fire/no fire&rdquo;
+signal during every tick of time.  The signal would be &ldquo;fire&rdquo; if during the
+last tick more than half (or some percent) of the input signals were &ldquo;fire&rdquo;,
+otherwise it would be &ldquo;no fire&rdquo;.</p>
+<p>Neurons would be grouped arbitrarily into sub-networks with relatively few
+inputs/outputs compared to the interconnections within them.</p>
+<h2 id="evolution">
+  Evolution
+  <a class="anchor" href="#evolution">#</a>
+</h2>
+<p>The model would evolve using a random application of the following changes:</p>
+<ol>
+<li>A random neuron would move its output side to another random neuron, with a
+preference to move its output to neurons &ldquo;close&rdquo; to it, as judge by distance
+in the graph.</li>
+<li>A random neuron would be replaced by a copy of another neuron group with the
+same number of inputs and a single random output.  This is simulating
+&ldquo;creativity&rdquo;, or the combining of disparate ideas.</li>
+</ol>
+<p>Evolution can happen to a network during it&rsquo;s normal running.</p>
+<h2 id="inputoutput">
+  Input/Output
+  <a class="anchor" href="#inputoutput">#</a>
+</h2>
+<p>The entire network would have a very simple output (perhaps even just one
+binary signal), and few/no inputs.</p>
+<h2 id="starting-points">
+  Starting Points
+  <a class="anchor" href="#starting-points">#</a>
+</h2>
+<p>I think the nervous system of C. elegans has been completely mapped, so maybe
+copying that would be a good place to start?</p>
 </article>
  
       
@@ -516,7 +560,14 @@ expression of a deeply ingrained skill.</p>
       <div class="book-toc-content">
         
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#modelling-the-intelligence">Modelling the Intelligence</a></li>
+    <li><a href="#evolution">Evolution</a></li>
+    <li><a href="#inputoutput">Input/Output</a></li>
+    <li><a href="#starting-points">Starting Points</a></li>
+  </ul>
+</nav>
 
 
  
