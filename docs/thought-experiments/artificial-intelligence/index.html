@@ -19,7 +19,7 @@ Modelling the Intelligence #  The AI could be composed of &ldquo;neurons&rdquo; 
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.69a4a50d7658e64b802db581ef2cf19801fb87d9e398320ff2fcc19589a55e81.css" integrity="sha256-aaSlDXZY5kuALbWB7yzxmAH7h9njmDIP8vzBlYmlXoE=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.698cbf3f00efc948f66a0bb296d47eb8cdceb635d667c8804f6f5f8c0923486b.js" integrity="sha256-aYy/PwDvyUj2aguyltR&#43;uM3OtjXWZ8iAT29fjAkjSGs=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.c2bbe4808169ebb9497d26ff88ef28ecd503bce00787f59a362e4632897b7f77.js" integrity="sha256-wrvkgIFp67lJfSb/iO8o7NUDvOAHh/WaNi5GMol7f3c=" crossorigin="anonymous"></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -464,6 +464,7 @@ https://github.com/alex-shpak/hugo-book
     <li><a href="#evolution">Evolution</a></li>
     <li><a href="#inputoutput">Input/Output</a></li>
     <li><a href="#starting-points">Starting Points</a></li>
+    <li><a href="#objectives">Objectives</a></li>
   </ul>
 </nav>
 
@@ -502,13 +503,21 @@ inputs/outputs compared to the interconnections within them.</p>
 <p>The model would evolve using a random application of the following changes:</p>
 <ol>
 <li>A random neuron would move its output side to another random neuron, with a
-preference to move its output to neurons &ldquo;close&rdquo; to it, as judge by distance
-in the graph.</li>
+preference to move its output to neurons &ldquo;close&rdquo; to it, as judged by
+distance in the graph.</li>
 <li>A random neuron would be replaced by a copy of another neuron group with the
 same number of inputs and a single random output.  This is simulating
-&ldquo;creativity&rdquo;, or the combining of disparate ideas.</li>
+&ldquo;creativity&rdquo;, or the combining of disparate ideas.  Another way to do this
+would be to connect a single neuron&rsquo;s output to the input of another group,
+although this may lead to situations where that new group becomes
+ineffective due to overloading of random inputs.</li>
 </ol>
-<p>Evolution can happen to a network during it&rsquo;s normal running.</p>
+<p>Evolution can happen to a network during its normal running (it can learn on
+the fly).</p>
+<p>It might be interesting to think more about the difference between &ldquo;learning&rdquo;
+and &ldquo;evolution&rdquo; - perhaps at a certain point only &ldquo;learning&rdquo; will be allowed,
+and not &ldquo;evolution&rdquo;.  To start out with it probably makes sense to not
+demarcate these.</p>
 <h2 id="inputoutput">
   Input/Output
   <a class="anchor" href="#inputoutput">#</a>
@@ -519,8 +528,14 @@ binary signal), and few/no inputs.</p>
   Starting Points
   <a class="anchor" href="#starting-points">#</a>
 </h2>
-<p>I think the nervous system of C. elegans has been completely mapped, so maybe
+<p>I think the nervous system of <em>C. elegans</em> has been completely mapped, so maybe
 copying that would be a good place to start?</p>
+<h2 id="objectives">
+  Objectives
+  <a class="anchor" href="#objectives">#</a>
+</h2>
+<p>I don&rsquo;t really know what to do here (how to bias the network to evolve in a
+specific direction, or how to reward it for making &ldquo;good&rdquo; changes).</p>
 </article>
  
       
@@ -566,6 +581,7 @@ copying that would be a good place to start?</p>
     <li><a href="#evolution">Evolution</a></li>
     <li><a href="#inputoutput">Input/Output</a></li>
     <li><a href="#starting-points">Starting Points</a></li>
+    <li><a href="#objectives">Objectives</a></li>
   </ul>
 </nav>
 
