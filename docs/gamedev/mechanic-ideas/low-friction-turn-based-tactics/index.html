@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Minimizing UI Friction in Turn Based Tactics Games #  Games like XCOM, Fire Emblem, Warhammer 40k Mechanicus, Gloomhaven Digital etc. sometimes have a problem with requiring many clicks/actions from the player to execute actions. To minimize this, you could have the player&rsquo;s options for what a character should do on a tile appear as a button on that tile. For multiple actions these buttons could be arranged in a grid.">
+<meta name="description" content="Minimizing UI Friction in Turn Based Tactics Games #  One-click actions #  Games like XCOM, Fire Emblem, Warhammer 40k Mechanicus, Gloomhaven Digital etc. sometimes have a problem with requiring many clicks/actions from the player to execute actions. To minimize this, you could have the player&rsquo;s options for what a character should do on a tile appear as a button on that tile. For multiple actions these buttons could be arranged in a grid.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
-<meta property="og:description" content="Minimizing UI Friction in Turn Based Tactics Games #  Games like XCOM, Fire Emblem, Warhammer 40k Mechanicus, Gloomhaven Digital etc. sometimes have a problem with requiring many clicks/actions from the player to execute actions. To minimize this, you could have the player&rsquo;s options for what a character should do on a tile appear as a button on that tile. For multiple actions these buttons could be arranged in a grid." />
+<meta property="og:description" content="Minimizing UI Friction in Turn Based Tactics Games #  One-click actions #  Games like XCOM, Fire Emblem, Warhammer 40k Mechanicus, Gloomhaven Digital etc. sometimes have a problem with requiring many clicks/actions from the player to execute actions. To minimize this, you could have the player&rsquo;s options for what a character should do on a tile appear as a button on that tile. For multiple actions these buttons could be arranged in a grid." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://kovasap.github.io/docs/gamedev/mechanic-ideas/low-friction-turn-based-tactics/" /><meta property="article:section" content="docs" />
 
@@ -17,7 +17,7 @@
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.69a4a50d7658e64b802db581ef2cf19801fb87d9e398320ff2fcc19589a55e81.css" integrity="sha256-aaSlDXZY5kuALbWB7yzxmAH7h9njmDIP8vzBlYmlXoE=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.9d89e0d7dff9b5eb119355c0ca8d689b3800a1f2512e3b892acdcb15c1afcf33.js" integrity="sha256-nYng19/5tesRk1XAyo1omzgAofJRLjuJKs3LFcGvzzM=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.f28c7348f61561a72b49c4c47038bced88382e0b5b88f7152dec8446821ce5ba.js" integrity="sha256-8oxzSPYVYacrScTEcDi87Yg4LgtbiPcVLeyERoIc5bo=" crossorigin="anonymous"></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -169,6 +169,9 @@ https://github.com/alex-shpak/hugo-book
         Included</a>
         <li><a href=
         "/docs/gaming/recommended-puzzle-games/">Recommended Puzzle
+        Games</a>
+        <li><a href=
+        "/docs/gaming/recommended-social-games/">Recommended Social
         Games</a>
         <li><a href="/docs/gaming/top-10-all-time/">Top 10 All
         Time</a>
@@ -459,7 +462,16 @@ https://github.com/alex-shpak/hugo-book
   <aside class="hidden clearfix">
     
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#one-click-actions">One-click actions</a></li>
+    <li><a href="#show-ability-effect-on-hover">Show Ability Effect On Hover</a>
+      <ul>
+        <li><a href="#enemy-abilities">Enemy abilities</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
 
 
 
@@ -474,6 +486,10 @@ https://github.com/alex-shpak/hugo-book
   Minimizing UI Friction in Turn Based Tactics Games
   <a class="anchor" href="#minimizing-ui-friction-in-turn-based-tactics-games">#</a>
 </h1>
+<h2 id="one-click-actions">
+  One-click actions
+  <a class="anchor" href="#one-click-actions">#</a>
+</h2>
 <p>Games like XCOM, Fire Emblem, Warhammer 40k Mechanicus, Gloomhaven Digital etc.
 sometimes have a problem with requiring many clicks/actions from the player to
 execute actions.  To minimize this, you could have the player&rsquo;s options for
@@ -486,6 +502,41 @@ action.</p>
 <p>When hovering an enemy, buttons would appear for each type of attack the
 character could do.  For out of range enemies, a shadow movement could appear
 when hovering to make the attack possible with just one click!</p>
+<h2 id="show-ability-effect-on-hover">
+  Show Ability Effect On Hover
+  <a class="anchor" href="#show-ability-effect-on-hover">#</a>
+</h2>
+<p>Another common annoyance I run into in turn based games is how many individual
+checks I sometimes have to do when making a decision for a character&rsquo;s action.
+For instance, if I want to find out which enemy I want to attack, I usually need
+to go through each possible enemy in range, start the attack process, review the
+damage/probability/other effect preview window, then remember that information so that I
+can compare it to every other possible action I have.  This is sometimes really
+trivial (when there is a single enemy, for instance), but sometimes really involved
+to the point where I need to start double checking the preview windows as I forget
+what they contained.</p>
+<p>One way to solve this is to show a small pop-up preview window on top of every
+possible target when hovering over a skill/attack/spell. This mock-up shows a simple
+example of a healing spell with only the amount healed shown.  In practice, you would
+also want to show probability to hit, any effects the spell applies (e.g. poison), etc.</p>
+<p><img src="/docs/gamedev/mechanic-ideas/hoverable-outcomes-healing.png" alt="Hoverable outcomes" /></p>
+<p>This example is overly simple and doesn&rsquo;t fully show the usefulness of this feature. In
+a real game, the diversity of outcomes would be much greater most of the time.</p>
+<h3 id="enemy-abilities">
+  Enemy abilities
+  <a class="anchor" href="#enemy-abilities">#</a>
+</h3>
+<p>One extension of this feature is to make it so that when hovering over an enemy the same
+pop-up preview window would appear on all the squares it can target (even with moving).
+The window would contain that enemy&rsquo;s current intent given the state of the game, which
+would change as you moved your characters around.  This would make it easier to see what
+enemies are capable of, and would make it less likely that the player would get blindsided
+by something they didn&rsquo;t think was possible, which is a bad experience especially if it leads
+to the player reloading the encounter.</p>
+<p>Admittedly, this might be pretty hard to implement completely depending on the game&rsquo;s rules.
+Even if this isn&rsquo;t implemented, games that are wholly lacking any way to see what enemies can
+do (what effects their attacks will have on your characters) besides doing all the math yourself
+I find very tedious (see the turn-based modes for Pathfinder: Kingmaker and Pillars of Eternity 2).</p>
 </article>
  
       
@@ -525,7 +576,16 @@ when hovering to make the attack possible with just one click!</p>
       <div class="book-toc-content">
         
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#one-click-actions">One-click actions</a></li>
+    <li><a href="#show-ability-effect-on-hover">Show Ability Effect On Hover</a>
+      <ul>
+        <li><a href="#enemy-abilities">Enemy abilities</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
 
 
  
