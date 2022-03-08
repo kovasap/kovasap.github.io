@@ -44,8 +44,10 @@ goog.math.angleDifference = function(startAngle, endAngle) {
   var d = goog.math.standardAngle(endAngle) - goog.math.standardAngle(startAngle);
   if (d > 180) {
     d = d - 360;
-  } else if (d <= -180) {
-    d = 360 + d;
+  } else {
+    if (d <= -180) {
+      d = 360 + d;
+    }
   }
   return d;
 };

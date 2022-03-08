@@ -28,9 +28,11 @@ goog.asserts.doAssertFailure_ = function(defaultMessage, defaultArgs, givenMessa
   if (givenMessage) {
     message += ": " + givenMessage;
     var args = givenArgs;
-  } else if (defaultMessage) {
-    message += ": " + defaultMessage;
-    args = defaultArgs;
+  } else {
+    if (defaultMessage) {
+      message += ": " + defaultMessage;
+      args = defaultArgs;
+    }
   }
   var e = new goog.asserts.AssertionError("" + message, args || []);
   goog.asserts.errorHandler_(e);
@@ -114,10 +116,12 @@ goog.asserts.assertFinite = function(value, opt_message, var_args) {
 goog.asserts.getType_ = function(value) {
   if (value instanceof Function) {
     return value.displayName || value.name || "unknown type name";
-  } else if (value instanceof Object) {
-    return value.constructor.displayName || value.constructor.name || Object.prototype.toString.call(value);
   } else {
-    return value === null ? "null" : typeof value;
+    if (value instanceof Object) {
+      return value.constructor.displayName || value.constructor.name || Object.prototype.toString.call(value);
+    } else {
+      return value === null ? "null" : typeof value;
+    }
   }
 };
 

@@ -110,8 +110,10 @@ goog.scope(function() {
     const options = {calendar:"gregory"};
     if (isUtc) {
       options.timeZone = "UTC";
-    } else if (opt_timeZone) {
-      options.timeZone = opt_timeZone.getTimeZoneId();
+    } else {
+      if (opt_timeZone) {
+        options.timeZone = opt_timeZone.getTimeZoneId();
+      }
     }
     switch(formatType) {
       case goog.i18n.DateTimeFormat.Format.FULL_DATE:
@@ -177,15 +179,19 @@ goog.scope(function() {
     let pattern;
     if (formatType < 4) {
       pattern = this.dateTimeSymbols_.DATEFORMATS[formatType];
-    } else if (formatType < 8) {
-      pattern = this.dateTimeSymbols_.TIMEFORMATS[formatType - 4];
-    } else if (formatType < 12) {
-      pattern = this.dateTimeSymbols_.DATETIMEFORMATS[formatType - 8];
-      pattern = pattern.replace("{1}", this.dateTimeSymbols_.DATEFORMATS[formatType - 8]);
-      pattern = pattern.replace("{0}", this.dateTimeSymbols_.TIMEFORMATS[formatType - 8]);
     } else {
-      this.applyStandardPattern_(goog.i18n.DateTimeFormat.Format.MEDIUM_DATETIME);
-      return;
+      if (formatType < 8) {
+        pattern = this.dateTimeSymbols_.TIMEFORMATS[formatType - 4];
+      } else {
+        if (formatType < 12) {
+          pattern = this.dateTimeSymbols_.DATETIMEFORMATS[formatType - 8];
+          pattern = pattern.replace("{1}", this.dateTimeSymbols_.DATEFORMATS[formatType - 8]);
+          pattern = pattern.replace("{0}", this.dateTimeSymbols_.TIMEFORMATS[formatType - 8]);
+        } else {
+          this.applyStandardPattern_(goog.i18n.DateTimeFormat.Format.MEDIUM_DATETIME);
+          return;
+        }
+      }
     }
     this.applyPattern_(pattern);
   };

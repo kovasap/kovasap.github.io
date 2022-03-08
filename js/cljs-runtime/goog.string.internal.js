@@ -28,10 +28,12 @@ goog.string.internal.caseInsensitiveCompare = function(str1, str2) {
   const test2 = String(str2).toLowerCase();
   if (test1 < test2) {
     return -1;
-  } else if (test1 == test2) {
-    return 0;
   } else {
-    return 1;
+    if (test1 == test2) {
+      return 0;
+    } else {
+      return 1;
+    }
   }
 };
 goog.string.internal.newLineToBr = function(str, opt_xml) {
@@ -108,8 +110,10 @@ goog.string.internal.compareVersions = function(version1, version2) {
 goog.string.internal.compareElements_ = function(left, right) {
   if (left < right) {
     return -1;
-  } else if (left > right) {
-    return 1;
+  } else {
+    if (left > right) {
+      return 1;
+    }
   }
   return 0;
 };

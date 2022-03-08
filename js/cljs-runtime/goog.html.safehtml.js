@@ -186,8 +186,10 @@ goog.loadModule(function(exports) {
           const htmlDir = html.getDirection();
           if (dir == Dir.NEUTRAL) {
             dir = htmlDir;
-          } else if (htmlDir != Dir.NEUTRAL && dir != htmlDir) {
-            dir = null;
+          } else {
+            if (htmlDir != Dir.NEUTRAL && dir != htmlDir) {
+              dir = null;
+            }
           }
         }
       };
@@ -213,8 +215,10 @@ goog.loadModule(function(exports) {
       result += SafeHtml.stringifyAttributes(tagName, attributes);
       if (content == null) {
         content = [];
-      } else if (!Array.isArray(content)) {
-        content = [content];
+      } else {
+        if (!Array.isArray(content)) {
+          content = [content];
+        }
       }
       if (tags.isVoidTag(tagName.toLowerCase())) {
         asserts.assert(!content.length, `Void tag <${tagName}> does not allow content.`);
@@ -294,23 +298,33 @@ goog.loadModule(function(exports) {
   function getAttrNameAndValue(tagName, name, value) {
     if (value instanceof Const) {
       value = Const.unwrap(value);
-    } else if (name.toLowerCase() == "style") {
-      if (SafeHtml.SUPPORT_STYLE_ATTRIBUTE) {
-        value = getStyleValue(value);
+    } else {
+      if (name.toLowerCase() == "style") {
+        if (SafeHtml.SUPPORT_STYLE_ATTRIBUTE) {
+          value = getStyleValue(value);
+        } else {
+          throw new Error(SafeHtml.ENABLE_ERROR_MESSAGES ? 'Attribute "style" not supported.' : "");
+        }
       } else {
-        throw new Error(SafeHtml.ENABLE_ERROR_MESSAGES ? 'Attribute "style" not supported.' : "");
-      }
-    } else if (/^on/i.test(name)) {
-      throw new Error(SafeHtml.ENABLE_ERROR_MESSAGES ? `Attribute "${name}` + '" requires goog.string.Const value, "' + value + '" given.' : "");
-    } else if (name.toLowerCase() in URL_ATTRIBUTES) {
-      if (value instanceof TrustedResourceUrl) {
-        value = TrustedResourceUrl.unwrap(value);
-      } else if (value instanceof SafeUrl) {
-        value = SafeUrl.unwrap(value);
-      } else if (typeof value === "string") {
-        value = SafeUrl.sanitize(value).getTypedStringValue();
-      } else {
-        throw new Error(SafeHtml.ENABLE_ERROR_MESSAGES ? `Attribute "${name}" on tag "${tagName}` + '" requires goog.html.SafeUrl, goog.string.Const, or' + ' string, value "' + value + '" given.' : "");
+        if (/^on/i.test(name)) {
+          throw new Error(SafeHtml.ENABLE_ERROR_MESSAGES ? `Attribute "${name}` + '" requires goog.string.Const value, "' + value + '" given.' : "");
+        } else {
+          if (name.toLowerCase() in URL_ATTRIBUTES) {
+            if (value instanceof TrustedResourceUrl) {
+              value = TrustedResourceUrl.unwrap(value);
+            } else {
+              if (value instanceof SafeUrl) {
+                value = SafeUrl.unwrap(value);
+              } else {
+                if (typeof value === "string") {
+                  value = SafeUrl.sanitize(value).getTypedStringValue();
+                } else {
+                  throw new Error(SafeHtml.ENABLE_ERROR_MESSAGES ? `Attribute "${name}" on tag "${tagName}` + '" requires goog.html.SafeUrl, goog.string.Const, or' + ' string, value "' + value + '" given.' : "");
+                }
+              }
+            }
+          }
+        }
       }
     }
     if (value.implementsGoogStringTypedString) {

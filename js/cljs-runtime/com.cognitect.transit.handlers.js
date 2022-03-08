@@ -9,27 +9,37 @@ goog.scope(function() {
   handlers.typeTag = function(ctor) {
     if (ctor == null) {
       return "null";
-    } else if (ctor === String) {
-      return "string";
-    } else if (ctor === Boolean) {
-      return "boolean";
-    } else if (ctor === Number) {
-      return "number";
-    } else if (ctor === Array) {
-      return "array";
-    } else if (ctor === Object) {
-      return "map";
     } else {
-      var tag = ctor[handlers.ctorGuidProperty];
-      if (tag == null) {
-        if (typeof Object.defineProperty != "undefined") {
-          tag = ++handlers.ctorGuid;
-          Object.defineProperty(ctor, handlers.ctorGuidProperty, {value:tag, enumerable:false});
+      if (ctor === String) {
+        return "string";
+      } else {
+        if (ctor === Boolean) {
+          return "boolean";
         } else {
-          ctor[handlers.ctorGuidProperty] = tag = ++handlers.ctorGuid;
+          if (ctor === Number) {
+            return "number";
+          } else {
+            if (ctor === Array) {
+              return "array";
+            } else {
+              if (ctor === Object) {
+                return "map";
+              } else {
+                var tag = ctor[handlers.ctorGuidProperty];
+                if (tag == null) {
+                  if (typeof Object.defineProperty != "undefined") {
+                    tag = ++handlers.ctorGuid;
+                    Object.defineProperty(ctor, handlers.ctorGuidProperty, {value:tag, enumerable:false});
+                  } else {
+                    ctor[handlers.ctorGuidProperty] = tag = ++handlers.ctorGuid;
+                  }
+                }
+                return tag;
+              }
+            }
+          }
         }
       }
-      return tag;
     }
   };
   handlers.constructor = function(x) {

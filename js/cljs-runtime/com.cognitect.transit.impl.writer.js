@@ -91,14 +91,20 @@ goog.scope(function() {
   writer.JSONMarshaller.prototype.emitInteger = function(i, asMapKey, cache) {
     if (i === Infinity) {
       return this.emitString(d.ESC, "z", "INF", asMapKey, cache);
-    } else if (i === -Infinity) {
-      return this.emitString(d.ESC, "z", "-INF", asMapKey, cache);
-    } else if (isNaN(i)) {
-      return this.emitString(d.ESC, "z", "NaN", asMapKey, cache);
-    } else if (asMapKey || typeof i === "string" || i instanceof Long) {
-      return this.emitString(d.ESC, "i", i.toString(), asMapKey, cache);
     } else {
-      return i;
+      if (i === -Infinity) {
+        return this.emitString(d.ESC, "z", "-INF", asMapKey, cache);
+      } else {
+        if (isNaN(i)) {
+          return this.emitString(d.ESC, "z", "NaN", asMapKey, cache);
+        } else {
+          if (asMapKey || typeof i === "string" || i instanceof Long) {
+            return this.emitString(d.ESC, "i", i.toString(), asMapKey, cache);
+          } else {
+            return i;
+          }
+        }
+      }
     }
   };
   writer.JSONMarshaller.prototype.emitDouble = function(d, asMapKey, cache) {
@@ -154,18 +160,20 @@ goog.scope(function() {
         }
       }
       return stringableKeys;
-    } else if (obj.keys) {
-      var iter = obj.keys(), step = null;
-      if (iter.next) {
-        step = iter.next();
-        while (!step.done) {
-          stringableKeys = writer.isStringableKey(em, step.value);
-          if (!stringableKeys) {
-            break;
-          }
+    } else {
+      if (obj.keys) {
+        var iter = obj.keys(), step = null;
+        if (iter.next) {
           step = iter.next();
+          while (!step.done) {
+            stringableKeys = writer.isStringableKey(em, step.value);
+            if (!stringableKeys) {
+              break;
+            }
+            step = iter.next();
+          }
+          return stringableKeys;
         }
-        return stringableKeys;
       }
     }
     if (obj.forEach) {
@@ -274,16 +282,18 @@ goog.scope(function() {
           return ret;
         }
       }
-    } else if (em.objectBuilder != null) {
-      return em.objectBuilder(obj, function(k) {
-        return writer.marshal(em, k, true, cache);
-      }, function(v) {
-        return writer.marshal(em, v, false, cache);
-      });
     } else {
-      var name = handlers.constructor(obj).name, err = new Error("Cannot write " + name);
-      err.data = {obj:obj, type:name};
-      throw err;
+      if (em.objectBuilder != null) {
+        return em.objectBuilder(obj, function(k) {
+          return writer.marshal(em, k, true, cache);
+        }, function(v) {
+          return writer.marshal(em, v, false, cache);
+        });
+      } else {
+        var name = handlers.constructor(obj).name, err = new Error("Cannot write " + name);
+        err.data = {obj:obj, type:name};
+        throw err;
+      }
     }
   };
   writer.emitTaggedMap = function(em, tag, rep, skip, cache) {
@@ -299,23 +309,25 @@ goog.scope(function() {
     if (tag.length === 1) {
       if (typeof rep === "string") {
         return em.emitString(d.ESC, tag, rep, asMapKey, cache);
-      } else if (asMapKey || em.preferStrings) {
-        var vh = em.verbose && h.getVerboseHandler();
-        if (vh) {
-          tag = vh.tag(obj);
-          rep = vh.stringRep(obj, vh);
-        } else {
-          rep = h.stringRep(obj, h);
-        }
-        if (rep !== null) {
-          return em.emitString(d.ESC, tag, rep, asMapKey, cache);
-        } else {
-          var err = new Error('Tag "' + tag + '" cannot be encoded as string');
-          err.data = {tag:tag, rep:rep, obj:obj};
-          throw err;
-        }
       } else {
-        return writer.emitTaggedMap(em, tag, rep, asMapKey, cache);
+        if (asMapKey || em.preferStrings) {
+          var vh = em.verbose && h.getVerboseHandler();
+          if (vh) {
+            tag = vh.tag(obj);
+            rep = vh.stringRep(obj, vh);
+          } else {
+            rep = h.stringRep(obj, h);
+          }
+          if (rep !== null) {
+            return em.emitString(d.ESC, tag, rep, asMapKey, cache);
+          } else {
+            var err = new Error('Tag "' + tag + '" cannot be encoded as string');
+            err.data = {tag:tag, rep:rep, obj:obj};
+            throw err;
+          }
+        } else {
+          return writer.emitTaggedMap(em, tag, rep, asMapKey, cache);
+        }
       }
     } else {
       return writer.emitTaggedMap(em, tag, rep, asMapKey, cache);

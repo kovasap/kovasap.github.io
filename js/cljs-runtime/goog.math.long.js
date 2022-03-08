@@ -283,10 +283,12 @@ goog.loadModule(function(exports) {
         if (numBits < 32) {
           var low = this.low_;
           return Long.fromBits(low >>> numBits | high << 32 - numBits, high >>> numBits);
-        } else if (numBits == 32) {
-          return Long.fromBits(high, 0);
         } else {
-          return Long.fromBits(high >>> numBits - 32, 0);
+          if (numBits == 32) {
+            return Long.fromBits(high, 0);
+          } else {
+            return Long.fromBits(high >>> numBits - 32, 0);
+          }
         }
       }
     }
@@ -305,13 +307,15 @@ goog.loadModule(function(exports) {
           return Long.getMaxValue();
         }
         return new Long(value, value / TWO_PWR_32_DBL_);
-      } else if (value < 0) {
-        if (value <= -TWO_PWR_63_DBL_) {
-          return Long.getMinValue();
-        }
-        return (new Long(-value, -value / TWO_PWR_32_DBL_)).negate();
       } else {
-        return Long.getZero();
+        if (value < 0) {
+          if (value <= -TWO_PWR_63_DBL_) {
+            return Long.getMinValue();
+          }
+          return (new Long(-value, -value / TWO_PWR_32_DBL_)).negate();
+        } else {
+          return Long.getZero();
+        }
       }
     }
     static fromBits(lowBits, highBits) {
@@ -358,10 +362,12 @@ goog.loadModule(function(exports) {
       var extremeValue = str.charAt(0) == "-" ? MIN_VALUE_FOR_RADIX_[radix] : MAX_VALUE_FOR_RADIX_[radix];
       if (str.length < extremeValue.length) {
         return true;
-      } else if (str.length == extremeValue.length && str <= extremeValue) {
-        return true;
       } else {
-        return false;
+        if (str.length == extremeValue.length && str <= extremeValue) {
+          return true;
+        } else {
+          return false;
+        }
       }
     }
     static getZero() {

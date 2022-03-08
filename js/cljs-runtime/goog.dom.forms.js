@@ -163,16 +163,18 @@ goog.dom.forms.getValueByName = function(form, name) {
   var els = form.elements[name];
   if (!els) {
     return null;
-  } else if (els.type) {
-    return goog.dom.forms.getValue(els);
   } else {
-    for (var i = 0; i < els.length; i++) {
-      var val = goog.dom.forms.getValue(els[i]);
-      if (val) {
-        return val;
+    if (els.type) {
+      return goog.dom.forms.getValue(els);
+    } else {
+      for (var i = 0; i < els.length; i++) {
+        var val = goog.dom.forms.getValue(els[i]);
+        if (val) {
+          return val;
+        }
       }
+      return null;
     }
-    return null;
   }
 };
 goog.dom.forms.getInputChecked_ = function(el) {

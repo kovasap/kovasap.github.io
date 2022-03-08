@@ -107,12 +107,14 @@ goog.events.EventTarget.dispatchEventInternal_ = function(target, e, opt_ancesto
   var type = e.type || e;
   if (typeof e === "string") {
     e = new goog.events.Event(e, target);
-  } else if (!(e instanceof goog.events.Event)) {
-    var oldEvent = e;
-    e = new goog.events.Event(type, target);
-    goog.object.extend(e, oldEvent);
   } else {
-    e.target = e.target || target;
+    if (!(e instanceof goog.events.Event)) {
+      var oldEvent = e;
+      e = new goog.events.Event(type, target);
+      goog.object.extend(e, oldEvent);
+    } else {
+      e.target = e.target || target;
+    }
   }
   var rv = true, currentTarget;
   if (opt_ancestorsTree) {

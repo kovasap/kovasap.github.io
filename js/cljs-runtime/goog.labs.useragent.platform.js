@@ -48,26 +48,36 @@ goog.loadModule(function(exports) {
       } else {
         version = "0.0";
       }
-    } else if (isIos()) {
-      re = /(?:iPhone|iPod|iPad|CPU)\s+OS\s+(\S+)/;
-      const match = re.exec(userAgentString);
-      version = match && match[1].replace(/_/g, ".");
-    } else if (isMacintosh()) {
-      re = /Mac OS X ([0-9_.]+)/;
-      const match = re.exec(userAgentString);
-      version = match ? match[1].replace(/_/g, ".") : "10";
-    } else if (isKaiOS()) {
-      re = /(?:KaiOS)\/(\S+)/i;
-      const match = re.exec(userAgentString);
-      version = match && match[1];
-    } else if (isAndroid()) {
-      re = /Android\s+([^\);]+)(\)|;)/;
-      const match = re.exec(userAgentString);
-      version = match && match[1];
-    } else if (isChromeOS()) {
-      re = /(?:CrOS\s+(?:i686|x86_64)\s+([0-9.]+))/;
-      const match = re.exec(userAgentString);
-      version = match && match[1];
+    } else {
+      if (isIos()) {
+        re = /(?:iPhone|iPod|iPad|CPU)\s+OS\s+(\S+)/;
+        const match = re.exec(userAgentString);
+        version = match && match[1].replace(/_/g, ".");
+      } else {
+        if (isMacintosh()) {
+          re = /Mac OS X ([0-9_.]+)/;
+          const match = re.exec(userAgentString);
+          version = match ? match[1].replace(/_/g, ".") : "10";
+        } else {
+          if (isKaiOS()) {
+            re = /(?:KaiOS)\/(\S+)/i;
+            const match = re.exec(userAgentString);
+            version = match && match[1];
+          } else {
+            if (isAndroid()) {
+              re = /Android\s+([^\);]+)(\)|;)/;
+              const match = re.exec(userAgentString);
+              version = match && match[1];
+            } else {
+              if (isChromeOS()) {
+                re = /(?:CrOS\s+(?:i686|x86_64)\s+([0-9.]+))/;
+                const match = re.exec(userAgentString);
+                version = match && match[1];
+              }
+            }
+          }
+        }
+      }
     }
     return version || "";
   }

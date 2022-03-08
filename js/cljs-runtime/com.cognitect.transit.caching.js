@@ -43,21 +43,25 @@ goog.scope(function() {
         this.clear();
         this.gen = 0;
         this.cache = {};
-      } else if (this.idx === caching.MAX_CACHE_ENTRIES) {
-        this.clear();
+      } else {
+        if (this.idx === caching.MAX_CACHE_ENTRIES) {
+          this.clear();
+        }
       }
       var entry = this.cache[string];
       if (entry == null) {
         this.cache[string] = [caching.idxToCode(this.idx), this.gen];
         this.idx++;
         return string;
-      } else if (entry[1] != this.gen) {
-        entry[1] = this.gen;
-        entry[0] = caching.idxToCode(this.idx);
-        this.idx++;
-        return string;
       } else {
-        return entry[0];
+        if (entry[1] != this.gen) {
+          entry[1] = this.gen;
+          entry[0] = caching.idxToCode(this.idx);
+          this.idx++;
+          return string;
+        } else {
+          return entry[0];
+        }
       }
     } else {
       return string;

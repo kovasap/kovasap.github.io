@@ -220,30 +220,32 @@ goog.i18n.MessageFormat.prototype.parseBlock_ = function(pattern) {
     if (goog.i18n.MessageFormat.Element_.STRING == parts[i].type) {
       block.type = goog.i18n.MessageFormat.BlockType_.STRING;
       block.value = parts[i].value;
-    } else if (goog.i18n.MessageFormat.Element_.BLOCK == parts[i].type) {
-      var blockType = this.parseBlockType_(parts[i].value);
-      switch(blockType) {
-        case goog.i18n.MessageFormat.BlockType_.SELECT:
-          block.type = goog.i18n.MessageFormat.BlockType_.SELECT;
-          block.value = this.parseSelectBlock_(parts[i].value);
-          break;
-        case goog.i18n.MessageFormat.BlockType_.PLURAL:
-          block.type = goog.i18n.MessageFormat.BlockType_.PLURAL;
-          block.value = this.parsePluralBlock_(parts[i].value);
-          break;
-        case goog.i18n.MessageFormat.BlockType_.ORDINAL:
-          block.type = goog.i18n.MessageFormat.BlockType_.ORDINAL;
-          block.value = this.parseOrdinalBlock_(parts[i].value);
-          break;
-        case goog.i18n.MessageFormat.BlockType_.SIMPLE:
-          block.type = goog.i18n.MessageFormat.BlockType_.SIMPLE;
-          block.value = parts[i].value;
-          break;
-        default:
-          goog.asserts.fail("Unknown block type for pattern: " + parts[i].value);
-      }
     } else {
-      goog.asserts.fail("Unknown part of the pattern.");
+      if (goog.i18n.MessageFormat.Element_.BLOCK == parts[i].type) {
+        var blockType = this.parseBlockType_(parts[i].value);
+        switch(blockType) {
+          case goog.i18n.MessageFormat.BlockType_.SELECT:
+            block.type = goog.i18n.MessageFormat.BlockType_.SELECT;
+            block.value = this.parseSelectBlock_(parts[i].value);
+            break;
+          case goog.i18n.MessageFormat.BlockType_.PLURAL:
+            block.type = goog.i18n.MessageFormat.BlockType_.PLURAL;
+            block.value = this.parsePluralBlock_(parts[i].value);
+            break;
+          case goog.i18n.MessageFormat.BlockType_.ORDINAL:
+            block.type = goog.i18n.MessageFormat.BlockType_.ORDINAL;
+            block.value = this.parseOrdinalBlock_(parts[i].value);
+            break;
+          case goog.i18n.MessageFormat.BlockType_.SIMPLE:
+            block.type = goog.i18n.MessageFormat.BlockType_.SIMPLE;
+            block.value = parts[i].value;
+            break;
+          default:
+            goog.asserts.fail("Unknown block type for pattern: " + parts[i].value);
+        }
+      } else {
+        goog.asserts.fail("Unknown part of the pattern.");
+      }
     }
     result.push(block);
   }

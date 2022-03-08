@@ -38,9 +38,11 @@ goog.loadModule(function(exports) {
         const ch = s[i];
         if (brackets[ch]) {
           expectedBrackets.push(brackets[ch]);
-        } else if (googObject.contains(brackets, ch)) {
-          if (expectedBrackets.pop() != ch) {
-            return false;
+        } else {
+          if (googObject.contains(brackets, ch)) {
+            if (expectedBrackets.pop() != ch) {
+              return false;
+            }
           }
         }
       }

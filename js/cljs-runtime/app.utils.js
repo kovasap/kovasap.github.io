@@ -1,54 +1,46 @@
 goog.provide('app.utils');
-app.utils.months = new cljs.core.PersistentVector(null, 12, 5, cljs.core.PersistentVector.EMPTY_NODE, ["jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec"], null);
-app.utils.parse_date = (function app$utils$parse_date(date_string){
-var split = clojure.string.split.cljs$core$IFn$_invoke$arity$2(clojure.string.trim(date_string),"/");
-if((!(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((3),cljs.core.count(split))))){
-return null;
-} else {
-var vec__44166 = split;
-var month = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44166,(0),null);
-var day = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44166,(1),null);
-var year = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44166,(2),null);
-return new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"month","month",-1960248533),(month | (0)),new cljs.core.Keyword(null,"date","date",-1463434462),(day | (0)),new cljs.core.Keyword(null,"year","year",335913393),((function (){var G__44169 = cljs.core.count(year);
-switch (G__44169) {
-case (2):
-return ["20",cljs.core.str.cljs$core$IFn$_invoke$arity$1(year)].join('');
+/**
+ * Converts map like {:input :hi :results {:slope 50}} to
+ *   {:input :hi :results-slope 50}
+ *   
+ *   Taken from https://stackoverflow.com/a/17902228
+ */
+app.utils.flatten_map_concat_keys = (function app$utils$flatten_map_concat_keys(var_args){
+var G__42452 = arguments.length;
+switch (G__42452) {
+case 2:
+return app.utils.flatten_map_concat_keys.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
 break;
-case (4):
-return year;
+case 3:
+return app.utils.flatten_map_concat_keys.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
 break;
 default:
-return null;
+throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(arguments.length)].join('')));
 
 }
-})() | (0))], null);
-}
 });
-app.utils.map_to_timestamp = (function app$utils$map_to_timestamp(p__44174){
-var map__44175 = p__44174;
-var map__44175__$1 = cljs.core.__destructure_map(map__44175);
-var month = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44175__$1,new cljs.core.Keyword(null,"month","month",-1960248533));
-var date = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44175__$1,new cljs.core.Keyword(null,"date","date",-1463434462));
-var year = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44175__$1,new cljs.core.Keyword(null,"year","year",335913393));
-return cljs_time.coerce.to_long(cljs_time.core.date_time.cljs$core$IFn$_invoke$arity$3(year,month,date));
-});
-/**
- * Converts a range like '1/1/2021 to 2/1/2021' into a single date. Will return
- *   the first date unless it is unparsable, in which case will return the second
- */
-app.utils.parse_date_range = (function app$utils$parse_date_range(date_range){
-var vec__44176 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(date_range," to ");
-var date1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44176,(0),null);
-var date2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44176,(1),null);
-var parsed1 = app.utils.parse_date(date1);
-var parsed2 = app.utils.parse_date(date2);
-if((parsed1 == null)){
-return parsed2;
+
+(app.utils.flatten_map_concat_keys.cljs$core$IFn$_invoke$arity$2 = (function (form,separator){
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,app.utils.flatten_map_concat_keys.cljs$core$IFn$_invoke$arity$3(form,separator,null));
+}));
+
+(app.utils.flatten_map_concat_keys.cljs$core$IFn$_invoke$arity$3 = (function (form,separator,pre){
+return cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (p__42454){
+var vec__42455 = p__42454;
+var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__42455,(0),null);
+var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__42455,(1),null);
+var prefix = (cljs.core.truth_(pre)?[cljs.core.str.cljs$core$IFn$_invoke$arity$1(pre),cljs.core.str.cljs$core$IFn$_invoke$arity$1(separator),cljs.core.name(k)].join(''):cljs.core.name(k));
+if(cljs.core.map_QMARK_(v)){
+return app.utils.flatten_map_concat_keys.cljs$core$IFn$_invoke$arity$3(v,separator,prefix);
 } else {
-return parsed1;
+return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(prefix),v], null)], null);
 }
-});
+}),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([form], 0));
+}));
+
+(app.utils.flatten_map_concat_keys.cljs$lang$maxFixedArity = 3);
+
 
 //# sourceMappingURL=app.utils.js.map

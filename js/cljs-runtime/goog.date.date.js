@@ -96,15 +96,17 @@ goog.date.setIso8601DateOnly_ = function(d, formatted) {
     d.setMonth(0);
     var offset = dayOfYear - 1;
     d.add(new goog.date.Interval(goog.date.Interval.DAYS, offset));
-  } else if (week) {
-    goog.date.setDateFromIso8601Week_(d, week, dayOfWeek);
   } else {
-    if (month) {
-      d.setDate(1);
-      d.setMonth(month - 1);
-    }
-    if (date) {
-      d.setDate(date);
+    if (week) {
+      goog.date.setDateFromIso8601Week_(d, week, dayOfWeek);
+    } else {
+      if (month) {
+        d.setDate(1);
+        d.setMonth(month - 1);
+      }
+      if (date) {
+        d.setDate(date);
+      }
     }
   }
   return true;
@@ -284,17 +286,19 @@ goog.date.Date = function(opt_year, opt_month, opt_date) {
   if (typeof opt_year === "number") {
     this.date = this.buildDate_(opt_year, opt_month || 0, opt_date || 1);
     this.maybeFixDst_(opt_date || 1);
-  } else if (goog.isObject(opt_year)) {
-    this.date = this.buildDate_(opt_year.getFullYear(), opt_year.getMonth(), opt_year.getDate());
-    this.maybeFixDst_(opt_year.getDate());
   } else {
-    this.date = new Date(goog.now());
-    var expectedDate = this.date.getDate();
-    this.date.setHours(0);
-    this.date.setMinutes(0);
-    this.date.setSeconds(0);
-    this.date.setMilliseconds(0);
-    this.maybeFixDst_(expectedDate);
+    if (goog.isObject(opt_year)) {
+      this.date = this.buildDate_(opt_year.getFullYear(), opt_year.getMonth(), opt_year.getDate());
+      this.maybeFixDst_(opt_year.getDate());
+    } else {
+      this.date = new Date(goog.now());
+      var expectedDate = this.date.getDate();
+      this.date.setHours(0);
+      this.date.setMinutes(0);
+      this.date.setSeconds(0);
+      this.date.setMilliseconds(0);
+      this.maybeFixDst_(expectedDate);
+    }
   }
 };
 goog.date.Date.prototype.buildDate_ = function(fullYear, month, date) {

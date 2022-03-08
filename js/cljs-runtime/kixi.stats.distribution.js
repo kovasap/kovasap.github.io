@@ -1,9 +1,9 @@
 goog.provide('kixi.stats.distribution');
 kixi.stats.distribution.next_rng = cljs.core.comp.cljs$core$IFn$_invoke$arity$2(cljs.core.first,clojure.test.check.random.split);
-kixi.stats.distribution.swap = (function kixi$stats$distribution$swap(coll,p__41181){
-var vec__41182 = p__41181;
-var i1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41182,(0),null);
-var i2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41182,(1),null);
+kixi.stats.distribution.swap = (function kixi$stats$distribution$swap(coll,p__44477){
+var vec__44478 = p__44477;
+var i1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44478,(0),null);
+var i2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44478,(1),null);
 return cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(coll,i2,(coll.cljs$core$IFn$_invoke$arity$1 ? coll.cljs$core$IFn$_invoke$arity$1(i1) : coll.call(null,i1)),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([i1,(coll.cljs$core$IFn$_invoke$arity$1 ? coll.cljs$core$IFn$_invoke$arity$1(i2) : coll.call(null,i2))], 0));
 });
 kixi.stats.distribution.rand_int = (function kixi$stats$distribution$rand_int(a,b,rng){
@@ -11,14 +11,14 @@ var r = (clojure.test.check.random.rand_double(rng) * (b - a));
 return ((a + r) | (0));
 });
 kixi.stats.distribution.rand_normal = (function kixi$stats$distribution$rand_normal(rng){
-var vec__41187 = clojure.test.check.random.split(rng);
-var r1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41187,(0),null);
-var r2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41187,(1),null);
+var vec__44481 = clojure.test.check.random.split(rng);
+var r1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44481,(0),null);
+var r2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44481,(1),null);
 return (kixi.stats.math.sqrt(((-2) * kixi.stats.math.log(clojure.test.check.random.rand_double(r1)))) * kixi.stats.math.cos((((2) * kixi.stats.math.PI) * clojure.test.check.random.rand_double(r2))));
 });
 kixi.stats.distribution.btrd_f = (function kixi$stats$distribution$btrd_f(k){
-var G__41193 = k;
-switch (G__41193) {
+var G__44484 = k;
+switch (G__44484) {
 case (0):
 return 0.08106146679532726;
 
@@ -71,10 +71,10 @@ return ((0.08333333333333333 - ((0.002777777777777778 - (7.936507936507937E-4 / 
  */
 kixi.stats.distribution.rand_binomial_btrd = (function kixi$stats$distribution$rand_binomial_btrd(n,p,rng){
 if((p > 0.5)){
-return (n - (function (){var G__41194 = n;
-var G__41195 = ((1) - p);
-var G__41196 = rng;
-return (kixi.stats.distribution.rand_binomial_btrd.cljs$core$IFn$_invoke$arity$3 ? kixi.stats.distribution.rand_binomial_btrd.cljs$core$IFn$_invoke$arity$3(G__41194,G__41195,G__41196) : kixi.stats.distribution.rand_binomial_btrd.call(null,G__41194,G__41195,G__41196));
+return (n - (function (){var G__44489 = n;
+var G__44490 = ((1) - p);
+var G__44491 = rng;
+return (kixi.stats.distribution.rand_binomial_btrd.cljs$core$IFn$_invoke$arity$3 ? kixi.stats.distribution.rand_binomial_btrd.cljs$core$IFn$_invoke$arity$3(G__44489,G__44490,G__44491) : kixi.stats.distribution.rand_binomial_btrd.call(null,G__44489,G__44490,G__44491));
 })());
 } else {
 var m = (kixi.stats.math.floor(((n + (1)) * p)) | (0));
@@ -96,14 +96,14 @@ if((v <= urvr)){
 var u = ((v / vr) - 0.43);
 return (kixi.stats.math.floor(((((((2) * a) / (0.5 - kixi.stats.math.abs(u))) + b) * u) + c)) | (0));
 } else {
-var vec__41197 = clojure.test.check.random.split(rng__$1);
-var r1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41197,(0),null);
-var r2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41197,(1),null);
-var vec__41200 = (((v >= vr))?new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(clojure.test.check.random.rand_double(r1) - 0.5),v], null):(function (){var u = ((v / vr) - 0.93);
+var vec__44497 = clojure.test.check.random.split(rng__$1);
+var r1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44497,(0),null);
+var r2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44497,(1),null);
+var vec__44500 = (((v >= vr))?new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(clojure.test.check.random.rand_double(r1) - 0.5),v], null):(function (){var u = ((v / vr) - 0.93);
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [((0.5 * (((u > (0)))?(1):(-1))) - u),(clojure.test.check.random.rand_double(r1) * vr)], null);
 })());
-var u = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41200,(0),null);
-var v__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41200,(1),null);
+var u = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44500,(0),null);
+var v__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44500,(1),null);
 var us = (0.5 - kixi.stats.math.abs(u));
 var k = (kixi.stats.math.floor((((((2) * (a / us)) + b) * u) + c)) | (0));
 if(((((0) <= k)) && ((k <= n)))){
@@ -111,19 +111,19 @@ var v__$2 = (v__$1 * (alpha / ((a / kixi.stats.math.sq(us)) + b)));
 var km = kixi.stats.math.abs((k - m));
 if((km <= (15))){
 var f = 1.0;
-var fx = ((function (rng__$1,f,v__$2,km,vec__41197,r1,r2,vec__41200,u,v__$1,us,k,v,m,q,r,nr,npq,rnpq,b,a,c,alpha,vr,urvr){
+var fx = ((function (rng__$1,f,v__$2,km,vec__44497,r1,r2,vec__44500,u,v__$1,us,k,v,m,q,r,nr,npq,rnpq,b,a,c,alpha,vr,urvr){
 return (function (x,i){
 return (x * ((nr / (i + (1))) - r));
-});})(rng__$1,f,v__$2,km,vec__41197,r1,r2,vec__41200,u,v__$1,us,k,v,m,q,r,nr,npq,rnpq,b,a,c,alpha,vr,urvr))
+});})(rng__$1,f,v__$2,km,vec__44497,r1,r2,vec__44500,u,v__$1,us,k,v,m,q,r,nr,npq,rnpq,b,a,c,alpha,vr,urvr))
 ;
-var vec__41203 = (((m < k))?new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(fx,f,cljs.core.range.cljs$core$IFn$_invoke$arity$2(m,k)),v__$2], null):new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [f,cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(fx,v__$2,cljs.core.range.cljs$core$IFn$_invoke$arity$2(k,m))], null));
-var f__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41203,(0),null);
-var v__$3 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41203,(1),null);
+var vec__44508 = (((m < k))?new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(fx,f,cljs.core.range.cljs$core$IFn$_invoke$arity$2(m,k)),v__$2], null):new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [f,cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(fx,v__$2,cljs.core.range.cljs$core$IFn$_invoke$arity$2(k,m))], null));
+var f__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44508,(0),null);
+var v__$3 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44508,(1),null);
 if((v__$3 <= f__$1)){
 return k;
 } else {
-var G__42113 = r2;
-rng__$1 = G__42113;
+var G__44797 = r2;
+rng__$1 = G__44797;
 continue;
 }
 } else {
@@ -134,8 +134,8 @@ if((v__$3 < (t - p__$1))){
 return k;
 } else {
 if((v__$3 > (t + p__$1))){
-var G__42114 = r2;
-rng__$1 = G__42114;
+var G__44802 = r2;
+rng__$1 = G__44802;
 continue;
 } else {
 var nm = ((n - m) + (1));
@@ -144,8 +144,8 @@ var nk = ((n - k) + (1));
 if((v__$3 <= ((((h + ((n + (1)) * kixi.stats.math.log((nm / nk)))) + ((k + 0.5) * kixi.stats.math.log(((nk * r) / (k + (1)))))) + (- kixi.stats.distribution.btrd_f(k))) + (- kixi.stats.distribution.btrd_f((n - k)))))){
 return k;
 } else {
-var G__42119 = r2;
-rng__$1 = G__42119;
+var G__44807 = r2;
+rng__$1 = G__44807;
 continue;
 }
 
@@ -153,8 +153,8 @@ continue;
 }
 }
 } else {
-var G__42120 = r2;
-rng__$1 = G__42120;
+var G__44808 = r2;
+rng__$1 = G__44808;
 continue;
 }
 }
@@ -164,10 +164,10 @@ break;
 });
 kixi.stats.distribution.rand_binomial_binv = (function kixi$stats$distribution$rand_binomial_binv(n,p,rng){
 if((p > 0.5)){
-return (n - (function (){var G__41211 = n;
-var G__41212 = ((1) - p);
-var G__41213 = rng;
-return (kixi.stats.distribution.rand_binomial_binv.cljs$core$IFn$_invoke$arity$3 ? kixi.stats.distribution.rand_binomial_binv.cljs$core$IFn$_invoke$arity$3(G__41211,G__41212,G__41213) : kixi.stats.distribution.rand_binomial_binv.call(null,G__41211,G__41212,G__41213));
+return (n - (function (){var G__44511 = n;
+var G__44512 = ((1) - p);
+var G__44513 = rng;
+return (kixi.stats.distribution.rand_binomial_binv.cljs$core$IFn$_invoke$arity$3 ? kixi.stats.distribution.rand_binomial_binv.cljs$core$IFn$_invoke$arity$3(G__44511,G__44512,G__44513) : kixi.stats.distribution.rand_binomial_binv.call(null,G__44511,G__44512,G__44513));
 })());
 } else {
 var cutoff = (110);
@@ -181,17 +181,17 @@ if((u < f)){
 return ix;
 } else {
 if((ix >= cutoff)){
-var G__41218 = n;
-var G__41219 = p;
-var G__41220 = kixi.stats.distribution.next_rng(rng);
-return (kixi.stats.distribution.rand_binomial_binv.cljs$core$IFn$_invoke$arity$3 ? kixi.stats.distribution.rand_binomial_binv.cljs$core$IFn$_invoke$arity$3(G__41218,G__41219,G__41220) : kixi.stats.distribution.rand_binomial_binv.call(null,G__41218,G__41219,G__41220));
+var G__44518 = n;
+var G__44519 = p;
+var G__44520 = kixi.stats.distribution.next_rng(rng);
+return (kixi.stats.distribution.rand_binomial_binv.cljs$core$IFn$_invoke$arity$3 ? kixi.stats.distribution.rand_binomial_binv.cljs$core$IFn$_invoke$arity$3(G__44518,G__44519,G__44520) : kixi.stats.distribution.rand_binomial_binv.call(null,G__44518,G__44519,G__44520));
 } else {
-var G__42122 = (ix + (1));
-var G__42123 = ((f * s) * ((n - ix) / (ix + (1))));
-var G__42124 = (u - f);
-ix = G__42122;
-f = G__42123;
-u = G__42124;
+var G__44809 = (ix + (1));
+var G__44810 = ((f * s) * ((n - ix) / (ix + (1))));
+var G__44811 = (u - f);
+ix = G__44809;
+f = G__44810;
+u = G__44811;
 continue;
 
 }
@@ -224,27 +224,27 @@ return kixi.stats.distribution.rand_binomial_btrd(n,p__$1,rng);
 }
 });
 kixi.stats.distribution.rand_gamma = (function kixi$stats$distribution$rand_gamma(k,rng){
-var k_SINGLEQUOTE_ = (function (){var G__41240 = k;
-return (G__41240 + (1));
+var k_SINGLEQUOTE_ = (function (){var G__44529 = k;
+return (G__44529 + (1));
 
 })();
 var a1 = (k_SINGLEQUOTE_ - ((1) / (3)));
 var a2 = ((1) / kixi.stats.math.sqrt(((9) * a1)));
-var vec__41234 = clojure.test.check.random.split(rng);
-var r1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41234,(0),null);
-var r2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41234,(1),null);
-var vec__41237 = (function (){var rng__$1 = r1;
+var vec__44523 = clojure.test.check.random.split(rng);
+var r1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44523,(0),null);
+var r2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44523,(1),null);
+var vec__44526 = (function (){var rng__$1 = r1;
 while(true){
-var vec__41252 = clojure.test.check.random.split(rng__$1);
-var r1__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41252,(0),null);
-var r2__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41252,(1),null);
-var vec__41255 = (function (){var rng__$2 = r2__$1;
+var vec__44541 = clojure.test.check.random.split(rng__$1);
+var r1__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44541,(0),null);
+var r2__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44541,(1),null);
+var vec__44544 = (function (){var rng__$2 = r2__$1;
 while(true){
 var x = kixi.stats.distribution.rand_normal(rng__$2);
 var v = ((1) + (a2 * x));
 if((v <= (0))){
-var G__42135 = kixi.stats.distribution.next_rng(rng__$2);
-rng__$2 = G__42135;
+var G__44816 = kixi.stats.distribution.next_rng(rng__$2);
+rng__$2 = G__44816;
 continue;
 } else {
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [x,v], null);
@@ -252,13 +252,13 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
 break;
 }
 })();
-var x = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41255,(0),null);
-var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41255,(1),null);
+var x = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44544,(0),null);
+var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44544,(1),null);
 var v__$1 = ((v * v) * v);
 var u = clojure.test.check.random.rand_double(r1__$1);
 if((((u > ((1) - (0.331 * kixi.stats.math.pow(x,(4)))))) && ((kixi.stats.math.log(u) > (((0.5 * x) * x) + (a1 * (((1) + (- v__$1)) + kixi.stats.math.log(v__$1)))))))){
-var G__42136 = kixi.stats.distribution.next_rng(r1__$1);
-rng__$1 = G__42136;
+var G__44817 = kixi.stats.distribution.next_rng(r1__$1);
+rng__$1 = G__44817;
 continue;
 } else {
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [v__$1,u], null);
@@ -266,8 +266,8 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
 break;
 }
 })();
-var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41237,(0),null);
-var u = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41237,(1),null);
+var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44526,(0),null);
+var u = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44526,(1),null);
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(k,k_SINGLEQUOTE_)){
 return (a1 * v);
 } else {
@@ -277,8 +277,8 @@ var r = clojure.test.check.random.rand_double(rng__$1);
 if((r > (0))){
 return r;
 } else {
-var G__42137 = kixi.stats.distribution.next_rng(rng__$1);
-rng__$1 = G__42137;
+var G__44818 = kixi.stats.distribution.next_rng(rng__$1);
+rng__$1 = G__44818;
 continue;
 }
 break;
@@ -287,28 +287,28 @@ break;
 }
 });
 kixi.stats.distribution.rand_beta = (function kixi$stats$distribution$rand_beta(alpha,beta,rng){
-var vec__41263 = clojure.test.check.random.split(rng);
-var r1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41263,(0),null);
-var r2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41263,(1),null);
+var vec__44550 = clojure.test.check.random.split(rng);
+var r1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44550,(0),null);
+var r2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44550,(1),null);
 var u = kixi.stats.distribution.rand_gamma(alpha,r1);
 return (u / (u + kixi.stats.distribution.rand_gamma(beta,r2)));
 });
 kixi.stats.distribution.rand_int_tuple = (function kixi$stats$distribution$rand_int_tuple(a,b,rng){
-var vec__41273 = clojure.test.check.random.split(rng);
-var r1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41273,(0),null);
-var r2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41273,(1),null);
+var vec__44556 = clojure.test.check.random.split(rng);
+var r1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44556,(0),null);
+var r2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44556,(1),null);
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [kixi.stats.distribution.rand_int(a,b,r1),kixi.stats.distribution.rand_int(a,b,r2)], null);
 });
 kixi.stats.distribution.shuffle = (function kixi$stats$distribution$shuffle(coll,rng){
 var coll__$1 = ((cljs.core.vector_QMARK_(coll))?coll:cljs.core.vec(coll));
 var n = cljs.core.count(coll__$1);
-return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(kixi.stats.distribution.swap,coll__$1,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__41279_SHARP_){
-return kixi.stats.distribution.rand_int_tuple((0),n,p1__41279_SHARP_);
+return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(kixi.stats.distribution.swap,coll__$1,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__44559_SHARP_){
+return kixi.stats.distribution.rand_int_tuple((0),n,p1__44559_SHARP_);
 }),clojure.test.check.random.split_n(rng,kixi.stats.distribution.rand_int((0),((2) * n),rng))));
 });
 kixi.stats.distribution.sampleable__GT_seq = (function kixi$stats$distribution$sampleable__GT_seq(var_args){
-var G__41289 = arguments.length;
-switch (G__41289) {
+var G__44561 = arguments.length;
+switch (G__44561) {
 case 1:
 return kixi.stats.distribution.sampleable__GT_seq.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -329,9 +329,9 @@ return kixi.stats.distribution.sampleable__GT_seq.cljs$core$IFn$_invoke$arity$2(
 
 (kixi.stats.distribution.sampleable__GT_seq.cljs$core$IFn$_invoke$arity$2 = (function (distribution,rng){
 return (new cljs.core.LazySeq(null,(function (){
-var vec__41298 = clojure.test.check.random.split(rng);
-var r1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41298,(0),null);
-var r2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41298,(1),null);
+var vec__44562 = clojure.test.check.random.split(rng);
+var r1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44562,(0),null);
+var r2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44562,(1),null);
 return cljs.core.cons(kixi.stats.protocols.sample_1(distribution,r1),kixi.stats.distribution.sampleable__GT_seq.cljs$core$IFn$_invoke$arity$2(distribution,r2));
 }),null,null));
 }));
@@ -352,22 +352,22 @@ while(true){
 if(((cljs.core.seq(ks__$1)) && ((rem > (0))))){
 var k = cljs.core.first(ks__$1);
 var p = cljs.core.first(ps__$1);
-var x = kixi.stats.protocols.sample_1((function (){var G__41327 = n__$1;
-var G__41328 = (p / rem);
-return (kixi.stats.distribution.__GT_Binomial.cljs$core$IFn$_invoke$arity$2 ? kixi.stats.distribution.__GT_Binomial.cljs$core$IFn$_invoke$arity$2(G__41327,G__41328) : kixi.stats.distribution.__GT_Binomial.call(null,G__41327,G__41328));
+var x = kixi.stats.protocols.sample_1((function (){var G__44567 = n__$1;
+var G__44568 = (p / rem);
+return (kixi.stats.distribution.__GT_Binomial.cljs$core$IFn$_invoke$arity$2 ? kixi.stats.distribution.__GT_Binomial.cljs$core$IFn$_invoke$arity$2(G__44567,G__44568) : kixi.stats.distribution.__GT_Binomial.call(null,G__44567,G__44568));
 })(),rng__$1);
-var G__42145 = cljs.core.concat.cljs$core$IFn$_invoke$arity$2(coll,cljs.core.repeat.cljs$core$IFn$_invoke$arity$2(x,k));
-var G__42146 = (n__$1 - x);
-var G__42147 = (rem - p);
-var G__42148 = kixi.stats.distribution.next_rng(rng__$1);
-var G__42149 = cljs.core.rest(ks__$1);
-var G__42150 = cljs.core.rest(ps__$1);
-coll = G__42145;
-n__$1 = G__42146;
-rem = G__42147;
-rng__$1 = G__42148;
-ks__$1 = G__42149;
-ps__$1 = G__42150;
+var G__44833 = cljs.core.concat.cljs$core$IFn$_invoke$arity$2(coll,cljs.core.repeat.cljs$core$IFn$_invoke$arity$2(x,k));
+var G__44834 = (n__$1 - x);
+var G__44835 = (rem - p);
+var G__44836 = kixi.stats.distribution.next_rng(rng__$1);
+var G__44837 = cljs.core.rest(ks__$1);
+var G__44838 = cljs.core.rest(ps__$1);
+coll = G__44833;
+n__$1 = G__44834;
+rem = G__44835;
+rng__$1 = G__44836;
+ks__$1 = G__44837;
+ps__$1 = G__44838;
 continue;
 } else {
 return coll;
@@ -714,9 +714,9 @@ this.cljs$lang$protocol_mask$partition1$ = 0;
 (kixi.stats.distribution.T.prototype.kixi$stats$protocols$PRandomVariable$sample_1$arity$2 = (function (this$,rng){
 var self__ = this;
 var this$__$1 = this;
-var vec__41466 = clojure.test.check.random.split(rng);
-var r1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41466,(0),null);
-var r2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41466,(1),null);
+var vec__44598 = clojure.test.check.random.split(rng);
+var r1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44598,(0),null);
+var r2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44598,(1),null);
 return (kixi.stats.distribution.rand_normal(r1) * kixi.stats.math.sqrt((self__.dof / ((2) * kixi.stats.distribution.rand_gamma((0.5 * self__.dof),r2)))));
 }));
 
@@ -885,9 +885,9 @@ this.cljs$lang$protocol_mask$partition1$ = 0;
 (kixi.stats.distribution.BetaBinomial.prototype.kixi$stats$protocols$PRandomVariable$sample_1$arity$2 = (function (this$,rng){
 var self__ = this;
 var this$__$1 = this;
-var vec__41538 = clojure.test.check.random.split(rng);
-var r1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41538,(0),null);
-var r2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41538,(1),null);
+var vec__44628 = clojure.test.check.random.split(rng);
+var r1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44628,(0),null);
+var r2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44628,(1),null);
 var p = kixi.stats.distribution.rand_beta(self__.alpha,self__.beta,r1);
 return kixi.stats.distribution.rand_binomial(self__.n,p,r2);
 }));
@@ -1005,9 +1005,9 @@ this.cljs$lang$protocol_mask$partition1$ = 0;
 (kixi.stats.distribution.F.prototype.kixi$stats$protocols$PRandomVariable$sample_1$arity$2 = (function (this$,rng){
 var self__ = this;
 var this$__$1 = this;
-var vec__41604 = clojure.test.check.random.split(rng);
-var r1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41604,(0),null);
-var r2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41604,(1),null);
+var vec__44638 = clojure.test.check.random.split(rng);
+var r1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44638,(0),null);
+var r2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44638,(1),null);
 var x1 = (kixi.stats.distribution.rand_gamma((self__.d1 / (2)),r1) * (2));
 var x2 = (kixi.stats.distribution.rand_gamma((self__.d2 / (2)),r2) * (2));
 return ((x1 / self__.d1) / (x2 / self__.d2));
@@ -1067,12 +1067,12 @@ var rng__$1 = rng;
 while(true){
 var p__$1 = (p * clojure.test.check.random.rand_double(rng__$1));
 if((p__$1 > l)){
-var G__42179 = p__$1;
-var G__42180 = (k + (1));
-var G__42181 = kixi.stats.distribution.next_rng(rng__$1);
-p = G__42179;
-k = G__42180;
-rng__$1 = G__42181;
+var G__44946 = p__$1;
+var G__44947 = (k + (1));
+var G__44948 = kixi.stats.distribution.next_rng(rng__$1);
+p = G__44946;
+k = G__44947;
+rng__$1 = G__44948;
 continue;
 } else {
 return k;
@@ -1206,18 +1206,18 @@ if(((cljs.core.seq(ks__$1)) && ((rem > (0))))){
 var k = cljs.core.first(ks__$1);
 var p = cljs.core.first(ps__$1);
 var x = kixi.stats.distribution.rand_binomial(n__$1,(p / rem),rng__$1);
-var G__42186 = cljs.core.assoc_BANG_.cljs$core$IFn$_invoke$arity$3(coll,k,x);
-var G__42187 = (n__$1 - x);
-var G__42188 = (rem - p);
-var G__42189 = kixi.stats.distribution.next_rng(rng__$1);
-var G__42190 = cljs.core.rest(ks__$1);
-var G__42191 = cljs.core.rest(ps__$1);
-coll = G__42186;
-n__$1 = G__42187;
-rem = G__42188;
-rng__$1 = G__42189;
-ks__$1 = G__42190;
-ps__$1 = G__42191;
+var G__44971 = cljs.core.assoc_BANG_.cljs$core$IFn$_invoke$arity$3(coll,k,x);
+var G__44972 = (n__$1 - x);
+var G__44973 = (rem - p);
+var G__44974 = kixi.stats.distribution.next_rng(rng__$1);
+var G__44975 = cljs.core.rest(ks__$1);
+var G__44976 = cljs.core.rest(ps__$1);
+coll = G__44971;
+n__$1 = G__44972;
+rem = G__44973;
+rng__$1 = G__44974;
+ks__$1 = G__44975;
+ps__$1 = G__44976;
 continue;
 } else {
 return cljs.core.persistent_BANG_(coll);
@@ -1278,16 +1278,16 @@ while(true){
 if(((cljs.core.seq(ps__$1)) && ((rem > (0))))){
 var p = cljs.core.first(ps__$1);
 var x = kixi.stats.distribution.rand_binomial(n__$1,(p / rem),rng__$1);
-var G__42196 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(coll,x);
-var G__42197 = (n__$1 - x);
-var G__42198 = (rem - p);
-var G__42199 = kixi.stats.distribution.next_rng(rng__$1);
-var G__42200 = cljs.core.rest(ps__$1);
-coll = G__42196;
-n__$1 = G__42197;
-rem = G__42198;
-rng__$1 = G__42199;
-ps__$1 = G__42200;
+var G__44986 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(coll,x);
+var G__44987 = (n__$1 - x);
+var G__44988 = (rem - p);
+var G__44989 = kixi.stats.distribution.next_rng(rng__$1);
+var G__44990 = cljs.core.rest(ps__$1);
+coll = G__44986;
+n__$1 = G__44987;
+rem = G__44988;
+rng__$1 = G__44989;
+ps__$1 = G__44990;
 continue;
 } else {
 return cljs.core.persistent_BANG_(coll);
@@ -1352,12 +1352,12 @@ this.cljs$lang$protocol_mask$partition1$ = 0;
 var self__ = this;
 var this$__$1 = this;
 var rs = clojure.test.check.random.split_n(rng,cljs.core.count(self__.as));
-var xs = cljs.core.map.cljs$core$IFn$_invoke$arity$3((function (p1__41669_SHARP_,p2__41670_SHARP_){
-return kixi.stats.distribution.rand_gamma(p1__41669_SHARP_,p2__41670_SHARP_);
+var xs = cljs.core.map.cljs$core$IFn$_invoke$arity$3((function (p1__44653_SHARP_,p2__44654_SHARP_){
+return kixi.stats.distribution.rand_gamma(p1__44653_SHARP_,p2__44654_SHARP_);
 }),self__.as,rs);
 var s = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._PLUS_,xs);
-return cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p1__41672_SHARP_){
-return (p1__41672_SHARP_ / s);
+return cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p1__44655_SHARP_){
+return (p1__44655_SHARP_ / s);
 }),xs);
 }));
 
@@ -1410,9 +1410,9 @@ this.cljs$lang$protocol_mask$partition1$ = 0;
 (kixi.stats.distribution.DirichletMultinomial.prototype.kixi$stats$protocols$PRandomVariable$sample_1$arity$2 = (function (this$,rng){
 var self__ = this;
 var this$__$1 = this;
-var vec__41696 = clojure.test.check.random.split(rng);
-var r1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41696,(0),null);
-var r2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41696,(1),null);
+var vec__44656 = clojure.test.check.random.split(rng);
+var r1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44656,(0),null);
+var r2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44656,(1),null);
 var ps = kixi.stats.distribution.__GT_Dirichlet(self__.as).kixi$stats$protocols$PRandomVariable$sample_1$arity$2(null,r1);
 return kixi.stats.distribution.__GT_Multinomial(self__.n,ps).kixi$stats$protocols$PRandomVariable$sample_1$arity$2(null,r2);
 }));
@@ -1693,55 +1693,55 @@ return and__4251__auto__;
  * Returns a uniform distribution.
  *   Params: {:a ∈ ℝ, :b ∈ ℝ}
  */
-kixi.stats.distribution.uniform = (function kixi$stats$distribution$uniform(p__41842){
-var map__41843 = p__41842;
-var map__41843__$1 = cljs.core.__destructure_map(map__41843);
-var a = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41843__$1,new cljs.core.Keyword(null,"a","a",-2123407586));
-var b = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41843__$1,new cljs.core.Keyword(null,"b","b",1482224470));
+kixi.stats.distribution.uniform = (function kixi$stats$distribution$uniform(p__44687){
+var map__44688 = p__44687;
+var map__44688__$1 = cljs.core.__destructure_map(map__44688);
+var a = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44688__$1,new cljs.core.Keyword(null,"a","a",-2123407586));
+var b = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44688__$1,new cljs.core.Keyword(null,"b","b",1482224470));
 return kixi.stats.distribution.__GT_Uniform(a,b);
 });
 /**
  * Returns an exponential distribution.
  *   Params: {:rate ∈ ℝ > 0}
  */
-kixi.stats.distribution.exponential = (function kixi$stats$distribution$exponential(p__41849){
-var map__41853 = p__41849;
-var map__41853__$1 = cljs.core.__destructure_map(map__41853);
-var rate = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41853__$1,new cljs.core.Keyword(null,"rate","rate",-1428659698));
+kixi.stats.distribution.exponential = (function kixi$stats$distribution$exponential(p__44689){
+var map__44690 = p__44689;
+var map__44690__$1 = cljs.core.__destructure_map(map__44690);
+var rate = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44690__$1,new cljs.core.Keyword(null,"rate","rate",-1428659698));
 return kixi.stats.distribution.__GT_Exponential(rate);
 });
 /**
  * Returns a Bernoulli distribution.
  *   Params: {:p ∈ [0 1]}
  */
-kixi.stats.distribution.bernoulli = (function kixi$stats$distribution$bernoulli(p__41859){
-var map__41860 = p__41859;
-var map__41860__$1 = cljs.core.__destructure_map(map__41860);
-var p = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41860__$1,new cljs.core.Keyword(null,"p","p",151049309));
+kixi.stats.distribution.bernoulli = (function kixi$stats$distribution$bernoulli(p__44693){
+var map__44694 = p__44693;
+var map__44694__$1 = cljs.core.__destructure_map(map__44694);
+var p = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44694__$1,new cljs.core.Keyword(null,"p","p",151049309));
 return kixi.stats.distribution.__GT_Bernoulli(p);
 });
 /**
  * Return a binomial distribution.
  *   Params: {:n ∈ ℕ, :p ∈ [0 1]}
  */
-kixi.stats.distribution.binomial = (function kixi$stats$distribution$binomial(p__41868){
-var map__41870 = p__41868;
-var map__41870__$1 = cljs.core.__destructure_map(map__41870);
-var n = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41870__$1,new cljs.core.Keyword(null,"n","n",562130025));
-var p = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41870__$1,new cljs.core.Keyword(null,"p","p",151049309));
+kixi.stats.distribution.binomial = (function kixi$stats$distribution$binomial(p__44695){
+var map__44696 = p__44695;
+var map__44696__$1 = cljs.core.__destructure_map(map__44696);
+var n = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44696__$1,new cljs.core.Keyword(null,"n","n",562130025));
+var p = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44696__$1,new cljs.core.Keyword(null,"p","p",151049309));
 return kixi.stats.distribution.__GT_Binomial(n,p);
 });
 /**
  * Returns a normal distribution.
  *   Params: {:location ∈ ℝ, :scale ∈ ℝ}
  */
-kixi.stats.distribution.normal = (function kixi$stats$distribution$normal(p__41877){
-var map__41878 = p__41877;
-var map__41878__$1 = cljs.core.__destructure_map(map__41878);
-var location = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41878__$1,new cljs.core.Keyword(null,"location","location",1815599388));
-var scale = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41878__$1,new cljs.core.Keyword(null,"scale","scale",-230427353));
-var mu = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41878__$1,new cljs.core.Keyword(null,"mu","mu",1146469241));
-var sd = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41878__$1,new cljs.core.Keyword(null,"sd","sd",-1707124456));
+kixi.stats.distribution.normal = (function kixi$stats$distribution$normal(p__44700){
+var map__44701 = p__44700;
+var map__44701__$1 = cljs.core.__destructure_map(map__44701);
+var location = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44701__$1,new cljs.core.Keyword(null,"location","location",1815599388));
+var scale = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44701__$1,new cljs.core.Keyword(null,"scale","scale",-230427353));
+var mu = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44701__$1,new cljs.core.Keyword(null,"mu","mu",1146469241));
+var sd = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44701__$1,new cljs.core.Keyword(null,"sd","sd",-1707124456));
 return kixi.stats.distribution.__GT_Normal((function (){var or__4253__auto__ = location;
 if(cljs.core.truth_(or__4253__auto__)){
 return or__4253__auto__;
@@ -1760,22 +1760,22 @@ return sd;
  * Returns a t distribution.
  *   Params: {:v ∈ ℕ > 0}
  */
-kixi.stats.distribution.t = (function kixi$stats$distribution$t(p__41888){
-var map__41892 = p__41888;
-var map__41892__$1 = cljs.core.__destructure_map(map__41892);
-var v = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41892__$1,new cljs.core.Keyword(null,"v","v",21465059));
+kixi.stats.distribution.t = (function kixi$stats$distribution$t(p__44702){
+var map__44703 = p__44702;
+var map__44703__$1 = cljs.core.__destructure_map(map__44703);
+var v = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44703__$1,new cljs.core.Keyword(null,"v","v",21465059));
 return kixi.stats.distribution.__GT_T(v);
 });
 /**
  * Returns a gamma distribution.
  *   Params: {:shape ∈ ℝ, :scale ∈ ℝ} or {:shape ∈ ℝ, :rate ∈ ℝ}
  */
-kixi.stats.distribution.gamma = (function kixi$stats$distribution$gamma(p__41900){
-var map__41902 = p__41900;
-var map__41902__$1 = cljs.core.__destructure_map(map__41902);
-var shape = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__41902__$1,new cljs.core.Keyword(null,"shape","shape",1190694006),1.0);
-var scale = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41902__$1,new cljs.core.Keyword(null,"scale","scale",-230427353));
-var rate = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41902__$1,new cljs.core.Keyword(null,"rate","rate",-1428659698));
+kixi.stats.distribution.gamma = (function kixi$stats$distribution$gamma(p__44704){
+var map__44705 = p__44704;
+var map__44705__$1 = cljs.core.__destructure_map(map__44705);
+var shape = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__44705__$1,new cljs.core.Keyword(null,"shape","shape",1190694006),1.0);
+var scale = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44705__$1,new cljs.core.Keyword(null,"scale","scale",-230427353));
+var rate = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44705__$1,new cljs.core.Keyword(null,"rate","rate",-1428659698));
 return kixi.stats.distribution.__GT_Gamma(shape,(function (){var or__4253__auto__ = scale;
 if(cljs.core.truth_(or__4253__auto__)){
 return or__4253__auto__;
@@ -1788,65 +1788,65 @@ return (1.0 / rate);
  * Returns a beta distribution.
  *   Params: {:alpha ∈ ℝ, :beta ∈ ℝ}
  */
-kixi.stats.distribution.beta = (function kixi$stats$distribution$beta(p__41913){
-var map__41914 = p__41913;
-var map__41914__$1 = cljs.core.__destructure_map(map__41914);
-var alpha = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__41914__$1,new cljs.core.Keyword(null,"alpha","alpha",-1574982441),1.0);
-var beta = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__41914__$1,new cljs.core.Keyword(null,"beta","beta",455605892),1.0);
+kixi.stats.distribution.beta = (function kixi$stats$distribution$beta(p__44706){
+var map__44707 = p__44706;
+var map__44707__$1 = cljs.core.__destructure_map(map__44707);
+var alpha = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__44707__$1,new cljs.core.Keyword(null,"alpha","alpha",-1574982441),1.0);
+var beta = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__44707__$1,new cljs.core.Keyword(null,"beta","beta",455605892),1.0);
 return kixi.stats.distribution.__GT_Beta(alpha,beta);
 });
 /**
  * Returns a beta distribution.
  *   Params: {:n ∈ ℕ > 0, :alpha ∈ ℝ > 0, :beta ∈ ℝ > 0}
  */
-kixi.stats.distribution.beta_binomial = (function kixi$stats$distribution$beta_binomial(p__41921){
-var map__41923 = p__41921;
-var map__41923__$1 = cljs.core.__destructure_map(map__41923);
-var n = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41923__$1,new cljs.core.Keyword(null,"n","n",562130025));
-var alpha = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__41923__$1,new cljs.core.Keyword(null,"alpha","alpha",-1574982441),1.0);
-var beta = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__41923__$1,new cljs.core.Keyword(null,"beta","beta",455605892),1.0);
+kixi.stats.distribution.beta_binomial = (function kixi$stats$distribution$beta_binomial(p__44708){
+var map__44709 = p__44708;
+var map__44709__$1 = cljs.core.__destructure_map(map__44709);
+var n = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44709__$1,new cljs.core.Keyword(null,"n","n",562130025));
+var alpha = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__44709__$1,new cljs.core.Keyword(null,"alpha","alpha",-1574982441),1.0);
+var beta = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__44709__$1,new cljs.core.Keyword(null,"beta","beta",455605892),1.0);
 return kixi.stats.distribution.__GT_BetaBinomial(n,alpha,beta);
 });
 /**
  * Returns a weibull distribution.
  *   Params: {:shape ∈ ℝ >= 0, :scale ∈ ℝ >= 0}
  */
-kixi.stats.distribution.weibull = (function kixi$stats$distribution$weibull(p__41931){
-var map__41933 = p__41931;
-var map__41933__$1 = cljs.core.__destructure_map(map__41933);
-var shape = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__41933__$1,new cljs.core.Keyword(null,"shape","shape",1190694006),1.0);
-var scale = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__41933__$1,new cljs.core.Keyword(null,"scale","scale",-230427353),1.0);
+kixi.stats.distribution.weibull = (function kixi$stats$distribution$weibull(p__44710){
+var map__44711 = p__44710;
+var map__44711__$1 = cljs.core.__destructure_map(map__44711);
+var shape = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__44711__$1,new cljs.core.Keyword(null,"shape","shape",1190694006),1.0);
+var scale = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__44711__$1,new cljs.core.Keyword(null,"scale","scale",-230427353),1.0);
 return kixi.stats.distribution.__GT_Weibull(shape,scale);
 });
 /**
  * Returns a chi-squared distribution.
  *   Params: {:k ∈ ℕ > 0}
  */
-kixi.stats.distribution.chi_squared = (function kixi$stats$distribution$chi_squared(p__41941){
-var map__41944 = p__41941;
-var map__41944__$1 = cljs.core.__destructure_map(map__41944);
-var k = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41944__$1,new cljs.core.Keyword(null,"k","k",-2146297393));
+kixi.stats.distribution.chi_squared = (function kixi$stats$distribution$chi_squared(p__44712){
+var map__44713 = p__44712;
+var map__44713__$1 = cljs.core.__destructure_map(map__44713);
+var k = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44713__$1,new cljs.core.Keyword(null,"k","k",-2146297393));
 return kixi.stats.distribution.__GT_ChiSquared(k);
 });
 /**
  * Returns an F distribution.
  *   Params: {:d1 ∈ ℕ > 0, :d2 ∈ ℕ > 0}
  */
-kixi.stats.distribution.f = (function kixi$stats$distribution$f(p__41948){
-var map__41949 = p__41948;
-var map__41949__$1 = cljs.core.__destructure_map(map__41949);
-var d1 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41949__$1,new cljs.core.Keyword(null,"d1","d1",-1264719807));
-var d2 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41949__$1,new cljs.core.Keyword(null,"d2","d2",2138401859));
+kixi.stats.distribution.f = (function kixi$stats$distribution$f(p__44714){
+var map__44715 = p__44714;
+var map__44715__$1 = cljs.core.__destructure_map(map__44715);
+var d1 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44715__$1,new cljs.core.Keyword(null,"d1","d1",-1264719807));
+var d2 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44715__$1,new cljs.core.Keyword(null,"d2","d2",2138401859));
 return kixi.stats.distribution.__GT_F(d1,d2);
 });
 /**
  * Returns a Poisson distribution.
  *   Params: {:lambda ∈ ℝ > 0}
  */
-kixi.stats.distribution.poisson = (function kixi$stats$distribution$poisson(p__41958){
-var map__41959 = p__41958;
-var map__41959__$1 = cljs.core.__destructure_map(map__41959);
-var lambda = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41959__$1,new cljs.core.Keyword(null,"lambda","lambda",-1483427225));
+kixi.stats.distribution.poisson = (function kixi$stats$distribution$poisson(p__44716){
+var map__44717 = p__44716;
+var map__44717__$1 = cljs.core.__destructure_map(map__44717);
+var lambda = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44717__$1,new cljs.core.Keyword(null,"lambda","lambda",-1483427225));
 return kixi.stats.distribution.__GT_Poisson(lambda);
 });
 /**
@@ -1855,9 +1855,9 @@ return kixi.stats.distribution.__GT_Poisson(lambda);
  *   Probabilities should be >= 0 and sum to 1
  */
 kixi.stats.distribution.categorical = (function kixi$stats$distribution$categorical(category_probs){
-var vec__41962 = cljs.core.apply.cljs$core$IFn$_invoke$arity$3(cljs.core.map,cljs.core.vector,category_probs);
-var ks = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41962,(0),null);
-var ps = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41962,(1),null);
+var vec__44718 = cljs.core.apply.cljs$core$IFn$_invoke$arity$3(cljs.core.map,cljs.core.vector,category_probs);
+var ks = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44718,(0),null);
+var ps = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44718,(1),null);
 return kixi.stats.distribution.__GT_Categorical(ks,ps);
 });
 /**
@@ -1865,43 +1865,43 @@ return kixi.stats.distribution.__GT_Categorical(ks,ps);
  *   Params: {:n ∈ ℕ > 0, :probs [ℝ >= 0, ...]}
  *   Probabilities should be >= 0 and sum to 1
  */
-kixi.stats.distribution.multinomial = (function kixi$stats$distribution$multinomial(p__41969){
-var map__41971 = p__41969;
-var map__41971__$1 = cljs.core.__destructure_map(map__41971);
-var n = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41971__$1,new cljs.core.Keyword(null,"n","n",562130025));
-var probs = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41971__$1,new cljs.core.Keyword(null,"probs","probs",-1201894224));
+kixi.stats.distribution.multinomial = (function kixi$stats$distribution$multinomial(p__44721){
+var map__44722 = p__44721;
+var map__44722__$1 = cljs.core.__destructure_map(map__44722);
+var n = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44722__$1,new cljs.core.Keyword(null,"n","n",562130025));
+var probs = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44722__$1,new cljs.core.Keyword(null,"probs","probs",-1201894224));
 return kixi.stats.distribution.__GT_Multinomial(n,probs);
 });
 /**
  * Returns a Dirichlet distribution.
  *   Params: {:alphas [ℝ >= 0, ...]}
  */
-kixi.stats.distribution.dirichlet = (function kixi$stats$distribution$dirichlet(p__41972){
-var map__41975 = p__41972;
-var map__41975__$1 = cljs.core.__destructure_map(map__41975);
-var alphas = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41975__$1,new cljs.core.Keyword(null,"alphas","alphas",80918065));
+kixi.stats.distribution.dirichlet = (function kixi$stats$distribution$dirichlet(p__44723){
+var map__44724 = p__44723;
+var map__44724__$1 = cljs.core.__destructure_map(map__44724);
+var alphas = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44724__$1,new cljs.core.Keyword(null,"alphas","alphas",80918065));
 return kixi.stats.distribution.__GT_Dirichlet(alphas);
 });
 /**
  * Returns a Dirichlet-multinomial distribution.
  *   Params: {:n ∈ ℕ, :alphas [ℝ >= 0, ...]}
  */
-kixi.stats.distribution.dirichlet_multinomial = (function kixi$stats$distribution$dirichlet_multinomial(p__41976){
-var map__41978 = p__41976;
-var map__41978__$1 = cljs.core.__destructure_map(map__41978);
-var n = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41978__$1,new cljs.core.Keyword(null,"n","n",562130025));
-var alphas = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41978__$1,new cljs.core.Keyword(null,"alphas","alphas",80918065));
+kixi.stats.distribution.dirichlet_multinomial = (function kixi$stats$distribution$dirichlet_multinomial(p__44726){
+var map__44727 = p__44726;
+var map__44727__$1 = cljs.core.__destructure_map(map__44727);
+var n = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44727__$1,new cljs.core.Keyword(null,"n","n",562130025));
+var alphas = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44727__$1,new cljs.core.Keyword(null,"alphas","alphas",80918065));
 return kixi.stats.distribution.__GT_DirichletMultinomial(n,alphas);
 });
 /**
  * Returns a Cauchy distribution.
  *   Params: {:location ∈ ℝ, :scale ∈ ℝ > 0}
  */
-kixi.stats.distribution.cauchy = (function kixi$stats$distribution$cauchy(p__41986){
-var map__41987 = p__41986;
-var map__41987__$1 = cljs.core.__destructure_map(map__41987);
-var location = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41987__$1,new cljs.core.Keyword(null,"location","location",1815599388));
-var scale = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41987__$1,new cljs.core.Keyword(null,"scale","scale",-230427353));
+kixi.stats.distribution.cauchy = (function kixi$stats$distribution$cauchy(p__44729){
+var map__44730 = p__44729;
+var map__44730__$1 = cljs.core.__destructure_map(map__44730);
+var location = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44730__$1,new cljs.core.Keyword(null,"location","location",1815599388));
+var scale = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44730__$1,new cljs.core.Keyword(null,"scale","scale",-230427353));
 if((scale > (0))){
 } else {
 throw (new Error(["Assert failed: ",["Scale (",cljs.core.str.cljs$core$IFn$_invoke$arity$1(scale),") must be positive"].join(''),"\n","(pos? scale)"].join('')));
@@ -1915,13 +1915,13 @@ return kixi.stats.distribution.__GT_Cauchy(location,scale);
  *   mean and sd of this distribution.
  *   Params: {:location ∈ ℝ, :scale ∈ ℝ}
  */
-kixi.stats.distribution.log_normal = (function kixi$stats$distribution$log_normal(p__41993){
-var map__41994 = p__41993;
-var map__41994__$1 = cljs.core.__destructure_map(map__41994);
-var location = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41994__$1,new cljs.core.Keyword(null,"location","location",1815599388));
-var scale = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41994__$1,new cljs.core.Keyword(null,"scale","scale",-230427353));
-var mu = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41994__$1,new cljs.core.Keyword(null,"mu","mu",1146469241));
-var sd = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41994__$1,new cljs.core.Keyword(null,"sd","sd",-1707124456));
+kixi.stats.distribution.log_normal = (function kixi$stats$distribution$log_normal(p__44734){
+var map__44737 = p__44734;
+var map__44737__$1 = cljs.core.__destructure_map(map__44737);
+var location = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44737__$1,new cljs.core.Keyword(null,"location","location",1815599388));
+var scale = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44737__$1,new cljs.core.Keyword(null,"scale","scale",-230427353));
+var mu = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44737__$1,new cljs.core.Keyword(null,"mu","mu",1146469241));
+var sd = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44737__$1,new cljs.core.Keyword(null,"sd","sd",-1707124456));
 return kixi.stats.distribution.__GT_LogNormal((function (){var or__4253__auto__ = location;
 if(cljs.core.truth_(or__4253__auto__)){
 return or__4253__auto__;
@@ -1940,11 +1940,11 @@ return sd;
  * Returns a Pareto distribution.
  *   Params: {:scale ∈ ℝ > 0, :shape ∈ ℝ > 0}
  */
-kixi.stats.distribution.pareto = (function kixi$stats$distribution$pareto(p__42003){
-var map__42004 = p__42003;
-var map__42004__$1 = cljs.core.__destructure_map(map__42004);
-var scale = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__42004__$1,new cljs.core.Keyword(null,"scale","scale",-230427353));
-var shape = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__42004__$1,new cljs.core.Keyword(null,"shape","shape",1190694006));
+kixi.stats.distribution.pareto = (function kixi$stats$distribution$pareto(p__44741){
+var map__44742 = p__44741;
+var map__44742__$1 = cljs.core.__destructure_map(map__44742);
+var scale = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44742__$1,new cljs.core.Keyword(null,"scale","scale",-230427353));
+var shape = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44742__$1,new cljs.core.Keyword(null,"shape","shape",1190694006));
 if((((scale > (0))) && ((shape > (0))))){
 } else {
 throw (new Error(["Assert failed: ",["Scale (",cljs.core.str.cljs$core$IFn$_invoke$arity$1(scale),") and shape (",cljs.core.str.cljs$core$IFn$_invoke$arity$1(shape),") must be positive."].join(''),"\n","(and (pos? scale) (pos? shape))"].join('')));
@@ -1957,8 +1957,8 @@ return kixi.stats.distribution.__GT_Pareto(scale,shape);
  *   An optional seed long will ensure deterministic results
  */
 kixi.stats.distribution.draw = (function kixi$stats$distribution$draw(var_args){
-var G__42031 = arguments.length;
-switch (G__42031) {
+var G__44744 = arguments.length;
+switch (G__44744) {
 case 1:
 return kixi.stats.distribution.draw.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -1977,10 +1977,10 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 return kixi.stats.distribution.draw.cljs$core$IFn$_invoke$arity$2(distribution,cljs.core.PersistentArrayMap.EMPTY);
 }));
 
-(kixi.stats.distribution.draw.cljs$core$IFn$_invoke$arity$2 = (function (distribution,p__42036){
-var map__42038 = p__42036;
-var map__42038__$1 = cljs.core.__destructure_map(map__42038);
-var seed = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__42038__$1,new cljs.core.Keyword(null,"seed","seed",68613327));
+(kixi.stats.distribution.draw.cljs$core$IFn$_invoke$arity$2 = (function (distribution,p__44745){
+var map__44746 = p__44745;
+var map__44746__$1 = cljs.core.__destructure_map(map__44746);
+var seed = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44746__$1,new cljs.core.Keyword(null,"seed","seed",68613327));
 var rng = (cljs.core.truth_(seed)?clojure.test.check.random.make_random.cljs$core$IFn$_invoke$arity$1(seed):clojure.test.check.random.make_random.cljs$core$IFn$_invoke$arity$0());
 return kixi.stats.protocols.sample_1(distribution,rng);
 }));
@@ -1992,8 +1992,8 @@ return kixi.stats.protocols.sample_1(distribution,rng);
  *   An optional seed long will ensure deterministic results
  */
 kixi.stats.distribution.sample = (function kixi$stats$distribution$sample(var_args){
-var G__42045 = arguments.length;
-switch (G__42045) {
+var G__44751 = arguments.length;
+switch (G__44751) {
 case 2:
 return kixi.stats.distribution.sample.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -2012,10 +2012,10 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 return kixi.stats.distribution.sample.cljs$core$IFn$_invoke$arity$3(n,distribution,cljs.core.PersistentArrayMap.EMPTY);
 }));
 
-(kixi.stats.distribution.sample.cljs$core$IFn$_invoke$arity$3 = (function (n,distribution,p__42049){
-var map__42050 = p__42049;
-var map__42050__$1 = cljs.core.__destructure_map(map__42050);
-var seed = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__42050__$1,new cljs.core.Keyword(null,"seed","seed",68613327));
+(kixi.stats.distribution.sample.cljs$core$IFn$_invoke$arity$3 = (function (n,distribution,p__44752){
+var map__44753 = p__44752;
+var map__44753__$1 = cljs.core.__destructure_map(map__44753);
+var seed = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44753__$1,new cljs.core.Keyword(null,"seed","seed",68613327));
 var rng = (cljs.core.truth_(seed)?clojure.test.check.random.make_random.cljs$core$IFn$_invoke$arity$1(seed):clojure.test.check.random.make_random.cljs$core$IFn$_invoke$arity$0());
 return kixi.stats.protocols.sample_n(distribution,n,rng);
 }));
@@ -2029,8 +2029,8 @@ return kixi.stats.protocols.sample_n(distribution,n,rng);
  *   An optional seed long will ensure deterministic results
  */
 kixi.stats.distribution.sample_summary = (function kixi$stats$distribution$sample_summary(var_args){
-var G__42055 = arguments.length;
-switch (G__42055) {
+var G__44755 = arguments.length;
+switch (G__44755) {
 case 2:
 return kixi.stats.distribution.sample_summary.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -2049,10 +2049,10 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 return kixi.stats.distribution.sample_summary.cljs$core$IFn$_invoke$arity$3(n,distribution,cljs.core.PersistentArrayMap.EMPTY);
 }));
 
-(kixi.stats.distribution.sample_summary.cljs$core$IFn$_invoke$arity$3 = (function (n,distribution,p__42064){
-var map__42065 = p__42064;
-var map__42065__$1 = cljs.core.__destructure_map(map__42065);
-var seed = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__42065__$1,new cljs.core.Keyword(null,"seed","seed",68613327));
+(kixi.stats.distribution.sample_summary.cljs$core$IFn$_invoke$arity$3 = (function (n,distribution,p__44756){
+var map__44757 = p__44756;
+var map__44757__$1 = cljs.core.__destructure_map(map__44757);
+var seed = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44757__$1,new cljs.core.Keyword(null,"seed","seed",68613327));
 var rng = (cljs.core.truth_(seed)?clojure.test.check.random.make_random.cljs$core$IFn$_invoke$arity$1(seed):clojure.test.check.random.make_random.cljs$core$IFn$_invoke$arity$0());
 return kixi.stats.protocols.sample_frequencies(distribution,n,rng);
 }));
@@ -2060,8 +2060,8 @@ return kixi.stats.protocols.sample_frequencies(distribution,n,rng);
 (kixi.stats.distribution.sample_summary.cljs$lang$maxFixedArity = 3);
 
 kixi.stats.distribution.critical_value = (function kixi$stats$distribution$critical_value(var_args){
-var G__42073 = arguments.length;
-switch (G__42073) {
+var G__44763 = arguments.length;
+switch (G__44763) {
 case 1:
 return kixi.stats.distribution.critical_value.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -2089,13 +2089,13 @@ return kixi.stats.distribution.critical_value.cljs$core$IFn$_invoke$arity$3(dist
 }));
 
 (kixi.stats.distribution.critical_value.cljs$core$IFn$_invoke$arity$3 = (function (distribution,alpha,tails){
-var G__42079 = tails;
-var G__42079__$1 = (((G__42079 instanceof cljs.core.Keyword))?G__42079.fqn:null);
-switch (G__42079__$1) {
+var G__44770 = tails;
+var G__44770__$1 = (((G__44770 instanceof cljs.core.Keyword))?G__44770.fqn:null);
+switch (G__44770__$1) {
 case "<>":
-var G__42081 = distribution;
-var G__42083 = ((1) - (0.5 * alpha));
-return (kixi.stats.distribution.quantile.cljs$core$IFn$_invoke$arity$2 ? kixi.stats.distribution.quantile.cljs$core$IFn$_invoke$arity$2(G__42081,G__42083) : kixi.stats.distribution.quantile.call(null,G__42081,G__42083));
+var G__44771 = distribution;
+var G__44772 = ((1) - (0.5 * alpha));
+return (kixi.stats.distribution.quantile.cljs$core$IFn$_invoke$arity$2 ? kixi.stats.distribution.quantile.cljs$core$IFn$_invoke$arity$2(G__44771,G__44772) : kixi.stats.distribution.quantile.call(null,G__44771,G__44772));
 
 break;
 case "<":
@@ -2103,13 +2103,13 @@ return (kixi.stats.distribution.quantile.cljs$core$IFn$_invoke$arity$2 ? kixi.st
 
 break;
 case ">":
-var G__42085 = distribution;
-var G__42086 = ((1) - alpha);
-return (kixi.stats.distribution.quantile.cljs$core$IFn$_invoke$arity$2 ? kixi.stats.distribution.quantile.cljs$core$IFn$_invoke$arity$2(G__42085,G__42086) : kixi.stats.distribution.quantile.call(null,G__42085,G__42086));
+var G__44773 = distribution;
+var G__44774 = ((1) - alpha);
+return (kixi.stats.distribution.quantile.cljs$core$IFn$_invoke$arity$2 ? kixi.stats.distribution.quantile.cljs$core$IFn$_invoke$arity$2(G__44773,G__44774) : kixi.stats.distribution.quantile.call(null,G__44773,G__44774));
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__42079__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__44770__$1)].join('')));
 
 }
 }));

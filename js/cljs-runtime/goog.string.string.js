@@ -232,11 +232,13 @@ goog.string.truncateMiddle = function(str, chars, opt_protectEscapedCharacters, 
     const endPoint = str.length - opt_trailingChars;
     const startPoint = chars - opt_trailingChars;
     str = str.substring(0, startPoint) + "..." + str.substring(endPoint);
-  } else if (str.length > chars) {
-    let half = Math.floor(chars / 2);
-    const endPos = str.length - half;
-    half += chars % 2;
-    str = str.substring(0, half) + "..." + str.substring(endPos);
+  } else {
+    if (str.length > chars) {
+      let half = Math.floor(chars / 2);
+      const endPos = str.length - half;
+      half += chars % 2;
+      str = str.substring(0, half) + "..." + str.substring(endPos);
+    }
   }
   if (opt_protectEscapedCharacters) {
     str = goog.string.htmlEscape(str);
@@ -411,8 +413,10 @@ goog.string.splitLimit = function(str, separator, limit) {
 goog.string.lastComponent = function(str, separators) {
   if (!separators) {
     return str;
-  } else if (typeof separators == "string") {
-    separators = [separators];
+  } else {
+    if (typeof separators == "string") {
+      separators = [separators];
+    }
   }
   let lastSeparatorIndex = -1;
   for (let i = 0; i < separators.length; i++) {

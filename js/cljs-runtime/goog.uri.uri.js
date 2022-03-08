@@ -28,18 +28,20 @@ goog.Uri = function(opt_uri, opt_ignoreCase) {
     this.setPath(opt_uri.getPath());
     this.setQueryData(opt_uri.getQueryData().clone());
     this.setFragment(opt_uri.getFragment());
-  } else if (opt_uri && (m = goog.uri.utils.split(String(opt_uri)))) {
-    this.ignoreCase_ = !!opt_ignoreCase;
-    this.setScheme(m[goog.uri.utils.ComponentIndex.SCHEME] || "", true);
-    this.setUserInfo(m[goog.uri.utils.ComponentIndex.USER_INFO] || "", true);
-    this.setDomain(m[goog.uri.utils.ComponentIndex.DOMAIN] || "", true);
-    this.setPort(m[goog.uri.utils.ComponentIndex.PORT]);
-    this.setPath(m[goog.uri.utils.ComponentIndex.PATH] || "", true);
-    this.setQueryData(m[goog.uri.utils.ComponentIndex.QUERY_DATA] || "", true);
-    this.setFragment(m[goog.uri.utils.ComponentIndex.FRAGMENT] || "", true);
   } else {
-    this.ignoreCase_ = !!opt_ignoreCase;
-    this.queryData_ = new goog.Uri.QueryData(null, this.ignoreCase_);
+    if (opt_uri && (m = goog.uri.utils.split(String(opt_uri)))) {
+      this.ignoreCase_ = !!opt_ignoreCase;
+      this.setScheme(m[goog.uri.utils.ComponentIndex.SCHEME] || "", true);
+      this.setUserInfo(m[goog.uri.utils.ComponentIndex.USER_INFO] || "", true);
+      this.setDomain(m[goog.uri.utils.ComponentIndex.DOMAIN] || "", true);
+      this.setPort(m[goog.uri.utils.ComponentIndex.PORT]);
+      this.setPath(m[goog.uri.utils.ComponentIndex.PATH] || "", true);
+      this.setQueryData(m[goog.uri.utils.ComponentIndex.QUERY_DATA] || "", true);
+      this.setFragment(m[goog.uri.utils.ComponentIndex.FRAGMENT] || "", true);
+    } else {
+      this.ignoreCase_ = !!opt_ignoreCase;
+      this.queryData_ = new goog.Uri.QueryData(null, this.ignoreCase_);
+    }
   }
 };
 goog.Uri.RANDOM_PARAM = goog.uri.utils.StandardQueryParam.RANDOM;
@@ -322,31 +324,35 @@ goog.Uri.resolve = function(base, rel) {
 goog.Uri.removeDotSegments = function(path) {
   if (path == ".." || path == ".") {
     return "";
-  } else if (!goog.string.contains(path, "./") && !goog.string.contains(path, "/.")) {
-    return path;
   } else {
-    var leadingSlash = goog.string.startsWith(path, "/");
-    var segments = path.split("/");
-    var out = [];
-    for (var pos = 0; pos < segments.length;) {
-      var segment = segments[pos++];
-      if (segment == ".") {
-        if (leadingSlash && pos == segments.length) {
-          out.push("");
+    if (!goog.string.contains(path, "./") && !goog.string.contains(path, "/.")) {
+      return path;
+    } else {
+      var leadingSlash = goog.string.startsWith(path, "/");
+      var segments = path.split("/");
+      var out = [];
+      for (var pos = 0; pos < segments.length;) {
+        var segment = segments[pos++];
+        if (segment == ".") {
+          if (leadingSlash && pos == segments.length) {
+            out.push("");
+          }
+        } else {
+          if (segment == "..") {
+            if (out.length > 1 || out.length == 1 && out[0] != "") {
+              out.pop();
+            }
+            if (leadingSlash && pos == segments.length) {
+              out.push("");
+            }
+          } else {
+            out.push(segment);
+            leadingSlash = true;
+          }
         }
-      } else if (segment == "..") {
-        if (out.length > 1 || out.length == 1 && out[0] != "") {
-          out.pop();
-        }
-        if (leadingSlash && pos == segments.length) {
-          out.push("");
-        }
-      } else {
-        out.push(segment);
-        leadingSlash = true;
       }
+      return out.join("/");
     }
-    return out.join("/");
   }
 };
 goog.Uri.decodeOrEmpty_ = function(val, opt_preserveReserved) {

@@ -20,10 +20,12 @@ goog.exportPath_ = function(name, object, overwriteImplicit, objectToExportTo) {
       } else {
         cur[part] = object;
       }
-    } else if (cur[part] && cur[part] !== Object.prototype[part]) {
-      cur = cur[part];
     } else {
-      cur = cur[part] = {};
+      if (cur[part] && cur[part] !== Object.prototype[part]) {
+        cur = cur[part];
+      } else {
+        cur = cur[part] = {};
+      }
     }
   }
 };
@@ -34,8 +36,10 @@ goog.define = function(name, defaultValue) {
     var defines = goog.global.CLOSURE_DEFINES;
     if (uncompiledDefines && uncompiledDefines.nodeType === undefined && Object.prototype.hasOwnProperty.call(uncompiledDefines, name)) {
       value = uncompiledDefines[name];
-    } else if (defines && defines.nodeType === undefined && Object.prototype.hasOwnProperty.call(defines, name)) {
-      value = defines[name];
+    } else {
+      if (defines && defines.nodeType === undefined && Object.prototype.hasOwnProperty.call(defines, name)) {
+        value = defines[name];
+      }
     }
   }
   return value;
@@ -111,9 +115,11 @@ goog.module.getInternal_ = function(name) {
   if (!COMPILED) {
     if (name in goog.loadedModules_) {
       return goog.loadedModules_[name].exports;
-    } else if (!goog.implicitNamespaces_[name]) {
-      var ns = goog.getObjectByName(name);
-      return ns != null ? ns : null;
+    } else {
+      if (!goog.implicitNamespaces_[name]) {
+        var ns = goog.getObjectByName(name);
+        return ns != null ? ns : null;
+      }
     }
   }
   return null;
@@ -220,13 +226,15 @@ goog.require = function(namespace) {
       if (goog.isInModuleLoader_()) {
         return goog.module.getInternal_(namespace);
       }
-    } else if (goog.ENABLE_DEBUG_LOADER) {
-      var moduleLoaderState = goog.moduleLoaderState_;
-      goog.moduleLoaderState_ = null;
-      try {
-        goog.debugLoader_.load_(namespace);
-      } finally {
-        goog.moduleLoaderState_ = moduleLoaderState;
+    } else {
+      if (goog.ENABLE_DEBUG_LOADER) {
+        var moduleLoaderState = goog.moduleLoaderState_;
+        goog.moduleLoaderState_ = null;
+        try {
+          goog.debugLoader_.load_(namespace);
+        } finally {
+          goog.moduleLoaderState_ = moduleLoaderState;
+        }
       }
     }
     return null;
@@ -275,18 +283,22 @@ goog.loadModule = function(moduleDef) {
     var exports = origExports;
     if (typeof moduleDef === "function") {
       exports = moduleDef.call(undefined, exports);
-    } else if (typeof moduleDef === "string") {
-      exports = goog.loadModuleFromSource_.call(undefined, exports, moduleDef);
     } else {
-      throw new Error("Invalid module definition");
+      if (typeof moduleDef === "string") {
+        exports = goog.loadModuleFromSource_.call(undefined, exports, moduleDef);
+      } else {
+        throw new Error("Invalid module definition");
+      }
     }
     var moduleName = goog.moduleLoaderState_.moduleName;
     if (typeof moduleName === "string" && moduleName) {
       if (goog.moduleLoaderState_.declareLegacyNamespace) {
         var isDefaultExport = origExports !== exports;
         goog.constructNamespace_(moduleName, exports, isDefaultExport);
-      } else if (goog.SEAL_MODULE_EXPORTS && Object.seal && typeof exports == "object" && exports != null) {
-        Object.seal(exports);
+      } else {
+        if (goog.SEAL_MODULE_EXPORTS && Object.seal && typeof exports == "object" && exports != null) {
+          Object.seal(exports);
+        }
       }
       var data = {exports:exports, type:goog.ModuleType.GOOG, moduleId:goog.moduleLoaderState_.moduleName};
       goog.loadedModules_[moduleName] = data;
@@ -307,10 +319,12 @@ goog.normalizePath_ = function(path) {
   while (i < components.length) {
     if (components[i] == ".") {
       components.splice(i, 1);
-    } else if (i && components[i] == ".." && components[i - 1] && components[i - 1] != "..") {
-      components.splice(--i, 2);
     } else {
-      i++;
+      if (i && components[i] == ".." && components[i - 1] && components[i - 1] != "..") {
+        components.splice(--i, 2);
+      } else {
+        i++;
+      }
     }
   }
   return components.join("/");
@@ -341,7 +355,7 @@ goog.transpile_ = function(code, path, target) {
     var transpilerCode = goog.loadFileSync_(transpilerPath);
     if (transpilerCode) {
       (function() {
-        (0,eval)(transpilerCode + "\n//# sourceURL\x3d" + transpilerPath);
+        (0, eval)(transpilerCode + "\n//# sourceURL\x3d" + transpilerPath);
       }).call(goog.global);
       if (goog.global["$gwtExport"] && goog.global["$gwtExport"]["$jscomp"] && !goog.global["$gwtExport"]["$jscomp"]["transpile"]) {
         throw new Error('The transpiler did not properly export the "transpile" ' + "method. $gwtExport: " + JSON.stringify(goog.global["$gwtExport"]));
@@ -409,8 +423,10 @@ goog.cloneObject = function(obj) {
     }
     if (typeof Map !== "undefined" && obj instanceof Map) {
       return new Map(obj);
-    } else if (typeof Set !== "undefined" && obj instanceof Set) {
-      return new Set(obj);
+    } else {
+      if (typeof Set !== "undefined" && obj instanceof Set) {
+        return new Set(obj);
+      }
     }
     var clone = type == "array" ? [] : {};
     for (var key in obj) {
@@ -465,7 +481,7 @@ goog.now = function() {
   return Date.now();
 };
 goog.globalEval = function(script) {
-  (0,eval)(script);
+  (0, eval)(script);
 };
 goog.cssNameMapping_;
 goog.cssNameMappingStyle_;
@@ -640,8 +656,10 @@ if (!COMPILED && goog.DEPENDENCIES_ENABLED) {
     if (goog.global.CLOSURE_BASE_PATH != undefined && typeof goog.global.CLOSURE_BASE_PATH === "string") {
       goog.basePath = goog.global.CLOSURE_BASE_PATH;
       return;
-    } else if (!goog.inHtmlDocument_()) {
-      return;
+    } else {
+      if (!goog.inHtmlDocument_()) {
+        return;
+      }
     }
     var doc = goog.global.document;
     var currentScript = doc.currentScript;
@@ -673,12 +691,14 @@ if (!COMPILED && goog.DEPENDENCIES_ENABLED) {
     function addNewerLanguageTranspilationCheck(modeName, isSupported) {
       if (transpilationRequiredForAllLaterModes) {
         requiresTranspilation[modeName] = true;
-      } else if (isSupported()) {
-        transpilationTarget = modeName;
-        requiresTranspilation[modeName] = false;
       } else {
-        requiresTranspilation[modeName] = true;
-        transpilationRequiredForAllLaterModes = true;
+        if (isSupported()) {
+          transpilationTarget = modeName;
+          requiresTranspilation[modeName] = false;
+        } else {
+          requiresTranspilation[modeName] = true;
+          transpilationRequiredForAllLaterModes = true;
+        }
       }
     }
     function evalCheck(code) {
@@ -721,20 +741,26 @@ if (!COMPILED && goog.DEPENDENCIES_ENABLED) {
   goog.Transpiler.prototype.needsTranspile = function(lang, module) {
     if (goog.TRANSPILE == "always") {
       return true;
-    } else if (goog.TRANSPILE == "never") {
-      return false;
-    } else if (!this.requiresTranspilation_) {
-      var obj = this.createRequiresTranspilation_();
-      this.requiresTranspilation_ = obj.map;
-      this.transpilationTarget_ = this.transpilationTarget_ || obj.target;
+    } else {
+      if (goog.TRANSPILE == "never") {
+        return false;
+      } else {
+        if (!this.requiresTranspilation_) {
+          var obj = this.createRequiresTranspilation_();
+          this.requiresTranspilation_ = obj.map;
+          this.transpilationTarget_ = this.transpilationTarget_ || obj.target;
+        }
+      }
     }
     if (lang in this.requiresTranspilation_) {
       if (this.requiresTranspilation_[lang]) {
         return true;
-      } else if (goog.inHtmlDocument_() && module == "es6" && !("noModule" in goog.global.document.createElement("script"))) {
-        return true;
       } else {
-        return false;
+        if (goog.inHtmlDocument_() && module == "es6" && !("noModule" in goog.global.document.createElement("script"))) {
+          return true;
+        } else {
+          return false;
+        }
       }
     } else {
       throw new Error("Unknown language mode: " + lang);
@@ -945,10 +971,12 @@ if (!COMPILED && goog.DEPENDENCIES_ENABLED) {
   goog.DebugLoader_.prototype.getPathFromDeps_ = function(absPathOrId) {
     if (absPathOrId in this.idToPath_) {
       return this.idToPath_[absPathOrId];
-    } else if (absPathOrId in this.dependencies_) {
-      return absPathOrId;
     } else {
-      return null;
+      if (absPathOrId in this.dependencies_) {
+        return absPathOrId;
+      } else {
+        return null;
+      }
     }
   };
   goog.DebugLoader_.prototype.defer_ = function(dependency, callback) {
@@ -1346,17 +1374,19 @@ if (!COMPILED && goog.DEPENDENCIES_ENABLED) {
   goog.DependencyFactory.prototype.createDependency = function(path, relativePath, provides, requires, loadFlags, needsTranspile) {
     if (loadFlags["module"] == goog.ModuleType.GOOG) {
       return new goog.GoogModuleDependency(path, relativePath, provides, requires, loadFlags, needsTranspile, this.transpiler);
-    } else if (needsTranspile) {
-      return new goog.TranspiledDependency(path, relativePath, provides, requires, loadFlags, this.transpiler);
     } else {
-      if (loadFlags["module"] == goog.ModuleType.ES6) {
-        if (goog.TRANSPILE == "never" && goog.ASSUME_ES_MODULES_TRANSPILED) {
-          return new goog.PreTranspiledEs6ModuleDependency(path, relativePath, provides, requires, loadFlags);
-        } else {
-          return new goog.Es6ModuleDependency(path, relativePath, provides, requires, loadFlags);
-        }
+      if (needsTranspile) {
+        return new goog.TranspiledDependency(path, relativePath, provides, requires, loadFlags, this.transpiler);
       } else {
-        return new goog.Dependency(path, relativePath, provides, requires, loadFlags);
+        if (loadFlags["module"] == goog.ModuleType.ES6) {
+          if (goog.TRANSPILE == "never" && goog.ASSUME_ES_MODULES_TRANSPILED) {
+            return new goog.PreTranspiledEs6ModuleDependency(path, relativePath, provides, requires, loadFlags);
+          } else {
+            return new goog.Es6ModuleDependency(path, relativePath, provides, requires, loadFlags);
+          }
+        } else {
+          return new goog.Dependency(path, relativePath, provides, requires, loadFlags);
+        }
       }
     }
   };

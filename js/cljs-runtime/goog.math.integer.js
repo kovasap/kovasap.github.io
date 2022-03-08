@@ -25,16 +25,18 @@ goog.math.Integer.fromInt = function(value) {
 goog.math.Integer.fromNumber = function(value) {
   if (isNaN(value) || !isFinite(value)) {
     return goog.math.Integer.ZERO;
-  } else if (value < 0) {
-    return goog.math.Integer.fromNumber(-value).negate();
   } else {
-    var bits = [];
-    var pow = 1;
-    for (var i = 0; value >= pow; i++) {
-      bits[i] = value / pow | 0;
-      pow *= goog.math.Integer.TWO_PWR_32_DBL_;
+    if (value < 0) {
+      return goog.math.Integer.fromNumber(-value).negate();
+    } else {
+      var bits = [];
+      var pow = 1;
+      for (var i = 0; value >= pow; i++) {
+        bits[i] = value / pow | 0;
+        pow *= goog.math.Integer.TWO_PWR_32_DBL_;
+      }
+      return new goog.math.Integer(bits, 0);
     }
-    return new goog.math.Integer(bits, 0);
   }
 };
 goog.math.Integer.fromBits = function(bits) {
@@ -51,8 +53,10 @@ goog.math.Integer.fromString = function(str, opt_radix) {
   }
   if (str.charAt(0) == "-") {
     return goog.math.Integer.fromString(str.substring(1), radix).negate();
-  } else if (str.indexOf("-") >= 0) {
-    throw new Error('number format error: interior "-" character');
+  } else {
+    if (str.indexOf("-") >= 0) {
+      throw new Error('number format error: interior "-" character');
+    }
   }
   var radixToPower = goog.math.Integer.fromNumber(Math.pow(radix, 8));
   var result = goog.math.Integer.ZERO;
@@ -96,8 +100,10 @@ goog.math.Integer.prototype.toString = function(opt_radix) {
   }
   if (this.isZero()) {
     return "0";
-  } else if (this.isNegative()) {
-    return "-" + this.negate().toString(radix);
+  } else {
+    if (this.isNegative()) {
+      return "-" + this.negate().toString(radix);
+    }
   }
   var radixToPower = goog.math.Integer.fromNumber(Math.pow(radix, 6));
   var rem = this;
@@ -120,10 +126,12 @@ goog.math.Integer.prototype.toString = function(opt_radix) {
 goog.math.Integer.prototype.getBits = function(index) {
   if (index < 0) {
     return 0;
-  } else if (index < this.bits_.length) {
-    return this.bits_[index];
   } else {
-    return this.sign_;
+    if (index < this.bits_.length) {
+      return this.bits_[index];
+    } else {
+      return this.sign_;
+    }
   }
 };
 goog.math.Integer.prototype.getBitsUnsigned = function(index) {
@@ -181,10 +189,12 @@ goog.math.Integer.prototype.compare = function(other) {
   var diff = this.subtract(other);
   if (diff.isNegative()) {
     return -1;
-  } else if (diff.isZero()) {
-    return 0;
   } else {
-    return +1;
+    if (diff.isZero()) {
+      return 0;
+    } else {
+      return +1;
+    }
   }
 };
 goog.math.Integer.prototype.shorten = function(numBits) {
@@ -235,8 +245,10 @@ goog.math.Integer.prototype.subtract = function(other) {
 goog.math.Integer.prototype.multiply = function(other) {
   if (this.isZero()) {
     return goog.math.Integer.ZERO;
-  } else if (other.isZero()) {
-    return goog.math.Integer.ZERO;
+  } else {
+    if (other.isZero()) {
+      return goog.math.Integer.ZERO;
+    }
   }
   if (this.isNegative()) {
     if (other.isNegative()) {
@@ -244,8 +256,10 @@ goog.math.Integer.prototype.multiply = function(other) {
     } else {
       return this.negate().multiply(other).negate();
     }
-  } else if (other.isNegative()) {
-    return this.multiply(other.negate()).negate();
+  } else {
+    if (other.isNegative()) {
+      return this.multiply(other.negate()).negate();
+    }
   }
   if (this.lessThan(goog.math.Integer.TWO_PWR_24_) && other.lessThan(goog.math.Integer.TWO_PWR_24_)) {
     return goog.math.Integer.fromNumber(this.toNumber() * other.toNumber());
@@ -323,15 +337,19 @@ goog.math.Integer.DivisionResult = function(quotient, remainder) {
 goog.math.Integer.prototype.divideAndRemainder = function(other) {
   if (other.isZero()) {
     throw new Error("division by zero");
-  } else if (this.isZero()) {
-    return new goog.math.Integer.DivisionResult(goog.math.Integer.ZERO, goog.math.Integer.ZERO);
+  } else {
+    if (this.isZero()) {
+      return new goog.math.Integer.DivisionResult(goog.math.Integer.ZERO, goog.math.Integer.ZERO);
+    }
   }
   if (this.isNegative()) {
     var result = this.negate().divideAndRemainder(other);
     return new goog.math.Integer.DivisionResult(result.quotient.negate(), result.remainder.negate());
-  } else if (other.isNegative()) {
-    var result = this.divideAndRemainder(other.negate());
-    return new goog.math.Integer.DivisionResult(result.quotient.negate(), result.remainder);
+  } else {
+    if (other.isNegative()) {
+      var result = this.divideAndRemainder(other.negate());
+      return new goog.math.Integer.DivisionResult(result.quotient.negate(), result.remainder);
+    }
   }
   if (this.bits_.length > 30) {
     return this.slowDivide_(other);

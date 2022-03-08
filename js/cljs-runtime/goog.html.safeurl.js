@@ -182,10 +182,12 @@ goog.html.SafeUrl.sanitize = function(url) {
 goog.html.SafeUrl.sanitizeAssertUnchanged = function(url, opt_allowDataUrl) {
   if (url instanceof goog.html.SafeUrl) {
     return url;
-  } else if (typeof url == "object" && url.implementsGoogStringTypedString) {
-    url = url.getTypedStringValue();
   } else {
-    url = String(url);
+    if (typeof url == "object" && url.implementsGoogStringTypedString) {
+      url = url.getTypedStringValue();
+    } else {
+      url = String(url);
+    }
   }
   if (opt_allowDataUrl && /^data:/i.test(url)) {
     var safeUrl = goog.html.SafeUrl.fromDataUrl(url);

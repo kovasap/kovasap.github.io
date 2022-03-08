@@ -594,8 +594,10 @@ goog.loadModule(function(exports) {
       n %= array.length;
       if (n > 0) {
         Array.prototype.unshift.apply(array, array.splice(-n, n));
-      } else if (n < 0) {
-        Array.prototype.push.apply(array, array.splice(0, -n));
+      } else {
+        if (n < 0) {
+          Array.prototype.push.apply(array, array.splice(0, -n));
+        }
       }
     }
     return array;

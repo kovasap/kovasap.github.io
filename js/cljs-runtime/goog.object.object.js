@@ -182,8 +182,10 @@ goog.loadModule(function(exports) {
     }
     if (typeof Map !== "undefined" && obj instanceof Map) {
       return new Map(obj);
-    } else if (typeof Set !== "undefined" && obj instanceof Set) {
-      return new Set(obj);
+    } else {
+      if (typeof Set !== "undefined" && obj instanceof Set) {
+        return new Set(obj);
+      }
     }
     const clone = Array.isArray(obj) ? [] : typeof ArrayBuffer === "function" && typeof ArrayBuffer.isView === "function" && ArrayBuffer.isView(obj) && !(obj instanceof DataView) ? new obj.constructor(obj.length) : {};
     for (const key in obj) {

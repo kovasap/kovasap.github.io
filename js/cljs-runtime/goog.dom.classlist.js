@@ -14,8 +14,10 @@ goog.dom.classlist.set = function(element, className) {
   if (typeof element.className == "string") {
     element.className = className;
     return;
-  } else if (element.setAttribute) {
-    element.setAttribute("class", className);
+  } else {
+    if (element.setAttribute) {
+      element.setAttribute("class", className);
+    }
   }
 };
 goog.dom.classlist.contains = function(element, className) {
