@@ -17,7 +17,7 @@
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.69a4a50d7658e64b802db581ef2cf19801fb87d9e398320ff2fcc19589a55e81.css" integrity="sha256-aaSlDXZY5kuALbWB7yzxmAH7h9njmDIP8vzBlYmlXoE=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.b934a0e6cb148c450079c271ee2cba45da8e6c840986210f615f0b8d9e0734eb.js" integrity="sha256-uTSg5ssUjEUAecJx7iy6RdqObIQJhiEPYV8LjZ4HNOs=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.fa5b5562e7804eb4bc985d8404fcf600dfd2d63b1d3020acc743ccc46c8520b8.js" integrity="sha256-&#43;ltVYueATrS8mF2EBPz2AN/S1jsdMCCsx0PMxGyFILg=" crossorigin="anonymous"></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -271,8 +271,8 @@ https://github.com/alex-shpak/hugo-book
         "/docs/lifestyle-optimizations/android-apps/">Android
         Apps</a>
         <li><a href=
-        "/docs/lifestyle-optimizations/hang-drying-cloths/">Hang
-        Drying Cloths</a>
+        "/docs/lifestyle-optimizations/hang-drying-clothes/">Hang
+        Drying Clothes</a>
         <li><a href=
         "/docs/lifestyle-optimizations/home-energy-monitoring/">Home
         Energy Monitoring</a>
@@ -285,9 +285,6 @@ https://github.com/alex-shpak/hugo-book
         <li><a href=
         "/docs/lifestyle-optimizations/no-ad-youtube-viewing/">No
         Ad Youtube Viewing</a>
-        <li><a href=
-        "/docs/lifestyle-optimizations/personal-data-tracking/">Personal
-        Data Tracking</a>
         <li><a href=
         "/docs/lifestyle-optimizations/phone-case/">Phone Case</a>
         <li><a href=
@@ -465,6 +462,7 @@ https://github.com/alex-shpak/hugo-book
 <nav id="TableOfContents">
   <ul>
     <li><a href="#why">Why?</a></li>
+    <li><a href="#software-tools">Software Tools</a></li>
     <li><a href="#general-methods">General Methods</a></li>
     <li><a href="#inputs">Inputs</a>
       <ul>
@@ -494,6 +492,8 @@ https://github.com/alex-shpak/hugo-book
         <li><a href="#tracking-fartsburpspoops">Tracking Farts/Burps/Poops</a></li>
       </ul>
     </li>
+    <li><a href="#things-to-try">Things to try</a></li>
+    <li><a href="#inspirational-projects">Inspirational Projects</a></li>
   </ul>
 </nav>
 
@@ -510,7 +510,7 @@ https://github.com/alex-shpak/hugo-book
   Tracking Health
   <a class="anchor" href="#tracking-health">#</a>
 </h1>
-<p><img src="xkcd_health_stats.png" alt="Health Stats XKCD" /></p>
+<p><img src="/docs/health-and-longevity/xkcd_health_stats.png" alt="Health Stats XKCD" /></p>
 <h2 id="why">
   Why?
   <a class="anchor" href="#why">#</a>
@@ -527,6 +527,148 @@ both studies and anecdotes can be systematically flawed.</p>
 possible time is by self-experimenting to see what behaviors work best for you.
 Of course, using anecdotes/epidemiology/randomized controlled trials to inform
 what to try will greatly accelerate your ability to settle on the best habits.</p>
+<h2 id="software-tools">
+  Software Tools
+  <a class="anchor" href="#software-tools">#</a>
+</h2>
+<p>This table summarizes the functionalities of different software tools I&rsquo;ve
+tried for personal data tracking. Here are what the columns mean:</p>
+<p><strong>Data Entry/Export</strong>: Descriptions of how possible/easy it is to enter data
+into the tool and get it back out for custom storage or analysis. They use this
+legend:</p>
+<ul>
+<li>🚫 = Impossible</li>
+<li>⛏️ = Manual and Difficult</li>
+<li>🛠️ = Manual and Ergonomic</li>
+<li>🤖 = Automatic</li>
+</ul>
+<p><strong>Analysis</strong>: The tool provides some way to analyzer and visualize your data to
+see trends over time or other views into the data.</p>
+<p><strong>DB Comparison</strong>: The tool compares your data to external data sources as part
+of the visualization to help put said data into context (e.g. is my value too
+high or too low).</p>
+<p><strong>Recommendations</strong>: The tool makes specific recommendations about how you
+should behave given your input data.</p>
+<p>Each column value follows this legend:</p>
+<ul>
+<li>🚫 = Feature Doesn&rsquo;t Exist</li>
+<li>✔️ = Feature Available</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Specialty</th>
+<th>Data Entry</th>
+<th>Data Export</th>
+<th>Analysis</th>
+<th>DB Comparison</th>
+<th>Recommendations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://cronometer.com/">Cronometer</a></td>
+<td>Food</td>
+<td>🛠️</td>
+<td>🛠️</td>
+<td>✔️</td>
+<td>✔️</td>
+<td>🚫</td>
+</tr>
+<tr>
+<td><a href="https://getbitesnap.com/">Bitesnap</a></td>
+<td>Food</td>
+<td>🛠️</td>
+<td>🛠️</td>
+<td>✔️</td>
+<td>✔️</td>
+<td>🚫</td>
+</tr>
+<tr>
+<td><a href="https://sleep.urbandroid.org/">SleepAsAndroid</a></td>
+<td>Sleep</td>
+<td>🛠️+🤖</td>
+<td>🤖</td>
+<td>✔️</td>
+<td>🚫</td>
+<td>✔️</td>
+</tr>
+<tr>
+<td><a href="https://mementodatabase.com/">MomentoDB</a></td>
+<td>General Data</td>
+<td>🛠️</td>
+<td>🤖</td>
+<td>✔️</td>
+<td>🚫</td>
+<td>🚫</td>
+</tr>
+<tr>
+<td><a href="https://activitywatch.net/">ActivityWatch</a></td>
+<td>PC/Phone Usage</td>
+<td>🤖</td>
+<td>🛠️*</td>
+<td>✔️</td>
+<td>🚫</td>
+<td>🚫</td>
+</tr>
+<tr>
+<td><a href="https://drive.google.com">Google Drive</a></td>
+<td>General Data</td>
+<td>⛏️</td>
+<td>🤖</td>
+<td>🚫</td>
+<td>🚫</td>
+<td>🚫</td>
+</tr>
+<tr>
+<td><a href="https://gpslogger.app/">GPSLogger</a></td>
+<td>Location</td>
+<td>🤖</td>
+<td>🤖</td>
+<td>🚫</td>
+<td>🚫</td>
+<td>🚫</td>
+</tr>
+<tr>
+<td><a href="https://maps.google.com/timeline">Google Maps Timeline</a></td>
+<td>Location</td>
+<td>🤖</td>
+<td>⛏️</td>
+<td>✔️</td>
+<td>🚫</td>
+<td>🚫</td>
+</tr>
+<tr>
+<td><a href="https://www.google.com/fit/">Google Fit</a></td>
+<td>Fitness</td>
+<td>🛠️+🤖</td>
+<td>⛏️</td>
+<td>✔️</td>
+<td>🚫</td>
+<td>🚫</td>
+</tr>
+<tr>
+<td><a href="https://kovasap.github.io/biomarker-correlator.html">Biomarker Correlator</a></td>
+<td>General Data</td>
+<td>⛏️</td>
+<td>🚫</td>
+<td>✔️</td>
+<td>✔️</td>
+<td>🚫</td>
+</tr>
+<tr>
+<td><a href="https://www.young.ai/">Young.ai</a></td>
+<td>Health Data</td>
+<td>⛏️?</td>
+<td>⛏️?</td>
+<td>✔️</td>
+<td>✔️</td>
+<td>✔️</td>
+</tr>
+</tbody>
+</table>
+<p>*ActivityWatch automatic export is <a href="https://github.com/ActivityWatch/activitywatch/issues/35">in progress</a>.</p>
 <h2 id="general-methods">
   General Methods
   <a class="anchor" href="#general-methods">#</a>
@@ -561,6 +703,8 @@ Tracking them is useful to correlate them with outputs.</p>
 <li>Upsides: You get lots of data about even very specific micronutrients,
 helping spot difficiencies.</li>
 <li>Downsides: Difficult but doable, especially with food you don&rsquo;t prepare yourself.</li>
+<li>Tip: If using the free version <a href="https://pi-hole.net/">https://pi-hole.net/</a> will help make the ad
+experience less painful.</li>
 </ul>
 </li>
 <li>Taking pictures of food, using <a href="https://getbitesnap.com/">bitesnap</a>
@@ -634,6 +778,10 @@ vigorous and health for the longest possible time).</p>
   Resting Heart Rate
   <a class="anchor" href="#resting-heart-rate">#</a>
 </h3>
+<p>Notes for how to accomplish:</p>
+<ul>
+<li><a href="https://forum.quantifiedself.com/t/heart-rate-monitor-recommendations-for-24-7-continuous-monitoring-and-logging/327/57">https://forum.quantifiedself.com/t/heart-rate-monitor-recommendations-for-24-7-continuous-monitoring-and-logging/327/57</a></li>
+</ul>
 <p>Correlates with healthspan (citation needed).</p>
 <h3 id="heart-rate-variability">
   Heart Rate Variability
@@ -692,6 +840,21 @@ diffuses to other parts of the body.</p>
 <p>Would use <a href="https://mementodatabase.com/">Momentodb</a> for this.</p>
 <p>Might correlate with gut health somehow, which might correlate to longer
 healthspan?</p>
+<h2 id="things-to-try">
+  Things to try
+  <a class="anchor" href="#things-to-try">#</a>
+</h2>
+<ul>
+<li>Mood tracking via heart data: <a href="https://upmood.com/">https://upmood.com/</a></li>
+</ul>
+<h2 id="inspirational-projects">
+  Inspirational Projects
+  <a class="anchor" href="#inspirational-projects">#</a>
+</h2>
+<ul>
+<li>Time tracking: <a href="https://www.reddit.com/r/dataisbeautiful/comments/radi1e/oc_i_tracked_every_minute_of_every_day_for_the/">https://www.reddit.com/r/dataisbeautiful/comments/radi1e/oc_i_tracked_every_minute_of_every_day_for_the/</a></li>
+<li><a href="http://karpathy.github.io/2014/08/03/quantifying-productivity/">http://karpathy.github.io/2014/08/03/quantifying-productivity/</a></li>
+</ul>
 </article>
  
       
@@ -734,6 +897,7 @@ healthspan?</p>
 <nav id="TableOfContents">
   <ul>
     <li><a href="#why">Why?</a></li>
+    <li><a href="#software-tools">Software Tools</a></li>
     <li><a href="#general-methods">General Methods</a></li>
     <li><a href="#inputs">Inputs</a>
       <ul>
@@ -763,6 +927,8 @@ healthspan?</p>
         <li><a href="#tracking-fartsburpspoops">Tracking Farts/Burps/Poops</a></li>
       </ul>
     </li>
+    <li><a href="#things-to-try">Things to try</a></li>
+    <li><a href="#inspirational-projects">Inspirational Projects</a></li>
   </ul>
 </nav>
 

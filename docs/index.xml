@@ -596,10 +596,10 @@ Note that your capital gains themselves help determine your capital gains tax ra
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/lifestyle-optimizations/hang-drying-cloths/</link>
+      <link>https://kovasap.github.io/docs/lifestyle-optimizations/hang-drying-clothes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/hang-drying-cloths/</guid>
+      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/hang-drying-clothes/</guid>
       <description>Hang (Air) Drying Cloths #  I&amp;rsquo;ve found that hang drying cloths over using a cloths dryer has some pretty neat advantages:
 Less Work #  IF you hang dry your cloths in a place where they can stay indefinitely, then hang drying leads to this laundry workflow:
  Wash cloths Hang dry - this must happen now because cloths are wet! Easily find what you want to wear (since everything is hanging up) and wear it.</description>
@@ -642,19 +642,6 @@ On Linux #  I use Redshift to keep my screen at a low temperature (low 3000Ks).<
       
       <guid>https://kovasap.github.io/docs/lifestyle-optimizations/no-ad-youtube-viewing/</guid>
       <description>Ad-Free YouTube Viewing #  Sometimes YouTube videos are riddled with ads that make them hard to watch. To combat this issue, I created a small script that downloads the youtube video at the URL currently on your clipboard and plays it with your default video player. I made a hotkey to run this scipt in my window manager (QTile). So now when I want to watch a YouTube video I just need to copy the url to my clipboard and then hit &amp;ldquo;mod-y&amp;rdquo; on my keyboard (mod is the windows key)!</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/lifestyle-optimizations/personal-data-tracking/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/personal-data-tracking/</guid>
-      <description>Personal Data Management and Tracking Tools #  Google Drive #  Excellent generous free storage, with good integrations.
-Cronometer #  Excellent free and detailed food tracking. If you want to use the free plan, https://pi-hole.net/ is really helpful to make the app more usable.
-ActivityWatch #  Superb way to track computer and phone usage. Great UI and general feature set.
-See also https://karpathy.github.io/2014/08/03/quantifying-productivity/.
-Heart Rate Monitoring #  I have yet to find a good solution here.</description>
     </item>
     
     <item>
