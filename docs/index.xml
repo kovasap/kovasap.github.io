@@ -897,6 +897,16 @@ The library/tooling ecosystem around the language. Some very non-ergonomic langu
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/software-dev/functional-programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/software-dev/functional-programming/</guid>
+      <description>Functional Programming #  As I&amp;rsquo;ve writing I&amp;rsquo;ve done a few projects using Clojure, a functional programming lisp-like language. From those projects, I&amp;rsquo;ve noticed a few distinct differences between Clojure and Python, the procedural/object oriented language I&amp;rsquo;m most familiar with.
+Programming a function #  When getting down to implementing a specific function in Clojure vs Python, I&amp;rsquo;ve noticed that Clojure requires more upfront thought and searching to try to find the proper functions to compose together to achieve the desired functionality.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/software-dev/impact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
