@@ -41,8 +41,8 @@ function initClient() {
     discoveryDocs: DISCOVERY_DOCS,
     scope: SCOPES
   }).then(function () {
-    require("/biomarker-correlator/js/libs.js/main.js");
-    require("/biomarker-correlator/js/app.js", function() {
+    require("/biomarker-correlator/biomarker-correlator/js/libs.js/main.js");
+    require("/biomarker-correlator/biomarker-correlator/js/app.js", function() {
       // Load the app
       app.core.init_BANG_();
 
