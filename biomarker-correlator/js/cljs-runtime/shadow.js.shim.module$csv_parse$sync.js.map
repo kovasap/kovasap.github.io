@@ -1,0 +1,9 @@
+{
+"version":3,
+"file":"shadow.js.shim.module$csv_parse$sync.js",
+"lineCount":5,
+"mappings":"AAAAA,IAAKC,CAAAA,OAAL,CAAa,sCAAb,CAAA;AACAD,IAAKC,CAAAA,OAAL,CAAa,6CAAb,CAAA;AACAC,MAAOC,CAAAA,EAAGC,CAAAA,IAAKC,CAAAA,qBAAf,GAAuCC,aAAA,CAAc,gBAAd,CAAvC;AACAC,2CAA4CC,CAAAA,OAA5C,GAAsDN,MAAOC,CAAAA,EAAGC,CAAAA,IAAKC,CAAAA,qBAArE;;",
+"sources":["shadow.js.shim.module$csv_parse$sync.js"],
+"sourcesContent":["goog.provide(\"shadow.js.shim.module$csv_parse$sync\");\ngoog.provide(\"module$shadow_js_shim_module$csv_parse$sync\");\nshadow.js.shim.module$csv_parse$sync = shadow$bridge(\"csv-parse/sync\");\nmodule$shadow_js_shim_module$csv_parse$sync.default = shadow.js.shim.module$csv_parse$sync;\n"],
+"names":["goog","provide","shadow","js","shim","module$csv_parse$sync","shadow$bridge","module$shadow_js_shim_module$csv_parse$sync","default"]
+}

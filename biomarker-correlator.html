@@ -5,15 +5,18 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <link href="/css/bulma.min.css" rel="stylesheet" type="text/css">
     <link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="/css/site.css" rel="stylesheet" type="text/css">
+    <link href="/biomarker-correlator/css/site.css" rel="stylesheet" type="text/css">
   </head>
   <body>
     <div id="app">
       <h3>ClojureScript has not been compiled!</h3>
       <p>please run <b>npx shadow-cljs watch app</b> in order to start the compiler</p>
     </div>
-    <script src="/js/libs.js/main.js" type="text/javascript"></script>
-    <script src="/js/app.js" type="text/javascript"></script>
-    <script type="text/javascript">app.core.init_BANG_();</script>
+    <script src="/js/gdrive.js" type="text/javascript"></script>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script type="text/javascript">
+      // Note that all CLJS code is loaded as a callback under this function.
+      handleClientLoad();
+    </script>
   </body>
 </html>
