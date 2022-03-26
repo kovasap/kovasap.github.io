@@ -1,5 +1,5 @@
 goog.provide('app.csv');
-app.csv.csv_data = reagent.core.atom.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"input-data","input-data",2052925403),cljs.core.PersistentVector.fromArray([new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"1/1/00 to 2/1/00",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(10),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(1),new cljs.core.Keyword(null,"na","na",361797684),"1420.9"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"2/2/00 to 3/1/00",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(10),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(1),new cljs.core.Keyword(null,"na","na",361797684),"1545.1"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"3/2/00 to 4/1/00",new cljs.core.Keyword(null,"walks","walks",245026620),(3),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(15),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1679.7"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"4/2/00 to 5/1/00",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1781.2"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"5/2/00",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1728.9"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"6/2/00",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1675.3"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"7/2/00",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1597.8"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"8/2/00",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1591.8"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"9/2/00",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1534.1"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"10/2/00",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1536.4"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"11/2/00",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1588.3"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"12/2/00",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1647.3"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"1/2/01",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1703.1"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"2/2/01",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1467.3"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"3/2/01",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1529.2"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"4/2/01",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1855.5"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"5/2/01",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1687.1"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"6/2/01",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"2318.2"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"7/2/01",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"2245.4"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"8/2/01",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"2485.7"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"9/2/01",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"2348.5"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"10/2/01",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"2329.4"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"11/2/01",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"2238.0"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"12/2/01",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"2243.5"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"1/2/02",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"2078.5"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"2/2/02",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1841.9"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"3/2/02",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1983.8"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"4/2/02",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1917.7"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"5/2/02",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"2153.5"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"6/2/02",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"2689.4"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"7/2/02",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"2335.9"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"8/2/02",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"2114.7"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"9/2/02",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1966.3"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"10/2/02",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1831.9"], null)], true),new cljs.core.Keyword(null,"biomarker-data","biomarker-data",-1785875135),cljs.core.PersistentVector.fromArray([new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"1/1/00 to 2/1/00",new cljs.core.Keyword(null,"na","na",361797684),(100),new cljs.core.Keyword(null,"health","health",-295520649),(50),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(65),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"35"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"2/2/00 to 3/1/00",new cljs.core.Keyword(null,"BW","BW",2063432789),(100),new cljs.core.Keyword(null,"health","health",-295520649),(50),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(65),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"53"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"3/2/00 to 4/1/00",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(60),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(70),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"49"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"4/2/00 to 5/1/00",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"51"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"5/2/00",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"53"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"6/2/00",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"47"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"7/2/00",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"46"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"8/2/00",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"40"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"9/2/00",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"42"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"10/2/00",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"37"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"11/2/00",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"38"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"12/2/00",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"41"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"1/2/01",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"36"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"2/2/01",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"45"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"3/2/01",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"35"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"4/2/01",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"46"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"5/2/01",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"34"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"6/2/01",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"45"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"7/2/01",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"51"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"8/2/01",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"51"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"9/2/01",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"53"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"10/2/01",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"56"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"11/2/01",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"51"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"12/2/01",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"51"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"1/2/02",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"46"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"2/2/02",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"39"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"3/2/02",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"40"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"4/2/02",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"44"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"5/2/02",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"49"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"6/2/02",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"47"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"7/2/02",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"41"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"8/2/02",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"49"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"9/2/02",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"45"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"date","date",-1463434462),"10/2/02",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"39"], null)], true)], null));
+app.csv.csv_data = reagent.core.atom.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"input-data","input-data",2052925403),cljs.core.PersistentVector.fromArray([new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"1/1/00 to 2/1/00",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(10),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(1),new cljs.core.Keyword(null,"na","na",361797684),"1420.9",new cljs.core.Keyword(null,"b1","b1",-1270036758),"2"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"2/2/00 to 3/1/00",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(10),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(1),new cljs.core.Keyword(null,"na","na",361797684),"1545.1",new cljs.core.Keyword(null,"b1","b1",-1270036758),"2.5"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"3/2/00 to 4/1/00",new cljs.core.Keyword(null,"walks","walks",245026620),(3),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(15),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1679.7",new cljs.core.Keyword(null,"b1","b1",-1270036758),"2.4"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"4/2/00 to 5/1/00",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1781.2",new cljs.core.Keyword(null,"b1","b1",-1270036758),"2.4"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"5/2/00",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1728.9",new cljs.core.Keyword(null,"b1","b1",-1270036758),"2.3"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"6/2/00",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1675.3",new cljs.core.Keyword(null,"b1","b1",-1270036758),"2.2"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"7/2/00",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1597.8",new cljs.core.Keyword(null,"b1","b1",-1270036758),"2.3"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"8/2/00",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1591.8",new cljs.core.Keyword(null,"b1","b1",-1270036758),"2.3"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"9/2/00",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1534.1",new cljs.core.Keyword(null,"b1","b1",-1270036758),"2.4"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"10/2/00",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1536.4",new cljs.core.Keyword(null,"b1","b1",-1270036758),"2.4"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"11/2/00",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1588.3",new cljs.core.Keyword(null,"b1","b1",-1270036758),"2.5"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"12/2/00",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1647.3",new cljs.core.Keyword(null,"b1","b1",-1270036758),"2.2"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"1/2/01",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1703.1",new cljs.core.Keyword(null,"b1","b1",-1270036758),"2.4"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"2/2/01",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1467.3",new cljs.core.Keyword(null,"b1","b1",-1270036758),"2.3"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"3/2/01",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1529.2",new cljs.core.Keyword(null,"b1","b1",-1270036758),"2.3"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"4/2/01",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1855.5",new cljs.core.Keyword(null,"b1","b1",-1270036758),"2.1"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"5/2/01",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1687.1",new cljs.core.Keyword(null,"b1","b1",-1270036758),"2.3"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"6/2/01",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"2318.2",new cljs.core.Keyword(null,"b1","b1",-1270036758),"2.1"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"7/2/01",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"2245.4",new cljs.core.Keyword(null,"b1","b1",-1270036758),"1.7"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"8/2/01",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"2485.7",new cljs.core.Keyword(null,"b1","b1",-1270036758),"1.8"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"9/2/01",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"2348.5",new cljs.core.Keyword(null,"b1","b1",-1270036758),"1.9"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"10/2/01",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"2329.4",new cljs.core.Keyword(null,"b1","b1",-1270036758),"2"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"11/2/01",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"2238.0",new cljs.core.Keyword(null,"b1","b1",-1270036758),"1.9"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"12/2/01",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"2243.5",new cljs.core.Keyword(null,"b1","b1",-1270036758),"2.3"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"1/2/02",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"2078.5",new cljs.core.Keyword(null,"b1","b1",-1270036758),"2.3"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"2/2/02",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1841.9",new cljs.core.Keyword(null,"b1","b1",-1270036758),"2.1"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"3/2/02",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1983.8",new cljs.core.Keyword(null,"b1","b1",-1270036758),"2.3"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"4/2/02",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1917.7",new cljs.core.Keyword(null,"b1","b1",-1270036758),"2"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"5/2/02",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"2153.5",new cljs.core.Keyword(null,"b1","b1",-1270036758),"2.1"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"6/2/02",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"2689.4",new cljs.core.Keyword(null,"b1","b1",-1270036758),"2"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"7/2/02",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"2335.9",new cljs.core.Keyword(null,"b1","b1",-1270036758),"1.9"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"8/2/02",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"2114.7",new cljs.core.Keyword(null,"b1","b1",-1270036758),"1.6"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"9/2/02",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1966.3",new cljs.core.Keyword(null,"b1","b1",-1270036758),"1.7"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"10/2/02",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1831.9",new cljs.core.Keyword(null,"b1","b1",-1270036758),"1.9"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"11/2/02",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1831.9",new cljs.core.Keyword(null,"b1","b1",-1270036758),"2"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"12/2/02",new cljs.core.Keyword(null,"walks","walks",245026620),(2),new cljs.core.Keyword(null,"potatoes","potatoes",1338099662),(20),new cljs.core.Keyword(null,"climbs","climbs",-1528427521),(3),new cljs.core.Keyword(null,"na","na",361797684),"1831.9",new cljs.core.Keyword(null,"b1","b1",-1270036758),"2"], null)], true),new cljs.core.Keyword(null,"biomarker-data","biomarker-data",-1785875135),cljs.core.PersistentVector.fromArray([new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"1/1/00 to 2/1/00",new cljs.core.Keyword(null,"na","na",361797684),(100),new cljs.core.Keyword(null,"health","health",-295520649),(50),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(65),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"35",new cljs.core.Keyword(null,"crp","crp",-1973180662),""], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"2/2/00 to 3/1/00",new cljs.core.Keyword(null,"BW","BW",2063432789),(100),new cljs.core.Keyword(null,"health","health",-295520649),(50),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(65),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"53",new cljs.core.Keyword(null,"crp","crp",-1973180662),""], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"3/2/00 to 4/1/00",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(60),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(70),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"49",new cljs.core.Keyword(null,"crp","crp",-1973180662),""], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"4/2/00 to 5/1/00",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"51",new cljs.core.Keyword(null,"crp","crp",-1973180662),""], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"5/2/00",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"53",new cljs.core.Keyword(null,"crp","crp",-1973180662),""], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"6/2/00",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"47",new cljs.core.Keyword(null,"crp","crp",-1973180662),""], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"7/2/00",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"46",new cljs.core.Keyword(null,"crp","crp",-1973180662),""], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"8/2/00",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"40",new cljs.core.Keyword(null,"crp","crp",-1973180662),""], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"9/2/00",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"42",new cljs.core.Keyword(null,"crp","crp",-1973180662),""], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"10/2/00",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"37",new cljs.core.Keyword(null,"crp","crp",-1973180662),""], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"11/2/00",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"38",new cljs.core.Keyword(null,"crp","crp",-1973180662),""], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"12/2/00",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"41",new cljs.core.Keyword(null,"crp","crp",-1973180662),""], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"1/2/01",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"36",new cljs.core.Keyword(null,"crp","crp",-1973180662),""], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"2/2/01",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"45",new cljs.core.Keyword(null,"crp","crp",-1973180662),"0.67"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"3/2/01",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"35",new cljs.core.Keyword(null,"crp","crp",-1973180662),""], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"4/2/01",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"46",new cljs.core.Keyword(null,"crp","crp",-1973180662),""], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"5/2/01",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"34",new cljs.core.Keyword(null,"crp","crp",-1973180662),"0.41"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"6/2/01",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"45",new cljs.core.Keyword(null,"crp","crp",-1973180662),""], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"7/2/01",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"51",new cljs.core.Keyword(null,"crp","crp",-1973180662),"0.34"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"8/2/01",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"51",new cljs.core.Keyword(null,"crp","crp",-1973180662),"0.47"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"9/2/01",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"53",new cljs.core.Keyword(null,"crp","crp",-1973180662),"0.29"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"10/2/01",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"56",new cljs.core.Keyword(null,"crp","crp",-1973180662),"0.2"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"11/2/01",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"51",new cljs.core.Keyword(null,"crp","crp",-1973180662),"0.3"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"12/2/01",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"51",new cljs.core.Keyword(null,"crp","crp",-1973180662),"0.37"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"1/2/02",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"46",new cljs.core.Keyword(null,"crp","crp",-1973180662),"0.53"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"2/2/02",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"39",new cljs.core.Keyword(null,"crp","crp",-1973180662),"1.01"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"3/2/02",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"40",new cljs.core.Keyword(null,"crp","crp",-1973180662),"0.84"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"4/2/02",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"44",new cljs.core.Keyword(null,"crp","crp",-1973180662),"0.46"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"5/2/02",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"49",new cljs.core.Keyword(null,"crp","crp",-1973180662),"0.27"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"6/2/02",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"47",new cljs.core.Keyword(null,"crp","crp",-1973180662),"1.01"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"7/2/02",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"41",new cljs.core.Keyword(null,"crp","crp",-1973180662),"0.66"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"8/2/02",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"49",new cljs.core.Keyword(null,"crp","crp",-1973180662),"0.57"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"9/2/02",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"45",new cljs.core.Keyword(null,"crp","crp",-1973180662),"0.69"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"10/2/02",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"39",new cljs.core.Keyword(null,"crp","crp",-1973180662),"0.36"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"11/2/02",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"39",new cljs.core.Keyword(null,"crp","crp",-1973180662),"0.3"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"date","date",-1463434462),"12/2/02",new cljs.core.Keyword(null,"BW","BW",2063432789),(150),new cljs.core.Keyword(null,"health","health",-295520649),(70),new cljs.core.Keyword(null,"glucose","glucose",1817060080),(80),new cljs.core.Keyword(null,"hdl","hdl",-1548508234),"39",new cljs.core.Keyword(null,"crp","crp",-1973180662),"0.3"], null)], true)], null));
 app.csv.maps_to_csv = (function app$csv$maps_to_csv(maps){
 return shadow.js.shim.module$csv_stringify$sync.stringify(cljs.core.clj__GT_js(maps),cljs.core.clj__GT_js(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"header","header",119441134),true], null)));
 });
@@ -26,65 +26,65 @@ return file;
 app.csv.my_parse_csv = (function app$csv$my_parse_csv(csv_data){
 return cljs.core.js__GT_clj.cljs$core$IFn$_invoke$arity$variadic(shadow.js.shim.module$csv_parse$sync.parse(csv_data,cljs.core.clj__GT_js(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"columns","columns",1998437288),true,new cljs.core.Keyword(null,"skip_empty_lines","skip_empty_lines",-551583290),true,new cljs.core.Keyword(null,"trim","trim",774319767),true], null))),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"keywordize-keys","keywordize-keys",1310784252),true], 0));
 });
-app.csv.extract_result = cljs.core.map.cljs$core$IFn$_invoke$arity$1((function (p1__53491_SHARP_){
-return app.csv.my_parse_csv(p1__53491_SHARP_.target.result);
+app.csv.extract_result = cljs.core.map.cljs$core$IFn$_invoke$arity$1((function (p1__57851_SHARP_){
+return app.csv.my_parse_csv(p1__57851_SHARP_.target.result);
 }));
 app.csv.input_upload_reqs = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$2((1),app.csv.first_file);
 app.csv.input_file_reads = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$2((1),app.csv.extract_result);
-var c__36136__auto___53669 = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
+var c__36136__auto___58143 = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
 cljs.core.async.impl.dispatch.run((function (){
-var f__36137__auto__ = (function (){var switch__36066__auto__ = (function (state_53506){
-var state_val_53507 = (state_53506[(1)]);
-if((state_val_53507 === (1))){
-var state_53506__$1 = state_53506;
-var statearr_53508_53671 = state_53506__$1;
-(statearr_53508_53671[(2)] = null);
+var f__36137__auto__ = (function (){var switch__36066__auto__ = (function (state_57881){
+var state_val_57884 = (state_57881[(1)]);
+if((state_val_57884 === (1))){
+var state_57881__$1 = state_57881;
+var statearr_57885_58149 = state_57881__$1;
+(statearr_57885_58149[(2)] = null);
 
-(statearr_53508_53671[(1)] = (2));
+(statearr_57885_58149[(1)] = (2));
 
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
 } else {
-if((state_val_53507 === (2))){
-var inst_53494 = (new FileReader());
-var state_53506__$1 = (function (){var statearr_53509 = state_53506;
-(statearr_53509[(7)] = inst_53494);
+if((state_val_57884 === (2))){
+var inst_57858 = (new FileReader());
+var state_57881__$1 = (function (){var statearr_57888 = state_57881;
+(statearr_57888[(7)] = inst_57858);
 
-return statearr_53509;
+return statearr_57888;
 })();
-return cljs.core.async.impl.ioc_helpers.take_BANG_(state_53506__$1,(4),app.csv.input_upload_reqs);
+return cljs.core.async.impl.ioc_helpers.take_BANG_(state_57881__$1,(4),app.csv.input_upload_reqs);
 } else {
-if((state_val_53507 === (3))){
-var inst_53504 = (state_53506[(2)]);
-var state_53506__$1 = state_53506;
-return cljs.core.async.impl.ioc_helpers.return_chan(state_53506__$1,inst_53504);
+if((state_val_57884 === (3))){
+var inst_57878 = (state_57881[(2)]);
+var state_57881__$1 = state_57881;
+return cljs.core.async.impl.ioc_helpers.return_chan(state_57881__$1,inst_57878);
 } else {
-if((state_val_53507 === (4))){
-var inst_53494 = (state_53506[(7)]);
-var inst_53496 = (state_53506[(2)]);
-var inst_53497 = inst_53496.name;
-var inst_53498 = cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(app.csv.csv_data,cljs.core.assoc,new cljs.core.Keyword(null,"input-file-name","input-file-name",-1886577211),inst_53497);
-var inst_53499 = (function (){var reader = inst_53494;
-var file = inst_53496;
-return (function (p1__53492_SHARP_){
-return cljs.core.async.put_BANG_.cljs$core$IFn$_invoke$arity$2(app.csv.input_file_reads,p1__53492_SHARP_);
+if((state_val_57884 === (4))){
+var inst_57858 = (state_57881[(7)]);
+var inst_57861 = (state_57881[(2)]);
+var inst_57864 = inst_57861.name;
+var inst_57865 = cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(app.csv.csv_data,cljs.core.assoc,new cljs.core.Keyword(null,"input-file-name","input-file-name",-1886577211),inst_57864);
+var inst_57867 = (function (){var reader = inst_57858;
+var file = inst_57861;
+return (function (p1__57853_SHARP_){
+return cljs.core.async.put_BANG_.cljs$core$IFn$_invoke$arity$2(app.csv.input_file_reads,p1__57853_SHARP_);
 });
 })();
-var inst_53500 = (inst_53494.onload = inst_53499);
-var inst_53501 = inst_53494.readAsText(inst_53496);
-var state_53506__$1 = (function (){var statearr_53510 = state_53506;
-(statearr_53510[(8)] = inst_53501);
+var inst_57870 = (inst_57858.onload = inst_57867);
+var inst_57871 = inst_57858.readAsText(inst_57861);
+var state_57881__$1 = (function (){var statearr_57889 = state_57881;
+(statearr_57889[(8)] = inst_57865);
 
-(statearr_53510[(9)] = inst_53498);
+(statearr_57889[(9)] = inst_57871);
 
-(statearr_53510[(10)] = inst_53500);
+(statearr_57889[(10)] = inst_57870);
 
-return statearr_53510;
+return statearr_57889;
 })();
-var statearr_53511_53675 = state_53506__$1;
-(statearr_53511_53675[(2)] = null);
+var statearr_57891_58158 = state_57881__$1;
+(statearr_57891_58158[(2)] = null);
 
-(statearr_53511_53675[(1)] = (2));
+(statearr_57891_58158[(1)] = (2));
 
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
@@ -98,17 +98,17 @@ return null;
 return (function() {
 var app$csv$state_machine__36067__auto__ = null;
 var app$csv$state_machine__36067__auto____0 = (function (){
-var statearr_53512 = [null,null,null,null,null,null,null,null,null,null,null];
-(statearr_53512[(0)] = app$csv$state_machine__36067__auto__);
+var statearr_57893 = [null,null,null,null,null,null,null,null,null,null,null];
+(statearr_57893[(0)] = app$csv$state_machine__36067__auto__);
 
-(statearr_53512[(1)] = (1));
+(statearr_57893[(1)] = (1));
 
-return statearr_53512;
+return statearr_57893;
 });
-var app$csv$state_machine__36067__auto____1 = (function (state_53506){
+var app$csv$state_machine__36067__auto____1 = (function (state_57881){
 while(true){
 var ret_value__36068__auto__ = (function (){try{while(true){
-var result__36069__auto__ = switch__36066__auto__(state_53506);
+var result__36069__auto__ = switch__36066__auto__(state_57881);
 if(cljs.core.keyword_identical_QMARK_(result__36069__auto__,new cljs.core.Keyword(null,"recur","recur",-437573268))){
 continue;
 } else {
@@ -116,14 +116,14 @@ return result__36069__auto__;
 }
 break;
 }
-}catch (e53513){var ex__36070__auto__ = e53513;
-var statearr_53514_53676 = state_53506;
-(statearr_53514_53676[(2)] = ex__36070__auto__);
+}catch (e57895){var ex__36070__auto__ = e57895;
+var statearr_57898_58161 = state_57881;
+(statearr_57898_58161[(2)] = ex__36070__auto__);
 
 
-if(cljs.core.seq((state_53506[(4)]))){
-var statearr_53515_53677 = state_53506;
-(statearr_53515_53677[(1)] = cljs.core.first((state_53506[(4)])));
+if(cljs.core.seq((state_57881[(4)]))){
+var statearr_57900_58164 = state_57881;
+(statearr_57900_58164[(1)] = cljs.core.first((state_57881[(4)])));
 
 } else {
 throw ex__36070__auto__;
@@ -132,8 +132,8 @@ throw ex__36070__auto__;
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
 }})();
 if(cljs.core.keyword_identical_QMARK_(ret_value__36068__auto__,new cljs.core.Keyword(null,"recur","recur",-437573268))){
-var G__53678 = state_53506;
-state_53506 = G__53678;
+var G__58165 = state_57881;
+state_57881 = G__58165;
 continue;
 } else {
 return ret_value__36068__auto__;
@@ -141,12 +141,12 @@ return ret_value__36068__auto__;
 break;
 }
 });
-app$csv$state_machine__36067__auto__ = function(state_53506){
+app$csv$state_machine__36067__auto__ = function(state_57881){
 switch(arguments.length){
 case 0:
 return app$csv$state_machine__36067__auto____0.call(this);
 case 1:
-return app$csv$state_machine__36067__auto____1.call(this,state_53506);
+return app$csv$state_machine__36067__auto____1.call(this,state_57881);
 }
 throw(new Error('Invalid arity: ' + arguments.length));
 };
@@ -155,49 +155,49 @@ app$csv$state_machine__36067__auto__.cljs$core$IFn$_invoke$arity$1 = app$csv$sta
 return app$csv$state_machine__36067__auto__;
 })()
 })();
-var state__36138__auto__ = (function (){var statearr_53516 = f__36137__auto__();
-(statearr_53516[(6)] = c__36136__auto___53669);
+var state__36138__auto__ = (function (){var statearr_57902 = f__36137__auto__();
+(statearr_57902[(6)] = c__36136__auto___58143);
 
-return statearr_53516;
+return statearr_57902;
 })();
 return cljs.core.async.impl.ioc_helpers.run_state_machine_wrapped(state__36138__auto__);
 }));
 
-var c__36136__auto___53679 = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
+var c__36136__auto___58167 = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
 cljs.core.async.impl.dispatch.run((function (){
-var f__36137__auto__ = (function (){var switch__36066__auto__ = (function (state_53526){
-var state_val_53527 = (state_53526[(1)]);
-if((state_val_53527 === (1))){
-var state_53526__$1 = state_53526;
-var statearr_53537_53680 = state_53526__$1;
-(statearr_53537_53680[(2)] = null);
+var f__36137__auto__ = (function (){var switch__36066__auto__ = (function (state_57912){
+var state_val_57913 = (state_57912[(1)]);
+if((state_val_57913 === (1))){
+var state_57912__$1 = state_57912;
+var statearr_57924_58169 = state_57912__$1;
+(statearr_57924_58169[(2)] = null);
 
-(statearr_53537_53680[(1)] = (2));
+(statearr_57924_58169[(1)] = (2));
 
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
 } else {
-if((state_val_53527 === (2))){
-var state_53526__$1 = state_53526;
-return cljs.core.async.impl.ioc_helpers.take_BANG_(state_53526__$1,(4),app.csv.input_file_reads);
+if((state_val_57913 === (2))){
+var state_57912__$1 = state_57912;
+return cljs.core.async.impl.ioc_helpers.take_BANG_(state_57912__$1,(4),app.csv.input_file_reads);
 } else {
-if((state_val_53527 === (3))){
-var inst_53524 = (state_53526[(2)]);
-var state_53526__$1 = state_53526;
-return cljs.core.async.impl.ioc_helpers.return_chan(state_53526__$1,inst_53524);
+if((state_val_57913 === (3))){
+var inst_57910 = (state_57912[(2)]);
+var state_57912__$1 = state_57912;
+return cljs.core.async.impl.ioc_helpers.return_chan(state_57912__$1,inst_57910);
 } else {
-if((state_val_53527 === (4))){
-var inst_53520 = (state_53526[(2)]);
-var inst_53521 = cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(app.csv.csv_data,cljs.core.assoc,new cljs.core.Keyword(null,"input-data","input-data",2052925403),inst_53520);
-var state_53526__$1 = (function (){var statearr_53545 = state_53526;
-(statearr_53545[(7)] = inst_53521);
+if((state_val_57913 === (4))){
+var inst_57906 = (state_57912[(2)]);
+var inst_57907 = cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(app.csv.csv_data,cljs.core.assoc,new cljs.core.Keyword(null,"input-data","input-data",2052925403),inst_57906);
+var state_57912__$1 = (function (){var statearr_57925 = state_57912;
+(statearr_57925[(7)] = inst_57907);
 
-return statearr_53545;
+return statearr_57925;
 })();
-var statearr_53546_53681 = state_53526__$1;
-(statearr_53546_53681[(2)] = null);
+var statearr_57927_58172 = state_57912__$1;
+(statearr_57927_58172[(2)] = null);
 
-(statearr_53546_53681[(1)] = (2));
+(statearr_57927_58172[(1)] = (2));
 
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
@@ -211,17 +211,17 @@ return null;
 return (function() {
 var app$csv$state_machine__36067__auto__ = null;
 var app$csv$state_machine__36067__auto____0 = (function (){
-var statearr_53548 = [null,null,null,null,null,null,null,null];
-(statearr_53548[(0)] = app$csv$state_machine__36067__auto__);
+var statearr_57929 = [null,null,null,null,null,null,null,null];
+(statearr_57929[(0)] = app$csv$state_machine__36067__auto__);
 
-(statearr_53548[(1)] = (1));
+(statearr_57929[(1)] = (1));
 
-return statearr_53548;
+return statearr_57929;
 });
-var app$csv$state_machine__36067__auto____1 = (function (state_53526){
+var app$csv$state_machine__36067__auto____1 = (function (state_57912){
 while(true){
 var ret_value__36068__auto__ = (function (){try{while(true){
-var result__36069__auto__ = switch__36066__auto__(state_53526);
+var result__36069__auto__ = switch__36066__auto__(state_57912);
 if(cljs.core.keyword_identical_QMARK_(result__36069__auto__,new cljs.core.Keyword(null,"recur","recur",-437573268))){
 continue;
 } else {
@@ -229,14 +229,14 @@ return result__36069__auto__;
 }
 break;
 }
-}catch (e53550){var ex__36070__auto__ = e53550;
-var statearr_53551_53682 = state_53526;
-(statearr_53551_53682[(2)] = ex__36070__auto__);
+}catch (e57931){var ex__36070__auto__ = e57931;
+var statearr_57933_58173 = state_57912;
+(statearr_57933_58173[(2)] = ex__36070__auto__);
 
 
-if(cljs.core.seq((state_53526[(4)]))){
-var statearr_53552_53683 = state_53526;
-(statearr_53552_53683[(1)] = cljs.core.first((state_53526[(4)])));
+if(cljs.core.seq((state_57912[(4)]))){
+var statearr_57935_58178 = state_57912;
+(statearr_57935_58178[(1)] = cljs.core.first((state_57912[(4)])));
 
 } else {
 throw ex__36070__auto__;
@@ -245,8 +245,8 @@ throw ex__36070__auto__;
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
 }})();
 if(cljs.core.keyword_identical_QMARK_(ret_value__36068__auto__,new cljs.core.Keyword(null,"recur","recur",-437573268))){
-var G__53684 = state_53526;
-state_53526 = G__53684;
+var G__58181 = state_57912;
+state_57912 = G__58181;
 continue;
 } else {
 return ret_value__36068__auto__;
@@ -254,12 +254,12 @@ return ret_value__36068__auto__;
 break;
 }
 });
-app$csv$state_machine__36067__auto__ = function(state_53526){
+app$csv$state_machine__36067__auto__ = function(state_57912){
 switch(arguments.length){
 case 0:
 return app$csv$state_machine__36067__auto____0.call(this);
 case 1:
-return app$csv$state_machine__36067__auto____1.call(this,state_53526);
+return app$csv$state_machine__36067__auto____1.call(this,state_57912);
 }
 throw(new Error('Invalid arity: ' + arguments.length));
 };
@@ -268,70 +268,70 @@ app$csv$state_machine__36067__auto__.cljs$core$IFn$_invoke$arity$1 = app$csv$sta
 return app$csv$state_machine__36067__auto__;
 })()
 })();
-var state__36138__auto__ = (function (){var statearr_53555 = f__36137__auto__();
-(statearr_53555[(6)] = c__36136__auto___53679);
+var state__36138__auto__ = (function (){var statearr_57937 = f__36137__auto__();
+(statearr_57937[(6)] = c__36136__auto___58167);
 
-return statearr_53555;
+return statearr_57937;
 })();
 return cljs.core.async.impl.ioc_helpers.run_state_machine_wrapped(state__36138__auto__);
 }));
 
 app.csv.biomarker_upload_reqs = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$2((1),app.csv.first_file);
 app.csv.biomarker_file_reads = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$2((1),app.csv.extract_result);
-var c__36136__auto___53685 = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
+var c__36136__auto___58188 = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
 cljs.core.async.impl.dispatch.run((function (){
-var f__36137__auto__ = (function (){var switch__36066__auto__ = (function (state_53575){
-var state_val_53576 = (state_53575[(1)]);
-if((state_val_53576 === (1))){
-var state_53575__$1 = state_53575;
-var statearr_53587_53686 = state_53575__$1;
-(statearr_53587_53686[(2)] = null);
+var f__36137__auto__ = (function (){var switch__36066__auto__ = (function (state_57963){
+var state_val_57966 = (state_57963[(1)]);
+if((state_val_57966 === (1))){
+var state_57963__$1 = state_57963;
+var statearr_57971_58190 = state_57963__$1;
+(statearr_57971_58190[(2)] = null);
 
-(statearr_53587_53686[(1)] = (2));
+(statearr_57971_58190[(1)] = (2));
 
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
 } else {
-if((state_val_53576 === (2))){
-var inst_53562 = (new FileReader());
-var state_53575__$1 = (function (){var statearr_53588 = state_53575;
-(statearr_53588[(7)] = inst_53562);
+if((state_val_57966 === (2))){
+var inst_57942 = (new FileReader());
+var state_57963__$1 = (function (){var statearr_57973 = state_57963;
+(statearr_57973[(7)] = inst_57942);
 
-return statearr_53588;
+return statearr_57973;
 })();
-return cljs.core.async.impl.ioc_helpers.take_BANG_(state_53575__$1,(4),app.csv.biomarker_upload_reqs);
+return cljs.core.async.impl.ioc_helpers.take_BANG_(state_57963__$1,(4),app.csv.biomarker_upload_reqs);
 } else {
-if((state_val_53576 === (3))){
-var inst_53572 = (state_53575[(2)]);
-var state_53575__$1 = state_53575;
-return cljs.core.async.impl.ioc_helpers.return_chan(state_53575__$1,inst_53572);
+if((state_val_57966 === (3))){
+var inst_57954 = (state_57963[(2)]);
+var state_57963__$1 = state_57963;
+return cljs.core.async.impl.ioc_helpers.return_chan(state_57963__$1,inst_57954);
 } else {
-if((state_val_53576 === (4))){
-var inst_53562 = (state_53575[(7)]);
-var inst_53564 = (state_53575[(2)]);
-var inst_53565 = inst_53564.name;
-var inst_53566 = cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(app.csv.csv_data,cljs.core.assoc,new cljs.core.Keyword(null,"biomarker-file-name","biomarker-file-name",1322694478),inst_53565);
-var inst_53567 = (function (){var reader = inst_53562;
-var file = inst_53564;
-return (function (p1__53559_SHARP_){
-return cljs.core.async.put_BANG_.cljs$core$IFn$_invoke$arity$2(app.csv.biomarker_file_reads,p1__53559_SHARP_);
+if((state_val_57966 === (4))){
+var inst_57942 = (state_57963[(7)]);
+var inst_57945 = (state_57963[(2)]);
+var inst_57946 = inst_57945.name;
+var inst_57947 = cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(app.csv.csv_data,cljs.core.assoc,new cljs.core.Keyword(null,"biomarker-file-name","biomarker-file-name",1322694478),inst_57946);
+var inst_57948 = (function (){var reader = inst_57942;
+var file = inst_57945;
+return (function (p1__57939_SHARP_){
+return cljs.core.async.put_BANG_.cljs$core$IFn$_invoke$arity$2(app.csv.biomarker_file_reads,p1__57939_SHARP_);
 });
 })();
-var inst_53568 = (inst_53562.onload = inst_53567);
-var inst_53569 = inst_53562.readAsText(inst_53564);
-var state_53575__$1 = (function (){var statearr_53590 = state_53575;
-(statearr_53590[(8)] = inst_53566);
+var inst_57949 = (inst_57942.onload = inst_57948);
+var inst_57950 = inst_57942.readAsText(inst_57945);
+var state_57963__$1 = (function (){var statearr_57975 = state_57963;
+(statearr_57975[(8)] = inst_57949);
 
-(statearr_53590[(9)] = inst_53569);
+(statearr_57975[(9)] = inst_57950);
 
-(statearr_53590[(10)] = inst_53568);
+(statearr_57975[(10)] = inst_57947);
 
-return statearr_53590;
+return statearr_57975;
 })();
-var statearr_53591_53687 = state_53575__$1;
-(statearr_53591_53687[(2)] = null);
+var statearr_57977_58191 = state_57963__$1;
+(statearr_57977_58191[(2)] = null);
 
-(statearr_53591_53687[(1)] = (2));
+(statearr_57977_58191[(1)] = (2));
 
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
@@ -345,17 +345,17 @@ return null;
 return (function() {
 var app$csv$state_machine__36067__auto__ = null;
 var app$csv$state_machine__36067__auto____0 = (function (){
-var statearr_53594 = [null,null,null,null,null,null,null,null,null,null,null];
-(statearr_53594[(0)] = app$csv$state_machine__36067__auto__);
+var statearr_57979 = [null,null,null,null,null,null,null,null,null,null,null];
+(statearr_57979[(0)] = app$csv$state_machine__36067__auto__);
 
-(statearr_53594[(1)] = (1));
+(statearr_57979[(1)] = (1));
 
-return statearr_53594;
+return statearr_57979;
 });
-var app$csv$state_machine__36067__auto____1 = (function (state_53575){
+var app$csv$state_machine__36067__auto____1 = (function (state_57963){
 while(true){
 var ret_value__36068__auto__ = (function (){try{while(true){
-var result__36069__auto__ = switch__36066__auto__(state_53575);
+var result__36069__auto__ = switch__36066__auto__(state_57963);
 if(cljs.core.keyword_identical_QMARK_(result__36069__auto__,new cljs.core.Keyword(null,"recur","recur",-437573268))){
 continue;
 } else {
@@ -363,14 +363,14 @@ return result__36069__auto__;
 }
 break;
 }
-}catch (e53595){var ex__36070__auto__ = e53595;
-var statearr_53596_53688 = state_53575;
-(statearr_53596_53688[(2)] = ex__36070__auto__);
+}catch (e57981){var ex__36070__auto__ = e57981;
+var statearr_57983_58193 = state_57963;
+(statearr_57983_58193[(2)] = ex__36070__auto__);
 
 
-if(cljs.core.seq((state_53575[(4)]))){
-var statearr_53598_53689 = state_53575;
-(statearr_53598_53689[(1)] = cljs.core.first((state_53575[(4)])));
+if(cljs.core.seq((state_57963[(4)]))){
+var statearr_57985_58194 = state_57963;
+(statearr_57985_58194[(1)] = cljs.core.first((state_57963[(4)])));
 
 } else {
 throw ex__36070__auto__;
@@ -379,8 +379,8 @@ throw ex__36070__auto__;
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
 }})();
 if(cljs.core.keyword_identical_QMARK_(ret_value__36068__auto__,new cljs.core.Keyword(null,"recur","recur",-437573268))){
-var G__53690 = state_53575;
-state_53575 = G__53690;
+var G__58196 = state_57963;
+state_57963 = G__58196;
 continue;
 } else {
 return ret_value__36068__auto__;
@@ -388,12 +388,12 @@ return ret_value__36068__auto__;
 break;
 }
 });
-app$csv$state_machine__36067__auto__ = function(state_53575){
+app$csv$state_machine__36067__auto__ = function(state_57963){
 switch(arguments.length){
 case 0:
 return app$csv$state_machine__36067__auto____0.call(this);
 case 1:
-return app$csv$state_machine__36067__auto____1.call(this,state_53575);
+return app$csv$state_machine__36067__auto____1.call(this,state_57963);
 }
 throw(new Error('Invalid arity: ' + arguments.length));
 };
@@ -402,49 +402,49 @@ app$csv$state_machine__36067__auto__.cljs$core$IFn$_invoke$arity$1 = app$csv$sta
 return app$csv$state_machine__36067__auto__;
 })()
 })();
-var state__36138__auto__ = (function (){var statearr_53602 = f__36137__auto__();
-(statearr_53602[(6)] = c__36136__auto___53685);
+var state__36138__auto__ = (function (){var statearr_57987 = f__36137__auto__();
+(statearr_57987[(6)] = c__36136__auto___58188);
 
-return statearr_53602;
+return statearr_57987;
 })();
 return cljs.core.async.impl.ioc_helpers.run_state_machine_wrapped(state__36138__auto__);
 }));
 
-var c__36136__auto___53691 = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
+var c__36136__auto___58198 = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
 cljs.core.async.impl.dispatch.run((function (){
-var f__36137__auto__ = (function (){var switch__36066__auto__ = (function (state_53612){
-var state_val_53613 = (state_53612[(1)]);
-if((state_val_53613 === (1))){
-var state_53612__$1 = state_53612;
-var statearr_53617_53692 = state_53612__$1;
-(statearr_53617_53692[(2)] = null);
+var f__36137__auto__ = (function (){var switch__36066__auto__ = (function (state_58005){
+var state_val_58007 = (state_58005[(1)]);
+if((state_val_58007 === (1))){
+var state_58005__$1 = state_58005;
+var statearr_58010_58200 = state_58005__$1;
+(statearr_58010_58200[(2)] = null);
 
-(statearr_53617_53692[(1)] = (2));
+(statearr_58010_58200[(1)] = (2));
 
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
 } else {
-if((state_val_53613 === (2))){
-var state_53612__$1 = state_53612;
-return cljs.core.async.impl.ioc_helpers.take_BANG_(state_53612__$1,(4),app.csv.biomarker_file_reads);
+if((state_val_58007 === (2))){
+var state_58005__$1 = state_58005;
+return cljs.core.async.impl.ioc_helpers.take_BANG_(state_58005__$1,(4),app.csv.biomarker_file_reads);
 } else {
-if((state_val_53613 === (3))){
-var inst_53610 = (state_53612[(2)]);
-var state_53612__$1 = state_53612;
-return cljs.core.async.impl.ioc_helpers.return_chan(state_53612__$1,inst_53610);
+if((state_val_58007 === (3))){
+var inst_57999 = (state_58005[(2)]);
+var state_58005__$1 = state_58005;
+return cljs.core.async.impl.ioc_helpers.return_chan(state_58005__$1,inst_57999);
 } else {
-if((state_val_53613 === (4))){
-var inst_53606 = (state_53612[(2)]);
-var inst_53607 = cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(app.csv.csv_data,cljs.core.assoc,new cljs.core.Keyword(null,"biomarker-data","biomarker-data",-1785875135),inst_53606);
-var state_53612__$1 = (function (){var statearr_53631 = state_53612;
-(statearr_53631[(7)] = inst_53607);
+if((state_val_58007 === (4))){
+var inst_57992 = (state_58005[(2)]);
+var inst_57993 = cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(app.csv.csv_data,cljs.core.assoc,new cljs.core.Keyword(null,"biomarker-data","biomarker-data",-1785875135),inst_57992);
+var state_58005__$1 = (function (){var statearr_58012 = state_58005;
+(statearr_58012[(7)] = inst_57993);
 
-return statearr_53631;
+return statearr_58012;
 })();
-var statearr_53632_53693 = state_53612__$1;
-(statearr_53632_53693[(2)] = null);
+var statearr_58014_58207 = state_58005__$1;
+(statearr_58014_58207[(2)] = null);
 
-(statearr_53632_53693[(1)] = (2));
+(statearr_58014_58207[(1)] = (2));
 
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
@@ -458,17 +458,17 @@ return null;
 return (function() {
 var app$csv$state_machine__36067__auto__ = null;
 var app$csv$state_machine__36067__auto____0 = (function (){
-var statearr_53634 = [null,null,null,null,null,null,null,null];
-(statearr_53634[(0)] = app$csv$state_machine__36067__auto__);
+var statearr_58016 = [null,null,null,null,null,null,null,null];
+(statearr_58016[(0)] = app$csv$state_machine__36067__auto__);
 
-(statearr_53634[(1)] = (1));
+(statearr_58016[(1)] = (1));
 
-return statearr_53634;
+return statearr_58016;
 });
-var app$csv$state_machine__36067__auto____1 = (function (state_53612){
+var app$csv$state_machine__36067__auto____1 = (function (state_58005){
 while(true){
 var ret_value__36068__auto__ = (function (){try{while(true){
-var result__36069__auto__ = switch__36066__auto__(state_53612);
+var result__36069__auto__ = switch__36066__auto__(state_58005);
 if(cljs.core.keyword_identical_QMARK_(result__36069__auto__,new cljs.core.Keyword(null,"recur","recur",-437573268))){
 continue;
 } else {
@@ -476,14 +476,14 @@ return result__36069__auto__;
 }
 break;
 }
-}catch (e53636){var ex__36070__auto__ = e53636;
-var statearr_53637_53694 = state_53612;
-(statearr_53637_53694[(2)] = ex__36070__auto__);
+}catch (e58018){var ex__36070__auto__ = e58018;
+var statearr_58019_58210 = state_58005;
+(statearr_58019_58210[(2)] = ex__36070__auto__);
 
 
-if(cljs.core.seq((state_53612[(4)]))){
-var statearr_53638_53695 = state_53612;
-(statearr_53638_53695[(1)] = cljs.core.first((state_53612[(4)])));
+if(cljs.core.seq((state_58005[(4)]))){
+var statearr_58022_58211 = state_58005;
+(statearr_58022_58211[(1)] = cljs.core.first((state_58005[(4)])));
 
 } else {
 throw ex__36070__auto__;
@@ -492,8 +492,8 @@ throw ex__36070__auto__;
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
 }})();
 if(cljs.core.keyword_identical_QMARK_(ret_value__36068__auto__,new cljs.core.Keyword(null,"recur","recur",-437573268))){
-var G__53696 = state_53612;
-state_53612 = G__53696;
+var G__58212 = state_58005;
+state_58005 = G__58212;
 continue;
 } else {
 return ret_value__36068__auto__;
@@ -501,12 +501,12 @@ return ret_value__36068__auto__;
 break;
 }
 });
-app$csv$state_machine__36067__auto__ = function(state_53612){
+app$csv$state_machine__36067__auto__ = function(state_58005){
 switch(arguments.length){
 case 0:
 return app$csv$state_machine__36067__auto____0.call(this);
 case 1:
-return app$csv$state_machine__36067__auto____1.call(this,state_53612);
+return app$csv$state_machine__36067__auto____1.call(this,state_58005);
 }
 throw(new Error('Invalid arity: ' + arguments.length));
 };
@@ -515,17 +515,17 @@ app$csv$state_machine__36067__auto__.cljs$core$IFn$_invoke$arity$1 = app$csv$sta
 return app$csv$state_machine__36067__auto__;
 })()
 })();
-var state__36138__auto__ = (function (){var statearr_53639 = f__36137__auto__();
-(statearr_53639[(6)] = c__36136__auto___53691);
+var state__36138__auto__ = (function (){var statearr_58024 = f__36137__auto__();
+(statearr_58024[(6)] = c__36136__auto___58198);
 
-return statearr_53639;
+return statearr_58024;
 })();
 return cljs.core.async.impl.ioc_helpers.run_state_machine_wrapped(state__36138__auto__);
 }));
 
 app.csv.upload_btn = (function app$csv$upload_btn(file_name,upload_reqs_channel){
-return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span.upload-label","span.upload-label",-112039379),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"label.file-label","label.file-label",-520604852),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"input.file-input","input.file-input",-263595274),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"type","type",1174270348),"file",new cljs.core.Keyword(null,"accept","accept",1874130431),".csv",new cljs.core.Keyword(null,"on-change","on-change",-732046149),(function (p1__53642_SHARP_){
-return cljs.core.async.put_BANG_.cljs$core$IFn$_invoke$arity$2(upload_reqs_channel,p1__53642_SHARP_);
+return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span.upload-label","span.upload-label",-112039379),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"label.file-label","label.file-label",-520604852),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"input.file-input","input.file-input",-263595274),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"type","type",1174270348),"file",new cljs.core.Keyword(null,"accept","accept",1874130431),".csv",new cljs.core.Keyword(null,"on-change","on-change",-732046149),(function (p1__58026_SHARP_){
+return cljs.core.async.put_BANG_.cljs$core$IFn$_invoke$arity$2(upload_reqs_channel,p1__58026_SHARP_);
 })], null)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span.file-cta","span.file-cta",1078791818),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span.file-icon","span.file-icon",890123937),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"i.fa.fa-upload.fa-lg","i.fa.fa-upload.fa-lg",1001949208)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span.file-label","span.file-label",1374272136),(function (){var or__4253__auto__ = file_name;
 if(cljs.core.truth_(or__4253__auto__)){
 return or__4253__auto__;
