@@ -15,6 +15,7 @@ var DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/drive/v3/res
 var SCOPES = 'https://www.googleapis.com/auth/drive.readonly';
 
 
+// Useful for doing imports dynamically in this file (not currently used).
 function require(url, callback) {
   var e = document.createElement("script");
   e.src = url;
@@ -41,17 +42,6 @@ function initClient() {
     discoveryDocs: DISCOVERY_DOCS,
     scope: SCOPES
   }).then(function () {
-    // require("/js/libs.js/main.js");
-    // require("/js/app.js", function() {
-    //   // Load the app
-    //   app.core.init_BANG_();
-
-    //   // Handle the initial sign-in state.
-    //   updateSigninStatus(gapi.auth2.getAuthInstance().isSignedIn.get());
-    //   document.getElementById('authorize_button').onclick = handleAuthClick;
-    //   document.getElementById('signout_button').onclick = handleSignoutClick;
-    // });
-
     // Handle the initial sign-in state.
     updateSigninStatus(gapi.auth2.getAuthInstance().isSignedIn.get());
     document.getElementById('authorize_button').onclick = handleAuthClick;
