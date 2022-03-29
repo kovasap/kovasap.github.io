@@ -32,26 +32,3 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
-.hide {
-  display: none;
-  position: absolute;
-  z-index: 100;
-}
-
-.label:hover + .hide {
-  display: block;
-}
-
-/* Vertically center text in column header https://stackoverflow.com/a/13515693
- */
-[role=columnheader] {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
-}
-
-[role=grid] {
-  block-size: 700px;
-}

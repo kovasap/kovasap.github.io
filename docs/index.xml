@@ -86,7 +86,7 @@ Reading this made me think of the process of climbing, which has many such steps
       
       <guid>https://kovasap.github.io/docs/datavis/reddit-tree/</guid>
       <description>Reddit Comment Tree #  I was curious about which Reddit comments end up getting many upvotes, so I made this visualization:
-  Click the image to go to the interactive page!  The code can be found at github.com/kovasap/reddit-tree.</description>
+  Click the image to go to the interactive page!   -- The code can be found at github.com/kovasap/reddit-tree.</description>
     </item>
     
     <item>
@@ -136,15 +136,6 @@ Advice for artistic practice:
       <guid>https://kovasap.github.io/docs/DRAFT-how-to-write/</guid>
       <description>How to Write #  Writers Block #  Try talking to someone (or yourself) about your topic, recording the conversation, then using speech-to-text technology to fill your blank page with a first draft.
 https://vasilishynkarenka.com/8questions/</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/DRAFT-life-philosophy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/DRAFT-life-philosophy/</guid>
-      <description>Life Philosophy and Goals #  My life consists of my habits and environment, as well as my accumulated internal mental state (believes, abilties, memories). I strive to shape these factors such that I feel fulfilled and am satisfied with my life trajectory. Aspects of life that make up these factors interact in a web of cause and effect, and play off each other in complex, non-isolated ways. Here, I try to describe how I personally manage these factors to hopefully improve the lives of others that stumble across this description.</description>
     </item>
     
     <item>
@@ -593,6 +584,15 @@ Note that your capital gains themselves help determine your capital gains tax ra
       
       <guid>https://kovasap.github.io/docs/lifestyle-optimizations/android-apps/</guid>
       <description>Android Apps #  Flowx #  Really cool weather app that is beautiful, elegant in it&amp;rsquo;s interface, and very informative. I&amp;rsquo;d say it takes about a week to get used to it, but after that it&amp;rsquo;s the best weather source I&amp;rsquo;ve ever used.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/lifestyle-optimizations/DRAFT-experiences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/DRAFT-experiences/</guid>
+      <description>Life Philosophy and Goals #  My life consists of my habits and environment, as well as my accumulated internal mental state (believes, abilties, memories). I strive to shape these factors such that I feel fulfilled and am satisfied with my life trajectory. Aspects of life that make up these factors interact in a web of cause and effect, and play off each other in complex, non-isolated ways. Here, I try to describe how I personally manage these factors to hopefully improve the lives of others that stumble across this description.</description>
     </item>
     
     <item>

@@ -16,8 +16,8 @@ var p = cljs.core.nth.cljs$core$IFn$_invoke$arity$2(arrangement.core.type_predic
 if(cljs.core.truth_((p.cljs$core$IFn$_invoke$arity$1 ? p.cljs$core$IFn$_invoke$arity$1(x) : p.call(null,x)))){
 return i;
 } else {
-var G__62682 = (i + (1));
-i = G__62682;
+var G__69034 = (i + (1));
+i = G__69034;
 continue;
 }
 } else {
@@ -58,10 +58,10 @@ var x = cljs.core.first(xs);
 var y = cljs.core.first(ys);
 var o = (arrangement.core.rank.cljs$core$IFn$_invoke$arity$2 ? arrangement.core.rank.cljs$core$IFn$_invoke$arity$2(x,y) : arrangement.core.rank.call(null,x,y));
 if((o === (0))){
-var G__62684 = cljs.core.next(xs);
-var G__62685 = cljs.core.next(ys);
-xs = G__62684;
-ys = G__62685;
+var G__69035 = cljs.core.next(xs);
+var G__69036 = cljs.core.next(ys);
+xs = G__69035;
+ys = G__69036;
 continue;
 } else {
 return o;
