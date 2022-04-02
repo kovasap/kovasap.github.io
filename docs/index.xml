@@ -159,16 +159,6 @@ I love video games, and other forms of interactive art, because they are designe
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/DRAFT-random-ideas/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/DRAFT-random-ideas/</guid>
-      <description>&amp;ldquo;System 1&amp;rdquo; Chatbot #  A chatbot that simulates talking to the &amp;ldquo;system 1&amp;rdquo; part of the brain only as described in &amp;ldquo;Thinking, Fast and Slow&amp;rdquo;.
-Water Saving Toilet #  Make a toilet where urine is redirected (like a composting toilet) into a separate area with no water in it (the back of the toilet still has water). Then, when you pee in that area you don&amp;rsquo;t need to flush, but when you poop (or otherwise flush), the rising water will drain into the pee area as well, washing it.</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://kovasap.github.io/docs/DRAFT-rhetoric/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -958,6 +948,16 @@ Modelling the Intelligence #  The AI could be composed of &amp;ldquo;neurons&amp
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/thought-experiments/random-ideas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/thought-experiments/random-ideas/</guid>
+      <description>Random Ideas #  A collection of random short ideas I&amp;rsquo;ve had over the years that I haven&amp;rsquo;t executed on (yet). If you find or do one of these things let me know!
+Encoding Vocal Inflection in Text #  In March 2022 I started using text to speech converters to generate audiobooks for me to listen to on commutes. The biggest difference I noticed between robot audio and a human reading out loud is that spacing between words and vocal inflections don&amp;rsquo;t always happen in the same way.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/thought-experiments/two-glasses/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -983,8 +983,7 @@ max_size = 10 a_volume, a_tea_fraction = 9, 1.0 b_volume, b_tea_fraction = 9, 0.
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/understanding-the-world/humanitys-biggest-problem/</guid>
-      <description>Humanity&amp;rsquo;s Biggest Problem #  That most people are trapped in situations where they can&amp;rsquo;t creatively solve problems.
-This is heavily inspired by The Beginning of Infinity by David Deutsch.</description>
+      <description>Humanity&amp;rsquo;s Biggest Problem #  People have the uniquely powerful ability to come up with arbitrary explanations for how stuff works and then critically compare them against each other. This creative process has led to all major advances in human history, and is responsible for the accelerating rate of progress we all enjoy today. This progress is in turn responsible for alleviating a tremendous amount of suffering, and for creating a myriad of new ways for people to feel happy, satisfied, or otherwise good.</description>
     </item>
     
     <item>
