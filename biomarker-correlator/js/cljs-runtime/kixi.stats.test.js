@@ -54,13 +54,13 @@ return and__4251__auto____$1;
 return and__4251__auto__;
 }
 })())){
-var G__44812 = alternate;
-var G__44812__$1 = (((G__44812 instanceof cljs.core.Keyword))?G__44812.fqn:null);
-switch (G__44812__$1) {
+var G__82210 = alternate;
+var G__82210__$1 = (((G__82210 instanceof cljs.core.Keyword))?G__82210.fqn:null);
+switch (G__82210__$1) {
 case "<>":
-return kixi.stats.math.clamp(((2) * (function (){var G__44813 = self__.distribution;
-var G__44814 = (- kixi.stats.math.abs(self__.statistic));
-return (kixi.stats.distribution.cdf.cljs$core$IFn$_invoke$arity$2 ? kixi.stats.distribution.cdf.cljs$core$IFn$_invoke$arity$2(G__44813,G__44814) : kixi.stats.distribution.cdf.call(null,G__44813,G__44814));
+return kixi.stats.math.clamp(((2) * (function (){var G__82211 = self__.distribution;
+var G__82212 = (- kixi.stats.math.abs(self__.statistic));
+return (kixi.stats.distribution.cdf.cljs$core$IFn$_invoke$arity$2 ? kixi.stats.distribution.cdf.cljs$core$IFn$_invoke$arity$2(G__82211,G__82212) : kixi.stats.distribution.cdf.call(null,G__82211,G__82212));
 })()),0.0,1.0);
 
 break;
@@ -73,7 +73,7 @@ return ((1) - (kixi.stats.distribution.cdf.cljs$core$IFn$_invoke$arity$2 ? kixi.
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__44812__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__82210__$1)].join('')));
 
 }
 } else {
@@ -84,8 +84,8 @@ return null;
 (kixi.stats.test.TestResult.prototype.kixi$stats$protocols$PTestResult$significant_QMARK_$arity$2 = (function (this$,alpha){
 var self__ = this;
 var this$__$1 = this;
-var G__44815 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [this$__$1,alpha,self__.h1], null);
-return (kixi.stats.test.significant_QMARK_.cljs$core$IFn$_invoke$arity$1 ? kixi.stats.test.significant_QMARK_.cljs$core$IFn$_invoke$arity$1(G__44815) : kixi.stats.test.significant_QMARK_.call(null,G__44815));
+var G__82218 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [this$__$1,alpha,self__.h1], null);
+return (kixi.stats.test.significant_QMARK_.cljs$core$IFn$_invoke$arity$1 ? kixi.stats.test.significant_QMARK_.cljs$core$IFn$_invoke$arity$1(G__82218) : kixi.stats.test.significant_QMARK_.call(null,G__82218));
 }));
 
 (kixi.stats.test.TestResult.prototype.kixi$stats$protocols$PTestResult$significant_QMARK_$arity$3 = (function (this$,alpha,alternate){
@@ -109,9 +109,9 @@ return and__4251__auto__;
 }
 })())){
 var critical = kixi.stats.distribution.critical_value.cljs$core$IFn$_invoke$arity$3(self__.distribution,alpha,alternate);
-var G__44832 = alternate;
-var G__44832__$1 = (((G__44832 instanceof cljs.core.Keyword))?G__44832.fqn:null);
-switch (G__44832__$1) {
+var G__82226 = alternate;
+var G__82226__$1 = (((G__82226 instanceof cljs.core.Keyword))?G__82226.fqn:null);
+switch (G__82226__$1) {
 case "<>":
 return (kixi.stats.math.abs(self__.statistic) > critical);
 
@@ -125,7 +125,7 @@ return (self__.statistic > critical);
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__44832__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__82226__$1)].join('')));
 
 }
 } else {
@@ -139,12 +139,12 @@ var this__4502__auto____$1 = this;
 return this__4502__auto____$1.cljs$core$ILookup$_lookup$arity$3(null,k__4503__auto__,null);
 }));
 
-(kixi.stats.test.TestResult.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__4504__auto__,k44794,else__4505__auto__){
+(kixi.stats.test.TestResult.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__4504__auto__,k82200,else__4505__auto__){
 var self__ = this;
 var this__4504__auto____$1 = this;
-var G__44848 = k44794;
-var G__44848__$1 = (((G__44848 instanceof cljs.core.Keyword))?G__44848.fqn:null);
-switch (G__44848__$1) {
+var G__82235 = k82200;
+var G__82235__$1 = (((G__82235 instanceof cljs.core.Keyword))?G__82235.fqn:null);
+switch (G__82235__$1) {
 case "statistic":
 return self__.statistic;
 
@@ -158,7 +158,7 @@ return self__.h1;
 
 break;
 default:
-return cljs.core.get.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k44794,else__4505__auto__);
+return cljs.core.get.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k82200,else__4505__auto__);
 
 }
 }));
@@ -166,10 +166,10 @@ return cljs.core.get.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k44794,else__
 (kixi.stats.test.TestResult.prototype.cljs$core$IKVReduce$_kv_reduce$arity$3 = (function (this__4522__auto__,f__4523__auto__,init__4524__auto__){
 var self__ = this;
 var this__4522__auto____$1 = this;
-return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (ret__4525__auto__,p__44855){
-var vec__44856 = p__44855;
-var k__4526__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44856,(0),null);
-var v__4527__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44856,(1),null);
+return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (ret__4525__auto__,p__82239){
+var vec__82243 = p__82239;
+var k__4526__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__82243,(0),null);
+var v__4527__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__82243,(1),null);
 return (f__4523__auto__.cljs$core$IFn$_invoke$arity$3 ? f__4523__auto__.cljs$core$IFn$_invoke$arity$3(ret__4525__auto__,k__4526__auto__,v__4527__auto__) : f__4523__auto__.call(null,ret__4525__auto__,k__4526__auto__,v__4527__auto__));
 }),init__4524__auto__,this__4522__auto____$1);
 }));
@@ -183,10 +183,10 @@ return cljs.core.pr_sequential_writer(writer__4518__auto__,cljs.core.pr_writer,"
 return cljs.core.pr_sequential_writer(writer__4518__auto__,pr_pair__4520__auto__,"#kixi.stats.test.TestResult{",", ","}",opts__4519__auto__,cljs.core.concat.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"statistic","statistic",-788899134),self__.statistic],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"distribution","distribution",-284555369),self__.distribution],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"h1","h1",-1896887462),self__.h1],null))], null),self__.__extmap));
 }));
 
-(kixi.stats.test.TestResult.prototype.cljs$core$IIterable$_iterator$arity$1 = (function (G__44793){
+(kixi.stats.test.TestResult.prototype.cljs$core$IIterable$_iterator$arity$1 = (function (G__82199){
 var self__ = this;
-var G__44793__$1 = this;
-return (new cljs.core.RecordIter((0),G__44793__$1,3,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"statistic","statistic",-788899134),new cljs.core.Keyword(null,"distribution","distribution",-284555369),new cljs.core.Keyword(null,"h1","h1",-1896887462)], null),(cljs.core.truth_(self__.__extmap)?cljs.core._iterator(self__.__extmap):cljs.core.nil_iter())));
+var G__82199__$1 = this;
+return (new cljs.core.RecordIter((0),G__82199__$1,3,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"statistic","statistic",-788899134),new cljs.core.Keyword(null,"distribution","distribution",-284555369),new cljs.core.Keyword(null,"h1","h1",-1896887462)], null),(cljs.core.truth_(self__.__extmap)?cljs.core._iterator(self__.__extmap):cljs.core.nil_iter())));
 }));
 
 (kixi.stats.test.TestResult.prototype.cljs$core$IMeta$_meta$arity$1 = (function (this__4500__auto__){
@@ -223,10 +223,10 @@ return h__4360__auto____$1;
 }
 }));
 
-(kixi.stats.test.TestResult.prototype.cljs$core$IEquiv$_equiv$arity$2 = (function (this44795,other44796){
+(kixi.stats.test.TestResult.prototype.cljs$core$IEquiv$_equiv$arity$2 = (function (this82201,other82202){
 var self__ = this;
-var this44795__$1 = this;
-return (((!((other44796 == null)))) && ((((this44795__$1.constructor === other44796.constructor)) && (((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this44795__$1.statistic,other44796.statistic)) && (((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this44795__$1.distribution,other44796.distribution)) && (((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this44795__$1.h1,other44796.h1)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this44795__$1.__extmap,other44796.__extmap)))))))))));
+var this82201__$1 = this;
+return (((!((other82202 == null)))) && ((((this82201__$1.constructor === other82202.constructor)) && (((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this82201__$1.statistic,other82202.statistic)) && (((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this82201__$1.distribution,other82202.distribution)) && (((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this82201__$1.h1,other82202.h1)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this82201__$1.__extmap,other82202.__extmap)))))))))));
 }));
 
 (kixi.stats.test.TestResult.prototype.cljs$core$IMap$_dissoc$arity$2 = (function (this__4512__auto__,k__4513__auto__){
@@ -239,12 +239,12 @@ return (new kixi.stats.test.TestResult(self__.statistic,self__.distribution,self
 }
 }));
 
-(kixi.stats.test.TestResult.prototype.cljs$core$IAssociative$_contains_key_QMARK_$arity$2 = (function (this__4509__auto__,k44794){
+(kixi.stats.test.TestResult.prototype.cljs$core$IAssociative$_contains_key_QMARK_$arity$2 = (function (this__4509__auto__,k82200){
 var self__ = this;
 var this__4509__auto____$1 = this;
-var G__44896 = k44794;
-var G__44896__$1 = (((G__44896 instanceof cljs.core.Keyword))?G__44896.fqn:null);
-switch (G__44896__$1) {
+var G__82314 = k82200;
+var G__82314__$1 = (((G__82314 instanceof cljs.core.Keyword))?G__82314.fqn:null);
+switch (G__82314__$1) {
 case "statistic":
 case "distribution":
 case "h1":
@@ -252,26 +252,26 @@ return true;
 
 break;
 default:
-return cljs.core.contains_QMARK_(self__.__extmap,k44794);
+return cljs.core.contains_QMARK_(self__.__extmap,k82200);
 
 }
 }));
 
-(kixi.stats.test.TestResult.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4510__auto__,k__4511__auto__,G__44793){
+(kixi.stats.test.TestResult.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4510__auto__,k__4511__auto__,G__82199){
 var self__ = this;
 var this__4510__auto____$1 = this;
-var pred__44897 = cljs.core.keyword_identical_QMARK_;
-var expr__44898 = k__4511__auto__;
-if(cljs.core.truth_((pred__44897.cljs$core$IFn$_invoke$arity$2 ? pred__44897.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"statistic","statistic",-788899134),expr__44898) : pred__44897.call(null,new cljs.core.Keyword(null,"statistic","statistic",-788899134),expr__44898)))){
-return (new kixi.stats.test.TestResult(G__44793,self__.distribution,self__.h1,self__.__meta,self__.__extmap,null));
+var pred__82316 = cljs.core.keyword_identical_QMARK_;
+var expr__82317 = k__4511__auto__;
+if(cljs.core.truth_((pred__82316.cljs$core$IFn$_invoke$arity$2 ? pred__82316.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"statistic","statistic",-788899134),expr__82317) : pred__82316.call(null,new cljs.core.Keyword(null,"statistic","statistic",-788899134),expr__82317)))){
+return (new kixi.stats.test.TestResult(G__82199,self__.distribution,self__.h1,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((pred__44897.cljs$core$IFn$_invoke$arity$2 ? pred__44897.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"distribution","distribution",-284555369),expr__44898) : pred__44897.call(null,new cljs.core.Keyword(null,"distribution","distribution",-284555369),expr__44898)))){
-return (new kixi.stats.test.TestResult(self__.statistic,G__44793,self__.h1,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_((pred__82316.cljs$core$IFn$_invoke$arity$2 ? pred__82316.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"distribution","distribution",-284555369),expr__82317) : pred__82316.call(null,new cljs.core.Keyword(null,"distribution","distribution",-284555369),expr__82317)))){
+return (new kixi.stats.test.TestResult(self__.statistic,G__82199,self__.h1,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((pred__44897.cljs$core$IFn$_invoke$arity$2 ? pred__44897.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"h1","h1",-1896887462),expr__44898) : pred__44897.call(null,new cljs.core.Keyword(null,"h1","h1",-1896887462),expr__44898)))){
-return (new kixi.stats.test.TestResult(self__.statistic,self__.distribution,G__44793,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_((pred__82316.cljs$core$IFn$_invoke$arity$2 ? pred__82316.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"h1","h1",-1896887462),expr__82317) : pred__82316.call(null,new cljs.core.Keyword(null,"h1","h1",-1896887462),expr__82317)))){
+return (new kixi.stats.test.TestResult(self__.statistic,self__.distribution,G__82199,self__.__meta,self__.__extmap,null));
 } else {
-return (new kixi.stats.test.TestResult(self__.statistic,self__.distribution,self__.h1,self__.__meta,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k__4511__auto__,G__44793),null));
+return (new kixi.stats.test.TestResult(self__.statistic,self__.distribution,self__.h1,self__.__meta,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k__4511__auto__,G__82199),null));
 }
 }
 }
@@ -283,10 +283,10 @@ var this__4515__auto____$1 = this;
 return cljs.core.seq(cljs.core.concat.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(new cljs.core.MapEntry(new cljs.core.Keyword(null,"statistic","statistic",-788899134),self__.statistic,null)),(new cljs.core.MapEntry(new cljs.core.Keyword(null,"distribution","distribution",-284555369),self__.distribution,null)),(new cljs.core.MapEntry(new cljs.core.Keyword(null,"h1","h1",-1896887462),self__.h1,null))], null),self__.__extmap));
 }));
 
-(kixi.stats.test.TestResult.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (this__4501__auto__,G__44793){
+(kixi.stats.test.TestResult.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (this__4501__auto__,G__82199){
 var self__ = this;
 var this__4501__auto____$1 = this;
-return (new kixi.stats.test.TestResult(self__.statistic,self__.distribution,self__.h1,G__44793,self__.__extmap,self__.__hash));
+return (new kixi.stats.test.TestResult(self__.statistic,self__.distribution,self__.h1,G__82199,self__.__extmap,self__.__hash));
 }));
 
 (kixi.stats.test.TestResult.prototype.cljs$core$ICollection$_conj$arity$2 = (function (this__4507__auto__,entry__4508__auto__){
@@ -323,20 +323,20 @@ return (new kixi.stats.test.TestResult(statistic,distribution,h1,null,null,null)
 /**
  * Factory function for kixi.stats.test/TestResult, taking a map of keywords to field values.
  */
-kixi.stats.test.map__GT_TestResult = (function kixi$stats$test$map__GT_TestResult(G__44801){
-var extmap__4542__auto__ = (function (){var G__44902 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$variadic(G__44801,new cljs.core.Keyword(null,"statistic","statistic",-788899134),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"distribution","distribution",-284555369),new cljs.core.Keyword(null,"h1","h1",-1896887462)], 0));
-if(cljs.core.record_QMARK_(G__44801)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__44902);
+kixi.stats.test.map__GT_TestResult = (function kixi$stats$test$map__GT_TestResult(G__82206){
+var extmap__4542__auto__ = (function (){var G__82350 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$variadic(G__82206,new cljs.core.Keyword(null,"statistic","statistic",-788899134),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"distribution","distribution",-284555369),new cljs.core.Keyword(null,"h1","h1",-1896887462)], 0));
+if(cljs.core.record_QMARK_(G__82206)){
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__82350);
 } else {
-return G__44902;
+return G__82350;
 }
 })();
-return (new kixi.stats.test.TestResult(new cljs.core.Keyword(null,"statistic","statistic",-788899134).cljs$core$IFn$_invoke$arity$1(G__44801),new cljs.core.Keyword(null,"distribution","distribution",-284555369).cljs$core$IFn$_invoke$arity$1(G__44801),new cljs.core.Keyword(null,"h1","h1",-1896887462).cljs$core$IFn$_invoke$arity$1(G__44801),null,cljs.core.not_empty(extmap__4542__auto__),null));
+return (new kixi.stats.test.TestResult(new cljs.core.Keyword(null,"statistic","statistic",-788899134).cljs$core$IFn$_invoke$arity$1(G__82206),new cljs.core.Keyword(null,"distribution","distribution",-284555369).cljs$core$IFn$_invoke$arity$1(G__82206),new cljs.core.Keyword(null,"h1","h1",-1896887462).cljs$core$IFn$_invoke$arity$1(G__82206),null,cljs.core.not_empty(extmap__4542__auto__),null));
 });
 
 kixi.stats.test.test_result = (function kixi$stats$test$test_result(var_args){
-var G__44909 = arguments.length;
-switch (G__44909) {
+var G__82363 = arguments.length;
+switch (G__82363) {
 case 2:
 return kixi.stats.test.test_result.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -371,10 +371,10 @@ var size = kixi.stats.protocols.size(table);
 var factors = cljs.core.count(size);
 var total = kixi.stats.math.pow(kixi.stats.protocols.grand_total(table),(factors - (1)));
 var dof = cljs.core.apply.cljs$core$IFn$_invoke$arity$4(cljs.core._,cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._STAR_,size),(1),cljs.core.map.cljs$core$IFn$_invoke$arity$2(cljs.core.dec,size));
-var stat = cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (acc,p__44923){
-var vec__44924 = p__44923;
-var levels = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44924,(0),null);
-var counts = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44924,(1),null);
+var stat = cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (acc,p__82373){
+var vec__82374 = p__82373;
+var levels = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__82374,(0),null);
+var counts = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__82374,(1),null);
 var cell = kixi.stats.protocols.cell(table,levels);
 var e = (cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._STAR_,counts) / total);
 return (acc + (kixi.stats.math.sq((e - cell)) / e));
@@ -389,15 +389,15 @@ return kixi.stats.test.test_result.cljs$core$IFn$_invoke$arity$3(stat,kixi.stats
  *   n: the sample size
  *   See also: kixi.stats.core/simple-z-test
  */
-kixi.stats.test.simple_z_test = (function kixi$stats$test$simple_z_test(p__44933,p__44934){
-var map__44935 = p__44933;
-var map__44935__$1 = cljs.core.__destructure_map(map__44935);
-var mu = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44935__$1,new cljs.core.Keyword(null,"mu","mu",1146469241));
-var sd = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44935__$1,new cljs.core.Keyword(null,"sd","sd",-1707124456));
-var map__44936 = p__44934;
-var map__44936__$1 = cljs.core.__destructure_map(map__44936);
-var mean = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44936__$1,new cljs.core.Keyword(null,"mean","mean",-1359234715));
-var n = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44936__$1,new cljs.core.Keyword(null,"n","n",562130025));
+kixi.stats.test.simple_z_test = (function kixi$stats$test$simple_z_test(p__82402,p__82403){
+var map__82404 = p__82402;
+var map__82404__$1 = cljs.core.__destructure_map(map__82404);
+var mu = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__82404__$1,new cljs.core.Keyword(null,"mu","mu",1146469241));
+var sd = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__82404__$1,new cljs.core.Keyword(null,"sd","sd",-1707124456));
+var map__82405 = p__82403;
+var map__82405__$1 = cljs.core.__destructure_map(map__82405);
+var mean = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__82405__$1,new cljs.core.Keyword(null,"mean","mean",-1359234715));
+var n = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__82405__$1,new cljs.core.Keyword(null,"n","n",562130025));
 if((((n > (0))) && ((sd > (0))))){
 var z = ((mean - mu) / (sd / kixi.stats.math.sqrt(n)));
 return kixi.stats.test.test_result.cljs$core$IFn$_invoke$arity$2(z,kixi.stats.distribution.normal(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"location","location",1815599388),0.0,new cljs.core.Keyword(null,"scale","scale",-230427353),1.0], null)));
@@ -410,17 +410,17 @@ return null;
  *   Requires the mean, sd and sample size (n) of both samples.
  *   See also: kixi.stats.core/z-test
  */
-kixi.stats.test.z_test = (function kixi$stats$test$z_test(p__44954,p__44955){
-var map__44956 = p__44954;
-var map__44956__$1 = cljs.core.__destructure_map(map__44956);
-var mean_x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44956__$1,new cljs.core.Keyword(null,"mean","mean",-1359234715));
-var sd_x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44956__$1,new cljs.core.Keyword(null,"sd","sd",-1707124456));
-var n_x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44956__$1,new cljs.core.Keyword(null,"n","n",562130025));
-var map__44957 = p__44955;
-var map__44957__$1 = cljs.core.__destructure_map(map__44957);
-var mean_y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44957__$1,new cljs.core.Keyword(null,"mean","mean",-1359234715));
-var sd_y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44957__$1,new cljs.core.Keyword(null,"sd","sd",-1707124456));
-var n_y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44957__$1,new cljs.core.Keyword(null,"n","n",562130025));
+kixi.stats.test.z_test = (function kixi$stats$test$z_test(p__82424,p__82425){
+var map__82427 = p__82424;
+var map__82427__$1 = cljs.core.__destructure_map(map__82427);
+var mean_x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__82427__$1,new cljs.core.Keyword(null,"mean","mean",-1359234715));
+var sd_x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__82427__$1,new cljs.core.Keyword(null,"sd","sd",-1707124456));
+var n_x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__82427__$1,new cljs.core.Keyword(null,"n","n",562130025));
+var map__82428 = p__82425;
+var map__82428__$1 = cljs.core.__destructure_map(map__82428);
+var mean_y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__82428__$1,new cljs.core.Keyword(null,"mean","mean",-1359234715));
+var sd_y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__82428__$1,new cljs.core.Keyword(null,"sd","sd",-1707124456));
+var n_y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__82428__$1,new cljs.core.Keyword(null,"n","n",562130025));
 var sd_xy = (function (){var and__4251__auto__ = (n_x > (0));
 if(and__4251__auto__){
 var and__4251__auto____$1 = (n_y > (0));
@@ -456,17 +456,17 @@ return null;
  *   Requires the mean, sd and sample size (n) of both samples.
  *   See also: kixi.stats.core/t-test
  */
-kixi.stats.test.t_test = (function kixi$stats$test$t_test(p__44967,p__44968){
-var map__44969 = p__44967;
-var map__44969__$1 = cljs.core.__destructure_map(map__44969);
-var mean_a = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44969__$1,new cljs.core.Keyword(null,"mean","mean",-1359234715));
-var sd_a = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44969__$1,new cljs.core.Keyword(null,"sd","sd",-1707124456));
-var n_a = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44969__$1,new cljs.core.Keyword(null,"n","n",562130025));
-var map__44970 = p__44968;
-var map__44970__$1 = cljs.core.__destructure_map(map__44970);
-var mean_b = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44970__$1,new cljs.core.Keyword(null,"mean","mean",-1359234715));
-var sd_b = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44970__$1,new cljs.core.Keyword(null,"sd","sd",-1707124456));
-var n_b = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44970__$1,new cljs.core.Keyword(null,"n","n",562130025));
+kixi.stats.test.t_test = (function kixi$stats$test$t_test(p__82433,p__82434){
+var map__82438 = p__82433;
+var map__82438__$1 = cljs.core.__destructure_map(map__82438);
+var mean_a = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__82438__$1,new cljs.core.Keyword(null,"mean","mean",-1359234715));
+var sd_a = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__82438__$1,new cljs.core.Keyword(null,"sd","sd",-1707124456));
+var n_a = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__82438__$1,new cljs.core.Keyword(null,"n","n",562130025));
+var map__82439 = p__82434;
+var map__82439__$1 = cljs.core.__destructure_map(map__82439);
+var mean_b = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__82439__$1,new cljs.core.Keyword(null,"mean","mean",-1359234715));
+var sd_b = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__82439__$1,new cljs.core.Keyword(null,"sd","sd",-1707124456));
+var n_b = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__82439__$1,new cljs.core.Keyword(null,"n","n",562130025));
 var sd_ab = (function (){var and__4251__auto__ = (n_a > (0));
 if(and__4251__auto__){
 var and__4251__auto____$1 = (n_b > (0));
@@ -518,15 +518,15 @@ return null;
  *   n: the sample size
  *   See also: kixi.stats.core/simple-t-test
  */
-kixi.stats.test.simple_t_test = (function kixi$stats$test$simple_t_test(p__44992,p__44993){
-var map__44994 = p__44992;
-var map__44994__$1 = cljs.core.__destructure_map(map__44994);
-var mu = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44994__$1,new cljs.core.Keyword(null,"mu","mu",1146469241));
-var sd = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44994__$1,new cljs.core.Keyword(null,"sd","sd",-1707124456));
-var map__44995 = p__44993;
-var map__44995__$1 = cljs.core.__destructure_map(map__44995);
-var mean = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44995__$1,new cljs.core.Keyword(null,"mean","mean",-1359234715));
-var n = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44995__$1,new cljs.core.Keyword(null,"n","n",562130025));
+kixi.stats.test.simple_t_test = (function kixi$stats$test$simple_t_test(p__82451,p__82452){
+var map__82453 = p__82451;
+var map__82453__$1 = cljs.core.__destructure_map(map__82453);
+var mu = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__82453__$1,new cljs.core.Keyword(null,"mu","mu",1146469241));
+var sd = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__82453__$1,new cljs.core.Keyword(null,"sd","sd",-1707124456));
+var map__82454 = p__82452;
+var map__82454__$1 = cljs.core.__destructure_map(map__82454);
+var mean = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__82454__$1,new cljs.core.Keyword(null,"mean","mean",-1359234715));
+var n = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__82454__$1,new cljs.core.Keyword(null,"n","n",562130025));
 var dof = (n - (1));
 var t = (function (){var and__4251__auto__ = (sd > (0));
 if(and__4251__auto__){

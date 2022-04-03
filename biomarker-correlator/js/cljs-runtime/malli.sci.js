@@ -6,8 +6,8 @@ return sci.core.eval_string_STAR_;
 } else {
 var temp__5751__auto__ = cljs.core.find(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"default","default",-1987822328),null], null),new cljs.core.Keyword(null,"default","default",-1987822328));
 if(cljs.core.truth_(temp__5751__auto__)){
-var e__37959__auto__ = temp__5751__auto__;
-return cljs.core.val(e__37959__auto__);
+var e__37947__auto__ = temp__5751__auto__;
+return cljs.core.val(e__37947__auto__);
 } else {
 throw (new Error(["Var ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Symbol("sci.core","eval-string*","sci.core/eval-string*",2134763594,null))," does not exist, ",cljs.core.namespace(new cljs.core.Symbol("sci.core","eval-string*","sci.core/eval-string*",2134763594,null))," never required"].join('')));
 }
@@ -19,8 +19,8 @@ return sci.core.init;
 } else {
 var temp__5751__auto__ = cljs.core.find(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"default","default",-1987822328),null], null),new cljs.core.Keyword(null,"default","default",-1987822328));
 if(cljs.core.truth_(temp__5751__auto__)){
-var e__37959__auto__ = temp__5751__auto__;
-return cljs.core.val(e__37959__auto__);
+var e__37947__auto__ = temp__5751__auto__;
+return cljs.core.val(e__37947__auto__);
 } else {
 throw (new Error(["Var ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Symbol("sci.core","init","sci.core/init",-622666095,null))," does not exist, ",cljs.core.namespace(new cljs.core.Symbol("sci.core","init","sci.core/init",-622666095,null))," never required"].join('')));
 }
@@ -32,8 +32,8 @@ return sci.core.fork;
 } else {
 var temp__5751__auto__ = cljs.core.find(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"default","default",-1987822328),null], null),new cljs.core.Keyword(null,"default","default",-1987822328));
 if(cljs.core.truth_(temp__5751__auto__)){
-var e__37959__auto__ = temp__5751__auto__;
-return cljs.core.val(e__37959__auto__);
+var e__37947__auto__ = temp__5751__auto__;
+return cljs.core.val(e__37947__auto__);
 } else {
 throw (new Error(["Var ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Symbol("sci.core","fork","sci.core/fork",-1806691042,null))," does not exist, ",cljs.core.namespace(new cljs.core.Symbol("sci.core","fork","sci.core/fork",-1806691042,null))," never required"].join('')));
 }
@@ -56,9 +56,9 @@ var ctx = (init.cljs$core$IFn$_invoke$arity$1 ? init.cljs$core$IFn$_invoke$arity
 (eval_string_STAR_.cljs$core$IFn$_invoke$arity$2 ? eval_string_STAR_.cljs$core$IFn$_invoke$arity$2(ctx,"(alias 'm 'malli.core)") : eval_string_STAR_.call(null,ctx,"(alias 'm 'malli.core)"));
 
 return (function malli$sci$evaluator_$_eval(s){
-var G__48736 = (fork.cljs$core$IFn$_invoke$arity$1 ? fork.cljs$core$IFn$_invoke$arity$1(ctx) : fork.call(null,ctx));
-var G__48737 = cljs.core.str.cljs$core$IFn$_invoke$arity$1(s);
-return (eval_string_STAR_.cljs$core$IFn$_invoke$arity$2 ? eval_string_STAR_.cljs$core$IFn$_invoke$arity$2(G__48736,G__48737) : eval_string_STAR_.call(null,G__48736,G__48737));
+var G__82748 = (fork.cljs$core$IFn$_invoke$arity$1 ? fork.cljs$core$IFn$_invoke$arity$1(ctx) : fork.call(null,ctx));
+var G__82749 = cljs.core.str.cljs$core$IFn$_invoke$arity$1(s);
+return (eval_string_STAR_.cljs$core$IFn$_invoke$arity$2 ? eval_string_STAR_.cljs$core$IFn$_invoke$arity$2(G__82748,G__82749) : eval_string_STAR_.call(null,G__82748,G__82749));
 });
 } else {
 return fail_BANG_;

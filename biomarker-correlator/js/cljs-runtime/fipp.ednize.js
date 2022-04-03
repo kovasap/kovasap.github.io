@@ -6,7 +6,7 @@ goog.provide('fipp.ednize');
  */
 fipp.ednize.IEdn = function(){};
 
-var fipp$ednize$IEdn$_edn$dyn_62694 = (function (x){
+var fipp$ednize$IEdn$_edn$dyn_83032 = (function (x){
 var x__4550__auto__ = (((x == null))?null:x);
 var m__4551__auto__ = (fipp.ednize._edn[goog.typeOf(x__4550__auto__)]);
 if((!((m__4551__auto__ == null)))){
@@ -24,7 +24,7 @@ fipp.ednize._edn = (function fipp$ednize$_edn(x){
 if((((!((x == null)))) && ((!((x.fipp$ednize$IEdn$_edn$arity$1 == null)))))){
 return x.fipp$ednize$IEdn$_edn$arity$1(x);
 } else {
-return fipp$ednize$IEdn$_edn$dyn_62694(x);
+return fipp$ednize$IEdn$_edn$dyn_83032(x);
 }
 });
 
@@ -55,25 +55,25 @@ if(fipp.ednize.override_QMARK_(x)){
 return fipp.ednize._edn(x);
 } else {
 if(cljs.core.object_QMARK_(x)){
-return cljs.core.tagged_literal(new cljs.core.Symbol(null,"js","js",-886355190,null),cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,(function (){var iter__4652__auto__ = (function fipp$ednize$edn_$_iter__62686(s__62687){
+return cljs.core.tagged_literal(new cljs.core.Symbol(null,"js","js",-886355190,null),cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,(function (){var iter__4652__auto__ = (function fipp$ednize$edn_$_iter__82997(s__82998){
 return (new cljs.core.LazySeq(null,(function (){
-var s__62687__$1 = s__62687;
+var s__82998__$1 = s__82998;
 while(true){
-var temp__5753__auto__ = cljs.core.seq(s__62687__$1);
+var temp__5753__auto__ = cljs.core.seq(s__82998__$1);
 if(temp__5753__auto__){
-var s__62687__$2 = temp__5753__auto__;
-if(cljs.core.chunked_seq_QMARK_(s__62687__$2)){
-var c__4650__auto__ = cljs.core.chunk_first(s__62687__$2);
+var s__82998__$2 = temp__5753__auto__;
+if(cljs.core.chunked_seq_QMARK_(s__82998__$2)){
+var c__4650__auto__ = cljs.core.chunk_first(s__82998__$2);
 var size__4651__auto__ = cljs.core.count(c__4650__auto__);
-var b__62689 = cljs.core.chunk_buffer(size__4651__auto__);
-if((function (){var i__62688 = (0);
+var b__83000 = cljs.core.chunk_buffer(size__4651__auto__);
+if((function (){var i__82999 = (0);
 while(true){
-if((i__62688 < size__4651__auto__)){
-var k = cljs.core._nth(c__4650__auto__,i__62688);
-cljs.core.chunk_append(b__62689,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(k),(x[k])], null));
+if((i__82999 < size__4651__auto__)){
+var k = cljs.core._nth(c__4650__auto__,i__82999);
+cljs.core.chunk_append(b__83000,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(k),(x[k])], null));
 
-var G__62699 = (i__62688 + (1));
-i__62688 = G__62699;
+var G__83033 = (i__82999 + (1));
+i__82999 = G__83033;
 continue;
 } else {
 return true;
@@ -81,13 +81,13 @@ return true;
 break;
 }
 })()){
-return cljs.core.chunk_cons(cljs.core.chunk(b__62689),fipp$ednize$edn_$_iter__62686(cljs.core.chunk_rest(s__62687__$2)));
+return cljs.core.chunk_cons(cljs.core.chunk(b__83000),fipp$ednize$edn_$_iter__82997(cljs.core.chunk_rest(s__82998__$2)));
 } else {
-return cljs.core.chunk_cons(cljs.core.chunk(b__62689),null);
+return cljs.core.chunk_cons(cljs.core.chunk(b__83000),null);
 }
 } else {
-var k = cljs.core.first(s__62687__$2);
-return cljs.core.cons(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(k),(x[k])], null),fipp$ednize$edn_$_iter__62686(cljs.core.rest(s__62687__$2)));
+var k = cljs.core.first(s__82998__$2);
+return cljs.core.cons(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(k),(x[k])], null),fipp$ednize$edn_$_iter__82997(cljs.core.rest(s__82998__$2)));
 }
 } else {
 return null;
@@ -119,8 +119,8 @@ return cljs.core.tagged_literal(new cljs.core.Symbol(null,"inst","inst",-2008473
 var ns = cljs.core.str.cljs$core$IFn$_invoke$arity$1(n);
 while(true){
 if((((ns).length) < len)){
-var G__62700 = ["0",ns].join('');
-ns = G__62700;
+var G__83036 = ["0",ns].join('');
+ns = G__83036;
 continue;
 } else {
 return ns;
