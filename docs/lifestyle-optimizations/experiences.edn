@@ -3,16 +3,16 @@
   best price. For example, looking at the price per pound of various grocery
   items and picking the one with the lowest price."
   ["habit"]
-  [["Saving Money"
-    ""
+  [["Financial Control"
+    "A feeling that you understand and are in control of your finances."
     ["positive"]]
    ["Scanning through possibilities"
     "Constantly examining many options and determining the best one by some
     usually simple criteria."
     ["engaging"]]]]
- ["Lead Climbing in a Gym"
+ ["Lead Climbing in a Gym" 
   "Clipping quickdraws on the way up a climbing route in a gym."
-  ["climbing" "exercise"]
+  ["climbing" "exercise" "⭐top10"]
   [["Thrill of Committment"
     "Doing something with a penalty for failure that you can't turn back from."]
    ["Triumph over Exposure"
@@ -32,7 +32,7 @@
     experience."]]]
  ["Browsing Hacker News"
   "Like browsing reddit."
-  []
+  ["habit"]
   [["Easy to do"]
    ["Contains hidden gems"]]]
  ["Watching GothamChess"
