@@ -229,6 +229,15 @@ During the run phase, people come to live/work in the building you designed, and
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/gamedev/mechanic-ideas/character-alignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/gamedev/mechanic-ideas/character-alignment/</guid>
+      <description>Character Alignment Visualization #  If a character in an RPG becomes more intelligent, strong, or aligned with a particular element, their color (or background color) could be hue-shifted to reflect this. This would make it easier to at-a-glance determine more about different characters in the game. This would additionally provided some &amp;ldquo;woah&amp;rdquo; factor if you come across a character with a particularly strong (saturated) color aura.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/gamedev/mechanic-ideas/low-friction-turn-based-tactics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -573,7 +582,8 @@ Note that your capital gains themselves help determine your capital gains tax ra
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/lifestyle-optimizations/android-apps/</guid>
-      <description>Android Apps #  Flowx #  Really cool weather app that is beautiful, elegant in it&amp;rsquo;s interface, and very informative. I&amp;rsquo;d say it takes about a week to get used to it, but after that it&amp;rsquo;s the best weather source I&amp;rsquo;ve ever used.</description>
+      <description>Android Apps #  Flowx #  Really cool weather app that is beautiful, elegant in it&amp;rsquo;s interface, and very informative. I&amp;rsquo;d say it takes about a week to get used to it, but after that it&amp;rsquo;s the best weather source I&amp;rsquo;ve ever used.
+Paprika #  An app that parses recipes out of the cancer that is most recipe websites into a nicely formatted, simple, ad-free page that you can save.</description>
     </item>
     
     <item>
@@ -952,7 +962,8 @@ Modelling the Intelligence #  The AI could be composed of &amp;ldquo;neurons&amp
       
       <guid>https://kovasap.github.io/docs/thought-experiments/random-ideas/</guid>
       <description>Random Ideas #  A collection of random short ideas I&amp;rsquo;ve had over the years that I haven&amp;rsquo;t executed on (yet). If you find or do one of these things let me know!
-Encoding Vocal Inflection in Text #  In March 2022 I started using text to speech converters to generate audiobooks for me to listen to on commutes. The biggest difference I noticed between robot audio and a human reading out loud is that spacing between words and vocal inflections don&amp;rsquo;t always happen in the same way.</description>
+Programming #  Make $1 on the Internet #  Will probably lead to an interesting journey!
+&amp;ldquo;System 1&amp;rdquo; Chatbot #  A chatbot that simulates talking to the &amp;ldquo;system 1&amp;rdquo; part of the brain only as described in &amp;ldquo;Thinking, Fast and Slow&amp;rdquo;.</description>
     </item>
     
     <item>
