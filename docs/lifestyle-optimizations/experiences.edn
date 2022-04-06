@@ -10,39 +10,64 @@
     "Constantly examining many options and determining the best one by some
     usually simple criteria."
     ["engaging"]]]]
+ ["[Bike Commuting](https://kovasap.github.io/docs/lifestyle-optimizations/bike-commuting/)"
+  "Using a bike to fulfill daily transportation needs. Best with combined with
+  audiobooks or podcasts."
+  ["lifestyle" "exercise"]
+  [["Relaxing"
+    "Feeling comfortable and liable to zone out."
+    ["positive"]]]]
  ["Lead Climbing in a Gym" 
   "Clipping quickdraws on the way up a climbing route in a gym."
-  ["climbing" "exercise" "⭐top10"]
+  ["climbing" "exercise" "⭐top10" "social"]
   [["Thrill of Committment"
     "Doing something with a penalty for failure that you can't turn back from."]
    ["Triumph over Exposure"
     "Putting yourself in a stressful situation and showing yourself that you
     can survive in it. I think this is a feeling Marc-André Leclerc was chasing
     in the movie 'The Alpinist'."]
+   ["Having a clear goal"
+    "The feeling of knowing exactly what you need to do."]
    ["Being in the Zone"]]]
  ["Redditing"
-  "Browsing reddit."
-  ["habit"]
+  "Browsing reddit. Some good subreddits include r/AnimalsBeingDerps and
+  r/DataIsBeautiful. Warning: can be a big time sink!"
+  ["habit" "consuming content"]
   [["Easy to do"
     "Requires little to no difficult decision making, so is therefore easy to
-    pick up and do."]
-   ["Contains hidden gems"
+    pick up and do. This can lead to impulsively doing this thing too much."]
+   ["Joy of sharing"
+    "The feeling you get when you find something cool and share it with someone
+    else."]
+   ["Focus fragmenting"
+    "The feeling of constantly having your focus redirected, preventing you
+    from going deeper on any one particular thing."]
+   ["Discovery of hidden gems"
     "Most of the time this activity is monotonous and/or forgettable, but
     occasionally it will yield an extremely memorable or life-changing
     experience."]]]
  ["Browsing Hacker News"
   "Like browsing reddit."
-  ["habit"]
+  ["habit" "consuming content"]
   [["Easy to do"]
-   ["Contains hidden gems"]]]
+   ["Discovery of hidden gems"]]]
+ ["Watching educational YouTube"
+  "This includes watching videos from channels like
+  [Veritasium](https://www.youtube.com/user/1veritasium), 
+  [CGP Grey](https://www.youtube.com/user/CGPGrey),
+  and [Kurzgesagt](https://www.youtube.com/user/Kurzgesagt)."
+  ["consuming content"]
+  [["Wonder"
+    "A sense of wonder at the beauty of the world."]]]
  ["Watching GothamChess"
   "Watching the GothamChess YouTube channel."
-  []
+  ["consuming content"]
   [["Easy to do"]
    ["False Understanding"
     "A state of mind where something seems to make sense emotionally, but if
     you were to try to explain it in your own words or otherwise apply the
-    knowledge you would fail."]]]
+    knowledge you would fail."]
+   ["Relaxing"]]]
  ["Yo-Yoing"
   "Playing with a yo-yo, and learning new tricks for it."
   []
