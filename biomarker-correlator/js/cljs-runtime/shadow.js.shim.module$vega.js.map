@@ -1,0 +1,9 @@
+{
+"version":3,
+"file":"shadow.js.shim.module$vega.js",
+"lineCount":5,
+"mappings":"AAAAA,IAAKC,CAAAA,OAAL,CAAa,4BAAb,CAAA;AACAD,IAAKC,CAAAA,OAAL,CAAa,mCAAb,CAAA;AACAC,MAAOC,CAAAA,EAAGC,CAAAA,IAAKC,CAAAA,WAAf,GAA6BC,aAAA,CAAc,MAAd,CAA7B;AACAC,iCAAkCC,CAAAA,OAAlC,GAA4CN,MAAOC,CAAAA,EAAGC,CAAAA,IAAKC,CAAAA,WAA3D;;",
+"sources":["shadow.js.shim.module$vega.js"],
+"sourcesContent":["goog.provide(\"shadow.js.shim.module$vega\");\ngoog.provide(\"module$shadow_js_shim_module$vega\");\nshadow.js.shim.module$vega = shadow$bridge(\"vega\");\nmodule$shadow_js_shim_module$vega.default = shadow.js.shim.module$vega;\n"],
+"names":["goog","provide","shadow","js","shim","module$vega","shadow$bridge","module$shadow_js_shim_module$vega","default"]
+}

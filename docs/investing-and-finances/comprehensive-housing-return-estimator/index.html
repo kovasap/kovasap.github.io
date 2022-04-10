@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Expected Returns for Buying a House #  Looking at list prices for homes can be a strange experience. To me, a list price is just a large number that has little or any meaning to the impact buying that house will have on my finances. To confidently judge whether a house I&rsquo;m interested in buying is actually a good deal, I made the spreadsheet described here. The primary goal of the spreadsheet is to translate details about the house (e.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
+<meta property="og:description" content="Expected Returns for Buying a House #  Looking at list prices for homes can be a strange experience. To me, a list price is just a large number that has little or any meaning to the impact buying that house will have on my finances. To confidently judge whether a house I&rsquo;m interested in buying is actually a good deal, I made the spreadsheet described here. The primary goal of the spreadsheet is to translate details about the house (e." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kovasap.github.io/docs/investing-and-finances/comprehensive-housing-return-estimator/" /><meta property="article:section" content="docs" />
+
+
+
+<title>Comprehensive Housing Return Estimator | Things to Remember</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.69a4a50d7658e64b802db581ef2cf19801fb87d9e398320ff2fcc19589a55e81.css" integrity="sha256-aaSlDXZY5kuALbWB7yzxmAH7h9njmDIP8vzBlYmlXoE=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.c037e5f8e433f2bc24fd06cba42cc5dee151b5cebb70b2930feab07906bd771a.js" integrity="sha256-wDfl&#43;OQz8rwk/QbLpCzF3uFRtc67cLKTD&#43;qweQa9dxo=" crossorigin="anonymous"></script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-184778596-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script><!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  <link href="/css/website_helpers.css" rel="stylesheet" type="text/css">
+
+
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><img src="/crow.png" alt="Logo" /><span>Things to Remember</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+  <li><a href="/docs/manifesto/">Manifesto</a>
+  <li>
+    <details>
+      <summary>
+        <strong>Climbing</strong>
+      </summary>
+      <ul>
+        <li><a href="/docs/climbing/media/">Media</a>
+        <li><a href="/docs/climbing/safety-checklist/">Safety
+        Checklist</a>
+        <li>
+          <details>
+            <summary>
+              <strong>Event Reports</strong>
+            </summary>
+            <ul>
+              <li><a href=
+              "/docs/climbing/event-reports/2019-10-7-namaste-wall-zion/">
+              2019 10 7 Namaste Wall Zion</a>
+              <li><a href=
+              "/docs/climbing/event-reports/2020-8-10-lake-erie/">2020
+              8 10 Lake Erie</a>
+              <li><a href=
+              "/docs/climbing/event-reports/2020-8-12-mile-high-club/">
+              2020 8 12 Mile High Club</a>
+              <li><a href=
+              "/docs/climbing/event-reports/first-512/">First
+              512</a>
+              <li><a href=
+              "/docs/climbing/event-reports/mcmahon-hall/">Mcmahon
+              Hall</a>
+            </ul>
+          </details>
+      </ul>
+    </details>
+  <li>
+    <details>
+      <summary>
+        <strong>Datavis</strong>
+      </summary>
+      <ul>
+        <li><a href="/docs/datavis/reddit-tree/">Reddit Tree</a>
+        <li><a href="/docs/datavis/seattle-rain/">Seattle Rain</a>
+      </ul>
+    </details>
+  <li>
+    <details>
+      <summary>
+        <strong>Gamedev</strong>
+      </summary>
+      <ul>
+        <li><a href="/docs/gamedev/common-patterns/">Common
+        Patterns</a>
+        <li><a href="/docs/gamedev/gamedev-context/">Gamedev
+        Context</a>
+        <li><a href="/docs/gamedev/my-projects/">My Projects</a>
+        <li>
+          <details>
+            <summary>
+              <strong>Game Ideas</strong>
+            </summary>
+            <ul>
+              <li><a href=
+              "/docs/gamedev/game-ideas/farming-video-game/">Farming
+              Video Game</a>
+              <li><a href=
+              "/docs/gamedev/game-ideas/roguelike-base-builder/">Roguelike
+              Base Builder</a>
+              <li><a href=
+              "/docs/gamedev/game-ideas/safe-building-designer/">Safe
+              Building Designer</a>
+            </ul>
+          </details>
+        <li>
+          <details>
+            <summary>
+              <strong>Mechanic Ideas</strong>
+            </summary>
+            <ul>
+              <li><a href=
+              "/docs/gamedev/mechanic-ideas/character-alignment/">Character
+              Alignment</a>
+              <li><a href=
+              "/docs/gamedev/mechanic-ideas/low-friction-turn-based-tactics/">
+              Low Friction Turn Based Tactics</a>
+            </ul>
+          </details>
+      </ul>
+    </details>
+  <li>
+    <details>
+      <summary>
+        <strong>Gaming</strong>
+      </summary>
+      <ul>
+        <li><a href="/docs/gaming/chess/">Chess</a>
+        <li><a href="/docs/gaming/fps-principles/">Fps
+        Principles</a>
+        <li><a href="/docs/gaming/oxygen-not-included/">Oxygen Not
+        Included</a>
+        <li><a href=
+        "/docs/gaming/recommended-puzzle-games/">Recommended Puzzle
+        Games</a>
+        <li><a href=
+        "/docs/gaming/recommended-social-games/">Recommended Social
+        Games</a>
+        <li><a href="/docs/gaming/top-10-all-time/">Top 10 All
+        Time</a>
+      </ul>
+    </details>
+  <li>
+    <details>
+      <summary>
+        <strong>Health And Longevity</strong>
+      </summary>
+      <ul>
+        <li><a href=
+        "/docs/health-and-longevity/aging-science/">Aging
+        Science</a>
+        <li><a href=
+        "/docs/health-and-longevity/avoiding-accidents/">Avoiding
+        Accidents</a>
+        <li><a href=
+        "/docs/health-and-longevity/biomarker-correlator/">Biomarker
+        Correlator</a>
+        <li><a href=
+        "/docs/health-and-longevity/causes-of-death/">Causes Of
+        Death</a>
+        <li><a href=
+        "/docs/health-and-longevity/chronic-stress/">Chronic
+        Stress</a>
+        <li><a href=
+        "/docs/health-and-longevity/circadian-rhythm/">Circadian
+        Rhythm</a>
+        <li><a href=
+        "/docs/health-and-longevity/continuous-glucose-monitoring/">
+        Continuous Glucose Monitoring</a>
+        <li><a href=
+        "/docs/health-and-longevity/cooking/">Cooking</a>
+        <li><a href=
+        "/docs/health-and-longevity/dental-health/">Dental
+        Health</a>
+        <li><a href="/docs/health-and-longevity/dna-testing/">Dna
+        Testing</a>
+        <li><a href=
+        "/docs/health-and-longevity/exercise/">Exercise</a>
+        <li><a href=
+        "/docs/health-and-longevity/fasting/">Fasting</a>
+        <li><a href="/docs/health-and-longevity/food/">Food</a>
+        <li><a href=
+        "/docs/health-and-longevity/influences/">Influences</a>
+        <li><a href=
+        "/docs/health-and-longevity/my-physiological-states/">My
+        Physiological States</a>
+        <li><a href="/docs/health-and-longevity/sleep/">Sleep</a>
+        <li><a href=
+        "/docs/health-and-longevity/tracking-health/">Tracking
+        Health</a>
+      </ul>
+    </details>
+  <li>
+    <details>
+      <summary>
+        <strong>Hydroponics</strong>
+      </summary>
+      <ul>
+        <li><a href="/docs/hydroponics/journal/">Journal</a>
+        <li><a href="/docs/hydroponics/my-setup/">My Setup</a>
+      </ul>
+    </details>
+  <li>
+    <details>
+      <summary>
+        <strong>Investing And Finances</strong>
+      </summary>
+      <ul>
+        <li><a href=
+        "/docs/investing-and-finances/comprehensive-housing-return-estimator/">
+        Comprehensive Housing Return Estimator</a>
+        <li><a href=
+        "/docs/investing-and-finances/financial-independence/">Financial
+        Independence</a>
+        <li><a href=
+        "/docs/investing-and-finances/housing/">Housing</a>
+        <li><a href=
+        "/docs/investing-and-finances/influences/">Influences</a>
+        <li><a href=
+        "/docs/investing-and-finances/monthly-costs-of-car-ownership/">
+        Monthly Costs Of Car Ownership</a>
+        <li><a href=
+        "/docs/investing-and-finances/strategies/">Strategies</a>
+        <li><a href="/docs/investing-and-finances/taxes/">Taxes</a>
+      </ul>
+    </details>
+  <li>
+    <details>
+      <summary>
+        <strong>Lifestyle Optimizations</strong>
+      </summary>
+      <ul>
+        <li><a href=
+        "/docs/lifestyle-optimizations/android-apps/">Android
+        Apps</a>
+        <li><a href=
+        "/docs/lifestyle-optimizations/bike-commuting/">Bike
+        Commuting</a>
+        <li><a href=
+        "/docs/lifestyle-optimizations/experiences/">Experiences</a>
+        <li><a href=
+        "/docs/lifestyle-optimizations/geographical-maps/">Geographical
+        Maps</a>
+        <li><a href=
+        "/docs/lifestyle-optimizations/hang-drying-clothes/">Hang
+        Drying Clothes</a>
+        <li><a href=
+        "/docs/lifestyle-optimizations/home-energy-monitoring/">Home
+        Energy Monitoring</a>
+        <li><a href=
+        "/docs/lifestyle-optimizations/home-network-and-internet-troubleshooting/">
+        Home Network And Internet Troubleshooting</a>
+        <li><a href=
+        "/docs/lifestyle-optimizations/my-computer-configuration-dotfiles/">
+        My Computer Configuration Dotfiles</a>
+        <li><a href=
+        "/docs/lifestyle-optimizations/no-ad-youtube-viewing/">No
+        Ad Youtube Viewing</a>
+        <li><a href=
+        "/docs/lifestyle-optimizations/phone-case/">Phone Case</a>
+        <li><a href=
+        "/docs/lifestyle-optimizations/task-tracking/">Task
+        Tracking</a>
+        <li><a href=
+        "/docs/lifestyle-optimizations/taut-line-hitch/">Taut Line
+        Hitch</a>
+        <li><a href=
+        "/docs/lifestyle-optimizations/this-website/">This
+        Website</a>
+        <li><a href="/docs/lifestyle-optimizations/vim-tricks/">Vim
+        Tricks</a>
+      </ul>
+    </details>
+  <li>
+    <details>
+      <summary>
+        <strong>Mind</strong>
+      </summary>
+      <ul>
+        <li><a href=
+        "/docs/mind/absorbing-and-professing/">Absorbing And
+        Professing</a>
+        <li><a href="/docs/mind/brain-juice/">Brain Juice</a>
+        <li><a href="/docs/mind/contentment/">Contentment</a>
+        <li><a href="/docs/mind/creativity/">Creativity</a>
+        <li><a href="/docs/mind/desires-and-deprivation/">Desires
+        And Deprivation</a>
+        <li><a href="/docs/mind/education/">Education</a>
+        <li><a href="/docs/mind/how-to-do-hard-tasks/">How To Do
+        Hard Tasks</a>
+        <li><a href="/docs/mind/influences/">Influences</a>
+        <li><a href="/docs/mind/motivation/">Motivation</a>
+        <li><a href=
+        "/docs/mind/myers-briggs-personality-typing/">Myers Briggs
+        Personality Typing</a>
+        <li><a href=
+        "/docs/mind/things-to-do-when-unmotivated/">Things To Do
+        When Unmotivated</a>
+        <li><a href="/docs/mind/working-with-others/">Working With
+        Others</a>
+      </ul>
+    </details>
+  <li>
+    <details>
+      <summary>
+        <strong>Morality</strong>
+      </summary>
+      <ul>
+        <li><a href=
+        "/docs/morality/efficient-living-and-morality/">Efficient
+        Living And Morality</a>
+        <li><a href="/docs/morality/right-to-risk/">Right To
+        Risk</a>
+      </ul>
+    </details>
+  <li>
+    <details>
+      <summary>
+        <strong>Software Dev</strong>
+      </summary>
+      <ul>
+        <li><a href=
+        "/docs/software-dev/actionable-tips/">Actionable Tips</a>
+        <li><a href=
+        "/docs/software-dev/auto-input-data-collection/">Auto Input
+        Data Collection</a>
+        <li><a href=
+        "/docs/software-dev/choosing-a-language/">Choosing A
+        Language</a>
+        <li><a href=
+        "/docs/software-dev/functional-programming/">Functional
+        Programming</a>
+        <li><a href="/docs/software-dev/impact/">Impact</a>
+        <li><a href="/docs/software-dev/influences/">Influences</a>
+        <li><a href="/docs/software-dev/patterned-code/">Patterned
+        Code</a>
+      </ul>
+    </details>
+  <li>
+    <details>
+      <summary>
+        <strong>Thought Experiments</strong>
+      </summary>
+      <ul>
+        <li><a href=
+        "/docs/thought-experiments/artificial-intelligence/">Artificial
+        Intelligence</a>
+        <li><a href=
+        "/docs/thought-experiments/random-ideas/">Random Ideas</a>
+        <li><a href="/docs/thought-experiments/two-glasses/">Two
+        Glasses</a>
+      </ul>
+    </details>
+  <li>
+    <details>
+      <summary>
+        <strong>Understanding The World</strong>
+      </summary>
+      <ul>
+        <li><a href=
+        "/docs/understanding-the-world/applying-theories/">Applying
+        Theories</a>
+        <li><a href=
+        "/docs/understanding-the-world/great-explanations/">Great
+        Explanations</a>
+        <li><a href=
+        "/docs/understanding-the-world/individuals-vs-groups/">Individuals
+        Vs Groups</a>
+        <li><a href=
+        "/docs/understanding-the-world/influences/">Influences</a>
+        <li><a href=
+        "/docs/understanding-the-world/judging-decisions/">Judging
+        Decisions</a>
+        <li><a href=
+        "/docs/understanding-the-world/notetaking/">Notetaking</a>
+        <li><a href=
+        "/docs/understanding-the-world/physics/">Physics</a>
+        <li><a href=
+        "/docs/understanding-the-world/politics/">Politics</a>
+        <li><a href=
+        "/docs/understanding-the-world/solving-societal-problems/">Solving
+        Societal Problems</a>
+        <li><a href=
+        "/docs/understanding-the-world/utopia/">Utopia</a>
+        <li><a href=
+        "/docs/understanding-the-world/what-to-believe/">What To
+        Believe</a>
+      </ul>
+    </details>
+  <li>
+    <details>
+      <summary>
+        <strong>Visual Art</strong>
+      </summary>
+      <ul>
+        <li><a href="/docs/visual-art/generative-art/">Generative
+        Art</a>
+        <li><a href=
+        "/docs/visual-art/inspiration-and-resources/">Inspiration
+        And Resources</a>
+        <li><a href="/docs/visual-art/judging-art/">Judging Art</a>
+      </ul>
+    </details>
+</ul>
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Comprehensive Housing Return Estimator</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#input-field-descriptions">Input Field Descriptions</a>
+      <ul>
+        <li><a href="#house-details">House Details</a></li>
+        <li><a href="#debt">Debt</a></li>
+        <li><a href="#goals">Goals</a></li>
+        <li><a href="#income">Income</a></li>
+        <li><a href="#monthly-expenses">Monthly Expenses</a></li>
+        <li><a href="#selling-costs">Selling Costs</a></li>
+        <li><a href="#upfront-buying-costs">Upfront Buying Costs</a></li>
+      </ul>
+    </li>
+    <li><a href="#results">Results</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="expected-returns-for-buying-a-house">
+  Expected Returns for Buying a House
+  <a class="anchor" href="#expected-returns-for-buying-a-house">#</a>
+</h1>
+<p>Looking at list prices for homes can be a strange experience.  To me, a list
+price is just a large number that has little or any meaning to the impact
+buying that house will have on my finances.  To confidently judge whether a
+house I&rsquo;m interested in buying is actually a good deal, I made the spreadsheet
+described here. <strong>The primary goal of the spreadsheet is to translate details
+about the house (e.g. it&rsquo;s price) into an expected percentage return that can
+be directly compared to other investments.</strong></p>
+<p>Here is the spreadsheet:
+<a href="https://docs.google.com/spreadsheets/d/11GTEiYBGF1NXaob9DczvUcQyloDVQ-dJfALDsg-L4-U/edit?usp=sharing">https://docs.google.com/spreadsheets/d/11GTEiYBGF1NXaob9DczvUcQyloDVQ-dJfALDsg-L4-U/edit?usp=sharing</a></p>
+<p>On the left side of the spreadsheet are a bunch of blue fields where details
+about the house should be filled in.  On the right are shown the results, in
+gory detail.</p>
+<p>Note that I was looking for live-in multi-plex properties, so the spreadsheet
+has features to judge the effect of rent on the ultimate return.</p>
+<p><strong>If you have any questions or</strong> <em><strong>especially</strong></em> <strong>if you notice errors in the
+spreadsheet, please comment on it to let me know.</strong></p>
+<h2 id="input-field-descriptions">
+  Input Field Descriptions
+  <a class="anchor" href="#input-field-descriptions">#</a>
+</h2>
+<h3 id="house-details">
+  House Details
+  <a class="anchor" href="#house-details">#</a>
+</h3>
+<ul>
+<li><strong>Property Price</strong>: <br/> The price you will be able to buy the property at.</li>
+<li><strong>Property Growth Rate</strong>: <br/> One of the most impactful, yet hardest to
+estimate parameters. Some useful estimates can be found on Redfin (<a href="https://www.redfin.com/news/data-center/">rawer
+data</a>,
+<a href="https://www.redfin.com/us-housing-market">summarized</a>), but you can&rsquo;t
+always use the past to predict the future! I just set a really conservative
+value here and pray.</li>
+<li><strong>Property Land Value</strong>: <br/> The value of the land the property sits on.
+This is used to calculate depreciation (since land doesn&rsquo;t depreciate, only
+man made structures do). In you live in the Seattle area, you can find this
+information by searching for the property on
+<a href="https://gismaps.kingcounty.gov/parcelviewer2/">https://gismaps.kingcounty.gov/parcelviewer2/</a>.</li>
+<li><strong>Property Tax Rate</strong>: <br/> Can also be found on a local parcel viewer
+resource, or even on listings.  Taxes collected on properties are public
+record in the US. Using prior year taxes is usually a good way to estimate
+this; I found that the tax appraisals for properties can value them very
+differently than the market does, so multiplying the list price by the tax
+rate to calculate this is not recommended.</li>
+<li><strong>Depreciation Period</strong>: <br/> The time after which you can assume (for tax
+purposes) that your property will completely turn to worthless dust. This
+only applies if you are using part of your property for business purposes
+(renting it).</li>
+<li><strong>Income Tax Rate</strong>: <br/> The rate at which any rental income will be
+taxed.  Note that I am assuming your income tax rate doesn&rsquo;t change over the
+course of owning the property. Since income taxes on rent are essentially
+deferred due to depreciation and then depreciation recapture on sale, your
+return will be better if your income tax rate is lower when you sell the
+property.</li>
+<li><strong>Depreciation Recapture Tax Rate</strong>: <br/> The rate at which depreciation
+recapture income will be taxed.  This is your ordinary income tax rate when
+you sell the property <a href="https://www.millionacres.com/taxes/depreciation/understanding-depreciation-recapture-when-you-sell-rental-property/#:~:text=That%27s%20what%20depreciation%20recapture%20does,4797%2C%20Sales%20of%20Business%20Property.">OR
+25%</a>,
+whichever is larger.</li>
+</ul>
+<h3 id="debt">
+  Debt
+  <a class="anchor" href="#debt">#</a>
+</h3>
+<ul>
+<li><strong>Down Payment</strong>: <br/> How much upfront you will be paying for the house
+(in your own cash).</li>
+<li><strong>Years</strong>: <br/> The time after which your mortgage will be fully paid.</li>
+<li><strong>Interest Rate</strong>: <br/> Multiplying this percent by the remaining loan
+balance after a given year tells you how much you have to pay your lender
+for the privilege of using their money.</li>
+</ul>
+<h3 id="goals">
+  Goals
+  <a class="anchor" href="#goals">#</a>
+</h3>
+<ul>
+<li><strong>Investment Growth Rate</strong>: <br/> How much you expect your other investments
+to grow by yearly on average.  This just color-codes the results (green is
+better than your other investments, red is worse).</li>
+<li><strong>Investment Tolerance</strong>: <br/> Results minus this amount from your
+investment growth rate will be colored yellow.</li>
+<li><strong>Personal monthly &ldquo;rent&rdquo;</strong>: <br/> This quantifies the amount of value you
+personally extract from the home by living in it. This makes comparisons
+between investments more fair, because you can&rsquo;t live in a stock! A good
+ballpark for this number is your current rent, or a rent that you would be
+comfortable paying.</li>
+<li><strong>Max Upfront Costs</strong>: <br/> The total maximum amount of money upfront you
+can spend on the house. Used for color coding.</li>
+<li><strong>Max Monthly Costs</strong>: <br/> The maximum amount of money you can spend on
+the house per month <strong>on average</strong>. You should always have some buffer,
+since many housing expenses come in large lump payments.  Used for color
+coding.</li>
+<li><strong>Portfolio Start Size</strong>: <br/> The amount of money you have in your
+investment portfolio when you buy the home. Used to calculate how much of
+your investment portfolio is made up of by the house</li>
+<li><strong>Yearly Investment</strong>: <br/> The amount of money you are investing per year
+into your portfolio.  Used to calculate how much of your investment
+portfolio is made up of by the house</li>
+</ul>
+<h3 id="income">
+  Income
+  <a class="anchor" href="#income">#</a>
+</h3>
+<ul>
+<li><strong>Rent</strong>: <br/> The amount of rent you expect to earn from tenants living on
+your property.</li>
+<li><strong>Percentage Rented</strong>: <br/> The percentage of your house that is considered
+rented. I think you can calculate this using square footage. This determines
+how much of all your expenses you can use to cancel out income taxes as a
+business expense.</li>
+<li><strong>Occupancy Rate</strong>: <br/> What percent of the time you expect to have rent
+flowing in.</li>
+<li><strong>Rental Growth Rate</strong>: <br/> How much you expect rents to increase by in a
+year.</li>
+</ul>
+<h3 id="monthly-expenses">
+  Monthly Expenses
+  <a class="anchor" href="#monthly-expenses">#</a>
+</h3>
+<p>Various expenses that need to be paid every month by you on behalf of the whole
+house. Notice the tax deduction rate assumes that these services will be used
+evenly by you and your tenants.</p>
+<h3 id="selling-costs">
+  Selling Costs
+  <a class="anchor" href="#selling-costs">#</a>
+</h3>
+<ul>
+<li><strong>Capital Gains Rate</strong>: <br/> The percentage of {the price you are selling
+the property at minus the amount you bought it for} that you must pay as
+tax.  Up to 250k for single owner or 500k for a joint ownership of capital
+gains can be ignored for a single family home.  In a duplex, this can be
+applied to <Percentage Rented>% of the property, the rest is subject to tax
+(unless you do a 1031 exchange).  See
+<a href="https://finance.zacks.com/rental-income-taxed-duplex-7533.html">https://finance.zacks.com/rental-income-taxed-duplex-7533.html</a>.  Note also
+that if you are using depreciation to offset your income tax while you own
+the property, this <strong>lowers your cost basis</strong> in the house, which increases
+your capital gains tax.  Additionally, this &ldquo;depreciation recapture&rdquo; tax is
+taxed at normal income tax rate, since that is what it offset earlier.</li>
+<li><strong>Closing Costs</strong>: <br/> The percentage of the selling price you have to pay
+to agents that help you sell the house. You can reduce this greatly by
+selling by owner, but then you might not get the best buyer.</li>
+</ul>
+<h3 id="upfront-buying-costs">
+  Upfront Buying Costs
+  <a class="anchor" href="#upfront-buying-costs">#</a>
+</h3>
+<p>Various expenses and fees that you must pay when you are buying the home up
+front.</p>
+<h2 id="results">
+  Results
+  <a class="anchor" href="#results">#</a>
+</h2>
+<ul>
+<li><strong>Time</strong>: <br/> Year after purchase that you would be selling the house
+(assuming &ldquo;Months Per Row&rdquo; is set to 12, the default).</li>
+<li><strong>Rental Revenue</strong>: <br/> Total amount of money paid to you by renters in
+that year.</li>
+<li><strong>Property Value</strong>: <br/> The amount of money you could sell the property
+for.</li>
+<li><strong>Property Gain</strong>: <br/> Amount the property grew in value by in the last
+year.</li>
+<li><strong>Net Gain</strong>: <br/> Amount of money you &ldquo;made&rdquo; this year via rent and
+property growth.</li>
+<li><strong>Property Tax</strong>: <br/> &ldquo;Rent&rdquo; you must pay your city/government for owning
+your property.</li>
+<li><strong>Mortgage Payment</strong>: <br/> The amount of money that you must pay your
+lender towards your loan.</li>
+<li><strong>Interest Paid</strong>: <br/> The amount of money going to your lender that goes
+directly to them as a fee for you using their money.</li>
+<li><strong>Principle Paid</strong>: <br/> The amount of money going to your lender that
+effectively purchases part of your property (equity) from them.</li>
+<li><strong>Loan Amount Left</strong>: <br/> The amount of your loan left to pay off.</li>
+<li><strong>Expenses</strong>: <br/> Total expenses paid from the &ldquo;Monthly Expenses&rdquo; input
+section.</li>
+<li><strong>Unrecoverable Loss</strong>: <br/> The total amount of money that you spent this
+year that you will never see again :).</li>
+<li><strong>Depreciation</strong>: <br/> How much of your property you lost as it crumbled to
+dust (as far as the IRS is concerned).</li>
+<li><strong>Total Tax Deductions</strong>: <br/> The total expenses you can deduct as
+business expenses from your taxes.</li>
+<li><strong>Taxable Income</strong>: <br/> The income from your property that is taxable as
+ordinary income.</li>
+<li><strong>Income Tax Paid</strong>: <br/> The amount of income tax you actually need to pay
+this year because you own your property.</li>
+<li><strong>Total Expense</strong>: <br/> The total amount you must pay this year to others.</li>
+<li><strong>Cash Flow</strong>: <br/> The total amount paid to you by others minus the total
+amount you must pay to others.</li>
+<li><strong>Monthly Cash Flow</strong>: <br/> The last column divided by &ldquo;Months Per Row&rdquo;.</li>
+<li><strong>&ldquo;Rent&rdquo;</strong>: <br/> The total amount of value you extract from living in the
+property (see &ldquo;Goals&rdquo; input section).</li>
+<li><strong>&ldquo;Rent&rdquo; Cashflow</strong>: <br/> Cashflow considering the &ldquo;rent&rdquo; you are &ldquo;paying&rdquo;.</li>
+<li><strong>Money Put In</strong>: <br/> The total amount of money you have spent on the
+property.</li>
+<li><strong>Rest of Portfolio Value</strong>: <br/> The value of your investments, minus the
+house.</li>
+<li><strong>Percent of Portfolio</strong>: <br/> The percentage of the portfolio that is made
+up of by the house.</li>
+<li><strong>Money Put In w/&ldquo;Rent&rdquo;</strong>: <br/> The &ldquo;Money Put In&rdquo; column considering the
+&ldquo;rent&rdquo; you are &ldquo;paying&rdquo;.</li>
+<li><strong>Cost to Sell</strong>: <br/> The amount of money you need to pay to others when
+selling the house.  This includes paying off the mortgage, paying realtors,
+etc.</li>
+<li><strong>Depreciation Recapture</strong>: <br/> The amount of money you have written off
+your taxes so far due to property depreciation - if the property value has
+increased despite this depreciation, you need to pay it back.</li>
+<li><strong>Cost Basis</strong>: <br/> The amount you bought the house for plus any
+improvements, adjusted by how much of it you own this year.</li>
+<li><strong>Capital Gains</strong>: <br/> How much your property has appreciated since you
+bought it, adjusted for how much of it you own this year.</li>
+<li><strong>Total Sale Tax</strong>: <br/> How much in tax you would have to pay if you sold
+the property this year, including capital gains tax and depreciation
+recapture income tax.</li>
+<li><strong>Sale Proceeds</strong>: <br/> The amount of money you would end up with in cash
+after the sale of the property this year.</li>
+<li><strong>IRR</strong>: <br/> The time-adjusted rate of return you have made on all the
+money you put into the property.</li>
+<li><strong>IRR w/&ldquo;Rent&rdquo;</strong>: <br/> The time-adjusted rate of return you have made on
+all the money you put into the property, considering also the value you got
+out of it by living in it.  <strong>If this value is less than your expected
+investment growth rate, financially you probably shouldn&rsquo;t buy the house.</strong></li>
+<li><strong>Portfolio Return w/&ldquo;Rent&rdquo;</strong>: <br/> The return of your entire portfolio
+including the house, given that you sell the house this year.</li>
+<li><strong>Rental Delta</strong>: <br/> To translate the rate of return to a &ldquo;dollars per
+month&rdquo; figure, fill in the top cell of this column until the <strong>IRR w/Rent
+Delta</strong> column matches your expected <strong>Investment Growth Rate</strong> for the year
+you are planning to sell at.  This will tell you how much money per month
+you are saving (or losing) per month compared to your <strong>Personal monthly
+&ldquo;rent&rdquo;</strong>.</li>
+</ul>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#input-field-descriptions">Input Field Descriptions</a>
+      <ul>
+        <li><a href="#house-details">House Details</a></li>
+        <li><a href="#debt">Debt</a></li>
+        <li><a href="#goals">Goals</a></li>
+        <li><a href="#income">Income</a></li>
+        <li><a href="#monthly-expenses">Monthly Expenses</a></li>
+        <li><a href="#selling-costs">Selling Costs</a></li>
+        <li><a href="#upfront-buying-costs">Upfront Buying Costs</a></li>
+      </ul>
+    </li>
+    <li><a href="#results">Results</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
