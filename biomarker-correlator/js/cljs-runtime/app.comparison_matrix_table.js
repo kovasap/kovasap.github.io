@@ -11,32 +11,32 @@ return cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(clojure.string.join.cljs$
  *   
  */
 app.comparison_matrix_table.get_flat_biomarker_result_keys = (function app$comparison_matrix_table$get_flat_biomarker_result_keys(filter_func,m){
-return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.createAsIfByAssoc([new cljs.core.Keyword(null,"input","input",556931961),new cljs.core.Keyword(null,"input","input",556931961).cljs$core$IFn$_invoke$arity$1(m),app.comparison_matrix_table._build__key(m,"blank"),""]),cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,(function (){var iter__4652__auto__ = (function app$comparison_matrix_table$get_flat_biomarker_result_keys_$_iter__44879(s__44880){
+return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.createAsIfByAssoc([new cljs.core.Keyword(null,"input","input",556931961),new cljs.core.Keyword(null,"input","input",556931961).cljs$core$IFn$_invoke$arity$1(m),app.comparison_matrix_table._build__key(m,"blank"),""]),cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,(function (){var iter__4652__auto__ = (function app$comparison_matrix_table$get_flat_biomarker_result_keys_$_iter__55941(s__55942){
 return (new cljs.core.LazySeq(null,(function (){
-var s__44880__$1 = s__44880;
+var s__55942__$1 = s__55942;
 while(true){
-var temp__5753__auto__ = cljs.core.seq(s__44880__$1);
+var temp__5753__auto__ = cljs.core.seq(s__55942__$1);
 if(temp__5753__auto__){
-var s__44880__$2 = temp__5753__auto__;
-if(cljs.core.chunked_seq_QMARK_(s__44880__$2)){
-var c__4650__auto__ = cljs.core.chunk_first(s__44880__$2);
+var s__55942__$2 = temp__5753__auto__;
+if(cljs.core.chunked_seq_QMARK_(s__55942__$2)){
+var c__4650__auto__ = cljs.core.chunk_first(s__55942__$2);
 var size__4651__auto__ = cljs.core.count(c__4650__auto__);
-var b__44882 = cljs.core.chunk_buffer(size__4651__auto__);
-if((function (){var i__44881 = (0);
+var b__55944 = cljs.core.chunk_buffer(size__4651__auto__);
+if((function (){var i__55943 = (0);
 while(true){
-if((i__44881 < size__4651__auto__)){
-var vec__44883 = cljs.core._nth(c__4650__auto__,i__44881);
-var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44883,(0),null);
-var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44883,(1),null);
+if((i__55943 < size__4651__auto__)){
+var vec__55951 = cljs.core._nth(c__4650__auto__,i__55943);
+var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55951,(0),null);
+var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55951,(1),null);
 if(cljs.core.truth_((filter_func.cljs$core$IFn$_invoke$arity$1 ? filter_func.cljs$core$IFn$_invoke$arity$1(k) : filter_func.call(null,k)))){
-cljs.core.chunk_append(b__44882,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [app.comparison_matrix_table._build__key(m,cljs.core.name(k)),v], null));
+cljs.core.chunk_append(b__55944,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [app.comparison_matrix_table._build__key(m,cljs.core.name(k)),v], null));
 
-var G__44927 = (i__44881 + (1));
-i__44881 = G__44927;
+var G__56006 = (i__55943 + (1));
+i__55943 = G__56006;
 continue;
 } else {
-var G__44928 = (i__44881 + (1));
-i__44881 = G__44928;
+var G__56007 = (i__55943 + (1));
+i__55943 = G__56007;
 continue;
 }
 } else {
@@ -45,19 +45,19 @@ return true;
 break;
 }
 })()){
-return cljs.core.chunk_cons(cljs.core.chunk(b__44882),app$comparison_matrix_table$get_flat_biomarker_result_keys_$_iter__44879(cljs.core.chunk_rest(s__44880__$2)));
+return cljs.core.chunk_cons(cljs.core.chunk(b__55944),app$comparison_matrix_table$get_flat_biomarker_result_keys_$_iter__55941(cljs.core.chunk_rest(s__55942__$2)));
 } else {
-return cljs.core.chunk_cons(cljs.core.chunk(b__44882),null);
+return cljs.core.chunk_cons(cljs.core.chunk(b__55944),null);
 }
 } else {
-var vec__44887 = cljs.core.first(s__44880__$2);
-var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44887,(0),null);
-var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44887,(1),null);
+var vec__55959 = cljs.core.first(s__55942__$2);
+var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55959,(0),null);
+var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55959,(1),null);
 if(cljs.core.truth_((filter_func.cljs$core$IFn$_invoke$arity$1 ? filter_func.cljs$core$IFn$_invoke$arity$1(k) : filter_func.call(null,k)))){
-return cljs.core.cons(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [app.comparison_matrix_table._build__key(m,cljs.core.name(k)),v], null),app$comparison_matrix_table$get_flat_biomarker_result_keys_$_iter__44879(cljs.core.rest(s__44880__$2)));
+return cljs.core.cons(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [app.comparison_matrix_table._build__key(m,cljs.core.name(k)),v], null),app$comparison_matrix_table$get_flat_biomarker_result_keys_$_iter__55941(cljs.core.rest(s__55942__$2)));
 } else {
-var G__44929 = cljs.core.rest(s__44880__$2);
-s__44880__$1 = G__44929;
+var G__56009 = cljs.core.rest(s__55942__$2);
+s__55942__$1 = G__56009;
 continue;
 }
 }
@@ -75,8 +75,8 @@ app.comparison_matrix_table.make_per_input_row = (function app$comparison_matrix
 return cljs.core.reduce.cljs$core$IFn$_invoke$arity$2(cljs.core.merge,cljs.core.map.cljs$core$IFn$_invoke$arity$2(cljs.core.partial.cljs$core$IFn$_invoke$arity$2(app.comparison_matrix_table.get_flat_biomarker_result_keys,regression_result_key_filter),same_input_results));
 });
 app.comparison_matrix_table.add_aggregates = (function app$comparison_matrix_table$add_aggregates(input_significant_correlations,flat_map){
-return cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([flat_map,new cljs.core.Keyword(null,"aggregates","aggregates",-1684250289).cljs$core$IFn$_invoke$arity$1((function (){var fexpr__44893 = new cljs.core.Keyword(null,"input","input",556931961).cljs$core$IFn$_invoke$arity$1(flat_map);
-return (fexpr__44893.cljs$core$IFn$_invoke$arity$1 ? fexpr__44893.cljs$core$IFn$_invoke$arity$1(input_significant_correlations) : fexpr__44893.call(null,input_significant_correlations));
+return cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([flat_map,new cljs.core.Keyword(null,"aggregates","aggregates",-1684250289).cljs$core$IFn$_invoke$arity$1((function (){var fexpr__55971 = new cljs.core.Keyword(null,"input","input",556931961).cljs$core$IFn$_invoke$arity$1(flat_map);
+return (fexpr__55971.cljs$core$IFn$_invoke$arity$1 ? fexpr__55971.cljs$core$IFn$_invoke$arity$1(input_significant_correlations) : fexpr__55971.call(null,input_significant_correlations));
 })())], 0));
 });
 /**
@@ -84,8 +84,8 @@ return (fexpr__44893.cljs$core$IFn$_invoke$arity$1 ? fexpr__44893.cljs$core$IFn$
  */
 app.comparison_matrix_table.column_element_ordering = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, ["correlation","p-value","datapoints"], null);
 app.comparison_matrix_table.get_column_element_order_key = (function app$comparison_matrix_table$get_column_element_order_key(string){
-return cljs.core.first(cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__44895_SHARP_){
-return (!((p1__44895_SHARP_ == null)));
+return cljs.core.first(cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__55973_SHARP_){
+return (!((p1__55973_SHARP_ == null)));
 }),cljs.core.map_indexed.cljs$core$IFn$_invoke$arity$2((function (index,element){
 if(clojure.string.includes_QMARK_(string,element)){
 return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(index),cljs.core.str.cljs$core$IFn$_invoke$arity$1(string)].join('');
@@ -102,9 +102,9 @@ if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"scor
 return "AAAB";
 } else {
 if(clojure.string.includes_QMARK_(cljs.core.name(col_keyword),"--")){
-var vec__44907 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(cljs.core.name(col_keyword),/--/);
-var col_name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44907,(0),null);
-var data_type = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44907,(1),null);
+var vec__55982 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(cljs.core.name(col_keyword),/--/);
+var col_name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55982,(0),null);
+var data_type = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55982,(1),null);
 return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(col_name),cljs.core.str.cljs$core$IFn$_invoke$arity$1(app.comparison_matrix_table.get_column_element_order_key(data_type))].join('');
 } else {
 return cljs.core.name(col_keyword);
@@ -125,11 +125,11 @@ return cljs.core.compare(app.comparison_matrix_table.column_name_compare_key(nam
 });
 app.comparison_matrix_table.make_comparison_matrix_data = (function app$comparison_matrix_table$make_comparison_matrix_data(results,input_significant_correlations,p_values_rounded_QMARK_){
 var per_input_rows = cljs.core.vals(cljs.core.group_by(new cljs.core.Keyword(null,"input","input",556931961),results));
-var p_value_filter = (function (p1__44916_SHARP_){
+var p_value_filter = (function (p1__55987_SHARP_){
 if(cljs.core.truth_(cljs.core.deref(p_values_rounded_QMARK_))){
-return cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(p1__44916_SHARP_,new cljs.core.Keyword(null,"p-value","p-value",1434023819));
+return cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(p1__55987_SHARP_,new cljs.core.Keyword(null,"p-value","p-value",1434023819));
 } else {
-return cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(p1__44916_SHARP_,new cljs.core.Keyword(null,"rounded-p-value","rounded-p-value",1372746415));
+return cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(p1__55987_SHARP_,new cljs.core.Keyword(null,"rounded-p-value","rounded-p-value",1372746415));
 }
 });
 return cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (row){
@@ -141,9 +141,9 @@ return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.sorted_map_by(app.
  *   https://github.com/adazzle/react-data-grid/blob/929911c506919e96bd12e48ea5de68ec9511ca10/src/types.ts#L7
  */
 app.comparison_matrix_table.make_datagrid_column = (function app$comparison_matrix_table$make_datagrid_column(k){
-var vec__44920 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(cljs.core.name(k),/\-\-/);
-var biomarker = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44920,(0),null);
-var stat = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44920,(1),null);
+var vec__55996 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(cljs.core.name(k),/\-\-/);
+var biomarker = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55996,(0),null);
+var stat = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55996,(1),null);
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"cellClass","cellClass",-262516937),(function (row){
 var clj_row = cljs.core.js__GT_clj.cljs$core$IFn$_invoke$arity$variadic(row,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"keywordize-keys","keywordize-keys",1310784252),true], 0));
 var pval_key = cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(clojure.string.join.cljs$core$IFn$_invoke$arity$2("--",new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [biomarker,"p-value"], null)));
