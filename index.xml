@@ -569,6 +569,37 @@ Note that your capital gains themselves help determine your capital gains tax ra
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/lifelogging/camera/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/lifelogging/camera/</guid>
+      <description>Lifelogging with a Camera #  Used the iON Snapcam.
+Requires this third party software to enable the time lapse: https://github.com/dimhoff/snapcamcontrol. Use a version hosted on this site here.
+The beeping when taking a picture is really annoying, see https://www.reddit.com/r/ElectronicsRepair/comments/tzmesl/how_to_silence_a_beeping_speaker_on_a_circuit/ for how to disable.
+TODO update this post https://www.reddit.com/r/QuantifiedSelf/comments/toxmbd/looking_for_simple_cheap_wearable_camera_that_can/ with a link to this page.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/lifelogging/influences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/lifelogging/influences/</guid>
+      <description>Influences and Inspiration #   Time tracking: https://www.reddit.com/r/dataisbeautiful/comments/radi1e/oc_i_tracked_every_minute_of_every_day_for_the/ http://karpathy.github.io/2014/08/03/quantifying-productivity/  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/lifelogging/what-and-why/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/lifelogging/what-and-why/</guid>
+      <description>Lifelogging #  What? #  I define lifelogging as the practice of keeping track of the events in your life within some kind of physical medium, like a computer&amp;rsquo;s hard drive. The &amp;ldquo;Quantified Self&amp;rdquo; concept is closely related to this, although I see it as being more specific about what it is focusing on (namely numerical measurements).
+Why? #  There are two primary reasons why lifelogging interests me:</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/lifestyle-optimizations/android-apps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -633,18 +664,6 @@ Options: #   All-in-one solution: https://www.amazon.com/Aeotec-Energy-Z-Wave-el
       
       <guid>https://kovasap.github.io/docs/lifestyle-optimizations/home-network-and-internet-troubleshooting/</guid>
       <description>Internet and Home Network Troubleshooting #  Lag when playing games #  When downloading stuff and playing games at the same time, the game&amp;rsquo;s packets can be queued behind the download&amp;rsquo;s packets, causing lag. This can be measured with this test: https://www.waveform.com/tools/bufferbloat. QoS and SQM are router features that can be enabled from the router&amp;rsquo;s web interface that are supposed to help with this. https://www.bufferbloat.net/projects/bloat/wiki/What_can_I_do_about_Bufferbloat/ is another good resource.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/lifestyle-optimizations/lifelogging-camera/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/lifelogging-camera/</guid>
-      <description>Lifelogging with a Camera #  Used the iON Snapcam.
-Requires this third party software to enable the time lapse: https://github.com/dimhoff/snapcamcontrol. Use a version hosted on this site here.
-The beeping when taking a picture is really annoying, see https://www.reddit.com/r/ElectronicsRepair/comments/tzmesl/how_to_silence_a_beeping_speaker_on_a_circuit/ for how to disable.
-TODO update this post https://www.reddit.com/r/QuantifiedSelf/comments/toxmbd/looking_for_simple_cheap_wearable_camera_that_can/ with a link to this page.</description>
     </item>
     
     <item>
