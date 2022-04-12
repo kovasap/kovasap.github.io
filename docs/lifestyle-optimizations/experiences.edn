@@ -29,6 +29,10 @@
    ["Having a clear goal"
     "The feeling of knowing exactly what you need to do."]
    ["Being in the Zone"]]]
+ ["Playing [Backpack Hero](https://thejaspel.itch.io/backpack-hero)"
+  "A cool rougelike game about arranging a grid inventory optimally."
+  ["game" "turn-based"]
+  []]
  ["Redditing"
   "Browsing reddit. Some good subreddits include r/AnimalsBeingDerps and
   r/DataIsBeautiful. Warning: can be a big time sink!"
@@ -105,11 +109,24 @@
   Since have played a bunch on MTG: Arena, a very polished computer interface
   to the game.
   "
-  []
+  ["game" "turn-based" "competitive"]
+  []]
+ ["Playing Wavelength or [Longwave](https://longwave.web.app/)"
+  "An icebreaker-type game that revolves around guessing people's opinions."
+  ["game" "social"]
+  []]
+ ["Playing [Codenames](https://codenames.game/)"
+  "One variant worth trying is trying to play with pictures instead of words on
+  the main board. A stand-alone game (Codenames Pictures) exists for this, but 
+  it's also fun to try using custom pictures. For instance, the dream cards
+  from Mysterium led to a pretty fun game. Note that
+  [this site](https://codenames-pictures.dport.me/) looks like it allows you to
+  do this in a virtual setting."
+  ["game" "social"]
   []]
  ["Playing Chess"
   "I've found lichess.org is a great place to play."
-  []
+  ["game" "turn-based" "competitive"]
   []]
  ["Yo-Yoing"
   "Playing with a yo-yo, and learning new tricks for it."
@@ -138,17 +155,17 @@
  ["Apex Legends"
   "A fast-paced first person shooter video game. Has extremely good art
   direction, smooth gameplay, and balanced mechanics."
-  ["game" "multiplayer" "competitive"]
+  ["game" "multiplayer" "competitive" "real-time"]
   [["Constructive regret"
     "The feeling when you step out of a test and think 'I knew that answer!!'
     in a way that makes you want to walk right back into the testing hall and
     fix your mistake."]]]
  ["[Wordle](https://www.nytimes.com/games/wordle/index.html)"
   "A fun word game."
-  ["game" "social"]
+  ["game" "social" "turn-based"]
   [["Scanning through possibilities"]]]
  ["Slipways"
   "A video game about colonizing planets and connecting them with trade
   routes."
-  ["game" "solitary"]
+  ["game" "solitary" "turn-based"]
   [["Scanning through possibilities"]]]]
