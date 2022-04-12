@@ -576,7 +576,8 @@ Note that your capital gains themselves help determine your capital gains tax ra
       <description>Lifelogging with a Camera #  Used the iON Snapcam.
 Requires this third party software to enable the time lapse: https://github.com/dimhoff/snapcamcontrol. Use a version hosted on this site here.
 The beeping when taking a picture is really annoying, see https://www.reddit.com/r/ElectronicsRepair/comments/tzmesl/how_to_silence_a_beeping_speaker_on_a_circuit/ for how to disable.
-TODO update this post https://www.reddit.com/r/QuantifiedSelf/comments/toxmbd/looking_for_simple_cheap_wearable_camera_that_can/ with a link to this page.</description>
+TODO update this post https://www.reddit.com/r/QuantifiedSelf/comments/toxmbd/looking_for_simple_cheap_wearable_camera_that_can/ with a link to this page.
+Memory usage #  My snapcam has a 8MP camera mode and a 2MP one. The 2MP images are ~340 kB in size, and the 8MP ones are ~1.</description>
     </item>
     
     <item>
