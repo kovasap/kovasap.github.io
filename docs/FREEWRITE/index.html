@@ -21,7 +21,7 @@ Took lunch home every day at work, which made me feel a lot more productive." />
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.69a4a50d7658e64b802db581ef2cf19801fb87d9e398320ff2fcc19589a55e81.css" integrity="sha256-aaSlDXZY5kuALbWB7yzxmAH7h9njmDIP8vzBlYmlXoE=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.469dde894e3375322ebd01b13f8abad29b9d99f20a4cddaa5051f03fdf2d5245.js" integrity="sha256-Rp3eiU4zdTIuvQGxP4q60pudmfIKTN2qUFHwP98tUkU=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.47159bbec504f72959ea7e57fc8bd6b1959ac4a52948fb0594380c9bd60b7026.js" integrity="sha256-RxWbvsUE9ylZ6n5X/IvWsZWaxKUpSPsFlDgMm9YLcCY=" crossorigin="anonymous"></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -40,6 +40,24 @@ https://github.com/alex-shpak/hugo-book
 -->
   <link href="/css/website_helpers.css" rel="stylesheet" type="text/css">
 
+
+<script>
+    
+    window.onload = function() {  
+        var cur_page = window.location.pathname;
+        console.log(cur_page);
+        var path_elements = cur_page.split('/').slice(2, -2);
+        path_elements.forEach(
+            element => {
+                console.log(element);
+                document.getElementById(element).open = true;
+            });
+        
+        
+        
+        
+    }
+</script>
 
 </head>
 <body dir="ltr">
@@ -76,7 +94,7 @@ https://github.com/alex-shpak/hugo-book
   <ul>
   <li><a href="/docs/manifesto/">Manifesto</a>
   <li>
-    <details>
+    <details id="climbing">
       <summary>
         <strong>Climbing</strong>
       </summary>
@@ -85,7 +103,7 @@ https://github.com/alex-shpak/hugo-book
         <li><a href="/docs/climbing/safety-checklist/">Safety
         Checklist</a>
         <li>
-          <details>
+          <details id="event-reports">
             <summary>
               <strong>Event Reports</strong>
             </summary>
@@ -110,7 +128,7 @@ https://github.com/alex-shpak/hugo-book
       </ul>
     </details>
   <li>
-    <details>
+    <details id="datavis">
       <summary>
         <strong>Datavis</strong>
       </summary>
@@ -120,7 +138,7 @@ https://github.com/alex-shpak/hugo-book
       </ul>
     </details>
   <li>
-    <details>
+    <details id="gamedev">
       <summary>
         <strong>Gamedev</strong>
       </summary>
@@ -131,7 +149,7 @@ https://github.com/alex-shpak/hugo-book
         Context</a>
         <li><a href="/docs/gamedev/my-projects/">My Projects</a>
         <li>
-          <details>
+          <details id="game-ideas">
             <summary>
               <strong>Game Ideas</strong>
             </summary>
@@ -148,7 +166,7 @@ https://github.com/alex-shpak/hugo-book
             </ul>
           </details>
         <li>
-          <details>
+          <details id="mechanic-ideas">
             <summary>
               <strong>Mechanic Ideas</strong>
             </summary>
@@ -164,7 +182,7 @@ https://github.com/alex-shpak/hugo-book
       </ul>
     </details>
   <li>
-    <details>
+    <details id="gaming">
       <summary>
         <strong>Gaming</strong>
       </summary>
@@ -174,6 +192,8 @@ https://github.com/alex-shpak/hugo-book
         Principles</a>
         <li><a href="/docs/gaming/oxygen-not-included/">Oxygen Not
         Included</a>
+        <li><a href=
+        "/docs/gaming/recommendations/">Recommendations</a>
         <li><a href=
         "/docs/gaming/recommended-puzzle-games/">Recommended Puzzle
         Games</a>
@@ -185,7 +205,7 @@ https://github.com/alex-shpak/hugo-book
       </ul>
     </details>
   <li>
-    <details>
+    <details id="health-and-longevity">
       <summary>
         <strong>Health And Longevity</strong>
       </summary>
@@ -235,7 +255,7 @@ https://github.com/alex-shpak/hugo-book
       </ul>
     </details>
   <li>
-    <details>
+    <details id="hydroponics">
       <summary>
         <strong>Hydroponics</strong>
       </summary>
@@ -245,7 +265,7 @@ https://github.com/alex-shpak/hugo-book
       </ul>
     </details>
   <li>
-    <details>
+    <details id="investing-and-finances">
       <summary>
         <strong>Investing And Finances</strong>
       </summary>
@@ -269,7 +289,7 @@ https://github.com/alex-shpak/hugo-book
       </ul>
     </details>
   <li>
-    <details>
+    <details id="lifelogging">
       <summary>
         <strong>Lifelogging</strong>
       </summary>
@@ -281,7 +301,7 @@ https://github.com/alex-shpak/hugo-book
       </ul>
     </details>
   <li>
-    <details>
+    <details id="lifestyle-optimizations">
       <summary>
         <strong>Lifestyle Optimizations</strong>
       </summary>
@@ -331,7 +351,7 @@ https://github.com/alex-shpak/hugo-book
       </ul>
     </details>
   <li>
-    <details>
+    <details id="mind">
       <summary>
         <strong>Mind</strong>
       </summary>
@@ -360,7 +380,7 @@ https://github.com/alex-shpak/hugo-book
       </ul>
     </details>
   <li>
-    <details>
+    <details id="morality">
       <summary>
         <strong>Morality</strong>
       </summary>
@@ -373,7 +393,7 @@ https://github.com/alex-shpak/hugo-book
       </ul>
     </details>
   <li>
-    <details>
+    <details id="software-dev">
       <summary>
         <strong>Software Dev</strong>
       </summary>
@@ -396,7 +416,7 @@ https://github.com/alex-shpak/hugo-book
       </ul>
     </details>
   <li>
-    <details>
+    <details id="thought-experiments">
       <summary>
         <strong>Thought Experiments</strong>
       </summary>
@@ -411,7 +431,7 @@ https://github.com/alex-shpak/hugo-book
       </ul>
     </details>
   <li>
-    <details>
+    <details id="understanding-the-world">
       <summary>
         <strong>Understanding The World</strong>
       </summary>
@@ -447,7 +467,7 @@ https://github.com/alex-shpak/hugo-book
       </ul>
     </details>
   <li>
-    <details>
+    <details id="visual-art">
       <summary>
         <strong>Visual Art</strong>
       </summary>
