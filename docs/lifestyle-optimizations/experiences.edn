@@ -32,7 +32,7 @@
     "The feeling of knowing exactly what you need to do."]
    ["Being in the Zone"]]]
 
- ["Playing [Backpack Hero](https://thejaspel.itch.io/backpack-hero)"
+ ["[Backpack Hero](https://thejaspel.itch.io/backpack-hero)"
   "A cool rougelike game about arranging a grid inventory optimally."
   ["game" "turn-based"]
   []]
@@ -123,12 +123,12 @@
   ["game" "turn-based" "competitive"]
   []]
 
- ["Playing Wavelength or [Longwave](https://longwave.web.app/)"
+ ["Wavelength or [Longwave](https://longwave.web.app/)"
   "An icebreaker-type game that revolves around guessing people's opinions."
   ["game" "social"]
   []]
 
- ["Playing [Codenames](https://codenames.game/)"
+ ["[Codenames](https://codenames.game/)"
   "One variant worth trying is trying to play with pictures instead of words on
   the main board. A stand-alone game (Codenames Pictures) exists for this, but 
   it's also fun to try using custom pictures. For instance, the dream cards
@@ -138,7 +138,7 @@
   ["game" "social"]
   []]
 
- ["Playing Chess"
+ ["Chess"
   "I've found lichess.org is a great place to play."
   ["game" "turn-based" "competitive"]
   []]
@@ -181,8 +181,122 @@
 
  ["[Wordle](https://www.nytimes.com/games/wordle/index.html)"
   "A fun word game."
-  ["game" "social" "turn-based" "puzzle"]
+  ["game" "social" "puzzle"]
   [["Scanning through possibilities"]]]
+
+ ["[Quordle](https://www.quordle.com/#/)"
+  "A more complex form of wordle, with a higher frequency of [BS words](https://www.reddit.com/r/Quordle/comments/t27irp/unfair_word_today/)."
+  ["game" "social" "puzzle"]
+  [["Scanning through possibilities"]]]
+
+ ["[DAT Creativity](https://www.datcreativity.com/)"
+  "A test about tring to come up with the most different words possible."
+  ["game"]
+  [["Scanning through possibilities"]]]
+
+ ["[Semantle](https://semantle.novalis.org/)"
+  "Similar to DAT Creativity, but a daily game like Wordle."
+  ["game" "social" "puzzle"]
+  [["Scanning through possibilities"]]]
+
+ ["[Puzzgrid](https://puzzgrid.com/best.php)"
+  "A game about matching ambiguous word meanings."
+  ["game" "social" "puzzle"]
+  []]
+
+ ["[The Witness](https://store.steampowered.com/app/210970/The_Witness/)"
+  "3-D puzzle game in a beautiful world"
+  ["game" "puzzle"]
+  []]
+
+ ["[Opus Magnum](https://store.steampowered.com/app/558990/Opus_Magnum/)"
+  "Game about programming machines to build molecules."
+  ["game" "puzzle" "programming"]
+  []]
+
+ ["[Fire Emblem 7 & 8](https://en.wikipedia.org/wiki/Fire_Emblem_(video_game))"
+  "I first played this game on the Game Boy Advance when I was in middle school.
+For some reason the art style and especially animation really spoke to me, and
+I found the gameplay loop very compelling.  Fair warning though that this game
+may be on this list mostly because of nostalgia.
+
+One aspect of this game that I really enjoy is the process of building your
+party over time and making sure you train the right characters.  It's very
+satisfying to help a weaker character finish enemies to get experience with the
+goal of making them a core part of your team composition later on.  This is
+often fairly difficult - since the characters are weaker after all - which only
+adds to the satisfaction when you pull it off.
+
+Another cool mechanic in FE is building supports between characters.  When two
+characters fight side by side they will over time build a relationship, which
+leads to little dialogue bites.  It's satisfying to discover these as you play
+through the game.
+
+Both training weaker units and building supports are examples of
+'meta-challenges' in FE; they aren't required to finish the games, but give you
+self-directed and sometimes difficult optional objectives during the battles.
+Because these challenges are self directed they make me feel like I am
+expressing myself more as a player, which makes the game feel more interesting
+than if I was just solving the same battle puzzles as everyone else."
+  ["game" "solitary" "turn-based" "story" "⭐top10"]
+  []]
+
+ ["[XCOM 2 + War of the Chosen](https://en.wikipedia.org/wiki/XCOM_2)"
+  "Very similar appeal to Fire Emblem. Less story focused and more focused on 
+  character customization."
+  ["game" "solitary" "turn-based" "⭐top10"]
+  []]
+
+ ["[Overwatch](https://en.wikipedia.org/wiki/Overwatch_(video_game))"
+  ""
+  ["game" "competitive"]
+  []]
+
+ ["[Darkest Dungeon](https://en.wikipedia.org/wiki/Darkest_Dungeon)"
+  "Amazing atmosphere and fun character building."
+  ["game" "solitary" "turn-based" "⭐top10"]
+  []]
+
+ ["Bananagrams"
+  "One fun variant is to open a book in text format with some program that can 
+  search text and make it so that you can only use words that exist in that
+  book."
+  ["game" "social"]
+  []]
+
+ ["[Islanders](https://en.wikipedia.org/wiki/Islanders_(video_game))"
+  "Cool turn based city builder made with a beautiful art style."
+  ["game" "solitary" "turn-based" "puzzle"]
+  [["Scanning through possibilities"]]]
+
+ ["[Bad North](https://www.badnorth.com/)"
+  ""
+  ["game" "solitary"]]
+
+ ["Rainbow 6: Siege"
+  "Very intense and engaging game that requires a high level of focus.  Every
+movement made in this game produces audible sound, meaning that movement gives
+away your position and makes you vulnerable.  However, like in most shooters,
+if you proactively move to shoot at a particular point, you will still have an
+advantage against someone reacting to your movement.  This leads to a dynamic
+where both you and your opponent are trying to determine the location of the
+other without giving away their own location - once one person knows with
+certainty they can simply move to attack and will have a strong advantage.
+
+This dynamic is framed by the asymmetric nature of all game modes, which have
+attacking and defending sides.  Attackers must move to engage the defenders,
+meaning that they start out disadvantaged (they are moving and making noise
+while defenders are not).  To counter this, attackers all have remote control
+drones that make noise when they move around.  These are easily destroyed, but
+can be used to determine the locations of defenders, giving attackers
+advantage."
+   ["game" "competitive"]
+   []]
+
+ ["CoD: MW2"
+  "This game was trash but at least it let me [make a YouTube video with 160k views](https://www.youtube.com/watch?v=fx1vtMZCFvI&ab_channel=s1lentProtector)."
+  ["game" "competitive"]
+  []]
 
  ["Slipways"
   "A video game about colonizing planets and connecting them with trade
