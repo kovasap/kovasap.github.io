@@ -671,6 +671,17 @@ Options: #   All-in-one solution: https://www.amazon.com/Aeotec-Energy-Z-Wave-el
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/lifestyle-optimizations/listening-to-books/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/listening-to-books/</guid>
+      <description>Listening to Books #  When commuting I like to listen to podcasts or books for learning and entertainment. Unfortunately, many books do not have audiobook versions. Luckily, it&amp;rsquo;s fairly easy to use text-to-speech engines to convert the text of e books into audio. See tools in this repo: https://github.com/kovasap/pico-read-speaker
+TODO check out:
+ https://gtts.readthedocs.io/en/latest/  </description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/lifestyle-optimizations/my-computer-configuration-dotfiles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
