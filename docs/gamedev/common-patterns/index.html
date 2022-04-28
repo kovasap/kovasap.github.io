@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Game Types/Mechanics/Appeals #  Engine Building #  When a player continually updates a state (e.g. a farm or rpg character or desk) with new elements, with each step making the state better at achieving some goal. Often, the state will become even better with each update that the last update made it; the rate of state betterment per step is convex. In the end, the state may be able to &ldquo;go infinite&rdquo; or otherwise reach some victory game state in one turn.">
+<meta name="description" content="Game Types/Mechanics/Appeals #  Engine Building #  When a player continually updates a state (e.g. a farm or RPG character or desk) with new elements, with each step making the state better at achieving some goal. Often, the state will become even better with each update that the last update made it; the rate of state betterment per step is convex. In the end, the state may be able to &ldquo;go infinite&rdquo; or otherwise reach some victory game state in one turn.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
-<meta property="og:description" content="Game Types/Mechanics/Appeals #  Engine Building #  When a player continually updates a state (e.g. a farm or rpg character or desk) with new elements, with each step making the state better at achieving some goal. Often, the state will become even better with each update that the last update made it; the rate of state betterment per step is convex. In the end, the state may be able to &ldquo;go infinite&rdquo; or otherwise reach some victory game state in one turn." />
+<meta property="og:description" content="Game Types/Mechanics/Appeals #  Engine Building #  When a player continually updates a state (e.g. a farm or RPG character or desk) with new elements, with each step making the state better at achieving some goal. Often, the state will become even better with each update that the last update made it; the rate of state betterment per step is convex. In the end, the state may be able to &ldquo;go infinite&rdquo; or otherwise reach some victory game state in one turn." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://kovasap.github.io/docs/gamedev/common-patterns/" /><meta property="article:section" content="docs" />
 
@@ -17,7 +17,7 @@
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.69a4a50d7658e64b802db581ef2cf19801fb87d9e398320ff2fcc19589a55e81.css" integrity="sha256-aaSlDXZY5kuALbWB7yzxmAH7h9njmDIP8vzBlYmlXoE=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.ed08c60832f2a9fbe1449fc3360430dc839bc509a30cb5ba9152736122a273ec.js" integrity="sha256-7QjGCDLyqfvhRJ/DNgQw3IObxQmjDLW6kVJzYSKic&#43;w=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.d651aa25f6ba8fa0e91e80c7b862993f586b9af421598bb4eb84697b44e90aa3.js" integrity="sha256-1lGqJfa6j6DpHoDHuGKZP1hrmvQhWYu064Rpe0TpCqM=" crossorigin="anonymous"></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -35,6 +35,8 @@ Made with Book Theme
 https://github.com/alex-shpak/hugo-book
 -->
   <link href="/css/website_helpers.css" rel="stylesheet" type="text/css">
+<link href="/css/style.css" rel="stylesheet" type="text/css">
+
 
 
 <script>
@@ -531,6 +533,7 @@ https://github.com/alex-shpak/hugo-book
         <li><a href="#examples-1">Examples</a></li>
       </ul>
     </li>
+    <li><a href="#trial-discovery-game-loop">Trial-Discovery Game Loop</a></li>
     <li><a href="#urgency">Urgency</a></li>
   </ul>
 </nav>
@@ -552,7 +555,7 @@ https://github.com/alex-shpak/hugo-book
   Engine Building
   <a class="anchor" href="#engine-building">#</a>
 </h2>
-<p>When a player continually updates a state (e.g. a farm or rpg character or
+<p>When a player continually updates a state (e.g. a farm or RPG character or
 desk) with new elements, with each step making the state better at achieving
 some goal.  Often, the state will become even better with each update that the
 last update made it; the rate of state betterment per step is convex.  In the
@@ -579,6 +582,37 @@ game state in one turn.</p>
 <ul>
 <li>Outer Wilds</li>
 <li>Roguelikes</li>
+</ul>
+<h2 id="trial-discovery-game-loop">
+  Trial-Discovery Game Loop
+  <a class="anchor" href="#trial-discovery-game-loop">#</a>
+</h2>
+<p>One very satisfying game loop goes like this:</p>
+<ol>
+<li>The game presents a difficult trial or puzzle</li>
+<li>After completing the trial, the player is rewarded with a discovery like:
+<ol>
+<li>a new part of the story</li>
+<li>some new mechanics to play with</li>
+<li>new customization options for character building or more generally future
+trial preparation</li>
+</ol>
+</li>
+<li>Back to step 1</li>
+</ol>
+<p>In my opinion, for the loop to work well, the trial must be hard. This can be
+hard to implement in a game with lots of customization options (some builds
+might trivialize trials, and some may make them impossible). In this case what
+I&rsquo;ve seen work the best is games that make trials on the harder side, but also
+provide intermediate content for players to do to e.g. level up their party.
+This way, players with builds that aren&rsquo;t working as well can choose to just
+get stronger to the point where their build does work. And players with good
+builds are rewarded by making it through the discovery loop faster.</p>
+<p>Games that do this really well both with story and with character customization
+in my opinion include:</p>
+<ul>
+<li><a href="/docs/lifestyle-optimizations/experiences/#Fell-Seal---Arbiter%27s-Mark">Fell Seal - Arbiter&rsquo;s Mark</a></li>
+<li><a href="/docs/lifestyle-optimizations/experiences/#XCOM-2-&#43;-War-of-the-Chosen">XCOM 2</a></li>
 </ul>
 <h2 id="urgency">
   Urgency
@@ -638,6 +672,7 @@ do the player&rsquo;s actions really mean?</p>
         <li><a href="#examples-1">Examples</a></li>
       </ul>
     </li>
+    <li><a href="#trial-discovery-game-loop">Trial-Discovery Game Loop</a></li>
     <li><a href="#urgency">Urgency</a></li>
   </ul>
 </nav>

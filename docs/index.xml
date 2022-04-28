@@ -184,7 +184,7 @@ Took lunch home every day at work, which made me feel a lot more productive.</de
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/gamedev/common-patterns/</guid>
-      <description>Game Types/Mechanics/Appeals #  Engine Building #  When a player continually updates a state (e.g. a farm or rpg character or desk) with new elements, with each step making the state better at achieving some goal. Often, the state will become even better with each update that the last update made it; the rate of state betterment per step is convex. In the end, the state may be able to &amp;ldquo;go infinite&amp;rdquo; or otherwise reach some victory game state in one turn.</description>
+      <description>Game Types/Mechanics/Appeals #  Engine Building #  When a player continually updates a state (e.g. a farm or RPG character or desk) with new elements, with each step making the state better at achieving some goal. Often, the state will become even better with each update that the last update made it; the rate of state betterment per step is convex. In the end, the state may be able to &amp;ldquo;go infinite&amp;rdquo; or otherwise reach some victory game state in one turn.</description>
     </item>
     
     <item>
