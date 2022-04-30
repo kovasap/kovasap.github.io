@@ -588,7 +588,7 @@ Memory usage #  My snapcam has a 8MP camera mode and a 2MP one. The 2MP images a
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/lifelogging/influences/</guid>
-      <description>Influences and Inspiration #   Time tracking: https://www.reddit.com/r/dataisbeautiful/comments/radi1e/oc_i_tracked_every_minute_of_every_day_for_the/ http://karpathy.github.io/2014/08/03/quantifying-productivity/  </description>
+      <description>Influences and Inspiration #   Time tracking: https://www.reddit.com/r/dataisbeautiful/comments/radi1e/oc_i_tracked_every_minute_of_every_day_for_the/ http://karpathy.github.io/2014/08/03/quantifying-productivity/ https://howisfelix.today/?  </description>
     </item>
     
     <item>
@@ -667,6 +667,16 @@ Options: #   All-in-one solution: https://www.amazon.com/Aeotec-Energy-Z-Wave-el
       
       <guid>https://kovasap.github.io/docs/lifestyle-optimizations/home-network-and-internet-troubleshooting/</guid>
       <description>Internet and Home Network Troubleshooting #  Lag when playing games #  When downloading stuff and playing games at the same time, the game&amp;rsquo;s packets can be queued behind the download&amp;rsquo;s packets, causing lag. This can be measured with this test: https://www.waveform.com/tools/bufferbloat. QoS and SQM are router features that can be enabled from the router&amp;rsquo;s web interface that are supposed to help with this. https://www.bufferbloat.net/projects/bloat/wiki/What_can_I_do_about_Bufferbloat/ is another good resource.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/lifestyle-optimizations/life-advice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/life-advice/</guid>
+      <description>Life Advice #  A disorganized collection of advice that I haven&amp;rsquo;t yet sorted into better categories:
+ https://kk.org/thetechnium/103-bits-of-advice-i-wish-i-had-known/ https://guzey.com/advice/  </description>
     </item>
     
     <item>
