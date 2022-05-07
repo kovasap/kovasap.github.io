@@ -422,6 +422,16 @@ One eye-catching result is this study, where rats lives ~80% longer when on an a
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/health-and-longevity/finding-care/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/health-and-longevity/finding-care/</guid>
+      <description>Finding Care #  https://healthcostinstitute.org/hcci-originals/hmi-interactive#HMI-Summary-Report-Current-Spending
+Apparently, hospitals with more local competition do better (and you should go to them): https://freakonomics.com/podcast/are-more-expensive-hospitals-better/</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/health-and-longevity/food/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -534,8 +544,9 @@ To aid in my own home search, I made a spreadsheet that calculates the expected 
       
       <guid>https://kovasap.github.io/docs/investing-and-finances/influences/</guid>
       <description>Investing and Finance Influences #  These books/blogs/podcasts/people have most shaped how I understand finances.
+Ben Felix #  Runs a great YouTube channel (and podcast) about investing concepts.
 Early Retirement Extreme #  The ERE book and the blog&amp;rsquo;s most popular posts are an excellent view into a strongly coherent and appealing life philosophy. Highly, highly recommend.
-Mr Money Mustache #  My first introduction to the idea of financial independance. I haven&amp;rsquo;t read a lot of the articles, but the ones I did read were very influential.</description>
+Mr Money Mustache #  My first introduction to the idea of financial independance.</description>
     </item>
     
     <item>
@@ -578,7 +589,6 @@ Note that your capital gains themselves help determine your capital gains tax ra
       <description>Lifelogging with a Camera #  Used the iON Snapcam.
 Requires this third party software to enable the time lapse: https://github.com/dimhoff/snapcamcontrol. Use a version hosted on this site here.
 The beeping when taking a picture is really annoying, see https://www.reddit.com/r/ElectronicsRepair/comments/tzmesl/how_to_silence_a_beeping_speaker_on_a_circuit/ for how to disable.
-TODO update this post https://www.reddit.com/r/QuantifiedSelf/comments/toxmbd/looking_for_simple_cheap_wearable_camera_that_can/ with a link to this page.
 Memory usage #  My snapcam has a 8MP camera mode and a 2MP one. The 2MP images are ~340 kB in size, and the 8MP ones are ~1.</description>
     </item>
     
@@ -861,9 +871,10 @@ Ability to Learn #  Tests judging intelligence, or general mental ability, are u
       
       <guid>https://kovasap.github.io/docs/mind/how-to-do-hard-tasks/</guid>
       <description>How to Do Hard Tasks #  This goes hand-in-hand with motivation.
+https://every.to/superorganizers/how-to-do-hard-things is somewhat related.
 What Makes Tasks Hard? #  Tasks are hard when you don&amp;rsquo;t already have pathways in your brain that script them, or your existing pathways are incomplete. Doing hard tasks requires learning.
 http://gregorygundersen.com/blog/2020/01/12/why-research-blog/
-One way to model a task is as a tree of possibilities, where each node is a decision with any number of possible outcomes. Here I&amp;rsquo;ll discuss tasks that are hand because this tree is complex (has many nodes).</description>
+One way to model a task is as a tree of possibilities, where each node is a decision with any number of possible outcomes.</description>
     </item>
     
     <item>
