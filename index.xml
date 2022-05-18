@@ -190,6 +190,15 @@ Took lunch home every day at work, which made me feel a lot more productive.</de
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/gamedev/game-ideas/keyboard-city-builder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/gamedev/game-ideas/keyboard-city-builder/</guid>
+      <description>Keyboard City Builder #  A city builder/strategy game where the map is a keyboard And buildings are built on keys. Then when you hit that key the building does something. Hitting the key with shift/ctrl/other modifiers will change the action type.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/gamedev/game-ideas/roguelike-base-builder/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -492,6 +501,25 @@ Smart Alarm #  Sleep as Android has a feature where instead of setting an alarm 
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/housing/home-energy-monitoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/housing/home-energy-monitoring/</guid>
+      <description>(Home) Energy Monitoring #  This is a project I haven&amp;rsquo;t completed yet, but want to. The ultimate goal is to get a realtime datafeed of total home power usage, so I can have more direct feedback to how my appliance usage effects power consumption.
+Options: #   All-in-one solution: https://www.amazon.com/Aeotec-Energy-Z-Wave-electricity-monitor/dp/B00XD8WZX6?pldnSite=1#customerReviews DIY power monitoring: https://power-monitor.dalbrecht.tech/overview/ Open source system: https://guide.openenergymonitor.org/setup/ Cheaper system: https://shop.emporiaenergy.com/collections/emporia-products/products/gen-2-emporia-vue-whole-home-energy-monitor  Emporia Vue Gen 2 Resources: #   https://github.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/housing/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/housing/projects/</guid>
+      <description>Housing Projects #  Done #   https://kingcounty.gov/services/environment/wastewater/cso/rainwise.aspx  For the future #   https://www.backwoodshome.com/build-an-attached-solar-greenhouse/  </description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/hydroponics/journal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -659,16 +687,6 @@ Paprika #  An app that parses recipes out of the cancer that is most recipe webs
       <description>Hang (Air) Drying Cloths #  I&amp;rsquo;ve found that hang drying cloths over using a cloths dryer has some pretty neat advantages:
 Less Work #  IF you hang dry your cloths in a place where they can stay indefinitely, then hang drying leads to this laundry workflow:
  Wash cloths Hang dry - this must happen now because cloths are wet! Easily find what you want to wear (since everything is hanging up) and wear it.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/lifestyle-optimizations/home-energy-monitoring/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/home-energy-monitoring/</guid>
-      <description>(Home) Energy Monitoring #  This is a project I haven&amp;rsquo;t completed yet, but want to. The ultimate goal is to get a realtime datafeed of total home power usage, so I can have more direct feedback to how my appliance usage effects power consumption.
-Options: #   All-in-one solution: https://www.amazon.com/Aeotec-Energy-Z-Wave-electricity-monitor/dp/B00XD8WZX6?pldnSite=1#customerReviews DIY power monitoring: https://power-monitor.dalbrecht.tech/overview/ Open source system: https://guide.openenergymonitor.org/setup/ Cheaper system: https://shop.emporiaenergy.com/collections/emporia-products/products/gen-2-emporia-vue-whole-home-energy-monitor  Emporia Vue Gen 2 Resources: #   https://github.</description>
     </item>
     
     <item>
