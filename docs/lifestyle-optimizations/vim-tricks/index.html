@@ -5,14 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Vim Tricks #  Search/Replace #  See http://vimregex.com/#substitute for details.
 Convert protos to bzl dictionaries #  Replace text: text2 with &quot;text&quot;: text2,:
-:%s/\(\S.*[^&quot;]\): \(.*\)$/&quot;\1&quot;: \2,/g Replace floating points number with quoted variants:
-:%s/[^&quot;]\(\d\&#43;\)\.\(\d\&#43;\)/&quot;\1\.\2&quot;/g ">
+:%s/\(\S.*[^&#34;]\): \(.*\)$/&#34;\1&#34;: \2,/g Replace floating points number with quoted variants:
+:%s/[^&#34;]\(\d\&#43;\)\.\(\d\&#43;\)/&#34;\1\.\2&#34;/g ">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
 <meta property="og:description" content="Vim Tricks #  Search/Replace #  See http://vimregex.com/#substitute for details.
 Convert protos to bzl dictionaries #  Replace text: text2 with &quot;text&quot;: text2,:
-:%s/\(\S.*[^&quot;]\): \(.*\)$/&quot;\1&quot;: \2,/g Replace floating points number with quoted variants:
-:%s/[^&quot;]\(\d\&#43;\)\.\(\d\&#43;\)/&quot;\1\.\2&quot;/g " />
+:%s/\(\S.*[^&#34;]\): \(.*\)$/&#34;\1&#34;: \2,/g Replace floating points number with quoted variants:
+:%s/[^&#34;]\(\d\&#43;\)\.\(\d\&#43;\)/&#34;\1\.\2&#34;/g " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://kovasap.github.io/docs/lifestyle-optimizations/vim-tricks/" /><meta property="article:section" content="docs" />
 
@@ -23,7 +23,7 @@ Convert protos to bzl dictionaries #  Replace text: text2 with &quot;text&quot;:
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.93b305d2c58c4f77a22b40aa22298306ac85a19d991c3cadf2465c0ccef7ae72.css" integrity="sha256-k7MF0sWMT3eiK0CqIimDBqyFoZ2ZHDyt8kZcDM73rnI=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.ac946f005b4416883dc3d066e8bdf70e5d4498390f28932583fe561752c3c93c.js" integrity="sha256-rJRvAFtEFog9w9Bm6L33Dl1EmDkPKJMlg/5WF1LDyTw=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.c8ce16dc66ec4c3bdd00315cd27d2262c674ff6f941837c0379e42b0bf145893.js" integrity="sha256-yM4W3GbsTDvdADFc0n0iYsZ0/2&#43;UGDfAN55CsL8UWJM=" crossorigin="anonymous"></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -517,7 +517,7 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
 
 
  
@@ -579,9 +579,9 @@ https://github.com/alex-shpak/hugo-book
   <a class="anchor" href="#convert-protos-to-bzl-dictionaries">#</a>
 </h3>
 <p>Replace <code>text: text2</code> with <code>&quot;text&quot;: text2,</code>:</p>
-<pre tabindex="0"><code>:%s/\(\S.*[^&quot;]\): \(.*\)$/&quot;\1&quot;: \2,/g
+<pre tabindex="0"><code>:%s/\(\S.*[^&#34;]\): \(.*\)$/&#34;\1&#34;: \2,/g
 </code></pre><p>Replace floating points number with quoted variants:</p>
-<pre tabindex="0"><code>:%s/[^&quot;]\(\d\+\)\.\(\d\+\)/&quot;\1\.\2&quot;/g
+<pre tabindex="0"><code>:%s/[^&#34;]\(\d\+\)\.\(\d\+\)/&#34;\1\.\2&#34;/g
 </code></pre></article>
  
       
@@ -598,7 +598,7 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+  <script>(function(){function e(n){const e=window.getSelection(),t=document.createRange();t.selectNodeContents(n),e.removeAllRanges(),e.addRange(t)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
 
 
  

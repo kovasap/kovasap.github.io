@@ -798,8 +798,8 @@ When I feel cold or warm or hungry or full, my body will be more amenable to doi
       <guid>https://kovasap.github.io/docs/lifestyle-optimizations/vim-tricks/</guid>
       <description>Vim Tricks #  Search/Replace #  See http://vimregex.com/#substitute for details.
 Convert protos to bzl dictionaries #  Replace text: text2 with &amp;quot;text&amp;quot;: text2,:
-:%s/\(\S.*[^&amp;quot;]\): \(.*\)$/&amp;quot;\1&amp;quot;: \2,/g Replace floating points number with quoted variants:
-:%s/[^&amp;quot;]\(\d\+\)\.\(\d\+\)/&amp;quot;\1\.\2&amp;quot;/g </description>
+:%s/\(\S.*[^&amp;#34;]\): \(.*\)$/&amp;#34;\1&amp;#34;: \2,/g Replace floating points number with quoted variants:
+:%s/[^&amp;#34;]\(\d\+\)\.\(\d\+\)/&amp;#34;\1\.\2&amp;#34;/g </description>
     </item>
     
     <item>
