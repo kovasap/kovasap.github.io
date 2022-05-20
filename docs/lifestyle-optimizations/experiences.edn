@@ -339,8 +339,21 @@ advantage."
   ["game" "story" "solitary"]
   []]
 
- ["Slipways"
+ ["[Slipways](https://slipways.net/)"
   "A video game about colonizing planets and connecting them with trade
   routes."
   ["game" "solitary" "turn-based" "puzzle"]
-  [["Scanning through possibilities"]]]]
+  [["Scanning through possibilities"]]]
+
+ ["[Age of Darkness: Final Stand](https://www.ageofdarkness.com/)"
+  "A real-time-with-pause strategy game with excellent art. "
+  ["game" "solitary"]
+  [["Fitting puzzle pieces together"
+    "The feeling of finding the right place for a part of something you are
+    building."]]]
+
+ ["[Three Worlds
+    Collide](https://www.lesswrong.com/posts/HawFh7RvDM4RyoJ2d/three-worlds-collide-0-8)"
+  "Science fiction with a philosophical twist."
+  ["story" "philosophy"]
+  [["Thought Provoking"]]]]
