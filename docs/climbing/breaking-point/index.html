@@ -3,22 +3,16 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Lifelogging with a Camera #  Used the iON Snapcam.
-Requires this third party software to enable the time lapse: https://github.com/dimhoff/snapcamcontrol. Use a version hosted on this site here.
-The beeping when taking a picture is really annoying, see https://www.reddit.com/r/ElectronicsRepair/comments/tzmesl/how_to_silence_a_beeping_speaker_on_a_circuit/ for how to disable.
-Memory usage #  My snapcam has a 8MP camera mode and a 2MP one. The 2MP images are ~340 kB in size, and the 8MP ones are ~1.">
+<meta name="description" content="Physical &ldquo;Breaking Point&rdquo; #  One interesting thing I&rsquo;ve noticed about myself as I progress through a climbing session is that my ability degradation due to tiredness is not linear, or really consistent at all. There are some days where I can crush hard route after hard route, and it feels like each new hard ascent makes me feel more energized than I was before. Then on some days, if I fall on a route early, the rest of the session will be a struggle.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
-<meta property="og:description" content="Lifelogging with a Camera #  Used the iON Snapcam.
-Requires this third party software to enable the time lapse: https://github.com/dimhoff/snapcamcontrol. Use a version hosted on this site here.
-The beeping when taking a picture is really annoying, see https://www.reddit.com/r/ElectronicsRepair/comments/tzmesl/how_to_silence_a_beeping_speaker_on_a_circuit/ for how to disable.
-Memory usage #  My snapcam has a 8MP camera mode and a 2MP one. The 2MP images are ~340 kB in size, and the 8MP ones are ~1." />
+<meta property="og:description" content="Physical &ldquo;Breaking Point&rdquo; #  One interesting thing I&rsquo;ve noticed about myself as I progress through a climbing session is that my ability degradation due to tiredness is not linear, or really consistent at all. There are some days where I can crush hard route after hard route, and it feels like each new hard ascent makes me feel more energized than I was before. Then on some days, if I fall on a route early, the rest of the session will be a struggle." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://kovasap.github.io/docs/lifelogging/camera/" /><meta property="article:section" content="docs" />
+<meta property="og:url" content="https://kovasap.github.io/docs/climbing/breaking-point/" /><meta property="article:section" content="docs" />
 
 
 
-<title>Camera | Things to Remember</title>
+<title>Breaking Point | Things to Remember</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.93b305d2c58c4f77a22b40aa22298306ac85a19d991c3cadf2465c0ccef7ae72.css" integrity="sha256-k7MF0sWMT3eiK0CqIimDBqyFoZ2ZHDyt8kZcDM73rnI=" crossorigin="anonymous">
@@ -103,7 +97,7 @@ https://github.com/alex-shpak/hugo-book
         <strong>Climbing</strong>
       </summary>
       <ul>
-        <li><a href="/docs/climbing/breaking-point/">Breaking
+        <li><a href="/docs/climbing/breaking-point/"class=active>Breaking
         Point</a>
         <li><a href="/docs/climbing/media/">Media</a>
         <li><a href="/docs/climbing/safety-checklist/">Safety
@@ -312,7 +306,7 @@ https://github.com/alex-shpak/hugo-book
         <strong>Lifelogging</strong>
       </summary>
       <ul>
-        <li><a href="/docs/lifelogging/camera/"class=active>Camera</a>
+        <li><a href="/docs/lifelogging/camera/">Camera</a>
         <li><a href="/docs/lifelogging/influences/">Influences</a>
         <li><a href="/docs/lifelogging/what-and-why/">What And
         Why</a>
@@ -537,7 +531,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Camera</strong>
+  <strong>Breaking Point</strong>
 
   <label for="toc-control">
     
@@ -551,11 +545,7 @@ https://github.com/alex-shpak/hugo-book
   <aside class="hidden clearfix">
     
   
-<nav id="TableOfContents">
-  <ul>
-    <li><a href="#memory-usage">Memory usage</a></li>
-  </ul>
-</nav>
+<nav id="TableOfContents"></nav>
 
 
 
@@ -566,27 +556,20 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h1 id="lifelogging-with-a-camera">
-  Lifelogging with a Camera
-  <a class="anchor" href="#lifelogging-with-a-camera">#</a>
+  <article class="markdown"><h1 id="physical-breaking-point">
+  Physical &ldquo;Breaking Point&rdquo;
+  <a class="anchor" href="#physical-breaking-point">#</a>
 </h1>
-<p>Used the <a href="https://amzn.to/3JqQ6kA">iON Snapcam</a>.</p>
-<p>Requires this third party software to enable the time lapse:
-<a href="https://github.com/dimhoff/snapcamcontrol">https://github.com/dimhoff/snapcamcontrol</a>. Use a version hosted on this site
-<a href="/snapcamcontrol.html">here</a>.</p>
-<p>The beeping when taking a picture is really annoying, see
-<a href="https://www.reddit.com/r/ElectronicsRepair/comments/tzmesl/how_to_silence_a_beeping_speaker_on_a_circuit/">https://www.reddit.com/r/ElectronicsRepair/comments/tzmesl/how_to_silence_a_beeping_speaker_on_a_circuit/</a>
-for how to disable.</p>
-<h2 id="memory-usage">
-  Memory usage
-  <a class="anchor" href="#memory-usage">#</a>
-</h2>
-<p>My snapcam has a 8MP camera mode and a 2MP one.  The 2MP images are ~340 kB in
-size, and the 8MP ones are ~1.1MB. The 2MP images seem to be less effected by
-motion blur.  If I use 2MP images, and take one every 30 seconds, then I would
-need:</p>
-<pre tabindex="0"><code>1/1000000 GB/kB * 340 kB/pic * 1/30 pic/sec * 3600 sec/hour * 16 hours/wakingDay = 0.65 GB/day = 238 GB/year
-</code></pre><p>Or around <code>116 GB/year</code> if a took a picture every minute.</p>
+<p>One interesting thing I&rsquo;ve noticed about myself as I progress through a
+climbing session is that my ability degradation due to tiredness is not linear,
+or really consistent at all.  There are some days where I can crush hard route
+after hard route, and it feels like each new hard ascent makes me feel <strong>more</strong>
+energized than I was before.  Then on some days, if I fall on a route early,
+the rest of the session will be a struggle.</p>
+<p>I think this is because falling involves a last extreme effort from my body
+right before the actual fall that leads to a long lasting fatigue. This puts a
+particular strain on me that climbing many difficult routes without falling
+does not.</p>
 </article>
  
       
@@ -626,11 +609,7 @@ need:</p>
       <div class="book-toc-content">
         
   
-<nav id="TableOfContents">
-  <ul>
-    <li><a href="#memory-usage">Memory usage</a></li>
-  </ul>
-</nav>
+<nav id="TableOfContents"></nav>
 
 
  
