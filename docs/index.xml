@@ -257,6 +257,15 @@ During the run phase, people come to live/work in the building you designed, and
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/gamedev/mechanic-ideas/limiting-collaboration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/gamedev/mechanic-ideas/limiting-collaboration/</guid>
+      <description>Limiting Collaboration #  In several turn-based collaborative multiplayer games I&amp;rsquo;ve played (Gloomhaven, Pandemic, Divinity Original Sin 2), I&amp;rsquo;ve noticed a common issue that draws out what would otherwise be a more streamlined experience. This is that, while these games usually have players control specific characters, in reality what happens is that the playgroup as a whole decides on the best move that everyone should take. Then everyone just makes the agreed upon move.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/gamedev/mechanic-ideas/low-friction-turn-based-tactics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
