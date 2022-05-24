@@ -702,8 +702,8 @@ Paprika #  An app that parses recipes out of the cancer that is most recipe webs
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/lifestyle-optimizations/experiences/</guid>
-      <description>My Experiences #  A summary of experiences I&amp;rsquo;ve had, and the states of mind they invoke for me.
-  website_helpers.core.render_to_element( website_helpers.core.make_aggregated_items( website_helpers.core.read_edn_string(&#34;\n\n[[\u0026#34;Comparing prices\u0026#34;\n \u0026#34;When buying a good or service, comparing many alternatives to find the\n best price. For example, looking at the price per pound of various grocery\n items and picking the one with the lowest price.\u0026#34;\n [\u0026#34;habit\u0026#34;]\n [[\u0026#34;Financial Control\u0026#34;\n \u0026#34;A feeling that you understand and are in control of your finances.</description>
+      <description>My Experiences #  A summary of experiences I&amp;rsquo;ve had, and the states of mind they invoke for me. See Mind Mapping Concept for ideas on how else to display this.
+  website_helpers.core.render_to_element( website_helpers.core.make_aggregated_items( website_helpers.core.read_edn_string(&#34;\n\n[[\u0026#34;Comparing prices\u0026#34;\n \u0026#34;When buying a good or service, comparing many alternatives to find the\n best price. For example, looking at the price per pound of various grocery\n items and picking the one with the lowest price.</description>
     </item>
     
     <item>
@@ -1115,6 +1115,17 @@ Modelling the Intelligence #  The AI could be composed of &amp;ldquo;neurons&amp
       <guid>https://kovasap.github.io/docs/thought-experiments/life-quests/</guid>
       <description>Life Quests #  One exciting way to spend time is to try to complete little open-ended challenges under time pressure. Some examples of this would include:
  Make $1 on the internet in a couple days Make some kind of art in a new medium  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/thought-experiments/mind-mapping-concept/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/thought-experiments/mind-mapping-concept/</guid>
+      <description>Mind Mapping Concept #  Organize notes into different types, each getting their own directory.
+Types #   Feelings Experiences How-Tos Facts Theories/Explanations  A subset of this is my Experiences page.
+Visualization Examples and Libraries #   https://biomindmap.com/nodes/185 https://beepb00p.xyz/blog-graph.html https://github.com/hikerpig/note-graph  </description>
     </item>
     
     <item>
