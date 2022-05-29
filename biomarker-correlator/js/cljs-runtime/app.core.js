@@ -3,8 +3,8 @@ goog.provide('app.core');
  * Gets all variables (csv columns) from parsed csv maps besides the date.
  */
 app.core.get_vars = (function app$core$get_vars(data){
-return cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__48753_SHARP_){
-return cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(p1__48753_SHARP_,new cljs.core.Keyword(null,"date","date",-1463434462));
+return cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__49300_SHARP_){
+return cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(p1__49300_SHARP_,new cljs.core.Keyword(null,"date","date",-1463434462));
 }),cljs.core.keys(cljs.core.first(data)));
 });
 /**
@@ -12,22 +12,22 @@ return cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(p1__48753_SHARP_,new cljs
  *   {:input :hi :slope 50}
  */
 app.core.flatten_map = (function app$core$flatten_map(data){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.sorted_map_by(cljs.core._LT_),cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__48754_SHARP_){
-return ((cljs.core.vector_QMARK_(p1__48754_SHARP_)) && ((!(cljs.core.map_QMARK_(cljs.core.last(p1__48754_SHARP_))))));
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.sorted_map_by(cljs.core._LT_),cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__49309_SHARP_){
+return ((cljs.core.vector_QMARK_(p1__49309_SHARP_)) && ((!(cljs.core.map_QMARK_(cljs.core.last(p1__49309_SHARP_))))));
 }),cljs.core.tree_seq(cljs.core.associative_QMARK_,cljs.core.seq,data)));
 });
 app.core.home_page = (function app$core$home_page(){
-var aggregation_granularity = reagent.core.atom.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"none","none",1333468478),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"validator","validator",-1966190681),(function (p1__48755_SHARP_){
-return malli.core.validate.cljs$core$IFn$_invoke$arity$2(app.time.PeriodIdTypes,p1__48755_SHARP_);
+var aggregation_granularity = reagent.core.atom.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"none","none",1333468478),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"validator","validator",-1966190681),(function (p1__49313_SHARP_){
+return malli.core.validate.cljs$core$IFn$_invoke$arity$2(app.time.PeriodIdTypes,p1__49313_SHARP_);
 })], 0));
 var p_values_rounded_QMARK_ = reagent.core.atom.cljs$core$IFn$_invoke$arity$1(false);
 return (function (){
-var map__48757 = cljs.core.deref(app.csv.csv_data);
-var map__48757__$1 = cljs.core.__destructure_map(map__48757);
-var input_file_name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__48757__$1,new cljs.core.Keyword(null,"input-file-name","input-file-name",-1886577211));
-var biomarker_file_name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__48757__$1,new cljs.core.Keyword(null,"biomarker-file-name","biomarker-file-name",1322694478));
-var input_data = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__48757__$1,new cljs.core.Keyword(null,"input-data","input-data",2052925403));
-var biomarker_data = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__48757__$1,new cljs.core.Keyword(null,"biomarker-data","biomarker-data",-1785875135));
+var map__49329 = cljs.core.deref(app.csv.csv_data);
+var map__49329__$1 = cljs.core.__destructure_map(map__49329);
+var input_file_name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__49329__$1,new cljs.core.Keyword(null,"input-file-name","input-file-name",-1886577211));
+var biomarker_file_name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__49329__$1,new cljs.core.Keyword(null,"biomarker-file-name","biomarker-file-name",1322694478));
+var input_data = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__49329__$1,new cljs.core.Keyword(null,"input-data","input-data",2052925403));
+var biomarker_data = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__49329__$1,new cljs.core.Keyword(null,"biomarker-data","biomarker-data",-1785875135));
 var inputs = app.core.get_vars(input_data);
 var biomarkers = app.core.get_vars(biomarker_data);
 var processed_data = app.csv_data_processing.process_csv_data.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([input_data,biomarker_data], 0));
@@ -49,27 +49,27 @@ cljs.core.prn.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$
 
 return new cljs.core.PersistentVector(null, 31, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div.app.content","div.app.content",2048228731),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h1.title","h1.title",-2139952071),"Biomarker Correlator"], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p","p",151049309),"This application calculates cross correlations between inputs and\n        biomarkers in an attempt to identify statistically significant\n        correlations. "], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p","p",151049309),"Despite presenting like a website, there is no server\n        behind this app that data is sent to for analysis; everything is done\n        client side in the browser. Therefore, the page can be saved and run\n        offline as needed."], null),new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p","p",151049309),"See ",new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"a","a",-2123407586),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"href","href",-793805698),"https://www.youtube.com/watch?v=3N0e9Es1pv8"], null),"https://www.youtube.com/watch?v=3N0e9Es1pv8"], null)," for an overview of how this is useful."], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h3","h3",2067611163),"Data Ingestion"], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h4","h4",2004862993),"Google Drive Integration"], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p","p",151049309),"Once signed in and authorized, this application will search through\n        your Google Drive, find a folder named \"biomarker-correlator\", and then\n        process the files within that folder. Any CSV files with \"inputs\" in\n        the name will be treated as the input data files and any with \"biomarkers\"\n        in the name will be treated as the biomarker data files."], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p","p",151049309),"If you are getting permissions issues, note that you need to be\n        whitelisted as this app is currently not verified with Google. Please\n        contact kovas[dot]palunas[at]gmail.com if you want to be whitelisted."], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"button","button",1456579943),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"id","id",-1388402092),"authorize_button",new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"display","display",242065432),"none"], null)], null),"Authorize"], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"button","button",1456579943),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"id","id",-1388402092),"signout_button",new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"display","display",242065432),"none"], null)], null),"Sign Out"], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"button","button",1456579943),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"on-click","on-click",1632826543),(function (){
 return app.google_drive.populate_data_BANG_();
-})], null),"Fetch Google Drive Data"], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"pre","pre",2118456869),"Found files ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(app.google_drive.found_files))], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h4","h4",2004862993),"CSV"], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div.topbar.hidden-print","div.topbar.hidden-print",-603265413),"\"Upload\" input data",new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [app.csv.upload_btn,input_file_name,app.csv.input_upload_reqs], null)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div.topbar.hidden-print","div.topbar.hidden-print",-603265413),"\"Upload\" biomarker data",new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [app.csv.upload_btn,biomarker_file_name,app.csv.biomarker_upload_reqs], null)], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"br","br",934104792)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),"Input validation: ",app.input_data_validation.get_validation_string(input_data)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),"Biomarker validation: ",app.input_data_validation.get_validation_string(biomarker_data)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),"Cross data validation: ",app.input_data_validation.get_all_data_validation_string.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([input_data,biomarker_data], 0))], null),app.aggregation.aggregation_section(aggregation_granularity,cljs.core.keys(data_by_aggregates)),app.timeline.timeline_for_page(processed_data,cljs.core.keys(data_by_aggregates)),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h3","h3",2067611163),"Per-Input Table"], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p","p",151049309),"Not statistically significant results are displayed with greyed-out\n        text.  The score for each input is calculated as the number of\n        statistically significant correlations that are positive, minus the number\n        that are negative.  We need a spreadsheet (or something built in to the\n        app) that determines for each biomarker whether up is good or bad with\n        respect to calculating the score."], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"label","label",1718410804),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"for","for",-1323786319),new cljs.core.Keyword(null,"p-values-rounded?","p-values-rounded?",-1239433302)], null),"Round p-values?"], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"input","input",556931961),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"checkbox","checkbox",1612615655),new cljs.core.Keyword(null,"name","name",1843675177),new cljs.core.Keyword(null,"p-values-rounded?","p-values-rounded?",-1239433302),new cljs.core.Keyword(null,"on-change","on-change",-732046149),(function (p1__48756_SHARP_){
-return cljs.core.reset_BANG_(p_values_rounded_QMARK_,p1__48756_SHARP_.target.checked);
-}),new cljs.core.Keyword(null,"value","value",305978217),cljs.core.deref(p_values_rounded_QMARK_),new cljs.core.Keyword(null,"defaultChecked","defaultChecked",-834047344),cljs.core.deref(p_values_rounded_QMARK_)], null)], null),app.ui.maps_to_datagrid.cljs$core$IFn$_invoke$arity$variadic(app.comparison_matrix_table.make_comparison_matrix_data(pairwise_correlations_for_table,input_correlations,p_values_rounded_QMARK_),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"custom-make-datagrid-column","custom-make-datagrid-column",1791443794),app.comparison_matrix_table.make_datagrid_column], 0)),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h3","h3",2067611163),"Pairwise Table"], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [app.ui.hideable,app.ui.maps_to_datagrid(flat_results)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h3","h3",2067611163),"Significant Correlations"], null),new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h4","h4",2004862993),"Input Correlations"], null),cljs.core.into.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632)], null),(function (){var iter__4652__auto__ = (function app$core$home_page_$_iter__48758(s__48759){
+})], null),"Fetch Google Drive Data"], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"pre","pre",2118456869),"Found files ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(app.google_drive.found_files))], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h4","h4",2004862993),"CSV"], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div.topbar.hidden-print","div.topbar.hidden-print",-603265413),"\"Upload\" input data",new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [app.csv.upload_btn,input_file_name,app.csv.input_upload_reqs], null)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div.topbar.hidden-print","div.topbar.hidden-print",-603265413),"\"Upload\" biomarker data",new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [app.csv.upload_btn,biomarker_file_name,app.csv.biomarker_upload_reqs], null)], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"br","br",934104792)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),"Input validation: ",app.input_data_validation.get_validation_string(input_data)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),"Biomarker validation: ",app.input_data_validation.get_validation_string(biomarker_data)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),"Cross data validation: ",app.input_data_validation.get_all_data_validation_string.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([input_data,biomarker_data], 0))], null),app.aggregation.aggregation_section(aggregation_granularity,cljs.core.keys(data_by_aggregates)),app.timeline.timeline_for_page(processed_data,cljs.core.keys(data_by_aggregates)),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h3","h3",2067611163),"Per-Input Table"], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p","p",151049309),"Not statistically significant results are displayed with greyed-out\n        text.  The score for each input is calculated as the number of\n        statistically significant correlations that are positive, minus the number\n        that are negative.  We need a spreadsheet (or something built in to the\n        app) that determines for each biomarker whether up is good or bad with\n        respect to calculating the score."], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"label","label",1718410804),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"for","for",-1323786319),new cljs.core.Keyword(null,"p-values-rounded?","p-values-rounded?",-1239433302)], null),"Round p-values?"], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"input","input",556931961),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"checkbox","checkbox",1612615655),new cljs.core.Keyword(null,"name","name",1843675177),new cljs.core.Keyword(null,"p-values-rounded?","p-values-rounded?",-1239433302),new cljs.core.Keyword(null,"on-change","on-change",-732046149),(function (p1__49315_SHARP_){
+return cljs.core.reset_BANG_(p_values_rounded_QMARK_,p1__49315_SHARP_.target.checked);
+}),new cljs.core.Keyword(null,"value","value",305978217),cljs.core.deref(p_values_rounded_QMARK_),new cljs.core.Keyword(null,"defaultChecked","defaultChecked",-834047344),cljs.core.deref(p_values_rounded_QMARK_)], null)], null),app.ui.maps_to_datagrid.cljs$core$IFn$_invoke$arity$variadic(app.comparison_matrix_table.make_comparison_matrix_data(pairwise_correlations_for_table,input_correlations,p_values_rounded_QMARK_),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"custom-make-datagrid-column","custom-make-datagrid-column",1791443794),app.comparison_matrix_table.make_datagrid_column], 0)),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h3","h3",2067611163),"Pairwise Table"], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [app.ui.hideable,app.ui.maps_to_datagrid(flat_results)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h3","h3",2067611163),"Significant Correlations"], null),new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h4","h4",2004862993),"Input Correlations"], null),cljs.core.into.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632)], null),(function (){var iter__4652__auto__ = (function app$core$home_page_$_iter__49330(s__49331){
 return (new cljs.core.LazySeq(null,(function (){
-var s__48759__$1 = s__48759;
+var s__49331__$1 = s__49331;
 while(true){
-var temp__5753__auto__ = cljs.core.seq(s__48759__$1);
+var temp__5753__auto__ = cljs.core.seq(s__49331__$1);
 if(temp__5753__auto__){
-var s__48759__$2 = temp__5753__auto__;
-if(cljs.core.chunked_seq_QMARK_(s__48759__$2)){
-var c__4650__auto__ = cljs.core.chunk_first(s__48759__$2);
+var s__49331__$2 = temp__5753__auto__;
+if(cljs.core.chunked_seq_QMARK_(s__49331__$2)){
+var c__4650__auto__ = cljs.core.chunk_first(s__49331__$2);
 var size__4651__auto__ = cljs.core.count(c__4650__auto__);
-var b__48761 = cljs.core.chunk_buffer(size__4651__auto__);
-if((function (){var i__48760 = (0);
+var b__49333 = cljs.core.chunk_buffer(size__4651__auto__);
+if((function (){var i__49332 = (0);
 while(true){
-if((i__48760 < size__4651__auto__)){
-var sig_correlations = cljs.core._nth(c__4650__auto__,i__48760);
-cljs.core.chunk_append(b__48761,app.single_var_table.make_hiccup(sig_correlations));
+if((i__49332 < size__4651__auto__)){
+var sig_correlations = cljs.core._nth(c__4650__auto__,i__49332);
+cljs.core.chunk_append(b__49333,app.single_var_table.make_hiccup(sig_correlations));
 
-var G__49024 = (i__48760 + (1));
-i__48760 = G__49024;
+var G__49596 = (i__49332 + (1));
+i__49332 = G__49596;
 continue;
 } else {
 return true;
@@ -77,13 +77,13 @@ return true;
 break;
 }
 })()){
-return cljs.core.chunk_cons(cljs.core.chunk(b__48761),app$core$home_page_$_iter__48758(cljs.core.chunk_rest(s__48759__$2)));
+return cljs.core.chunk_cons(cljs.core.chunk(b__49333),app$core$home_page_$_iter__49330(cljs.core.chunk_rest(s__49331__$2)));
 } else {
-return cljs.core.chunk_cons(cljs.core.chunk(b__48761),null);
+return cljs.core.chunk_cons(cljs.core.chunk(b__49333),null);
 }
 } else {
-var sig_correlations = cljs.core.first(s__48759__$2);
-return cljs.core.cons(app.single_var_table.make_hiccup(sig_correlations),app$core$home_page_$_iter__48758(cljs.core.rest(s__48759__$2)));
+var sig_correlations = cljs.core.first(s__49331__$2);
+return cljs.core.cons(app.single_var_table.make_hiccup(sig_correlations),app$core$home_page_$_iter__49330(cljs.core.rest(s__49331__$2)));
 }
 } else {
 return null;
@@ -93,25 +93,25 @@ break;
 }),null,null));
 });
 return iter__4652__auto__(cljs.core.vals(input_correlations));
-})()),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h4","h4",2004862993),"Biomarker Correlations"], null),cljs.core.into.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632)], null),(function (){var iter__4652__auto__ = (function app$core$home_page_$_iter__48762(s__48763){
+})()),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h4","h4",2004862993),"Biomarker Correlations"], null),cljs.core.into.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632)], null),(function (){var iter__4652__auto__ = (function app$core$home_page_$_iter__49334(s__49335){
 return (new cljs.core.LazySeq(null,(function (){
-var s__48763__$1 = s__48763;
+var s__49335__$1 = s__49335;
 while(true){
-var temp__5753__auto__ = cljs.core.seq(s__48763__$1);
+var temp__5753__auto__ = cljs.core.seq(s__49335__$1);
 if(temp__5753__auto__){
-var s__48763__$2 = temp__5753__auto__;
-if(cljs.core.chunked_seq_QMARK_(s__48763__$2)){
-var c__4650__auto__ = cljs.core.chunk_first(s__48763__$2);
+var s__49335__$2 = temp__5753__auto__;
+if(cljs.core.chunked_seq_QMARK_(s__49335__$2)){
+var c__4650__auto__ = cljs.core.chunk_first(s__49335__$2);
 var size__4651__auto__ = cljs.core.count(c__4650__auto__);
-var b__48765 = cljs.core.chunk_buffer(size__4651__auto__);
-if((function (){var i__48764 = (0);
+var b__49337 = cljs.core.chunk_buffer(size__4651__auto__);
+if((function (){var i__49336 = (0);
 while(true){
-if((i__48764 < size__4651__auto__)){
-var sig_correlations = cljs.core._nth(c__4650__auto__,i__48764);
-cljs.core.chunk_append(b__48765,app.single_var_table.make_hiccup(sig_correlations));
+if((i__49336 < size__4651__auto__)){
+var sig_correlations = cljs.core._nth(c__4650__auto__,i__49336);
+cljs.core.chunk_append(b__49337,app.single_var_table.make_hiccup(sig_correlations));
 
-var G__49025 = (i__48764 + (1));
-i__48764 = G__49025;
+var G__49597 = (i__49336 + (1));
+i__49336 = G__49597;
 continue;
 } else {
 return true;
@@ -119,13 +119,13 @@ return true;
 break;
 }
 })()){
-return cljs.core.chunk_cons(cljs.core.chunk(b__48765),app$core$home_page_$_iter__48762(cljs.core.chunk_rest(s__48763__$2)));
+return cljs.core.chunk_cons(cljs.core.chunk(b__49337),app$core$home_page_$_iter__49334(cljs.core.chunk_rest(s__49335__$2)));
 } else {
-return cljs.core.chunk_cons(cljs.core.chunk(b__48765),null);
+return cljs.core.chunk_cons(cljs.core.chunk(b__49337),null);
 }
 } else {
-var sig_correlations = cljs.core.first(s__48763__$2);
-return cljs.core.cons(app.single_var_table.make_hiccup(sig_correlations),app$core$home_page_$_iter__48762(cljs.core.rest(s__48763__$2)));
+var sig_correlations = cljs.core.first(s__49335__$2);
+return cljs.core.cons(app.single_var_table.make_hiccup(sig_correlations),app$core$home_page_$_iter__49334(cljs.core.rest(s__49335__$2)));
 }
 } else {
 return null;
@@ -799,7 +799,7 @@ malli.core._register_function_schema_BANG_.cljs$core$IFn$_invoke$arity$6(new clj
 return new cljs.core.Symbol("app.specs","make-hiccup","app.specs/make-hiccup",2016545993,null);
 })()
 ,(function (){
-malli.core._register_function_schema_BANG_.cljs$core$IFn$_invoke$arity$6(new cljs.core.Symbol(null,"app.ui","app.ui",-1105541323,null),new cljs.core.Symbol(null,"maps-to-html","maps-to-html",-541539065,null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.Keyword(null,"map","map",1371690461)], null)], null),app.specs.Hiccup], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"schema","schema",-1582001791),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.Keyword(null,"map","map",1371690461)], null)], null),app.specs.Hiccup], null)], null),new cljs.core.Keyword(null,"cljs","cljs",1492417629),cljs.core.identity);
+malli.core._register_function_schema_BANG_.cljs$core$IFn$_invoke$arity$6(new cljs.core.Symbol(null,"app.ui","app.ui",-1105541323,null),cljs.core.with_meta(new cljs.core.Symbol(null,"maps-to-html","maps-to-html",-541539065,null),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"arglists","arglists",1661989754),cljs.core.list(new cljs.core.Symbol(null,"quote","quote",1377916282,null),cljs.core.list(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null,"maps","maps",-71029607,null)], null))),new cljs.core.Keyword(null,"doc","doc",1913296891),"Converts collection of maps like\n  [{:col1 val1 :col2 val2} {:col1 val3 :col2 val4}]\n  to an HTML table.\n  \n  See https://stackoverflow.com/a/33458370 for ^{:key} map explanation.\n  ",new cljs.core.Keyword("malli","schema","malli/schema",-1764044328),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.Keyword(null,"map","map",1371690461)], null)], null),new cljs.core.Symbol("specs","Hiccup","specs/Hiccup",997018745,null)], null)], null)),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.Keyword(null,"map","map",1371690461)], null)], null),app.specs.Hiccup], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"schema","schema",-1582001791),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.Keyword(null,"map","map",1371690461)], null)], null),app.specs.Hiccup], null)], null),new cljs.core.Keyword(null,"cljs","cljs",1492417629),cljs.core.identity);
 
 return new cljs.core.Symbol("app.ui","maps-to-html","app.ui/maps-to-html",-1954232442,null);
 })()
@@ -934,7 +934,7 @@ malli.core._register_function_schema_BANG_.cljs$core$IFn$_invoke$arity$6(new clj
 return new cljs.core.Symbol("app.biomarker-data","get-var-name","app.biomarker-data/get-var-name",99435084,null);
 })()
 ,(function (){
-malli.core._register_function_schema_BANG_.cljs$core$IFn$_invoke$arity$6(new cljs.core.Symbol(null,"app.csv","app.csv",1676676688,null),new cljs.core.Symbol(null,"-standardize-keys","-standardize-keys",-1001622265,null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586)], null)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"string","string",-1989541586)], null)], null)], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"schema","schema",-1582001791),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586)], null)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"string","string",-1989541586)], null)], null)], null)], null),new cljs.core.Keyword(null,"cljs","cljs",1492417629),cljs.core.identity);
+malli.core._register_function_schema_BANG_.cljs$core$IFn$_invoke$arity$6(new cljs.core.Symbol(null,"app.csv","app.csv",1676676688,null),cljs.core.with_meta(new cljs.core.Symbol(null,"-standardize-keys","-standardize-keys",-1001622265,null),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"arglists","arglists",1661989754),cljs.core.list(new cljs.core.Symbol(null,"quote","quote",1377916282,null),cljs.core.list(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null,"parsed-data","parsed-data",-402899125,null)], null))),new cljs.core.Keyword("malli","schema","malli/schema",-1764044328),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586)], null)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"string","string",-1989541586)], null)], null)], null)], null)),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586)], null)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"string","string",-1989541586)], null)], null)], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"schema","schema",-1582001791),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586)], null)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"string","string",-1989541586)], null)], null)], null)], null),new cljs.core.Keyword(null,"cljs","cljs",1492417629),cljs.core.identity);
 
 return new cljs.core.Symbol("app.csv","-standardize-keys","app.csv/-standardize-keys",-1798306212,null);
 })()
@@ -1016,10 +1016,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.time.parse_date_range = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48767 = type__40451__auto__;
-var G__48768 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.time","parse-date-range","app.time/parse-date-range",876179030,null));
-var fexpr__48766 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48766.cljs$core$IFn$_invoke$arity$2 ? fexpr__48766.cljs$core$IFn$_invoke$arity$2(G__48767,G__48768) : fexpr__48766.call(null,G__48767,G__48768));
+var G__49339 = type__40451__auto__;
+var G__49340 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.time","parse-date-range","app.time/parse-date-range",876179030,null));
+var fexpr__49338 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49338.cljs$core$IFn$_invoke$arity$2 ? fexpr__49338.cljs$core$IFn$_invoke$arity$2(G__49339,G__49340) : fexpr__49338.call(null,G__49339,G__49340));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),app.time.Date], null),app.time.VegaDate], null))], null),app.time.parse_date_range));
 
 console.log("..instrumented",new cljs.core.Symbol("app.time","parse-date-range","app.time/parse-date-range",876179030,null));
@@ -1032,10 +1032,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.time.date_to_timestamp = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48770 = type__40451__auto__;
-var G__48771 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.time","date-to-timestamp","app.time/date-to-timestamp",1007306734,null));
-var fexpr__48769 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48769.cljs$core$IFn$_invoke$arity$2 ? fexpr__48769.cljs$core$IFn$_invoke$arity$2(G__48770,G__48771) : fexpr__48769.call(null,G__48770,G__48771));
+var G__49342 = type__40451__auto__;
+var G__49343 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.time","date-to-timestamp","app.time/date-to-timestamp",1007306734,null));
+var fexpr__49341 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49341.cljs$core$IFn$_invoke$arity$2 ? fexpr__49341.cljs$core$IFn$_invoke$arity$2(G__49342,G__49343) : fexpr__49341.call(null,G__49342,G__49343));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),app.time.Date], null),app.time.Timestamp], null))], null),app.time.date_to_timestamp));
 
 console.log("..instrumented",new cljs.core.Symbol("app.time","date-to-timestamp","app.time/date-to-timestamp",1007306734,null));
@@ -1048,10 +1048,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.time.map_to_timestamp = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48773 = type__40451__auto__;
-var G__48774 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.time","map-to-timestamp","app.time/map-to-timestamp",1308881601,null));
-var fexpr__48772 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48772.cljs$core$IFn$_invoke$arity$2 ? fexpr__48772.cljs$core$IFn$_invoke$arity$2(G__48773,G__48774) : fexpr__48772.call(null,G__48773,G__48774));
+var G__49345 = type__40451__auto__;
+var G__49346 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.time","map-to-timestamp","app.time/map-to-timestamp",1308881601,null));
+var fexpr__49344 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49344.cljs$core$IFn$_invoke$arity$2 ? fexpr__49344.cljs$core$IFn$_invoke$arity$2(G__49345,G__49346) : fexpr__49344.call(null,G__49345,G__49346));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),app.time.VegaDate], null),app.time.Timestamp], null))], null),app.time.map_to_timestamp));
 
 console.log("..instrumented",new cljs.core.Symbol("app.time","map-to-timestamp","app.time/map-to-timestamp",1308881601,null));
@@ -1064,10 +1064,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.time.timestamp_to_date_string = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48776 = type__40451__auto__;
-var G__48777 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.time","timestamp-to-date-string","app.time/timestamp-to-date-string",2120834441,null));
-var fexpr__48775 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48775.cljs$core$IFn$_invoke$arity$2 ? fexpr__48775.cljs$core$IFn$_invoke$arity$2(G__48776,G__48777) : fexpr__48775.call(null,G__48776,G__48777));
+var G__49348 = type__40451__auto__;
+var G__49349 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.time","timestamp-to-date-string","app.time/timestamp-to-date-string",2120834441,null));
+var fexpr__49347 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49347.cljs$core$IFn$_invoke$arity$2 ? fexpr__49347.cljs$core$IFn$_invoke$arity$2(G__49348,G__49349) : fexpr__49347.call(null,G__49348,G__49349));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),app.time.Timestamp], null),new cljs.core.Keyword(null,"string","string",-1989541586)], null))], null),app.time.timestamp_to_date_string));
 
 console.log("..instrumented",new cljs.core.Symbol("app.time","timestamp-to-date-string","app.time/timestamp-to-date-string",2120834441,null));
@@ -1080,10 +1080,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.time.timestamp_to_full_string = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48779 = type__40451__auto__;
-var G__48780 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.time","timestamp-to-full-string","app.time/timestamp-to-full-string",-1998930793,null));
-var fexpr__48778 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48778.cljs$core$IFn$_invoke$arity$2 ? fexpr__48778.cljs$core$IFn$_invoke$arity$2(G__48779,G__48780) : fexpr__48778.call(null,G__48779,G__48780));
+var G__49351 = type__40451__auto__;
+var G__49352 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.time","timestamp-to-full-string","app.time/timestamp-to-full-string",-1998930793,null));
+var fexpr__49350 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49350.cljs$core$IFn$_invoke$arity$2 ? fexpr__49350.cljs$core$IFn$_invoke$arity$2(G__49351,G__49352) : fexpr__49350.call(null,G__49351,G__49352));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),app.time.Timestamp], null),new cljs.core.Keyword(null,"string","string",-1989541586)], null))], null),app.time.timestamp_to_full_string));
 
 console.log("..instrumented",new cljs.core.Symbol("app.time","timestamp-to-full-string","app.time/timestamp-to-full-string",-1998930793,null));
@@ -1096,10 +1096,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.time.get_period_range = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48782 = type__40451__auto__;
-var G__48783 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.time","get-period-range","app.time/get-period-range",-532221828,null));
-var fexpr__48781 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48781.cljs$core$IFn$_invoke$arity$2 ? fexpr__48781.cljs$core$IFn$_invoke$arity$2(G__48782,G__48783) : fexpr__48781.call(null,G__48782,G__48783));
+var G__49354 = type__40451__auto__;
+var G__49355 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.time","get-period-range","app.time/get-period-range",-532221828,null));
+var fexpr__49353 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49353.cljs$core$IFn$_invoke$arity$2 ? fexpr__49353.cljs$core$IFn$_invoke$arity$2(G__49354,G__49355) : fexpr__49353.call(null,G__49354,G__49355));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),app.time.Timestamp,app.time.PeriodIdTypes], null),app.time.PeriodRange], null))], null),app.time.get_period_range));
 
 console.log("..instrumented",new cljs.core.Symbol("app.time","get-period-range","app.time/get-period-range",-532221828,null));
@@ -1112,10 +1112,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.time.parse_date = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48785 = type__40451__auto__;
-var G__48786 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.time","parse-date","app.time/parse-date",1307686562,null));
-var fexpr__48784 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48784.cljs$core$IFn$_invoke$arity$2 ? fexpr__48784.cljs$core$IFn$_invoke$arity$2(G__48785,G__48786) : fexpr__48784.call(null,G__48785,G__48786));
+var G__49357 = type__40451__auto__;
+var G__49358 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.time","parse-date","app.time/parse-date",1307686562,null));
+var fexpr__49356 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49356.cljs$core$IFn$_invoke$arity$2 ? fexpr__49356.cljs$core$IFn$_invoke$arity$2(G__49357,G__49358) : fexpr__49356.call(null,G__49357,G__49358));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),app.time.Date], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"or","or",235744169),new cljs.core.Keyword(null,"nil","nil",99600501),app.time.VegaDate], null)], null))], null),app.time.parse_date));
 
 console.log("..instrumented",new cljs.core.Symbol("app.time","parse-date","app.time/parse-date",1307686562,null));
@@ -1128,10 +1128,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.time.group_by_period = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48788 = type__40451__auto__;
-var G__48789 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.time","group-by-period","app.time/group-by-period",30301284,null));
-var fexpr__48787 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48787.cljs$core$IFn$_invoke$arity$2 ? fexpr__48787.cljs$core$IFn$_invoke$arity$2(G__48788,G__48789) : fexpr__48787.call(null,G__48788,G__48789));
+var G__49360 = type__40451__auto__;
+var G__49361 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.time","group-by-period","app.time/group-by-period",30301284,null));
+var fexpr__49359 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49359.cljs$core$IFn$_invoke$arity$2 ? fexpr__49359.cljs$core$IFn$_invoke$arity$2(G__49360,G__49361) : fexpr__49359.call(null,G__49360,G__49361));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map","map",1371690461),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"timestamp","timestamp",579478971),app.time.Timestamp], null)], null)], null),app.time.PeriodIdTypes], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),app.time.PeriodRange,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map","map",1371690461),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"timestamp","timestamp",579478971),app.time.Timestamp], null)], null)], null)], null)], null))], null),app.time.group_by_period));
 
 console.log("..instrumented",new cljs.core.Symbol("app.time","group-by-period","app.time/group-by-period",30301284,null));
@@ -1144,10 +1144,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.math.average = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48791 = type__40451__auto__;
-var G__48792 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.math","average","app.math/average",-2095983036,null));
-var fexpr__48790 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48790.cljs$core$IFn$_invoke$arity$2 ? fexpr__48790.cljs$core$IFn$_invoke$arity$2(G__48791,G__48792) : fexpr__48790.call(null,G__48791,G__48792));
+var G__49363 = type__40451__auto__;
+var G__49364 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.math","average","app.math/average",-2095983036,null));
+var fexpr__49362 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49362.cljs$core$IFn$_invoke$arity$2 ? fexpr__49362.cljs$core$IFn$_invoke$arity$2(G__49363,G__49364) : fexpr__49362.call(null,G__49363,G__49364));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.Keyword(null,"double","double",884886883)], null)], null),new cljs.core.Keyword(null,"double","double",884886883)], null))], null),app.math.average));
 
 console.log("..instrumented",new cljs.core.Symbol("app.math","average","app.math/average",-2095983036,null));
@@ -1160,10 +1160,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.single_var_table.get_csv_values = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48794 = type__40451__auto__;
-var G__48795 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.single-var-table","get-csv-values","app.single-var-table/get-csv-values",162860081,null));
-var fexpr__48793 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48793.cljs$core$IFn$_invoke$arity$2 ? fexpr__48793.cljs$core$IFn$_invoke$arity$2(G__48794,G__48795) : fexpr__48793.call(null,G__48794,G__48795));
+var G__49366 = type__40451__auto__;
+var G__49367 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.single-var-table","get-csv-values","app.single-var-table/get-csv-values",162860081,null));
+var fexpr__49365 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49365.cljs$core$IFn$_invoke$arity$2 ? fexpr__49365.cljs$core$IFn$_invoke$arity$2(G__49366,G__49367) : fexpr__49365.call(null,G__49366,G__49367));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"any","any",1705907423)], null)], null),new cljs.core.Keyword(null,"keyword","keyword",811389747)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"vector","vector",1902966158),new cljs.core.Keyword(null,"double","double",884886883)], null)], null))], null),app.single_var_table.get_csv_values));
 
 console.log("..instrumented",new cljs.core.Symbol("app.single-var-table","get-csv-values","app.single-var-table/get-csv-values",162860081,null));
@@ -1176,10 +1176,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.single_var_table.get_one_var_timeseries_data = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48797 = type__40451__auto__;
-var G__48798 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.single-var-table","get-one-var-timeseries-data","app.single-var-table/get-one-var-timeseries-data",-1891160745,null));
-var fexpr__48796 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48796.cljs$core$IFn$_invoke$arity$2 ? fexpr__48796.cljs$core$IFn$_invoke$arity$2(G__48797,G__48798) : fexpr__48796.call(null,G__48797,G__48798));
+var G__49369 = type__40451__auto__;
+var G__49370 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.single-var-table","get-one-var-timeseries-data","app.single-var-table/get-one-var-timeseries-data",-1891160745,null));
+var fexpr__49368 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49368.cljs$core$IFn$_invoke$arity$2 ? fexpr__49368.cljs$core$IFn$_invoke$arity$2(G__49369,G__49370) : fexpr__49368.call(null,G__49369,G__49370));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),app.single_var_table.OneToManyCorrelation], null),app.biomarker_data.TimeseriesData], null))], null),app.single_var_table.get_one_var_timeseries_data));
 
 console.log("..instrumented",new cljs.core.Symbol("app.single-var-table","get-one-var-timeseries-data","app.single-var-table/get-one-var-timeseries-data",-1891160745,null));
@@ -1192,10 +1192,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.single_var_table.make_all_correlations = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48800 = type__40451__auto__;
-var G__48801 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.single-var-table","make-all-correlations","app.single-var-table/make-all-correlations",-1642924838,null));
-var fexpr__48799 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48799.cljs$core$IFn$_invoke$arity$2 ? fexpr__48799.cljs$core$IFn$_invoke$arity$2(G__48800,G__48801) : fexpr__48799.call(null,G__48800,G__48801));
+var G__49372 = type__40451__auto__;
+var G__49373 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.single-var-table","make-all-correlations","app.single-var-table/make-all-correlations",-1642924838,null));
+var fexpr__49371 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49371.cljs$core$IFn$_invoke$arity$2 ? fexpr__49371.cljs$core$IFn$_invoke$arity$2(G__49372,G__49373) : fexpr__49371.call(null,G__49372,G__49373));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),app.stats.PairwiseCorrelations,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.ProcessedRow], null),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"keyword","keyword",811389747)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"keyword","keyword",811389747),app.single_var_table.OneToManyCorrelation], null)], null))], null),app.single_var_table.make_all_correlations));
 
 console.log("..instrumented",new cljs.core.Symbol("app.single-var-table","make-all-correlations","app.single-var-table/make-all-correlations",-1642924838,null));
@@ -1208,10 +1208,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.single_var_table.calc_counted_score = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48803 = type__40451__auto__;
-var G__48804 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.single-var-table","calc-counted-score","app.single-var-table/calc-counted-score",-2049772802,null));
-var fexpr__48802 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48802.cljs$core$IFn$_invoke$arity$2 ? fexpr__48802.cljs$core$IFn$_invoke$arity$2(G__48803,G__48804) : fexpr__48802.call(null,G__48803,G__48804));
+var G__49375 = type__40451__auto__;
+var G__49376 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.single-var-table","calc-counted-score","app.single-var-table/calc-counted-score",-2049772802,null));
+var fexpr__49374 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49374.cljs$core$IFn$_invoke$arity$2 ? fexpr__49374.cljs$core$IFn$_invoke$arity$2(G__49375,G__49376) : fexpr__49374.call(null,G__49375,G__49376));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"or","or",235744169),new cljs.core.Keyword(null,"nil","nil",99600501),app.stats.PairwiseCorrelations], null)], null),new cljs.core.Keyword(null,"int","int",-1741416922)], null))], null),app.single_var_table.calc_counted_score));
 
 console.log("..instrumented",new cljs.core.Symbol("app.single-var-table","calc-counted-score","app.single-var-table/calc-counted-score",-2049772802,null));
@@ -1224,10 +1224,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.single_var_table.make_hiccup = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48806 = type__40451__auto__;
-var G__48807 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.single-var-table","make-hiccup","app.single-var-table/make-hiccup",-1819067316,null));
-var fexpr__48805 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48805.cljs$core$IFn$_invoke$arity$2 ? fexpr__48805.cljs$core$IFn$_invoke$arity$2(G__48806,G__48807) : fexpr__48805.call(null,G__48806,G__48807));
+var G__49378 = type__40451__auto__;
+var G__49379 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.single-var-table","make-hiccup","app.single-var-table/make-hiccup",-1819067316,null));
+var fexpr__49377 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49377.cljs$core$IFn$_invoke$arity$2 ? fexpr__49377.cljs$core$IFn$_invoke$arity$2(G__49378,G__49379) : fexpr__49377.call(null,G__49378,G__49379));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),app.single_var_table.OneToManyCorrelation], null),app.specs.ReagentComponent], null))], null),app.single_var_table.make_hiccup));
 
 console.log("..instrumented",new cljs.core.Symbol("app.single-var-table","make-hiccup","app.single-var-table/make-hiccup",-1819067316,null));
@@ -1240,10 +1240,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.single_var_table.get_significant_correlations = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48809 = type__40451__auto__;
-var G__48810 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.single-var-table","get-significant-correlations","app.single-var-table/get-significant-correlations",-737968020,null));
-var fexpr__48808 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48808.cljs$core$IFn$_invoke$arity$2 ? fexpr__48808.cljs$core$IFn$_invoke$arity$2(G__48809,G__48810) : fexpr__48808.call(null,G__48809,G__48810));
+var G__49381 = type__40451__auto__;
+var G__49382 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.single-var-table","get-significant-correlations","app.single-var-table/get-significant-correlations",-737968020,null));
+var fexpr__49380 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49380.cljs$core$IFn$_invoke$arity$2 ? fexpr__49380.cljs$core$IFn$_invoke$arity$2(G__49381,G__49382) : fexpr__49380.call(null,G__49381,G__49382));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 6, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),app.stats.PairwiseCorrelations,new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"vector","vector",1902966158),new cljs.core.Keyword(null,"double","double",884886883)], null)], null),app.single_var_table.OneToManyCorrelation], null))], null),app.single_var_table.get_significant_correlations));
 
 console.log("..instrumented",new cljs.core.Symbol("app.single-var-table","get-significant-correlations","app.single-var-table/get-significant-correlations",-737968020,null));
@@ -1256,10 +1256,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.csv_data_processing.merge_rows_using_dates = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48812 = type__40451__auto__;
-var G__48813 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.csv-data-processing","merge-rows-using-dates","app.csv-data-processing/merge-rows-using-dates",-275125181,null));
-var fexpr__48811 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48811.cljs$core$IFn$_invoke$arity$2 ? fexpr__48811.cljs$core$IFn$_invoke$arity$2(G__48812,G__48813) : fexpr__48811.call(null,G__48812,G__48813));
+var G__49384 = type__40451__auto__;
+var G__49385 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.csv-data-processing","merge-rows-using-dates","app.csv-data-processing/merge-rows-using-dates",-275125181,null));
+var fexpr__49383 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49383.cljs$core$IFn$_invoke$arity$2 ? fexpr__49383.cljs$core$IFn$_invoke$arity$2(G__49384,G__49385) : fexpr__49383.call(null,G__49384,G__49385));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"*","*",-1294732318),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.DatedRow], null)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.DatedRow], null)], null))], null),app.csv_data_processing.merge_rows_using_dates));
 
 console.log("..instrumented",new cljs.core.Symbol("app.csv-data-processing","merge-rows-using-dates","app.csv-data-processing/merge-rows-using-dates",-275125181,null));
@@ -1272,10 +1272,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.csv_data_processing.add_timestamps = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48815 = type__40451__auto__;
-var G__48816 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.csv-data-processing","add-timestamps","app.csv-data-processing/add-timestamps",-88588026,null));
-var fexpr__48814 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48814.cljs$core$IFn$_invoke$arity$2 ? fexpr__48814.cljs$core$IFn$_invoke$arity$2(G__48815,G__48816) : fexpr__48814.call(null,G__48815,G__48816));
+var G__49387 = type__40451__auto__;
+var G__49388 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.csv-data-processing","add-timestamps","app.csv-data-processing/add-timestamps",-88588026,null));
+var fexpr__49386 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49386.cljs$core$IFn$_invoke$arity$2 ? fexpr__49386.cljs$core$IFn$_invoke$arity$2(G__49387,G__49388) : fexpr__49386.call(null,G__49387,G__49388));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.DatedRow], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.DatedRow], null)], null))], null),app.csv_data_processing.add_timestamps));
 
 console.log("..instrumented",new cljs.core.Symbol("app.csv-data-processing","add-timestamps","app.csv-data-processing/add-timestamps",-88588026,null));
@@ -1288,10 +1288,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.csv_data_processing.floatify_data = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48818 = type__40451__auto__;
-var G__48819 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.csv-data-processing","floatify-data","app.csv-data-processing/floatify-data",-399226101,null));
-var fexpr__48817 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48817.cljs$core$IFn$_invoke$arity$2 ? fexpr__48817.cljs$core$IFn$_invoke$arity$2(G__48818,G__48819) : fexpr__48817.call(null,G__48818,G__48819));
+var G__49390 = type__40451__auto__;
+var G__49391 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.csv-data-processing","floatify-data","app.csv-data-processing/floatify-data",-399226101,null));
+var fexpr__49389 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49389.cljs$core$IFn$_invoke$arity$2 ? fexpr__49389.cljs$core$IFn$_invoke$arity$2(G__49390,G__49391) : fexpr__49389.call(null,G__49390,G__49391));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.DatedRow], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.DatedRow], null)], null))], null),app.csv_data_processing.floatify_data));
 
 console.log("..instrumented",new cljs.core.Symbol("app.csv-data-processing","floatify-data","app.csv-data-processing/floatify-data",-399226101,null));
@@ -1304,10 +1304,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.csv_data_processing.process_csv_data = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48821 = type__40451__auto__;
-var G__48822 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.csv-data-processing","process-csv-data","app.csv-data-processing/process-csv-data",-281743776,null));
-var fexpr__48820 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48820.cljs$core$IFn$_invoke$arity$2 ? fexpr__48820.cljs$core$IFn$_invoke$arity$2(G__48821,G__48822) : fexpr__48820.call(null,G__48821,G__48822));
+var G__49393 = type__40451__auto__;
+var G__49394 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.csv-data-processing","process-csv-data","app.csv-data-processing/process-csv-data",-281743776,null));
+var fexpr__49392 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49392.cljs$core$IFn$_invoke$arity$2 ? fexpr__49392.cljs$core$IFn$_invoke$arity$2(G__49393,G__49394) : fexpr__49392.call(null,G__49393,G__49394));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"*","*",-1294732318),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.DatedRow], null)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.ProcessedRow], null)], null))], null),app.csv_data_processing.process_csv_data));
 
 console.log("..instrumented",new cljs.core.Symbol("app.csv-data-processing","process-csv-data","app.csv-data-processing/process-csv-data",-281743776,null));
@@ -1320,10 +1320,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.biomarker_data.get_var_name = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48824 = type__40451__auto__;
-var G__48825 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.biomarker-data","get-var-name","app.biomarker-data/get-var-name",99435084,null));
-var fexpr__48823 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48823.cljs$core$IFn$_invoke$arity$2 ? fexpr__48823.cljs$core$IFn$_invoke$arity$2(G__48824,G__48825) : fexpr__48823.call(null,G__48824,G__48825));
+var G__49396 = type__40451__auto__;
+var G__49397 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.biomarker-data","get-var-name","app.biomarker-data/get-var-name",99435084,null));
+var fexpr__49395 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49395.cljs$core$IFn$_invoke$arity$2 ? fexpr__49395.cljs$core$IFn$_invoke$arity$2(G__49396,G__49397) : fexpr__49395.call(null,G__49396,G__49397));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),app.biomarker_data.TimeseriesData], null),new cljs.core.Keyword(null,"keyword","keyword",811389747)], null))], null),app.biomarker_data.get_var_name));
 
 console.log("..instrumented",new cljs.core.Symbol("app.biomarker-data","get-var-name","app.biomarker-data/get-var-name",99435084,null));
@@ -1336,10 +1336,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.biomarker_data.add_hrs = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48827 = type__40451__auto__;
-var G__48828 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.biomarker-data","add-hrs","app.biomarker-data/add-hrs",-2127067559,null));
-var fexpr__48826 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48826.cljs$core$IFn$_invoke$arity$2 ? fexpr__48826.cljs$core$IFn$_invoke$arity$2(G__48827,G__48828) : fexpr__48826.call(null,G__48827,G__48828));
+var G__49399 = type__40451__auto__;
+var G__49400 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.biomarker-data","add-hrs","app.biomarker-data/add-hrs",-2127067559,null));
+var fexpr__49398 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49398.cljs$core$IFn$_invoke$arity$2 ? fexpr__49398.cljs$core$IFn$_invoke$arity$2(G__49399,G__49400) : fexpr__49398.call(null,G__49399,G__49400));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),app.biomarker_data.TimeseriesData,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.biomarker_data.HazardRatioData], null)], null),app.biomarker_data.HRTimeseriesData], null))], null),app.biomarker_data.add_hrs));
 
 console.log("..instrumented",new cljs.core.Symbol("app.biomarker-data","add-hrs","app.biomarker-data/add-hrs",-2127067559,null));
@@ -1352,10 +1352,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.biomarker_data.make_acm_plot = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48830 = type__40451__auto__;
-var G__48831 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.biomarker-data","make-acm-plot","app.biomarker-data/make-acm-plot",-1440620661,null));
-var fexpr__48829 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48829.cljs$core$IFn$_invoke$arity$2 ? fexpr__48829.cljs$core$IFn$_invoke$arity$2(G__48830,G__48831) : fexpr__48829.call(null,G__48830,G__48831));
+var G__49402 = type__40451__auto__;
+var G__49403 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.biomarker-data","make-acm-plot","app.biomarker-data/make-acm-plot",-1440620661,null));
+var fexpr__49401 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49401.cljs$core$IFn$_invoke$arity$2 ? fexpr__49401.cljs$core$IFn$_invoke$arity$2(G__49402,G__49403) : fexpr__49401.call(null,G__49402,G__49403));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),app.biomarker_data.TimeseriesData,app.biomarker_data.BiomarkerData], null),app.specs.ReagentComponent], null))], null),app.biomarker_data.make_acm_plot));
 
 console.log("..instrumented",new cljs.core.Symbol("app.biomarker-data","make-acm-plot","app.biomarker-data/make-acm-plot",-1440620661,null));
@@ -1368,10 +1368,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.timeline.rows_to_events = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48833 = type__40451__auto__;
-var G__48834 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.timeline","rows-to-events","app.timeline/rows-to-events",-525324979,null));
-var fexpr__48832 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48832.cljs$core$IFn$_invoke$arity$2 ? fexpr__48832.cljs$core$IFn$_invoke$arity$2(G__48833,G__48834) : fexpr__48832.call(null,G__48833,G__48834));
+var G__49405 = type__40451__auto__;
+var G__49406 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.timeline","rows-to-events","app.timeline/rows-to-events",-525324979,null));
+var fexpr__49404 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49404.cljs$core$IFn$_invoke$arity$2 ? fexpr__49404.cljs$core$IFn$_invoke$arity$2(G__49405,G__49406) : fexpr__49404.call(null,G__49405,G__49406));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.ProcessedRow], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.timeline.Event], null)], null))], null),app.timeline.rows_to_events));
 
 console.log("..instrumented",new cljs.core.Symbol("app.timeline","rows-to-events","app.timeline/rows-to-events",-525324979,null));
@@ -1384,10 +1384,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.timeline.ranges_to_events = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48836 = type__40451__auto__;
-var G__48837 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.timeline","ranges-to-events","app.timeline/ranges-to-events",250747142,null));
-var fexpr__48835 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48835.cljs$core$IFn$_invoke$arity$2 ? fexpr__48835.cljs$core$IFn$_invoke$arity$2(G__48836,G__48837) : fexpr__48835.call(null,G__48836,G__48837));
+var G__49408 = type__40451__auto__;
+var G__49409 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.timeline","ranges-to-events","app.timeline/ranges-to-events",250747142,null));
+var fexpr__49407 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49407.cljs$core$IFn$_invoke$arity$2 ? fexpr__49407.cljs$core$IFn$_invoke$arity$2(G__49408,G__49409) : fexpr__49407.call(null,G__49408,G__49409));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.time.PeriodRange], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.timeline.Event], null)], null))], null),app.timeline.ranges_to_events));
 
 console.log("..instrumented",new cljs.core.Symbol("app.timeline","ranges-to-events","app.timeline/ranges-to-events",250747142,null));
@@ -1400,10 +1400,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.timeline.get_unique_lanes = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48839 = type__40451__auto__;
-var G__48840 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.timeline","get-unique-lanes","app.timeline/get-unique-lanes",-1938843928,null));
-var fexpr__48838 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48838.cljs$core$IFn$_invoke$arity$2 ? fexpr__48838.cljs$core$IFn$_invoke$arity$2(G__48839,G__48840) : fexpr__48838.call(null,G__48839,G__48840));
+var G__49411 = type__40451__auto__;
+var G__49412 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.timeline","get-unique-lanes","app.timeline/get-unique-lanes",-1938843928,null));
+var fexpr__49410 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49410.cljs$core$IFn$_invoke$arity$2 ? fexpr__49410.cljs$core$IFn$_invoke$arity$2(G__49411,G__49412) : fexpr__49410.call(null,G__49411,G__49412));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.timeline.Event], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.timeline.Lane], null)], null))], null),app.timeline.get_unique_lanes));
 
 console.log("..instrumented",new cljs.core.Symbol("app.timeline","get-unique-lanes","app.timeline/get-unique-lanes",-1938843928,null));
@@ -1416,10 +1416,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.timeline.make_timeline = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48842 = type__40451__auto__;
-var G__48843 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.timeline","make-timeline","app.timeline/make-timeline",1565393329,null));
-var fexpr__48841 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48841.cljs$core$IFn$_invoke$arity$2 ? fexpr__48841.cljs$core$IFn$_invoke$arity$2(G__48842,G__48843) : fexpr__48841.call(null,G__48842,G__48843));
+var G__49414 = type__40451__auto__;
+var G__49415 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.timeline","make-timeline","app.timeline/make-timeline",1565393329,null));
+var fexpr__49413 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49413.cljs$core$IFn$_invoke$arity$2 ? fexpr__49413.cljs$core$IFn$_invoke$arity$2(G__49414,G__49415) : fexpr__49413.call(null,G__49414,G__49415));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.timeline.Event], null)], null),app.specs.ReagentComponent], null))], null),app.timeline.make_timeline));
 
 console.log("..instrumented",new cljs.core.Symbol("app.timeline","make-timeline","app.timeline/make-timeline",1565393329,null));
@@ -1432,10 +1432,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.timeline.timeline_for_page = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48845 = type__40451__auto__;
-var G__48846 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.timeline","timeline-for-page","app.timeline/timeline-for-page",-1427048694,null));
-var fexpr__48844 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48844.cljs$core$IFn$_invoke$arity$2 ? fexpr__48844.cljs$core$IFn$_invoke$arity$2(G__48845,G__48846) : fexpr__48844.call(null,G__48845,G__48846));
+var G__49417 = type__40451__auto__;
+var G__49418 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.timeline","timeline-for-page","app.timeline/timeline-for-page",-1427048694,null));
+var fexpr__49416 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49416.cljs$core$IFn$_invoke$arity$2 ? fexpr__49416.cljs$core$IFn$_invoke$arity$2(G__49417,G__49418) : fexpr__49416.call(null,G__49417,G__49418));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.ProcessedRow], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.time.PeriodRange], null)], null),app.specs.ReagentComponent], null))], null),app.timeline.timeline_for_page));
 
 console.log("..instrumented",new cljs.core.Symbol("app.timeline","timeline-for-page","app.timeline/timeline-for-page",-1427048694,null));
@@ -1448,10 +1448,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.csv._standardize_keys = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48848 = type__40451__auto__;
-var G__48849 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.csv","-standardize-keys","app.csv/-standardize-keys",-1798306212,null));
-var fexpr__48847 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48847.cljs$core$IFn$_invoke$arity$2 ? fexpr__48847.cljs$core$IFn$_invoke$arity$2(G__48848,G__48849) : fexpr__48847.call(null,G__48848,G__48849));
+var G__49420 = type__40451__auto__;
+var G__49421 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.csv","-standardize-keys","app.csv/-standardize-keys",-1798306212,null));
+var fexpr__49419 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49419.cljs$core$IFn$_invoke$arity$2 ? fexpr__49419.cljs$core$IFn$_invoke$arity$2(G__49420,G__49421) : fexpr__49419.call(null,G__49420,G__49421));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586)], null)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"string","string",-1989541586)], null)], null)], null))], null),app.csv._standardize_keys));
 
 console.log("..instrumented",new cljs.core.Symbol("app.csv","-standardize-keys","app.csv/-standardize-keys",-1798306212,null));
@@ -1464,10 +1464,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.input_data_validation.get_all_data_validation_string = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48851 = type__40451__auto__;
-var G__48852 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.input-data-validation","get-all-data-validation-string","app.input-data-validation/get-all-data-validation-string",682009513,null));
-var fexpr__48850 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48850.cljs$core$IFn$_invoke$arity$2 ? fexpr__48850.cljs$core$IFn$_invoke$arity$2(G__48851,G__48852) : fexpr__48850.call(null,G__48851,G__48852));
+var G__49423 = type__40451__auto__;
+var G__49424 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.input-data-validation","get-all-data-validation-string","app.input-data-validation/get-all-data-validation-string",682009513,null));
+var fexpr__49422 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49422.cljs$core$IFn$_invoke$arity$2 ? fexpr__49422.cljs$core$IFn$_invoke$arity$2(G__49423,G__49424) : fexpr__49422.call(null,G__49423,G__49424));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"*","*",-1294732318),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.DatedRow], null)], null)], null),app.specs.Hiccup], null))], null),app.input_data_validation.get_all_data_validation_string));
 
 console.log("..instrumented",new cljs.core.Symbol("app.input-data-validation","get-all-data-validation-string","app.input-data-validation/get-all-data-validation-string",682009513,null));
@@ -1480,10 +1480,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.input_data_validation.get_validation_string = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48854 = type__40451__auto__;
-var G__48855 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.input-data-validation","get-validation-string","app.input-data-validation/get-validation-string",-614093652,null));
-var fexpr__48853 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48853.cljs$core$IFn$_invoke$arity$2 ? fexpr__48853.cljs$core$IFn$_invoke$arity$2(G__48854,G__48855) : fexpr__48853.call(null,G__48854,G__48855));
+var G__49426 = type__40451__auto__;
+var G__49427 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.input-data-validation","get-validation-string","app.input-data-validation/get-validation-string",-614093652,null));
+var fexpr__49425 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49425.cljs$core$IFn$_invoke$arity$2 ? fexpr__49425.cljs$core$IFn$_invoke$arity$2(G__49426,G__49427) : fexpr__49425.call(null,G__49426,G__49427));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.DatedRow], null)], null),app.specs.Hiccup], null))], null),app.input_data_validation.get_validation_string));
 
 console.log("..instrumented",new cljs.core.Symbol("app.input-data-validation","get-validation-string","app.input-data-validation/get-validation-string",-614093652,null));
@@ -1496,10 +1496,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.ui.maps_to_html = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48857 = type__40451__auto__;
-var G__48858 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.ui","maps-to-html","app.ui/maps-to-html",-1954232442,null));
-var fexpr__48856 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48856.cljs$core$IFn$_invoke$arity$2 ? fexpr__48856.cljs$core$IFn$_invoke$arity$2(G__48857,G__48858) : fexpr__48856.call(null,G__48857,G__48858));
+var G__49429 = type__40451__auto__;
+var G__49430 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.ui","maps-to-html","app.ui/maps-to-html",-1954232442,null));
+var fexpr__49428 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49428.cljs$core$IFn$_invoke$arity$2 ? fexpr__49428.cljs$core$IFn$_invoke$arity$2(G__49429,G__49430) : fexpr__49428.call(null,G__49429,G__49430));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.Keyword(null,"map","map",1371690461)], null)], null),app.specs.Hiccup], null))], null),app.ui.maps_to_html));
 
 console.log("..instrumented",new cljs.core.Symbol("app.ui","maps-to-html","app.ui/maps-to-html",-1954232442,null));
@@ -1512,10 +1512,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.aggregation.combine_rows = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48860 = type__40451__auto__;
-var G__48861 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.aggregation","combine-rows","app.aggregation/combine-rows",-1007903277,null));
-var fexpr__48859 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48859.cljs$core$IFn$_invoke$arity$2 ? fexpr__48859.cljs$core$IFn$_invoke$arity$2(G__48860,G__48861) : fexpr__48859.call(null,G__48860,G__48861));
+var G__49432 = type__40451__auto__;
+var G__49433 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.aggregation","combine-rows","app.aggregation/combine-rows",-1007903277,null));
+var fexpr__49431 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49431.cljs$core$IFn$_invoke$arity$2 ? fexpr__49431.cljs$core$IFn$_invoke$arity$2(G__49432,G__49433) : fexpr__49431.call(null,G__49432,G__49433));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.Keyword(null,"double","double",884886883)], null)], null),new cljs.core.Keyword(null,"double","double",884886883)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.ProcessedRow], null)], null),app.csv_data_processing.ProcessedRow], null))], null),app.aggregation.combine_rows));
 
 console.log("..instrumented",new cljs.core.Symbol("app.aggregation","combine-rows","app.aggregation/combine-rows",-1007903277,null));
@@ -1528,10 +1528,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.aggregation.aggregate_data = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48863 = type__40451__auto__;
-var G__48864 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.aggregation","aggregate-data","app.aggregation/aggregate-data",1286470681,null));
-var fexpr__48862 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48862.cljs$core$IFn$_invoke$arity$2 ? fexpr__48862.cljs$core$IFn$_invoke$arity$2(G__48863,G__48864) : fexpr__48862.call(null,G__48863,G__48864));
+var G__49435 = type__40451__auto__;
+var G__49436 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.aggregation","aggregate-data","app.aggregation/aggregate-data",1286470681,null));
+var fexpr__49434 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49434.cljs$core$IFn$_invoke$arity$2 ? fexpr__49434.cljs$core$IFn$_invoke$arity$2(G__49435,G__49436) : fexpr__49434.call(null,G__49435,G__49436));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.ProcessedRow], null),app.time.PeriodIdTypes,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.Keyword(null,"double","double",884886883)], null)], null),new cljs.core.Keyword(null,"double","double",884886883)], null)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),app.time.PeriodRange,app.csv_data_processing.ProcessedRow], null)], null))], null),app.aggregation.aggregate_data));
 
 console.log("..instrumented",new cljs.core.Symbol("app.aggregation","aggregate-data","app.aggregation/aggregate-data",1286470681,null));
@@ -1544,10 +1544,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.aggregation.aggregation_section = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48866 = type__40451__auto__;
-var G__48867 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.aggregation","aggregation-section","app.aggregation/aggregation-section",-1886008994,null));
-var fexpr__48865 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48865.cljs$core$IFn$_invoke$arity$2 ? fexpr__48865.cljs$core$IFn$_invoke$arity$2(G__48866,G__48867) : fexpr__48865.call(null,G__48866,G__48867));
+var G__49438 = type__40451__auto__;
+var G__49439 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.aggregation","aggregation-section","app.aggregation/aggregation-section",-1886008994,null));
+var fexpr__49437 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49437.cljs$core$IFn$_invoke$arity$2 ? fexpr__49437.cljs$core$IFn$_invoke$arity$2(G__49438,G__49439) : fexpr__49437.call(null,G__49438,G__49439));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"any","any",1705907423),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.time.PeriodRange], null)], null),app.specs.ReagentComponent], null))], null),app.aggregation.aggregation_section));
 
 console.log("..instrumented",new cljs.core.Symbol("app.aggregation","aggregation-section","app.aggregation/aggregation-section",-1886008994,null));
@@ -1560,10 +1560,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.stats.clean_data = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48869 = type__40451__auto__;
-var G__48870 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.stats","clean-data","app.stats/clean-data",-415603632,null));
-var fexpr__48868 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48868.cljs$core$IFn$_invoke$arity$2 ? fexpr__48868.cljs$core$IFn$_invoke$arity$2(G__48869,G__48870) : fexpr__48868.call(null,G__48869,G__48870));
+var G__49441 = type__40451__auto__;
+var G__49442 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.stats","clean-data","app.stats/clean-data",-415603632,null));
+var fexpr__49440 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49440.cljs$core$IFn$_invoke$arity$2 ? fexpr__49440.cljs$core$IFn$_invoke$arity$2(G__49441,G__49442) : fexpr__49440.call(null,G__49441,G__49442));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.ProcessedRow], null)], null),app.stats.PairedData], null))], null),app.stats.clean_data));
 
 console.log("..instrumented",new cljs.core.Symbol("app.stats","clean-data","app.stats/clean-data",-415603632,null));
@@ -1576,10 +1576,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.stats.compute_correlations = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48872 = type__40451__auto__;
-var G__48873 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.stats","compute-correlations","app.stats/compute-correlations",-1090864316,null));
-var fexpr__48871 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48871.cljs$core$IFn$_invoke$arity$2 ? fexpr__48871.cljs$core$IFn$_invoke$arity$2(G__48872,G__48873) : fexpr__48871.call(null,G__48872,G__48873));
+var G__49444 = type__40451__auto__;
+var G__49445 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.stats","compute-correlations","app.stats/compute-correlations",-1090864316,null));
+var fexpr__49443 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49443.cljs$core$IFn$_invoke$arity$2 ? fexpr__49443.cljs$core$IFn$_invoke$arity$2(G__49444,G__49445) : fexpr__49443.call(null,G__49444,G__49445));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.Keyword(null,"keyword","keyword",811389747)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.Keyword(null,"keyword","keyword",811389747)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.ProcessedRow], null)], null),app.stats.PairwiseCorrelations], null))], null),app.stats.compute_correlations));
 
 console.log("..instrumented",new cljs.core.Symbol("app.stats","compute-correlations","app.stats/compute-correlations",-1090864316,null));
@@ -1592,10 +1592,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.stats.enliten = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48875 = type__40451__auto__;
-var G__48876 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.stats","enliten","app.stats/enliten",-143514198,null));
-var fexpr__48874 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48874.cljs$core$IFn$_invoke$arity$2 ? fexpr__48874.cljs$core$IFn$_invoke$arity$2(G__48875,G__48876) : fexpr__48874.call(null,G__48875,G__48876));
+var G__49447 = type__40451__auto__;
+var G__49448 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.stats","enliten","app.stats/enliten",-143514198,null));
+var fexpr__49446 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49446.cljs$core$IFn$_invoke$arity$2 ? fexpr__49446.cljs$core$IFn$_invoke$arity$2(G__49447,G__49448) : fexpr__49446.call(null,G__49447,G__49448));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),app.stats.PairwiseCorrelations], null),app.stats.PairwiseCorrelationsLite], null))], null),app.stats.enliten));
 
 console.log("..instrumented",new cljs.core.Symbol("app.stats","enliten","app.stats/enliten",-143514198,null));
@@ -1608,10 +1608,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.stats.calc_correlation = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48878 = type__40451__auto__;
-var G__48879 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.stats","calc-correlation","app.stats/calc-correlation",-1900174739,null));
-var fexpr__48877 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48877.cljs$core$IFn$_invoke$arity$2 ? fexpr__48877.cljs$core$IFn$_invoke$arity$2(G__48878,G__48879) : fexpr__48877.call(null,G__48878,G__48879));
+var G__49450 = type__40451__auto__;
+var G__49451 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.stats","calc-correlation","app.stats/calc-correlation",-1900174739,null));
+var fexpr__49449 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49449.cljs$core$IFn$_invoke$arity$2 ? fexpr__49449.cljs$core$IFn$_invoke$arity$2(G__49450,G__49451) : fexpr__49449.call(null,G__49450,G__49451));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.ProcessedRow], null)], null),app.stats.CorrelationResults], null))], null),app.stats.calc_correlation));
 
 console.log("..instrumented",new cljs.core.Symbol("app.stats","calc-correlation","app.stats/calc-correlation",-1900174739,null));
@@ -1624,10 +1624,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.specs.make_hiccup = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48881 = type__40451__auto__;
-var G__48882 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.specs","make-hiccup","app.specs/make-hiccup",2016545993,null));
-var fexpr__48880 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48880.cljs$core$IFn$_invoke$arity$2 ? fexpr__48880.cljs$core$IFn$_invoke$arity$2(G__48881,G__48882) : fexpr__48880.call(null,G__48881,G__48882));
+var G__49453 = type__40451__auto__;
+var G__49454 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.specs","make-hiccup","app.specs/make-hiccup",2016545993,null));
+var fexpr__49452 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49452.cljs$core$IFn$_invoke$arity$2 ? fexpr__49452.cljs$core$IFn$_invoke$arity$2(G__49453,G__49454) : fexpr__49452.call(null,G__49453,G__49454));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"string","string",-1989541586)], null),app.specs.Hiccup], null))], null),app.specs.make_hiccup));
 
 console.log("..instrumented",new cljs.core.Symbol("app.specs","make-hiccup","app.specs/make-hiccup",2016545993,null));
@@ -1640,10 +1640,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.core.get_vars = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48884 = type__40451__auto__;
-var G__48885 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.core","get-vars","app.core/get-vars",920733976,null));
-var fexpr__48883 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48883.cljs$core$IFn$_invoke$arity$2 ? fexpr__48883.cljs$core$IFn$_invoke$arity$2(G__48884,G__48885) : fexpr__48883.call(null,G__48884,G__48885));
+var G__49456 = type__40451__auto__;
+var G__49457 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.core","get-vars","app.core/get-vars",920733976,null));
+var fexpr__49455 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49455.cljs$core$IFn$_invoke$arity$2 ? fexpr__49455.cljs$core$IFn$_invoke$arity$2(G__49456,G__49457) : fexpr__49455.call(null,G__49456,G__49457));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.DatedRow], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.Keyword(null,"keyword","keyword",811389747)], null)], null))], null),app.core.get_vars));
 
 console.log("..instrumented",new cljs.core.Symbol("app.core","get-vars","app.core/get-vars",920733976,null));
@@ -1656,10 +1656,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.comparison_matrix_table.make_comparison_matrix_data = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48887 = type__40451__auto__;
-var G__48888 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.comparison-matrix-table","make-comparison-matrix-data","app.comparison-matrix-table/make-comparison-matrix-data",699980707,null));
-var fexpr__48886 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48886.cljs$core$IFn$_invoke$arity$2 ? fexpr__48886.cljs$core$IFn$_invoke$arity$2(G__48887,G__48888) : fexpr__48886.call(null,G__48887,G__48888));
+var G__49459 = type__40451__auto__;
+var G__49460 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.comparison-matrix-table","make-comparison-matrix-data","app.comparison-matrix-table/make-comparison-matrix-data",699980707,null));
+var fexpr__49458 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49458.cljs$core$IFn$_invoke$arity$2 ? fexpr__49458.cljs$core$IFn$_invoke$arity$2(G__49459,G__49460) : fexpr__49458.call(null,G__49459,G__49460));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),app.stats.PairwiseCorrelationsLite,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"keyword","keyword",811389747),app.single_var_table.OneToManyCorrelation], null),new cljs.core.Keyword(null,"any","any",1705907423)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.Keyword(null,"map","map",1371690461)], null)], null))], null),app.comparison_matrix_table.make_comparison_matrix_data));
 
 console.log("..instrumented",new cljs.core.Symbol("app.comparison-matrix-table","make-comparison-matrix-data","app.comparison-matrix-table/make-comparison-matrix-data",699980707,null));
@@ -1672,10 +1672,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.comparison_matrix_table.add_aggregates = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48890 = type__40451__auto__;
-var G__48891 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.comparison-matrix-table","add-aggregates","app.comparison-matrix-table/add-aggregates",-1751431577,null));
-var fexpr__48889 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48889.cljs$core$IFn$_invoke$arity$2 ? fexpr__48889.cljs$core$IFn$_invoke$arity$2(G__48890,G__48891) : fexpr__48889.call(null,G__48890,G__48891));
+var G__49462 = type__40451__auto__;
+var G__49463 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.comparison-matrix-table","add-aggregates","app.comparison-matrix-table/add-aggregates",-1751431577,null));
+var fexpr__49461 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49461.cljs$core$IFn$_invoke$arity$2 ? fexpr__49461.cljs$core$IFn$_invoke$arity$2(G__49462,G__49463) : fexpr__49461.call(null,G__49462,G__49463));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"keyword","keyword",811389747),app.single_var_table.OneToManyCorrelation], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"any","any",1705907423)], null)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"any","any",1705907423)], null)], null))], null),app.comparison_matrix_table.add_aggregates));
 
 console.log("..instrumented",new cljs.core.Symbol("app.comparison-matrix-table","add-aggregates","app.comparison-matrix-table/add-aggregates",-1751431577,null));
@@ -1688,10 +1688,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.comparison_matrix_table.get_flat_biomarker_result_keys = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48893 = type__40451__auto__;
-var G__48894 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.comparison-matrix-table","get-flat-biomarker-result-keys","app.comparison-matrix-table/get-flat-biomarker-result-keys",1806374466,null));
-var fexpr__48892 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48892.cljs$core$IFn$_invoke$arity$2 ? fexpr__48892.cljs$core$IFn$_invoke$arity$2(G__48893,G__48894) : fexpr__48892.call(null,G__48893,G__48894));
+var G__49465 = type__40451__auto__;
+var G__49466 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.comparison-matrix-table","get-flat-biomarker-result-keys","app.comparison-matrix-table/get-flat-biomarker-result-keys",1806374466,null));
+var fexpr__49464 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49464.cljs$core$IFn$_invoke$arity$2 ? fexpr__49464.cljs$core$IFn$_invoke$arity$2(G__49465,G__49466) : fexpr__49464.call(null,G__49465,G__49466));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"keyword","keyword",811389747)], null),new cljs.core.Keyword(null,"boolean","boolean",-1919418404)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"any","any",1705907423)], null)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"any","any",1705907423)], null)], null))], null),app.comparison_matrix_table.get_flat_biomarker_result_keys));
 
 console.log("..instrumented",new cljs.core.Symbol("app.comparison-matrix-table","get-flat-biomarker-result-keys","app.comparison-matrix-table/get-flat-biomarker-result-keys",1806374466,null));
@@ -2356,7 +2356,7 @@ malli.core._register_function_schema_BANG_.cljs$core$IFn$_invoke$arity$6(new clj
 return new cljs.core.Symbol("app.specs","make-hiccup","app.specs/make-hiccup",2016545993,null);
 })()
 ,(function (){
-malli.core._register_function_schema_BANG_.cljs$core$IFn$_invoke$arity$6(new cljs.core.Symbol(null,"app.ui","app.ui",-1105541323,null),new cljs.core.Symbol(null,"maps-to-html","maps-to-html",-541539065,null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.Keyword(null,"map","map",1371690461)], null)], null),app.specs.Hiccup], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"schema","schema",-1582001791),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.Keyword(null,"map","map",1371690461)], null)], null),app.specs.Hiccup], null)], null),new cljs.core.Keyword(null,"cljs","cljs",1492417629),cljs.core.identity);
+malli.core._register_function_schema_BANG_.cljs$core$IFn$_invoke$arity$6(new cljs.core.Symbol(null,"app.ui","app.ui",-1105541323,null),cljs.core.with_meta(new cljs.core.Symbol(null,"maps-to-html","maps-to-html",-541539065,null),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"arglists","arglists",1661989754),cljs.core.list(new cljs.core.Symbol(null,"quote","quote",1377916282,null),cljs.core.list(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null,"maps","maps",-71029607,null)], null))),new cljs.core.Keyword(null,"doc","doc",1913296891),"Converts collection of maps like\n  [{:col1 val1 :col2 val2} {:col1 val3 :col2 val4}]\n  to an HTML table.\n  \n  See https://stackoverflow.com/a/33458370 for ^{:key} map explanation.\n  ",new cljs.core.Keyword("malli","schema","malli/schema",-1764044328),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.Keyword(null,"map","map",1371690461)], null)], null),new cljs.core.Symbol("specs","Hiccup","specs/Hiccup",997018745,null)], null)], null)),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.Keyword(null,"map","map",1371690461)], null)], null),app.specs.Hiccup], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"schema","schema",-1582001791),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.Keyword(null,"map","map",1371690461)], null)], null),app.specs.Hiccup], null)], null),new cljs.core.Keyword(null,"cljs","cljs",1492417629),cljs.core.identity);
 
 return new cljs.core.Symbol("app.ui","maps-to-html","app.ui/maps-to-html",-1954232442,null);
 })()
@@ -2491,7 +2491,7 @@ malli.core._register_function_schema_BANG_.cljs$core$IFn$_invoke$arity$6(new clj
 return new cljs.core.Symbol("app.biomarker-data","get-var-name","app.biomarker-data/get-var-name",99435084,null);
 })()
 ,(function (){
-malli.core._register_function_schema_BANG_.cljs$core$IFn$_invoke$arity$6(new cljs.core.Symbol(null,"app.csv","app.csv",1676676688,null),new cljs.core.Symbol(null,"-standardize-keys","-standardize-keys",-1001622265,null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586)], null)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"string","string",-1989541586)], null)], null)], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"schema","schema",-1582001791),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586)], null)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"string","string",-1989541586)], null)], null)], null)], null),new cljs.core.Keyword(null,"cljs","cljs",1492417629),cljs.core.identity);
+malli.core._register_function_schema_BANG_.cljs$core$IFn$_invoke$arity$6(new cljs.core.Symbol(null,"app.csv","app.csv",1676676688,null),cljs.core.with_meta(new cljs.core.Symbol(null,"-standardize-keys","-standardize-keys",-1001622265,null),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"arglists","arglists",1661989754),cljs.core.list(new cljs.core.Symbol(null,"quote","quote",1377916282,null),cljs.core.list(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null,"parsed-data","parsed-data",-402899125,null)], null))),new cljs.core.Keyword("malli","schema","malli/schema",-1764044328),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586)], null)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"string","string",-1989541586)], null)], null)], null)], null)),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586)], null)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"string","string",-1989541586)], null)], null)], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"schema","schema",-1582001791),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586)], null)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"string","string",-1989541586)], null)], null)], null)], null),new cljs.core.Keyword(null,"cljs","cljs",1492417629),cljs.core.identity);
 
 return new cljs.core.Symbol("app.csv","-standardize-keys","app.csv/-standardize-keys",-1798306212,null);
 })()
@@ -2573,10 +2573,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.time.parse_date_range = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48896 = type__40451__auto__;
-var G__48897 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.time","parse-date-range","app.time/parse-date-range",876179030,null));
-var fexpr__48895 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48895.cljs$core$IFn$_invoke$arity$2 ? fexpr__48895.cljs$core$IFn$_invoke$arity$2(G__48896,G__48897) : fexpr__48895.call(null,G__48896,G__48897));
+var G__49468 = type__40451__auto__;
+var G__49469 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.time","parse-date-range","app.time/parse-date-range",876179030,null));
+var fexpr__49467 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49467.cljs$core$IFn$_invoke$arity$2 ? fexpr__49467.cljs$core$IFn$_invoke$arity$2(G__49468,G__49469) : fexpr__49467.call(null,G__49468,G__49469));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),app.time.Date], null),app.time.VegaDate], null))], null),app.time.parse_date_range));
 
 console.log("..instrumented",new cljs.core.Symbol("app.time","parse-date-range","app.time/parse-date-range",876179030,null));
@@ -2589,10 +2589,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.time.date_to_timestamp = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48899 = type__40451__auto__;
-var G__48900 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.time","date-to-timestamp","app.time/date-to-timestamp",1007306734,null));
-var fexpr__48898 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48898.cljs$core$IFn$_invoke$arity$2 ? fexpr__48898.cljs$core$IFn$_invoke$arity$2(G__48899,G__48900) : fexpr__48898.call(null,G__48899,G__48900));
+var G__49471 = type__40451__auto__;
+var G__49472 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.time","date-to-timestamp","app.time/date-to-timestamp",1007306734,null));
+var fexpr__49470 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49470.cljs$core$IFn$_invoke$arity$2 ? fexpr__49470.cljs$core$IFn$_invoke$arity$2(G__49471,G__49472) : fexpr__49470.call(null,G__49471,G__49472));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),app.time.Date], null),app.time.Timestamp], null))], null),app.time.date_to_timestamp));
 
 console.log("..instrumented",new cljs.core.Symbol("app.time","date-to-timestamp","app.time/date-to-timestamp",1007306734,null));
@@ -2605,10 +2605,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.time.map_to_timestamp = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48902 = type__40451__auto__;
-var G__48903 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.time","map-to-timestamp","app.time/map-to-timestamp",1308881601,null));
-var fexpr__48901 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48901.cljs$core$IFn$_invoke$arity$2 ? fexpr__48901.cljs$core$IFn$_invoke$arity$2(G__48902,G__48903) : fexpr__48901.call(null,G__48902,G__48903));
+var G__49474 = type__40451__auto__;
+var G__49475 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.time","map-to-timestamp","app.time/map-to-timestamp",1308881601,null));
+var fexpr__49473 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49473.cljs$core$IFn$_invoke$arity$2 ? fexpr__49473.cljs$core$IFn$_invoke$arity$2(G__49474,G__49475) : fexpr__49473.call(null,G__49474,G__49475));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),app.time.VegaDate], null),app.time.Timestamp], null))], null),app.time.map_to_timestamp));
 
 console.log("..instrumented",new cljs.core.Symbol("app.time","map-to-timestamp","app.time/map-to-timestamp",1308881601,null));
@@ -2621,10 +2621,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.time.timestamp_to_date_string = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48905 = type__40451__auto__;
-var G__48906 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.time","timestamp-to-date-string","app.time/timestamp-to-date-string",2120834441,null));
-var fexpr__48904 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48904.cljs$core$IFn$_invoke$arity$2 ? fexpr__48904.cljs$core$IFn$_invoke$arity$2(G__48905,G__48906) : fexpr__48904.call(null,G__48905,G__48906));
+var G__49477 = type__40451__auto__;
+var G__49478 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.time","timestamp-to-date-string","app.time/timestamp-to-date-string",2120834441,null));
+var fexpr__49476 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49476.cljs$core$IFn$_invoke$arity$2 ? fexpr__49476.cljs$core$IFn$_invoke$arity$2(G__49477,G__49478) : fexpr__49476.call(null,G__49477,G__49478));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),app.time.Timestamp], null),new cljs.core.Keyword(null,"string","string",-1989541586)], null))], null),app.time.timestamp_to_date_string));
 
 console.log("..instrumented",new cljs.core.Symbol("app.time","timestamp-to-date-string","app.time/timestamp-to-date-string",2120834441,null));
@@ -2637,10 +2637,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.time.timestamp_to_full_string = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48908 = type__40451__auto__;
-var G__48909 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.time","timestamp-to-full-string","app.time/timestamp-to-full-string",-1998930793,null));
-var fexpr__48907 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48907.cljs$core$IFn$_invoke$arity$2 ? fexpr__48907.cljs$core$IFn$_invoke$arity$2(G__48908,G__48909) : fexpr__48907.call(null,G__48908,G__48909));
+var G__49480 = type__40451__auto__;
+var G__49481 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.time","timestamp-to-full-string","app.time/timestamp-to-full-string",-1998930793,null));
+var fexpr__49479 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49479.cljs$core$IFn$_invoke$arity$2 ? fexpr__49479.cljs$core$IFn$_invoke$arity$2(G__49480,G__49481) : fexpr__49479.call(null,G__49480,G__49481));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),app.time.Timestamp], null),new cljs.core.Keyword(null,"string","string",-1989541586)], null))], null),app.time.timestamp_to_full_string));
 
 console.log("..instrumented",new cljs.core.Symbol("app.time","timestamp-to-full-string","app.time/timestamp-to-full-string",-1998930793,null));
@@ -2653,10 +2653,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.time.get_period_range = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48911 = type__40451__auto__;
-var G__48912 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.time","get-period-range","app.time/get-period-range",-532221828,null));
-var fexpr__48910 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48910.cljs$core$IFn$_invoke$arity$2 ? fexpr__48910.cljs$core$IFn$_invoke$arity$2(G__48911,G__48912) : fexpr__48910.call(null,G__48911,G__48912));
+var G__49483 = type__40451__auto__;
+var G__49484 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.time","get-period-range","app.time/get-period-range",-532221828,null));
+var fexpr__49482 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49482.cljs$core$IFn$_invoke$arity$2 ? fexpr__49482.cljs$core$IFn$_invoke$arity$2(G__49483,G__49484) : fexpr__49482.call(null,G__49483,G__49484));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),app.time.Timestamp,app.time.PeriodIdTypes], null),app.time.PeriodRange], null))], null),app.time.get_period_range));
 
 console.log("..instrumented",new cljs.core.Symbol("app.time","get-period-range","app.time/get-period-range",-532221828,null));
@@ -2669,10 +2669,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.time.parse_date = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48914 = type__40451__auto__;
-var G__48915 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.time","parse-date","app.time/parse-date",1307686562,null));
-var fexpr__48913 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48913.cljs$core$IFn$_invoke$arity$2 ? fexpr__48913.cljs$core$IFn$_invoke$arity$2(G__48914,G__48915) : fexpr__48913.call(null,G__48914,G__48915));
+var G__49486 = type__40451__auto__;
+var G__49487 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.time","parse-date","app.time/parse-date",1307686562,null));
+var fexpr__49485 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49485.cljs$core$IFn$_invoke$arity$2 ? fexpr__49485.cljs$core$IFn$_invoke$arity$2(G__49486,G__49487) : fexpr__49485.call(null,G__49486,G__49487));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),app.time.Date], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"or","or",235744169),new cljs.core.Keyword(null,"nil","nil",99600501),app.time.VegaDate], null)], null))], null),app.time.parse_date));
 
 console.log("..instrumented",new cljs.core.Symbol("app.time","parse-date","app.time/parse-date",1307686562,null));
@@ -2685,10 +2685,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.time.group_by_period = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48917 = type__40451__auto__;
-var G__48918 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.time","group-by-period","app.time/group-by-period",30301284,null));
-var fexpr__48916 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48916.cljs$core$IFn$_invoke$arity$2 ? fexpr__48916.cljs$core$IFn$_invoke$arity$2(G__48917,G__48918) : fexpr__48916.call(null,G__48917,G__48918));
+var G__49489 = type__40451__auto__;
+var G__49490 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.time","group-by-period","app.time/group-by-period",30301284,null));
+var fexpr__49488 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49488.cljs$core$IFn$_invoke$arity$2 ? fexpr__49488.cljs$core$IFn$_invoke$arity$2(G__49489,G__49490) : fexpr__49488.call(null,G__49489,G__49490));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map","map",1371690461),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"timestamp","timestamp",579478971),app.time.Timestamp], null)], null)], null),app.time.PeriodIdTypes], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),app.time.PeriodRange,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map","map",1371690461),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"timestamp","timestamp",579478971),app.time.Timestamp], null)], null)], null)], null)], null))], null),app.time.group_by_period));
 
 console.log("..instrumented",new cljs.core.Symbol("app.time","group-by-period","app.time/group-by-period",30301284,null));
@@ -2701,10 +2701,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.math.average = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48920 = type__40451__auto__;
-var G__48921 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.math","average","app.math/average",-2095983036,null));
-var fexpr__48919 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48919.cljs$core$IFn$_invoke$arity$2 ? fexpr__48919.cljs$core$IFn$_invoke$arity$2(G__48920,G__48921) : fexpr__48919.call(null,G__48920,G__48921));
+var G__49492 = type__40451__auto__;
+var G__49493 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.math","average","app.math/average",-2095983036,null));
+var fexpr__49491 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49491.cljs$core$IFn$_invoke$arity$2 ? fexpr__49491.cljs$core$IFn$_invoke$arity$2(G__49492,G__49493) : fexpr__49491.call(null,G__49492,G__49493));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.Keyword(null,"double","double",884886883)], null)], null),new cljs.core.Keyword(null,"double","double",884886883)], null))], null),app.math.average));
 
 console.log("..instrumented",new cljs.core.Symbol("app.math","average","app.math/average",-2095983036,null));
@@ -2717,10 +2717,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.single_var_table.get_csv_values = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48923 = type__40451__auto__;
-var G__48924 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.single-var-table","get-csv-values","app.single-var-table/get-csv-values",162860081,null));
-var fexpr__48922 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48922.cljs$core$IFn$_invoke$arity$2 ? fexpr__48922.cljs$core$IFn$_invoke$arity$2(G__48923,G__48924) : fexpr__48922.call(null,G__48923,G__48924));
+var G__49495 = type__40451__auto__;
+var G__49496 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.single-var-table","get-csv-values","app.single-var-table/get-csv-values",162860081,null));
+var fexpr__49494 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49494.cljs$core$IFn$_invoke$arity$2 ? fexpr__49494.cljs$core$IFn$_invoke$arity$2(G__49495,G__49496) : fexpr__49494.call(null,G__49495,G__49496));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"any","any",1705907423)], null)], null),new cljs.core.Keyword(null,"keyword","keyword",811389747)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"vector","vector",1902966158),new cljs.core.Keyword(null,"double","double",884886883)], null)], null))], null),app.single_var_table.get_csv_values));
 
 console.log("..instrumented",new cljs.core.Symbol("app.single-var-table","get-csv-values","app.single-var-table/get-csv-values",162860081,null));
@@ -2733,10 +2733,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.single_var_table.get_one_var_timeseries_data = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48926 = type__40451__auto__;
-var G__48927 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.single-var-table","get-one-var-timeseries-data","app.single-var-table/get-one-var-timeseries-data",-1891160745,null));
-var fexpr__48925 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48925.cljs$core$IFn$_invoke$arity$2 ? fexpr__48925.cljs$core$IFn$_invoke$arity$2(G__48926,G__48927) : fexpr__48925.call(null,G__48926,G__48927));
+var G__49498 = type__40451__auto__;
+var G__49499 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.single-var-table","get-one-var-timeseries-data","app.single-var-table/get-one-var-timeseries-data",-1891160745,null));
+var fexpr__49497 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49497.cljs$core$IFn$_invoke$arity$2 ? fexpr__49497.cljs$core$IFn$_invoke$arity$2(G__49498,G__49499) : fexpr__49497.call(null,G__49498,G__49499));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),app.single_var_table.OneToManyCorrelation], null),app.biomarker_data.TimeseriesData], null))], null),app.single_var_table.get_one_var_timeseries_data));
 
 console.log("..instrumented",new cljs.core.Symbol("app.single-var-table","get-one-var-timeseries-data","app.single-var-table/get-one-var-timeseries-data",-1891160745,null));
@@ -2749,10 +2749,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.single_var_table.make_all_correlations = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48929 = type__40451__auto__;
-var G__48930 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.single-var-table","make-all-correlations","app.single-var-table/make-all-correlations",-1642924838,null));
-var fexpr__48928 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48928.cljs$core$IFn$_invoke$arity$2 ? fexpr__48928.cljs$core$IFn$_invoke$arity$2(G__48929,G__48930) : fexpr__48928.call(null,G__48929,G__48930));
+var G__49501 = type__40451__auto__;
+var G__49502 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.single-var-table","make-all-correlations","app.single-var-table/make-all-correlations",-1642924838,null));
+var fexpr__49500 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49500.cljs$core$IFn$_invoke$arity$2 ? fexpr__49500.cljs$core$IFn$_invoke$arity$2(G__49501,G__49502) : fexpr__49500.call(null,G__49501,G__49502));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),app.stats.PairwiseCorrelations,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.ProcessedRow], null),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"keyword","keyword",811389747)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"keyword","keyword",811389747),app.single_var_table.OneToManyCorrelation], null)], null))], null),app.single_var_table.make_all_correlations));
 
 console.log("..instrumented",new cljs.core.Symbol("app.single-var-table","make-all-correlations","app.single-var-table/make-all-correlations",-1642924838,null));
@@ -2765,10 +2765,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.single_var_table.calc_counted_score = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48932 = type__40451__auto__;
-var G__48933 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.single-var-table","calc-counted-score","app.single-var-table/calc-counted-score",-2049772802,null));
-var fexpr__48931 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48931.cljs$core$IFn$_invoke$arity$2 ? fexpr__48931.cljs$core$IFn$_invoke$arity$2(G__48932,G__48933) : fexpr__48931.call(null,G__48932,G__48933));
+var G__49504 = type__40451__auto__;
+var G__49505 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.single-var-table","calc-counted-score","app.single-var-table/calc-counted-score",-2049772802,null));
+var fexpr__49503 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49503.cljs$core$IFn$_invoke$arity$2 ? fexpr__49503.cljs$core$IFn$_invoke$arity$2(G__49504,G__49505) : fexpr__49503.call(null,G__49504,G__49505));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"or","or",235744169),new cljs.core.Keyword(null,"nil","nil",99600501),app.stats.PairwiseCorrelations], null)], null),new cljs.core.Keyword(null,"int","int",-1741416922)], null))], null),app.single_var_table.calc_counted_score));
 
 console.log("..instrumented",new cljs.core.Symbol("app.single-var-table","calc-counted-score","app.single-var-table/calc-counted-score",-2049772802,null));
@@ -2781,10 +2781,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.single_var_table.make_hiccup = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48935 = type__40451__auto__;
-var G__48936 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.single-var-table","make-hiccup","app.single-var-table/make-hiccup",-1819067316,null));
-var fexpr__48934 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48934.cljs$core$IFn$_invoke$arity$2 ? fexpr__48934.cljs$core$IFn$_invoke$arity$2(G__48935,G__48936) : fexpr__48934.call(null,G__48935,G__48936));
+var G__49507 = type__40451__auto__;
+var G__49508 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.single-var-table","make-hiccup","app.single-var-table/make-hiccup",-1819067316,null));
+var fexpr__49506 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49506.cljs$core$IFn$_invoke$arity$2 ? fexpr__49506.cljs$core$IFn$_invoke$arity$2(G__49507,G__49508) : fexpr__49506.call(null,G__49507,G__49508));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),app.single_var_table.OneToManyCorrelation], null),app.specs.ReagentComponent], null))], null),app.single_var_table.make_hiccup));
 
 console.log("..instrumented",new cljs.core.Symbol("app.single-var-table","make-hiccup","app.single-var-table/make-hiccup",-1819067316,null));
@@ -2797,10 +2797,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.single_var_table.get_significant_correlations = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48938 = type__40451__auto__;
-var G__48939 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.single-var-table","get-significant-correlations","app.single-var-table/get-significant-correlations",-737968020,null));
-var fexpr__48937 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48937.cljs$core$IFn$_invoke$arity$2 ? fexpr__48937.cljs$core$IFn$_invoke$arity$2(G__48938,G__48939) : fexpr__48937.call(null,G__48938,G__48939));
+var G__49510 = type__40451__auto__;
+var G__49511 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.single-var-table","get-significant-correlations","app.single-var-table/get-significant-correlations",-737968020,null));
+var fexpr__49509 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49509.cljs$core$IFn$_invoke$arity$2 ? fexpr__49509.cljs$core$IFn$_invoke$arity$2(G__49510,G__49511) : fexpr__49509.call(null,G__49510,G__49511));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 6, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),app.stats.PairwiseCorrelations,new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"vector","vector",1902966158),new cljs.core.Keyword(null,"double","double",884886883)], null)], null),app.single_var_table.OneToManyCorrelation], null))], null),app.single_var_table.get_significant_correlations));
 
 console.log("..instrumented",new cljs.core.Symbol("app.single-var-table","get-significant-correlations","app.single-var-table/get-significant-correlations",-737968020,null));
@@ -2813,10 +2813,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.csv_data_processing.merge_rows_using_dates = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48941 = type__40451__auto__;
-var G__48942 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.csv-data-processing","merge-rows-using-dates","app.csv-data-processing/merge-rows-using-dates",-275125181,null));
-var fexpr__48940 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48940.cljs$core$IFn$_invoke$arity$2 ? fexpr__48940.cljs$core$IFn$_invoke$arity$2(G__48941,G__48942) : fexpr__48940.call(null,G__48941,G__48942));
+var G__49513 = type__40451__auto__;
+var G__49514 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.csv-data-processing","merge-rows-using-dates","app.csv-data-processing/merge-rows-using-dates",-275125181,null));
+var fexpr__49512 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49512.cljs$core$IFn$_invoke$arity$2 ? fexpr__49512.cljs$core$IFn$_invoke$arity$2(G__49513,G__49514) : fexpr__49512.call(null,G__49513,G__49514));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"*","*",-1294732318),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.DatedRow], null)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.DatedRow], null)], null))], null),app.csv_data_processing.merge_rows_using_dates));
 
 console.log("..instrumented",new cljs.core.Symbol("app.csv-data-processing","merge-rows-using-dates","app.csv-data-processing/merge-rows-using-dates",-275125181,null));
@@ -2829,10 +2829,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.csv_data_processing.add_timestamps = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48944 = type__40451__auto__;
-var G__48945 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.csv-data-processing","add-timestamps","app.csv-data-processing/add-timestamps",-88588026,null));
-var fexpr__48943 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48943.cljs$core$IFn$_invoke$arity$2 ? fexpr__48943.cljs$core$IFn$_invoke$arity$2(G__48944,G__48945) : fexpr__48943.call(null,G__48944,G__48945));
+var G__49516 = type__40451__auto__;
+var G__49517 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.csv-data-processing","add-timestamps","app.csv-data-processing/add-timestamps",-88588026,null));
+var fexpr__49515 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49515.cljs$core$IFn$_invoke$arity$2 ? fexpr__49515.cljs$core$IFn$_invoke$arity$2(G__49516,G__49517) : fexpr__49515.call(null,G__49516,G__49517));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.DatedRow], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.DatedRow], null)], null))], null),app.csv_data_processing.add_timestamps));
 
 console.log("..instrumented",new cljs.core.Symbol("app.csv-data-processing","add-timestamps","app.csv-data-processing/add-timestamps",-88588026,null));
@@ -2845,10 +2845,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.csv_data_processing.floatify_data = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48947 = type__40451__auto__;
-var G__48948 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.csv-data-processing","floatify-data","app.csv-data-processing/floatify-data",-399226101,null));
-var fexpr__48946 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48946.cljs$core$IFn$_invoke$arity$2 ? fexpr__48946.cljs$core$IFn$_invoke$arity$2(G__48947,G__48948) : fexpr__48946.call(null,G__48947,G__48948));
+var G__49519 = type__40451__auto__;
+var G__49520 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.csv-data-processing","floatify-data","app.csv-data-processing/floatify-data",-399226101,null));
+var fexpr__49518 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49518.cljs$core$IFn$_invoke$arity$2 ? fexpr__49518.cljs$core$IFn$_invoke$arity$2(G__49519,G__49520) : fexpr__49518.call(null,G__49519,G__49520));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.DatedRow], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.DatedRow], null)], null))], null),app.csv_data_processing.floatify_data));
 
 console.log("..instrumented",new cljs.core.Symbol("app.csv-data-processing","floatify-data","app.csv-data-processing/floatify-data",-399226101,null));
@@ -2861,10 +2861,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.csv_data_processing.process_csv_data = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48950 = type__40451__auto__;
-var G__48951 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.csv-data-processing","process-csv-data","app.csv-data-processing/process-csv-data",-281743776,null));
-var fexpr__48949 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48949.cljs$core$IFn$_invoke$arity$2 ? fexpr__48949.cljs$core$IFn$_invoke$arity$2(G__48950,G__48951) : fexpr__48949.call(null,G__48950,G__48951));
+var G__49522 = type__40451__auto__;
+var G__49523 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.csv-data-processing","process-csv-data","app.csv-data-processing/process-csv-data",-281743776,null));
+var fexpr__49521 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49521.cljs$core$IFn$_invoke$arity$2 ? fexpr__49521.cljs$core$IFn$_invoke$arity$2(G__49522,G__49523) : fexpr__49521.call(null,G__49522,G__49523));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"*","*",-1294732318),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.DatedRow], null)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.ProcessedRow], null)], null))], null),app.csv_data_processing.process_csv_data));
 
 console.log("..instrumented",new cljs.core.Symbol("app.csv-data-processing","process-csv-data","app.csv-data-processing/process-csv-data",-281743776,null));
@@ -2877,10 +2877,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.biomarker_data.get_var_name = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48953 = type__40451__auto__;
-var G__48954 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.biomarker-data","get-var-name","app.biomarker-data/get-var-name",99435084,null));
-var fexpr__48952 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48952.cljs$core$IFn$_invoke$arity$2 ? fexpr__48952.cljs$core$IFn$_invoke$arity$2(G__48953,G__48954) : fexpr__48952.call(null,G__48953,G__48954));
+var G__49525 = type__40451__auto__;
+var G__49526 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.biomarker-data","get-var-name","app.biomarker-data/get-var-name",99435084,null));
+var fexpr__49524 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49524.cljs$core$IFn$_invoke$arity$2 ? fexpr__49524.cljs$core$IFn$_invoke$arity$2(G__49525,G__49526) : fexpr__49524.call(null,G__49525,G__49526));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),app.biomarker_data.TimeseriesData], null),new cljs.core.Keyword(null,"keyword","keyword",811389747)], null))], null),app.biomarker_data.get_var_name));
 
 console.log("..instrumented",new cljs.core.Symbol("app.biomarker-data","get-var-name","app.biomarker-data/get-var-name",99435084,null));
@@ -2893,10 +2893,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.biomarker_data.add_hrs = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48956 = type__40451__auto__;
-var G__48957 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.biomarker-data","add-hrs","app.biomarker-data/add-hrs",-2127067559,null));
-var fexpr__48955 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48955.cljs$core$IFn$_invoke$arity$2 ? fexpr__48955.cljs$core$IFn$_invoke$arity$2(G__48956,G__48957) : fexpr__48955.call(null,G__48956,G__48957));
+var G__49528 = type__40451__auto__;
+var G__49529 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.biomarker-data","add-hrs","app.biomarker-data/add-hrs",-2127067559,null));
+var fexpr__49527 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49527.cljs$core$IFn$_invoke$arity$2 ? fexpr__49527.cljs$core$IFn$_invoke$arity$2(G__49528,G__49529) : fexpr__49527.call(null,G__49528,G__49529));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),app.biomarker_data.TimeseriesData,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.biomarker_data.HazardRatioData], null)], null),app.biomarker_data.HRTimeseriesData], null))], null),app.biomarker_data.add_hrs));
 
 console.log("..instrumented",new cljs.core.Symbol("app.biomarker-data","add-hrs","app.biomarker-data/add-hrs",-2127067559,null));
@@ -2909,10 +2909,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.biomarker_data.make_acm_plot = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48959 = type__40451__auto__;
-var G__48960 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.biomarker-data","make-acm-plot","app.biomarker-data/make-acm-plot",-1440620661,null));
-var fexpr__48958 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48958.cljs$core$IFn$_invoke$arity$2 ? fexpr__48958.cljs$core$IFn$_invoke$arity$2(G__48959,G__48960) : fexpr__48958.call(null,G__48959,G__48960));
+var G__49531 = type__40451__auto__;
+var G__49532 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.biomarker-data","make-acm-plot","app.biomarker-data/make-acm-plot",-1440620661,null));
+var fexpr__49530 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49530.cljs$core$IFn$_invoke$arity$2 ? fexpr__49530.cljs$core$IFn$_invoke$arity$2(G__49531,G__49532) : fexpr__49530.call(null,G__49531,G__49532));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),app.biomarker_data.TimeseriesData,app.biomarker_data.BiomarkerData], null),app.specs.ReagentComponent], null))], null),app.biomarker_data.make_acm_plot));
 
 console.log("..instrumented",new cljs.core.Symbol("app.biomarker-data","make-acm-plot","app.biomarker-data/make-acm-plot",-1440620661,null));
@@ -2925,10 +2925,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.timeline.rows_to_events = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48962 = type__40451__auto__;
-var G__48963 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.timeline","rows-to-events","app.timeline/rows-to-events",-525324979,null));
-var fexpr__48961 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48961.cljs$core$IFn$_invoke$arity$2 ? fexpr__48961.cljs$core$IFn$_invoke$arity$2(G__48962,G__48963) : fexpr__48961.call(null,G__48962,G__48963));
+var G__49534 = type__40451__auto__;
+var G__49535 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.timeline","rows-to-events","app.timeline/rows-to-events",-525324979,null));
+var fexpr__49533 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49533.cljs$core$IFn$_invoke$arity$2 ? fexpr__49533.cljs$core$IFn$_invoke$arity$2(G__49534,G__49535) : fexpr__49533.call(null,G__49534,G__49535));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.ProcessedRow], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.timeline.Event], null)], null))], null),app.timeline.rows_to_events));
 
 console.log("..instrumented",new cljs.core.Symbol("app.timeline","rows-to-events","app.timeline/rows-to-events",-525324979,null));
@@ -2941,10 +2941,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.timeline.ranges_to_events = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48965 = type__40451__auto__;
-var G__48966 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.timeline","ranges-to-events","app.timeline/ranges-to-events",250747142,null));
-var fexpr__48964 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48964.cljs$core$IFn$_invoke$arity$2 ? fexpr__48964.cljs$core$IFn$_invoke$arity$2(G__48965,G__48966) : fexpr__48964.call(null,G__48965,G__48966));
+var G__49537 = type__40451__auto__;
+var G__49538 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.timeline","ranges-to-events","app.timeline/ranges-to-events",250747142,null));
+var fexpr__49536 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49536.cljs$core$IFn$_invoke$arity$2 ? fexpr__49536.cljs$core$IFn$_invoke$arity$2(G__49537,G__49538) : fexpr__49536.call(null,G__49537,G__49538));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.time.PeriodRange], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.timeline.Event], null)], null))], null),app.timeline.ranges_to_events));
 
 console.log("..instrumented",new cljs.core.Symbol("app.timeline","ranges-to-events","app.timeline/ranges-to-events",250747142,null));
@@ -2957,10 +2957,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.timeline.get_unique_lanes = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48968 = type__40451__auto__;
-var G__48969 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.timeline","get-unique-lanes","app.timeline/get-unique-lanes",-1938843928,null));
-var fexpr__48967 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48967.cljs$core$IFn$_invoke$arity$2 ? fexpr__48967.cljs$core$IFn$_invoke$arity$2(G__48968,G__48969) : fexpr__48967.call(null,G__48968,G__48969));
+var G__49540 = type__40451__auto__;
+var G__49541 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.timeline","get-unique-lanes","app.timeline/get-unique-lanes",-1938843928,null));
+var fexpr__49539 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49539.cljs$core$IFn$_invoke$arity$2 ? fexpr__49539.cljs$core$IFn$_invoke$arity$2(G__49540,G__49541) : fexpr__49539.call(null,G__49540,G__49541));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.timeline.Event], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.timeline.Lane], null)], null))], null),app.timeline.get_unique_lanes));
 
 console.log("..instrumented",new cljs.core.Symbol("app.timeline","get-unique-lanes","app.timeline/get-unique-lanes",-1938843928,null));
@@ -2973,10 +2973,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.timeline.make_timeline = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48971 = type__40451__auto__;
-var G__48972 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.timeline","make-timeline","app.timeline/make-timeline",1565393329,null));
-var fexpr__48970 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48970.cljs$core$IFn$_invoke$arity$2 ? fexpr__48970.cljs$core$IFn$_invoke$arity$2(G__48971,G__48972) : fexpr__48970.call(null,G__48971,G__48972));
+var G__49543 = type__40451__auto__;
+var G__49544 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.timeline","make-timeline","app.timeline/make-timeline",1565393329,null));
+var fexpr__49542 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49542.cljs$core$IFn$_invoke$arity$2 ? fexpr__49542.cljs$core$IFn$_invoke$arity$2(G__49543,G__49544) : fexpr__49542.call(null,G__49543,G__49544));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.timeline.Event], null)], null),app.specs.ReagentComponent], null))], null),app.timeline.make_timeline));
 
 console.log("..instrumented",new cljs.core.Symbol("app.timeline","make-timeline","app.timeline/make-timeline",1565393329,null));
@@ -2989,10 +2989,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.timeline.timeline_for_page = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48974 = type__40451__auto__;
-var G__48975 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.timeline","timeline-for-page","app.timeline/timeline-for-page",-1427048694,null));
-var fexpr__48973 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48973.cljs$core$IFn$_invoke$arity$2 ? fexpr__48973.cljs$core$IFn$_invoke$arity$2(G__48974,G__48975) : fexpr__48973.call(null,G__48974,G__48975));
+var G__49546 = type__40451__auto__;
+var G__49547 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.timeline","timeline-for-page","app.timeline/timeline-for-page",-1427048694,null));
+var fexpr__49545 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49545.cljs$core$IFn$_invoke$arity$2 ? fexpr__49545.cljs$core$IFn$_invoke$arity$2(G__49546,G__49547) : fexpr__49545.call(null,G__49546,G__49547));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.ProcessedRow], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.time.PeriodRange], null)], null),app.specs.ReagentComponent], null))], null),app.timeline.timeline_for_page));
 
 console.log("..instrumented",new cljs.core.Symbol("app.timeline","timeline-for-page","app.timeline/timeline-for-page",-1427048694,null));
@@ -3005,10 +3005,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.csv._standardize_keys = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48977 = type__40451__auto__;
-var G__48978 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.csv","-standardize-keys","app.csv/-standardize-keys",-1798306212,null));
-var fexpr__48976 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48976.cljs$core$IFn$_invoke$arity$2 ? fexpr__48976.cljs$core$IFn$_invoke$arity$2(G__48977,G__48978) : fexpr__48976.call(null,G__48977,G__48978));
+var G__49549 = type__40451__auto__;
+var G__49550 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.csv","-standardize-keys","app.csv/-standardize-keys",-1798306212,null));
+var fexpr__49548 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49548.cljs$core$IFn$_invoke$arity$2 ? fexpr__49548.cljs$core$IFn$_invoke$arity$2(G__49549,G__49550) : fexpr__49548.call(null,G__49549,G__49550));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586)], null)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"string","string",-1989541586)], null)], null)], null))], null),app.csv._standardize_keys));
 
 console.log("..instrumented",new cljs.core.Symbol("app.csv","-standardize-keys","app.csv/-standardize-keys",-1798306212,null));
@@ -3021,10 +3021,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.input_data_validation.get_all_data_validation_string = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48980 = type__40451__auto__;
-var G__48981 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.input-data-validation","get-all-data-validation-string","app.input-data-validation/get-all-data-validation-string",682009513,null));
-var fexpr__48979 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48979.cljs$core$IFn$_invoke$arity$2 ? fexpr__48979.cljs$core$IFn$_invoke$arity$2(G__48980,G__48981) : fexpr__48979.call(null,G__48980,G__48981));
+var G__49552 = type__40451__auto__;
+var G__49553 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.input-data-validation","get-all-data-validation-string","app.input-data-validation/get-all-data-validation-string",682009513,null));
+var fexpr__49551 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49551.cljs$core$IFn$_invoke$arity$2 ? fexpr__49551.cljs$core$IFn$_invoke$arity$2(G__49552,G__49553) : fexpr__49551.call(null,G__49552,G__49553));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"*","*",-1294732318),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.DatedRow], null)], null)], null),app.specs.Hiccup], null))], null),app.input_data_validation.get_all_data_validation_string));
 
 console.log("..instrumented",new cljs.core.Symbol("app.input-data-validation","get-all-data-validation-string","app.input-data-validation/get-all-data-validation-string",682009513,null));
@@ -3037,10 +3037,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.input_data_validation.get_validation_string = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48983 = type__40451__auto__;
-var G__48984 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.input-data-validation","get-validation-string","app.input-data-validation/get-validation-string",-614093652,null));
-var fexpr__48982 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48982.cljs$core$IFn$_invoke$arity$2 ? fexpr__48982.cljs$core$IFn$_invoke$arity$2(G__48983,G__48984) : fexpr__48982.call(null,G__48983,G__48984));
+var G__49555 = type__40451__auto__;
+var G__49556 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.input-data-validation","get-validation-string","app.input-data-validation/get-validation-string",-614093652,null));
+var fexpr__49554 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49554.cljs$core$IFn$_invoke$arity$2 ? fexpr__49554.cljs$core$IFn$_invoke$arity$2(G__49555,G__49556) : fexpr__49554.call(null,G__49555,G__49556));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.DatedRow], null)], null),app.specs.Hiccup], null))], null),app.input_data_validation.get_validation_string));
 
 console.log("..instrumented",new cljs.core.Symbol("app.input-data-validation","get-validation-string","app.input-data-validation/get-validation-string",-614093652,null));
@@ -3053,10 +3053,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.ui.maps_to_html = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48986 = type__40451__auto__;
-var G__48987 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.ui","maps-to-html","app.ui/maps-to-html",-1954232442,null));
-var fexpr__48985 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48985.cljs$core$IFn$_invoke$arity$2 ? fexpr__48985.cljs$core$IFn$_invoke$arity$2(G__48986,G__48987) : fexpr__48985.call(null,G__48986,G__48987));
+var G__49558 = type__40451__auto__;
+var G__49559 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.ui","maps-to-html","app.ui/maps-to-html",-1954232442,null));
+var fexpr__49557 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49557.cljs$core$IFn$_invoke$arity$2 ? fexpr__49557.cljs$core$IFn$_invoke$arity$2(G__49558,G__49559) : fexpr__49557.call(null,G__49558,G__49559));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.Keyword(null,"map","map",1371690461)], null)], null),app.specs.Hiccup], null))], null),app.ui.maps_to_html));
 
 console.log("..instrumented",new cljs.core.Symbol("app.ui","maps-to-html","app.ui/maps-to-html",-1954232442,null));
@@ -3069,10 +3069,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.aggregation.combine_rows = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48989 = type__40451__auto__;
-var G__48990 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.aggregation","combine-rows","app.aggregation/combine-rows",-1007903277,null));
-var fexpr__48988 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48988.cljs$core$IFn$_invoke$arity$2 ? fexpr__48988.cljs$core$IFn$_invoke$arity$2(G__48989,G__48990) : fexpr__48988.call(null,G__48989,G__48990));
+var G__49561 = type__40451__auto__;
+var G__49562 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.aggregation","combine-rows","app.aggregation/combine-rows",-1007903277,null));
+var fexpr__49560 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49560.cljs$core$IFn$_invoke$arity$2 ? fexpr__49560.cljs$core$IFn$_invoke$arity$2(G__49561,G__49562) : fexpr__49560.call(null,G__49561,G__49562));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.Keyword(null,"double","double",884886883)], null)], null),new cljs.core.Keyword(null,"double","double",884886883)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.ProcessedRow], null)], null),app.csv_data_processing.ProcessedRow], null))], null),app.aggregation.combine_rows));
 
 console.log("..instrumented",new cljs.core.Symbol("app.aggregation","combine-rows","app.aggregation/combine-rows",-1007903277,null));
@@ -3085,10 +3085,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.aggregation.aggregate_data = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48992 = type__40451__auto__;
-var G__48993 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.aggregation","aggregate-data","app.aggregation/aggregate-data",1286470681,null));
-var fexpr__48991 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48991.cljs$core$IFn$_invoke$arity$2 ? fexpr__48991.cljs$core$IFn$_invoke$arity$2(G__48992,G__48993) : fexpr__48991.call(null,G__48992,G__48993));
+var G__49564 = type__40451__auto__;
+var G__49565 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.aggregation","aggregate-data","app.aggregation/aggregate-data",1286470681,null));
+var fexpr__49563 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49563.cljs$core$IFn$_invoke$arity$2 ? fexpr__49563.cljs$core$IFn$_invoke$arity$2(G__49564,G__49565) : fexpr__49563.call(null,G__49564,G__49565));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.ProcessedRow], null),app.time.PeriodIdTypes,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.Keyword(null,"double","double",884886883)], null)], null),new cljs.core.Keyword(null,"double","double",884886883)], null)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),app.time.PeriodRange,app.csv_data_processing.ProcessedRow], null)], null))], null),app.aggregation.aggregate_data));
 
 console.log("..instrumented",new cljs.core.Symbol("app.aggregation","aggregate-data","app.aggregation/aggregate-data",1286470681,null));
@@ -3101,10 +3101,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.aggregation.aggregation_section = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48995 = type__40451__auto__;
-var G__48996 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.aggregation","aggregation-section","app.aggregation/aggregation-section",-1886008994,null));
-var fexpr__48994 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48994.cljs$core$IFn$_invoke$arity$2 ? fexpr__48994.cljs$core$IFn$_invoke$arity$2(G__48995,G__48996) : fexpr__48994.call(null,G__48995,G__48996));
+var G__49567 = type__40451__auto__;
+var G__49568 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.aggregation","aggregation-section","app.aggregation/aggregation-section",-1886008994,null));
+var fexpr__49566 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49566.cljs$core$IFn$_invoke$arity$2 ? fexpr__49566.cljs$core$IFn$_invoke$arity$2(G__49567,G__49568) : fexpr__49566.call(null,G__49567,G__49568));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"any","any",1705907423),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.time.PeriodRange], null)], null),app.specs.ReagentComponent], null))], null),app.aggregation.aggregation_section));
 
 console.log("..instrumented",new cljs.core.Symbol("app.aggregation","aggregation-section","app.aggregation/aggregation-section",-1886008994,null));
@@ -3117,10 +3117,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.stats.clean_data = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__48998 = type__40451__auto__;
-var G__48999 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.stats","clean-data","app.stats/clean-data",-415603632,null));
-var fexpr__48997 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__48997.cljs$core$IFn$_invoke$arity$2 ? fexpr__48997.cljs$core$IFn$_invoke$arity$2(G__48998,G__48999) : fexpr__48997.call(null,G__48998,G__48999));
+var G__49570 = type__40451__auto__;
+var G__49571 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.stats","clean-data","app.stats/clean-data",-415603632,null));
+var fexpr__49569 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49569.cljs$core$IFn$_invoke$arity$2 ? fexpr__49569.cljs$core$IFn$_invoke$arity$2(G__49570,G__49571) : fexpr__49569.call(null,G__49570,G__49571));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.ProcessedRow], null)], null),app.stats.PairedData], null))], null),app.stats.clean_data));
 
 console.log("..instrumented",new cljs.core.Symbol("app.stats","clean-data","app.stats/clean-data",-415603632,null));
@@ -3133,10 +3133,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.stats.compute_correlations = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__49001 = type__40451__auto__;
-var G__49002 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.stats","compute-correlations","app.stats/compute-correlations",-1090864316,null));
-var fexpr__49000 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__49000.cljs$core$IFn$_invoke$arity$2 ? fexpr__49000.cljs$core$IFn$_invoke$arity$2(G__49001,G__49002) : fexpr__49000.call(null,G__49001,G__49002));
+var G__49573 = type__40451__auto__;
+var G__49574 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.stats","compute-correlations","app.stats/compute-correlations",-1090864316,null));
+var fexpr__49572 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49572.cljs$core$IFn$_invoke$arity$2 ? fexpr__49572.cljs$core$IFn$_invoke$arity$2(G__49573,G__49574) : fexpr__49572.call(null,G__49573,G__49574));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.Keyword(null,"keyword","keyword",811389747)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.Keyword(null,"keyword","keyword",811389747)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.ProcessedRow], null)], null),app.stats.PairwiseCorrelations], null))], null),app.stats.compute_correlations));
 
 console.log("..instrumented",new cljs.core.Symbol("app.stats","compute-correlations","app.stats/compute-correlations",-1090864316,null));
@@ -3149,10 +3149,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.stats.enliten = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__49004 = type__40451__auto__;
-var G__49005 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.stats","enliten","app.stats/enliten",-143514198,null));
-var fexpr__49003 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__49003.cljs$core$IFn$_invoke$arity$2 ? fexpr__49003.cljs$core$IFn$_invoke$arity$2(G__49004,G__49005) : fexpr__49003.call(null,G__49004,G__49005));
+var G__49576 = type__40451__auto__;
+var G__49577 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.stats","enliten","app.stats/enliten",-143514198,null));
+var fexpr__49575 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49575.cljs$core$IFn$_invoke$arity$2 ? fexpr__49575.cljs$core$IFn$_invoke$arity$2(G__49576,G__49577) : fexpr__49575.call(null,G__49576,G__49577));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),app.stats.PairwiseCorrelations], null),app.stats.PairwiseCorrelationsLite], null))], null),app.stats.enliten));
 
 console.log("..instrumented",new cljs.core.Symbol("app.stats","enliten","app.stats/enliten",-143514198,null));
@@ -3165,10 +3165,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.stats.calc_correlation = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__49007 = type__40451__auto__;
-var G__49008 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.stats","calc-correlation","app.stats/calc-correlation",-1900174739,null));
-var fexpr__49006 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__49006.cljs$core$IFn$_invoke$arity$2 ? fexpr__49006.cljs$core$IFn$_invoke$arity$2(G__49007,G__49008) : fexpr__49006.call(null,G__49007,G__49008));
+var G__49579 = type__40451__auto__;
+var G__49580 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.stats","calc-correlation","app.stats/calc-correlation",-1900174739,null));
+var fexpr__49578 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49578.cljs$core$IFn$_invoke$arity$2 ? fexpr__49578.cljs$core$IFn$_invoke$arity$2(G__49579,G__49580) : fexpr__49578.call(null,G__49579,G__49580));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.ProcessedRow], null)], null),app.stats.CorrelationResults], null))], null),app.stats.calc_correlation));
 
 console.log("..instrumented",new cljs.core.Symbol("app.stats","calc-correlation","app.stats/calc-correlation",-1900174739,null));
@@ -3181,10 +3181,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.specs.make_hiccup = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__49010 = type__40451__auto__;
-var G__49011 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.specs","make-hiccup","app.specs/make-hiccup",2016545993,null));
-var fexpr__49009 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__49009.cljs$core$IFn$_invoke$arity$2 ? fexpr__49009.cljs$core$IFn$_invoke$arity$2(G__49010,G__49011) : fexpr__49009.call(null,G__49010,G__49011));
+var G__49582 = type__40451__auto__;
+var G__49583 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.specs","make-hiccup","app.specs/make-hiccup",2016545993,null));
+var fexpr__49581 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49581.cljs$core$IFn$_invoke$arity$2 ? fexpr__49581.cljs$core$IFn$_invoke$arity$2(G__49582,G__49583) : fexpr__49581.call(null,G__49582,G__49583));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"string","string",-1989541586)], null),app.specs.Hiccup], null))], null),app.specs.make_hiccup));
 
 console.log("..instrumented",new cljs.core.Symbol("app.specs","make-hiccup","app.specs/make-hiccup",2016545993,null));
@@ -3197,10 +3197,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.core.get_vars = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__49013 = type__40451__auto__;
-var G__49014 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.core","get-vars","app.core/get-vars",920733976,null));
-var fexpr__49012 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__49012.cljs$core$IFn$_invoke$arity$2 ? fexpr__49012.cljs$core$IFn$_invoke$arity$2(G__49013,G__49014) : fexpr__49012.call(null,G__49013,G__49014));
+var G__49585 = type__40451__auto__;
+var G__49586 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.core","get-vars","app.core/get-vars",920733976,null));
+var fexpr__49584 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49584.cljs$core$IFn$_invoke$arity$2 ? fexpr__49584.cljs$core$IFn$_invoke$arity$2(G__49585,G__49586) : fexpr__49584.call(null,G__49585,G__49586));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),app.csv_data_processing.DatedRow], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.Keyword(null,"keyword","keyword",811389747)], null)], null))], null),app.core.get_vars));
 
 console.log("..instrumented",new cljs.core.Symbol("app.core","get-vars","app.core/get-vars",920733976,null));
@@ -3213,10 +3213,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.comparison_matrix_table.make_comparison_matrix_data = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__49016 = type__40451__auto__;
-var G__49017 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.comparison-matrix-table","make-comparison-matrix-data","app.comparison-matrix-table/make-comparison-matrix-data",699980707,null));
-var fexpr__49015 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__49015.cljs$core$IFn$_invoke$arity$2 ? fexpr__49015.cljs$core$IFn$_invoke$arity$2(G__49016,G__49017) : fexpr__49015.call(null,G__49016,G__49017));
+var G__49588 = type__40451__auto__;
+var G__49589 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.comparison-matrix-table","make-comparison-matrix-data","app.comparison-matrix-table/make-comparison-matrix-data",699980707,null));
+var fexpr__49587 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49587.cljs$core$IFn$_invoke$arity$2 ? fexpr__49587.cljs$core$IFn$_invoke$arity$2(G__49588,G__49589) : fexpr__49587.call(null,G__49588,G__49589));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),app.stats.PairwiseCorrelationsLite,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"keyword","keyword",811389747),app.single_var_table.OneToManyCorrelation], null),new cljs.core.Keyword(null,"any","any",1705907423)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.Keyword(null,"map","map",1371690461)], null)], null))], null),app.comparison_matrix_table.make_comparison_matrix_data));
 
 console.log("..instrumented",new cljs.core.Symbol("app.comparison-matrix-table","make-comparison-matrix-data","app.comparison-matrix-table/make-comparison-matrix-data",699980707,null));
@@ -3229,10 +3229,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.comparison_matrix_table.add_aggregates = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__49019 = type__40451__auto__;
-var G__49020 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.comparison-matrix-table","add-aggregates","app.comparison-matrix-table/add-aggregates",-1751431577,null));
-var fexpr__49018 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__49018.cljs$core$IFn$_invoke$arity$2 ? fexpr__49018.cljs$core$IFn$_invoke$arity$2(G__49019,G__49020) : fexpr__49018.call(null,G__49019,G__49020));
+var G__49591 = type__40451__auto__;
+var G__49592 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.comparison-matrix-table","add-aggregates","app.comparison-matrix-table/add-aggregates",-1751431577,null));
+var fexpr__49590 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49590.cljs$core$IFn$_invoke$arity$2 ? fexpr__49590.cljs$core$IFn$_invoke$arity$2(G__49591,G__49592) : fexpr__49590.call(null,G__49591,G__49592));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"keyword","keyword",811389747),app.single_var_table.OneToManyCorrelation], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"any","any",1705907423)], null)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"any","any",1705907423)], null)], null))], null),app.comparison_matrix_table.add_aggregates));
 
 console.log("..instrumented",new cljs.core.Symbol("app.comparison-matrix-table","add-aggregates","app.comparison-matrix-table/add-aggregates",-1751431577,null));
@@ -3245,10 +3245,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__40453__40454__auto__,ne
 }));
 
 (app.comparison_matrix_table.get_flat_biomarker_result_keys = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__40451__auto__,data__40452__auto__){
-var G__49022 = type__40451__auto__;
-var G__49023 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.comparison-matrix-table","get-flat-biomarker-result-keys","app.comparison-matrix-table/get-flat-biomarker-result-keys",1806374466,null));
-var fexpr__49021 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__49021.cljs$core$IFn$_invoke$arity$2 ? fexpr__49021.cljs$core$IFn$_invoke$arity$2(G__49022,G__49023) : fexpr__49021.call(null,G__49022,G__49023));
+var G__49594 = type__40451__auto__;
+var G__49595 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__40452__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("app.comparison-matrix-table","get-flat-biomarker-result-keys","app.comparison-matrix-table/get-flat-biomarker-result-keys",1806374466,null));
+var fexpr__49593 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__49593.cljs$core$IFn$_invoke$arity$2 ? fexpr__49593.cljs$core$IFn$_invoke$arity$2(G__49594,G__49595) : fexpr__49593.call(null,G__49594,G__49595));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"keyword","keyword",811389747)], null),new cljs.core.Keyword(null,"boolean","boolean",-1919418404)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"any","any",1705907423)], null)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"any","any",1705907423)], null)], null))], null),app.comparison_matrix_table.get_flat_biomarker_result_keys));
 
 console.log("..instrumented",new cljs.core.Symbol("app.comparison-matrix-table","get-flat-biomarker-result-keys","app.comparison-matrix-table/get-flat-biomarker-result-keys",1806374466,null));
