@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kovasap.github.io/docs/all/</loc>
+  </url><url>
     <loc>https://kovasap.github.io/docs/climbing/breaking-point/</loc>
   </url><url>
     <loc>https://kovasap.github.io/docs/climbing/event-reports/2019-10-7-namaste-wall-zion/</loc>
@@ -135,6 +137,8 @@
     <loc>https://kovasap.github.io/docs/gamedev/gamedev-context/</loc>
   </url><url>
     <loc>https://kovasap.github.io/docs/gamedev/mechanic-ideas/character-alignment/</loc>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/gamedev/mechanic-ideas/clairvoyant-turn-based-tactics/</loc>
   </url><url>
     <loc>https://kovasap.github.io/docs/gamedev/mechanic-ideas/limiting-collaboration/</loc>
   </url><url>
@@ -285,6 +289,8 @@
     <loc>https://kovasap.github.io/docs/mind/things-to-do-when-unmotivated/</loc>
   </url><url>
     <loc>https://kovasap.github.io/docs/mind/working-with-others/</loc>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/morality/altruism/</loc>
   </url><url>
     <loc>https://kovasap.github.io/docs/morality/cancelling-high-contributors/</loc>
   </url><url>
