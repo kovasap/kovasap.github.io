@@ -21,7 +21,7 @@ An interesting anecdote about GCM learnings can be found at https://medium." />
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.93b305d2c58c4f77a22b40aa22298306ac85a19d991c3cadf2465c0ccef7ae72.css" integrity="sha256-k7MF0sWMT3eiK0CqIimDBqyFoZ2ZHDyt8kZcDM73rnI=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.186d1d31e9ab679b90bdfbcaf28da2a1f63975b6be8699fc45a5b98e937a33fa.js" integrity="sha256-GG0dMemrZ5uQvfvK8o2iofY5dba&#43;hpn8RaW5jpN6M/o=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.8ec59a7b7dc985ab43732467e98a8b173a6ccf41002f1ad51453a54bad5e4c1c.js" integrity="sha256-jsWae33JhatDcyRn6YqLFzpsz0EALxrVFFOlS61eTBw=" crossorigin="anonymous"></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -53,7 +53,10 @@ https://github.com/alex-shpak/hugo-book
         path_elements.forEach(
             element => {
                 console.log(element);
-                document.getElementById(element).open = true;
+                var page_element = document.getElementById(element);
+                if (page_element !== null) {
+                    page_element.open = true;
+                }
             });
         
         
@@ -198,7 +201,9 @@ shaded background in the plot).</p>
 line: <code>poetry run report_generator --start_date=2021-04-09 --end_date=2021-04-22</code>. This code uses <a href="https://plotly.com/python/">plotly</a> to
 do its visualization.</p>
 <p><strong><a href="/cgm-data.html">The data visualization can be found here!</a></strong></p>
-<p>Categories: <a href="/docs/all/?Health-And-Longevity=true">Health And Longevity</a></p>
+<p>Categories: <a href="/?Health-And-Longevity=true">Health And Longevity</a></p>
+<p>Backlinks: <a href="/docs/health-and-longevity/tracking-health/">Tracking Health</a>,
+<a href="/docs/lifelogging/what-and-why/">What And Why</a>,</p>
 </article>
  
       

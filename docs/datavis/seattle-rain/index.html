@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Rain in Seattle #  As I&rsquo;ve experience Seattle weather day to day, my mind has come up with random theories for periods of the day (morning, afternoon) when it rains the most/least. This is important to me enough to think about because I commute by bike. Dodging the rain is really nice when possible so that I don&rsquo;t get as wet on the way to work.
+<meta name="description" content="Rain in Seattle #  As I&rsquo;ve experienced Seattle weather day to day, my mind has come up with random theories for periods of the day (morning, afternoon) when it rains the most/least. This is important to me enough to think about because I commute by bike. Dodging the rain is really nice when possible so that I don&rsquo;t get as wet on the way to work.
 Unfortunately, there doesn&rsquo;t seem to be much correlation at all with time of day and precipitation.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
-<meta property="og:description" content="Rain in Seattle #  As I&rsquo;ve experience Seattle weather day to day, my mind has come up with random theories for periods of the day (morning, afternoon) when it rains the most/least. This is important to me enough to think about because I commute by bike. Dodging the rain is really nice when possible so that I don&rsquo;t get as wet on the way to work.
+<meta property="og:description" content="Rain in Seattle #  As I&rsquo;ve experienced Seattle weather day to day, my mind has come up with random theories for periods of the day (morning, afternoon) when it rains the most/least. This is important to me enough to think about because I commute by bike. Dodging the rain is really nice when possible so that I don&rsquo;t get as wet on the way to work.
 Unfortunately, there doesn&rsquo;t seem to be much correlation at all with time of day and precipitation." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://kovasap.github.io/docs/datavis/seattle-rain/" /><meta property="article:section" content="docs" />
@@ -19,7 +19,7 @@ Unfortunately, there doesn&rsquo;t seem to be much correlation at all with time 
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.93b305d2c58c4f77a22b40aa22298306ac85a19d991c3cadf2465c0ccef7ae72.css" integrity="sha256-k7MF0sWMT3eiK0CqIimDBqyFoZ2ZHDyt8kZcDM73rnI=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.186d1d31e9ab679b90bdfbcaf28da2a1f63975b6be8699fc45a5b98e937a33fa.js" integrity="sha256-GG0dMemrZ5uQvfvK8o2iofY5dba&#43;hpn8RaW5jpN6M/o=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.8ec59a7b7dc985ab43732467e98a8b173a6ccf41002f1ad51453a54bad5e4c1c.js" integrity="sha256-jsWae33JhatDcyRn6YqLFzpsz0EALxrVFFOlS61eTBw=" crossorigin="anonymous"></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -53,7 +53,10 @@ https://github.com/alex-shpak/hugo-book
         path_elements.forEach(
             element => {
                 console.log(element);
-                document.getElementById(element).open = true;
+                var page_element = document.getElementById(element);
+                if (page_element !== null) {
+                    page_element.open = true;
+                }
             });
         
         
@@ -175,7 +178,7 @@ https://github.com/alex-shpak/hugo-book
   Rain in Seattle
   <a class="anchor" href="#rain-in-seattle">#</a>
 </h1>
-<p>As I&rsquo;ve experience Seattle weather day to day, my mind has come up with random
+<p>As I&rsquo;ve experienced Seattle weather day to day, my mind has come up with random
 theories for periods of the day (morning, afternoon) when it rains the
 most/least. This is important to me enough to think about because I commute by
 bike. Dodging the rain is really nice when possible so that I don&rsquo;t get as wet
@@ -231,7 +234,8 @@ Plotly.d3.json("/USC00452675.15m.2000-2021.csv.json", function(err, fig) {
 </script>
 
 <p>&hellip;and everything averaged out 😦.</p>
-<p>Categories: <a href="/docs/all/?Datavis=true">Datavis</a></p>
+<p>Categories: <a href="/?Datavis=true">Datavis</a></p>
+<p>Backlinks:</p>
 </article>
  
       

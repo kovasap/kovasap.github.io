@@ -19,7 +19,7 @@
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.93b305d2c58c4f77a22b40aa22298306ac85a19d991c3cadf2465c0ccef7ae72.css" integrity="sha256-k7MF0sWMT3eiK0CqIimDBqyFoZ2ZHDyt8kZcDM73rnI=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.186d1d31e9ab679b90bdfbcaf28da2a1f63975b6be8699fc45a5b98e937a33fa.js" integrity="sha256-GG0dMemrZ5uQvfvK8o2iofY5dba&#43;hpn8RaW5jpN6M/o=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.8ec59a7b7dc985ab43732467e98a8b173a6ccf41002f1ad51453a54bad5e4c1c.js" integrity="sha256-jsWae33JhatDcyRn6YqLFzpsz0EALxrVFFOlS61eTBw=" crossorigin="anonymous"></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -51,7 +51,10 @@ https://github.com/alex-shpak/hugo-book
         path_elements.forEach(
             element => {
                 console.log(element);
-                document.getElementById(element).open = true;
+                var page_element = document.getElementById(element);
+                if (page_element !== null) {
+                    page_element.open = true;
+                }
             });
         
         
@@ -161,21 +164,27 @@ https://github.com/alex-shpak/hugo-book
     <li><a href="#actionable-tips-to-improve-code">Actionable Tips to Improve Code</a></li>
     <li><a href="#ad-free-youtube-viewing">Ad-Free YouTube Viewing</a></li>
     <li><a href="#aging-science">Aging Science</a></li>
+    <li><a href="#altruism">Altruism</a></li>
     <li><a href="#android-apps">Android Apps</a></li>
+    <li><a href="#apex-legends">Apex Legends</a></li>
     <li><a href="#applying-theories">Applying Theories</a></li>
     <li><a href="#artificial-intelligence">Artificial Intelligence</a></li>
     <li><a href="#auto-input-data-collection">Auto Input Data Collection</a></li>
     <li><a href="#avoiding-accidents">Avoiding Accidents</a></li>
+    <li><a href="#bananagrams">Bananagrams</a></li>
+    <li><a href="#beat-saber">Beat Saber</a></li>
     <li><a href="#behavior-change">Behavior Change</a></li>
     <li><a href="#bike-commuting">Bike Commuting</a></li>
     <li><a href="#benefits">Benefits&hellip;</a></li>
     <li><a href="#biomarker-correlator">Biomarker Correlator</a></li>
     <li><a href="#brain-juice">Brain Juice</a></li>
+    <li><a href="#browsing-hacker-news">Browsing Hacker News</a></li>
     <li><a href="#buying-pc-games">Buying PC Games</a></li>
     <li><a href="#cancelling-highly-productive-people">Cancelling Highly Productive People</a></li>
     <li><a href="#causes-of-death">Causes of Death</a></li>
     <li><a href="#character-alignment-visualization">Character Alignment Visualization</a></li>
     <li><a href="#chess">Chess</a></li>
+    <li><a href="#chess-1">Chess</a></li>
     <li><a href="#choosing-a-language">Choosing a Language</a></li>
     <li><a href="#chronic-stress">Chronic Stress</a></li>
     <li><a href="#circadian-rhythm">Circadian Rhythm</a></li>
@@ -183,15 +192,21 @@ https://github.com/alex-shpak/hugo-book
     <li><a href="#climbing-media">Climbing Media</a></li>
     <li><a href="#climbing-resources">Climbing Resources</a></li>
     <li><a href="#climbing-safety-checklist">Climbing Safety Checklist</a></li>
+    <li><a href="#cod-mw2">CoD: MW2</a></li>
+    <li><a href="#comparing-prices">Comparing prices</a></li>
     <li><a href="#contentment-and-satisfaction">Contentment and Satisfaction</a></li>
     <li><a href="#continuous-glucose-monitoring">Continuous Glucose Monitoring</a></li>
     <li><a href="#cooking">Cooking</a></li>
+    <li><a href="#copyright-and-ip">Copyright and IP</a></li>
     <li><a href="#core-first-person-shooter-fps-principles">Core First Person Shooter (FPS) Principles</a></li>
     <li><a href="#creativity">Creativity</a></li>
     <li><a href="#dna-testing">DNA Testing</a></li>
+    <li><a href="#dead-of-winter">Dead of Winter</a></li>
     <li><a href="#deltal-health">Deltal Health</a></li>
     <li><a href="#desires-and-deprivation">Desires and Deprivation</a></li>
     <li><a href="#doom-and-how-to-avoid-it">Doom, and how to avoid it</a></li>
+    <li><a href="#drafting-magic-the-gathering">Drafting Magic: The Gathering</a></li>
+    <li><a href="#dvorak">Dvorak</a></li>
     <li><a href="#efficiency-and-morality">Efficiency and Morality</a></li>
     <li><a href="#exercise">Exercise</a></li>
     <li><a href="#expected-returns-for-buying-a-house">Expected Returns for Buying a House</a></li>
@@ -226,12 +241,14 @@ https://github.com/alex-shpak/hugo-book
     <li><a href="#judging-art">Judging Art</a></li>
     <li><a href="#judging-decisions">Judging Decisions</a></li>
     <li><a href="#keyboard-city-builder">Keyboard City Builder</a></li>
+    <li><a href="#lead-climbing-in-a-gym">Lead Climbing in a Gym</a></li>
     <li><a href="#life-advice">Life Advice</a></li>
     <li><a href="#life-quests">Life Quests</a></li>
     <li><a href="#lifelogging">Lifelogging</a></li>
     <li><a href="#lifelogging-with-a-camera">Lifelogging with a Camera</a></li>
     <li><a href="#limiting-collaboration">Limiting Collaboration</a></li>
     <li><a href="#listening-to-books">Listening to Books</a></li>
+    <li><a href="#making-small-web-apps-in-clojurescript-with-reagent">Making Small Web Apps in ClojureScript with Reagent</a></li>
     <li><a href="#mile-high-club">Mile High Club</a></li>
     <li><a href="#mind-mapping-concept">Mind Mapping Concept</a></li>
     <li><a href="#minimizing-ui-friction-in-turn-based-tactics-games">Minimizing UI Friction in Turn Based Tactics Games</a></li>
@@ -251,21 +268,28 @@ https://github.com/alex-shpak/hugo-book
     <li><a href="#namaste-wall---zion-national-park">Namaste Wall - Zion National Park</a></li>
     <li><a href="#notes-on-notetaking">Notes on Notetaking</a></li>
     <li><a href="#oxygen-not-included">Oxygen Not Included</a></li>
+    <li><a href="#pathfinder-kingmaker">Pathfinder Kingmaker</a></li>
     <li><a href="#patterned-code">Patterned Code</a></li>
     <li><a href="#personal-manifesto">Personal Manifesto</a></li>
     <li><a href="#personal-specific-food-notes">Personal Specific Food Notes</a></li>
     <li><a href="#physical-breaking-point">Physical &ldquo;Breaking Point&rdquo;</a></li>
+    <li><a href="#pillars-of-eternity-2">Pillars of Eternity 2</a></li>
     <li><a href="#politics">Politics</a></li>
+    <li><a href="#potential-life-missions">Potential Life Missions</a></li>
     <li><a href="#productive-conversations">Productive Conversations</a></li>
     <li><a href="#rain-in-seattle">Rain in Seattle</a></li>
+    <li><a href="#rainbow-6-siege">Rainbow 6: Siege</a></li>
     <li><a href="#random-ideas">Random Ideas</a></li>
     <li><a href="#recommendations">Recommendations</a></li>
     <li><a href="#reddit-comment-tree">Reddit Comment Tree</a></li>
+    <li><a href="#redditing">Redditing</a></li>
     <li><a href="#right-to-risk">Right to Risk</a></li>
     <li><a href="#rogue-like-base-builder-concept">Rogue-like Base Builder Concept</a></li>
     <li><a href="#sens">SENS</a></li>
     <li><a href="#safe-building-designer">Safe Building Designer</a></li>
+    <li><a href="#skyrim">Skyrim</a></li>
     <li><a href="#sleep">Sleep</a></li>
+    <li><a href="#social-games">Social Games</a></li>
     <li><a href="#solving-societal-problems">Solving Societal Problems</a></li>
     <li><a href="#states-of-mind">States of Mind</a></li>
     <li><a href="#task-tracking">Task Tracking</a></li>
@@ -280,7 +304,36 @@ https://github.com/alex-shpak/hugo-book
     <li><a href="#utilizing-the-state-of-your-body">Utilizing the State of your Body</a></li>
     <li><a href="#vim-tricks">Vim Tricks</a></li>
     <li><a href="#searchreplace">Search/Replace&hellip;</a></li>
-    <li><a href="#what-to-believe">What to Believe</a>
+    <li><a href="#watching-gothamchess">Watching GothamChess</a></li>
+    <li><a href="#watching-inside-out">Watching Inside Out</a></li>
+    <li><a href="#watching-spiderman-into-the-spider-verse">Watching Spiderman: Into the Spider-Verse</a></li>
+    <li><a href="#watching-the-matrix">Watching The Matrix</a></li>
+    <li><a href="#watching-educational-youtube">Watching educational YouTube</a></li>
+    <li><a href="#wavelength-or-longwavehttpslongwavewebapp">Wavelength or <a href="https://longwave.web.app/">Longwave</a></a></li>
+    <li><a href="#what-to-believe">What to Believe</a></li>
+    <li><a href="#yo-yoing">Yo-Yoing</a></li>
+    <li><a href="#age-of-darkness-final-standhttpswwwageofdarknesscom"><a href="https://www.ageofdarkness.com/">Age of Darkness: Final Stand</a></a></li>
+    <li><a href="#backpack-herohttpsthejaspelitchiobackpack-hero"><a href="https://thejaspel.itch.io/backpack-hero">Backpack Hero</a></a></li>
+    <li><a href="#bad-northhttpswwwbadnorthcom"><a href="https://www.badnorth.com/">Bad North</a></a></li>
+    <li><a href="#battle-brothershttpbattlebrothersgamecom"><a href="http://battlebrothersgame.com/">Battle Brothers</a></a></li>
+    <li><a href="#bike-commutinghttpskovasapgithubiodocslifestyle-optimizationsbike-commuting"><a href="https://kovasap.github.io/docs/lifestyle-optimizations/bike-commuting/">Bike Commuting</a></a></li>
+    <li><a href="#codenameshttpscodenamesgame"><a href="https://codenames.game/">Codenames</a></a></li>
+    <li><a href="#dat-creativityhttpswwwdatcreativitycom"><a href="https://www.datcreativity.com/">DAT Creativity</a></a></li>
+    <li><a href="#darkest-dungeonhttpsenwikipediaorgwikidarkest_dungeon"><a href="https://en.wikipedia.org/wiki/Darkest_Dungeon">Darkest Dungeon</a></a></li>
+    <li><a href="#fell-seal---arbiters-markhttpswwwfellsealcom"><a href="https://www.fellseal.com/">Fell Seal - Arbiter&rsquo;s Mark</a></a></li>
+    <li><a href="#fire-emblem-7--8httpsenwikipediaorgwikifire_emblem_video_game29">[Fire Emblem 7 &amp; 8](<a href="https://en.wikipedia.org/wiki/Fire_Emblem_(video_game%29)">https://en.wikipedia.org/wiki/Fire_Emblem_(video_game%29)</a></a></li>
+    <li><a href="#iron-dangerhttpsstoresteampoweredcomapp899310iron_danger"><a href="https://store.steampowered.com/app/899310/Iron_Danger/">Iron Danger</a></a></li>
+    <li><a href="#islandershttpsenwikipediaorgwikiislanders_video_game29">[Islanders](<a href="https://en.wikipedia.org/wiki/Islanders_(video_game%29)">https://en.wikipedia.org/wiki/Islanders_(video_game%29)</a></a></li>
+    <li><a href="#opus-magnumhttpsstoresteampoweredcomapp558990opus_magnum"><a href="https://store.steampowered.com/app/558990/Opus_Magnum/">Opus Magnum</a></a></li>
+    <li><a href="#overwatchhttpsenwikipediaorgwikioverwatch_video_game29">[Overwatch](<a href="https://en.wikipedia.org/wiki/Overwatch_(video_game%29)">https://en.wikipedia.org/wiki/Overwatch_(video_game%29)</a></a></li>
+    <li><a href="#puzzgridhttpspuzzgridcombestphp"><a href="https://puzzgrid.com/best.php">Puzzgrid</a></a></li>
+    <li><a href="#quordlehttpswwwquordlecom"><a href="https://www.quordle.com/#/">Quordle</a></a></li>
+    <li><a href="#semantlehttpssemantlenovalisorg"><a href="https://semantle.novalis.org/">Semantle</a></a></li>
+    <li><a href="#slipwayshttpsslipwaysnet"><a href="https://slipways.net/">Slipways</a></a></li>
+    <li><a href="#the-witnesshttpsstoresteampoweredcomapp210970the_witness"><a href="https://store.steampowered.com/app/210970/The_Witness/">The Witness</a></a></li>
+    <li><a href="#three-worlds-collidehttpswwwlesswrongcompostshawfh7rvdm4ryoj2dthree-worlds-collide-0-8"><a href="https://www.lesswrong.com/posts/HawFh7RvDM4RyoJ2d/three-worlds-collide-0-8">Three Worlds Collide</a></a></li>
+    <li><a href="#wordlehttpswwwnytimescomgameswordleindexhtml"><a href="https://www.nytimes.com/games/wordle/index.html">Wordle</a></a></li>
+    <li><a href="#xcom-2--war-of-the-chosenhttpsenwikipediaorgwikixcom_2"><a href="https://en.wikipedia.org/wiki/XCOM_2">XCOM 2 + War of the Chosen</a></a>
       <ul>
         <li><a href="#influences-3">Influences</a></li>
       </ul>
@@ -348,11 +401,23 @@ offline&hellip;.</p>
   <a class="anchor" href="#aging-science">#</a>
 </h2>
 <p>&hellip;</p>
+<h2 id="altruism">
+  Altruism
+  <a class="anchor" href="#altruism">#</a>
+</h2>
+<ul>
+<li>Good examination of effective altruism: <a href="https://michaelnotebook.com/eanotes/">https://michaelnotebook.com/eanotes/</a>&hellip;</li>
+</ul>
 <h2 id="android-apps">
   Android Apps
   <a class="anchor" href="#android-apps">#</a>
 </h2>
 <p>&hellip;</p>
+<h2 id="apex-legends">
+  Apex Legends
+  <a class="anchor" href="#apex-legends">#</a>
+</h2>
+<p>A fast-paced first person shooter video game. Has extremely good art direction, smooth gameplay, and balanced mechanics&hellip;.</p>
 <h2 id="applying-theories">
   Applying Theories
   <a class="anchor" href="#applying-theories">#</a>
@@ -383,6 +448,16 @@ function&hellip;.</p>
 </h2>
 <p>Accidents are a common cause of death (ranked 3rd, 6% of total deaths in 2019).
 These further break down into categories:&hellip;</p>
+<h2 id="bananagrams">
+  Bananagrams
+  <a class="anchor" href="#bananagrams">#</a>
+</h2>
+<p>One fun variant is to open a book in text format with some program that can search text and make it so that you can only use words that exist in that book&hellip;.</p>
+<h2 id="beat-saber">
+  Beat Saber
+  <a class="anchor" href="#beat-saber">#</a>
+</h2>
+<p>Playing the VR rhythm game beat saber&hellip;.</p>
 <h2 id="behavior-change">
   Behavior Change
   <a class="anchor" href="#behavior-change">#</a>
@@ -414,6 +489,11 @@ mind feels tired after making lots of new connections (learning new things) and
 especially when critically re-validating my existing connections. It also feels
 tired when doing the same thing many times, even if that thing is a simple
 expression of a deeply ingrained skill&hellip;.</p>
+<h2 id="browsing-hacker-news">
+  Browsing Hacker News
+  <a class="anchor" href="#browsing-hacker-news">#</a>
+</h2>
+<p>Like browsing reddit&hellip;.</p>
 <h2 id="buying-pc-games">
   Buying PC Games
   <a class="anchor" href="#buying-pc-games">#</a>
@@ -448,6 +528,11 @@ color aura&hellip;.</p>
   <a class="anchor" href="#chess">#</a>
 </h2>
 <p>I play my chess on <a href="https://www.lichess.org">lichess.org</a>, which has a great UI and cool analysis features&hellip;.</p>
+<h2 id="chess-1">
+  Chess
+  <a class="anchor" href="#chess-1">#</a>
+</h2>
+<p>I&rsquo;ve found lichess.org is a great place to play&hellip;.</p>
 <h2 id="choosing-a-language">
   Choosing a Language
   <a class="anchor" href="#choosing-a-language">#</a>
@@ -499,6 +584,16 @@ Gawande.  This book makes the strong point that human beings are not inherently
 perfectly disciplined, and will inevitably cut corners when doing a task many
 times.  This is especially true when the corners that are cut are usually not
 important, even if sometimes they are crucially so&hellip;.</p>
+<h2 id="cod-mw2">
+  CoD: MW2
+  <a class="anchor" href="#cod-mw2">#</a>
+</h2>
+<p>This game was trash but at least it let me <a href="https://www.youtube.com/watch?v=fx1vtMZCFvI&amp;ab_channel=s1lentProtector">make a YouTube video with 160k views</a>&hellip;.</p>
+<h2 id="comparing-prices">
+  Comparing prices
+  <a class="anchor" href="#comparing-prices">#</a>
+</h2>
+<p>When buying a good or service, comparing many alternatives to find the best price. For example, looking at the price per pound of various grocery items and picking the one with the lowest price&hellip;.</p>
 <h2 id="contentment-and-satisfaction">
   Contentment and Satisfaction
   <a class="anchor" href="#contentment-and-satisfaction">#</a>
@@ -519,6 +614,11 @@ lot of info that can be gleaned from this kind of data&hellip;.</p>
   <a class="anchor" href="#cooking">#</a>
 </h2>
 <p>&hellip;</p>
+<h2 id="copyright-and-ip">
+  Copyright and IP
+  <a class="anchor" href="#copyright-and-ip">#</a>
+</h2>
+<p>TODO finish this piece&hellip;.</p>
 <h2 id="core-first-person-shooter-fps-principles">
   Core First Person Shooter (FPS) Principles
   <a class="anchor" href="#core-first-person-shooter-fps-principles">#</a>
@@ -538,6 +638,13 @@ something - or point out flaws in my reasoning so I can get better!&hellip;</p>
 <p>It seems like AncestryDNA gives the biggest bang-for-buck in terms of SNPs to
 analyze via promethease or foundmyfitness based on
 <a href="https://geneticgenie.org/article/best-dna-raw-data-23andme-ancestrydna-or-myheritage/">https://geneticgenie.org/article/best-dna-raw-data-23andme-ancestrydna-or-myheritage/</a>&hellip;.</p>
+<h2 id="dead-of-winter">
+  Dead of Winter
+  <a class="anchor" href="#dead-of-winter">#</a>
+</h2>
+<p>A cooperative strategy board game that doesn&rsquo;t require too much inter-player
+planning (see <a href="/docs/gamedev/mechanic-ideas/limiting-collaboration/">Limiting Collaboration</a> for why this can
+be a problem).  Has a couple cool mechanics that I really enjoyed playing with:&hellip;</p>
 <h2 id="deltal-health">
   Deltal Health
   <a class="anchor" href="#deltal-health">#</a>
@@ -553,6 +660,18 @@ analyze via promethease or foundmyfitness based on
   <a class="anchor" href="#doom-and-how-to-avoid-it">#</a>
 </h2>
 <p>&hellip;</p>
+<h2 id="drafting-magic-the-gathering">
+  Drafting Magic: The Gathering
+  <a class="anchor" href="#drafting-magic-the-gathering">#</a>
+</h2>
+<p>My first experience was &rsquo;that complex card game that older kids played&rsquo; when I was very young. Faintly remember that I specifically thought the lands were really cool, have specific memory of the plains. Started playing first from a friend&rsquo;s cube (a collection of cards you can draft decks from and then play each other in a tournament style). Was pretty intense/overwhelming at first, but in a good way. Since have played a bunch on MTG: Arena, a very polished computer interface to the game. &hellip;</p>
+<h2 id="dvorak">
+  Dvorak
+  <a class="anchor" href="#dvorak">#</a>
+</h2>
+<ul>
+<li>Key frequency visualization: <a href="https://www.keybr.com/layouts">https://www.keybr.com/layouts</a>&hellip;</li>
+</ul>
 <h2 id="efficiency-and-morality">
   Efficiency and Morality
   <a class="anchor" href="#efficiency-and-morality">#</a>
@@ -784,6 +903,11 @@ tracking all life events similar to my autojournal&hellip;.</li>
 <p>A city builder/strategy game where the map is a keyboard And buildings are
 built on keys.  Then when you hit that key the building does something. Hitting
 the key with shift/ctrl/other modifiers will change the action type&hellip;.</p>
+<h2 id="lead-climbing-in-a-gym">
+  Lead Climbing in a Gym
+  <a class="anchor" href="#lead-climbing-in-a-gym">#</a>
+</h2>
+<p>Clipping quickdraws on the way up a climbing route in a gym&hellip;.</p>
 <h2 id="life-advice">
   Life Advice
   <a class="anchor" href="#life-advice">#</a>
@@ -818,7 +942,8 @@ characters, in reality what happens is that the playgroup as a whole decides on
 the best move that everyone should take. Then everyone just makes the agreed
 upon move. This effectively turns a &ldquo;multiplayer&rdquo; game into a complex &ldquo;single
 player&rdquo; experience, where the single player is a group trying to come to
-consensus&hellip;.</p>
+consensus. Another way to say this is that the game starts getting <strong>&ldquo;played by
+committee&rdquo;</strong>&hellip;.</p>
 <h2 id="listening-to-books">
   Listening to Books
   <a class="anchor" href="#listening-to-books">#</a>
@@ -828,6 +953,11 @@ entertainment. Unfortunately, many books do not have audiobook versions.
 Luckily, it&rsquo;s fairly easy to use text-to-speech engines to convert the text of
 e books into audio.  See tools in this repo:
 <a href="https://github.com/kovasap/pico-read-speaker">https://github.com/kovasap/pico-read-speaker</a>&hellip;</p>
+<h2 id="making-small-web-apps-in-clojurescript-with-reagent">
+  Making Small Web Apps in ClojureScript with Reagent
+  <a class="anchor" href="#making-small-web-apps-in-clojurescript-with-reagent">#</a>
+</h2>
+<p>See title :)&hellip;</p>
 <h2 id="mile-high-club">
   Mile High Club
   <a class="anchor" href="#mile-high-club">#</a>
@@ -936,6 +1066,11 @@ things&hellip;.</p>
 </h2>
 <p>A cool base building game with a focus on designing complex interacting
 systems&hellip;.</p>
+<h2 id="pathfinder-kingmaker">
+  Pathfinder Kingmaker
+  <a class="anchor" href="#pathfinder-kingmaker">#</a>
+</h2>
+<p>&hellip;</p>
 <h2 id="patterned-code">
   Patterned Code
   <a class="anchor" href="#patterned-code">#</a>
@@ -963,11 +1098,22 @@ or really consistent at all.  There are some days where I can crush hard route
 after hard route, and it feels like each new hard ascent makes me feel <strong>more</strong>
 energized than I was before.  Then on some days, if I fall on a route early,
 the rest of the session will be a struggle&hellip;.</p>
+<h2 id="pillars-of-eternity-2">
+  Pillars of Eternity 2
+  <a class="anchor" href="#pillars-of-eternity-2">#</a>
+</h2>
+<p>Helpful commands for reclassing companions:&hellip;</p>
 <h2 id="politics">
   Politics
   <a class="anchor" href="#politics">#</a>
 </h2>
 <p>&hellip;</p>
+<h2 id="potential-life-missions">
+  Potential Life Missions
+  <a class="anchor" href="#potential-life-missions">#</a>
+</h2>
+<p>Finding a way to use my time and resources to make the world a better place is
+a goal of mine.  Here are some roads I could pursue to do that&hellip;.</p>
 <h2 id="productive-conversations">
   Productive Conversations
   <a class="anchor" href="#productive-conversations">#</a>
@@ -984,11 +1130,16 @@ resolved.  Especially don&rsquo;t counter a point with something unrelated&helli
   Rain in Seattle
   <a class="anchor" href="#rain-in-seattle">#</a>
 </h2>
-<p>As I&rsquo;ve experience Seattle weather day to day, my mind has come up with random
+<p>As I&rsquo;ve experienced Seattle weather day to day, my mind has come up with random
 theories for periods of the day (morning, afternoon) when it rains the
 most/least. This is important to me enough to think about because I commute by
 bike. Dodging the rain is really nice when possible so that I don&rsquo;t get as wet
 on the way to work&hellip;.</p>
+<h2 id="rainbow-6-siege">
+  Rainbow 6: Siege
+  <a class="anchor" href="#rainbow-6-siege">#</a>
+</h2>
+<p>Very intense and engaging game that requires a high level of focus. Everymovement made in this game produces audible sound, meaning that movement givesaway your position and makes you vulnerable. However, like in most shooters,if you proactively move to shoot at a particular point, you will still have anadvantage against someone reacting to your movement. This leads to a dynamicwhere both you and your opponent are trying to determine the location of theother without giving away their own location - once one person knows withcertainty they can simply move to attack and will have a strong advantage.This dynamic is framed by the asymmetric nature of all game modes, which haveattacking and defending sides. Attackers must move to engage the defenders,meaning that they start out disadvantaged (they are moving and making noisewhile defenders are not). To counter this, attackers all have remote controldrones that make noise when they move around. These are easily destroyed, butcan be used to determine the locations of defenders, giving attackersadvantage&hellip;.</p>
 <h2 id="random-ideas">
   Random Ideas
   <a class="anchor" href="#random-ideas">#</a>
@@ -1006,6 +1157,11 @@ executed on (yet). If you find or do one of these things let me know!&hellip;</p
 </h2>
 <p>I was curious about which Reddit comments end up getting many upvotes, so I
 made this visualization:&hellip;</p>
+<h2 id="redditing">
+  Redditing
+  <a class="anchor" href="#redditing">#</a>
+</h2>
+<p>Browsing reddit. Some good subreddits include r/AnimalsBeingDerps and r/DataIsBeautiful. Warning: can be a big time sink!&hellip;</p>
 <h2 id="right-to-risk">
   Right to Risk
   <a class="anchor" href="#right-to-risk">#</a>
@@ -1032,11 +1188,25 @@ doing so will lead to longer life&hellip;.</p>
   <a class="anchor" href="#safe-building-designer">#</a>
 </h2>
 <p>Game goes in two phases: the build phase and the run phase. &hellip;</p>
+<h2 id="skyrim">
+  Skyrim
+  <a class="anchor" href="#skyrim">#</a>
+</h2>
+<p>Best played with mods: <a href="https://drive.google.com/drive/folders/1ekiDIGgRXa7bplPzls803Y0dYBrP53tz?usp=sharing">https://drive.google.com/drive/folders/1ekiDIGgRXa7bplPzls803Y0dYBrP53tz?usp=sharing</a>&hellip;</p>
 <h2 id="sleep">
   Sleep
   <a class="anchor" href="#sleep">#</a>
 </h2>
 <p>Some tips and tricks that work for me to get better sleep&hellip;.</p>
+<h2 id="social-games">
+  Social Games
+  <a class="anchor" href="#social-games">#</a>
+</h2>
+<p>I used to play Team Fortress 2 on a specific server (OSU) with a list of
+regular players.  Over time I started recognizing these players, which led to a
+natural community forming. This community led to some of my most memorable
+gaming experiences, which I haven&rsquo;t been able to replicate with today&rsquo;s
+convenient but faceless matchmaking systems&hellip;.</p>
 <h2 id="solving-societal-problems">
   Solving Societal Problems
   <a class="anchor" href="#solving-societal-problems">#</a>
@@ -1109,6 +1279,36 @@ it, and it stays in said location even under a lot of force&hellip;.</p>
   Search/Replace&hellip;
   <a class="anchor" href="#searchreplace">#</a>
 </h2>
+<h2 id="watching-gothamchess">
+  Watching GothamChess
+  <a class="anchor" href="#watching-gothamchess">#</a>
+</h2>
+<p>Watching the GothamChess YouTube channel&hellip;.</p>
+<h2 id="watching-inside-out">
+  Watching Inside Out
+  <a class="anchor" href="#watching-inside-out">#</a>
+</h2>
+<p>I loved the modelling of the mind as a collection of different emotions competing for control. Really made me get invested with the main character, and made me cry when things started going poorly for her at one point. Discussing this movie might be a good way to connect with people that are otherwise fairly different. &hellip;</p>
+<h2 id="watching-spiderman-into-the-spider-verse">
+  Watching Spiderman: Into the Spider-Verse
+  <a class="anchor" href="#watching-spiderman-into-the-spider-verse">#</a>
+</h2>
+<p>Great story, cool themes about family and parenting. Also about self discovery. Quintessential all-ages kind of film&hellip;.</p>
+<h2 id="watching-the-matrix">
+  Watching The Matrix
+  <a class="anchor" href="#watching-the-matrix">#</a>
+</h2>
+<p>Watched with my Dad after being told that it would be very hard to understand. Turned out that wasn&rsquo;t true for either of us. Excellent sci-fi, where sci-fi is defined as a medium that explores how new plausible technologies would affect the world. Action/style was very compelling to. Favorite movie for many years, perhaps even still in some ways. I think the sequels are pretty good, unlike many others&hellip;.</p>
+<h2 id="watching-educational-youtube">
+  Watching educational YouTube
+  <a class="anchor" href="#watching-educational-youtube">#</a>
+</h2>
+<p>This includes watching videos from channels like <a href="https://www.youtube.com/user/1veritasium">Veritasium</a>, <a href="https://www.youtube.com/user/CGPGrey">CGP Grey</a>, and <a href="https://www.youtube.com/user/Kurzgesagt">Kurzgesagt</a>&hellip;.</p>
+<h2 id="wavelength-or-longwavehttpslongwavewebapp">
+  Wavelength or <a href="https://longwave.web.app/">Longwave</a>
+  <a class="anchor" href="#wavelength-or-longwavehttpslongwavewebapp">#</a>
+</h2>
+<p>An icebreaker-type game that revolves around guessing people&rsquo;s opinions&hellip;.</p>
 <h2 id="what-to-believe">
   What to Believe
   <a class="anchor" href="#what-to-believe">#</a>
@@ -1119,6 +1319,121 @@ easier to do this as technology becomes more and more efficient at sending data
 around the world.  Unfortunately, simply gathering information is not enough;
 one must also make sure that the information is of high enough quality to use
 in world modelling or decision making&hellip;.</p>
+<h2 id="yo-yoing">
+  Yo-Yoing
+  <a class="anchor" href="#yo-yoing">#</a>
+</h2>
+<p>Playing with a yo-yo, and learning new tricks for it&hellip;.</p>
+<h2 id="age-of-darkness-final-standhttpswwwageofdarknesscom">
+  <a href="https://www.ageofdarkness.com/">Age of Darkness: Final Stand</a>
+  <a class="anchor" href="#age-of-darkness-final-standhttpswwwageofdarknesscom">#</a>
+</h2>
+<p>A real-time-with-pause strategy game with excellent art. &hellip;</p>
+<h2 id="backpack-herohttpsthejaspelitchiobackpack-hero">
+  <a href="https://thejaspel.itch.io/backpack-hero">Backpack Hero</a>
+  <a class="anchor" href="#backpack-herohttpsthejaspelitchiobackpack-hero">#</a>
+</h2>
+<p>A cool rougelike game about arranging a grid inventory optimally&hellip;.</p>
+<h2 id="bad-northhttpswwwbadnorthcom">
+  <a href="https://www.badnorth.com/">Bad North</a>
+  <a class="anchor" href="#bad-northhttpswwwbadnorthcom">#</a>
+</h2>
+<p>&hellip;</p>
+<h2 id="battle-brothershttpbattlebrothersgamecom">
+  <a href="http://battlebrothersgame.com/">Battle Brothers</a>
+  <a class="anchor" href="#battle-brothershttpbattlebrothersgamecom">#</a>
+</h2>
+<p>Good tactical RPG set in a low fantasy world. Lots of character customization via different weapon types, and stat/perk assignment on level up. Not to mention the starting stats given to each character. Unfortunately, the randomness in this game will lead to characters dying, so if you want to preserve specific characters get ready to save and load a lot :). This game is pretty hard and doesn&rsquo;t necessarily give you direct feedback as to why you are failing. The combat uses randomness pretty heavily to determine hit/miss/crit (head hit) chance, which means that the consequences of your actions are &lsquo;fuzzed&rsquo; - good decisions will sometimes be punished, and bad ones you will sometimes get away with. This means that it&rsquo;s tricky to personally track if your strategy is working without a decent time investment for each strategy you are trying&hellip;.</p>
+<h2 id="bike-commutinghttpskovasapgithubiodocslifestyle-optimizationsbike-commuting">
+  <a href="https://kovasap.github.io/docs/lifestyle-optimizations/bike-commuting/">Bike Commuting</a>
+  <a class="anchor" href="#bike-commutinghttpskovasapgithubiodocslifestyle-optimizationsbike-commuting">#</a>
+</h2>
+<p>Using a bike to fulfill daily transportation needs. Best with combined with audiobooks or podcasts&hellip;.</p>
+<h2 id="codenameshttpscodenamesgame">
+  <a href="https://codenames.game/">Codenames</a>
+  <a class="anchor" href="#codenameshttpscodenamesgame">#</a>
+</h2>
+<p>One variant worth trying is trying to play with pictures instead of words on the main board. A stand-alone game (Codenames Pictures) exists for this, but it&rsquo;s also fun to try using custom pictures. For instance, the dream cards from Mysterium led to a pretty fun game. Note that <a href="https://codenames-pictures.dport.me/">this site</a> looks like it allows you to do this in a virtual setting&hellip;.</p>
+<h2 id="dat-creativityhttpswwwdatcreativitycom">
+  <a href="https://www.datcreativity.com/">DAT Creativity</a>
+  <a class="anchor" href="#dat-creativityhttpswwwdatcreativitycom">#</a>
+</h2>
+<p>A test about tring to come up with the most different words possible&hellip;.</p>
+<h2 id="darkest-dungeonhttpsenwikipediaorgwikidarkest_dungeon">
+  <a href="https://en.wikipedia.org/wiki/Darkest_Dungeon">Darkest Dungeon</a>
+  <a class="anchor" href="#darkest-dungeonhttpsenwikipediaorgwikidarkest_dungeon">#</a>
+</h2>
+<p>Amazing atmosphere and fun character building&hellip;.</p>
+<h2 id="fell-seal---arbiters-markhttpswwwfellsealcom">
+  <a href="https://www.fellseal.com/">Fell Seal - Arbiter&rsquo;s Mark</a>
+  <a class="anchor" href="#fell-seal---arbiters-markhttpswwwfellsealcom">#</a>
+</h2>
+<p>Really well designed game with a good story, deep character customization, and difficult encounters. This game does a great job of letting you customize your character abilities with a lot of depth, but still with enough constraints to not make every character feel the same. Then, it makes the encounters in the main story difficult, but allows you to level up your characters in &lsquo;patrol&rsquo; side-encounters in case the way you built your characters was not optimal for the main story. This is an awesome way to reward players who do a good job with their builds (they have to grind less) without forcing players into said optimal builds&hellip;.</p>
+<h2 id="fire-emblem-7--8httpsenwikipediaorgwikifire_emblem_video_game29">
+  [Fire Emblem 7 &amp; 8](<a href="https://en.wikipedia.org/wiki/Fire_Emblem_%28video_game%29%29">https://en.wikipedia.org/wiki/Fire_Emblem_(video_game%29)</a>
+  <a class="anchor" href="#fire-emblem-7--8httpsenwikipediaorgwikifire_emblem_video_game29">#</a>
+</h2>
+<p>I first played this game on the Game Boy Advance when I was in middle school.For some reason the art style and especially animation really spoke to me, andI found the gameplay loop very compelling. Fair warning though that this gamemay be on this list mostly because of nostalgia.One aspect of this game that I really enjoy is the process of building yourparty over time and making sure you train the right characters. It&rsquo;s verysatisfying to help a weaker character finish enemies to get experience with thegoal of making them a core part of your team composition later on. This isoften fairly difficult - since the characters are weaker after all - which onlyadds to the satisfaction when you pull it off.Another cool mechanic in FE is building supports between characters. When twocharacters fight side by side they will over time build a relationship, whichleads to little dialogue bites. It&rsquo;s satisfying to discover these as you playthrough the game.Both training weaker units and building supports are examples of&rsquo;meta-challenges&rsquo; in FE; they aren&rsquo;t required to finish the games, but give youself-directed and sometimes difficult optional objectives during the battles.Because these challenges are self directed they make me feel like I amexpressing myself more as a player, which makes the game feel more interestingthan if I was just solving the same battle puzzles as everyone else&hellip;.</p>
+<h2 id="iron-dangerhttpsstoresteampoweredcomapp899310iron_danger">
+  <a href="https://store.steampowered.com/app/899310/Iron_Danger/">Iron Danger</a>
+  <a class="anchor" href="#iron-dangerhttpsstoresteampoweredcomapp899310iron_danger">#</a>
+</h2>
+<p>Really cool strategy game with a cool story. Would love it if they made a sequel and/or expanded it into a bigger RPG with more customization&hellip;.</p>
+<h2 id="islandershttpsenwikipediaorgwikiislanders_video_game29">
+  [Islanders](<a href="https://en.wikipedia.org/wiki/Islanders_%28video_game%29%29">https://en.wikipedia.org/wiki/Islanders_(video_game%29)</a>
+  <a class="anchor" href="#islandershttpsenwikipediaorgwikiislanders_video_game29">#</a>
+</h2>
+<p>Cool turn based city builder made with a beautiful art style&hellip;.</p>
+<h2 id="opus-magnumhttpsstoresteampoweredcomapp558990opus_magnum">
+  <a href="https://store.steampowered.com/app/558990/Opus_Magnum/">Opus Magnum</a>
+  <a class="anchor" href="#opus-magnumhttpsstoresteampoweredcomapp558990opus_magnum">#</a>
+</h2>
+<p>Game about programming machines to build molecules&hellip;.</p>
+<h2 id="overwatchhttpsenwikipediaorgwikioverwatch_video_game29">
+  [Overwatch](<a href="https://en.wikipedia.org/wiki/Overwatch_%28video_game%29%29">https://en.wikipedia.org/wiki/Overwatch_(video_game%29)</a>
+  <a class="anchor" href="#overwatchhttpsenwikipediaorgwikioverwatch_video_game29">#</a>
+</h2>
+<p>&hellip;</p>
+<h2 id="puzzgridhttpspuzzgridcombestphp">
+  <a href="https://puzzgrid.com/best.php">Puzzgrid</a>
+  <a class="anchor" href="#puzzgridhttpspuzzgridcombestphp">#</a>
+</h2>
+<p>A game about matching ambiguous word meanings&hellip;.</p>
+<h2 id="quordlehttpswwwquordlecom">
+  <a href="https://www.quordle.com/#/">Quordle</a>
+  <a class="anchor" href="#quordlehttpswwwquordlecom">#</a>
+</h2>
+<p>A more complex form of wordle, with a higher frequency of <a href="https://www.reddit.com/r/Quordle/comments/t27irp/unfair_word_today/">BS words</a>&hellip;.</p>
+<h2 id="semantlehttpssemantlenovalisorg">
+  <a href="https://semantle.novalis.org/">Semantle</a>
+  <a class="anchor" href="#semantlehttpssemantlenovalisorg">#</a>
+</h2>
+<p>Similar to DAT Creativity, but a daily game like Wordle&hellip;.</p>
+<h2 id="slipwayshttpsslipwaysnet">
+  <a href="https://slipways.net/">Slipways</a>
+  <a class="anchor" href="#slipwayshttpsslipwaysnet">#</a>
+</h2>
+<p>A video game about colonizing planets and connecting them with trade routes&hellip;.</p>
+<h2 id="the-witnesshttpsstoresteampoweredcomapp210970the_witness">
+  <a href="https://store.steampowered.com/app/210970/The_Witness/">The Witness</a>
+  <a class="anchor" href="#the-witnesshttpsstoresteampoweredcomapp210970the_witness">#</a>
+</h2>
+<p>3-D puzzle game in a beautiful world&hellip;</p>
+<h2 id="three-worlds-collidehttpswwwlesswrongcompostshawfh7rvdm4ryoj2dthree-worlds-collide-0-8">
+  <a href="https://www.lesswrong.com/posts/HawFh7RvDM4RyoJ2d/three-worlds-collide-0-8">Three Worlds Collide</a>
+  <a class="anchor" href="#three-worlds-collidehttpswwwlesswrongcompostshawfh7rvdm4ryoj2dthree-worlds-collide-0-8">#</a>
+</h2>
+<p>Science fiction with a philosophical twist&hellip;.</p>
+<h2 id="wordlehttpswwwnytimescomgameswordleindexhtml">
+  <a href="https://www.nytimes.com/games/wordle/index.html">Wordle</a>
+  <a class="anchor" href="#wordlehttpswwwnytimescomgameswordleindexhtml">#</a>
+</h2>
+<p>A fun word game&hellip;.</p>
+<h2 id="xcom-2--war-of-the-chosenhttpsenwikipediaorgwikixcom_2">
+  <a href="https://en.wikipedia.org/wiki/XCOM_2">XCOM 2 + War of the Chosen</a>
+  <a class="anchor" href="#xcom-2--war-of-the-chosenhttpsenwikipediaorgwikixcom_2">#</a>
+</h2>
+<p>Very similar appeal to Fire Emblem. Less story focused and more focused on character customization&hellip;.</p>
 <h3 id="influences-3">
   Influences
   <a class="anchor" href="#influences-3">#</a>
@@ -1167,88 +1482,6 @@ between their pieces&hellip;.</li>
 </ul>
 </li>
 </ul>
-<p>##Apex Legends</p>
-<p>A fast-paced first person shooter video game. Has extremely good art direction, smooth gameplay, and balanced mechanics&hellip;.</p>
-<p>##Bananagrams</p>
-<p>One fun variant is to open a book in text format with some program that can search text and make it so that you can only use words that exist in that book&hellip;.</p>
-<p>##Beat Saber</p>
-<p>Playing the VR rhythm game beat saber&hellip;.</p>
-<p>##Browsing Hacker News</p>
-<p>Like browsing reddit&hellip;.</p>
-<p>##Chess</p>
-<p>I&rsquo;ve found lichess.org is a great place to play&hellip;.</p>
-<p>##CoD: MW2</p>
-<p>This game was trash but at least it let me <a href="https://www.youtube.com/watch?v=fx1vtMZCFvI&amp;ab_channel=s1lentProtector">make a YouTube video with 160k views</a>&hellip;.</p>
-<p>##Comparing prices</p>
-<p>When buying a good or service, comparing many alternatives to find the best price. For example, looking at the price per pound of various grocery items and picking the one with the lowest price&hellip;.</p>
-<p>##Drafting Magic: The Gathering</p>
-<p>My first experience was &rsquo;that complex card game that older kids played&rsquo; when I was very young. Faintly remember that I specifically thought the lands were really cool, have specific memory of the plains. Started playing first from a friend&rsquo;s cube (a collection of cards you can draft decks from and then play each other in a tournament style). Was pretty intense/overwhelming at first, but in a good way. Since have played a bunch on MTG: Arena, a very polished computer interface to the game. &hellip;</p>
-<p>##Lead Climbing in a Gym</p>
-<p>Clipping quickdraws on the way up a climbing route in a gym&hellip;.</p>
-<p>##Making Small Web Apps in ClojureScript with Reagent</p>
-<p>See title :)&hellip;</p>
-<p>##Rainbow 6: Siege</p>
-<p>Very intense and engaging game that requires a high level of focus. Everymovement made in this game produces audible sound, meaning that movement givesaway your position and makes you vulnerable. However, like in most shooters,if you proactively move to shoot at a particular point, you will still have anadvantage against someone reacting to your movement. This leads to a dynamicwhere both you and your opponent are trying to determine the location of theother without giving away their own location - once one person knows withcertainty they can simply move to attack and will have a strong advantage.This dynamic is framed by the asymmetric nature of all game modes, which haveattacking and defending sides. Attackers must move to engage the defenders,meaning that they start out disadvantaged (they are moving and making noisewhile defenders are not). To counter this, attackers all have remote controldrones that make noise when they move around. These are easily destroyed, butcan be used to determine the locations of defenders, giving attackersadvantage&hellip;.</p>
-<p>##Redditing</p>
-<p>Browsing reddit. Some good subreddits include r/AnimalsBeingDerps and r/DataIsBeautiful. Warning: can be a big time sink!&hellip;</p>
-<p>##Watching GothamChess</p>
-<p>Watching the GothamChess YouTube channel&hellip;.</p>
-<p>##Watching Inside Out</p>
-<p>I loved the modelling of the mind as a collection of different emotions competing for control. Really made me get invested with the main character, and made me cry when things started going poorly for her at one point. Discussing this movie might be a good way to connect with people that are otherwise fairly different. &hellip;</p>
-<p>##Watching Spiderman: Into the Spider-Verse</p>
-<p>Great story, cool themes about family and parenting. Also about self discovery. Quintessential all-ages kind of film&hellip;.</p>
-<p>##Watching The Matrix</p>
-<p>Watched with my Dad after being told that it would be very hard to understand. Turned out that wasn&rsquo;t true for either of us. Excellent sci-fi, where sci-fi is defined as a medium that explores how new plausible technologies would affect the world. Action/style was very compelling to. Favorite movie for many years, perhaps even still in some ways. I think the sequels are pretty good, unlike many others&hellip;.</p>
-<p>##Watching educational YouTube</p>
-<p>This includes watching videos from channels like <a href="https://www.youtube.com/user/1veritasium">Veritasium</a>, <a href="https://www.youtube.com/user/CGPGrey">CGP Grey</a>, and <a href="https://www.youtube.com/user/Kurzgesagt">Kurzgesagt</a>&hellip;.</p>
-<p>##Wavelength or <a href="https://longwave.web.app/">Longwave</a></p>
-<p>An icebreaker-type game that revolves around guessing people&rsquo;s opinions&hellip;.</p>
-<p>##Yo-Yoing</p>
-<p>Playing with a yo-yo, and learning new tricks for it&hellip;.</p>
-<p>##<a href="https://www.ageofdarkness.com/">Age of Darkness: Final Stand</a></p>
-<p>A real-time-with-pause strategy game with excellent art. &hellip;</p>
-<p>##<a href="https://thejaspel.itch.io/backpack-hero">Backpack Hero</a></p>
-<p>A cool rougelike game about arranging a grid inventory optimally&hellip;.</p>
-<p>##<a href="https://www.badnorth.com/">Bad North</a></p>
-<p>&hellip;</p>
-<p>##<a href="http://battlebrothersgame.com/">Battle Brothers</a></p>
-<p>Good tactical RPG set in a low fantasy world. Lots of character customization via different weapon types, and stat/perk assignment on level up. Not to mention the starting stats given to each character. Unfortunately, the randomness in this game will lead to characters dying, so if you want to preserve specific characters get ready to save and load a lot :). This game is pretty hard and doesn&rsquo;t necessarily give you direct feedback as to why you are failing. The combat uses randomness pretty heavily to determine hit/miss/crit (head hit) chance, which means that the consequences of your actions are &lsquo;fuzzed&rsquo; - good decisions will sometimes be punished, and bad ones you will sometimes get away with. This means that it&rsquo;s tricky to personally track if your strategy is working without a decent time investment for each strategy you are trying&hellip;.</p>
-<p>##<a href="https://kovasap.github.io/docs/lifestyle-optimizations/bike-commuting/">Bike Commuting</a></p>
-<p>Using a bike to fulfill daily transportation needs. Best with combined with audiobooks or podcasts&hellip;.</p>
-<p>##<a href="https://codenames.game/">Codenames</a></p>
-<p>One variant worth trying is trying to play with pictures instead of words on the main board. A stand-alone game (Codenames Pictures) exists for this, but it&rsquo;s also fun to try using custom pictures. For instance, the dream cards from Mysterium led to a pretty fun game. Note that <a href="https://codenames-pictures.dport.me/">this site</a> looks like it allows you to do this in a virtual setting&hellip;.</p>
-<p>##<a href="https://www.datcreativity.com/">DAT Creativity</a></p>
-<p>A test about tring to come up with the most different words possible&hellip;.</p>
-<p>##<a href="https://en.wikipedia.org/wiki/Darkest_Dungeon">Darkest Dungeon</a></p>
-<p>Amazing atmosphere and fun character building&hellip;.</p>
-<p>##<a href="https://www.fellseal.com/">Fell Seal - Arbiter&rsquo;s Mark</a></p>
-<p>Really well designed game with a good story, deep character customization, and difficult encounters. This game does a great job of letting you customize your character abilities with a lot of depth, but still with enough constraints to not make every character feel the same. Then, it makes the encounters in the main story difficult, but allows you to level up your characters in &lsquo;patrol&rsquo; side-encounters in case the way you built your characters was not optimal for the main story. This is an awesome way to reward players who do a good job with their builds (they have to grind less) without forcing players into said optimal builds&hellip;.</p>
-<p>##[Fire Emblem 7 &amp; 8](<a href="https://en.wikipedia.org/wiki/Fire_Emblem_%28video_game%29%29">https://en.wikipedia.org/wiki/Fire_Emblem_(video_game%29)</a></p>
-<p>I first played this game on the Game Boy Advance when I was in middle school.For some reason the art style and especially animation really spoke to me, andI found the gameplay loop very compelling. Fair warning though that this gamemay be on this list mostly because of nostalgia.One aspect of this game that I really enjoy is the process of building yourparty over time and making sure you train the right characters. It&rsquo;s verysatisfying to help a weaker character finish enemies to get experience with thegoal of making them a core part of your team composition later on. This isoften fairly difficult - since the characters are weaker after all - which onlyadds to the satisfaction when you pull it off.Another cool mechanic in FE is building supports between characters. When twocharacters fight side by side they will over time build a relationship, whichleads to little dialogue bites. It&rsquo;s satisfying to discover these as you playthrough the game.Both training weaker units and building supports are examples of&rsquo;meta-challenges&rsquo; in FE; they aren&rsquo;t required to finish the games, but give youself-directed and sometimes difficult optional objectives during the battles.Because these challenges are self directed they make me feel like I amexpressing myself more as a player, which makes the game feel more interestingthan if I was just solving the same battle puzzles as everyone else&hellip;.</p>
-<p>##<a href="https://store.steampowered.com/app/899310/Iron_Danger/">Iron Danger</a></p>
-<p>Really cool strategy game with a cool story. Would love it if they made a sequel and/or expanded it into a bigger RPG with more customization&hellip;.</p>
-<p>##[Islanders](<a href="https://en.wikipedia.org/wiki/Islanders_%28video_game%29%29">https://en.wikipedia.org/wiki/Islanders_(video_game%29)</a></p>
-<p>Cool turn based city builder made with a beautiful art style&hellip;.</p>
-<p>##<a href="https://store.steampowered.com/app/558990/Opus_Magnum/">Opus Magnum</a></p>
-<p>Game about programming machines to build molecules&hellip;.</p>
-<p>##[Overwatch](<a href="https://en.wikipedia.org/wiki/Overwatch_%28video_game%29%29">https://en.wikipedia.org/wiki/Overwatch_(video_game%29)</a></p>
-<p>&hellip;</p>
-<p>##<a href="https://puzzgrid.com/best.php">Puzzgrid</a></p>
-<p>A game about matching ambiguous word meanings&hellip;.</p>
-<p>##<a href="https://www.quordle.com/#/">Quordle</a></p>
-<p>A more complex form of wordle, with a higher frequency of <a href="https://www.reddit.com/r/Quordle/comments/t27irp/unfair_word_today/">BS words</a>&hellip;.</p>
-<p>##<a href="https://semantle.novalis.org/">Semantle</a></p>
-<p>Similar to DAT Creativity, but a daily game like Wordle&hellip;.</p>
-<p>##<a href="https://slipways.net/">Slipways</a></p>
-<p>A video game about colonizing planets and connecting them with trade routes&hellip;.</p>
-<p>##<a href="https://store.steampowered.com/app/210970/The_Witness/">The Witness</a></p>
-<p>3-D puzzle game in a beautiful world&hellip;</p>
-<p>##<a href="https://www.lesswrong.com/posts/HawFh7RvDM4RyoJ2d/three-worlds-collide-0-8">Three Worlds Collide</a></p>
-<p>Science fiction with a philosophical twist&hellip;.</p>
-<p>##<a href="https://www.nytimes.com/games/wordle/index.html">Wordle</a></p>
-<p>A fun word game&hellip;.</p>
-<p>##<a href="https://en.wikipedia.org/wiki/XCOM_2">XCOM 2 + War of the Chosen</a></p>
-<p>Very similar appeal to Fire Emblem. Less story focused and more focused on character customization&hellip;.</p>
 </article>
  
       
@@ -1303,21 +1536,27 @@ between their pieces&hellip;.</li>
     <li><a href="#actionable-tips-to-improve-code">Actionable Tips to Improve Code</a></li>
     <li><a href="#ad-free-youtube-viewing">Ad-Free YouTube Viewing</a></li>
     <li><a href="#aging-science">Aging Science</a></li>
+    <li><a href="#altruism">Altruism</a></li>
     <li><a href="#android-apps">Android Apps</a></li>
+    <li><a href="#apex-legends">Apex Legends</a></li>
     <li><a href="#applying-theories">Applying Theories</a></li>
     <li><a href="#artificial-intelligence">Artificial Intelligence</a></li>
     <li><a href="#auto-input-data-collection">Auto Input Data Collection</a></li>
     <li><a href="#avoiding-accidents">Avoiding Accidents</a></li>
+    <li><a href="#bananagrams">Bananagrams</a></li>
+    <li><a href="#beat-saber">Beat Saber</a></li>
     <li><a href="#behavior-change">Behavior Change</a></li>
     <li><a href="#bike-commuting">Bike Commuting</a></li>
     <li><a href="#benefits">Benefits&hellip;</a></li>
     <li><a href="#biomarker-correlator">Biomarker Correlator</a></li>
     <li><a href="#brain-juice">Brain Juice</a></li>
+    <li><a href="#browsing-hacker-news">Browsing Hacker News</a></li>
     <li><a href="#buying-pc-games">Buying PC Games</a></li>
     <li><a href="#cancelling-highly-productive-people">Cancelling Highly Productive People</a></li>
     <li><a href="#causes-of-death">Causes of Death</a></li>
     <li><a href="#character-alignment-visualization">Character Alignment Visualization</a></li>
     <li><a href="#chess">Chess</a></li>
+    <li><a href="#chess-1">Chess</a></li>
     <li><a href="#choosing-a-language">Choosing a Language</a></li>
     <li><a href="#chronic-stress">Chronic Stress</a></li>
     <li><a href="#circadian-rhythm">Circadian Rhythm</a></li>
@@ -1325,15 +1564,21 @@ between their pieces&hellip;.</li>
     <li><a href="#climbing-media">Climbing Media</a></li>
     <li><a href="#climbing-resources">Climbing Resources</a></li>
     <li><a href="#climbing-safety-checklist">Climbing Safety Checklist</a></li>
+    <li><a href="#cod-mw2">CoD: MW2</a></li>
+    <li><a href="#comparing-prices">Comparing prices</a></li>
     <li><a href="#contentment-and-satisfaction">Contentment and Satisfaction</a></li>
     <li><a href="#continuous-glucose-monitoring">Continuous Glucose Monitoring</a></li>
     <li><a href="#cooking">Cooking</a></li>
+    <li><a href="#copyright-and-ip">Copyright and IP</a></li>
     <li><a href="#core-first-person-shooter-fps-principles">Core First Person Shooter (FPS) Principles</a></li>
     <li><a href="#creativity">Creativity</a></li>
     <li><a href="#dna-testing">DNA Testing</a></li>
+    <li><a href="#dead-of-winter">Dead of Winter</a></li>
     <li><a href="#deltal-health">Deltal Health</a></li>
     <li><a href="#desires-and-deprivation">Desires and Deprivation</a></li>
     <li><a href="#doom-and-how-to-avoid-it">Doom, and how to avoid it</a></li>
+    <li><a href="#drafting-magic-the-gathering">Drafting Magic: The Gathering</a></li>
+    <li><a href="#dvorak">Dvorak</a></li>
     <li><a href="#efficiency-and-morality">Efficiency and Morality</a></li>
     <li><a href="#exercise">Exercise</a></li>
     <li><a href="#expected-returns-for-buying-a-house">Expected Returns for Buying a House</a></li>
@@ -1368,12 +1613,14 @@ between their pieces&hellip;.</li>
     <li><a href="#judging-art">Judging Art</a></li>
     <li><a href="#judging-decisions">Judging Decisions</a></li>
     <li><a href="#keyboard-city-builder">Keyboard City Builder</a></li>
+    <li><a href="#lead-climbing-in-a-gym">Lead Climbing in a Gym</a></li>
     <li><a href="#life-advice">Life Advice</a></li>
     <li><a href="#life-quests">Life Quests</a></li>
     <li><a href="#lifelogging">Lifelogging</a></li>
     <li><a href="#lifelogging-with-a-camera">Lifelogging with a Camera</a></li>
     <li><a href="#limiting-collaboration">Limiting Collaboration</a></li>
     <li><a href="#listening-to-books">Listening to Books</a></li>
+    <li><a href="#making-small-web-apps-in-clojurescript-with-reagent">Making Small Web Apps in ClojureScript with Reagent</a></li>
     <li><a href="#mile-high-club">Mile High Club</a></li>
     <li><a href="#mind-mapping-concept">Mind Mapping Concept</a></li>
     <li><a href="#minimizing-ui-friction-in-turn-based-tactics-games">Minimizing UI Friction in Turn Based Tactics Games</a></li>
@@ -1393,21 +1640,28 @@ between their pieces&hellip;.</li>
     <li><a href="#namaste-wall---zion-national-park">Namaste Wall - Zion National Park</a></li>
     <li><a href="#notes-on-notetaking">Notes on Notetaking</a></li>
     <li><a href="#oxygen-not-included">Oxygen Not Included</a></li>
+    <li><a href="#pathfinder-kingmaker">Pathfinder Kingmaker</a></li>
     <li><a href="#patterned-code">Patterned Code</a></li>
     <li><a href="#personal-manifesto">Personal Manifesto</a></li>
     <li><a href="#personal-specific-food-notes">Personal Specific Food Notes</a></li>
     <li><a href="#physical-breaking-point">Physical &ldquo;Breaking Point&rdquo;</a></li>
+    <li><a href="#pillars-of-eternity-2">Pillars of Eternity 2</a></li>
     <li><a href="#politics">Politics</a></li>
+    <li><a href="#potential-life-missions">Potential Life Missions</a></li>
     <li><a href="#productive-conversations">Productive Conversations</a></li>
     <li><a href="#rain-in-seattle">Rain in Seattle</a></li>
+    <li><a href="#rainbow-6-siege">Rainbow 6: Siege</a></li>
     <li><a href="#random-ideas">Random Ideas</a></li>
     <li><a href="#recommendations">Recommendations</a></li>
     <li><a href="#reddit-comment-tree">Reddit Comment Tree</a></li>
+    <li><a href="#redditing">Redditing</a></li>
     <li><a href="#right-to-risk">Right to Risk</a></li>
     <li><a href="#rogue-like-base-builder-concept">Rogue-like Base Builder Concept</a></li>
     <li><a href="#sens">SENS</a></li>
     <li><a href="#safe-building-designer">Safe Building Designer</a></li>
+    <li><a href="#skyrim">Skyrim</a></li>
     <li><a href="#sleep">Sleep</a></li>
+    <li><a href="#social-games">Social Games</a></li>
     <li><a href="#solving-societal-problems">Solving Societal Problems</a></li>
     <li><a href="#states-of-mind">States of Mind</a></li>
     <li><a href="#task-tracking">Task Tracking</a></li>
@@ -1422,7 +1676,36 @@ between their pieces&hellip;.</li>
     <li><a href="#utilizing-the-state-of-your-body">Utilizing the State of your Body</a></li>
     <li><a href="#vim-tricks">Vim Tricks</a></li>
     <li><a href="#searchreplace">Search/Replace&hellip;</a></li>
-    <li><a href="#what-to-believe">What to Believe</a>
+    <li><a href="#watching-gothamchess">Watching GothamChess</a></li>
+    <li><a href="#watching-inside-out">Watching Inside Out</a></li>
+    <li><a href="#watching-spiderman-into-the-spider-verse">Watching Spiderman: Into the Spider-Verse</a></li>
+    <li><a href="#watching-the-matrix">Watching The Matrix</a></li>
+    <li><a href="#watching-educational-youtube">Watching educational YouTube</a></li>
+    <li><a href="#wavelength-or-longwavehttpslongwavewebapp">Wavelength or <a href="https://longwave.web.app/">Longwave</a></a></li>
+    <li><a href="#what-to-believe">What to Believe</a></li>
+    <li><a href="#yo-yoing">Yo-Yoing</a></li>
+    <li><a href="#age-of-darkness-final-standhttpswwwageofdarknesscom"><a href="https://www.ageofdarkness.com/">Age of Darkness: Final Stand</a></a></li>
+    <li><a href="#backpack-herohttpsthejaspelitchiobackpack-hero"><a href="https://thejaspel.itch.io/backpack-hero">Backpack Hero</a></a></li>
+    <li><a href="#bad-northhttpswwwbadnorthcom"><a href="https://www.badnorth.com/">Bad North</a></a></li>
+    <li><a href="#battle-brothershttpbattlebrothersgamecom"><a href="http://battlebrothersgame.com/">Battle Brothers</a></a></li>
+    <li><a href="#bike-commutinghttpskovasapgithubiodocslifestyle-optimizationsbike-commuting"><a href="https://kovasap.github.io/docs/lifestyle-optimizations/bike-commuting/">Bike Commuting</a></a></li>
+    <li><a href="#codenameshttpscodenamesgame"><a href="https://codenames.game/">Codenames</a></a></li>
+    <li><a href="#dat-creativityhttpswwwdatcreativitycom"><a href="https://www.datcreativity.com/">DAT Creativity</a></a></li>
+    <li><a href="#darkest-dungeonhttpsenwikipediaorgwikidarkest_dungeon"><a href="https://en.wikipedia.org/wiki/Darkest_Dungeon">Darkest Dungeon</a></a></li>
+    <li><a href="#fell-seal---arbiters-markhttpswwwfellsealcom"><a href="https://www.fellseal.com/">Fell Seal - Arbiter&rsquo;s Mark</a></a></li>
+    <li><a href="#fire-emblem-7--8httpsenwikipediaorgwikifire_emblem_video_game29">[Fire Emblem 7 &amp; 8](<a href="https://en.wikipedia.org/wiki/Fire_Emblem_(video_game%29)">https://en.wikipedia.org/wiki/Fire_Emblem_(video_game%29)</a></a></li>
+    <li><a href="#iron-dangerhttpsstoresteampoweredcomapp899310iron_danger"><a href="https://store.steampowered.com/app/899310/Iron_Danger/">Iron Danger</a></a></li>
+    <li><a href="#islandershttpsenwikipediaorgwikiislanders_video_game29">[Islanders](<a href="https://en.wikipedia.org/wiki/Islanders_(video_game%29)">https://en.wikipedia.org/wiki/Islanders_(video_game%29)</a></a></li>
+    <li><a href="#opus-magnumhttpsstoresteampoweredcomapp558990opus_magnum"><a href="https://store.steampowered.com/app/558990/Opus_Magnum/">Opus Magnum</a></a></li>
+    <li><a href="#overwatchhttpsenwikipediaorgwikioverwatch_video_game29">[Overwatch](<a href="https://en.wikipedia.org/wiki/Overwatch_(video_game%29)">https://en.wikipedia.org/wiki/Overwatch_(video_game%29)</a></a></li>
+    <li><a href="#puzzgridhttpspuzzgridcombestphp"><a href="https://puzzgrid.com/best.php">Puzzgrid</a></a></li>
+    <li><a href="#quordlehttpswwwquordlecom"><a href="https://www.quordle.com/#/">Quordle</a></a></li>
+    <li><a href="#semantlehttpssemantlenovalisorg"><a href="https://semantle.novalis.org/">Semantle</a></a></li>
+    <li><a href="#slipwayshttpsslipwaysnet"><a href="https://slipways.net/">Slipways</a></a></li>
+    <li><a href="#the-witnesshttpsstoresteampoweredcomapp210970the_witness"><a href="https://store.steampowered.com/app/210970/The_Witness/">The Witness</a></a></li>
+    <li><a href="#three-worlds-collidehttpswwwlesswrongcompostshawfh7rvdm4ryoj2dthree-worlds-collide-0-8"><a href="https://www.lesswrong.com/posts/HawFh7RvDM4RyoJ2d/three-worlds-collide-0-8">Three Worlds Collide</a></a></li>
+    <li><a href="#wordlehttpswwwnytimescomgameswordleindexhtml"><a href="https://www.nytimes.com/games/wordle/index.html">Wordle</a></a></li>
+    <li><a href="#xcom-2--war-of-the-chosenhttpsenwikipediaorgwikixcom_2"><a href="https://en.wikipedia.org/wiki/XCOM_2">XCOM 2 + War of the Chosen</a></a>
       <ul>
         <li><a href="#influences-3">Influences</a></li>
       </ul>
