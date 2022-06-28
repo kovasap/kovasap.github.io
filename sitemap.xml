@@ -40,9 +40,6 @@
     <loc>https://kovasap.github.io/docs/DRAFT-how-to-build-skills/</loc>
     <lastmod>2022-01-17T15:53:34-08:00</lastmod>
   </url><url>
-    <loc>https://kovasap.github.io/docs/DRAFT-how-to-write/</loc>
-    <lastmod>2022-01-17T15:53:34-08:00</lastmod>
-  </url><url>
     <loc>https://kovasap.github.io/docs/DRAFT-podcasts/</loc>
     <lastmod>2022-01-17T15:53:34-08:00</lastmod>
   </url><url>
@@ -217,6 +214,9 @@
     <loc>https://kovasap.github.io/docs/gamedev/mechanic-ideas/low-friction-turn-based-tactics/</loc>
     <lastmod>2022-06-20T12:27:32-07:00</lastmod>
   </url><url>
+    <loc>https://kovasap.github.io/docs/gamedev/mechanic-ideas/random-technologies/</loc>
+    <lastmod>2022-06-27T20:55:28-07:00</lastmod>
+  </url><url>
     <loc>https://kovasap.github.io/docs/gamedev/my-projects/</loc>
     <lastmod>2022-06-20T12:27:32-07:00</lastmod>
   </url><url>
@@ -341,7 +341,7 @@
     <lastmod>2022-06-20T12:27:32-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/investing-and-finances/strategies/</loc>
-    <lastmod>2022-06-20T12:27:32-07:00</lastmod>
+    <lastmod>2022-06-27T20:55:28-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/investing-and-finances/taxes/</loc>
     <lastmod>2022-06-20T12:27:32-07:00</lastmod>
@@ -398,13 +398,16 @@
     <lastmod>2022-06-20T12:27:32-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/lifestyle-optimizations/this-website/</loc>
-    <lastmod>2022-06-20T12:27:32-07:00</lastmod>
+    <lastmod>2022-06-27T20:55:28-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/lifestyle-optimizations/utilizing-body-state/</loc>
     <lastmod>2022-06-20T12:27:32-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/lifestyle-optimizations/vim-tricks/</loc>
     <lastmod>2022-06-20T12:27:32-07:00</lastmod>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/lifestyle-optimizations/writing/</loc>
+    <lastmod>2022-06-27T20:55:28-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/manifesto/</loc>
     <lastmod>2022-06-19T19:12:34-07:00</lastmod>
@@ -422,7 +425,7 @@
     <lastmod>2022-06-20T12:27:32-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/mind/creativity/</loc>
-    <lastmod>2022-06-19T19:12:34-07:00</lastmod>
+    <lastmod>2022-06-27T20:55:28-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/mind/desires-and-deprivation/</loc>
     <lastmod>2022-06-20T12:27:32-07:00</lastmod>
@@ -464,7 +467,25 @@
     <lastmod>2022-06-20T12:27:32-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/potential-life-missions/</loc>
-    <lastmod>2022-06-19T19:12:34-07:00</lastmod>
+    <lastmod>2022-06-27T20:55:28-07:00</lastmod>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/society/co-ops/</loc>
+    <lastmod>2022-06-27T20:55:28-07:00</lastmod>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/society/doom-and-how-to-avoid-it/</loc>
+    <lastmod>2022-06-27T20:55:28-07:00</lastmod>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/society/individuals-vs-groups/</loc>
+    <lastmod>2022-06-27T20:55:28-07:00</lastmod>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/society/politics/</loc>
+    <lastmod>2022-06-27T20:55:28-07:00</lastmod>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/society/solving-societal-problems/</loc>
+    <lastmod>2022-06-27T20:55:28-07:00</lastmod>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/society/utopia/</loc>
+    <lastmod>2022-06-27T20:55:28-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/software-dev/actionable-tips/</loc>
     <lastmod>2022-06-20T12:27:32-07:00</lastmod>
@@ -482,7 +503,7 @@
     <lastmod>2022-06-20T12:27:32-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/software-dev/influences/</loc>
-    <lastmod>2022-06-20T12:27:32-07:00</lastmod>
+    <lastmod>2022-06-27T20:55:28-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/software-dev/patterned-code/</loc>
     <lastmod>2022-06-20T12:27:32-07:00</lastmod>
@@ -506,15 +527,9 @@
     <lastmod>2022-06-20T12:27:32-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/understanding-the-world/copyright-and-ip/</loc>
-    <lastmod>2022-06-19T19:12:34-07:00</lastmod>
-  </url><url>
-    <loc>https://kovasap.github.io/docs/understanding-the-world/doom-and-how-to-avoid-it/</loc>
-    <lastmod>2022-06-20T12:27:32-07:00</lastmod>
+    <lastmod>2022-06-27T20:55:28-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/understanding-the-world/great-explanations/</loc>
-    <lastmod>2022-06-20T12:27:32-07:00</lastmod>
-  </url><url>
-    <loc>https://kovasap.github.io/docs/understanding-the-world/individuals-vs-groups/</loc>
     <lastmod>2022-06-20T12:27:32-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/understanding-the-world/influences/</loc>
@@ -529,17 +544,8 @@
     <loc>https://kovasap.github.io/docs/understanding-the-world/physics/</loc>
     <lastmod>2022-06-20T12:27:32-07:00</lastmod>
   </url><url>
-    <loc>https://kovasap.github.io/docs/understanding-the-world/politics/</loc>
-    <lastmod>2022-06-20T12:27:32-07:00</lastmod>
-  </url><url>
     <loc>https://kovasap.github.io/docs/understanding-the-world/productive_conversations/</loc>
     <lastmod>2022-06-20T12:27:32-07:00</lastmod>
-  </url><url>
-    <loc>https://kovasap.github.io/docs/understanding-the-world/solving-societal-problems/</loc>
-    <lastmod>2022-06-20T12:27:32-07:00</lastmod>
-  </url><url>
-    <loc>https://kovasap.github.io/docs/understanding-the-world/utopia/</loc>
-    <lastmod>2022-06-19T19:12:34-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/understanding-the-world/what-to-believe/</loc>
     <lastmod>2022-06-19T19:12:34-07:00</lastmod>
@@ -560,9 +566,9 @@
     <lastmod>2022-06-20T12:25:27-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/</loc>
-    <lastmod>2022-06-20T13:35:36-07:00</lastmod>
+    <lastmod>2022-06-27T20:55:28-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/</loc>
-    <lastmod>2022-06-20T13:46:15-07:00</lastmod>
+    <lastmod>2022-06-27T20:55:28-07:00</lastmod>
   </url>
 </urlset>

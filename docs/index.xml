@@ -145,16 +145,6 @@ Advice for artistic practice:
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/DRAFT-how-to-write/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/DRAFT-how-to-write/</guid>
-      <description>How to Write #  Writers Block #  Try talking to someone (or yourself) about your topic, recording the conversation, then using speech-to-text technology to fill your blank page with a first draft.
-https://vasilishynkarenka.com/8questions/</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://kovasap.github.io/docs/DRAFT-podcasts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -756,6 +746,15 @@ Categories: , Gamedev, Mechanic Ideas</description>
       
       <guid>https://kovasap.github.io/docs/gamedev/mechanic-ideas/low-friction-turn-based-tactics/</guid>
       <description>Minimizing UI Friction in Turn Based Tactics Games #  One-click actions #  Games like XCOM, Fire Emblem, Warhammer 40k Mechanicus, Gloomhaven Digital etc. sometimes have a problem with requiring many clicks/actions from the player to execute actions. To minimize this, you could have the player&amp;rsquo;s options for what a character should do on a tile appear as a button on that tile. For multiple actions these buttons could be arranged in a grid.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/gamedev/mechanic-ideas/random-technologies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/gamedev/mechanic-ideas/random-technologies/</guid>
+      <description>Random Technologies #  For a management or economic game, make new technologies randomly get discovered at a rate proportional to the player&amp;rsquo;s &amp;ldquo;research power&amp;rdquo; (the resources they put towards research). One cool way to make this work is to have a hidden dependency web (e.g. fire must be discovered before cooking), and then randomly select a tech to be discovered from the set of all techs that have had all their dependencies discovered.</description>
     </item>
     
     <item>
@@ -1418,6 +1417,17 @@ Convert protos to bzl dictionaries #  Replace text: text2 with &amp;quot;text&am
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/lifestyle-optimizations/writing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/writing/</guid>
+      <description>Writing #  Note that I am talking here primarily about writing to explore ideas, as opposed to only entertain.
+Why? #  It&amp;rsquo;s easy to convince yourself that your thoughts make sense when they are in your own head. By expressing them in writing or conversation their flaws become more clear, and it&amp;rsquo;s easier to improve upon them.
+Getting Started #  Try talking to someone (or yourself) about your topic, recording the conversation, then using speech-to-text technology to fill your blank page with a first draft.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/manifesto/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1625,6 +1635,64 @@ Empowering People #  I currently believe that creative people are the solution t
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/society/co-ops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/society/co-ops/</guid>
+      <description>Co-ops #  Marxism #  I just finished listening to The Lex Friedman podcast with Richard Wolff on Marxism. As I understood it he describes Marxism as not really an active proposal for how to structure society, but rather as just a critique of capitalism and a specific description of what about capitalism is wrong without any necessarily specific instructions about what to do instead. For instance he talks about how Marx almost never talked about government.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/society/doom-and-how-to-avoid-it/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/society/doom-and-how-to-avoid-it/</guid>
+      <description>Doom, and how to avoid it #  We got problems #   climate change income inequality asteroids natural disasters pandemics everyone dies of old age  We need to solve them #  The development of new systems and technologies is the only way we are going to be able to solve all our problems in the long term. In the past, innovated or luck are the only ways we&amp;rsquo;ve been able to circumvent large problems, and relying on luck long term will lead to externally-caused extinction or self destruction at some point.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/society/individuals-vs-groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/society/individuals-vs-groups/</guid>
+      <description>Individuals Vs Groups #  Political problems are complicated and multifaceted almost by definition. Therefore, there are usually many different perspectives from which they can be viewed. Two of these are:
+ Looking at the effects the problem (and its solutions) have on individuals. Looking at the effects the problem (and its solutions) have on groups of people.  Both perspectives are important; it&amp;rsquo;s easy to take a solely individual perspective and, in doing so, blind oneself to some of the best solution for the world&amp;rsquo;s biggest problems (e.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/society/politics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/society/politics/</guid>
+      <description>Politics #  Institutions and Refactoring #  I listened to https://conversationswithtyler.com/episodes/david-deutsch/ today, and was also thinking about code cleanliness at work. These ideas meshed in my mind to draw the following analogy:
+There is often the temptation in software development to do a complete rewrite of some code. This is tempting because it promises that the clean model in your head for how things should work could be reality, and you wouldn&amp;rsquo;t have to deal with the current system with its quirks and bad models any longer.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/society/solving-societal-problems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/society/solving-societal-problems/</guid>
+      <description>Solving Societal Problems #  Here I&amp;rsquo;m defining a &amp;ldquo;societal problem&amp;rdquo; as a large problem facing many people that could be solved if said people changed their behavior in some systematic way. For example:
+ Climate Change could be solved if we all transitioned to using more renewable sources of energy. The Obesity Epidemic could be solved if we all ate less food.  Individual Change and Shaming #  One common proposal I&amp;rsquo;ve heard for solving at least the above problems is using a &amp;ldquo;grassroots&amp;rdquo; approach.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/society/utopia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/society/utopia/</guid>
+      <description>Achieving Utopia #  Problems #  Humanity has some big problems that need to be solved before we can safely say we have built a utopia.
+Wasted Human Potential #  Most people spend their productive time doing work that does not materially move our society forward. As discussed later, people have the potential to create completely new ideas that radically and positively improve the lives of humanity as a whole.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/software-dev/actionable-tips/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1771,16 +1839,7 @@ The question of copyright is even more important in the case of creativity meant
 https://sci-hub.se/
 https://libgen.rs/
 Categories: Understanding The World
-Backlinks: Creativity, Utopia,</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/understanding-the-world/doom-and-how-to-avoid-it/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/understanding-the-world/doom-and-how-to-avoid-it/</guid>
-      <description>Doom, and how to avoid it #  We got problems #   climate change income inequality asteroids natural disasters pandemics everyone dies of old age  We need to solve them #  The development of new systems and technologies is the only way we are going to be able to solve all our problems in the long term. In the past, innovated or luck are the only ways we&amp;rsquo;ve been able to circumvent large problems, and relying on luck long term will lead to externally-caused extinction or self destruction at some point.</description>
+Backlinks: Creativity,</description>
     </item>
     
     <item>
@@ -1791,16 +1850,6 @@ Backlinks: Creativity, Utopia,</description>
       <guid>https://kovasap.github.io/docs/understanding-the-world/great-explanations/</guid>
       <description>Great Explanations #  A list of great explanations for things I&amp;rsquo;ve stumbled across.
  GPS: https://ciechanow.ski/gps/ Programming Tetris in ClojureScript: https://shaunlebron.github.io/t3tr0s-slides/#0  Categories: Understanding The World</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/understanding-the-world/individuals-vs-groups/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/understanding-the-world/individuals-vs-groups/</guid>
-      <description>Individuals Vs Groups #  Political problems are complicated and multifaceted almost by definition. Therefore, there are usually many different perspectives from which they can be viewed. Two of these are:
- Looking at the effects the problem (and its solutions) have on individuals. Looking at the effects the problem (and its solutions) have on groups of people.  Both perspectives are important; it&amp;rsquo;s easy to take a solely individual perspective and, in doing so, blind oneself to some of the best solution for the world&amp;rsquo;s biggest problems (e.</description>
     </item>
     
     <item>
@@ -1845,41 +1894,11 @@ Categories: Understanding The World</description>
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/understanding-the-world/politics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/understanding-the-world/politics/</guid>
-      <description>Politics #  Institutions and Refactoring #  I listened to https://conversationswithtyler.com/episodes/david-deutsch/ today, and was also thinking about code cleanliness at work. These ideas meshed in my mind to draw the following analogy:
-There is often the temptation in software development to do a complete rewrite of some code. This is tempting because it promises that the clean model in your head for how things should work could be reality, and you wouldn&amp;rsquo;t have to deal with the current system with its quirks and bad models any longer.</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://kovasap.github.io/docs/understanding-the-world/productive_conversations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/understanding-the-world/productive_conversations/</guid>
       <description>Productive Conversations #   Start with &amp;ldquo;what would convince you that you&amp;rsquo;re wrong?&amp;rdquo; Talk about how specific possibilities make you feel, then try to pin down why. This can lead to identifying more specific concerns that may not be the same as the initial point of argument. Don&amp;rsquo;t change the subject or gloss over a point until it is resolved. Especially don&amp;rsquo;t counter a point with something unrelated.  Categories: Understanding The World</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/understanding-the-world/solving-societal-problems/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/understanding-the-world/solving-societal-problems/</guid>
-      <description>Solving Societal Problems #  Here I&amp;rsquo;m defining a &amp;ldquo;societal problem&amp;rdquo; as a large problem facing many people that could be solved if said people changed their behavior in some systematic way. For example:
- Climate Change could be solved if we all transitioned to using more renewable sources of energy. The Obesity Epidemic could be solved if we all ate less food.  Individual Change and Shaming #  One common proposal I&amp;rsquo;ve heard for solving at least the above problems is using a &amp;ldquo;grassroots&amp;rdquo; approach.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/understanding-the-world/utopia/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/understanding-the-world/utopia/</guid>
-      <description>Achieving Utopia #  Problems #  Humanity has some big problems that need to be solved before we can safely say we have built a utopia.
-Wasted Human Potential #  Most people spend their productive time doing work that does not materially move our society forward. As discussed later, people have the potential to create completely new ideas that radically and positively improve the lives of humanity as a whole.</description>
     </item>
     
     <item>
