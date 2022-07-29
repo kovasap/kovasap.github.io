@@ -890,8 +890,8 @@ Categories: , Experiences, Gaming</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/health-and-longevity/aging-science/</guid>
-      <description>Aging Science #  (My) Open Questions #  Do cell lines age? Can they be used to study aging?
-Categories: Health And Longevity</description>
+      <description>Aging Overview #  Why is Aging Important? #  It indirectly kills the vast majority of people, and will most likely kill you. It kills by slowly disabling the body and the mind over many years, leading to a massive amount of unnecessary physical and emotional suffering.
+Defeating Aging #  The human body, like the global economy, is a complex system of many moving parts: https://www.nature.com/articles/s43587-022-00252-6. Therefore, it reacts in unpredictable, non-linear ways when exposed to changes.</description>
     </item>
     
     <item>
@@ -941,7 +941,7 @@ Categories: Health And Longevity</description>
       <guid>https://kovasap.github.io/docs/health-and-longevity/chronic-stress/</guid>
       <description>Chronic Stress #  Is bad.
 Categories: Health And Longevity
-Backlinks: Manifesto,</description>
+Backlinks: Manifesto, Aging Science,</description>
     </item>
     
     <item>
@@ -1005,7 +1005,7 @@ I analyzed my AncestryDNA data with several services:
       <guid>https://kovasap.github.io/docs/health-and-longevity/exercise/</guid>
       <description>Exercise #  TODO add to this
 Categories: Health And Longevity
-Backlinks: Manifesto,</description>
+Backlinks: Manifesto, Aging Science,</description>
     </item>
     
     <item>
@@ -1605,6 +1605,16 @@ What makes a next step trivially easy?</description>
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/mind/optimism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/mind/optimism/</guid>
+      <description>Optimism #   Optimism is a duty. The future is open. It is not predetermined. No one can predict it, except by chance. We all contribute to determining it by what we do. We are all equally responsible for its success.
+ Karl Popper and/or Immanuel Kant   Real progress requires the act of creation, which in turn requires the belief that positive changes are possible, which IMO is a definition of optimism.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/mind/perspective/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1783,6 +1793,16 @@ The library/tooling ecosystem around the language. Some very non-ergonomic langu
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/software-dev/complexity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/software-dev/complexity/</guid>
+      <description>Complexity #  A killer of productivity (and fun).
+Perspectives #   Simple made Easy by Rich Hickey  Complex = entangled = difficult to reason about To make systems more understandable, need to reduce them to small, independant pieces (like pure functions with no side effects)   The Origin of Complexity by Joakim Tengstrand  Complexity arises when systems are not changeable. To make systems more changeable, increase their usability and reduce coordination between their pieces.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/software-dev/functional-programming/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1807,7 +1827,7 @@ Programming a function #  When getting down to implementing a specific function 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/software-dev/influences/</guid>
-      <description>Influences #   Getting things done by Johnathan Blow  Depth first approach to problem solving can be bad because you end up going in the wrong direction (which you would have avoided going breath-first)   Simple made Easy by Rich Hickey  Complex = entangled = difficult to reason about To make systems more understandable, need to reduce them to small, independant pieces (like pure functions with no side effects)   Hammock Driven Development by Rich Hickey  Stepping back from a problem and doing other things or sleeping allows unconscious parts of your mind draw connections that you otherwise wouldn&amp;rsquo;t draw.</description>
+      <description>Influences #   Getting things done by Johnathan Blow  Depth first approach to problem solving can be bad because you end up going in the wrong direction (which you would have avoided going breath-first)   Hammock Driven Development by Rich Hickey  Stepping back from a problem and doing other things or sleeping allows unconscious parts of your mind draw connections that you otherwise wouldn&amp;rsquo;t draw. This allows you to solve problems that otherwise would be much harder or impossible.</description>
     </item>
     
     <item>
@@ -1997,7 +2017,7 @@ My Art #  Click on each piece to see it in motion!
       
       <guid>https://kovasap.github.io/docs/visual-art/inspiration-and-resources/</guid>
       <description>Inspiration and Resources #  Cool art and art tutorials that I&amp;rsquo;ve stumbled across.
-Wallpapers #   https://desktopography.net/ https://wallpapercave.com/pc-4k-macro-wallpapers  Tutorials #   Awesome pixel art walkthroughs: https://www.slynyrd.com/blog  Tools and Art Generators #   Map generators (designed for games):  https://www.dungeonalchemist.com/ https://dungeondraft.net/   https://github.com/mxgmn/WaveFunctionCollapse https://github.com/mxgmn/MarkovJunior  Categories: Visual Art</description>
+Wallpapers #   https://desktopography.net/ https://wallpapercave.com/pc-4k-macro-wallpapers  Tutorials #   Awesome pixel art walkthroughs: https://www.slynyrd.com/blog  Tools and Art Generators #   Map generators (designed for games):  https://www.dungeonalchemist.com/ https://dungeondraft.net/   https://github.com/mxgmn/WaveFunctionCollapse https://github.com/mxgmn/MarkovJunior  Misc Projects #   https://emoji.supply/kitchen/ https://pokemon.alexonsager.net/  Categories: Visual Art</description>
     </item>
     
     <item>
