@@ -6,7 +6,7 @@
   :dir? false
   :links ["/"]
   :size 230
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/favorite-music.md"
   :title "Favorite Music"
@@ -16,7 +16,7 @@
   :dir? false
   :links []
   :size 1099
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/feelings.md"
   :title "Feelings"
@@ -46,7 +46,7 @@
           "/docs/experiences/Three-Worlds-Collide.md"
           "/docs/experiences/Wordle.md"]
   :size 4399
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/manifesto.md"
   :title "Manifesto"
@@ -72,7 +72,7 @@
           "/docs/mind/motivation.md"
           "/docs/understanding-the-world/what-to-believe.md"]
   :size 10709
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/potential-life-missions.md"
   :title "Potential Life Missions"
@@ -84,7 +84,7 @@
           "/docs/mind/optimism.md"
           "/docs/society/utopia.md"]
   :size 2792
-  :modtime 1659024122
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/climbing/breaking-point.md"
   :title "Breaking Point"
@@ -94,7 +94,7 @@
   :dir? false
   :links ["/"]
   :size 760
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/climbing/media.md"
   :title "Media"
@@ -104,7 +104,7 @@
   :dir? false
   :links ["/"]
   :size 649
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/climbing/resources.md"
   :title "Resources"
@@ -114,7 +114,7 @@
   :dir? false
   :links ["/"]
   :size 180
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/climbing/safety-checklist.md"
   :title "Safety Checklist"
@@ -124,7 +124,7 @@
   :dir? false
   :links ["/"]
   :size 3333
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/climbing/event-reports/2019-10-7-namaste-wall-zion.md"
   :title "2019 10 7 Namaste Wall Zion"
@@ -139,7 +139,7 @@
           "/"
           "/"]
   :size 2105
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/climbing/event-reports/2020-8-10-lake-erie.md"
   :title "2020 8 10 Lake Erie"
@@ -154,7 +154,7 @@
           "/"
           "/"]
   :size 1431
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/climbing/event-reports/2020-8-12-mile-high-club.md"
   :title "2020 8 12 Mile High Club"
@@ -169,7 +169,7 @@
           "/"
           "/"]
   :size 10868
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/climbing/event-reports/first-512.md"
   :title "First 512"
@@ -184,7 +184,7 @@
           "/"
           "/"]
   :size 420
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/datavis/inspiration.md"
   :title "Inspiration"
@@ -194,7 +194,7 @@
   :dir? false
   :links ["/"]
   :size 194
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/datavis/reddit-tree.md"
   :title "Reddit Tree"
@@ -204,7 +204,7 @@
   :dir? false
   :links ["/"]
   :size 771
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/datavis/seattle-rain.md"
   :title "Seattle Rain"
@@ -214,7 +214,7 @@
   :dir? false
   :links ["/"]
   :size 2160
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Age-of-Darkness:-Final-Stand.md"
   :title "Age Of Darkness: Final Stand"
@@ -229,7 +229,7 @@
           "/"
           "/"]
   :size 388
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Apex-Legends.md"
   :title "Apex Legends"
@@ -248,7 +248,7 @@
           "/"
           "/"]
   :size 485
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Backpack-Hero.md"
   :title "Backpack Hero"
@@ -262,7 +262,7 @@
           "/"
           "/"]
   :size 288
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Bad-North.md"
   :title "Bad North"
@@ -276,7 +276,7 @@
           "/"
           "/"]
   :size 201
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Bananagrams.md"
   :title "Bananagrams"
@@ -290,7 +290,7 @@
           "/"
           "/"]
   :size 325
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Battle-Brothers.md"
   :title "Battle Brothers"
@@ -307,7 +307,7 @@
           "/"
           "/"]
   :size 1207
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Beat-Saber.md"
   :title "Beat Saber"
@@ -319,7 +319,7 @@
           "/docs/feelings.md"
           "/"]
   :size 301
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Bike-Commuting.md"
   :title "Bike Commuting"
@@ -334,7 +334,7 @@
           "/"
           "/"]
   :size 422
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Browsing-Hacker-News.md"
   :title "Browsing Hacker News"
@@ -350,7 +350,7 @@
           "/"
           "/"]
   :size 382
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Chess.md"
   :title "Chess"
@@ -366,7 +366,7 @@
           "/"
           "/"]
   :size 272
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/CoD:-MW2.md"
   :title "Cod: Mw2"
@@ -380,7 +380,7 @@
           "/"
           "/"]
   :size 331
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Codenames.md"
   :title "Codenames"
@@ -394,7 +394,7 @@
           "/"
           "/"]
   :size 581
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Comparing-prices.md"
   :title "Comparing Prices"
@@ -408,7 +408,7 @@
           "/"
           "/"]
   :size 513
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/DAT-Creativity.md"
   :title "Dat Creativity"
@@ -421,7 +421,7 @@
           "/"
           "/"]
   :size 340
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Darkest-Dungeon.md"
   :title "Darkest Dungeon"
@@ -439,7 +439,7 @@
           "/"
           "/"]
   :size 369
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Dead-of-Winter.md"
   :title "Dead Of Winter"
@@ -452,7 +452,7 @@
           "/"
           "/docs/gamedev/mechanic-ideas/limiting-collaboration.md"]
   :size 1215
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Drafting-Magic:-The-Gathering.md"
   :title "Drafting Magic: The Gathering"
@@ -468,7 +468,7 @@
           "/"
           "/"]
   :size 742
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Fell-Seal---Arbiter's-Mark.md"
   :title "Fell Seal   Arbiter's Mark"
@@ -486,7 +486,7 @@
           "/"
           "/"]
   :size 950
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Fire-Emblem-7-&-8.md"
   :title "Fire Emblem 7 & 8"
@@ -506,7 +506,7 @@
           "/"
           "/"]
   :size 1766
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Iron-Danger.md"
   :title "Iron Danger"
@@ -522,7 +522,7 @@
           "/"
           "/"]
   :size 414
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Islanders.md"
   :title "Islanders"
@@ -541,7 +541,7 @@
           "/"
           "/"]
   :size 489
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Lead-Climbing-in-a-Gym.md"
   :title "Lead Climbing In A Gym"
@@ -563,7 +563,7 @@
           "/"
           "/"]
   :size 675
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Longwave.md"
   :title "Longwave"
@@ -577,7 +577,7 @@
           "/"
           "/"]
   :size 282
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Making-Small-Web-Apps-in-ClojureScript-with-Reagent.md"
   :title "Making Small Web Apps In Clojurescript With Reagent"
@@ -591,7 +591,7 @@
           "/"
           "/"]
   :size 360
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Opus-Magnum.md"
   :title "Opus Magnum"
@@ -607,7 +607,7 @@
           "/"
           "/"]
   :size 331
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Overwatch.md"
   :title "Overwatch"
@@ -621,7 +621,7 @@
           "/"
           "/"]
   :size 236
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Puzzgrid.md"
   :title "Puzzgrid"
@@ -637,7 +637,7 @@
           "/"
           "/"]
   :size 288
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Quordle.md"
   :title "Quordle"
@@ -654,7 +654,7 @@
           "/"
           "/"]
   :size 482
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Rainbow-6:-Siege.md"
   :title "Rainbow 6: Siege"
@@ -668,7 +668,7 @@
           "/"
           "/"]
   :size 1248
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Redditing.md"
   :title "Redditing"
@@ -686,7 +686,7 @@
           "/"
           "/"]
   :size 621
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Semantle.md"
   :title "Semantle"
@@ -703,7 +703,7 @@
           "/"
           "/"]
   :size 404
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Slipways.md"
   :title "Slipways"
@@ -722,7 +722,7 @@
           "/"
           "/"]
   :size 470
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/The-Witness.md"
   :title "The Witness"
@@ -736,7 +736,7 @@
           "/"
           "/"]
   :size 264
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Three-Worlds-Collide.md"
   :title "Three Worlds Collide"
@@ -751,7 +751,7 @@
           "/"
           "/"]
   :size 390
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Watching-GothamChess.md"
   :title "Watching Gothamchess"
@@ -766,7 +766,7 @@
           "/"
           "/"]
   :size 412
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Watching-Inside-Out.md"
   :title "Watching Inside Out"
@@ -780,7 +780,7 @@
           "/"
           "/"]
   :size 523
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Watching-Spiderman:-Into-the-Spider-Verse.md"
   :title "Watching Spiderman: Into The Spider Verse"
@@ -794,7 +794,7 @@
           "/"
           "/"]
   :size 341
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Watching-The-Matrix.md"
   :title "Watching The Matrix"
@@ -808,7 +808,7 @@
           "/"
           "/"]
   :size 607
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Watching-educational-YouTube.md"
   :title "Watching Educational Youtube"
@@ -821,7 +821,7 @@
           "/"
           "/"]
   :size 442
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Wordle.md"
   :title "Wordle"
@@ -838,7 +838,7 @@
           "/"
           "/"]
   :size 380
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/XCOM-2-+-War-of-the-Chosen.md"
   :title "Xcom 2 + War Of The Chosen"
@@ -856,7 +856,7 @@
           "/"
           "/"]
   :size 424
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/experiences/Yo-Yoing.md"
   :title "Yo Yoing"
@@ -867,7 +867,7 @@
   :links ["/docs/feelings.md"
           "/"]
   :size 236
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/gamedev/common-patterns.md"
   :title "Common Patterns"
@@ -880,7 +880,7 @@
           "/"
           "/docs/lifestyle-optimizations/experiences.md"]
   :size 2432
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/gamedev/gamedev-context.md"
   :title "Gamedev Context"
@@ -891,7 +891,7 @@
   :links ["/"
           "/docs/mind/creativity.md"]
   :size 381
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/gamedev/my-projects.md"
   :title "My Projects"
@@ -901,7 +901,7 @@
   :dir? false
   :links ["/"]
   :size 1186
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/gamedev/social-games.md"
   :title "Social Games"
@@ -911,7 +911,7 @@
   :dir? false
   :links ["/"]
   :size 946
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/gamedev/game-ideas/farming-video-game.md"
   :title "Farming Video Game"
@@ -926,7 +926,7 @@
           "/"
           "/"]
   :size 972
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/gamedev/game-ideas/keyboard-city-builder.md"
   :title "Keyboard City Builder"
@@ -941,7 +941,7 @@
           "/"
           "/"]
   :size 435
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/gamedev/game-ideas/roguelike-base-builder.md"
   :title "Roguelike Base Builder"
@@ -956,7 +956,7 @@
           "/"
           "/"]
   :size 2205
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/gamedev/game-ideas/safe-building-designer.md"
   :title "Safe Building Designer"
@@ -971,7 +971,7 @@
           "/"
           "/"]
   :size 693
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/gamedev/mechanic-ideas/character-alignment.md"
   :title "Character Alignment"
@@ -986,7 +986,7 @@
           "/"
           "/"]
   :size 644
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/gamedev/mechanic-ideas/clairvoyant-turn-based-tactics.md"
   :title "Clairvoyant Turn Based Tactics"
@@ -1001,7 +1001,7 @@
           "/"
           "/"]
   :size 1050
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/gamedev/mechanic-ideas/limiting-collaboration.md"
   :title "Limiting Collaboration"
@@ -1018,7 +1018,7 @@
           "/"
           "/docs/experiences/Dead-of-Winter.md"]
   :size 4127
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/gamedev/mechanic-ideas/low-friction-turn-based-tactics.md"
   :title "Low Friction Turn Based Tactics"
@@ -1033,7 +1033,7 @@
           "/"
           "/"]
   :size 3395
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/gamedev/mechanic-ideas/random-technologies.md"
   :title "Random Technologies"
@@ -1045,7 +1045,7 @@
   :links ["/"
           "/"]
   :size 782
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/gaming/buying-games.md"
   :title "Buying Games"
@@ -1055,7 +1055,7 @@
   :dir? false
   :links ["/"]
   :size 965
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/gaming/chess.md"
   :title "Chess"
@@ -1065,7 +1065,7 @@
   :dir? false
   :links ["/"]
   :size 350
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/gaming/fps-principles.md"
   :title "Fps Principles"
@@ -1075,7 +1075,7 @@
   :dir? false
   :links ["/"]
   :size 6382
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/gaming/oxygen-not-included.md"
   :title "Oxygen Not Included"
@@ -1085,7 +1085,7 @@
   :dir? false
   :links ["/"]
   :size 524
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/gaming/pathfinder-kingmaker.md"
   :title "Pathfinder Kingmaker"
@@ -1095,7 +1095,7 @@
   :dir? false
   :links ["/"]
   :size 543
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/gaming/pillars-of-eternity-2.md"
   :title "Pillars Of Eternity 2"
@@ -1105,7 +1105,7 @@
   :dir? false
   :links ["/"]
   :size 357
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/gaming/recommendations.md"
   :title "Recommendations"
@@ -1118,7 +1118,7 @@
           "/"
           "/docs/lifestyle-optimizations/experiences.md"]
   :size 480
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/gaming/skyrim.md"
   :title "Skyrim"
@@ -1133,14 +1133,14 @@
           "/"
           "/"]
   :size 304
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/health-and-longevity/aging-science.md"
   :title "Aging Science"
-  :markdown "# Aging Overview\n\n## Why is Aging Important?\n\nIt indirectly kills the vast majority of people, and will most likely kill you.\nIt kills by slowly disabling the body and the mind over many years, leading to\na massive amount of unnecessary physical and emotional suffering.\n\n## Defeating Aging\n\nThe human body, like the global economy, is a complex system of many moving\nparts: https://www.nature.com/articles/s43587-022-00252-6.\nTherefore, it reacts in unpredictable, non-linear ways when exposed to changes.\nThis makes it resilient, but also counter-intuitive to \"fix\".\nAs an example, [~90% of clinical drug trials\nfail](https://www.sciencedirect.com/science/article/pii/S2211383522000521),\ndespite (presumably) all of them starting out with a good story for why they\nshould succeed.\nThis is important to keep in mind when considering ways to defeat aging -\n[reasonable sounding theories will most likely be wrong]({{< relref\n\"/docs/understanding-the-world/what-to-believe.md\" >}}) and need to be tested\nbefore trusting them.\n\nSee [Theories of Aging]({{< relref\n\"/docs/health-and-longevity/theories-of-aging.md\" >}}) for some specific\nideas for why aging might occur.\n\n### Lifestyle Optimization\n\n[Exercising]({{< relref\n\"/docs/health-and-longevity/exercise.md\" >}}), [sleeping well]({{< relref\n\"/docs/health-and-longevity/sleep.md\" >}}), [eating intentionally]({{< relref\n\"/docs/health-and-longevity/food.md\" >}}), [reducing cronic stress]({{< relref\n\"/docs/health-and-longevity/chronic-stress.md\" >}}), among other things all\ncan delay the effects of aging.\nRegular fxercise, for one, probably has the potential to [add 1-7 years to your\nlife](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3395188/).\n\nHowever, these kinds of optimizations have not been seen to dramatically extend\nlifespan beyond 80-90 years.\n\n### \"Unnatural\" Interventions\n\n\n\nCategories: [Health And Longevity]({{< relref \"/\" >}}?Health-And-Longevity=true),\nAging\n"
+  :markdown "# Aging Overview\n\n## Why is Aging Important?\n\nIt indirectly kills the vast majority of people, and will most likely kill you.\nIt kills by slowly disabling the body and the mind over many years, leading to\na massive amount of unnecessary physical and emotional suffering.\n\n## Defeating Aging\n\nThe human body, like the global economy, is a complex system of many moving\nparts: https://www.nature.com/articles/s43587-022-00252-6.\nTherefore, it reacts in unpredictable, non-linear ways when exposed to changes.\nThis makes it resilient, but also counter-intuitive to \"fix\".\nAs an example, [~90% of clinical drug trials\nfail](https://www.sciencedirect.com/science/article/pii/S2211383522000521),\ndespite (presumably) all of them starting out with a good story for why they\nshould succeed.\nThis is important to keep in mind when considering ways to defeat aging -\n[reasonable sounding theories will most likely be wrong]({{< relref\n\"/docs/understanding-the-world/what-to-believe.md\" >}}) and need to be tested\nbefore trusting them.\n\nSee [Theories of Aging]({{< relref\n\"/docs/health-and-longevity/theories-of-aging.md\" >}}) for some specific\nideas for why aging might occur.\n\n### Lifestyle Optimization\n\n[Exercising]({{< relref\n\"/docs/health-and-longevity/exercise.md\" >}}), [sleeping well]({{< relref\n\"/docs/health-and-longevity/sleep.md\" >}}), [eating intentionally]({{< relref\n\"/docs/health-and-longevity/food.md\" >}}), [reducing cronic stress]({{< relref\n\"/docs/health-and-longevity/chronic-stress.md\" >}}), among other things all\ncan delay the effects of aging.\nRegular fxercise, for one, probably has the potential to [add 1-7 years to your\nlife](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3395188/).\n\nHowever, these kinds of optimizations have not been seen to dramatically extend\nlifespan beyond 80-90 years.\n\n### \"Unnatural\" Interventions\n\nCategories: [Health And Longevity]({{< relref \"/\" >}}?Health-And-Longevity=true),\n[Aging]({{< relref \"/\" >}}?Aging=true)"
   :name "aging-science.md"
   :categories #{"Health And Longevity"
-                "aging"}
+                "Aging"}
   :dir? false
   :links ["/docs/understanding-the-world/what-to-believe.md"
           "/docs/health-and-longevity/theories-of-aging.md"
@@ -1148,9 +1148,10 @@
           "/docs/health-and-longevity/sleep.md"
           "/docs/health-and-longevity/food.md"
           "/docs/health-and-longevity/chronic-stress.md"
+          "/"
           "/"]
-  :size 1933
-  :modtime 1658689391
+  :size 1963
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/health-and-longevity/avoiding-accidents.md"
   :title "Avoiding Accidents"
@@ -1160,7 +1161,7 @@
   :dir? false
   :links ["/"]
   :size 325
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/health-and-longevity/biomarker-correlator.md"
   :title "Biomarker Correlator"
@@ -1171,7 +1172,7 @@
   :links ["/"
           "/docs/health-and-longevity/food.md"]
   :size 353
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/health-and-longevity/causes-of-death.md"
   :title "Causes Of Death"
@@ -1181,18 +1182,19 @@
   :dir? false
   :links ["/"]
   :size 783
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/health-and-longevity/chronic-stress.md"
   :title "Chronic Stress"
-  :markdown "# Chronic Stress\n\nIs bad.\n\n\n\n\n\n\n\n\n\n\nCategories: [Health And Longevity]({{< relref \"/\" >}}?Health-And-Longevity=true)\n\nBacklinks: [Manifesto]({{< relref \"/docs/manifesto.md\" >}}), \n"
+  :markdown "# Chronic Stress\n\nIs bad.\n\n\n\n\n\n\n\n\n\n\nCategories: [Health And Longevity]({{< relref \"/\" >}}?Health-And-Longevity=true)\n\nBacklinks: [Manifesto]({{< relref \"/docs/manifesto.md\" >}}), \n[Aging Science]({{< relref \"/docs/health-and-longevity/aging-science.md\" >}}), \n"
   :name "chronic-stress.md"
   :categories #{"Health And Longevity"}
   :dir? false
   :links ["/"
-          "/docs/manifesto.md"]
-  :size 180
-  :modtime 1658554093
+          "/docs/manifesto.md"
+          "/docs/health-and-longevity/aging-science.md"]
+  :size 260
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/health-and-longevity/circadian-rhythm.md"
   :title "Circadian Rhythm"
@@ -1203,7 +1205,7 @@
   :links ["/"
           "/docs/manifesto.md"]
   :size 226
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/health-and-longevity/continuous-glucose-monitoring.md"
   :title "Continuous Glucose Monitoring"
@@ -1215,7 +1217,7 @@
           "/docs/health-and-longevity/tracking-health.md"
           "/docs/lifelogging/what-and-why.md"]
   :size 1640
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/health-and-longevity/cooking.md"
   :title "Cooking"
@@ -1225,7 +1227,7 @@
   :dir? false
   :links ["/"]
   :size 9181
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/health-and-longevity/dental-health.md"
   :title "Dental Health"
@@ -1235,7 +1237,7 @@
   :dir? false
   :links ["/"]
   :size 216
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/health-and-longevity/dna-testing.md"
   :title "Dna Testing"
@@ -1245,18 +1247,19 @@
   :dir? false
   :links ["/"]
   :size 751
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/health-and-longevity/exercise.md"
   :title "Exercise"
-  :markdown "# Exercise\n\nTODO add to this\n\n\n\n\n\n\n\n\n\n\nCategories: [Health And Longevity]({{< relref \"/\" >}}?Health-And-Longevity=true)\n\nBacklinks: [Manifesto]({{< relref \"/docs/manifesto.md\" >}}), \n"
+  :markdown "# Exercise\n\nTODO add to this\n\n\n\n\n\n\n\n\n\n\nCategories: [Health And Longevity]({{< relref \"/\" >}}?Health-And-Longevity=true)\n\nBacklinks: [Manifesto]({{< relref \"/docs/manifesto.md\" >}}), \n[Aging Science]({{< relref \"/docs/health-and-longevity/aging-science.md\" >}}), \n"
   :name "exercise.md"
   :categories #{"Health And Longevity"}
   :dir? false
   :links ["/"
-          "/docs/manifesto.md"]
-  :size 183
-  :modtime 1658554093
+          "/docs/manifesto.md"
+          "/docs/health-and-longevity/aging-science.md"]
+  :size 263
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/health-and-longevity/fasting.md"
   :title "Fasting"
@@ -1267,7 +1270,7 @@
   :links ["/"
           "/docs/health-and-longevity/food.md"]
   :size 4849
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/health-and-longevity/finding-care.md"
   :title "Finding Care"
@@ -1277,11 +1280,11 @@
   :dir? false
   :links ["/"]
   :size 356
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/health-and-longevity/food.md"
   :title "Food"
-  :markdown "# Food\n\n## Goals\n\n1. Delay chronic diseases as long as possible.  Described well in [this talk by\n   Peter Attia](https://vimeo.com/228845024).  The\n   [big ones](https://www.cdc.gov/nchs/fastats/leading-causes-of-death.htm) are:\n   1. Cardiovascular disease.\n   1. Cancer.\n   1. Neurodegenerative disease.\n   1. Diabetes/Metabolic Syndrome.\n1. Maintain sustained energy levels as much as possible, avoiding:\n   1. Periods of low motivation.\n   1. \"Food coma-ing\".\n   1. \"Snack train-ing\", or continuous distraction by a desire to eat more.\n\n## Current Eating Habits and Opinions (3/2022)\n\n### Food Timing\n\nI try to eat a breakfast after I wake up - around 9am, since I wake up around\n8:30am.  Then I tend not to eat lunch, and instead eat my second (and last)\nmeal of the day at around 5 or 6pm.\n\nI converged on this strategy via the observation that eating food when I am not\nhungry (too quickly after my last meal) really kills my energy levels. With\nthis strategy, I can eat two large meals and avoid this problem, maximizing the\namount of time I can stay capable of doing whatever I want during the day.\n\nWith this strategy (and any food timing strategy IMO) it's important for me to\nsuppress suggestions from my mind to combat momentary ebbs in energy with a\nsnack. This pretty much never works for me, always making me more tired then\nbefore I ate the snack. Green tea is a good placeholder to have instead. Or\neven better, an engaging activity that captures my attention.\n\nThis strategy also has the danger of going on a snack train when having my\nsecond meal. If I eat too much in the evening, it leads to much poorer sleep\nfor me (possibly because the energy in the food is released as heat and\nexcitement when I am sleeping). I don't have a great consistent way to avoid\nthis problem yet, besides my willpower (which is not consistent :/). Some\ntricks that kinda work are:\n\n - Lining up an engaging activity to do right after I eat, so I don't just\n   default to snacking more.\n - Drinking tea or broth after eating as a replacement behavior.\n\n### [Fasting]({{< relref \"/docs/health-and-longevity/fasting.md\" >}}).\n\nI haven't done a long fast in a while, but am experimenting with fasting one\nday a week (Saturday) and still want to do a long fast 3x per year.  \n\n### Diet Composition\n\nI'm playing with using [this eatthismuch meal\nplan](https://www.eatthismuch.com/dietset/196607506/) as a general description\nof what my food intake looks like. I should probably eat less fat to adhere to\n[Valter Longo's\nrecommendations](https://www.valterlongo.com/daily-longevity-diet-for-adults/).\n\n#### Confidence Levels\n\nBecause it is hard (for me at least) to get good, immediate feedback from my\nbody about which foods are the \"healthiest\" for me in the long term, I instead\nhave to rely on information from other people to figure out what food I should\neat. I'm [working to combat this]({{< relref\n\"/docs/health-and-longevity/biomarker-correlator.md\" >}}) but realistically\nwill need to continue to do this for a while. Unfortunately, there are many\nopinions out there about what food is healthy, and trusting one necessarily\nmeans discounting others, which might be right. Here I try to be honest with\nmyself about where my personal opinions come from so that I can more\neffectively identify and correct them.\n\n - 📺 = I've been exposed to a lot of random media supporting this opinion, but\n   don't really understand the details.\n - 📈 = This is an interesting statistical trend, but correlation != causation.\n - 💡 = This is a plausible idea, but I haven't found evidence that it has\n   health effects in humans. In other words, it's [a nice conjecture, but\n   requires more criticism]({{< relref\n   \"/docs/understanding-the-world/influences.md#the-beginning-of-infinity-by-david-deutschhttpsenwikipediaorgwikithe_beginning_of_infinity\"\n   >}}).\n - 📚 = This is the best explanation I know of, and has withstood a good amount\n   of criticism, although of course it might still be wrong.\n - 🧠 = This is a personal observation I've made about myself.\n\nTODO move these emojis to a more central location so I can use them in other\nwritings.\n\n#### Meat (non-fish)\n\nI try to avoid eating meat. There are a bunch of weak reasons for this:\n\n1. I perceive the supply chain that produces meat as being messy and\n   suffering-causing 📺. Another way to phrase this is: I don't think I would\n   want to run my own personal meat-producing supply chain even if it was\n   low-effort.\n1. Meat consumption using our current supply chain is energy/space/time\n   inefficient compared to other food sources 📚. I don't think this is a\n   problem that we should rely on individual choices to solve (like other\n   climate change related problems), so it's a pretty weak reason for an\n   individual to not eat meat IMO. Larger systemic changes like taxes on meat\n   seem to me like the more effective way to take action on this information.\n1. Meat consumption seems be to [weakly associated with\n   cancer](https://www.who.int/news-room/questions-and-answers/item/cancer-carcinogenicity-of-the-consumption-of-red-meat-and-processed-meat)\n   📈 and other common causes of death. This may be because of the proteins in\n   meat causing up-regulation of growth factors like IGF-1, which may\n   accelerate aging 💡.\n1. The \"blue zone\" communities around the world with high health- and\n   life-spans [eat little\n   meat](https://www.bluezones.com/recipes/food-guidelines/) 📈.\n\n#### Protein\n\nIt seems like [low protein consumption (especially animal protein) might slow\naging](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4807119/). See [this\ncomprehensive macronutrient mouse\nstudy](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5087279/). See also this\nreview: [The impact of dietary protein intake on longevity and metabolic\nhealth](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6562018/).\n\nNote that it seems like this is NOT true for people over the age of 65. At this\npoint, loss of muscle becomes a dangerous problems (leading to falls, etc.), so\nthe benefits of eating more protein to maintain muscle mass seem to outweigh\nthe downsides.\n\n#### Fish\n\nI eat fish and other seafood, but rarely (I don't cook it myself).\n\n#### Eggs\n\nI eat ~4 eggs a day ~4 times per week.\n\n#### Dairy\n\nI eat a small amount of yogurt and cheese. I try to avoid all other dairy\nproducts as best I can. My throat is irritated when I drink plain milk and\nexcessive consumption of any dairy product upsets my digestion, so I think I am\nsomewhat personally intolerant of at least dairy from cows 🧠.\n\n#### Whole Foods\n\nThis includes any food that has not had components stripped from it at a small\nscale. For instance, I would consider a berry a whole food even though it was\nseparated from the plant at the macro scale. But jam would not be a whole food\nbecause it involves removing some fiber and other unknown stuff from the berry\nand adding parts of other plants (sugars) that were themselves removed from\ntheir whole plant part.\n\nI like the story I've heard about whole foods 📺. At the very least, it seems\nlike we evolved to eat whole foods, so the floor for how bad they can be for us\nis fairly high and well known. Note that this theory does **not** say\n**anything** suggesting that whole food are the best diet, just that they\naren't that bad.\n\nIt also seems well supported and not controversial that eating whole foods\nhelps delay the onset of the most common causes of death (cardiovascular\ndisease, cancer, and neurodegenerative disease) 📚. \n\n#### Organic?\n\nI haven't found strong evidence that organic food is healthier than non\norganic. But it could be that the right studies just haven't been done yet or I\nhaven't seen them. Here is an interesting review:\n\n - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5658984/\n\nI buy mostly non organic food because it is cheaper.\n\n\n\n\n## What should I eat and when? (2021)\n\nThe most convincing diet structure I've found has been [The Longevity Diet by\nValter Longo](https://www.valterlongo.com/daily-longevity-diet-for-adults/).\nThis diet is mostly vegan, with fish 2-3 times per week, keeping [protein intake\nlow](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3988204/).  [This\npodcast](https://podcasts.google.com/feed/aHR0cDovL21hcmtiZWxsc3Bvd2VycHJvamVjdC5saWJzeW4uY29tL3Jzcw/episode/MWZmYTNmZDQtNzFjYS00ZjFhLTg4M2YtMjJlZjNhNWFkZjRj?hl=en&ved=2ahUKEwj-nLjVwKfwAhVzCjQIHY2XA70QjrkEegQICBAF&ep=6) has\na compelling dissent of Longo's thoughts here; basically it states that Longo's\nideas makes sense, but so do many other ideas and we know now that insufficient\nprotein can be unhealthy (I need to dig more into this) - the evidence to lower\nintake in spite of this is not strong enough yet.  Note that personalizing\nprotein intake levels while optimizing longevity seems to be possible by\n[measuring Blood Urea Nitrogen levels as described by Michael\nLustgarten](https://www.youtube.com/watch?v=u654YTubFRM).\n\nCool paper about food group epidemiology:\nhttps://academic.oup.com/ajcn/article/105/6/1462/4569801.\n\nThere are a couple of amendments I've made based on my personal experience (in\nservice of goal 2 above).  These include:\n\n 1. Not eating breakfast.  I find myself most productive in a fasted state\n    (even a [prolonged fast](/docs/eating/fasting.md), and eating breakfast breaks be\n    right out of this in what otherwise would be a very productive time.  \n      - This is counter to Longo's suggestions, some other research on\n        circadian rhythms by [Sachin\n        Panda](https://doi.org/10.1177/0748730419892105), and the [American\n        Heart\n        Association](https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000000476).\n        The arguments here often revolve around weight loss (which I don't have\n        a problem with yet), and don't seem too strong to me.\n      - This does help keep a shorter eating window on my day which\n        is widely recommended:\n          - [Sachin Panda](https://doi.org/10.1016/j.cmet.2019.11.004)\n 1. Trying to eat grains and/or starchy foods later in the day.  These foods\n    uniquely mess with my energy levels.  I'm eager to get some Continuous\n    Glucose Monitoring (CGM) data to see if I can quantitate this.  \n\nSome interesting thoughts on meal timing for energy levels can be found at\nhttps://www.workingagainstgravity.com/guides/nutrition-guide/meal-timing.\n\nOther tenants I try to live by:\n\n1. Eating whole foods as much as possible.\n\n### My 2021 Food Strategy\n\n#### Things I try to avoid\n\n - Dairy\n - Meat\n - Refined carbs (e.g. flour containing foods)\n    - [Danger of Fast Carbs](https://www.theatlantic.com/ideas/archive/2020/03/carbs-are-killing-us/609040/)\n - Sugars/Syrups\n\n\nIn practice I may have small amounts (<1 \"serving\") of these things about once\na week.\n\nNote also that avoiding animals products is partially for health reasons\n(avoiding cancer primarily), but also partially because the animal food\nindustry is not easy for me to support.\n\n\n#### Things I try to moderate\n\n - Eating more than 1/2 cup of (dry volume) beans or grains at once. A large amount of\n   my calories come from these foods - I've just noticed that eating a lot in one\n   sitting saps my energy, I assume because they take work to digest.\n\n### One Meal A Day (OMAD)\n\nI tried this for a while, and I found myself falling into the recurring pattern\nof overeating because \"this is all the food I'll eat today\". This is especially\nbad with lots of low-calorie-density, high-fiber foods (which I want to eat no\nmatter what). The overeating would make me feel unfocused and uncomfortable for\n4+ hours, which is not worth it for me.\n\nRecently, I've found that a better thought pattern for me is to say \"I'll eat\nthat later\" when I get a craving for something right after a meal. This avoids\na state of overeating, and I may later end up not craving that thing, which\nmeans I'll eat less overall that day (which is generally good).\n\n## Hunger, and Physical States of Being\n\nOne thing I've noticed is that my body can be in different \"states\" that affect\nmy hunger levels. Some examples:\n\n**Induces Hunger**:\n\n - Sitting around for a while (not moving).\n - Being bored, or not knowing what to do with myself.\n - Eating some food (e.g. a snack sized meal). The effect is more powerful when\n   I eat something, then am presented with something of a different flavor\n   profile.\n - Overeating will sometimes make me hungry/snack-y for the rest of the day (or\n   an extended period of time). I think this is partially because feeling\n   overfull makes me less motivated to do stuff, and so I get bored.\n - Working on something that isn't going well. Generally stress. Food is a good\n   procrastination tool.\n\n**Suppresses Hunger**:\n\n - Exercising\n - Being busy\n - Social interaction\n - Taking a shower\n\nOne theory I have is that my body gets hungry when it notices that (1) there is\nfood around and (2) I have time/space to digest after I eat (I wont need to\nimmediately do something that requires lots of energy).\n\nSome habits that take advantage of this concept include:\n\n - Distracting myself with busywork when I feed hungry but don't (consciously)\n   want to eat.\n - Eating one meal a day, so that I don't have a \"snack-train\" problem of\n   having future meals induce hunger.\n\n### \"Snack Train\"-ing\n\nOne pattern I've noticed in myself that eating food will put me in a\nlower-focus mood for 1-4 hours depending on how much and what I ate. If I try\nto do something that requires focus in this mood, my body will resist me and\noften want to eat more food instead as an alternative activity. Unfortunately,\neating more food will just perpetuate the cycle; in fact it will become even\nharder to focus as more of my energy needs to go to digestion.\n\nThe key here is to break the cycle by somehow riding through the low energy\nmood without pushing myself so much that I want to eat. Sometimes this is\nreally hard, because doing things that require focus is fulfilling :(. \n\nI'm basically just writing this as a reminder to myself to push through when\nI'm in this mood for the sake of my future self!\n\n\n## Measuring Personal Dietary Effects\n\nIdeally, I would measure the effects of different foods on my personal health\ndirectly so that I know what works for me (as opposed to what should work\ngenerally).  This takes work unfortunately.  Here are some options that I\nshould probably explore at some point:\n\n - [Viome microbiome testing](https://www.viome.com/products/gut-intelligence)\n - [Regular blood testing w/Morgan Levine's biological age\n   calculation](https://biohackstack.com/posts/levines-phenotypic-age/).  See\n   also [Aging.ai](http://aging.ai/).\n\n\n## What fats to eat?\n\nProbably mostly mono- and poly-unsaturated fatty acids (not saturated fatty\nacids).\n\n - https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.119.040331\n - https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.118.038908\n\n\n## Protein\n\nCool table of calories per gram of protein:\nhttps://www.healthyalyona.com/nutrition/plant-based-protein-lowest-calories/\n\n\n## Specific Food Notes\n\n### Processed Meat\n\n[Carcinogenic according to the\nWHO](https://www.who.int/news-room/questions-and-answers/item/cancer-carcinogenicity-of-the-consumption-of-red-meat-and-processed-meat).\n[They](https://www.healthdata.org/gbd/about) estimate that 34k cancer deaths\nworldwide can be attributed to processed meat, compared to 1mil to smoking,\n600k to drinking alcohol, and 200k to air pollution.\n\n### Advanced Glycation End Products\n\nCreated by high heat cooking of especially protein-rich foods (e.g. meat/nuts).\nBut all foods contain.  Ideal to reduce the amount of this eaten.\n\n - [Michael Lustgarten evidence\n   video](https://www.youtube.com/watch?v=8gKFWBTpXWE)\n - Great overview/reference: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3704564/\n\nIt would be cool to measure this in blood.  Perhaps a1c inflammation test is a\ngood proxy.\n\nThese are also formed endogenously when sugars react with proteins/fats\n(https://en.wikipedia.org/wiki/Advanced_glycation_end-product). This may be one\nof the reasons why sugar is bad for you.\n\n### Flax Seeds\n\nIt seems like baking flax seeds will not degrade omega-3 content ([biased\nsource](https://www.goldenvalleyflax.com/flax-facts/health-research-articles/flaxseed-storage-baking-stability/)).\n\n### Nutritional Yeast\n\nContains MSG ([probably not\nharmful](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6952072/)) and uric acid\n([probably harmful in large quantity](https://peterattiamd.com/rickjohnson/))\n([source](https://selfhacked.com/blog/nutritional-yeast/)).  Also is a fairly\nprocessed food.\n\n\n\n\n\n\n\n\n\n\n\n\nCategories: [Health And Longevity]({{< relref \"/\" >}}?Health-And-Longevity=true)\n\nBacklinks: [Manifesto]({{< relref \"/docs/manifesto.md\" >}}), \n[Biomarker Correlator]({{< relref \"/docs/health-and-longevity/biomarker-correlator.md\" >}}), \n[Fasting]({{< relref \"/docs/health-and-longevity/fasting.md\" >}}), \n"
+  :markdown "# Food\n\n## Goals\n\n1. Delay chronic diseases as long as possible.  Described well in [this talk by\n   Peter Attia](https://vimeo.com/228845024).  The\n   [big ones](https://www.cdc.gov/nchs/fastats/leading-causes-of-death.htm) are:\n   1. Cardiovascular disease.\n   1. Cancer.\n   1. Neurodegenerative disease.\n   1. Diabetes/Metabolic Syndrome.\n1. Maintain sustained energy levels as much as possible, avoiding:\n   1. Periods of low motivation.\n   1. \"Food coma-ing\".\n   1. \"Snack train-ing\", or continuous distraction by a desire to eat more.\n\n## Current Eating Habits and Opinions (3/2022)\n\n### Food Timing\n\nI try to eat a breakfast after I wake up - around 9am, since I wake up around\n8:30am.  Then I tend not to eat lunch, and instead eat my second (and last)\nmeal of the day at around 5 or 6pm.\n\nI converged on this strategy via the observation that eating food when I am not\nhungry (too quickly after my last meal) really kills my energy levels. With\nthis strategy, I can eat two large meals and avoid this problem, maximizing the\namount of time I can stay capable of doing whatever I want during the day.\n\nWith this strategy (and any food timing strategy IMO) it's important for me to\nsuppress suggestions from my mind to combat momentary ebbs in energy with a\nsnack. This pretty much never works for me, always making me more tired then\nbefore I ate the snack. Green tea is a good placeholder to have instead. Or\neven better, an engaging activity that captures my attention.\n\nThis strategy also has the danger of going on a snack train when having my\nsecond meal. If I eat too much in the evening, it leads to much poorer sleep\nfor me (possibly because the energy in the food is released as heat and\nexcitement when I am sleeping). I don't have a great consistent way to avoid\nthis problem yet, besides my willpower (which is not consistent :/). Some\ntricks that kinda work are:\n\n - Lining up an engaging activity to do right after I eat, so I don't just\n   default to snacking more.\n - Drinking tea or broth after eating as a replacement behavior.\n\n### [Fasting]({{< relref \"/docs/health-and-longevity/fasting.md\" >}}).\n\nI haven't done a long fast in a while, but am experimenting with fasting one\nday a week (Saturday) and still want to do a long fast 3x per year.  \n\n### Diet Composition\n\nI'm playing with using [this eatthismuch meal\nplan](https://www.eatthismuch.com/dietset/196607506/) as a general description\nof what my food intake looks like. I should probably eat less fat to adhere to\n[Valter Longo's\nrecommendations](https://www.valterlongo.com/daily-longevity-diet-for-adults/).\n\n#### Confidence Levels\n\nBecause it is hard (for me at least) to get good, immediate feedback from my\nbody about which foods are the \"healthiest\" for me in the long term, I instead\nhave to rely on information from other people to figure out what food I should\neat. I'm [working to combat this]({{< relref\n\"/docs/health-and-longevity/biomarker-correlator.md\" >}}) but realistically\nwill need to continue to do this for a while. Unfortunately, there are many\nopinions out there about what food is healthy, and trusting one necessarily\nmeans discounting others, which might be right. Here I try to be honest with\nmyself about where my personal opinions come from so that I can more\neffectively identify and correct them.\n\n - 📺 = I've been exposed to a lot of random media supporting this opinion, but\n   don't really understand the details.\n - 📈 = This is an interesting statistical trend, but correlation != causation.\n - 💡 = This is a plausible idea, but I haven't found evidence that it has\n   health effects in humans. In other words, it's [a nice conjecture, but\n   requires more criticism]({{< relref\n   \"/docs/understanding-the-world/influences.md#the-beginning-of-infinity-by-david-deutschhttpsenwikipediaorgwikithe_beginning_of_infinity\"\n   >}}).\n - 📚 = This is the best explanation I know of, and has withstood a good amount\n   of criticism, although of course it might still be wrong.\n - 🧠 = This is a personal observation I've made about myself.\n\nTODO move these emojis to a more central location so I can use them in other\nwritings.\n\n#### Meat (non-fish)\n\nI try to avoid eating meat. There are a bunch of weak reasons for this:\n\n1. I perceive the supply chain that produces meat as being messy and\n   suffering-causing 📺. Another way to phrase this is: I don't think I would\n   want to run my own personal meat-producing supply chain even if it was\n   low-effort.\n1. Meat consumption using our current supply chain is energy/space/time\n   inefficient compared to other food sources 📚. I don't think this is a\n   problem that we should rely on individual choices to solve (like other\n   climate change related problems), so it's a pretty weak reason for an\n   individual to not eat meat IMO. Larger systemic changes like taxes on meat\n   seem to me like the more effective way to take action on this information.\n1. Meat consumption seems be to [weakly associated with\n   cancer](https://www.who.int/news-room/questions-and-answers/item/cancer-carcinogenicity-of-the-consumption-of-red-meat-and-processed-meat)\n   📈 and other common causes of death. This may be because of the proteins in\n   meat causing up-regulation of growth factors like IGF-1, which may\n   accelerate aging 💡.\n1. The \"blue zone\" communities around the world with high health- and\n   life-spans [eat little\n   meat](https://www.bluezones.com/recipes/food-guidelines/) 📈.\n\n#### Protein\n\nIt seems like [low protein consumption (especially animal protein) might slow\naging](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4807119/). See [this\ncomprehensive macronutrient mouse\nstudy](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5087279/). See also this\nreview: [The impact of dietary protein intake on longevity and metabolic\nhealth](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6562018/).\n\nNote that it seems like this is NOT true for people over the age of 65. At this\npoint, loss of muscle becomes a dangerous problems (leading to falls, etc.), so\nthe benefits of eating more protein to maintain muscle mass seem to outweigh\nthe downsides.\n\n#### Fish\n\nI eat fish and other seafood, but rarely (I don't cook it myself).\n\n#### Eggs\n\nI eat ~4 eggs a day ~4 times per week.\n\n#### Dairy\n\nI eat a small amount of yogurt and cheese. I try to avoid all other dairy\nproducts as best I can. My throat is irritated when I drink plain milk and\nexcessive consumption of any dairy product upsets my digestion, so I think I am\nsomewhat personally intolerant of at least dairy from cows 🧠.\n\n#### Whole Foods\n\nThis includes any food that has not had components stripped from it at a small\nscale. For instance, I would consider a berry a whole food even though it was\nseparated from the plant at the macro scale. But jam would not be a whole food\nbecause it involves removing some fiber and other unknown stuff from the berry\nand adding parts of other plants (sugars) that were themselves removed from\ntheir whole plant part.\n\nI like the story I've heard about whole foods 📺. At the very least, it seems\nlike we evolved to eat whole foods, so the floor for how bad they can be for us\nis fairly high and well known. Note that this theory does **not** say\n**anything** suggesting that whole food are the best diet, just that they\naren't that bad.\n\nIt also seems well supported and not controversial that eating whole foods\nhelps delay the onset of the most common causes of death (cardiovascular\ndisease, cancer, and neurodegenerative disease) 📚. \n\n#### Organic?\n\nI haven't found strong evidence that organic food is healthier than non\norganic. But it could be that the right studies just haven't been done yet or I\nhaven't seen them. Here is an interesting review:\n\n - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5658984/\n\nI buy mostly non organic food because it is cheaper.\n\n\n\n\n## What should I eat and when? (2021)\n\nThe most convincing diet structure I've found has been [The Longevity Diet by\nValter Longo](https://www.valterlongo.com/daily-longevity-diet-for-adults/).\nThis diet is mostly vegan, with fish 2-3 times per week, keeping [protein intake\nlow](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3988204/).  [This\npodcast](https://podcasts.google.com/feed/aHR0cDovL21hcmtiZWxsc3Bvd2VycHJvamVjdC5saWJzeW4uY29tL3Jzcw/episode/MWZmYTNmZDQtNzFjYS00ZjFhLTg4M2YtMjJlZjNhNWFkZjRj?hl=en&ved=2ahUKEwj-nLjVwKfwAhVzCjQIHY2XA70QjrkEegQICBAF&ep=6) has\na compelling dissent of Longo's thoughts here; basically it states that Longo's\nideas makes sense, but so do many other ideas and we know now that insufficient\nprotein can be unhealthy (I need to dig more into this) - the evidence to lower\nintake in spite of this is not strong enough yet.  Note that personalizing\nprotein intake levels while optimizing longevity seems to be possible by\n[measuring Blood Urea Nitrogen levels as described by Michael\nLustgarten](https://www.youtube.com/watch?v=u654YTubFRM).\n\nCool paper about food group epidemiology:\nhttps://academic.oup.com/ajcn/article/105/6/1462/4569801.\n\nThere are a couple of amendments I've made based on my personal experience (in\nservice of goal 2 above).  These include:\n\n 1. Not eating breakfast.  I find myself most productive in a fasted state\n    (even a [prolonged fast](/docs/eating/fasting.md), and eating breakfast breaks be\n    right out of this in what otherwise would be a very productive time.  \n      - This is counter to Longo's suggestions, some other research on\n        circadian rhythms by [Sachin\n        Panda](https://doi.org/10.1177/0748730419892105), and the [American\n        Heart\n        Association](https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000000476).\n        The arguments here often revolve around weight loss (which I don't have\n        a problem with yet), and don't seem too strong to me.\n      - This does help keep a shorter eating window on my day which\n        is widely recommended:\n          - [Sachin Panda](https://doi.org/10.1016/j.cmet.2019.11.004)\n 1. Trying to eat grains and/or starchy foods later in the day.  These foods\n    uniquely mess with my energy levels.  I'm eager to get some Continuous\n    Glucose Monitoring (CGM) data to see if I can quantitate this.  \n\nSome interesting thoughts on meal timing for energy levels can be found at\nhttps://www.workingagainstgravity.com/guides/nutrition-guide/meal-timing.\n\nOther tenants I try to live by:\n\n1. Eating whole foods as much as possible.\n\n### My 2021 Food Strategy\n\n#### Things I try to avoid\n\n - Dairy\n - Meat\n - Refined carbs (e.g. flour containing foods)\n    - [Danger of Fast Carbs](https://www.theatlantic.com/ideas/archive/2020/03/carbs-are-killing-us/609040/)\n - Sugars/Syrups\n\n\nIn practice I may have small amounts (<1 \"serving\") of these things about once\na week.\n\nNote also that avoiding animals products is partially for health reasons\n(avoiding cancer primarily), but also partially because the animal food\nindustry is not easy for me to support.\n\n\n#### Things I try to moderate\n\n - Eating more than 1/2 cup of (dry volume) beans or grains at once. A large amount of\n   my calories come from these foods - I've just noticed that eating a lot in one\n   sitting saps my energy, I assume because they take work to digest.\n\n### One Meal A Day (OMAD)\n\nI tried this for a while, and I found myself falling into the recurring pattern\nof overeating because \"this is all the food I'll eat today\". This is especially\nbad with lots of low-calorie-density, high-fiber foods (which I want to eat no\nmatter what). The overeating would make me feel unfocused and uncomfortable for\n4+ hours, which is not worth it for me.\n\nRecently, I've found that a better thought pattern for me is to say \"I'll eat\nthat later\" when I get a craving for something right after a meal. This avoids\na state of overeating, and I may later end up not craving that thing, which\nmeans I'll eat less overall that day (which is generally good).\n\n## Hunger, and Physical States of Being\n\nOne thing I've noticed is that my body can be in different \"states\" that affect\nmy hunger levels. Some examples:\n\n**Induces Hunger**:\n\n - Sitting around for a while (not moving).\n - Being bored, or not knowing what to do with myself.\n - Eating some food (e.g. a snack sized meal). The effect is more powerful when\n   I eat something, then am presented with something of a different flavor\n   profile.\n - Overeating will sometimes make me hungry/snack-y for the rest of the day (or\n   an extended period of time). I think this is partially because feeling\n   overfull makes me less motivated to do stuff, and so I get bored.\n - Working on something that isn't going well. Generally stress. Food is a good\n   procrastination tool.\n\n**Suppresses Hunger**:\n\n - Exercising\n - Being busy\n - Social interaction\n - Taking a shower\n\nOne theory I have is that my body gets hungry when it notices that (1) there is\nfood around and (2) I have time/space to digest after I eat (I wont need to\nimmediately do something that requires lots of energy).\n\nSome habits that take advantage of this concept include:\n\n - Distracting myself with busywork when I feed hungry but don't (consciously)\n   want to eat.\n - Eating one meal a day, so that I don't have a \"snack-train\" problem of\n   having future meals induce hunger.\n\n### \"Snack Train\"-ing\n\nOne pattern I've noticed in myself that eating food will put me in a\nlower-focus mood for 1-4 hours depending on how much and what I ate. If I try\nto do something that requires focus in this mood, my body will resist me and\noften want to eat more food instead as an alternative activity. Unfortunately,\neating more food will just perpetuate the cycle; in fact it will become even\nharder to focus as more of my energy needs to go to digestion.\n\nThe key here is to break the cycle by somehow riding through the low energy\nmood without pushing myself so much that I want to eat. Sometimes this is\nreally hard, because doing things that require focus is fulfilling :(. \n\nI'm basically just writing this as a reminder to myself to push through when\nI'm in this mood for the sake of my future self!\n\n\n## Measuring Personal Dietary Effects\n\nIdeally, I would measure the effects of different foods on my personal health\ndirectly so that I know what works for me (as opposed to what should work\ngenerally).  This takes work unfortunately.  Here are some options that I\nshould probably explore at some point:\n\n - [Viome microbiome testing](https://www.viome.com/products/gut-intelligence)\n - [Regular blood testing w/Morgan Levine's biological age\n   calculation](https://biohackstack.com/posts/levines-phenotypic-age/).  See\n   also [Aging.ai](http://aging.ai/).\n\n\n## What fats to eat?\n\nProbably mostly mono- and poly-unsaturated fatty acids (not saturated fatty\nacids).\n\n - https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.119.040331\n - https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.118.038908\n\n\n## Protein\n\nCool table of calories per gram of protein:\nhttps://www.healthyalyona.com/nutrition/plant-based-protein-lowest-calories/\n\n\n## Specific Food Notes\n\n### Processed Meat\n\n[Carcinogenic according to the\nWHO](https://www.who.int/news-room/questions-and-answers/item/cancer-carcinogenicity-of-the-consumption-of-red-meat-and-processed-meat).\n[They](https://www.healthdata.org/gbd/about) estimate that 34k cancer deaths\nworldwide can be attributed to processed meat, compared to 1mil to smoking,\n600k to drinking alcohol, and 200k to air pollution.\n\n### Advanced Glycation End Products\n\nCreated by high heat cooking of especially protein-rich foods (e.g. meat/nuts).\nBut all foods contain.  Ideal to reduce the amount of this eaten.\n\n - [Michael Lustgarten evidence\n   video](https://www.youtube.com/watch?v=8gKFWBTpXWE)\n - Great overview/reference: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3704564/\n\nIt would be cool to measure this in blood.  Perhaps a1c inflammation test is a\ngood proxy.\n\nThese are also formed endogenously when sugars react with proteins/fats\n(https://en.wikipedia.org/wiki/Advanced_glycation_end-product). This may be one\nof the reasons why sugar is bad for you.\n\n### Flax Seeds\n\nIt seems like baking flax seeds will not degrade omega-3 content ([biased\nsource](https://www.goldenvalleyflax.com/flax-facts/health-research-articles/flaxseed-storage-baking-stability/)).\n\n### Nutritional Yeast\n\nContains MSG ([probably not\nharmful](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6952072/)) and uric acid\n([probably harmful in large quantity](https://peterattiamd.com/rickjohnson/))\n([source](https://selfhacked.com/blog/nutritional-yeast/)).  Also is a fairly\nprocessed food.\n\n\n\n\n\n\n\n\n\n\n\n\nCategories: [Health And Longevity]({{< relref \"/\" >}}?Health-And-Longevity=true)\n\nBacklinks: [Manifesto]({{< relref \"/docs/manifesto.md\" >}}), \n[Aging Science]({{< relref \"/docs/health-and-longevity/aging-science.md\" >}}), \n[Biomarker Correlator]({{< relref \"/docs/health-and-longevity/biomarker-correlator.md\" >}}), \n[Fasting]({{< relref \"/docs/health-and-longevity/fasting.md\" >}}), \n"
   :name "food.md"
   :categories #{"Health And Longevity"}
   :dir? false
@@ -1290,10 +1293,11 @@
           "/docs/understanding-the-world/influences.md#the-beginning-of-infinity-by-david-deutschhttpsenwikipediaorgwikithe_beginning_of_infinity"
           "/"
           "/docs/manifesto.md"
+          "/docs/health-and-longevity/aging-science.md"
           "/docs/health-and-longevity/biomarker-correlator.md"
           "/docs/health-and-longevity/fasting.md"]
-  :size 16928
-  :modtime 1658554093
+  :size 17008
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/health-and-longevity/influences.md"
   :title "Influences"
@@ -1305,7 +1309,7 @@
           "/"
           "/docs/health-and-longevity/sens.md"]
   :size 9185
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/health-and-longevity/misc-research.md"
   :title "Misc Research"
@@ -1315,7 +1319,7 @@
   :dir? false
   :links ["/"]
   :size 490
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/health-and-longevity/my-physiological-states.md"
   :title "My Physiological States"
@@ -1325,7 +1329,7 @@
   :dir? false
   :links ["/"]
   :size 717
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/health-and-longevity/personal-specific-food-notes.md"
   :title "Personal Specific Food Notes"
@@ -1335,7 +1339,7 @@
   :dir? false
   :links ["/"]
   :size 519
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/health-and-longevity/sens.md"
   :title "Sens"
@@ -1348,31 +1352,34 @@
           "/docs/health-and-longevity/influences.md"
           "/docs/understanding-the-world/what-to-believe.md"]
   :size 990
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/health-and-longevity/sleep.md"
   :title "Sleep"
-  :markdown "# Sleep\n\nSome tips and tricks that work for me to get better sleep.\n\n## Smart Alarm\n\n[Sleep as Android](https://sleep.urbandroid.org/) has a feature where instead\nof setting an alarm to go off at 8am, you tell the app to wake you up say\nbetween 7am and 8am.  Then the app uses your movements to wake you up during a\nlighter sleep phase.  I've found this to be **way** more pleasant than waking\nup at a fixed time.  In fact, I've found that I more naturally wake up by\nmyself in the morning right before the alarm goes off, as if my body\nassociates it with lighter sleep.\n\nThis app also tracks my sleep, which is kinda useful sometimes.\n\n## Causes of Bad Sleep\n\n### Racing Mind\n\nAnything that causes me to be constantly thinking about something will usually\ninterrupt my sleep.  This includes:\n\n - Trying to make sure I remember something that I need to do tomorrow.  See\n   [Task Tracking]({{< relref \"/docs/lifestyle-optimizations/task-tracking.md\">}})\n   for an excellent solution to this problem.\n - Worrying about an event or something that I need to wake up for (like a\n   flight).\n - Worrying about a personal conflict or argument, or any kind of unresolved\n   tension between me and someone else. \n - Trying to sleep right after doing an activity I was really engaged in, like\n   playing a game. This will happen if my mind is continuing to ponder the\n   decisions I was making in the activity, or if it's re-remembering parts of\n   the activity (and e.g. how I could have done them better).\n\n### Food\n\nEating more that ~1/3 of my daily calories, especially from fatty foods, in the\n5-6 hours before sleeping will often lead to me getting overheated and sweaty\nafter being asleep for a couple hours. This is especially true if it's\notherwise cold in the room where I'm sleeping and I need to tuck myself in more\ntightly to my blankets.\n\nEating a big (fatty) breakfast and either an early dinner (like 4pm) or no\ndinner helps with this.\n\nCaffeine definitely does not help me sleep :).\n\n### Dirty Sheets\n\nClean sheets, or specifically sheets that I haven't sweated in before make it\nmuch less likely that I will sweat when sleeping (all else being equal), which\nin turn will make me sleep better.\n\n### Temperature and Airflow\n\n#### Skin Stimulation\n\nFor me I find that keeping my skin calm makes a big difference to my\nsleep quality.  For me, this means keeping myself a proper temperature and\nkeeping myself protected from breezes and other forces that can tickle or\notherwise stimulate my skin.\n\nIn practice, I best accomplish this by:\n\n1. Wearing socks or lower-leg warmers to sleep so that my feet don't get\n   uncomfortably cold.\n1. Wearing boxers.\n1. Wrapping myself with flannel or otherwise \"warm-feeling\" sheets to that my\n   skin is constantly in contact with something constant and not exposed to\n   fluctuations in air temperature or movement.\n\n#### Cold\n\nOne common pattern I fall into that leads to poor sleep is being too cold when\ngoing to sleep. This leads me to tightly hug my arms close to my self and tuck\nmy sheets up to my neck (holding onto them with my hands). While this is\ncomfortable when going to sleep, I find that it leads me to overheat once I\nactually do fall asleep. This leads to me getting sweaty, and then cold and\nuncomfortable.  I feel a similar effect when using sleeping bags or wearing\na shirt when going to bed.\n\nDue to this pattern, I find that it's paradoxically better for me to use more\nblankets and/or a heated mattress pad and fall asleep in a more relaxed posture\nwith looser sheets/more airflow. This is less likely to cause the overheating ->\nsweaty -> cold/uncomfortable issue.\n\nIn addition to making me bundle myself too tightly when going to sleep, being\ncold also just generally stimulates my mind/body, which hinders my ability to\nfall asleep.\n\nI've found a good way to manage cold is to use a heated mattress pad or heated\nblanket to pre-warm my bed, which helps me feel relaxed and warm as I get into\nbed.  Then, right before going to sleep, I turn off the heat and make sure I\nhave enough warm blankets around in case I do end up cooling down. \n\n#### Showering\n\nTaking a shower generally gives me temperature sensitive skin that makes it\nhard to find a good equilibrium when falling asleep, making it more likely that\nI'll get too cold or overheat later in the night.\n\nGoing to sleep with wet hair from a shower also can exacerbate temperature\nissues. At the very least it make my pillow wet, which is annoying.\n\nI find that showering ~2 hours before sleeping makes these non-issues.\n\n\n## Interesting Trends\n\nSeveral behaviors seem to correlate with dream presence and intensity for me in\na dose-dependent way:\n\n - Playing video games in the evening, especially role-playing type games.\n - Having eaten a lot of food during the day/evening.\n\nTODO: Put some actual raw data here.\n\n\n## Sleep Resources\n\n - Interesting take on the effects sleep has on your physiology:\n   https://guzey.com/theses-on-sleep/\n\n\n\n\n\n\n\n\n\n\n\nCategories: [Health And Longevity]({{< relref \"/\" >}}?Health-And-Longevity=true)\n\nBacklinks: [Manifesto]({{< relref \"/docs/manifesto.md\" >}}), \n[Task Tracking]({{< relref \"/docs/lifestyle-optimizations/task-tracking.md\" >}}), \n"
+  :markdown "# Sleep\n\nSome tips and tricks that work for me to get better sleep.\n\n## Smart Alarm\n\n[Sleep as Android](https://sleep.urbandroid.org/) has a feature where instead\nof setting an alarm to go off at 8am, you tell the app to wake you up say\nbetween 7am and 8am.  Then the app uses your movements to wake you up during a\nlighter sleep phase.  I've found this to be **way** more pleasant than waking\nup at a fixed time.  In fact, I've found that I more naturally wake up by\nmyself in the morning right before the alarm goes off, as if my body\nassociates it with lighter sleep.\n\nThis app also tracks my sleep, which is kinda useful sometimes.\n\n## Causes of Bad Sleep\n\n### Racing Mind\n\nAnything that causes me to be constantly thinking about something will usually\ninterrupt my sleep.  This includes:\n\n - Trying to make sure I remember something that I need to do tomorrow.  See\n   [Task Tracking]({{< relref \"/docs/lifestyle-optimizations/task-tracking.md\">}})\n   for an excellent solution to this problem.\n - Worrying about an event or something that I need to wake up for (like a\n   flight).\n - Worrying about a personal conflict or argument, or any kind of unresolved\n   tension between me and someone else. \n - Trying to sleep right after doing an activity I was really engaged in, like\n   playing a game. This will happen if my mind is continuing to ponder the\n   decisions I was making in the activity, or if it's re-remembering parts of\n   the activity (and e.g. how I could have done them better).\n\n### Food\n\nEating more that ~1/3 of my daily calories, especially from fatty foods, in the\n5-6 hours before sleeping will often lead to me getting overheated and sweaty\nafter being asleep for a couple hours. This is especially true if it's\notherwise cold in the room where I'm sleeping and I need to tuck myself in more\ntightly to my blankets.\n\nEating a big (fatty) breakfast and either an early dinner (like 4pm) or no\ndinner helps with this.\n\nCaffeine definitely does not help me sleep :).\n\n### Dirty Sheets\n\nClean sheets, or specifically sheets that I haven't sweated in before make it\nmuch less likely that I will sweat when sleeping (all else being equal), which\nin turn will make me sleep better.\n\n### Temperature and Airflow\n\n#### Skin Stimulation\n\nFor me I find that keeping my skin calm makes a big difference to my\nsleep quality.  For me, this means keeping myself a proper temperature and\nkeeping myself protected from breezes and other forces that can tickle or\notherwise stimulate my skin.\n\nIn practice, I best accomplish this by:\n\n1. Wearing socks or lower-leg warmers to sleep so that my feet don't get\n   uncomfortably cold.\n1. Wearing boxers.\n1. Wrapping myself with flannel or otherwise \"warm-feeling\" sheets to that my\n   skin is constantly in contact with something constant and not exposed to\n   fluctuations in air temperature or movement.\n\n#### Cold\n\nOne common pattern I fall into that leads to poor sleep is being too cold when\ngoing to sleep. This leads me to tightly hug my arms close to my self and tuck\nmy sheets up to my neck (holding onto them with my hands). While this is\ncomfortable when going to sleep, I find that it leads me to overheat once I\nactually do fall asleep. This leads to me getting sweaty, and then cold and\nuncomfortable.  I feel a similar effect when using sleeping bags or wearing\na shirt when going to bed.\n\nDue to this pattern, I find that it's paradoxically better for me to use more\nblankets and/or a heated mattress pad and fall asleep in a more relaxed posture\nwith looser sheets/more airflow. This is less likely to cause the overheating ->\nsweaty -> cold/uncomfortable issue.\n\nIn addition to making me bundle myself too tightly when going to sleep, being\ncold also just generally stimulates my mind/body, which hinders my ability to\nfall asleep.\n\nI've found a good way to manage cold is to use a heated mattress pad or heated\nblanket to pre-warm my bed, which helps me feel relaxed and warm as I get into\nbed.  Then, right before going to sleep, I turn off the heat and make sure I\nhave enough warm blankets around in case I do end up cooling down. \n\n#### Showering\n\nTaking a shower generally gives me temperature sensitive skin that makes it\nhard to find a good equilibrium when falling asleep, making it more likely that\nI'll get too cold or overheat later in the night.\n\nGoing to sleep with wet hair from a shower also can exacerbate temperature\nissues. At the very least it make my pillow wet, which is annoying.\n\nI find that showering ~2 hours before sleeping makes these non-issues.\n\n\n## Interesting Trends\n\nSeveral behaviors seem to correlate with dream presence and intensity for me in\na dose-dependent way:\n\n - Playing video games in the evening, especially role-playing type games.\n - Having eaten a lot of food during the day/evening.\n\nTODO: Put some actual raw data here.\n\n\n## Sleep Resources\n\n - Interesting take on the effects sleep has on your physiology:\n   https://guzey.com/theses-on-sleep/\n\n\n\n\n\n\n\n\n\n\n\nCategories: [Health And Longevity]({{< relref \"/\" >}}?Health-And-Longevity=true)\n\nBacklinks: [Manifesto]({{< relref \"/docs/manifesto.md\" >}}), \n[Aging Science]({{< relref \"/docs/health-and-longevity/aging-science.md\" >}}), \n[Task Tracking]({{< relref \"/docs/lifestyle-optimizations/task-tracking.md\" >}}), \n"
   :name "sleep.md"
   :categories #{"Health And Longevity"}
   :dir? false
   :links ["/docs/lifestyle-optimizations/task-tracking.md"
           "/"
           "/docs/manifesto.md"
+          "/docs/health-and-longevity/aging-science.md"
           "/docs/lifestyle-optimizations/task-tracking.md"]
-  :size 5206
-  :modtime 1658554093
+  :size 5286
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/health-and-longevity/theories-of-aging.md"
   :title "Theories Of Aging"
-  :markdown "# Theories of Aging\n\n## Information Theory of Aging\n\nOver time, small defects in our epigenome build up as proteins constantly fix\nDNA damage.  This leads to cells becoming less differentiated (skin cells act\nless like skin cells for example), which leads to symptoms of aging.\n\n### Experimental Evidence\n\n### Source\n\n[Lifespan by David Sinclair](https://lifespanbook.com/)\n\n## Microbial Burden\n\nOver time, the presence of toxic microbial-generated chemicals accumulate in\nour bodies, causing symptoms of aging. The entry point of these chemicals is\nmostly through our degrading gut lining, but can be found in other places as\nwell (skin/mouth/etc.).\n\n### Experimental Evidence\n\n### Source\n\n[Microbial Burden by Michael Lustgarten](https://michaellustgarten.com/2016/11/18/microbial-burden-a-major-cause-of-aging-and-age-related-disease/)\n\n## SENS\n\nWe don't know or care what the root cause of aging is, but we do know there are\n(at least) 7 types of damage that it causes. If we can fix those, probably the\nnegative symptoms of aging will go away.\n\nSee https://www.sens.org/our-research/intro-to-sens-research/ for information\nabout the types of damage, and the latest progress towards repairing them.\n\n### Experimental Evidence\n\n### Criticisms\n\n[Science fact and the SENS agenda](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1371037/)\n\nResponse: [Like it or not, life-extension research extends beyond\nbiogerontology](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1371043/)\n\n### Source\n\n[Ending Aging by Aubrey de Grey](https://en.wikipedia.org/wiki/Ending_Aging)\n\n## Reproductive Window\n\nI **think** (based on Charles Brenner's comments in his debate with Aubrey de\nGrey) that [Michael Rose](https://en.wikipedia.org/wiki/Michael_R._Rose)\nproposes that evolutionary attention has not been paid to organisms after they\nreproduce, so aging occurs because all the systems that keep an organism alive\nafter its reproductive window are not evolution-optimized, and are therefore\ndysfunctional.\n\n### Experimental Evidence\n\n### Source\n\nCategories: [Health And Longevity]({{< relref \"/\" >}}?Health-And-Longevity=true),\nAging\n"
+  :markdown "# Theories of Aging\n\n## Information Theory of Aging\n\nOver time, small defects in our epigenome build up as proteins constantly fix\nDNA damage.  This leads to cells becoming less differentiated (skin cells act\nless like skin cells for example), which leads to symptoms of aging.\n\n### Experimental Evidence\n\n### Source\n\n[Lifespan by David Sinclair](https://lifespanbook.com/)\n\n## Microbial Burden\n\nOver time, the presence of toxic microbial-generated chemicals accumulate in\nour bodies, causing symptoms of aging. The entry point of these chemicals is\nmostly through our degrading gut lining, but can be found in other places as\nwell (skin/mouth/etc.).\n\n### Experimental Evidence\n\n### Source\n\n[Microbial Burden by Michael Lustgarten](https://michaellustgarten.com/2016/11/18/microbial-burden-a-major-cause-of-aging-and-age-related-disease/)\n\n## SENS\n\nWe don't know or care what the root cause of aging is, but we do know there are\n(at least) 7 types of damage that it causes. If we can fix those, probably the\nnegative symptoms of aging will go away.\n\nSee https://www.sens.org/our-research/intro-to-sens-research/ for information\nabout the types of damage, and the latest progress towards repairing them.\n\n### Experimental Evidence\n\n### Criticisms\n\n[Science fact and the SENS agenda](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1371037/)\n\nResponse: [Like it or not, life-extension research extends beyond\nbiogerontology](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1371043/)\n\n### Source\n\n[Ending Aging by Aubrey de Grey](https://en.wikipedia.org/wiki/Ending_Aging)\n\n## Reproductive Window\n\nI **think** (based on Charles Brenner's comments in his debate with Aubrey de\nGrey) that [Michael Rose](https://en.wikipedia.org/wiki/Michael_R._Rose)\nproposes that evolutionary attention has not been paid to organisms after they\nreproduce, so aging occurs because all the systems that keep an organism alive\nafter its reproductive window are not evolution-optimized, and are therefore\ndysfunctional.\n\n### Experimental Evidence\n\n### Source\n\nCategories: [Health And Longevity]({{< relref \"/\" >}}?Health-And-Longevity=true),\n[Aging]({{< relref \"/\" >}}?Aging=true)\n\nBacklinks: [Aging Science]({{< relref \"/docs/health-and-longevity/aging-science.md\" >}}), \n"
   :name "theories-of-aging.md"
   :categories #{"Health And Longevity"
-                "aging"}
+                "Aging"}
   :dir? false
-  :links ["/"]
-  :size 2119
-  :modtime 1658682379
+  :links ["/"
+          "/"
+          "/docs/health-and-longevity/aging-science.md"]
+  :size 2244
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/health-and-longevity/tracking-health.md"
   :title "Tracking Health"
@@ -1385,7 +1392,7 @@
           "/docs/health-and-longevity/continuous-glucose-monitoring.md"
           "/docs/lifelogging/what-and-why.md"]
   :size 5515
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/health-and-longevity/unhealthy-food.md"
   :title "Unhealthy Food"
@@ -1395,7 +1402,7 @@
   :dir? false
   :links ["/"]
   :size 414
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/housing/home-energy-monitoring.md"
   :title "Home Energy Monitoring"
@@ -1405,7 +1412,7 @@
   :dir? false
   :links ["/"]
   :size 887
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/housing/projects.md"
   :title "Projects"
@@ -1415,7 +1422,7 @@
   :dir? false
   :links ["/"]
   :size 250
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/hydroponics/journal.md"
   :title "Journal"
@@ -1425,7 +1432,7 @@
   :dir? false
   :links ["/"]
   :size 1588
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/hydroponics/my-setup.md"
   :title "My Setup"
@@ -1435,7 +1442,7 @@
   :dir? false
   :links ["/"]
   :size 4441
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/investing-and-finances/comprehensive-housing-return-estimator.md"
   :title "Comprehensive Housing Return Estimator"
@@ -1445,7 +1452,7 @@
   :dir? false
   :links ["/"]
   :size 11799
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/investing-and-finances/financial-independence.md"
   :title "Financial Independence"
@@ -1455,7 +1462,7 @@
   :dir? false
   :links ["/"]
   :size 830
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/investing-and-finances/housing.md"
   :title "Housing"
@@ -1465,7 +1472,7 @@
   :dir? false
   :links ["/"]
   :size 1600
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/investing-and-finances/influences.md"
   :title "Influences"
@@ -1477,7 +1484,7 @@
           "/"
           "/docs/understanding-the-world/influences.md"]
   :size 1552
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/investing-and-finances/monthly-costs-of-car-ownership.md"
   :title "Monthly Costs Of Car Ownership"
@@ -1487,7 +1494,7 @@
   :dir? false
   :links ["/"]
   :size 560
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/investing-and-finances/strategies.md"
   :title "Strategies"
@@ -1497,7 +1504,7 @@
   :dir? false
   :links ["/"]
   :size 2111
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/investing-and-finances/taxes.md"
   :title "Taxes"
@@ -1507,7 +1514,7 @@
   :dir? false
   :links ["/"]
   :size 2812
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/lifelogging/camera.md"
   :title "Camera"
@@ -1518,7 +1525,7 @@
   :links ["/"
           "/docs/lifelogging/what-and-why.md"]
   :size 1023
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/lifelogging/influences.md"
   :title "Influences"
@@ -1528,7 +1535,7 @@
   :dir? false
   :links ["/"]
   :size 440
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/lifelogging/what-and-why.md"
   :title "What And Why"
@@ -1548,7 +1555,7 @@
           "/docs/lifelogging/camera.md"
           "/docs/lifestyle-optimizations/task-tracking.md"]
   :size 9173
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/android-apps.md"
   :title "Android Apps"
@@ -1558,7 +1565,7 @@
   :dir? false
   :links ["/"]
   :size 583
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/bike-commuting.md"
   :title "Bike Commuting"
@@ -1568,7 +1575,7 @@
   :dir? false
   :links ["/"]
   :size 8092
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/elements-of-a-good-day.md"
   :title "Elements Of A Good Day"
@@ -1578,7 +1585,7 @@
   :dir? false
   :links ["/"]
   :size 667
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/experiences.md"
   :title "Experiences"
@@ -1592,7 +1599,7 @@
           "/docs/gaming/recommendations.md"
           "/docs/thought-experiments/mind-mapping-concept.md"]
   :size 698
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/geographical-maps.md"
   :title "Geographical Maps"
@@ -1602,7 +1609,7 @@
   :dir? false
   :links ["/"]
   :size 208
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/hang-drying-clothes.md"
   :title "Hang Drying Clothes"
@@ -1612,7 +1619,7 @@
   :dir? false
   :links ["/"]
   :size 2629
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/home-network-and-internet-troubleshooting.md"
   :title "Home Network And Internet Troubleshooting"
@@ -1622,7 +1629,7 @@
   :dir? false
   :links ["/"]
   :size 839
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/keyboard-layouts.md"
   :title "Keyboard Layouts"
@@ -1632,7 +1639,7 @@
   :dir? false
   :links ["/"]
   :size 722
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/life-advice.md"
   :title "Life Advice"
@@ -1642,7 +1649,7 @@
   :dir? false
   :links ["/"]
   :size 287
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/listening-to-books.md"
   :title "Listening To Books"
@@ -1652,7 +1659,7 @@
   :dir? false
   :links ["/"]
   :size 798
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/my-computer-configuration-dotfiles.md"
   :title "My Computer Configuration Dotfiles"
@@ -1662,7 +1669,7 @@
   :dir? false
   :links ["/"]
   :size 6270
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/no-ad-youtube-viewing.md"
   :title "No Ad Youtube Viewing"
@@ -1672,7 +1679,7 @@
   :dir? false
   :links ["/"]
   :size 873
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/phone-case.md"
   :title "Phone Case"
@@ -1682,7 +1689,7 @@
   :dir? false
   :links ["/"]
   :size 1128
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/task-tracking.md"
   :title "Task Tracking"
@@ -1694,7 +1701,7 @@
           "/docs/health-and-longevity/sleep.md"
           "/docs/lifelogging/what-and-why.md"]
   :size 2415
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/taut-line-hitch.md"
   :title "Taut Line Hitch"
@@ -1704,7 +1711,7 @@
   :dir? false
   :links ["/"]
   :size 558
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/this-website.md"
   :title "This Website"
@@ -1714,7 +1721,7 @@
   :dir? false
   :links ["/"]
   :size 1250
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/utilizing-body-state.md"
   :title "Utilizing Body State"
@@ -1724,7 +1731,7 @@
   :dir? false
   :links ["/"]
   :size 887
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/vim-tricks.md"
   :title "Vim Tricks"
@@ -1734,7 +1741,7 @@
   :dir? false
   :links ["/"]
   :size 168
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/writing.md"
   :title "Writing"
@@ -1744,7 +1751,7 @@
   :dir? false
   :links ["/"]
   :size 1030
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/mind/absorbing-and-professing.md"
   :title "Absorbing And Professing"
@@ -1754,7 +1761,7 @@
   :dir? false
   :links ["/"]
   :size 7467
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/mind/behavior-change.md"
   :title "Behavior Change"
@@ -1764,7 +1771,7 @@
   :dir? false
   :links ["/"]
   :size 593
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/mind/brain-juice.md"
   :title "Brain Juice"
@@ -1774,7 +1781,7 @@
   :dir? false
   :links ["/"]
   :size 491
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/mind/contentment.md"
   :title "Contentment"
@@ -1784,7 +1791,7 @@
   :dir? false
   :links ["/"]
   :size 1530
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/mind/creativity.md"
   :title "Creativity"
@@ -1801,7 +1808,7 @@
           "/docs/society/utopia.md"
           "/docs/understanding-the-world/copyright-and-ip.md"]
   :size 3427
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/mind/desires-and-deprivation.md"
   :title "Desires And Deprivation"
@@ -1811,7 +1818,7 @@
   :dir? false
   :links ["/"]
   :size 1165
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/mind/education.md"
   :title "Education"
@@ -1821,7 +1828,7 @@
   :dir? false
   :links ["/"]
   :size 4894
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/mind/how-to-do-hard-tasks.md"
   :title "How To Do Hard Tasks"
@@ -1833,7 +1840,7 @@
           "/"
           "/docs/mind/motivation.md"]
   :size 5114
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/mind/influences.md"
   :title "Influences"
@@ -1843,7 +1850,7 @@
   :dir? false
   :links ["/"]
   :size 1471
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/mind/motivation.md"
   :title "Motivation"
@@ -1858,7 +1865,7 @@
           "/docs/mind/creativity.md"
           "/docs/mind/how-to-do-hard-tasks.md"]
   :size 11573
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/mind/myers-briggs-personality-typing.md"
   :title "Myers Briggs Personality Typing"
@@ -1868,17 +1875,19 @@
   :dir? false
   :links ["/"]
   :size 1284
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/mind/optimism.md"
   :title "Optimism"
-  :markdown "# Optimism\n\n> Optimism is a duty.\n> The future is open.\n> It is not predetermined.\n> No one can predict it, except by chance.\n> We all contribute to determining it by what we do.\n> We are all equally responsible for its success.\n> - Karl Popper and/or Immanuel Kant\n\nReal progress requires the act of creation, which in turn requires the belief\nthat positive changes are possible, which IMO is a definition of optimism.\n\nIt is easy to sit back and point out all the flaws in the world - the creations\nof others.\nSometimes this can be useful because it inspires new creation, but many many\npeople do not have this goal in mind when they do this.\nPure \"destructive\" pessimism rather causes all sorts of problems:\n\n1. It fosters a helpless victimhood mindset, which almost by definition can't lead\nto productive action.\n1. It can lead to \"burn it down\" actions that leave a worse world in their wake.\nVarious political revolutions come to mind.\n1. It's socially infectious - others can be convinced to take up the same mindset\neasily.\nIt is temping to blame the world when things go wrong after all.\n"
+  :markdown "# Optimism\n\n> Optimism is a duty.\n> The future is open.\n> It is not predetermined.\n> No one can predict it, except by chance.\n> We all contribute to determining it by what we do.\n> We are all equally responsible for its success.\n> - Karl Popper and/or Immanuel Kant\n\nReal progress requires the act of creation, which in turn requires the belief\nthat positive changes are possible, which IMO is a definition of optimism.\n\nIt is easy to sit back and point out all the flaws in the world - the creations\nof others.\nSometimes this can be useful because it inspires new creation, but many many\npeople do not have this goal in mind when they do this.\nPure \"destructive\" pessimism rather causes all sorts of problems:\n\n1. It fosters a helpless victimhood mindset, which almost by definition can't lead\nto productive action.\n1. It can lead to \"burn it down\" actions that leave a worse world in their wake.\nVarious political revolutions come to mind.\n1. It's socially infectious - others can be convinced to take up the same mindset\neasily.\nIt is temping to blame the world when things go wrong after all.\n\nCategories: [Mind]({{< relref \"/\" >}}?Mind=true)\n\nBacklinks: [Potential Life Missions]({{< relref \"/docs/potential-life-missions.md\" >}}), \n[Solving Societal Problems]({{< relref \"/docs/society/solving-societal-problems.md\" >}}), \n"
   :name "optimism.md"
-  :categories #{}
+  :categories #{"Mind"}
   :dir? false
-  :links []
-  :size 1097
-  :modtime 1659025138
+  :links ["/"
+          "/docs/potential-life-missions.md"
+          "/docs/society/solving-societal-problems.md"]
+  :size 1329
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/mind/perspective.md"
   :title "Perspective"
@@ -1888,7 +1897,7 @@
   :dir? false
   :links ["/"]
   :size 4825
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/mind/things-to-do-when-unmotivated.md"
   :title "Things To Do When Unmotivated"
@@ -1898,7 +1907,7 @@
   :dir? false
   :links ["/"]
   :size 1824
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/mind/working-with-others.md"
   :title "Working With Others"
@@ -1908,7 +1917,7 @@
   :dir? false
   :links ["/"]
   :size 7487
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/morality/altruism.md"
   :title "Altruism"
@@ -1918,7 +1927,7 @@
   :dir? false
   :links ["/"]
   :size 149
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/morality/cancelling-high-contributors.md"
   :title "Cancelling High Contributors"
@@ -1928,7 +1937,7 @@
   :dir? false
   :links ["/"]
   :size 1225
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/morality/efficient-living-and-morality.md"
   :title "Efficient Living And Morality"
@@ -1938,7 +1947,7 @@
   :dir? false
   :links ["/"]
   :size 4990
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/morality/future.md"
   :title "Future"
@@ -1948,7 +1957,7 @@
   :dir? false
   :links ["/"]
   :size 231
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/morality/right-to-risk.md"
   :title "Right To Risk"
@@ -1958,7 +1967,7 @@
   :dir? false
   :links ["/"]
   :size 1524
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/society/co-ops.md"
   :title "Co Ops"
@@ -1968,7 +1977,7 @@
   :dir? false
   :links ["/"]
   :size 4682
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/society/doom-and-how-to-avoid-it.md"
   :title "Doom And How To Avoid It"
@@ -1978,7 +1987,7 @@
   :dir? false
   :links ["/"]
   :size 2060
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/society/individuals-vs-groups.md"
   :title "Individuals Vs Groups"
@@ -1988,7 +1997,7 @@
   :dir? false
   :links ["/"]
   :size 658
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/society/politics.md"
   :title "Politics"
@@ -1998,18 +2007,18 @@
   :dir? false
   :links ["/"]
   :size 1431
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/society/solving-societal-problems.md"
   :title "Solving Societal Problems"
-  :markdown "# Solving Societal Problems\n\nHere I'm defining a \"societal problem\" as a large problem facing many people\nthat could be solved if said people changed their behavior in some systematic\nway. For example:\n\n - **Climate Change** could be solved if we all transitioned to using more\n   renewable sources of energy.\n - The **Obesity Epidemic** could be solved if we all ate less food.\n\n## Individual Change and Shaming\n\nOne common proposal I've heard for solving at least the above problems is using\na \"grassroots\" approach. This method would involve first changing your own\nbehavior such that the problem would be solved if everyone behaved like you,\nthen trying to influence others to adopt your new behavior(s). This seems\nsimple enough, but I don't think it's the best way forward, and in some ways is\nactively harmful.\n\nThe tacit assumption with this proposal is that people are able to choose what\nbehaviors to adopt. I would argue that in fact our behaviors are much more\ninfluenced by our environment than we would like to admit. One component of our\nenvironment is indeed other people peer pressuring us, but (IMO) far more\ndominant factors include:\n\n - Economics (how much the behavior change costs)\n - \"At hand\"-ness (what other behaviors are \"at hand\" and easy to do)\n\nWhen these factors are overpowering (which I argue they usually are), peer\npressure becomes a form of bullying and social rejection that the target of\nwhich is powerless to stop. Perpetuating this is downright cruel.\n\n## Changing the Environment\n\nIf a grassroots behavior change movement isn't the best way to solve the\nproblem, then what can we do instead?  In my opinion, the answer is\nenvironmental change. This can take several forms:\n\n### 1. Local Environmental Change\n\nThis involves making changes to an individual's local environment (the spaces\nthey interact with on a habitual basis) to guide them to certain behaviors.\nSome examples would be intentionally not buying unhealthy food when at the\ngrocery store so that when at home these foods are not \"at hand\". Or not buying\na car so that you instead need to bike or bus to get around.\n\nNote that the line here can be pretty blurry between what is an actual behavior\nchange and what is simply an action that changes one's environment. Because of\nthis, I think the stronger, ultimate solution is:\n\n### 2. Policy-Level Environmental Change\n\nGovernment policies can create massive environmental changes. For example,\nextra taxes on certain products can massively impact people's buying decisions.\nOr bans of certain products can completely change the suite of chemicals that\nindividuals are exposed to on a daily basis.\n\nA natural objection is to point out that in a democracy, the majority of people\n(in theory) choose what policies are enacted. Because of this, wouldn't people\njust vote for policies that help them perpetuate their current behavior set -\nwhich they presumably \"chose\" and/or otherwise would like to keep?\n\nI argue that actually **people are quite able to vote in a way counter to their\neveryday actions**. For instance, people who enjoy soda may vote for a\nsugar-sweetened beverage tax. The reason why (I think) this is because the\nmental state you adopt when voting is generally different that the mental state\nwhen deciding - or not consciously deciding at all - to engage in a particular\nbehavior.\n\nThis is especially true when voting on higher level, more abstract policies.\nFor instance, banning a certain type of energy production might indirectly\nincrease someone's cost of living by quite a bit in various ways, but thinking\nabout the policy in a more abstract sense may lead someone to approve it\ndespite this personal impact.\n\nBased on my own emotions, I also think that people by and large care deeply\nabout how their lives compare to those of others around them.  A tax that\ngreatly increases everyone's cost of living is much more bearable than one that\ntargets just an individual person. It's much rarer for people to worry about\ntheir absolute standing than how they compare to others - the fact that the\nmajority of people today live like the elites of a couple centuries ago is not\na great source of comfort and satisfaction generally speaking.\n\nThis, like many solutions to big problems, does depend on an educated populace\nthat is able to reason about the effects of certain policies. Ensuring this\ncondition is itself a large scale societal problem that hopefully can be solved\nwith this same line of thinking. I do admit there's a bit of a chicken-and-egg\nproblem here :/.\n\n#### Externality-based Policies\n\nMany societal problems are due to hard-to-track externalities of existing\nbehaviors that are not \"priced in\" to the cost of the behavior. For instance,\ncompanies that make unhealthy food do not pay for the healthcare costs their\nproducts incur. Or single-use plastic producers do not pay for waste cleanup\nefforts. Or petroleum refiners do not pay for CO2 emissions. If these\nexternalities were priced in, then the consumer would have a much easier time\nmaking buying decisions, as the real cost of their consumption would be obvious\nto them.\n\nCurrently, it's hard to know the real cost of a given behavior, which is\nfurther confused by emotional arguments on either side. For example, if you\nwant to know if you should use plastic straws or not, the low price of them\nmight make you think they are an efficient way to solve your problem. But\nothers would argue that [some large number] of straws are used every second!\nUnfortunately, that doesn't really tell you very much. If instead it cost a\ndollar to clean up every discarded straw, and that was priced into the straws\ncost since the producing company had to clean up the straws, then you as the\nconsumer could make a more informed decision about whether that dollar is worth\nit.\n\nOf course, tracking all these externalities is hard. But this seems like a\nuseful framework, or at least more useful that trying to get consumers to all\nindividually understand the externalities of their actions.\n\nProbably someone else somewhere has done a much better job exploring this\ntopic.\n\n### 3. Technological Environmental Change\n\nNew technologies dramatically change the environment people live in.\nInterestingly, they usually do this without requiring the bureaucracy required\nto enact government policies. Therefore, the development of new technologies to\nsolve societal problems, like geoengineering techniques for climate change,\nhas a lot of potential. And some problems can **only** be solved with new\ntechnologies (like preventing aging).\n\n### 4. Cultural Environmental Change\n\nShifting cultural norms also can lead to massive change in individual behavior.\nI don't really know the best way this can be leveraged without the \"grassroots\"\nproblem I mentioned above, but I thought it would be worth mentioning.\n\n## Personal Impact\n\nGiven this theory, if someone feels strongly that certain problems need to be\nsolves, what should they do?\n\nInfluencing government policy is a lot of work and is, I would argue, a task\nthat requires specialized skills. This means that someone who invests more time\nin building these skills will hone them, and have more leverage when applying\nthem. Therefore, an effective path to personally solving societal problems is\nto invest a lot of time and energy in honing and applying these skills. Note\nthat I'm not talking about lobbying here, but rather actually writing laws and\ndoing the research that motivates their creation and design. This kind of\nenvironment building can also be done outside of formal government in private\norganizations that fill some roles that a government might otherwise fill.\n\nOur hypothetical person could also get deep into creating a technology that\nsolves the problem they care about. This arguably takes even more time/energy\ninvestment to see significant returns.\n\nFor those who do not want to, or cannot, invest time/energy in influencing\npolicy or developing new technologies, one fallback option is to instead hone\nanother set of skills, apply them to make money, and then fund\npolicymakers/inventors with the proceeds. This will probably have a bigger\nimpact than dabbling in invention/policymaking, and certainly will have a\nbigger impact than just changing your own behavior.\n\nRegardless, being a [creative optimist (as opposed to a destructive\npessimist)]({{< relref \"/docs/mind/optimism.md\" >}}) is important.\n\n### Hypocrisy\n\nIf you assume that \"grassroots\" individual change has little to no impact on\nsocietal problems, then a lot of seemly hypocritical behavior is explained and\neven excused. For instance, it is very reasonable to believe strongly that\nsociety would be better if everyone was vegan, while eating the readily\navailable non-vegan foods provided by society. It even makes some sense that\nsomeone super passionate about some political issue - to the point where they\norganize protests or voting campaigns - may not vote for the issue themselves!\nIn my opinion, these behaviors are more a demonstration of how these\nhypothetical people think they can manifest change as opposed to what they\ntruly believe.\n\n## Testing this Theory\n\nRight now this line of thinking is just a plausible (at least to me) idea.  I\nwould love to see some evidence for this, but don't have any at hand right now\nto cite.  So (as always) I might be totally wrong :).\n\nCategories: [Society]({{< relref \"/\" >}}?Society=true)\n"
+  :markdown "# Solving Societal Problems\n\nHere I'm defining a \"societal problem\" as a large problem facing many people\nthat could be solved if said people changed their behavior in some systematic\nway. For example:\n\n - **Climate Change** could be solved if we all transitioned to using more\n   renewable sources of energy.\n - The **Obesity Epidemic** could be solved if we all ate less food.\n\n## Individual Change and Shaming\n\nOne common proposal I've heard for solving at least the above problems is using\na \"grassroots\" approach. This method would involve first changing your own\nbehavior such that the problem would be solved if everyone behaved like you,\nthen trying to influence others to adopt your new behavior(s). This seems\nsimple enough, but I don't think it's the best way forward, and in some ways is\nactively harmful.\n\nThe tacit assumption with this proposal is that people are able to choose what\nbehaviors to adopt. I would argue that in fact our behaviors are much more\ninfluenced by our environment than we would like to admit. One component of our\nenvironment is indeed other people peer pressuring us, but (IMO) far more\ndominant factors include:\n\n - Economics (how much the behavior change costs)\n - \"At hand\"-ness (what other behaviors are \"at hand\" and easy to do)\n\nWhen these factors are overpowering (which I argue they usually are), peer\npressure becomes a form of bullying and social rejection that the target of\nwhich is powerless to stop. Perpetuating this is downright cruel.\n\n## Changing the Environment\n\nIf a grassroots behavior change movement isn't the best way to solve the\nproblem, then what can we do instead?  In my opinion, the answer is\nenvironmental change. This can take several forms:\n\n### 1. Local Environmental Change\n\nThis involves making changes to an individual's local environment (the spaces\nthey interact with on a habitual basis) to guide them to certain behaviors.\nSome examples would be intentionally not buying unhealthy food when at the\ngrocery store so that when at home these foods are not \"at hand\". Or not buying\na car so that you instead need to bike or bus to get around.\n\nNote that the line here can be pretty blurry between what is an actual behavior\nchange and what is simply an action that changes one's environment. Because of\nthis, I think the stronger, ultimate solution is:\n\n### 2. Policy-Level Environmental Change\n\nGovernment policies can create massive environmental changes. For example,\nextra taxes on certain products can massively impact people's buying decisions.\nOr bans of certain products can completely change the suite of chemicals that\nindividuals are exposed to on a daily basis.\n\nA natural objection is to point out that in a democracy, the majority of people\n(in theory) choose what policies are enacted. Because of this, wouldn't people\njust vote for policies that help them perpetuate their current behavior set -\nwhich they presumably \"chose\" and/or otherwise would like to keep?\n\nI argue that actually **people are quite able to vote in a way counter to their\neveryday actions**. For instance, people who enjoy soda may vote for a\nsugar-sweetened beverage tax. The reason why (I think) this is because the\nmental state you adopt when voting is generally different that the mental state\nwhen deciding - or not consciously deciding at all - to engage in a particular\nbehavior.\n\nThis is especially true when voting on higher level, more abstract policies.\nFor instance, banning a certain type of energy production might indirectly\nincrease someone's cost of living by quite a bit in various ways, but thinking\nabout the policy in a more abstract sense may lead someone to approve it\ndespite this personal impact.\n\nBased on my own emotions, I also think that people by and large care deeply\nabout how their lives compare to those of others around them.  A tax that\ngreatly increases everyone's cost of living is much more bearable than one that\ntargets just an individual person. It's much rarer for people to worry about\ntheir absolute standing than how they compare to others - the fact that the\nmajority of people today live like the elites of a couple centuries ago is not\na great source of comfort and satisfaction generally speaking.\n\nThis, like many solutions to big problems, does depend on an educated populace\nthat is able to reason about the effects of certain policies. Ensuring this\ncondition is itself a large scale societal problem that hopefully can be solved\nwith this same line of thinking. I do admit there's a bit of a chicken-and-egg\nproblem here :/.\n\n#### Externality-based Policies\n\nMany societal problems are due to hard-to-track externalities of existing\nbehaviors that are not \"priced in\" to the cost of the behavior. For instance,\ncompanies that make unhealthy food do not pay for the healthcare costs their\nproducts incur. Or single-use plastic producers do not pay for waste cleanup\nefforts. Or petroleum refiners do not pay for CO2 emissions. If these\nexternalities were priced in, then the consumer would have a much easier time\nmaking buying decisions, as the real cost of their consumption would be obvious\nto them.\n\nCurrently, it's hard to know the real cost of a given behavior, which is\nfurther confused by emotional arguments on either side. For example, if you\nwant to know if you should use plastic straws or not, the low price of them\nmight make you think they are an efficient way to solve your problem. But\nothers would argue that [some large number] of straws are used every second!\nUnfortunately, that doesn't really tell you very much. If instead it cost a\ndollar to clean up every discarded straw, and that was priced into the straws\ncost since the producing company had to clean up the straws, then you as the\nconsumer could make a more informed decision about whether that dollar is worth\nit.\n\nOf course, tracking all these externalities is hard. But this seems like a\nuseful framework, or at least more useful that trying to get consumers to all\nindividually understand the externalities of their actions.\n\nProbably someone else somewhere has done a much better job exploring this\ntopic.\n\n### 3. Technological Environmental Change\n\nNew technologies dramatically change the environment people live in.\nInterestingly, they usually do this without requiring the bureaucracy required\nto enact government policies. Therefore, the development of new technologies to\nsolve societal problems, like geoengineering techniques for climate change,\nhas a lot of potential. And some problems can **only** be solved with new\ntechnologies (like preventing aging).\n\n### 4. Cultural Environmental Change\n\nShifting cultural norms also can lead to massive change in individual behavior.\nI don't really know the best way this can be leveraged without the \"grassroots\"\nproblem I mentioned above, but I thought it would be worth mentioning.\n\n## Personal Impact\n\nGiven this theory, if someone feels strongly that certain problems need to be\nsolves, what should they do?\n\nInfluencing government policy is a lot of work and is, I would argue, a task\nthat requires specialized skills. This means that someone who invests more time\nin building these skills will hone them, and have more leverage when applying\nthem. Therefore, an effective path to personally solving societal problems is\nto invest a lot of time and energy in honing and applying these skills. Note\nthat I'm not talking about lobbying here, but rather actually writing laws and\ndoing the research that motivates their creation and design. This kind of\nenvironment building can also be done outside of formal government in private\norganizations that fill some roles that a government might otherwise fill.\n\nOur hypothetical person could also get deep into creating a technology that\nsolves the problem they care about. This arguably takes even more time/energy\ninvestment to see significant returns.\n\nFor those who do not want to, or cannot, invest time/energy in influencing\npolicy or developing new technologies, one fallback option is to instead hone\nanother set of skills, apply them to make money, and then fund\npolicymakers/inventors with the proceeds. This will probably have a bigger\nimpact than dabbling in invention/policymaking, and certainly will have a\nbigger impact than just changing your own behavior.\n\nRegardless, being a [creative optimist (as opposed to a destructive\npessimist)]({{< relref \"/docs/mind/optimism.md\" >}}) is important.\n\n### Hypocrisy\n\nIf you assume that \"grassroots\" individual change has little to no impact on\nsocietal problems, then a lot of seemly hypocritical behavior is explained and\neven excused. For instance, it is very reasonable to believe strongly that\nsociety would be better if everyone was vegan, while eating the readily\navailable non-vegan foods provided by society. It even makes some sense that\nsomeone super passionate about some political issue - to the point where they\norganize protests or voting campaigns - may not vote for the issue themselves!\nIn my opinion, these behaviors are more a demonstration of how these\nhypothetical people think they can manifest change as opposed to what they\ntruly believe.\n\n## Testing this Theory\n\nRight now this line of thinking is just a plausible (at least to me) idea.  I\nwould love to see some evidence for this, but don't have any at hand right now\nto cite.  So (as always) I might be totally wrong :).\n\nCategories: [Society]({{< relref \"/\" >}}?Society=true)"
   :name "solving-societal-problems.md"
   :categories #{"Society"}
   :dir? false
   :links ["/docs/mind/optimism.md"
           "/"]
-  :size 9417
-  :modtime 1659024066
+  :size 9416
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/society/utopia.md"
   :title "Utopia"
@@ -2023,7 +2032,7 @@
           "/docs/mind/creativity.md"
           "/docs/understanding-the-world/copyright-and-ip.md"]
   :size 7765
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/software-dev/actionable-tips.md"
   :title "Actionable Tips"
@@ -2033,7 +2042,7 @@
   :dir? false
   :links ["/"]
   :size 442
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/software-dev/auto-input-data-collection.md"
   :title "Auto Input Data Collection"
@@ -2043,27 +2052,27 @@
   :dir? false
   :links ["/"]
   :size 2360
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/software-dev/choosing-a-language.md"
   :title "Choosing A Language"
-  :markdown "# Choosing a Language\n\nWhen deciding what programming language to use, there are several important\nfactors:\n\n**The ergonomics of the language itself.**  This includes things like the\ntype system, immutability/functional programming support, OOP support, etc.\nMostly, these features contribute to how pleasant it is to develop in the\nlanguage, which leads to productivity gains and potentially ease of debugging.\n\n**The library/tooling ecosystem around the language.**  Some very non-ergonomic\nlanguages may still be the right choice because lots of libraries have been\nwritten for that language, so the total amount of work to do to accomplish\nanything is dramatically reduced.  One good example of this is GDScript (a\nless-featureful Python), which is built into the Godot Game Engine.  Another\nexample is Javascript, which has tons and tons of libraries.\n\nCategories: [Software Dev]({{< relref \"/\" >}}?Software-Dev=true)"
+  :markdown "# Choosing a Language\n\nWhen deciding what programming language to use, there are several important\nfactors:\n\n**The ergonomics of the language itself.**  This includes things like the\ntype system, immutability/functional programming support, OOP support, etc.\nMostly, these features contribute to how pleasant it is to develop in the\nlanguage, which leads to productivity gains and potentially ease of debugging.\n\n**The library/tooling ecosystem around the language.**  Some very non-ergonomic\nlanguages may still be the right choice because lots of libraries have been\nwritten for that language, so the total amount of work to do to accomplish\nanything is dramatically reduced.  One good example of this is GDScript (a\nless-featureful Python), which is built into the Godot Game Engine.  Another\nexample is Javascript, which has tons and tons of libraries.\n\nThis is a cool way to directly compare the look and feel of different languages:\nhttp://www.rosettacode.org/wiki/Rosetta_Code.\n\nCategories: [Software Dev]({{< relref \"/\" >}}?Software-Dev=true)\n"
   :name "choosing-a-language.md"
   :categories #{"Software Dev"}
   :dir? false
   :links ["/"]
-  :size 922
-  :modtime 1658554093
+  :size 1051
+  :modtime 1659124906
   :mode 416}
  {:path "content/docs/software-dev/complexity.md"
   :title "Complexity"
-  :markdown "# Complexity\n\nA killer of productivity (and fun).\n\n## Perspectives\n\n- [Simple made Easy by Rich Hickey](https://www.infoq.com/presentations/Simple-Made-Easy/)\n  - Complex = entangled = difficult to reason about\n  - To make systems more understandable, need to reduce them to small,\n    **independant** pieces (like pure functions with no side effects)\n- [The Origin of Complexity by Joakim\n  Tengstrand](https://itnext.io/the-origin-of-complexity-8ecb39130fc)\n  - Complexity arises when systems are not changeable.  To make systems more\n    changeable, increase their **usability** and reduce **coordination**\n    between their pieces.\n\n## Quantifying Complexity\n\nUseful to identify where complexity is coming from in your project.\nAlso useful to make a case for why it should be addressed (that it is bad\nenough).\n\nYuanfang Cai has done a lot of cool work here.  See:\n\n - [Software Health Management Talk](https://www.youtube.com/watch?v=lC7khoMu0NA)\n - Quantifying coupling in code constructs:\n https://www.cs.drexel.edu/~yfcai/papers/2016/icse2016-DL.pdf\n - Quantifying coupling by which code files are changed together:\n https://www.cs.drexel.edu/~yfcai/papers/2019/icpc2019.pdf\n"
+  :markdown "# Complexity\n\nA killer of productivity (and fun).\n\n## Perspectives\n\n- [Simple made Easy by Rich Hickey](https://www.infoq.com/presentations/Simple-Made-Easy/)\n  - Complex = entangled = difficult to reason about\n  - To make systems more understandable, need to reduce them to small,\n    **independant** pieces (like pure functions with no side effects)\n- [The Origin of Complexity by Joakim\n  Tengstrand](https://itnext.io/the-origin-of-complexity-8ecb39130fc)\n  - Complexity arises when systems are not changeable.  To make systems more\n    changeable, increase their **usability** and reduce **coordination**\n    between their pieces.\n\n## Quantifying Complexity\n\nUseful to identify where complexity is coming from in your project.\nAlso useful to make a case for why it should be addressed (that it is bad\nenough).\n\nYuanfang Cai has done a lot of cool work here.  See:\n\n - [Software Health Management Talk](https://www.youtube.com/watch?v=lC7khoMu0NA)\n - Quantifying coupling in code constructs: https://www.cs.drexel.edu/~yfcai/papers/2016/icse2016-DL.pdf\n - Quantifying coupling by which code files are changed together: https://www.cs.drexel.edu/~yfcai/papers/2019/icpc2019.pdf\n\nCategories: [Software Dev]({{< relref \"/\" >}}?Software-Dev=true)\n"
   :name "complexity.md"
-  :categories #{}
+  :categories #{"Software Dev"}
   :dir? false
-  :links []
-  :size 1183
-  :modtime 1659113440
+  :links ["/"]
+  :size 1247
+  :modtime 1659114036
   :mode 416}
  {:path "content/docs/software-dev/functional-programming.md"
   :title "Functional Programming"
@@ -2073,7 +2082,7 @@
   :dir? false
   :links ["/"]
   :size 1390
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/software-dev/impact.md"
   :title "Impact"
@@ -2083,17 +2092,17 @@
   :dir? false
   :links ["/"]
   :size 198
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/software-dev/influences.md"
   :title "Influences"
-  :markdown "## Influences\n\n- [Getting things done by Johnathan Blow](https://www.youtube.com/watch?v=vCzrKjbXZQY)\n  - Depth first approach to problem solving can be bad because you end up going\n    in the wrong direction (which you would have avoided going breath-first)\n- [Hammock Driven Development by Rich Hickey](https://www.youtube.com/watch?v=f84n5oFoZBc)\n  - Stepping back from a problem and doing other things or sleeping allows\n    unconscious parts of your mind draw connections that you otherwise wouldn't\n    draw.  This allows you to solve problems that otherwise would be much harder\n    or impossible.\n- [Thinking Above the Code by Leslie Lamport](https://www.youtube.com/watch?v=-4Yp3j_jk8Q)\n  - It is easy to trick yourself that you are thinking rationally when you do\n    not share your thoughts by writing them down or speaking them out loud.  If\n    you are serious about solving a problem, write down your thought process!\n- [Things You Should Never Do by Joel Spolsky](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/)\n  - Rewriting code is tempting, but can destroy solutions to many\n    micro-problems that are hard to see from the top level.\n- [The Grug Brained Developer](https://grugbrain.dev/)\n  - A good reality check on being practical when programming, and being honest\n    with oneself about how things are actually working.\n\nCategories: [Software Dev]({{< relref \"/\" >}}?Software-Dev=true)\n"
+  :markdown "## Influences\n\n- [Getting things done by Johnathan Blow](https://www.youtube.com/watch?v=vCzrKjbXZQY)\n  - Depth first approach to problem solving can be bad because you end up going\n    in the wrong direction (which you would have avoided going breath-first)\n- [Hammock Driven Development by Rich Hickey](https://www.youtube.com/watch?v=f84n5oFoZBc)\n  - Stepping back from a problem and doing other things or sleeping allows\n    unconscious parts of your mind draw connections that you otherwise wouldn't\n    draw.  This allows you to solve problems that otherwise would be much harder\n    or impossible.\n- [Thinking Above the Code by Leslie Lamport](https://www.youtube.com/watch?v=-4Yp3j_jk8Q)\n  - It is easy to trick yourself that you are thinking rationally when you do\n    not share your thoughts by writing them down or speaking them out loud.  If\n    you are serious about solving a problem, write down your thought process!\n- [Things You Should Never Do by Joel Spolsky](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/)\n  - Rewriting code is tempting, but can destroy solutions to many\n    micro-problems that are hard to see from the top level.\n- [The Grug Brained Developer](https://grugbrain.dev/)\n  - A good reality check on being practical when programming, and being honest\n    with oneself about how things are actually working.\n\nCategories: [Software Dev]({{< relref \"/\" >}}?Software-Dev=true)"
   :name "influences.md"
   :categories #{"Software Dev"}
   :dir? false
   :links ["/"]
-  :size 1439
-  :modtime 1659113440
+  :size 1438
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/software-dev/patterned-code.md"
   :title "Patterned Code"
@@ -2103,7 +2112,7 @@
   :dir? false
   :links ["/"]
   :size 338
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/thought-experiments/artificial-intelligence.md"
   :title "Artificial Intelligence"
@@ -2113,7 +2122,7 @@
   :dir? false
   :links ["/"]
   :size 2408
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/thought-experiments/life-quests.md"
   :title "Life Quests"
@@ -2123,7 +2132,7 @@
   :dir? false
   :links ["/"]
   :size 396
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/thought-experiments/mind-mapping-concept.md"
   :title "Mind Mapping Concept"
@@ -2142,7 +2151,7 @@
           "/"
           "/docs/lifestyle-optimizations/experiences.md"]
   :size 1945
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/thought-experiments/random-ideas.md"
   :title "Random Ideas"
@@ -2152,7 +2161,7 @@
   :dir? false
   :links ["/"]
   :size 7874
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/thought-experiments/two-glasses.md"
   :title "Two Glasses"
@@ -2162,7 +2171,7 @@
   :dir? false
   :links ["/"]
   :size 1752
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/understanding-the-world/applying-theories.md"
   :title "Applying Theories"
@@ -2172,7 +2181,7 @@
   :dir? false
   :links ["/"]
   :size 4672
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/understanding-the-world/copyright-and-ip.md"
   :title "Copyright And Ip"
@@ -2186,7 +2195,7 @@
           "/docs/mind/creativity.md"
           "/docs/society/utopia.md"]
   :size 774
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/understanding-the-world/great-explanations.md"
   :title "Great Explanations"
@@ -2196,7 +2205,7 @@
   :dir? false
   :links ["/"]
   :size 302
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/understanding-the-world/influences.md"
   :title "Influences"
@@ -2207,7 +2216,7 @@
   :links ["/"
           "/docs/investing-and-finances/influences.md"]
   :size 3305
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/understanding-the-world/judging-decisions.md"
   :title "Judging Decisions"
@@ -2217,7 +2226,7 @@
   :dir? false
   :links ["/"]
   :size 2328
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/understanding-the-world/notetaking.md"
   :title "Notetaking"
@@ -2227,7 +2236,7 @@
   :dir? false
   :links ["/"]
   :size 1065
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/understanding-the-world/physics.md"
   :title "Physics"
@@ -2237,7 +2246,7 @@
   :dir? false
   :links ["/"]
   :size 415
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/understanding-the-world/productive_conversations.md"
   :title "Productive_conversations"
@@ -2247,19 +2256,20 @@
   :dir? false
   :links ["/"]
   :size 510
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/understanding-the-world/what-to-believe.md"
   :title "What To Believe"
-  :markdown "# What to Believe\n\nIn order to make good decisions, people need to build an understanding of how\nthe world works by gathering information.  Luckily, it is getting easier and\neasier to do this as technology becomes more and more efficient at sending data\naround the world.  Unfortunately, simply gathering information is not enough;\none must also make sure that the information is of high enough quality to use\nin world modelling or decision making.\n\nThere are many reasons why information people share with each other may be\nmisleading or wrong.  \n\n\nhttps://thedietwars.com/how-to-determine-who-is-a-legitimate-science-based-health-expert/\n\n\n## Stories\n\nTo transfer information, people share stories with each other.  These stories\nget etched in people's minds as they hear them, and can get more deeply etched\nwith repetition or other validation.\n\nMany (technically most) stories are not accurate descriptions of the real,\nphysical world.  \n\nInaccurate stories can be useful.  For instance, they can be \"stepping stones\nto the truth\", like our story about how electrons are particles that orbit the\nnucleus of an atom (Bohr model).  They can also provide practical ways to\nencourage a behavior; for instance, the story that virtuous people are rewarded\nin the afterlife.  Or auervedic medicine promoting health.\n\nUnfortunately, inaccuracy can also lead to bad decision making with serious\nconsequences.  To be safe, it would be ideal if we could clearly determine\ninaccuracy and weight that in our consideration of whether or not to use the\nstory in informing our behavior.\n\n\n## Story Plausability vs Accuracy\n\nFirstly, it is important to know that **plausability DOES NOT correlate well\nwith accuracy**, especially in complex systems.  There are many, many more\nplausable statements about systems like our economy or the human body that\nthere are statements which are actually true.  Some random examples (NOT MY\nOPINIONS):\n\n### Health\n\n - Any dietary sugar crystallizes in the blood, causing arterial damage.\n - Sugar has no harmful effects on the body when <50g/day are consumed.\n - Saturated fat hardens in the blood, clogging arteries.\n - Saturated fat does not clog arteries, it gets dissolved in blood just fine.\n\n### Economy\n\n - Poor people are poor because they don't work hard.\n - Poor people are poor because powerful people with malicious intent are\n   taking their resources.\n - Poor people are poor because our economy makes it hard to increase your net\n   worth.\n\n\n### Education\n\n - Girls and boys have inherent (from birth) differences in what topics they\n   are interested in, and therefore end up finding careers in.\n - Girls and boys have the same chance to become interested in something at\n   birth, but are unevenly distributed in careers due to how they are raised.\n\nMore theories like this that were widely believed but are now disproven can be\nfound on [this Wikipedia\npage](https://en.wikipedia.org/wiki/Superseded_theories_in_science). Also [this\nstudy of medical\ntherapies](https://twitter.com/kevinnbass/status/1184599630312427520).\n\nNote that some stories can be completely true, but still not have the effect\nthey imply.  For instance, certain foods contain toxins that kill and/or\nmutate our cells.  But this does not mean that we shouldn't eat those foods\n(perhaps every foods falls into this category?).\n\nFor each of the above statements/stories, there are groups of people who would\nfind them plausible.  Since some directly contradict each other, how are we to\nknow which to believe?\n\n\n## The Scientific Method\n\nWe can use scientific reasoning to falsify inaccurate stories!  Ideally, we\nwould do this for all information we incorporate into our decisions; if no one\nhas tried to falsify a certain piece of information, then we probably shouldn't\nuse it for important decision making.\n\nUnfortunately, science is really hard, so many falsification studies have not\nbeen done.  Additionally, science doesn't give hard yes-or-no answers - it\ngives probabilities (e.g. p-values) that something might be true given a long\nlist of assumptions or constraints.  Context is crucially important - studies\ngenerally are very narrow in the situations they apply to! In order to\naccurately incorporate a scientific finding into a justification for making a\ncertain decision, the uncertainties in the study and the required context to\napply it should be understood.  \n\nOh yeah, also scientific studies can just be wrong due to errors in their\nexecution, even if the experimenters themselves were unbiased. A good practical\nway to get around this problem is to [read review articles instead of\nindividual\nstudies](https://slatestarcodex.com/2014/12/12/beware-the-man-of-one-study/).\n\nIt is hard to do this, just like it is hard to come up with scientific findings\nin the first place.  If we as a society deeply recognized this difficulty, it\nmay give more respect to good scientific findings, and help us have more\ninformed debated about what actions to take on big important issues.  This\nrecognition may also make people more patient and willing to embrace the\ndifficulty, instead of looking for shortcuts. \n\n(I have nothing against finding the most efficient ways to solve problems,\nexcept when these shortcuts are less rigorous or otherwise worse than harder\nsolutions AND we pretend that they are just as good just because of their\nconvenience).\n\nSee also:\n\n - https://en.wikipedia.org/wiki/Karl_Popper\n - \"The Beginning of Infinity\" by David Deutsch\n\n\n## People and Stories\n\nWhen it comes to deciding what stories are accurate, or worth etching deeply\ninto your own mind, it is important to select stories which have had a lot of\neffort put towards their falsification, but still hold up.  To verify this\nprocess, it is ideal to try your hardest to falsify the story in question\nyourself.  \n\nLooking at what others believe is a good way to find new stories, and also can\nbe a good way to vet stories.  It is crucial however to think about WHY\nbelievers trust the stories they do.  If they have not actively tried to\nfalsify their own stories, that is a red flag that their belief may not be\nsound.  Evidence that people have tried this falsification includes:\n\n - Advertisement of conditions under which their story does not hold true.\n - Write ups of experiments that were done in the effort of falsification.\n\nAt a higher level, if the person in question has a history of changing their\nbeliefs when shown new evidence, that is also a good sign.\n\nFor those people who have a long history of believing the same story, or have\nfinancial or social incentives to believe said story, be wary that their\nconfirmation bias may blind them a bit to new information.\n\nIn extreme cases, people who do not try to falsify their own stories can become\nzealots; so blind to the limitation of their own beliefs that there is no\npractical difference between them and someone who is intentionally promoting a\nbelief they know to be wrong (lying).\n\nOne thing to note is that people holding hard to old beliefs seems to be a\nnatural thing for humans to do, and there are ways to exploit this without\nchanging people's minds: \n\n - [VSauce reasoning video](https://www.youtube.com/watch?v=_ArVh3Cj9rw)_\n - [Antifragile](https://en.wikipedia.org/wiki/Antifragile) discusses how it\n   might be ideal to have many strongly supported ideas fight it out in e.g. a\n   market to find the best ones and move the whole system forward optimally.\n\nThis is related to the idea of \"science advances one funeral at a time\",\nwhich assumes that (1) famous accomplished sciences direct future research and\n(2) these scientists have entrenched beliefs.  These things combined mean new\nresearch directions that do not fit into the beliefs of the accomplished\nscientists do not get funding/attention.  It would be nice if this wasn't as\ntrue, but at the least there is still advancement \\*shrug\\*.\n\n### Reasons People Share Ideas\n\nThinking about why an idea is being shared might make your decision of whether\nto believe it or not easier.  Note that all of these reasons are extremely\nimportant and enable our modern society; I'm not saying that if you are\nlistening to e.g. an advocate you can just ignore everything they are saying.\n\n - **Truth Sharing**: Simply to share the truth to others, for them to do what\n   they will with it. This type of sharing happens a lot in dense academic\n   research papers that effectively just share numbers and contain very little\n   interpretation.  It's easy to think you are doing this when you actually\n   aren't. Examples:\n    - Michael Lustgarten's YouTube Channel\n - **Advocacy**: To change the behavior of others. For instance, sharing\n   pictures of smoker's lungs to get people to stop smoking. Or to get atheists\n   to accept God.\n    - Public health initiatives\n    - COVID vaccine advertisements\n - **Brainstorming/Theorizing**: To get others to think about a problem or\n   model of the world that might be useful or inaccurate. Partially in the\n   hopes that others will find the model useful, and partially in the hopes\n   that others will improve or soundly reject the model.\n    - \"Why Greatness Cannot be Planned\" by Kenneth O. Stanley and Joel Lehman\n\n### Belief Matrix\n\nThe following matrix provides a simplified view of how a person can stand **on\na single statement**.  The East/West axis describes how strongly the person\nagrees or disagrees with a statement. The North/South axis describes the level\nof evidence that person **personally understands and accepts** that supports\nthe statement. Note that \"scientific consensus\" does **not** mean agreement of\nmany trusted scientists, but rather the agreement of their work itself (e.g.\ncompiled and reviewed by the person trying to form an opinion).  Therefore, for\nexample, if a person personally accepts strong evidence supporting the\nstatement, yet disagrees with the statement, they must be lying.\n\nNote that it is very difficult to know the extent of understanding a person has\nabout an issue. Therefore, it can be hard to distinguish between liars and\nskeptics, or even zealots supporting the counter-idea and liars. At least we\ncan make some assumptions about the popularity/availability of scientific\nstudies; if an \"expert\" in a field ignores very available work, it's more\nlikely they are not an honest knowledge spreader.\n\n```\n                             Scientific Consensus\n                             Understood by Person\n             ----------------------------------------------------\n             |                         |                        |\n             |  A Liar or propagandist |  Someone spreading     |\n             |  with hidden motives    |  real information      |\n             |  (good or bad).         |                        | \n             ------------------A Plausible Idea------------------\n             |                         |                        |\nVocal        |    A skeptic            |  A zealot or person    | Vocal\nDisagreement |                         |  with blind belief     | Agreement\n             |                         |                        |\n             ------------------A Plausible Idea------------------\n             |                         |                        |\n             | Someone spreading       | A liar or propagandist |\n             | real information        | with hidden motives    |\n             |                         | (good or bad).         |\n             --------------------------------------------------\n                            Scientific Rejection\n                            Understood by Person\n```\nI personally believe the plausible idea (I haven't looked for or found studies\nyet) that certain people can be more amenable to falling into a certain\nquadrant quickly when given some idea. And additionally, if someone is shown to\nbe OK with lying about ideas in one area, they are probably more likely to do\nso in other areas as well. Probably then, if one wants to save\ntime/energy/resources reviewing ideas, they could discount those that are\nsupported by people who have lied or shown blind belief in other ideas.\n\n**However**, if one has the time and wants the most complete picture, in my\nopinion it is worth examining ideas from these people, since (again, in my\nopinion) it is very unlikely that they are **completely** incorrect in all\ntheir opinions. In fact, some of the most novel, and therefore potentially\nuseful, ideas can come especially from strong believers in yet-untested\nplausible ideas.\n\n<br/>\n<br/>\n<br/>\n<br/>\n<br/>\n<br/>\n\n----------------------- OLD THOUGHTS BELOW HERE ------------------------------\n\nOne useful lens to look at this further is to think about where the shared\ninformation is ultimately coming from:\n\n## From Past Personal Experience\n\n### What works \n\nTinkerers (as described in the book\n[Antifragile](https://en.wikipedia.org/wiki/Antifragile)) are people who use\nfeedback from a specific task to improve and eventually become experts at doing\nthat task.  For instance a self-taught woodworker will eventually learn how to\ncreate complex wooden structures based on past experience of how wood behaves\nwhen he or she does things to it.  Or a chess player may learn that certain\npatterns of pieces are dangerous or safe over time after winning or losing many\ngames.\n\nInformation derived from tinkerers is:\n\n - Often very practically useful\n - Rarely completely \"wrong\", just maybe only right in a very narrow scope.\n\nBut has these problems:\n\n - Deeper theories or reasons behind why the information is what it is are\n   often absent or unrecoverable.  This limits the scope at which the\n   information can be accurately applied.\n - Reproducing the logic behind the information can be very difficult or\n   impossible, since it requires walking though the life experience of the\n   tinkerer.  This can make it easy for the tinkerer to hide bias.\n\n\n\n\n\n\n\n\n\n\nCategories: [Understanding The World]({{< relref \"/\" >}}?Understanding-The-World=true)\n\nBacklinks: [Manifesto]({{< relref \"/docs/manifesto.md\" >}}), \n[Sens]({{< relref \"/docs/health-and-longevity/sens.md\" >}}), \n"
+  :markdown "# What to Believe\n\nIn order to make good decisions, people need to build an understanding of how\nthe world works by gathering information.  Luckily, it is getting easier and\neasier to do this as technology becomes more and more efficient at sending data\naround the world.  Unfortunately, simply gathering information is not enough;\none must also make sure that the information is of high enough quality to use\nin world modelling or decision making.\n\nThere are many reasons why information people share with each other may be\nmisleading or wrong.  \n\n\nhttps://thedietwars.com/how-to-determine-who-is-a-legitimate-science-based-health-expert/\n\n\n## Stories\n\nTo transfer information, people share stories with each other.  These stories\nget etched in people's minds as they hear them, and can get more deeply etched\nwith repetition or other validation.\n\nMany (technically most) stories are not accurate descriptions of the real,\nphysical world.  \n\nInaccurate stories can be useful.  For instance, they can be \"stepping stones\nto the truth\", like our story about how electrons are particles that orbit the\nnucleus of an atom (Bohr model).  They can also provide practical ways to\nencourage a behavior; for instance, the story that virtuous people are rewarded\nin the afterlife.  Or auervedic medicine promoting health.\n\nUnfortunately, inaccuracy can also lead to bad decision making with serious\nconsequences.  To be safe, it would be ideal if we could clearly determine\ninaccuracy and weight that in our consideration of whether or not to use the\nstory in informing our behavior.\n\n\n## Story Plausability vs Accuracy\n\nFirstly, it is important to know that **plausability DOES NOT correlate well\nwith accuracy**, especially in complex systems.  There are many, many more\nplausable statements about systems like our economy or the human body that\nthere are statements which are actually true.  Some random examples (NOT MY\nOPINIONS):\n\n### Health\n\n - Any dietary sugar crystallizes in the blood, causing arterial damage.\n - Sugar has no harmful effects on the body when <50g/day are consumed.\n - Saturated fat hardens in the blood, clogging arteries.\n - Saturated fat does not clog arteries, it gets dissolved in blood just fine.\n\n### Economy\n\n - Poor people are poor because they don't work hard.\n - Poor people are poor because powerful people with malicious intent are\n   taking their resources.\n - Poor people are poor because our economy makes it hard to increase your net\n   worth.\n\n\n### Education\n\n - Girls and boys have inherent (from birth) differences in what topics they\n   are interested in, and therefore end up finding careers in.\n - Girls and boys have the same chance to become interested in something at\n   birth, but are unevenly distributed in careers due to how they are raised.\n\nMore theories like this that were widely believed but are now disproven can be\nfound on [this Wikipedia\npage](https://en.wikipedia.org/wiki/Superseded_theories_in_science). Also [this\nstudy of medical\ntherapies](https://twitter.com/kevinnbass/status/1184599630312427520).\n\nNote that some stories can be completely true, but still not have the effect\nthey imply.  For instance, certain foods contain toxins that kill and/or\nmutate our cells.  But this does not mean that we shouldn't eat those foods\n(perhaps every foods falls into this category?).\n\nFor each of the above statements/stories, there are groups of people who would\nfind them plausible.  Since some directly contradict each other, how are we to\nknow which to believe?\n\n\n## The Scientific Method\n\nWe can use scientific reasoning to falsify inaccurate stories!  Ideally, we\nwould do this for all information we incorporate into our decisions; if no one\nhas tried to falsify a certain piece of information, then we probably shouldn't\nuse it for important decision making.\n\nUnfortunately, science is really hard, so many falsification studies have not\nbeen done.  Additionally, science doesn't give hard yes-or-no answers - it\ngives probabilities (e.g. p-values) that something might be true given a long\nlist of assumptions or constraints.  Context is crucially important - studies\ngenerally are very narrow in the situations they apply to! In order to\naccurately incorporate a scientific finding into a justification for making a\ncertain decision, the uncertainties in the study and the required context to\napply it should be understood.  \n\nOh yeah, also scientific studies can just be wrong due to errors in their\nexecution, even if the experimenters themselves were unbiased. A good practical\nway to get around this problem is to [read review articles instead of\nindividual\nstudies](https://slatestarcodex.com/2014/12/12/beware-the-man-of-one-study/).\n\nIt is hard to do this, just like it is hard to come up with scientific findings\nin the first place.  If we as a society deeply recognized this difficulty, it\nmay give more respect to good scientific findings, and help us have more\ninformed debated about what actions to take on big important issues.  This\nrecognition may also make people more patient and willing to embrace the\ndifficulty, instead of looking for shortcuts. \n\n(I have nothing against finding the most efficient ways to solve problems,\nexcept when these shortcuts are less rigorous or otherwise worse than harder\nsolutions AND we pretend that they are just as good just because of their\nconvenience).\n\nSee also:\n\n - https://en.wikipedia.org/wiki/Karl_Popper\n - \"The Beginning of Infinity\" by David Deutsch\n\n\n## People and Stories\n\nWhen it comes to deciding what stories are accurate, or worth etching deeply\ninto your own mind, it is important to select stories which have had a lot of\neffort put towards their falsification, but still hold up.  To verify this\nprocess, it is ideal to try your hardest to falsify the story in question\nyourself.  \n\nLooking at what others believe is a good way to find new stories, and also can\nbe a good way to vet stories.  It is crucial however to think about WHY\nbelievers trust the stories they do.  If they have not actively tried to\nfalsify their own stories, that is a red flag that their belief may not be\nsound.  Evidence that people have tried this falsification includes:\n\n - Advertisement of conditions under which their story does not hold true.\n - Write ups of experiments that were done in the effort of falsification.\n\nAt a higher level, if the person in question has a history of changing their\nbeliefs when shown new evidence, that is also a good sign.\n\nFor those people who have a long history of believing the same story, or have\nfinancial or social incentives to believe said story, be wary that their\nconfirmation bias may blind them a bit to new information.\n\nIn extreme cases, people who do not try to falsify their own stories can become\nzealots; so blind to the limitation of their own beliefs that there is no\npractical difference between them and someone who is intentionally promoting a\nbelief they know to be wrong (lying).\n\nOne thing to note is that people holding hard to old beliefs seems to be a\nnatural thing for humans to do, and there are ways to exploit this without\nchanging people's minds: \n\n - [VSauce reasoning video](https://www.youtube.com/watch?v=_ArVh3Cj9rw)_\n - [Antifragile](https://en.wikipedia.org/wiki/Antifragile) discusses how it\n   might be ideal to have many strongly supported ideas fight it out in e.g. a\n   market to find the best ones and move the whole system forward optimally.\n\nThis is related to the idea of \"science advances one funeral at a time\",\nwhich assumes that (1) famous accomplished sciences direct future research and\n(2) these scientists have entrenched beliefs.  These things combined mean new\nresearch directions that do not fit into the beliefs of the accomplished\nscientists do not get funding/attention.  It would be nice if this wasn't as\ntrue, but at the least there is still advancement \\*shrug\\*.\n\n### Reasons People Share Ideas\n\nThinking about why an idea is being shared might make your decision of whether\nto believe it or not easier.  Note that all of these reasons are extremely\nimportant and enable our modern society; I'm not saying that if you are\nlistening to e.g. an advocate you can just ignore everything they are saying.\n\n - **Truth Sharing**: Simply to share the truth to others, for them to do what\n   they will with it. This type of sharing happens a lot in dense academic\n   research papers that effectively just share numbers and contain very little\n   interpretation.  It's easy to think you are doing this when you actually\n   aren't. Examples:\n    - Michael Lustgarten's YouTube Channel\n - **Advocacy**: To change the behavior of others. For instance, sharing\n   pictures of smoker's lungs to get people to stop smoking. Or to get atheists\n   to accept God.\n    - Public health initiatives\n    - COVID vaccine advertisements\n - **Brainstorming/Theorizing**: To get others to think about a problem or\n   model of the world that might be useful or inaccurate. Partially in the\n   hopes that others will find the model useful, and partially in the hopes\n   that others will improve or soundly reject the model.\n    - \"Why Greatness Cannot be Planned\" by Kenneth O. Stanley and Joel Lehman\n\n### Belief Matrix\n\nThe following matrix provides a simplified view of how a person can stand **on\na single statement**.  The East/West axis describes how strongly the person\nagrees or disagrees with a statement. The North/South axis describes the level\nof evidence that person **personally understands and accepts** that supports\nthe statement. Note that \"scientific consensus\" does **not** mean agreement of\nmany trusted scientists, but rather the agreement of their work itself (e.g.\ncompiled and reviewed by the person trying to form an opinion).  Therefore, for\nexample, if a person personally accepts strong evidence supporting the\nstatement, yet disagrees with the statement, they must be lying.\n\nNote that it is very difficult to know the extent of understanding a person has\nabout an issue. Therefore, it can be hard to distinguish between liars and\nskeptics, or even zealots supporting the counter-idea and liars. At least we\ncan make some assumptions about the popularity/availability of scientific\nstudies; if an \"expert\" in a field ignores very available work, it's more\nlikely they are not an honest knowledge spreader.\n\n```\n                             Scientific Consensus\n                             Understood by Person\n             ----------------------------------------------------\n             |                         |                        |\n             |  A Liar or propagandist |  Someone spreading     |\n             |  with hidden motives    |  real information      |\n             |  (good or bad).         |                        | \n             ------------------A Plausible Idea------------------\n             |                         |                        |\nVocal        |    A skeptic            |  A zealot or person    | Vocal\nDisagreement |                         |  with blind belief     | Agreement\n             |                         |                        |\n             ------------------A Plausible Idea------------------\n             |                         |                        |\n             | Someone spreading       | A liar or propagandist |\n             | real information        | with hidden motives    |\n             |                         | (good or bad).         |\n             --------------------------------------------------\n                            Scientific Rejection\n                            Understood by Person\n```\nI personally believe the plausible idea (I haven't looked for or found studies\nyet) that certain people can be more amenable to falling into a certain\nquadrant quickly when given some idea. And additionally, if someone is shown to\nbe OK with lying about ideas in one area, they are probably more likely to do\nso in other areas as well. Probably then, if one wants to save\ntime/energy/resources reviewing ideas, they could discount those that are\nsupported by people who have lied or shown blind belief in other ideas.\n\n**However**, if one has the time and wants the most complete picture, in my\nopinion it is worth examining ideas from these people, since (again, in my\nopinion) it is very unlikely that they are **completely** incorrect in all\ntheir opinions. In fact, some of the most novel, and therefore potentially\nuseful, ideas can come especially from strong believers in yet-untested\nplausible ideas.\n\n<br/>\n<br/>\n<br/>\n<br/>\n<br/>\n<br/>\n\n----------------------- OLD THOUGHTS BELOW HERE ------------------------------\n\nOne useful lens to look at this further is to think about where the shared\ninformation is ultimately coming from:\n\n## From Past Personal Experience\n\n### What works \n\nTinkerers (as described in the book\n[Antifragile](https://en.wikipedia.org/wiki/Antifragile)) are people who use\nfeedback from a specific task to improve and eventually become experts at doing\nthat task.  For instance a self-taught woodworker will eventually learn how to\ncreate complex wooden structures based on past experience of how wood behaves\nwhen he or she does things to it.  Or a chess player may learn that certain\npatterns of pieces are dangerous or safe over time after winning or losing many\ngames.\n\nInformation derived from tinkerers is:\n\n - Often very practically useful\n - Rarely completely \"wrong\", just maybe only right in a very narrow scope.\n\nBut has these problems:\n\n - Deeper theories or reasons behind why the information is what it is are\n   often absent or unrecoverable.  This limits the scope at which the\n   information can be accurately applied.\n - Reproducing the logic behind the information can be very difficult or\n   impossible, since it requires walking though the life experience of the\n   tinkerer.  This can make it easy for the tinkerer to hide bias.\n\n\n\n\n\n\n\n\n\n\nCategories: [Understanding The World]({{< relref \"/\" >}}?Understanding-The-World=true)\n\nBacklinks: [Manifesto]({{< relref \"/docs/manifesto.md\" >}}), \n[Aging Science]({{< relref \"/docs/health-and-longevity/aging-science.md\" >}}), \n[Sens]({{< relref \"/docs/health-and-longevity/sens.md\" >}}), \n"
   :name "what-to-believe.md"
   :categories #{"Understanding The World"}
   :dir? false
   :links ["/"
           "/docs/manifesto.md"
+          "/docs/health-and-longevity/aging-science.md"
           "/docs/health-and-longevity/sens.md"]
-  :size 14114
-  :modtime 1658554093
+  :size 14194
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/visual-art/generative-art.md"
   :title "Generative Art"
@@ -2269,17 +2279,17 @@
   :dir? false
   :links ["/"]
   :size 1453
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/visual-art/inspiration-and-resources.md"
   :title "Inspiration And Resources"
-  :markdown "# Inspiration and Resources\n\nCool art and art tutorials that I've stumbled across.\n\n## Wallpapers\n\n - https://desktopography.net/\n - https://wallpapercave.com/pc-4k-macro-wallpapers\n\n## Tutorials\n\n - Awesome pixel art walkthroughs: https://www.slynyrd.com/blog\n\n## Tools and Art Generators\n\n - Map generators (designed for games):\n   - https://www.dungeonalchemist.com/\n   - https://dungeondraft.net/\n - https://github.com/mxgmn/WaveFunctionCollapse\n - https://github.com/mxgmn/MarkovJunior\n\n## Misc Projects\n\n - https://emoji.supply/kitchen/\n - https://pokemon.alexonsager.net/\n\nCategories: [Visual Art]({{< relref \"/\" >}}?Visual-Art=true)\n"
+  :markdown "# Inspiration and Resources\n\nCool art and art tutorials that I've stumbled across.\n\n## Wallpapers\n\n - https://desktopography.net/\n - https://wallpapercave.com/pc-4k-macro-wallpapers\n\n## Tutorials\n\n - Awesome pixel art walkthroughs: https://www.slynyrd.com/blog\n\n## Tools and Art Generators\n\n - Map generators (designed for games):\n   - https://www.dungeonalchemist.com/\n   - https://dungeondraft.net/\n - https://github.com/mxgmn/WaveFunctionCollapse\n - https://github.com/mxgmn/MarkovJunior\n\n## Misc Projects\n\n - https://emoji.supply/kitchen/\n - https://pokemon.alexonsager.net/\n\nCategories: [Visual Art]({{< relref \"/\" >}}?Visual-Art=true)"
   :name "inspiration-and-resources.md"
   :categories #{"Visual Art"}
   :dir? false
   :links ["/"]
-  :size 641
-  :modtime 1658860884
+  :size 640
+  :modtime 1659113464
   :mode 416}
  {:path "content/docs/visual-art/judging-art.md"
   :title "Judging Art"
@@ -2289,5 +2299,5 @@
   :dir? false
   :links ["/"]
   :size 597
-  :modtime 1658554093
+  :modtime 1659113464
   :mode 416}]
