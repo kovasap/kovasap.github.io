@@ -6,7 +6,7 @@
   :dir? false
   :links ["/"]
   :size 230
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/favorite-music.md"
   :title "Favorite Music"
@@ -16,7 +16,7 @@
   :dir? false
   :links []
   :size 1099
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/feelings.md"
   :title "Feelings"
@@ -46,7 +46,7 @@
           "/docs/experiences/Three-Worlds-Collide.md"
           "/docs/experiences/Wordle.md"]
   :size 4399
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/manifesto.md"
   :title "Manifesto"
@@ -72,7 +72,7 @@
           "/docs/mind/motivation.md"
           "/docs/understanding-the-world/what-to-believe.md"]
   :size 10709
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/potential-life-missions.md"
   :title "Potential Life Missions"
@@ -85,7 +85,7 @@
           "/docs/mind/optimism.md"
           "/docs/society/utopia.md"]
   :size 2846
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/climbing/breaking-point.md"
   :title "Breaking Point"
@@ -95,7 +95,7 @@
   :dir? false
   :links ["/"]
   :size 760
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/climbing/media.md"
   :title "Media"
@@ -105,7 +105,7 @@
   :dir? false
   :links ["/"]
   :size 649
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/climbing/resources.md"
   :title "Resources"
@@ -115,7 +115,7 @@
   :dir? false
   :links ["/"]
   :size 180
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/climbing/safety-checklist.md"
   :title "Safety Checklist"
@@ -125,7 +125,7 @@
   :dir? false
   :links ["/"]
   :size 3333
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/climbing/event-reports/2019-10-7-namaste-wall-zion.md"
   :title "2019 10 7 Namaste Wall Zion"
@@ -140,7 +140,7 @@
           "/"
           "/"]
   :size 2105
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/climbing/event-reports/2020-8-10-lake-erie.md"
   :title "2020 8 10 Lake Erie"
@@ -155,7 +155,7 @@
           "/"
           "/"]
   :size 1431
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/climbing/event-reports/2020-8-12-mile-high-club.md"
   :title "2020 8 12 Mile High Club"
@@ -170,7 +170,7 @@
           "/"
           "/"]
   :size 10868
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/climbing/event-reports/first-512.md"
   :title "First 512"
@@ -185,7 +185,7 @@
           "/"
           "/"]
   :size 420
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/datavis/clerk-notebooks.md"
   :title "Clerk Notebooks"
@@ -195,7 +195,7 @@
   :dir? false
   :links ["/"]
   :size 261
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/datavis/inspiration.md"
   :title "Inspiration"
@@ -205,7 +205,7 @@
   :dir? false
   :links ["/"]
   :size 194
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/datavis/reddit-tree.md"
   :title "Reddit Tree"
@@ -215,7 +215,7 @@
   :dir? false
   :links ["/"]
   :size 771
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/datavis/seattle-rain.md"
   :title "Seattle Rain"
@@ -225,7 +225,7 @@
   :dir? false
   :links ["/"]
   :size 2160
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Age-of-Darkness:-Final-Stand.md"
   :title "Age Of Darkness: Final Stand"
@@ -240,7 +240,7 @@
           "/"
           "/"]
   :size 388
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Apex-Legends.md"
   :title "Apex Legends"
@@ -259,7 +259,7 @@
           "/"
           "/"]
   :size 485
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Backpack-Hero.md"
   :title "Backpack Hero"
@@ -273,7 +273,7 @@
           "/"
           "/"]
   :size 288
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Bad-North.md"
   :title "Bad North"
@@ -287,7 +287,7 @@
           "/"
           "/"]
   :size 201
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Bananagrams.md"
   :title "Bananagrams"
@@ -301,7 +301,7 @@
           "/"
           "/"]
   :size 325
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Battle-Brothers.md"
   :title "Battle Brothers"
@@ -318,7 +318,7 @@
           "/"
           "/"]
   :size 1207
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Beat-Saber.md"
   :title "Beat Saber"
@@ -330,7 +330,7 @@
           "/docs/feelings.md"
           "/"]
   :size 301
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Bike-Commuting.md"
   :title "Bike Commuting"
@@ -345,7 +345,7 @@
           "/"
           "/"]
   :size 422
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Browsing-Hacker-News.md"
   :title "Browsing Hacker News"
@@ -361,7 +361,7 @@
           "/"
           "/"]
   :size 382
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Chess.md"
   :title "Chess"
@@ -377,7 +377,7 @@
           "/"
           "/"]
   :size 272
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/CoD:-MW2.md"
   :title "Cod: Mw2"
@@ -391,7 +391,7 @@
           "/"
           "/"]
   :size 331
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Codenames.md"
   :title "Codenames"
@@ -405,7 +405,7 @@
           "/"
           "/"]
   :size 581
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Comparing-prices.md"
   :title "Comparing Prices"
@@ -419,7 +419,7 @@
           "/"
           "/"]
   :size 513
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/DAT-Creativity.md"
   :title "Dat Creativity"
@@ -432,7 +432,7 @@
           "/"
           "/"]
   :size 340
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Darkest-Dungeon.md"
   :title "Darkest Dungeon"
@@ -450,7 +450,7 @@
           "/"
           "/"]
   :size 369
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Dead-of-Winter.md"
   :title "Dead Of Winter"
@@ -463,7 +463,7 @@
           "/"
           "/docs/gamedev/mechanic-ideas/limiting-collaboration.md"]
   :size 1215
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Drafting-Magic:-The-Gathering.md"
   :title "Drafting Magic: The Gathering"
@@ -479,7 +479,7 @@
           "/"
           "/"]
   :size 742
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Fell-Seal---Arbiter's-Mark.md"
   :title "Fell Seal   Arbiter's Mark"
@@ -497,7 +497,7 @@
           "/"
           "/"]
   :size 950
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Fire-Emblem-7-&-8.md"
   :title "Fire Emblem 7 & 8"
@@ -517,7 +517,7 @@
           "/"
           "/"]
   :size 1766
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Iron-Danger.md"
   :title "Iron Danger"
@@ -533,7 +533,7 @@
           "/"
           "/"]
   :size 414
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Islanders.md"
   :title "Islanders"
@@ -552,7 +552,7 @@
           "/"
           "/"]
   :size 489
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Lead-Climbing-in-a-Gym.md"
   :title "Lead Climbing In A Gym"
@@ -574,7 +574,7 @@
           "/"
           "/"]
   :size 675
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Longwave.md"
   :title "Longwave"
@@ -588,7 +588,7 @@
           "/"
           "/"]
   :size 282
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Making-Small-Web-Apps-in-ClojureScript-with-Reagent.md"
   :title "Making Small Web Apps In Clojurescript With Reagent"
@@ -602,7 +602,7 @@
           "/"
           "/"]
   :size 360
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Opus-Magnum.md"
   :title "Opus Magnum"
@@ -618,7 +618,7 @@
           "/"
           "/"]
   :size 331
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Overwatch.md"
   :title "Overwatch"
@@ -632,7 +632,7 @@
           "/"
           "/"]
   :size 236
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Puzzgrid.md"
   :title "Puzzgrid"
@@ -648,7 +648,7 @@
           "/"
           "/"]
   :size 288
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Quordle.md"
   :title "Quordle"
@@ -665,7 +665,7 @@
           "/"
           "/"]
   :size 482
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Rainbow-6:-Siege.md"
   :title "Rainbow 6: Siege"
@@ -679,7 +679,7 @@
           "/"
           "/"]
   :size 1248
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Redditing.md"
   :title "Redditing"
@@ -697,7 +697,7 @@
           "/"
           "/"]
   :size 621
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Semantle.md"
   :title "Semantle"
@@ -714,7 +714,7 @@
           "/"
           "/"]
   :size 404
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Slipways.md"
   :title "Slipways"
@@ -733,7 +733,7 @@
           "/"
           "/"]
   :size 470
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/The-Witness.md"
   :title "The Witness"
@@ -747,7 +747,7 @@
           "/"
           "/"]
   :size 264
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Three-Worlds-Collide.md"
   :title "Three Worlds Collide"
@@ -762,7 +762,7 @@
           "/"
           "/"]
   :size 390
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Watching-GothamChess.md"
   :title "Watching Gothamchess"
@@ -777,7 +777,7 @@
           "/"
           "/"]
   :size 412
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Watching-Inside-Out.md"
   :title "Watching Inside Out"
@@ -791,7 +791,7 @@
           "/"
           "/"]
   :size 523
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Watching-Spiderman:-Into-the-Spider-Verse.md"
   :title "Watching Spiderman: Into The Spider Verse"
@@ -805,7 +805,7 @@
           "/"
           "/"]
   :size 341
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Watching-The-Matrix.md"
   :title "Watching The Matrix"
@@ -819,7 +819,7 @@
           "/"
           "/"]
   :size 607
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Watching-educational-YouTube.md"
   :title "Watching Educational Youtube"
@@ -832,7 +832,7 @@
           "/"
           "/"]
   :size 442
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Wordle.md"
   :title "Wordle"
@@ -849,7 +849,7 @@
           "/"
           "/"]
   :size 380
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/XCOM-2-+-War-of-the-Chosen.md"
   :title "Xcom 2 + War Of The Chosen"
@@ -867,7 +867,7 @@
           "/"
           "/"]
   :size 424
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/Yo-Yoing.md"
   :title "Yo Yoing"
@@ -878,7 +878,7 @@
   :links ["/docs/feelings.md"
           "/"]
   :size 236
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/experiences/iratus.md"
   :title "Iratus"
@@ -888,7 +888,7 @@
   :dir? false
   :links ["/"]
   :size 1055
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/gamedev/common-patterns.md"
   :title "Common Patterns"
@@ -901,7 +901,7 @@
           "/"
           "/docs/lifestyle-optimizations/experiences.md"]
   :size 2432
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/gamedev/gamedev-context.md"
   :title "Gamedev Context"
@@ -912,7 +912,7 @@
   :links ["/"
           "/docs/mind/creativity.md"]
   :size 381
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/gamedev/my-projects.md"
   :title "My Projects"
@@ -922,7 +922,7 @@
   :dir? false
   :links ["/"]
   :size 1186
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/gamedev/social-games.md"
   :title "Social Games"
@@ -932,7 +932,7 @@
   :dir? false
   :links ["/"]
   :size 946
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/gamedev/game-ideas/farming-video-game.md"
   :title "Farming Video Game"
@@ -947,7 +947,7 @@
           "/"
           "/"]
   :size 972
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/gamedev/game-ideas/keyboard-city-builder.md"
   :title "Keyboard City Builder"
@@ -962,7 +962,7 @@
           "/"
           "/"]
   :size 435
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/gamedev/game-ideas/roguelike-base-builder.md"
   :title "Roguelike Base Builder"
@@ -977,7 +977,7 @@
           "/"
           "/"]
   :size 2205
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/gamedev/game-ideas/safe-building-designer.md"
   :title "Safe Building Designer"
@@ -992,7 +992,7 @@
           "/"
           "/"]
   :size 693
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/gamedev/mechanic-ideas/character-alignment.md"
   :title "Character Alignment"
@@ -1007,7 +1007,7 @@
           "/"
           "/"]
   :size 644
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/gamedev/mechanic-ideas/clairvoyant-turn-based-tactics.md"
   :title "Clairvoyant Turn Based Tactics"
@@ -1022,7 +1022,7 @@
           "/"
           "/"]
   :size 1050
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/gamedev/mechanic-ideas/limiting-collaboration.md"
   :title "Limiting Collaboration"
@@ -1039,7 +1039,7 @@
           "/"
           "/docs/experiences/Dead-of-Winter.md"]
   :size 4127
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/gamedev/mechanic-ideas/low-friction-turn-based-tactics.md"
   :title "Low Friction Turn Based Tactics"
@@ -1054,7 +1054,7 @@
           "/"
           "/"]
   :size 3395
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/gamedev/mechanic-ideas/random-technologies.md"
   :title "Random Technologies"
@@ -1066,7 +1066,7 @@
   :links ["/"
           "/"]
   :size 782
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/gaming/buying-games.md"
   :title "Buying Games"
@@ -1076,7 +1076,7 @@
   :dir? false
   :links ["/"]
   :size 965
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/gaming/chess.md"
   :title "Chess"
@@ -1086,7 +1086,7 @@
   :dir? false
   :links ["/"]
   :size 350
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/gaming/fps-principles.md"
   :title "Fps Principles"
@@ -1096,7 +1096,7 @@
   :dir? false
   :links ["/"]
   :size 6382
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/gaming/oxygen-not-included.md"
   :title "Oxygen Not Included"
@@ -1106,7 +1106,7 @@
   :dir? false
   :links ["/"]
   :size 524
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/gaming/pathfinder-kingmaker.md"
   :title "Pathfinder Kingmaker"
@@ -1116,7 +1116,7 @@
   :dir? false
   :links ["/"]
   :size 543
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/gaming/pillars-of-eternity-2.md"
   :title "Pillars Of Eternity 2"
@@ -1126,7 +1126,7 @@
   :dir? false
   :links ["/"]
   :size 357
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/gaming/recommendations.md"
   :title "Recommendations"
@@ -1139,7 +1139,7 @@
           "/"
           "/docs/lifestyle-optimizations/experiences.md"]
   :size 480
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/gaming/skyrim.md"
   :title "Skyrim"
@@ -1154,7 +1154,7 @@
           "/"
           "/"]
   :size 304
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/health-and-longevity/aging-science.md"
   :title "Aging Science"
@@ -1178,7 +1178,7 @@
           "/docs/health-and-longevity/theories-of-aging.md"
           "/docs/understanding-the-world/what-to-believe.md"]
   :size 2617
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/health-and-longevity/avoiding-accidents.md"
   :title "Avoiding Accidents"
@@ -1188,7 +1188,17 @@
   :dir? false
   :links ["/"]
   :size 325
-  :modtime 1660415805
+  :modtime 1660415842
+  :mode 416}
+ {:path "content/docs/health-and-longevity/baking.md"
+  :title "Baking"
+  :markdown "# Baking\n\n## Bread Machine Recipes\n\n### Black Bean Bread\n\n - 1  cup  water\n - 3/4  cup  beans\n - black, , dry, cooked, drained  \n - 1 1/2  tablespoons  applesauce\n - 1 1/2  tablespoons  honey\n - ¾  teaspoon  salt\n - 1 1/2  cups  whole-wheat flour\n - 1 1/2  cups  bread flour\n - 1 1/2  teaspoons  yeast, active dry\n\n Use whole wheat cycle on 1.5 lb loaf.\n\n\n## Desserts\n\n### Apple Oat Almond Cookies/Smoothie\n\n - 3 large apples\n - 1 cup rolled oats\n - 1 cup whole almonds (soaked for 1 hour)\n\n1. Preheat oven to 375F.\n2. Blend all ingredients in blender.\n3. Enjoy your smoothie!  Or...\n4. Pour cookie shapes onto baking sheet with parchment paper over it (or oiled,\n   haven't tried).\n5. Bake for 30+ mins depending on size of cookie, cool for 10 mins.\n\nFrom\n[vegevega.com](https://vegevega.com/healthy-3-ingredient-apple-almond-breakfast-cookies/)\n\n### Granola\n    \n - 3 cups rolled oats\n - 1 cup slivered almonds\n - 1 cup cashews\n - 3/4 cup shredded sweet coconut\n - 1/4 cup plus 2 tablespoons (3/8 cup) dark brown sugar\n - 1/4 cup plus 2 tablespoons (3/8 cup) maple syrup\n - 1/4 cup vegetable oil\n - 3/4 teaspoon salt\n - 1 cup raisins\n\nPreheat oven to 250 degrees F.\n\nIn a large bowl, combine the oats, nuts, coconut, and brown sugar.\n\nIn a separate bowl, combine maple syrup, oil, and salt. Combine both mixtures\nand pour onto 2 sheet pans. Cook for 1 hour and 15 minutes, stirring every 15\nminutes to achieve an even color.\n\nRemove from oven and transfer into a large bowl. Add raisins and mix until\nevenly distributed.\n\nRecipe courtesy of Alton Brown.\n\n\n### Sweet Potato Pancakes\n\nTODO find recipe that we used!\n\n\n### Flax Bread\n\n - 2 and 1/2 cups flaxseed meal\n - 1 tablespoon baking powder\n - 1/2 teaspoon salt (optional)\n - 1 and 1/3 cups water\n\n1. Preheat oven to 400 degrees F.\n1. Grease a 9×5-inch bread pan.\n1. Mix the flaxseed meal, baking powder and salt. Add water, stirring until\n   completely combined (the dough will be very thick, but moist).\n1. Bake for 60 to 65 minutes until risen and browned.\n\nFrom https://www.powerhungry.com/2019/06/2-ingredient-flax-sandwich-bread-vegan-keto-grain-free/.\n\nTODO Try adding carrots to this!\n\n\n### Banana Bread\n\n - 5 very ripe bananas, mashed\n - 1 egg\n - 1 tsp vanilla extract\n - 1 1/2 cups whole wheat pastry flour or almond flour + 1/6 cup flaxmeal\n - 1 tsp baking soda\n - 1/2 tsp ground cinnamon\n - 1/8 tsp sea salt\n - 1/2 cup raw walnuts, **chopped**\n - 1/2 tsp coconut oil, for greasing loaf pan\n\nPreheat oven to 350 degrees F and coat a 9x5 inch loaf pan with oil.\n\nIn a medium mixing bowl, mash the bananas then add everything else and mix.\n\nPour the mix into the prepared loaf pan.  Bake for 50-60 minutes, or until a\ntoothpick inserted comes out clean and top is golden brown\n\nInspired by https://www.asweetpeachef.com/banana-nut-bread/##wprm-recipe-container-29897\n\n\n### Strawberry Rhubarb Crisp\n\n**For the rhubarb:**\n - 3 cups rhubarb sliced\n - 1 cup applesauce unsweetened or ~1.5 apples chopped\n - 3 tablespoons almond flour\n\n**For the strawberries:**\n - 2 ½ cups chopped sweet strawberries or 4 cups halved frozen strawberries\n   microwaved until warm\n\n**For the topping:**\n - 1 ½ cups almond flour\n - 1 ½ cups rolled oats gluten-free if needed\n - splash of walnut oil\n - splash of maple syrup (probably not needed)\n\n1. Preheat oven to 375F.\n1. Combine rhubarb ingredients in bowl, then pout into 9x13 pan.\n1. Add strawberries onto rhubarb.\n1. Add topping onto strawberries.\n1. Bake for 35mins or more.  Sometimes mixing the crumble on top helps more\n   evenly brown.\n\nInspired by https://beautifulingredient.com/strawberry-rhubarb-crisp/##recipe.\n\n### Apple Crisp\n\nFilling:\n - ~5 apples\n - ~3 tbsp chia seeds\n - ~1 tbsp lemon juice\n - dusting of cinnamon\n\n Mix the above together in baking/pie pan, then mix the below in a separate\n container (after using it to melt the coconut oil) and layer it on top.\n\n Crisp:\n - ~1/3 cup chopped walnuts\n - ~3/4 cup rolled oats\n - ~2 tbsp melted coconut oil\n \n Bake at 400F for 45 minutes.\n\n### Creme Brulee\n\n - 2 cups heavy or light cream, or half-and-half\n - 1 vanilla bean, split lengthwise, or 1 teaspoon vanilla extract\n - 1/8 teaspoon salt\n - 5 egg yolks\n - 1/2 cup sugar, more for topping\n\n1. Heat oven to 325 degrees. In a saucepan, combine cream, vanilla bean and salt\n   and cook over low heat just until hot. Let sit for a few minutes, then\n   discard vanilla bean. (If using vanilla extract, add it now.)\n2. In a bowl, beat yolks and sugar together until light. Stir about a quarter of\n   the cream into this mixture, then pour sugar-egg mixture into cream and stir.\n   Pour into four 6-ounce ramekins and place ramekins in a baking dish; fill\n   dish with boiling water halfway up the sides of the dishes. Bake for 30 to 40\n   minutes, or until centers are barely set. Cool completely. Refrigerate for\n   several hours and up to a couple of days.\n3. When ready to serve, top each custard with about a teaspoon of sugar in a\n   thin layer. Place ramekins in a broiler 2 to 3 inches from heat source.  Turn\n   on broiler. Cook until sugar melts and browns or even blackens a bit, about 5\n   minutes. Serve within two hours.\n\n\n### Oil Pie Crust\n\n - 2 cups all purpose flour\n - 1/2 tsp salt\n - 1 tsp sugar\n - 2/8 tsp baking powder\n - 7 tbsp oil (e.g. vegetable)\n - 1/4 cup cold water\n\nWhisk together flour, salt, sugar, and baking powder.\n\nWhisk together oil and water, then pour over dry ingredients and mix.\n\nUse fork/hands to spread flour evenly into a pie pan.\n\nFill pie pan and bake!\n\n\n\n"
+  :name "baking.md"
+  :categories #{}
+  :dir? false
+  :links []
+  :size 5515
+  :modtime 1660520902
   :mode 416}
  {:path "content/docs/health-and-longevity/biomarker-correlator.md"
   :title "Biomarker Correlator"
@@ -1199,17 +1209,17 @@
   :links ["/"
           "/docs/health-and-longevity/food.md"]
   :size 353
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/health-and-longevity/causes-of-death.md"
   :title "Causes Of Death"
-  :markdown "# Causes of Death\n\nTo avoid death, it's helpful to know what will most likely cause it.\n\nhttps://www.reddit.com/r/dataisbeautiful/comments/qs14fn/top_20_causes_of_death_by_age_group_average/?utm_medium=android_app&utm_source=share\n\nThis is an excellent visualization: https://vizhub.healthdata.org/gbd-compare/\n\nFrom the same healthdata.org source, this shows which activities lead to the\nhighest risk of death:\n\n[![activity-risk-deaths](/docs/health-and-longevity/activity-risk-deaths.png)](http://ihmeuw.org/5o5h)\n\n[![activity-risk-dalys](/docs/health-and-longevity/activity-risk-dalys.png)](http://ihmeuw.org/5o5h)\n\nAnother lens to look at this from is using a [micromort](https://micromorts.rip/).  Related: a [microCOVID](https://www.microcovid.org/about) measures risk of getting COVID. \n\nCategories: [Health And Longevity]({{< relref \"/\" >}}?Health-And-Longevity=true)\n"
+  :markdown "# Causes of Death\n\nTo avoid death, it's helpful to know what will most likely cause it.\n\nhttps://www.reddit.com/r/dataisbeautiful/comments/qs14fn/top_20_causes_of_death_by_age_group_average/?utm_medium=android_app&utm_source=share\n\nThis is an excellent visualization: https://vizhub.healthdata.org/gbd-compare/\n\nFrom the same healthdata.org source, this shows which activities lead to the\nhighest risk of death:\n\n[![activity-risk-deaths](/docs/health-and-longevity/activity-risk-deaths.png)](http://ihmeuw.org/5o5h)\n\n[![activity-risk-dalys](/docs/health-and-longevity/activity-risk-dalys.png)](http://ihmeuw.org/5o5h)\n\nAnother lens to look at this from is using a [micromort](https://micromorts.rip/).  Related: a [microCOVID](https://www.microcovid.org/about) measures risk of getting COVID.\n\nCategories: [Health And Longevity]({{< relref \"/\" >}}?Health-And-Longevity=true)"
   :name "causes-of-death.md"
   :categories #{"Health And Longevity"}
   :dir? false
   :links ["/"]
-  :size 876
-  :modtime 1660415837
+  :size 874
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/health-and-longevity/chronic-stress.md"
   :title "Chronic Stress"
@@ -1221,7 +1231,7 @@
           "/docs/manifesto.md"
           "/docs/health-and-longevity/aging-science.md"]
   :size 260
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/health-and-longevity/circadian-rhythm.md"
   :title "Circadian Rhythm"
@@ -1232,7 +1242,7 @@
   :links ["/"
           "/docs/manifesto.md"]
   :size 226
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/health-and-longevity/continuous-glucose-monitoring.md"
   :title "Continuous Glucose Monitoring"
@@ -1244,17 +1254,17 @@
           "/docs/health-and-longevity/tracking-health.md"
           "/docs/lifelogging/what-and-why.md"]
   :size 1640
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/health-and-longevity/cooking.md"
   :title "Cooking"
-  :markdown "# Cooking \n\n## General Cooking Tips\n\nIf you're interested in experimenting with new food combinations, one technique\nthat has served me pretty well I call the \"trifecta of flavor\".  The way it\nworks is you take two foods that go well together (e.g. banana and peanut\nbutter) and you add a third food that goes well with one of the foods but would\nbe weird to combine with the other (e.g. spinach in this case).  More often\nthan not, the result is actually pretty good!\n\n## Microwave Steam Bowls\n\nA really easy and convenient way to make some pretty tasty (and healthy!) food.\nThe basic premise is that you add your vegetables with a splash of water to a\nbowl, cover it with a plate, and microwave for 5-8 minutes. Then you add extra\nflavors and enjoy! It's easy to get creative with the cooking technique, but\nhere are some examples:\n\n### Carrots/Onions\n\nChop carrots and onions, add water and cook, finish with almond butter and\nsalt.  Add chia seeds optionally to soak up the water!\n\n### Thai Carrots/Onions\n\nSame recipe as before, but instead of almond butter, use natural (e.g. Adams)\npeanut butter with soy sauce, ginger, garlic, and optionally lime juice.\n\n### Honey Walnut Shrimp Inspired\n\nChop cabbage, add water and cook with brown rice, finish with walnuts and\nmayonnaise. \n\n## Staples\n\n### Flax Peanut Butter\n\nMixing ground flaxseed and natural peanut butter in around a 1:1 ratio makes a\ngreat nut butter!  You'll need to add some water to make it a paste (and not\njust powdery).  \n\nThis recipe has a good omega-3/6 ratio too.  Per 100g, peanut butter has 9.7g\nomega-6 and 0.3g omega-3 fatty acids.  Per 100g, flax seeds have 5.9g omega-6\nand 22.8g omega-3 fatty acids.  So combined, we have 23.1g omega3 and 15.6g\nomega-6, a **~1.5 ratio**!  Data was taken from NCCDB via Cronometer.\n\n### Oats\n\n - 1 cup rolled oats\n - 2 cups water\n - Some salt\n\nBoil water, add oats, cook for 5 mins on stovetop.  Watch out for boiling over\nin first couple minutes!  Can also microwave for 3 mins.\n\nTo make overnight oats, use the same ratios, but just leave the oats in the\nfridge overnight instead of cooking. I highly recommend addng chia seeds and/or\ncoconut and/or some other kind of nut + some fruit when making overnight oats.\nYogurt is also good.\n\nSome good toppings:\n\n - Coffee (could even cook in coffee instead of water).\n - Chia seeds\n - Nutmeg\n - Cinnamon\n\n### Roasted Vegetables\n\nAll at 425F.\n\nVegetable      | Size     | Time (mins)\n---------      | -------- | -----------\nPotato         | 1/2 in   | 40 - 50\nZucchini       | 1/2 in   | 20\nBroccoli       | floret   | 20\nBrussel Sprout | halved   | 20\nTomato (roma)  | sliced   | 15\n\nSee also [this\nchart](https://www.myfrugalhome.com/vegetable-roasting-times-chart/).\n\nAdd thyme, rosemary, salt, garlic for extra flavor!  Add olive oil after or\nbefore.\n\n### Soup\n\nSaute (cook) onions, carrots, and/or celery for ~5 minutes in a soup pot with\nsome olive oil.  Add garlic and cook for ~1 more minute.\n\nNext, add a bunch of either stock or water with stock concentrate (e.g. \"Better\nThan Bullion\") and add chopped ingredients to boil based on this time table:\n\nIngredient      | Time (mins)\n---------       | -----------\nBeans           | 90-120 + presoaking overnight\nGreens          | 3-5\nGreen beans     | 3\nLentils         | 25\nPotatoes        | 20\nBarley          | 50\nPasta           | 8-12\nBrown Rice      | 45\nWhite Rice      | 15\n\nThis table is also accurate for just boiling anything - not necessarily as a\npart of a soup.\n\n\n## Baking\n\n### Apple Oat Almond Cookies/Smoothie\n\n - 3 large apples\n - 1 cup rolled oats\n - 1 cup whole almonds (soaked for 1 hour)\n\n1. Preheat oven to 375F.\n2. Blend all ingredients in blender.\n3. Enjoy your smoothie!  Or...\n4. Pour cookie shapes onto baking sheet with parchment paper over it (or oiled,\n   haven't tried).\n5. Bake for 30+ mins depending on size of cookie, cool for 10 mins.\n\nFrom\n[vegevega.com](https://vegevega.com/healthy-3-ingredient-apple-almond-breakfast-cookies/)\n\n### Granola\n    \n - 3 cups rolled oats\n - 1 cup slivered almonds\n - 1 cup cashews\n - 3/4 cup shredded sweet coconut\n - 1/4 cup plus 2 tablespoons (3/8 cup) dark brown sugar\n - 1/4 cup plus 2 tablespoons (3/8 cup) maple syrup\n - 1/4 cup vegetable oil\n - 3/4 teaspoon salt\n - 1 cup raisins\n\nPreheat oven to 250 degrees F.\n\nIn a large bowl, combine the oats, nuts, coconut, and brown sugar.\n\nIn a separate bowl, combine maple syrup, oil, and salt. Combine both mixtures\nand pour onto 2 sheet pans. Cook for 1 hour and 15 minutes, stirring every 15\nminutes to achieve an even color.\n\nRemove from oven and transfer into a large bowl. Add raisins and mix until\nevenly distributed.\n\nRecipe courtesy of Alton Brown.\n\n\n### Sweet Potato Pancakes\n\nTODO find recipe that we used!\n\n\n### Flax Bread\n\n - 2 and 1/2 cups flaxseed meal\n - 1 tablespoon baking powder\n - 1/2 teaspoon salt (optional)\n - 1 and 1/3 cups water\n\n1. Preheat oven to 400 degrees F.\n1. Grease a 9×5-inch bread pan.\n1. Mix the flaxseed meal, baking powder and salt. Add water, stirring until\n   completely combined (the dough will be very thick, but moist).\n1. Bake for 60 to 65 minutes until risen and browned.\n\nFrom https://www.powerhungry.com/2019/06/2-ingredient-flax-sandwich-bread-vegan-keto-grain-free/.\n\nTODO Try adding carrots to this!\n\n\n### Banana Bread\n\n - 5 very ripe bananas, mashed\n - 1 egg\n - 1 tsp vanilla extract\n - 1 1/2 cups whole wheat pastry flour or almond flour + 1/6 cup flaxmeal\n - 1 tsp baking soda\n - 1/2 tsp ground cinnamon\n - 1/8 tsp sea salt\n - 1/2 cup raw walnuts, **chopped**\n - 1/2 tsp coconut oil, for greasing loaf pan\n\nPreheat oven to 350 degrees F and coat a 9x5 inch loaf pan with oil.\n\nIn a medium mixing bowl, mash the bananas then add everything else and mix.\n\nPour the mix into the prepared loaf pan.  Bake for 50-60 minutes, or until a\ntoothpick inserted comes out clean and top is golden brown\n\nInspired by https://www.asweetpeachef.com/banana-nut-bread/##wprm-recipe-container-29897\n\n\n## Bread Machine Recipes\n\n### Black Bean Bread\n\n - 1  cup  water\n - 3/4  cup  beans\n - black, , dry, cooked, drained  \n - 1 1/2  tablespoons  applesauce\n - 1 1/2  tablespoons  honey\n - ¾  teaspoon  salt\n - 1 1/2  cups  whole-wheat flour\n - 1 1/2  cups  bread flour\n - 1 1/2  teaspoons  yeast, active dry\n\n Use whole wheat cycle on 1.5 lb loaf.\n\n\n## Desserts\n\n### Strawberry Rhubarb Crisp\n\n**For the rhubarb:**\n - 3 cups rhubarb sliced\n - 1 cup applesauce unsweetened or ~1.5 apples chopped\n - 3 tablespoons almond flour\n\n**For the strawberries:**\n - 2 ½ cups chopped sweet strawberries or 4 cups halved frozen strawberries\n   microwaved until warm\n\n**For the topping:**\n - 1 ½ cups almond flour\n - 1 ½ cups rolled oats gluten-free if needed\n - splash of walnut oil\n - splash of maple syrup (probably not needed)\n\n1. Preheat oven to 375F.\n1. Combine rhubarb ingredients in bowl, then pout into 9x13 pan.\n1. Add strawberries onto rhubarb.\n1. Add topping onto strawberries.\n1. Bake for 35mins or more.  Sometimes mixing the crumble on top helps more\n   evenly brown.\n\nInspired by https://beautifulingredient.com/strawberry-rhubarb-crisp/##recipe.\n\n### Apple Crisp\n\nFilling:\n - ~5 apples\n - ~3 tbsp chia seeds\n - ~1 tbsp lemon juice\n - dusting of cinnamon\n\n Mix the above together in baking/pie pan, then mix the below in a separate\n container (after using it to melt the coconut oil) and layer it on top.\n\n Crisp:\n - ~1/3 cup chopped walnuts\n - ~3/4 cup rolled oats\n - ~2 tbsp melted coconut oil\n \n Bake at 400F for 45 minutes.\n\n### Creme Brulee\n\n - 2 cups heavy or light cream, or half-and-half\n - 1 vanilla bean, split lengthwise, or 1 teaspoon vanilla extract\n - 1/8 teaspoon salt\n - 5 egg yolks\n - 1/2 cup sugar, more for topping\n\n1. Heat oven to 325 degrees. In a saucepan, combine cream, vanilla bean and salt\n   and cook over low heat just until hot. Let sit for a few minutes, then\n   discard vanilla bean. (If using vanilla extract, add it now.)\n2. In a bowl, beat yolks and sugar together until light. Stir about a quarter of\n   the cream into this mixture, then pour sugar-egg mixture into cream and stir.\n   Pour into four 6-ounce ramekins and place ramekins in a baking dish; fill\n   dish with boiling water halfway up the sides of the dishes. Bake for 30 to 40\n   minutes, or until centers are barely set. Cool completely. Refrigerate for\n   several hours and up to a couple of days.\n3. When ready to serve, top each custard with about a teaspoon of sugar in a\n   thin layer. Place ramekins in a broiler 2 to 3 inches from heat source.  Turn\n   on broiler. Cook until sugar melts and browns or even blackens a bit, about 5\n   minutes. Serve within two hours.\n\n\n### Oil Pie Crust\n\n - 2 cups all purpose flour\n - 1/2 tsp salt\n - 1 tsp sugar\n - 2/8 tsp baking powder\n - 7 tbsp oil (e.g. vegetable)\n - 1/4 cup cold water\n\nWhisk together flour, salt, sugar, and baking powder.\n\nWhisk together oil and water, then pour over dry ingredients and mix.\n\nUse fork/hands to spread flour evenly into a pie pan.\n\nFill pie pan and bake!\n\nFrom [King Arthur Flour](https://www.kingarthurflour.com/recipes/no-roll-pie-crust-recipe)\n\nCategories: [Health And Longevity]({{< relref \"/\" >}}?Health-And-Longevity=true)"
+  :markdown "# Cooking \n\n## Microwave Steam Bowls\n\nA really easy and convenient way to make some pretty tasty (and healthy!) food.\nThe basic premise is that you add your vegetables with a splash of water to a\nbowl, cover it with a plate, and microwave for 5-8 minutes. Then you add extra\nflavors and enjoy! It's easy to get creative with the cooking technique, but\nhere are some examples:\n\n### Carrots/Onions\n\nChop carrots and onions, add water and cook, finish with almond butter and\nsalt.  Add chia seeds optionally to soak up the water!\n\n### Thai Carrots/Onions\n\nSame recipe as before, but instead of almond butter, use natural (e.g. Adams)\npeanut butter with soy sauce, ginger, garlic, and optionally lime juice.\n\n### Honey Walnut Shrimp Inspired\n\nChop cabbage, add water and cook with brown rice, finish with walnuts and\nmayonnaise. \n\n## Potatoes\n\nPoke some holes in them, and just throw them into the microwave whole for 5-8\nminutes depending on size.\n\n## Oats\n\n - 1 cup rolled oats\n - 2 cups water\n - 1/4 tsp salt\n\nMicrowave for 3 mins.\n\nTo make overnight oats, use the same ratios, but just leave the oats in the\nfridge overnight instead of cooking. I highly recommend addng chia seeds and/or\ncoconut and/or some other kind of nut + some fruit when making overnight oats.\nYogurt is also good.\n\nSome good toppings:\n\n - Coffee (could even cook in coffee instead of water).\n - Chia seeds (~1-2 tbsp per cup dry oats)\n - Nutmeg\n - Cinnamon\n\n## Roasted Vegetables\n\nAll at 425F.\n\nVegetable      | Size     | Time (mins)\n---------      | -------- | -----------\nPotato         | 1/2 in   | 40 - 50\nZucchini       | 1/2 in   | 20\nBroccoli       | floret   | 20\nBrussel Sprout | halved   | 20\nTomato (roma)  | sliced   | 15\n\nSee also [this\nchart](https://www.myfrugalhome.com/vegetable-roasting-times-chart/).\n\nAdd thyme, rosemary, salt, garlic for extra flavor!  Add olive oil after or\nbefore.\n\n## Soup\n\nSaute (cook) onions, carrots, and/or celery for ~5 minutes in a soup pot with\nsome olive oil.  Add garlic and cook for ~1 more minute.\n\nNext, add a bunch of either stock or water with stock concentrate (e.g. \"Better\nThan Bullion\") and add chopped ingredients to boil based on this time table:\n\nIngredient      | Time (mins)\n---------       | -----------\nBeans           | 90-120 + presoaking overnight\nGreens          | 3-5\nGreen beans     | 3\nLentils         | 25\nPotatoes        | 20\nBarley          | 50\nPasta           | 8-12\nBrown Rice      | 45\nWhite Rice      | 15\n\nThis table is also accurate for just boiling anything - not necessarily as a\npart of a soup.\n\n## Grains and Beans\n\nI have an instant pot and use it to cook grains and beans more quickly.\n\nIngredient      | Time (mins)\n---------       | -----------\nChickpeas       | 28\n\nUse 1 tbsp salt to 1 lb dry beans.\nSoak dry beans overnight if possible.\nIf not, soak as long as you can and add 5-10 mins to the cooking time.\n\n## Popcorn\n\n - 1/4 - 1/2 cup kernels in a pan with some oil\n\nCook on high and shake frequently (every 10 secs).\n\nGood Toppings:\n\n - Nutritional Yeast\n - Cavenders Greek Seasoning\n - Olive oil\n\n\n## Ingredients\n\n### Flax Peanut Butter\n\nMixing ground flaxseed and natural peanut butter in around a 1:1 ratio makes a\ngreat nut butter!  You'll need to add some water to make it a paste (and not\njust powdery).  \n\nThis recipe has a good omega-3/6 ratio too.  Per 100g, peanut butter has 9.7g\nomega-6 and 0.3g omega-3 fatty acids.  Per 100g, flax seeds have 5.9g omega-6\nand 22.8g omega-3 fatty acids.  So combined, we have 23.1g omega3 and 15.6g\nomega-6, a **~1.5 ratio**!  Data was taken from NCCDB via Cronometer.\n\n\n## Creating New Recipes\n\nIf you're interested in experimenting with new food combinations, one technique\nthat has served me pretty well I call the \"trifecta of flavor\".  The way it\nworks is you take two foods that go well together (e.g. banana and peanut\nbutter) and you add a third food that goes well with one of the foods but would\nbe weird to combine with the other (e.g. spinach in this case).  More often\nthan not, the result is actually pretty good!\n\n\nFrom [King Arthur\nFlour](https://www.kingarthurflour.com/recipes/no-roll-pie-crust-recipe)\n\nCategories: [Health And Longevity]({{< relref \"/\" >}}?Health-And-Longevity=true)\n"
   :name "cooking.md"
   :categories #{"Health And Longevity"}
   :dir? false
   :links ["/"]
-  :size 9181
-  :modtime 1660415805
+  :size 4222
+  :modtime 1660592348
   :mode 416}
  {:path "content/docs/health-and-longevity/dental-health.md"
   :title "Dental Health"
@@ -1264,7 +1274,7 @@
   :dir? false
   :links ["/"]
   :size 216
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/health-and-longevity/dna-testing.md"
   :title "Dna Testing"
@@ -1274,7 +1284,7 @@
   :dir? false
   :links ["/"]
   :size 751
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/health-and-longevity/exercise.md"
   :title "Exercise"
@@ -1286,7 +1296,7 @@
           "/docs/manifesto.md"
           "/docs/health-and-longevity/aging-science.md"]
   :size 263
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/health-and-longevity/fasting.md"
   :title "Fasting"
@@ -1297,7 +1307,7 @@
   :links ["/"
           "/docs/health-and-longevity/food.md"]
   :size 4849
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/health-and-longevity/finding-care.md"
   :title "Finding Care"
@@ -1307,7 +1317,7 @@
   :dir? false
   :links ["/"]
   :size 356
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/health-and-longevity/food.md"
   :title "Food"
@@ -1324,7 +1334,7 @@
           "/docs/health-and-longevity/biomarker-correlator.md"
           "/docs/health-and-longevity/fasting.md"]
   :size 17211
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/health-and-longevity/influences.md"
   :title "Influences"
@@ -1336,7 +1346,7 @@
           "/"
           "/docs/health-and-longevity/sens.md"]
   :size 9185
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/health-and-longevity/misc-research.md"
   :title "Misc Research"
@@ -1346,7 +1356,7 @@
   :dir? false
   :links ["/"]
   :size 490
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/health-and-longevity/my-physiological-states.md"
   :title "My Physiological States"
@@ -1356,7 +1366,7 @@
   :dir? false
   :links ["/"]
   :size 717
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/health-and-longevity/personal-specific-food-notes.md"
   :title "Personal Specific Food Notes"
@@ -1366,7 +1376,7 @@
   :dir? false
   :links ["/"]
   :size 519
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/health-and-longevity/sens.md"
   :title "Sens"
@@ -1379,7 +1389,7 @@
           "/docs/health-and-longevity/influences.md"
           "/docs/understanding-the-world/what-to-believe.md"]
   :size 990
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/health-and-longevity/sleep.md"
   :title "Sleep"
@@ -1393,7 +1403,7 @@
           "/docs/health-and-longevity/aging-science.md"
           "/docs/lifestyle-optimizations/task-tracking.md"]
   :size 5286
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/health-and-longevity/theories-of-aging.md"
   :title "Theories Of Aging"
@@ -1406,7 +1416,7 @@
           "/"
           "/docs/health-and-longevity/aging-science.md"]
   :size 2244
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/health-and-longevity/tracking-food.md"
   :title "Tracking Food"
@@ -1417,7 +1427,7 @@
   :links ["/"
           "/docs/health-and-longevity/tracking-health.md"]
   :size 4198
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/health-and-longevity/tracking-health.md"
   :title "Tracking Health"
@@ -1432,7 +1442,7 @@
           "/docs/health-and-longevity/tracking-food.md"
           "/docs/lifelogging/what-and-why.md"]
   :size 3936
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/health-and-longevity/unhealthy-food.md"
   :title "Unhealthy Food"
@@ -1442,7 +1452,7 @@
   :dir? false
   :links ["/"]
   :size 414
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/housing/home-energy-monitoring.md"
   :title "Home Energy Monitoring"
@@ -1452,7 +1462,7 @@
   :dir? false
   :links ["/"]
   :size 887
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/housing/projects.md"
   :title "Projects"
@@ -1462,7 +1472,7 @@
   :dir? false
   :links ["/"]
   :size 250
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/hydroponics/journal.md"
   :title "Journal"
@@ -1472,7 +1482,7 @@
   :dir? false
   :links ["/"]
   :size 1588
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/hydroponics/my-setup.md"
   :title "My Setup"
@@ -1482,7 +1492,7 @@
   :dir? false
   :links ["/"]
   :size 4441
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/investing-and-finances/comprehensive-housing-return-estimator.md"
   :title "Comprehensive Housing Return Estimator"
@@ -1492,7 +1502,7 @@
   :dir? false
   :links ["/"]
   :size 11799
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/investing-and-finances/financial-independence.md"
   :title "Financial Independence"
@@ -1502,7 +1512,7 @@
   :dir? false
   :links ["/"]
   :size 830
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/investing-and-finances/housing.md"
   :title "Housing"
@@ -1512,7 +1522,7 @@
   :dir? false
   :links ["/"]
   :size 1600
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/investing-and-finances/influences.md"
   :title "Influences"
@@ -1524,7 +1534,7 @@
           "/"
           "/docs/understanding-the-world/influences.md"]
   :size 1552
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/investing-and-finances/monthly-costs-of-car-ownership.md"
   :title "Monthly Costs Of Car Ownership"
@@ -1534,7 +1544,7 @@
   :dir? false
   :links ["/"]
   :size 560
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/investing-and-finances/strategies.md"
   :title "Strategies"
@@ -1544,7 +1554,7 @@
   :dir? false
   :links ["/"]
   :size 2111
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/investing-and-finances/taxes.md"
   :title "Taxes"
@@ -1554,7 +1564,7 @@
   :dir? false
   :links ["/"]
   :size 2812
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/lifelogging/camera.md"
   :title "Camera"
@@ -1565,7 +1575,7 @@
   :links ["/"
           "/docs/lifelogging/what-and-why.md"]
   :size 1023
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/lifelogging/influences.md"
   :title "Influences"
@@ -1575,7 +1585,7 @@
   :dir? false
   :links ["/"]
   :size 440
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/lifelogging/what-and-why.md"
   :title "What And Why"
@@ -1595,7 +1605,7 @@
           "/docs/lifelogging/camera.md"
           "/docs/lifestyle-optimizations/task-tracking.md"]
   :size 9173
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/android-apps.md"
   :title "Android Apps"
@@ -1605,7 +1615,7 @@
   :dir? false
   :links ["/"]
   :size 583
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/bike-commuting.md"
   :title "Bike Commuting"
@@ -1615,7 +1625,7 @@
   :dir? false
   :links ["/"]
   :size 8092
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/elements-of-a-good-day.md"
   :title "Elements Of A Good Day"
@@ -1625,7 +1635,7 @@
   :dir? false
   :links ["/"]
   :size 667
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/experiences.md"
   :title "Experiences"
@@ -1639,7 +1649,7 @@
           "/docs/gaming/recommendations.md"
           "/docs/thought-experiments/mind-mapping-concept.md"]
   :size 698
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/geographical-maps.md"
   :title "Geographical Maps"
@@ -1649,7 +1659,7 @@
   :dir? false
   :links ["/"]
   :size 208
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/hang-drying-clothes.md"
   :title "Hang Drying Clothes"
@@ -1659,7 +1669,7 @@
   :dir? false
   :links ["/"]
   :size 2629
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/home-network-and-internet-troubleshooting.md"
   :title "Home Network And Internet Troubleshooting"
@@ -1669,7 +1679,7 @@
   :dir? false
   :links ["/"]
   :size 839
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/keyboard-layouts.md"
   :title "Keyboard Layouts"
@@ -1679,7 +1689,7 @@
   :dir? false
   :links ["/"]
   :size 722
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/life-advice.md"
   :title "Life Advice"
@@ -1689,7 +1699,7 @@
   :dir? false
   :links ["/"]
   :size 287
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/listening-to-books.md"
   :title "Listening To Books"
@@ -1699,7 +1709,7 @@
   :dir? false
   :links ["/"]
   :size 798
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/my-computer-configuration-dotfiles.md"
   :title "My Computer Configuration Dotfiles"
@@ -1709,7 +1719,7 @@
   :dir? false
   :links ["/"]
   :size 6270
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/no-ad-youtube-viewing.md"
   :title "No Ad Youtube Viewing"
@@ -1719,7 +1729,7 @@
   :dir? false
   :links ["/"]
   :size 873
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/phone-case.md"
   :title "Phone Case"
@@ -1729,7 +1739,7 @@
   :dir? false
   :links ["/"]
   :size 1128
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/task-tracking.md"
   :title "Task Tracking"
@@ -1741,7 +1751,7 @@
           "/docs/health-and-longevity/sleep.md"
           "/docs/lifelogging/what-and-why.md"]
   :size 2415
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/taut-line-hitch.md"
   :title "Taut Line Hitch"
@@ -1751,7 +1761,7 @@
   :dir? false
   :links ["/"]
   :size 558
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/this-website.md"
   :title "This Website"
@@ -1761,7 +1771,7 @@
   :dir? false
   :links ["/"]
   :size 1250
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/utilizing-body-state.md"
   :title "Utilizing Body State"
@@ -1771,7 +1781,7 @@
   :dir? false
   :links ["/"]
   :size 887
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/vim-tricks.md"
   :title "Vim Tricks"
@@ -1781,7 +1791,7 @@
   :dir? false
   :links ["/"]
   :size 168
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/writing.md"
   :title "Writing"
@@ -1791,7 +1801,7 @@
   :dir? false
   :links ["/"]
   :size 1030
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/mind/absorbing-and-professing.md"
   :title "Absorbing And Professing"
@@ -1801,7 +1811,7 @@
   :dir? false
   :links ["/"]
   :size 7467
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/mind/behavior-change.md"
   :title "Behavior Change"
@@ -1811,7 +1821,7 @@
   :dir? false
   :links ["/"]
   :size 593
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/mind/brain-juice.md"
   :title "Brain Juice"
@@ -1821,7 +1831,7 @@
   :dir? false
   :links ["/"]
   :size 491
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/mind/contentment.md"
   :title "Contentment"
@@ -1831,7 +1841,7 @@
   :dir? false
   :links ["/"]
   :size 1530
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/mind/creativity.md"
   :title "Creativity"
@@ -1848,7 +1858,7 @@
           "/docs/society/utopia.md"
           "/docs/understanding-the-world/copyright-and-ip.md"]
   :size 3427
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/mind/desires-and-deprivation.md"
   :title "Desires And Deprivation"
@@ -1858,7 +1868,7 @@
   :dir? false
   :links ["/"]
   :size 1165
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/mind/education.md"
   :title "Education"
@@ -1868,7 +1878,7 @@
   :dir? false
   :links ["/"]
   :size 4894
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/mind/how-to-do-hard-tasks.md"
   :title "How To Do Hard Tasks"
@@ -1880,7 +1890,7 @@
           "/"
           "/docs/mind/motivation.md"]
   :size 5114
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/mind/influences.md"
   :title "Influences"
@@ -1890,7 +1900,7 @@
   :dir? false
   :links ["/"]
   :size 1471
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/mind/motivation.md"
   :title "Motivation"
@@ -1905,7 +1915,7 @@
           "/docs/mind/creativity.md"
           "/docs/mind/how-to-do-hard-tasks.md"]
   :size 11573
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/mind/myers-briggs-personality-typing.md"
   :title "Myers Briggs Personality Typing"
@@ -1915,7 +1925,7 @@
   :dir? false
   :links ["/"]
   :size 1284
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/mind/optimism.md"
   :title "Optimism"
@@ -1927,7 +1937,7 @@
           "/docs/potential-life-missions.md"
           "/docs/society/solving-societal-problems.md"]
   :size 1329
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/mind/perspective.md"
   :title "Perspective"
@@ -1938,7 +1948,7 @@
   :links ["/"
           "/docs/understanding-the-world/what-to-believe.md"]
   :size 4925
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/mind/things-to-do-when-unmotivated.md"
   :title "Things To Do When Unmotivated"
@@ -1948,7 +1958,7 @@
   :dir? false
   :links ["/"]
   :size 1824
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/mind/working-with-others.md"
   :title "Working With Others"
@@ -1958,7 +1968,7 @@
   :dir? false
   :links ["/"]
   :size 7487
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/morality/altruism.md"
   :title "Altruism"
@@ -1968,7 +1978,7 @@
   :dir? false
   :links ["/"]
   :size 149
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/morality/cancelling-high-contributors.md"
   :title "Cancelling High Contributors"
@@ -1978,7 +1988,7 @@
   :dir? false
   :links ["/"]
   :size 1225
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/morality/efficient-living-and-morality.md"
   :title "Efficient Living And Morality"
@@ -1988,7 +1998,7 @@
   :dir? false
   :links ["/"]
   :size 4990
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/morality/future.md"
   :title "Future"
@@ -1998,7 +2008,7 @@
   :dir? false
   :links ["/"]
   :size 231
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/morality/right-to-risk.md"
   :title "Right To Risk"
@@ -2008,7 +2018,7 @@
   :dir? false
   :links ["/"]
   :size 1524
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/society/co-ops.md"
   :title "Co Ops"
@@ -2018,7 +2028,7 @@
   :dir? false
   :links ["/"]
   :size 4682
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/society/doom-and-how-to-avoid-it.md"
   :title "Doom And How To Avoid It"
@@ -2028,7 +2038,7 @@
   :dir? false
   :links ["/"]
   :size 2060
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/society/individuals-vs-groups.md"
   :title "Individuals Vs Groups"
@@ -2038,7 +2048,7 @@
   :dir? false
   :links ["/"]
   :size 658
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/society/politics.md"
   :title "Politics"
@@ -2048,7 +2058,7 @@
   :dir? false
   :links ["/"]
   :size 1431
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/society/solving-societal-problems.md"
   :title "Solving Societal Problems"
@@ -2060,7 +2070,7 @@
           "/"
           "/docs/mind/optimism.md"]
   :size 9483
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/society/utopia.md"
   :title "Utopia"
@@ -2074,7 +2084,7 @@
           "/docs/mind/creativity.md"
           "/docs/understanding-the-world/copyright-and-ip.md"]
   :size 7765
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/software-dev/actionable-tips.md"
   :title "Actionable Tips"
@@ -2084,7 +2094,7 @@
   :dir? false
   :links ["/"]
   :size 442
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/software-dev/auto-input-data-collection.md"
   :title "Auto Input Data Collection"
@@ -2094,7 +2104,7 @@
   :dir? false
   :links ["/"]
   :size 2360
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/software-dev/choosing-a-language.md"
   :title "Choosing A Language"
@@ -2104,7 +2114,7 @@
   :dir? false
   :links ["/"]
   :size 1050
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/software-dev/complexity.md"
   :title "Complexity"
@@ -2114,7 +2124,7 @@
   :dir? false
   :links ["/"]
   :size 1246
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/software-dev/functional-programming.md"
   :title "Functional Programming"
@@ -2124,7 +2134,7 @@
   :dir? false
   :links ["/"]
   :size 1390
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/software-dev/impact.md"
   :title "Impact"
@@ -2134,7 +2144,7 @@
   :dir? false
   :links ["/"]
   :size 198
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/software-dev/influences.md"
   :title "Influences"
@@ -2144,7 +2154,7 @@
   :dir? false
   :links ["/"]
   :size 1438
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/software-dev/patterned-code.md"
   :title "Patterned Code"
@@ -2154,7 +2164,7 @@
   :dir? false
   :links ["/"]
   :size 338
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/thought-experiments/artificial-intelligence.md"
   :title "Artificial Intelligence"
@@ -2164,7 +2174,7 @@
   :dir? false
   :links ["/"]
   :size 2408
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/thought-experiments/life-quests.md"
   :title "Life Quests"
@@ -2174,7 +2184,7 @@
   :dir? false
   :links ["/"]
   :size 396
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/thought-experiments/mind-mapping-concept.md"
   :title "Mind Mapping Concept"
@@ -2193,17 +2203,17 @@
           "/"
           "/docs/lifestyle-optimizations/experiences.md"]
   :size 1945
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/thought-experiments/random-ideas.md"
   :title "Random Ideas"
-  :markdown "# Random Ideas\n\nA collection of random short ideas I've had over the years that I haven't\nexecuted on (yet). If you find or do one of these things let me know!\n\n\n## Programming\n\n### Make $1 on the Internet\n\nWill probably lead to an interesting journey!\n\n### \"System 1\" Chatbot\n\nA chatbot that simulates talking to the \"system 1\" part of the brain only as\ndescribed in \"Thinking, Fast and Slow\".\n\n### Album Cover Quiz Site\n\nGiven an album cover (or movie cover or book cover), try to guess its genre or\nother things about it.  Basically [this](http://playjudgey.com/).  \n\n### Money Conversion App/Site\n\nAn app that allows the user to compare current market values of different\nthings.  For example, avocados to dollars or hours of specific work to rocks\netc.  Would be cool to have a web page associated that points out interesting\ncomparisons.  \n\n### String Image Formatter\n\nWrite a program that takes in a string and an image file, then adds\nnewlines/spaces/formatting to the string so that it looks like the image when\nviewed from a distance.  If the string is too short to work, repeat it or\nsomehow compress the image so it works out perfectly.  \n\n### Synonym Finder\n\nA program (or text editor plugin) where you can search text using all synonyms\nof the words you typed to search.  For example, searching some documentation for\n\"log\" would search for the word \"log\", but also (and with lower priority) the\nwords \"stderr\", \"stdout\", \"output\", etc.  This could also just be build in to\nthe search bar, where a window would pop up containing reframings of what you\nsearched for, as suggestions for what else to try.  \n\n### See Through Walls with VR/AR\n\nTry to (using google maps or pre-collected data) model an object in the real\nworld at its exact real world position in a VR or AR simulation.  For example,\nmodel a toothbrush in a bathroom so that when using VR in the living room you\ncan \"see through walls\" to see exactly the toothbrush.  Could be used to show\nlarge objects around the world at their exact positions (like the Eiffel tower\nor Mt Everest).  This would have a cool effect of giving you a really good\nbearing on your location with respect to the rest of the world.  \n\n### Word Traversal Game\n\nMake a word game where you try to get from one word to another via connections\nsuch as:\n\n - Words used in the same sentence of a given book\n - Synonyms/Antonyms\n\nhttps://www.word.golf/ is pretty close to this. It would be cool if it could be\nextended to other ways of connecting words.\n\n### Open Twitter\n\nA social network that just provides a raw database of tweets or posts and lets\nmany third party sites pop up that censor/curate/organize the posts/tweets in\ndifferent ways.\n\n### Memorization Game Mod\n\nMod a game you play often (e.g. Skyrim) so that random quips (e.g. \"arrow to\nthe knee\") are replaced by random facts you want to memorize.\n\n\n## Lifestyle Optimization\n\n### Water Saving Toilet\n\nMake a toilet where urine is redirected (like a composting toilet) into a\nseparate area with no water in it (the back of the toilet still has water).\nThen, when you pee in that area you don't need to flush, but when you poop (or\notherwise flush), the rising water will drain into the pee area as well,\nwashing it.  This should reduce the number of flushes per day by a lot for the\naverage toilet.\n\n### \"Feeling\" Biomarkers\n\nTry hooking up a continuous glucose (or other biomarker) monitor up to a\nvibration arm band (as discussed in the book \"Livewired\" by David Eagleman) to\n\"feel\" blood glucose concentration.\n\n### Hot Water Towel Rack\n\nExtend the hot water pipe that feeds a shower outside of the wall in a towel\nrack shape.\nThis will let the water flowing through the pipe heat your towel so it's nice\nand warm when you go to dry off.\n\n\n## Amusing\n\n### Musical Toothbrush\n\nA vibrating toothbrush that can accept a midi or other audio file. Then it will\nmodulate the vibrations to the tune of the audio.\n\n### Random Ice Prank\n\nPut [two liquids that\nfreeze](https://pubs.acs.org/doi/10.1021/acs.macromol.8b00239) (or get cold)\nwhen mixed in a laundry machine, surprising whoever goes to transfer their\nclothes!\n\n### Reverse Car Wash\n\nInstead of (or in addition to) spinning the bristles in a car wash, spin the\ncar instead!\nMore specifically, move the car around quickly like an amusement park ride so \nthat it rubs against the bristles.\n\n\n## Data Exploration\n\n### Ambiguous Acronyms\n\nMake a survey with ambiguous acronyms and see how the results differ based on\nthe community that's being asked (e.g. AC could be Armor Class or Air\nConditioning). This could be done on subreddits.\n\n### Regular Break Lifelogging\n\nEvery 30 minutes get up, walk around, and quickly note down what the last 30\nminutes was spent doing. Then use that data for cool visualizations.\n\n### Tracking Digestion with Center of Mass\n\nUse body's center of mass to estimate digestion progress/state.  Presumably\nright after eating mass is centered in the stomach, then slowly diffuses to\nother parts of the body\n\n\n## Food\n\n### Bell Pepper Cup\n\nCut the top off of a bell pepper and use it as a cup.  \n\n### Popped Potatoes\n\nPop potatoes like corn by wrapping them in a hard shell and cooking them.\n\n### Refried Bean Pizza\n\nPut refried beans on pizza.\n\n### Selling Chip Dust\n\nCompanies should sell the flavoring blends that flavor potato chips.\n\n\n## Artistic\n\n### Monthly Clock Garden\n\nMake a circular (or square) yard with 12 plants that each bloom during each\nmonth of the year.\n\n### Mood Ring Contacts\n\nContact for you eyes that change their color based on your mood.  For example,\nred eyes could signify anger, black eyes depressions, blue eyes calm, green\neyes joy, etc.\n\n### Encoding Vocal Inflection in Text\n\nIn March 2022 I started using text to speech converters to generate audiobooks\nfor me to listen to on commutes. The biggest difference I noticed between robot\naudio and a human reading out loud is that spacing between words and vocal\ninflections don't always happen in the same way. For instance, a robot voice\nmay not give weight to a sentence that a human would.\n\nIt would be neat if an author could somehow encode this vocal inflection in\ntheir text (by using bold/italics or special characters) in such a way that a\ntext to speech encoder could react to, to generate more natural sounding audio.\n\nPoets (or artistic authors) could even hijack this system to instead add\nbizarre inflection to their text such that it would sound strange when\ntext-to-speechified. I imagine you could do some pretty wild stuff here, from\ncreating novel accents to spicing up rhyming verses. This technique would also\nallow you to encode sounds in writing that are impossible for a human voice to\nmake.\n\n### Laser Cut Leaves\n\nEtch some cool pattern in tough, large leaves (treating them like paper).\n\n### Laser Cut Flip Book\n\n#### Main Idea\n\nCreate a flip book by laser engraving a stack of thin wood (or thick paper)\npieces, each with one frame of a gif or short video.  Then, create a box that\nthe stack can fit into snugly, with one of the walls perpendicular to the stack\nremoved.  In the place of that wall, put a mobile rod (or just make the wall\nremovable).  If you then turn the box so that the rod or movable wall is facing\nthe ground, you can remove the wall and let the pieces fall downward, advancing\nthe frame and animating the gif/video.\n\n#### Variation\n\nMake the stack of frames, then drill a hole in one corner and thread a rod\nthrough the stack.  You should be able to then rotate the stack around like a\nspiral staircase.  Maybe you can animate it like this?\n\n### Table Fountain\n\nIf you have a round table to eat at that seats ~4 people, put a symmetrical\nfountain like those found in gardens in the middle for people to use to refill\ntheir water cups.  Could have four streams for easier filling.\n\nCategories: [Thought Experiments]({{< relref \"/\" >}}?Thought-Experiments=true)"
+  :markdown "# Random Ideas\n\nA collection of random short ideas I've had over the years that I haven't\nexecuted on (yet). If you find or do one of these things let me know!\n\n\n## Programming\n\n### Make $1 on the Internet\n\nWill probably lead to an interesting journey!\n\n### \"System 1\" Chatbot\n\nA chatbot that simulates talking to the \"system 1\" part of the brain only as\ndescribed in \"Thinking, Fast and Slow\".\n\n### Album Cover Quiz Site\n\nGiven an album cover (or movie cover or book cover), try to guess its genre or\nother things about it.  Basically [this](http://playjudgey.com/).  \n\n### Money Conversion App/Site\n\nAn app that allows the user to compare current market values of different\nthings.  For example, avocados to dollars or hours of specific work to rocks\netc.  Would be cool to have a web page associated that points out interesting\ncomparisons.  \n\n### String Image Formatter\n\nWrite a program that takes in a string and an image file, then adds\nnewlines/spaces/formatting to the string so that it looks like the image when\nviewed from a distance.  If the string is too short to work, repeat it or\nsomehow compress the image so it works out perfectly.  \n\n### Synonym Finder\n\nA program (or text editor plugin) where you can search text using all synonyms\nof the words you typed to search.  For example, searching some documentation for\n\"log\" would search for the word \"log\", but also (and with lower priority) the\nwords \"stderr\", \"stdout\", \"output\", etc.  This could also just be build in to\nthe search bar, where a window would pop up containing reframings of what you\nsearched for, as suggestions for what else to try.  \n\n### See Through Walls with VR/AR\n\nTry to (using google maps or pre-collected data) model an object in the real\nworld at its exact real world position in a VR or AR simulation.  For example,\nmodel a toothbrush in a bathroom so that when using VR in the living room you\ncan \"see through walls\" to see exactly the toothbrush.  Could be used to show\nlarge objects around the world at their exact positions (like the Eiffel tower\nor Mt Everest).  This would have a cool effect of giving you a really good\nbearing on your location with respect to the rest of the world.  \n\n### Word Traversal Game\n\nMake a word game where you try to get from one word to another via connections\nsuch as:\n\n - Words used in the same sentence of a given book\n - Synonyms/Antonyms\n\nhttps://www.word.golf/ is pretty close to this. It would be cool if it could be\nextended to other ways of connecting words.\n\n### Open Twitter\n\nA social network that just provides a raw database of tweets or posts and lets\nmany third party sites pop up that censor/curate/organize the posts/tweets in\ndifferent ways.\n\n### Memorization Game Mod\n\nMod a game you play often (e.g. Skyrim) so that random quips (e.g. \"arrow to\nthe knee\") are replaced by random facts you want to memorize.\n\n\n## Lifestyle Optimization\n\n### Water Saving Toilet\n\nMake a toilet where urine is redirected (like a composting toilet) into a\nseparate area with no water in it (the back of the toilet still has water).\nThen, when you pee in that area you don't need to flush, but when you poop (or\notherwise flush), the rising water will drain into the pee area as well,\nwashing it.  This should reduce the number of flushes per day by a lot for the\naverage toilet.\n\n### \"Feeling\" Biomarkers\n\nTry hooking up a continuous glucose (or other biomarker) monitor up to a\nvibration arm band (as discussed in the book \"Livewired\" by David Eagleman) to\n\"feel\" blood glucose concentration.\n\n### Hot Water Towel Rack\n\nExtend the hot water pipe that feeds a shower outside of the wall in a towel\nrack shape.\nThis will let the water flowing through the pipe heat your towel so it's nice\nand warm when you go to dry off.\n\n\n## Amusing\n\n### Musical Toothbrush\n\nA vibrating toothbrush that can accept a midi or other audio file. Then it will\nmodulate the vibrations to the tune of the audio.\n\n### Random Ice Prank\n\nPut [two liquids that\nfreeze](https://pubs.acs.org/doi/10.1021/acs.macromol.8b00239) (or get cold)\nwhen mixed in a laundry machine, surprising whoever goes to transfer their\nclothes!\n\n### Reverse Car Wash\n\nInstead of (or in addition to) spinning the bristles in a car wash, spin the\ncar instead!\nMore specifically, move the car around quickly like an amusement park ride so \nthat it rubs against the bristles.\n\n\n## Data Exploration\n\n### Ambiguous Acronyms\n\nMake a survey with ambiguous acronyms and see how the results differ based on\nthe community that's being asked (e.g. AC could be Armor Class or Air\nConditioning). This could be done on subreddits.\n\n### Regular Break Lifelogging\n\nEvery 30 minutes get up, walk around, and quickly note down what the last 30\nminutes was spent doing. Then use that data for cool visualizations.\n\n### Tracking Digestion with Center of Mass\n\nUse body's center of mass to estimate digestion progress/state.  Presumably\nright after eating mass is centered in the stomach, then slowly diffuses to\nother parts of the body\n\n\n## Food\n\n### Bell Pepper Cup\n\nCut the top off of a bell pepper and use it as a cup.  \n\n### Popped Potatoes\n\nPop potatoes like corn by wrapping them in a hard shell and cooking them.\n\n### Refried Bean Pizza\n\nPut refried beans on pizza.\n\n### Selling Chip Dust\n\nCompanies should sell the flavoring blends that flavor potato chips.\n\n\n## Cultural\n\n### Day of Music\n\nA holiday where everyone in their own homes/neighborhoods plays along to a\nsingle song in whatever way they can.\n\n\n## Artistic\n\n### Monthly Clock Garden\n\nMake a circular (or square) yard with 12 plants that each bloom during each\nmonth of the year.\n\n### Mood Ring Contacts\n\nContact for you eyes that change their color based on your mood.  For example,\nred eyes could signify anger, black eyes depressions, blue eyes calm, green\neyes joy, etc.\n\n### Encoding Vocal Inflection in Text\n\nIn March 2022 I started using text to speech converters to generate audiobooks\nfor me to listen to on commutes. The biggest difference I noticed between robot\naudio and a human reading out loud is that spacing between words and vocal\ninflections don't always happen in the same way. For instance, a robot voice\nmay not give weight to a sentence that a human would.\n\nIt would be neat if an author could somehow encode this vocal inflection in\ntheir text (by using bold/italics or special characters) in such a way that a\ntext to speech encoder could react to, to generate more natural sounding audio.\n\nPoets (or artistic authors) could even hijack this system to instead add\nbizarre inflection to their text such that it would sound strange when\ntext-to-speechified. I imagine you could do some pretty wild stuff here, from\ncreating novel accents to spicing up rhyming verses. This technique would also\nallow you to encode sounds in writing that are impossible for a human voice to\nmake.\n\n### Laser Cut Leaves\n\nEtch some cool pattern in tough, large leaves (treating them like paper).\n\n### Laser Cut Flip Book\n\n#### Main Idea\n\nCreate a flip book by laser engraving a stack of thin wood (or thick paper)\npieces, each with one frame of a gif or short video.  Then, create a box that\nthe stack can fit into snugly, with one of the walls perpendicular to the stack\nremoved.  In the place of that wall, put a mobile rod (or just make the wall\nremovable).  If you then turn the box so that the rod or movable wall is facing\nthe ground, you can remove the wall and let the pieces fall downward, advancing\nthe frame and animating the gif/video.\n\n#### Variation\n\nMake the stack of frames, then drill a hole in one corner and thread a rod\nthrough the stack.  You should be able to then rotate the stack around like a\nspiral staircase.  Maybe you can animate it like this?\n\n### Table Fountain\n\nIf you have a round table to eat at that seats ~4 people, put a symmetrical\nfountain like those found in gardens in the middle for people to use to refill\ntheir water cups.  Could have four streams for easier filling.\n\nCategories: [Thought Experiments]({{< relref \"/\" >}}?Thought-Experiments=true)\n"
   :name "random-ideas.md"
   :categories #{"Thought Experiments"}
   :dir? false
   :links ["/"]
-  :size 7874
-  :modtime 1660415805
+  :size 8021
+  :modtime 1661200685
   :mode 416}
  {:path "content/docs/thought-experiments/two-glasses.md"
   :title "Two Glasses"
@@ -2213,7 +2223,7 @@
   :dir? false
   :links ["/"]
   :size 1752
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/understanding-the-world/applying-theories.md"
   :title "Applying Theories"
@@ -2223,7 +2233,7 @@
   :dir? false
   :links ["/"]
   :size 4672
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/understanding-the-world/copyright-and-ip.md"
   :title "Copyright And Ip"
@@ -2237,7 +2247,7 @@
           "/docs/mind/creativity.md"
           "/docs/society/utopia.md"]
   :size 774
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/understanding-the-world/great-explanations.md"
   :title "Great Explanations"
@@ -2247,7 +2257,7 @@
   :dir? false
   :links ["/"]
   :size 302
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/understanding-the-world/influences.md"
   :title "Influences"
@@ -2258,7 +2268,7 @@
   :links ["/"
           "/docs/investing-and-finances/influences.md"]
   :size 3305
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/understanding-the-world/judging-decisions.md"
   :title "Judging Decisions"
@@ -2268,7 +2278,7 @@
   :dir? false
   :links ["/"]
   :size 2328
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/understanding-the-world/notetaking.md"
   :title "Notetaking"
@@ -2278,7 +2288,7 @@
   :dir? false
   :links ["/"]
   :size 1065
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/understanding-the-world/physics.md"
   :title "Physics"
@@ -2288,7 +2298,7 @@
   :dir? false
   :links ["/"]
   :size 415
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/understanding-the-world/productive_conversations.md"
   :title "Productive_conversations"
@@ -2298,7 +2308,7 @@
   :dir? false
   :links ["/"]
   :size 615
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/understanding-the-world/what-to-believe.md"
   :title "What To Believe"
@@ -2315,7 +2325,7 @@
           "/docs/mind/perspective.md"
           "/docs/understanding-the-world/working-with-complex-systems.md"]
   :size 14947
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/understanding-the-world/working-with-complex-systems.md"
   :title "Working With Complex Systems"
@@ -2326,7 +2336,7 @@
   :links ["/"
           "/docs/understanding-the-world/what-to-believe.md"]
   :size 867
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/visual-art/generative-art.md"
   :title "Generative Art"
@@ -2336,7 +2346,7 @@
   :dir? false
   :links ["/"]
   :size 1453
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/visual-art/inspiration-and-resources.md"
   :title "Inspiration And Resources"
@@ -2346,7 +2356,7 @@
   :dir? false
   :links ["/"]
   :size 640
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}
  {:path "content/docs/visual-art/judging-art.md"
   :title "Judging Art"
@@ -2356,5 +2366,5 @@
   :dir? false
   :links ["/"]
   :size 597
-  :modtime 1660415805
+  :modtime 1660415842
   :mode 416}]
