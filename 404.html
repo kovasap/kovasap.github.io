@@ -16,7 +16,7 @@
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.93b305d2c58c4f77a22b40aa22298306ac85a19d991c3cadf2465c0ccef7ae72.css" integrity="sha256-k7MF0sWMT3eiK0CqIimDBqyFoZ2ZHDyt8kZcDM73rnI=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.216a80b9e9249255cea4fe7ad8f05ad2275b18e742b6db1a2a19600d177df9fb.js" integrity="sha256-IWqAuekkklXOpP562PBa0idbGOdCttsaKhlgDRd9&#43;fs=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.c9b50fc42f4231bff55a45edde2cb5be981698dc6370330ee4b9884e66fd01b1.js" integrity="sha256-ybUPxC9CMb/1WkXt3iy1vpgWmNxjcDMO5LmITmb9AbE=" crossorigin="anonymous"></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -40,24 +40,70 @@ https://github.com/alex-shpak/hugo-book
 
 
 <script>
+
+window.onload = function() {  
+    var cur_page = window.location.pathname;
+    console.log(cur_page);
+    var path_elements = cur_page.split('/').slice(2, -2);
+    path_elements.forEach(
+        element => {
+            console.log(element);
+            var page_element = document.getElementById(element);
+            if (page_element !== null) {
+                page_element.open = true;
+            }
+        });
     
-    window.onload = function() {  
-        var cur_page = window.location.pathname;
-        console.log(cur_page);
-        var path_elements = cur_page.split('/').slice(2, -2);
-        path_elements.forEach(
-            element => {
-                console.log(element);
-                var page_element = document.getElementById(element);
-                if (page_element !== null) {
-                    page_element.open = true;
-                }
+    
+    
+    
+
+    
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('embed') == '1') {
+        ['book-menu', 'book-toc', 'book-header'].forEach(
+            cls => {
+                Array.from(document.getElementsByClassName(cls)).forEach(
+                    (element, index, array) => {
+                        element.style.display = "none";
+                });
             });
-        
-        
-        
-        
     }
+    
+    
+    let iframes = {};
+    const getEmbeddedPage = (href) => {
+        if (href in iframes) {
+            return iframes[href];
+        } else {
+            const embedded_page = document.createElement("iframe");
+            document.body.appendChild(embedded_page);
+            embedded_page.src = href + "?embed=1";
+            embedded_page.style.position = "fixed";
+            embedded_page.style.display = "none";
+            embedded_page.style.width = "700px";
+            embedded_page.style.height = "1000px";
+            iframes[href] = embedded_page;
+            return embedded_page;
+        }
+    }
+    Array.from(document.getElementsByClassName('book-page').item(0).getElementsByTagName('a')).forEach(
+        (element, index, array) => {
+            if (element.href.includes('/docs/') &&
+                    !element.href.includes(window.location.pathname)){
+                element.onmouseover = function(e) {
+                    const embedded_page = getEmbeddedPage(element.href);
+                    embedded_page.style.left = e.clientX  + "px";
+                    embedded_page.style.top = e.clientY  + "px";
+                    embedded_page.style.display = "block";
+                };
+                element.onmouseout = function(e) {
+                    const embedded_page = getEmbeddedPage(element.href);
+                    embedded_page.style.display = "none";
+                };
+            }
+        });
+}
 </script>
 
 
