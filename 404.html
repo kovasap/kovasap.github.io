@@ -16,7 +16,7 @@
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.93b305d2c58c4f77a22b40aa22298306ac85a19d991c3cadf2465c0ccef7ae72.css" integrity="sha256-k7MF0sWMT3eiK0CqIimDBqyFoZ2ZHDyt8kZcDM73rnI=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.c9b50fc42f4231bff55a45edde2cb5be981698dc6370330ee4b9884e66fd01b1.js" integrity="sha256-ybUPxC9CMb/1WkXt3iy1vpgWmNxjcDMO5LmITmb9AbE=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.74bd2dc94cb704856761647aaa5a11e6b2bc78965df21bf86107a9799c11fbba.js" integrity="sha256-dL0tyUy3BIVnYWR6qloR5rK8eJZd8hv4YQepeZwR&#43;7o=" crossorigin="anonymous"></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -40,6 +40,21 @@ https://github.com/alex-shpak/hugo-book
 
 
 <script>
+const urlParams = new URLSearchParams(window.location.search);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 window.onload = function() {  
     var cur_page = window.location.pathname;
@@ -59,7 +74,6 @@ window.onload = function() {
     
 
     
-    const urlParams = new URLSearchParams(window.location.search);
     if (urlParams.get('embed') == '1') {
         ['book-menu', 'book-toc', 'book-header'].forEach(
             cls => {
