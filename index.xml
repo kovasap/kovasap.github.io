@@ -1288,8 +1288,8 @@ Categories: Investing And Finances</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/investing-and-finances/strategies/</guid>
-      <description>Investment Strategies # Context # https://totalrealreturns.com/ gives a good visualization of returns and volatility for different investments.
-Stock options # Excellent Reference The Value Factor # Investment returns can theoretically be explained by different factors described here. Total market index funds do not expose you fully to the value factor, which might be useful to do for maximizing returns in the long run. Here are some first steps to do this (that I have yet to follow):</description>
+      <description>Investment Strategies # Inflation Indexed Bonds # In 2022, inflation was pretty high, as described by Kiplinger.com:
+In July’s price report, falling prices at the gas pump gave consumers a bit of relief, as well as lowering the overall inflation rate to 8.5% from 9.1% in June. A few other price categories showed easing: Appliance prices are coming down, along with sporting goods, men’s clothing, car rentals and hotel rates.</description>
     </item>
     
     <item>
@@ -1351,6 +1351,15 @@ Paprika # An app that parses recipes out of the cancer that is most recipe websi
       
       <guid>https://kovasap.github.io/docs/lifestyle-optimizations/bike-commuting/</guid>
       <description>Bike Commuting # Benefits # Exercise. Moving your body is good for you, especially when regularly done. If you have to go to work every day, it makes sense to couple that mandatory travel with exercise to make the exercise &amp;ldquo;mandatory&amp;rdquo; itself! Inexpensive. Especially if you buy cheap bikes, bike commuting might be the least expensive way to travel around a city short of walking. On your own terms. For me, it&amp;rsquo;s important to be on my own schedule and not have to worry about public transportation schedules and parking time limits.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/lifestyle-optimizations/daily-physiological-tricks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/daily-physiological-tricks/</guid>
+      <description>Daily Physiological Tricks # Do as much cleaning (e.g. dishwasher loading and emptying) as possible while cooking or right before eating. Potential hunger and being already moving around makes it much easier to do this than after sitting and eating for a while. When feeling unfocused/unproductive/writer&amp;rsquo;s blocked, try: Going for a run or doing any kind of exercise Taking a shower Getting colder in temperature Not eating (being hungry) Taking a nap Eat one plate of food (even a large one), then wait &amp;gt;2 hours before eating more.</description>
     </item>
     
     <item>
@@ -1496,16 +1505,6 @@ Tying, then tightening, a clothsline Tying drawstrings on sweatpants or shorts -
       <description>This Website # This website serves as a useful place to organize and share my thoughts.
 Website setup was done using Hugo and is hosted using Github Pages. It uses the hugo-book theme. Originally, it was started by copying the example project in the hugo-book repository, and modifying the pages.
 Google Analytics # I added Google Analytics to the site via the googleAnalytics field in the config.yaml file - the hugo-book theme handles the rest.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/lifestyle-optimizations/utilizing-body-state/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/utilizing-body-state/</guid>
-      <description>Utilizing the State of your Body # TODO come up with a better name for this page
-When I feel cold or warm or hungry or full, my body will be more amenable to doing certain things. For instance, when I&amp;rsquo;m cold, it&amp;rsquo;s easier for me to do computer work (writing, coding, etc.) quickly and much harder for me to sleep. Hunger has a similar effect. Noticing these patterns can make it possible to set up your schedule and environment to take advantage of this differing bodily amenability.</description>
     </item>
     
     <item>
