@@ -16,10 +16,8 @@ goog.structs.Map = function(opt_map, var_args) {
     for (var i = 0; i < argLength; i += 2) {
       this.set(arguments[i], arguments[i + 1]);
     }
-  } else {
-    if (opt_map) {
-      this.addAll(opt_map);
-    }
+  } else if (opt_map) {
+    this.addAll(opt_map);
   }
 };
 goog.structs.Map.prototype.getCount = function() {

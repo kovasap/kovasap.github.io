@@ -387,16 +387,12 @@ goog.style.getOpacity = function(el) {
   var result = "";
   if ("opacity" in style) {
     result = style.opacity;
-  } else {
-    if ("MozOpacity" in style) {
-      result = style.MozOpacity;
-    } else {
-      if ("filter" in style) {
-        var match = style.filter.match(/alpha\(opacity=([\d.]+)\)/);
-        if (match) {
-          result = String(match[1] / 100);
-        }
-      }
+  } else if ("MozOpacity" in style) {
+    result = style.MozOpacity;
+  } else if ("filter" in style) {
+    var match = style.filter.match(/alpha\(opacity=([\d.]+)\)/);
+    if (match) {
+      result = String(match[1] / 100);
     }
   }
   return result == "" ? result : Number(result);
@@ -406,17 +402,13 @@ goog.style.setOpacity = function(el, alpha) {
   var style = el.style;
   if ("opacity" in style) {
     style.opacity = alpha;
-  } else {
-    if ("MozOpacity" in style) {
-      style.MozOpacity = alpha;
+  } else if ("MozOpacity" in style) {
+    style.MozOpacity = alpha;
+  } else if ("filter" in style) {
+    if (alpha === "") {
+      style.filter = "";
     } else {
-      if ("filter" in style) {
-        if (alpha === "") {
-          style.filter = "";
-        } else {
-          style.filter = "alpha(opacity\x3d" + Number(alpha) * 100 + ")";
-        }
-      }
+      style.filter = "alpha(opacity\x3d" + Number(alpha) * 100 + ")";
     }
   }
 };
@@ -475,12 +467,10 @@ goog.style.setSafeStyleSheet = function(element, safeStyleSheet) {
   var stylesString = goog.html.SafeStyleSheet.unwrap(safeStyleSheet);
   if (goog.userAgent.IE && element.cssText !== undefined) {
     element.cssText = stylesString;
+  } else if (goog.global.trustedTypes) {
+    goog.dom.setTextContent(element, stylesString);
   } else {
-    if (goog.global.trustedTypes) {
-      goog.dom.setTextContent(element, stylesString);
-    } else {
-      element.innerHTML = stylesString;
-    }
+    element.innerHTML = stylesString;
   }
 };
 goog.style.setPreWrap = function(el) {
@@ -503,10 +493,8 @@ goog.style.unselectableStyle_ = goog.userAgent.GECKO ? "MozUserSelect" : goog.us
 goog.style.isUnselectable = function(el) {
   if (goog.style.unselectableStyle_) {
     return el.style[goog.style.unselectableStyle_].toLowerCase() == "none";
-  } else {
-    if (goog.userAgent.IE) {
-      return el.getAttribute("unselectable") == "on";
-    }
+  } else if (goog.userAgent.IE) {
+    return el.getAttribute("unselectable") == "on";
   }
   return false;
 };
@@ -525,14 +513,12 @@ goog.style.setUnselectable = function(el, unselectable, opt_noRecurse) {
         }
       }
     }
-  } else {
-    if (goog.userAgent.IE) {
-      var value = unselectable ? "on" : "";
-      el.setAttribute("unselectable", value);
-      if (descendants) {
-        for (var i = 0, descendant; descendant = descendants[i]; i++) {
-          descendant.setAttribute("unselectable", value);
-        }
+  } else if (goog.userAgent.IE) {
+    var value = unselectable ? "on" : "";
+    el.setAttribute("unselectable", value);
+    if (descendants) {
+      for (var i = 0, descendant; descendant = descendants[i]; i++) {
+        descendant.setAttribute("unselectable", value);
       }
     }
   }
@@ -594,12 +580,10 @@ goog.style.setBoxSizingSize_ = function(element, size, boxSizing) {
   var style = element.style;
   if (goog.userAgent.GECKO) {
     style.MozBoxSizing = boxSizing;
+  } else if (goog.userAgent.WEBKIT) {
+    style.WebkitBoxSizing = boxSizing;
   } else {
-    if (goog.userAgent.WEBKIT) {
-      style.WebkitBoxSizing = boxSizing;
-    } else {
-      style.boxSizing = boxSizing;
-    }
+    style.boxSizing = boxSizing;
   }
   style.width = Math.max(size.width, 0) + "px";
   style.height = Math.max(size.height, 0) + "px";
@@ -706,12 +690,10 @@ goog.style.getFontSize = function(el) {
   if (goog.userAgent.IE) {
     if (String(sizeUnits) in goog.style.ABSOLUTE_CSS_LENGTH_UNITS_) {
       return goog.style.getIePixelValue_(el, fontSize, "left", "pixelLeft");
-    } else {
-      if (el.parentNode && el.parentNode.nodeType == goog.dom.NodeType.ELEMENT && String(sizeUnits) in goog.style.CONVERTIBLE_RELATIVE_CSS_UNITS_) {
-        var parentElement = el.parentNode;
-        var parentSize = goog.style.getStyle_(parentElement, "fontSize");
-        return goog.style.getIePixelValue_(parentElement, fontSize == parentSize ? "1em" : fontSize, "left", "pixelLeft");
-      }
+    } else if (el.parentNode && el.parentNode.nodeType == goog.dom.NodeType.ELEMENT && String(sizeUnits) in goog.style.CONVERTIBLE_RELATIVE_CSS_UNITS_) {
+      var parentElement = el.parentNode;
+      var parentSize = goog.style.getStyle_(parentElement, "fontSize");
+      return goog.style.getIePixelValue_(parentElement, fontSize == parentSize ? "1em" : fontSize, "left", "pixelLeft");
     }
   }
   var sizeElement = goog.dom.createDom(goog.dom.TagName.SPAN, {"style":"visibility:hidden;position:absolute;" + "line-height:0;padding:0;margin:0;border:0;height:1em;"});

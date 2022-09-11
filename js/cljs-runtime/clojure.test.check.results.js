@@ -5,15 +5,15 @@ goog.provide('clojure.test.check.results');
  */
 clojure.test.check.results.Result = function(){};
 
-var clojure$test$check$results$Result$pass_QMARK_$dyn_27541 = (function (result){
-var x__4550__auto__ = (((result == null))?null:result);
-var m__4551__auto__ = (clojure.test.check.results.pass_QMARK_[goog.typeOf(x__4550__auto__)]);
-if((!((m__4551__auto__ == null)))){
-return (m__4551__auto__.cljs$core$IFn$_invoke$arity$1 ? m__4551__auto__.cljs$core$IFn$_invoke$arity$1(result) : m__4551__auto__.call(null,result));
+var clojure$test$check$results$Result$pass_QMARK_$dyn_42787 = (function (result){
+var x__5393__auto__ = (((result == null))?null:result);
+var m__5394__auto__ = (clojure.test.check.results.pass_QMARK_[goog.typeOf(x__5393__auto__)]);
+if((!((m__5394__auto__ == null)))){
+return (m__5394__auto__.cljs$core$IFn$_invoke$arity$1 ? m__5394__auto__.cljs$core$IFn$_invoke$arity$1(result) : m__5394__auto__.call(null,result));
 } else {
-var m__4549__auto__ = (clojure.test.check.results.pass_QMARK_["_"]);
-if((!((m__4549__auto__ == null)))){
-return (m__4549__auto__.cljs$core$IFn$_invoke$arity$1 ? m__4549__auto__.cljs$core$IFn$_invoke$arity$1(result) : m__4549__auto__.call(null,result));
+var m__5392__auto__ = (clojure.test.check.results.pass_QMARK_["_"]);
+if((!((m__5392__auto__ == null)))){
+return (m__5392__auto__.cljs$core$IFn$_invoke$arity$1 ? m__5392__auto__.cljs$core$IFn$_invoke$arity$1(result) : m__5392__auto__.call(null,result));
 } else {
 throw cljs.core.missing_protocol("Result.pass?",result);
 }
@@ -26,19 +26,19 @@ clojure.test.check.results.pass_QMARK_ = (function clojure$test$check$results$pa
 if((((!((result == null)))) && ((!((result.clojure$test$check$results$Result$pass_QMARK_$arity$1 == null)))))){
 return result.clojure$test$check$results$Result$pass_QMARK_$arity$1(result);
 } else {
-return clojure$test$check$results$Result$pass_QMARK_$dyn_27541(result);
+return clojure$test$check$results$Result$pass_QMARK_$dyn_42787(result);
 }
 });
 
-var clojure$test$check$results$Result$result_data$dyn_27546 = (function (result){
-var x__4550__auto__ = (((result == null))?null:result);
-var m__4551__auto__ = (clojure.test.check.results.result_data[goog.typeOf(x__4550__auto__)]);
-if((!((m__4551__auto__ == null)))){
-return (m__4551__auto__.cljs$core$IFn$_invoke$arity$1 ? m__4551__auto__.cljs$core$IFn$_invoke$arity$1(result) : m__4551__auto__.call(null,result));
+var clojure$test$check$results$Result$result_data$dyn_42788 = (function (result){
+var x__5393__auto__ = (((result == null))?null:result);
+var m__5394__auto__ = (clojure.test.check.results.result_data[goog.typeOf(x__5393__auto__)]);
+if((!((m__5394__auto__ == null)))){
+return (m__5394__auto__.cljs$core$IFn$_invoke$arity$1 ? m__5394__auto__.cljs$core$IFn$_invoke$arity$1(result) : m__5394__auto__.call(null,result));
 } else {
-var m__4549__auto__ = (clojure.test.check.results.result_data["_"]);
-if((!((m__4549__auto__ == null)))){
-return (m__4549__auto__.cljs$core$IFn$_invoke$arity$1 ? m__4549__auto__.cljs$core$IFn$_invoke$arity$1(result) : m__4549__auto__.call(null,result));
+var m__5392__auto__ = (clojure.test.check.results.result_data["_"]);
+if((!((m__5392__auto__ == null)))){
+return (m__5392__auto__.cljs$core$IFn$_invoke$arity$1 ? m__5392__auto__.cljs$core$IFn$_invoke$arity$1(result) : m__5392__auto__.call(null,result));
 } else {
 throw cljs.core.missing_protocol("Result.result-data",result);
 }
@@ -51,7 +51,7 @@ clojure.test.check.results.result_data = (function clojure$test$check$results$re
 if((((!((result == null)))) && ((!((result.clojure$test$check$results$Result$result_data$arity$1 == null)))))){
 return result.clojure$test$check$results$Result$result_data$arity$1(result);
 } else {
-return clojure$test$check$results$Result$result_data$dyn_27546(result);
+return clojure$test$check$results$Result$result_data$dyn_42788(result);
 }
 });
 

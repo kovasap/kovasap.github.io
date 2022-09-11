@@ -99,21 +99,15 @@ goog.loadModule(function(exports) {
     if (!VALUE_RE.test(valueWithoutFunctions)) {
       fail(`String value allows only ${VALUE_ALLOWED_CHARS}` + " and simple functions, got: " + value);
       return SafeStyle.INNOCUOUS_STRING;
-    } else {
-      if (COMMENT_RE.test(value)) {
-        fail(`String value disallows comments, got: ${value}`);
-        return SafeStyle.INNOCUOUS_STRING;
-      } else {
-        if (!hasBalancedQuotes(value)) {
-          fail(`String value requires balanced quotes, got: ${value}`);
-          return SafeStyle.INNOCUOUS_STRING;
-        } else {
-          if (!hasBalancedSquareBrackets(value)) {
-            fail("String value requires balanced square brackets and one" + " identifier per pair of brackets, got: " + value);
-            return SafeStyle.INNOCUOUS_STRING;
-          }
-        }
-      }
+    } else if (COMMENT_RE.test(value)) {
+      fail(`String value disallows comments, got: ${value}`);
+      return SafeStyle.INNOCUOUS_STRING;
+    } else if (!hasBalancedQuotes(value)) {
+      fail(`String value requires balanced quotes, got: ${value}`);
+      return SafeStyle.INNOCUOUS_STRING;
+    } else if (!hasBalancedSquareBrackets(value)) {
+      fail("String value requires balanced square brackets and one" + " identifier per pair of brackets, got: " + value);
+      return SafeStyle.INNOCUOUS_STRING;
     }
     return sanitizeUrl(value);
   }
@@ -124,10 +118,8 @@ goog.loadModule(function(exports) {
       const c = value.charAt(i);
       if (c == "'" && outsideDouble) {
         outsideSingle = !outsideSingle;
-      } else {
-        if (c == '"' && outsideSingle) {
-          outsideDouble = !outsideDouble;
-        }
+      } else if (c == '"' && outsideSingle) {
+        outsideDouble = !outsideDouble;
       }
     }
     return outsideSingle && outsideDouble;
@@ -142,17 +134,13 @@ goog.loadModule(function(exports) {
           return false;
         }
         outside = true;
-      } else {
-        if (c == "[") {
-          if (!outside) {
-            return false;
-          }
-          outside = false;
-        } else {
-          if (!outside && !tokenRe.test(c)) {
-            return false;
-          }
+      } else if (c == "[") {
+        if (!outside) {
+          return false;
         }
+        outside = false;
+      } else if (!outside && !tokenRe.test(c)) {
+        return false;
       }
     }
     return outside;

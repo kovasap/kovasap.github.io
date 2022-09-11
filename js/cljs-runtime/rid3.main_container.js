@@ -1,33 +1,33 @@
 goog.provide('rid3.main_container');
 rid3.main_container.main_container_did_mount = (function rid3$main_container$main_container_did_mount(opts){
-var map__42067 = opts;
-var map__42067__$1 = cljs.core.__destructure_map(map__42067);
-var id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__42067__$1,new cljs.core.Keyword(null,"id","id",-1388402092));
-var ratom = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__42067__$1,new cljs.core.Keyword(null,"ratom","ratom",-126521267));
-var pieces = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__42067__$1,new cljs.core.Keyword(null,"pieces","pieces",-1436634023));
-var main_container = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__42067__$1,new cljs.core.Keyword(null,"main-container","main-container",-1260526439));
+var map__41835 = opts;
+var map__41835__$1 = cljs.core.__destructure_map(map__41835);
+var id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41835__$1,new cljs.core.Keyword(null,"id","id",-1388402092));
+var ratom = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41835__$1,new cljs.core.Keyword(null,"ratom","ratom",-126521267));
+var pieces = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41835__$1,new cljs.core.Keyword(null,"pieces","pieces",-1436634023));
+var main_container = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41835__$1,new cljs.core.Keyword(null,"main-container","main-container",-1260526439));
 var did_mount = cljs.core.get.cljs$core$IFn$_invoke$arity$3(main_container,new cljs.core.Keyword(null,"did-mount","did-mount",918232960),(function (node,ratom__$1){
 return node;
 }));
 var node = d3.select(["#",cljs.core.str.cljs$core$IFn$_invoke$arity$1(id)," svg"].join(''));
-var G__42068 = node.append("g").attr("class",rid3.util.main_container_class);
-var G__42069 = ratom;
-return (did_mount.cljs$core$IFn$_invoke$arity$2 ? did_mount.cljs$core$IFn$_invoke$arity$2(G__42068,G__42069) : did_mount.call(null,G__42068,G__42069));
+var G__41838 = node.append("g").attr("class",rid3.util.main_container_class);
+var G__41839 = ratom;
+return (did_mount.cljs$core$IFn$_invoke$arity$2 ? did_mount.cljs$core$IFn$_invoke$arity$2(G__41838,G__41839) : did_mount.call(null,G__41838,G__41839));
 });
 rid3.main_container.main_container_did_update = (function rid3$main_container$main_container_did_update(opts){
-var map__42070 = opts;
-var map__42070__$1 = cljs.core.__destructure_map(map__42070);
-var id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__42070__$1,new cljs.core.Keyword(null,"id","id",-1388402092));
-var ratom = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__42070__$1,new cljs.core.Keyword(null,"ratom","ratom",-126521267));
-var pieces = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__42070__$1,new cljs.core.Keyword(null,"pieces","pieces",-1436634023));
-var main_container = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__42070__$1,new cljs.core.Keyword(null,"main-container","main-container",-1260526439));
-var did_update = (function (){var or__4253__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(main_container,new cljs.core.Keyword(null,"did-update","did-update",-2143702256));
-if(cljs.core.truth_(or__4253__auto__)){
-return or__4253__auto__;
+var map__41902 = opts;
+var map__41902__$1 = cljs.core.__destructure_map(map__41902);
+var id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41902__$1,new cljs.core.Keyword(null,"id","id",-1388402092));
+var ratom = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41902__$1,new cljs.core.Keyword(null,"ratom","ratom",-126521267));
+var pieces = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41902__$1,new cljs.core.Keyword(null,"pieces","pieces",-1436634023));
+var main_container = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41902__$1,new cljs.core.Keyword(null,"main-container","main-container",-1260526439));
+var did_update = (function (){var or__5045__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(main_container,new cljs.core.Keyword(null,"did-update","did-update",-2143702256));
+if(cljs.core.truth_(or__5045__auto__)){
+return or__5045__auto__;
 } else {
-var or__4253__auto____$1 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(main_container,new cljs.core.Keyword(null,"did-mount","did-mount",918232960));
-if(cljs.core.truth_(or__4253__auto____$1)){
-return or__4253__auto____$1;
+var or__5045__auto____$1 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(main_container,new cljs.core.Keyword(null,"did-mount","did-mount",918232960));
+if(cljs.core.truth_(or__5045__auto____$1)){
+return or__5045__auto____$1;
 } else {
 return (function (node,ratom__$1){
 return node;

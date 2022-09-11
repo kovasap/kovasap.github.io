@@ -15,18 +15,12 @@ goog.loadModule(function(exports) {
     static of(iter) {
       if (iter instanceof ShimIterableImpl || iter instanceof ShimGoogIterator || iter instanceof ShimEs6Iterator) {
         return iter;
-      } else {
-        if (typeof iter.nextValueOrThrow == "function") {
-          return new ShimIterableImpl(() => wrapGoog(iter));
-        } else {
-          if (typeof iter[Symbol.iterator] == "function") {
-            return new ShimIterableImpl(() => iter[Symbol.iterator]());
-          } else {
-            if (typeof iter.__iterator__ == "function") {
-              return new ShimIterableImpl(() => wrapGoog(iter.__iterator__()));
-            }
-          }
-        }
+      } else if (typeof iter.nextValueOrThrow == "function") {
+        return new ShimIterableImpl(() => wrapGoog(iter));
+      } else if (typeof iter[Symbol.iterator] == "function") {
+        return new ShimIterableImpl(() => iter[Symbol.iterator]());
+      } else if (typeof iter.__iterator__ == "function") {
+        return new ShimIterableImpl(() => wrapGoog(iter.__iterator__()));
       }
       throw new Error("Not an iterator or iterable.");
     }

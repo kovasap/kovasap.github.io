@@ -26,151 +26,151 @@ this.__hash = __hash;
 this.cljs$lang$protocol_mask$partition0$ = 2230716170;
 this.cljs$lang$protocol_mask$partition1$ = 139264;
 });
-(clojure.test.check.generators.Generator.prototype.cljs$core$ILookup$_lookup$arity$2 = (function (this__4502__auto__,k__4503__auto__){
+(clojure.test.check.generators.Generator.prototype.cljs$core$ILookup$_lookup$arity$2 = (function (this__5343__auto__,k__5344__auto__){
 var self__ = this;
-var this__4502__auto____$1 = this;
-return this__4502__auto____$1.cljs$core$ILookup$_lookup$arity$3(null,k__4503__auto__,null);
+var this__5343__auto____$1 = this;
+return this__5343__auto____$1.cljs$core$ILookup$_lookup$arity$3(null,k__5344__auto__,null);
 }));
 
-(clojure.test.check.generators.Generator.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__4504__auto__,k28298,else__4505__auto__){
+(clojure.test.check.generators.Generator.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__5345__auto__,k23062,else__5346__auto__){
 var self__ = this;
-var this__4504__auto____$1 = this;
-var G__28320 = k28298;
-var G__28320__$1 = (((G__28320 instanceof cljs.core.Keyword))?G__28320.fqn:null);
-switch (G__28320__$1) {
+var this__5345__auto____$1 = this;
+var G__23072 = k23062;
+var G__23072__$1 = (((G__23072 instanceof cljs.core.Keyword))?G__23072.fqn:null);
+switch (G__23072__$1) {
 case "gen":
 return self__.gen;
 
 break;
 default:
-return cljs.core.get.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k28298,else__4505__auto__);
+return cljs.core.get.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k23062,else__5346__auto__);
 
 }
 }));
 
-(clojure.test.check.generators.Generator.prototype.cljs$core$IKVReduce$_kv_reduce$arity$3 = (function (this__4522__auto__,f__4523__auto__,init__4524__auto__){
+(clojure.test.check.generators.Generator.prototype.cljs$core$IKVReduce$_kv_reduce$arity$3 = (function (this__5363__auto__,f__5364__auto__,init__5365__auto__){
 var self__ = this;
-var this__4522__auto____$1 = this;
-return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (ret__4525__auto__,p__28329){
-var vec__28331 = p__28329;
-var k__4526__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28331,(0),null);
-var v__4527__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28331,(1),null);
-return (f__4523__auto__.cljs$core$IFn$_invoke$arity$3 ? f__4523__auto__.cljs$core$IFn$_invoke$arity$3(ret__4525__auto__,k__4526__auto__,v__4527__auto__) : f__4523__auto__.call(null,ret__4525__auto__,k__4526__auto__,v__4527__auto__));
-}),init__4524__auto__,this__4522__auto____$1);
+var this__5363__auto____$1 = this;
+return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (ret__5366__auto__,p__23086){
+var vec__23088 = p__23086;
+var k__5367__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23088,(0),null);
+var v__5368__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23088,(1),null);
+return (f__5364__auto__.cljs$core$IFn$_invoke$arity$3 ? f__5364__auto__.cljs$core$IFn$_invoke$arity$3(ret__5366__auto__,k__5367__auto__,v__5368__auto__) : f__5364__auto__.call(null,ret__5366__auto__,k__5367__auto__,v__5368__auto__));
+}),init__5365__auto__,this__5363__auto____$1);
 }));
 
-(clojure.test.check.generators.Generator.prototype.cljs$core$IPrintWithWriter$_pr_writer$arity$3 = (function (this__4517__auto__,writer__4518__auto__,opts__4519__auto__){
+(clojure.test.check.generators.Generator.prototype.cljs$core$IPrintWithWriter$_pr_writer$arity$3 = (function (this__5358__auto__,writer__5359__auto__,opts__5360__auto__){
 var self__ = this;
-var this__4517__auto____$1 = this;
-var pr_pair__4520__auto__ = (function (keyval__4521__auto__){
-return cljs.core.pr_sequential_writer(writer__4518__auto__,cljs.core.pr_writer,""," ","",opts__4519__auto__,keyval__4521__auto__);
+var this__5358__auto____$1 = this;
+var pr_pair__5361__auto__ = (function (keyval__5362__auto__){
+return cljs.core.pr_sequential_writer(writer__5359__auto__,cljs.core.pr_writer,""," ","",opts__5360__auto__,keyval__5362__auto__);
 });
-return cljs.core.pr_sequential_writer(writer__4518__auto__,pr_pair__4520__auto__,"#clojure.test.check.generators.Generator{",", ","}",opts__4519__auto__,cljs.core.concat.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"gen","gen",142575302),self__.gen],null))], null),self__.__extmap));
+return cljs.core.pr_sequential_writer(writer__5359__auto__,pr_pair__5361__auto__,"#clojure.test.check.generators.Generator{",", ","}",opts__5360__auto__,cljs.core.concat.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"gen","gen",142575302),self__.gen],null))], null),self__.__extmap));
 }));
 
-(clojure.test.check.generators.Generator.prototype.cljs$core$IIterable$_iterator$arity$1 = (function (G__28297){
+(clojure.test.check.generators.Generator.prototype.cljs$core$IIterable$_iterator$arity$1 = (function (G__23061){
 var self__ = this;
-var G__28297__$1 = this;
-return (new cljs.core.RecordIter((0),G__28297__$1,1,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"gen","gen",142575302)], null),(cljs.core.truth_(self__.__extmap)?cljs.core._iterator(self__.__extmap):cljs.core.nil_iter())));
+var G__23061__$1 = this;
+return (new cljs.core.RecordIter((0),G__23061__$1,1,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"gen","gen",142575302)], null),(cljs.core.truth_(self__.__extmap)?cljs.core._iterator(self__.__extmap):cljs.core.nil_iter())));
 }));
 
-(clojure.test.check.generators.Generator.prototype.cljs$core$IMeta$_meta$arity$1 = (function (this__4500__auto__){
+(clojure.test.check.generators.Generator.prototype.cljs$core$IMeta$_meta$arity$1 = (function (this__5341__auto__){
 var self__ = this;
-var this__4500__auto____$1 = this;
+var this__5341__auto____$1 = this;
 return self__.__meta;
 }));
 
-(clojure.test.check.generators.Generator.prototype.cljs$core$ICloneable$_clone$arity$1 = (function (this__4497__auto__){
+(clojure.test.check.generators.Generator.prototype.cljs$core$ICloneable$_clone$arity$1 = (function (this__5338__auto__){
 var self__ = this;
-var this__4497__auto____$1 = this;
+var this__5338__auto____$1 = this;
 return (new clojure.test.check.generators.Generator(self__.gen,self__.__meta,self__.__extmap,self__.__hash));
 }));
 
-(clojure.test.check.generators.Generator.prototype.cljs$core$ICounted$_count$arity$1 = (function (this__4506__auto__){
+(clojure.test.check.generators.Generator.prototype.cljs$core$ICounted$_count$arity$1 = (function (this__5347__auto__){
 var self__ = this;
-var this__4506__auto____$1 = this;
+var this__5347__auto____$1 = this;
 return (1 + cljs.core.count(self__.__extmap));
 }));
 
-(clojure.test.check.generators.Generator.prototype.cljs$core$IHash$_hash$arity$1 = (function (this__4498__auto__){
+(clojure.test.check.generators.Generator.prototype.cljs$core$IHash$_hash$arity$1 = (function (this__5339__auto__){
 var self__ = this;
-var this__4498__auto____$1 = this;
-var h__4360__auto__ = self__.__hash;
-if((!((h__4360__auto__ == null)))){
-return h__4360__auto__;
+var this__5339__auto____$1 = this;
+var h__5154__auto__ = self__.__hash;
+if((!((h__5154__auto__ == null)))){
+return h__5154__auto__;
 } else {
-var h__4360__auto____$1 = (function (coll__4499__auto__){
-return (236843149 ^ cljs.core.hash_unordered_coll(coll__4499__auto__));
-})(this__4498__auto____$1);
-(self__.__hash = h__4360__auto____$1);
+var h__5154__auto____$1 = (function (coll__5340__auto__){
+return (236843149 ^ cljs.core.hash_unordered_coll(coll__5340__auto__));
+})(this__5339__auto____$1);
+(self__.__hash = h__5154__auto____$1);
 
-return h__4360__auto____$1;
+return h__5154__auto____$1;
 }
 }));
 
-(clojure.test.check.generators.Generator.prototype.cljs$core$IEquiv$_equiv$arity$2 = (function (this28299,other28300){
+(clojure.test.check.generators.Generator.prototype.cljs$core$IEquiv$_equiv$arity$2 = (function (this23063,other23064){
 var self__ = this;
-var this28299__$1 = this;
-return (((!((other28300 == null)))) && ((((this28299__$1.constructor === other28300.constructor)) && (((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this28299__$1.gen,other28300.gen)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this28299__$1.__extmap,other28300.__extmap)))))));
+var this23063__$1 = this;
+return (((!((other23064 == null)))) && ((((this23063__$1.constructor === other23064.constructor)) && (((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this23063__$1.gen,other23064.gen)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this23063__$1.__extmap,other23064.__extmap)))))));
 }));
 
-(clojure.test.check.generators.Generator.prototype.cljs$core$IMap$_dissoc$arity$2 = (function (this__4512__auto__,k__4513__auto__){
+(clojure.test.check.generators.Generator.prototype.cljs$core$IMap$_dissoc$arity$2 = (function (this__5353__auto__,k__5354__auto__){
 var self__ = this;
-var this__4512__auto____$1 = this;
-if(cljs.core.contains_QMARK_(new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"gen","gen",142575302),null], null), null),k__4513__auto__)){
-return cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(cljs.core._with_meta(cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,this__4512__auto____$1),self__.__meta),k__4513__auto__);
+var this__5353__auto____$1 = this;
+if(cljs.core.contains_QMARK_(new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"gen","gen",142575302),null], null), null),k__5354__auto__)){
+return cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(cljs.core._with_meta(cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,this__5353__auto____$1),self__.__meta),k__5354__auto__);
 } else {
-return (new clojure.test.check.generators.Generator(self__.gen,self__.__meta,cljs.core.not_empty(cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(self__.__extmap,k__4513__auto__)),null));
+return (new clojure.test.check.generators.Generator(self__.gen,self__.__meta,cljs.core.not_empty(cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(self__.__extmap,k__5354__auto__)),null));
 }
 }));
 
-(clojure.test.check.generators.Generator.prototype.cljs$core$IAssociative$_contains_key_QMARK_$arity$2 = (function (this__4509__auto__,k28298){
+(clojure.test.check.generators.Generator.prototype.cljs$core$IAssociative$_contains_key_QMARK_$arity$2 = (function (this__5350__auto__,k23062){
 var self__ = this;
-var this__4509__auto____$1 = this;
-var G__28370 = k28298;
-var G__28370__$1 = (((G__28370 instanceof cljs.core.Keyword))?G__28370.fqn:null);
-switch (G__28370__$1) {
+var this__5350__auto____$1 = this;
+var G__23214 = k23062;
+var G__23214__$1 = (((G__23214 instanceof cljs.core.Keyword))?G__23214.fqn:null);
+switch (G__23214__$1) {
 case "gen":
 return true;
 
 break;
 default:
-return cljs.core.contains_QMARK_(self__.__extmap,k28298);
+return cljs.core.contains_QMARK_(self__.__extmap,k23062);
 
 }
 }));
 
-(clojure.test.check.generators.Generator.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4510__auto__,k__4511__auto__,G__28297){
+(clojure.test.check.generators.Generator.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__5351__auto__,k__5352__auto__,G__23061){
 var self__ = this;
-var this__4510__auto____$1 = this;
-var pred__28378 = cljs.core.keyword_identical_QMARK_;
-var expr__28379 = k__4511__auto__;
-if(cljs.core.truth_((pred__28378.cljs$core$IFn$_invoke$arity$2 ? pred__28378.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"gen","gen",142575302),expr__28379) : pred__28378.call(null,new cljs.core.Keyword(null,"gen","gen",142575302),expr__28379)))){
-return (new clojure.test.check.generators.Generator(G__28297,self__.__meta,self__.__extmap,null));
+var this__5351__auto____$1 = this;
+var pred__23257 = cljs.core.keyword_identical_QMARK_;
+var expr__23258 = k__5352__auto__;
+if(cljs.core.truth_((pred__23257.cljs$core$IFn$_invoke$arity$2 ? pred__23257.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"gen","gen",142575302),expr__23258) : pred__23257.call(null,new cljs.core.Keyword(null,"gen","gen",142575302),expr__23258)))){
+return (new clojure.test.check.generators.Generator(G__23061,self__.__meta,self__.__extmap,null));
 } else {
-return (new clojure.test.check.generators.Generator(self__.gen,self__.__meta,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k__4511__auto__,G__28297),null));
+return (new clojure.test.check.generators.Generator(self__.gen,self__.__meta,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k__5352__auto__,G__23061),null));
 }
 }));
 
-(clojure.test.check.generators.Generator.prototype.cljs$core$ISeqable$_seq$arity$1 = (function (this__4515__auto__){
+(clojure.test.check.generators.Generator.prototype.cljs$core$ISeqable$_seq$arity$1 = (function (this__5356__auto__){
 var self__ = this;
-var this__4515__auto____$1 = this;
+var this__5356__auto____$1 = this;
 return cljs.core.seq(cljs.core.concat.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [(new cljs.core.MapEntry(new cljs.core.Keyword(null,"gen","gen",142575302),self__.gen,null))], null),self__.__extmap));
 }));
 
-(clojure.test.check.generators.Generator.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (this__4501__auto__,G__28297){
+(clojure.test.check.generators.Generator.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (this__5342__auto__,G__23061){
 var self__ = this;
-var this__4501__auto____$1 = this;
-return (new clojure.test.check.generators.Generator(self__.gen,G__28297,self__.__extmap,self__.__hash));
+var this__5342__auto____$1 = this;
+return (new clojure.test.check.generators.Generator(self__.gen,G__23061,self__.__extmap,self__.__hash));
 }));
 
-(clojure.test.check.generators.Generator.prototype.cljs$core$ICollection$_conj$arity$2 = (function (this__4507__auto__,entry__4508__auto__){
+(clojure.test.check.generators.Generator.prototype.cljs$core$ICollection$_conj$arity$2 = (function (this__5348__auto__,entry__5349__auto__){
 var self__ = this;
-var this__4507__auto____$1 = this;
-if(cljs.core.vector_QMARK_(entry__4508__auto__)){
-return this__4507__auto____$1.cljs$core$IAssociative$_assoc$arity$3(null,cljs.core._nth(entry__4508__auto__,(0)),cljs.core._nth(entry__4508__auto__,(1)));
+var this__5348__auto____$1 = this;
+if(cljs.core.vector_QMARK_(entry__5349__auto__)){
+return this__5348__auto____$1.cljs$core$IAssociative$_assoc$arity$3(null,cljs.core._nth(entry__5349__auto__,(0)),cljs.core._nth(entry__5349__auto__,(1)));
 } else {
-return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(cljs.core._conj,this__4507__auto____$1,entry__4508__auto__);
+return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(cljs.core._conj,this__5348__auto____$1,entry__5349__auto__);
 }
 }));
 
@@ -180,12 +180,12 @@ return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMP
 
 (clojure.test.check.generators.Generator.cljs$lang$type = true);
 
-(clojure.test.check.generators.Generator.cljs$lang$ctorPrSeq = (function (this__4546__auto__){
+(clojure.test.check.generators.Generator.cljs$lang$ctorPrSeq = (function (this__5389__auto__){
 return (new cljs.core.List(null,"clojure.test.check.generators/Generator",null,(1),null));
 }));
 
-(clojure.test.check.generators.Generator.cljs$lang$ctorPrWriter = (function (this__4546__auto__,writer__4547__auto__){
-return cljs.core._write(writer__4547__auto__,"clojure.test.check.generators/Generator");
+(clojure.test.check.generators.Generator.cljs$lang$ctorPrWriter = (function (this__5389__auto__,writer__5390__auto__){
+return cljs.core._write(writer__5390__auto__,"clojure.test.check.generators/Generator");
 }));
 
 /**
@@ -198,15 +198,15 @@ return (new clojure.test.check.generators.Generator(gen,null,null,null));
 /**
  * Factory function for clojure.test.check.generators/Generator, taking a map of keywords to field values.
  */
-clojure.test.check.generators.map__GT_Generator = (function clojure$test$check$generators$map__GT_Generator(G__28308){
-var extmap__4542__auto__ = (function (){var G__28409 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(G__28308,new cljs.core.Keyword(null,"gen","gen",142575302));
-if(cljs.core.record_QMARK_(G__28308)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__28409);
+clojure.test.check.generators.map__GT_Generator = (function clojure$test$check$generators$map__GT_Generator(G__23065){
+var extmap__5385__auto__ = (function (){var G__23401 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(G__23065,new cljs.core.Keyword(null,"gen","gen",142575302));
+if(cljs.core.record_QMARK_(G__23065)){
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__23401);
 } else {
-return G__28409;
+return G__23401;
 }
 })();
-return (new clojure.test.check.generators.Generator(new cljs.core.Keyword(null,"gen","gen",142575302).cljs$core$IFn$_invoke$arity$1(G__28308),null,cljs.core.not_empty(extmap__4542__auto__),null));
+return (new clojure.test.check.generators.Generator(new cljs.core.Keyword(null,"gen","gen",142575302).cljs$core$IFn$_invoke$arity$1(G__23065),null,cljs.core.not_empty(extmap__5385__auto__),null));
 });
 
 /**
@@ -221,10 +221,10 @@ return (new clojure.test.check.generators.Generator(generator_fn,null,null,null)
 /**
  * Internal function.
  */
-clojure.test.check.generators.call_gen = (function clojure$test$check$generators$call_gen(p__28416,rnd,size){
-var map__28417 = p__28416;
-var map__28417__$1 = cljs.core.__destructure_map(map__28417);
-var generator_fn = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__28417__$1,new cljs.core.Keyword(null,"gen","gen",142575302));
+clojure.test.check.generators.call_gen = (function clojure$test$check$generators$call_gen(p__23456,rnd,size){
+var map__23457 = p__23456;
+var map__23457__$1 = cljs.core.__destructure_map(map__23457);
+var generator_fn = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__23457__$1,new cljs.core.Keyword(null,"gen","gen",142575302));
 return (generator_fn.cljs$core$IFn$_invoke$arity$2 ? generator_fn.cljs$core$IFn$_invoke$arity$2(rnd,size) : generator_fn.call(null,rnd,size));
 });
 /**
@@ -238,30 +238,30 @@ return value;
 /**
  * Internal function.
  */
-clojure.test.check.generators.gen_fmap = (function clojure$test$check$generators$gen_fmap(k,p__28422){
-var map__28423 = p__28422;
-var map__28423__$1 = cljs.core.__destructure_map(map__28423);
-var h = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__28423__$1,new cljs.core.Keyword(null,"gen","gen",142575302));
+clojure.test.check.generators.gen_fmap = (function clojure$test$check$generators$gen_fmap(k,p__23488){
+var map__23490 = p__23488;
+var map__23490__$1 = cljs.core.__destructure_map(map__23490);
+var h = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__23490__$1,new cljs.core.Keyword(null,"gen","gen",142575302));
 return clojure.test.check.generators.make_gen((function (rnd,size){
-var G__28425 = (h.cljs$core$IFn$_invoke$arity$2 ? h.cljs$core$IFn$_invoke$arity$2(rnd,size) : h.call(null,rnd,size));
-return (k.cljs$core$IFn$_invoke$arity$1 ? k.cljs$core$IFn$_invoke$arity$1(G__28425) : k.call(null,G__28425));
+var G__23502 = (h.cljs$core$IFn$_invoke$arity$2 ? h.cljs$core$IFn$_invoke$arity$2(rnd,size) : h.call(null,rnd,size));
+return (k.cljs$core$IFn$_invoke$arity$1 ? k.cljs$core$IFn$_invoke$arity$1(G__23502) : k.call(null,G__23502));
 }));
 });
 /**
  * Internal function.
  */
-clojure.test.check.generators.gen_bind = (function clojure$test$check$generators$gen_bind(p__28431,k){
-var map__28432 = p__28431;
-var map__28432__$1 = cljs.core.__destructure_map(map__28432);
-var h = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__28432__$1,new cljs.core.Keyword(null,"gen","gen",142575302));
+clojure.test.check.generators.gen_bind = (function clojure$test$check$generators$gen_bind(p__23532,k){
+var map__23534 = p__23532;
+var map__23534__$1 = cljs.core.__destructure_map(map__23534);
+var h = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__23534__$1,new cljs.core.Keyword(null,"gen","gen",142575302));
 return clojure.test.check.generators.make_gen((function (rnd,size){
-var vec__28434 = clojure.test.check.random.split(rnd);
-var r1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28434,(0),null);
-var r2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28434,(1),null);
+var vec__23552 = clojure.test.check.random.split(rnd);
+var r1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23552,(0),null);
+var r2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23552,(1),null);
 var inner = (h.cljs$core$IFn$_invoke$arity$2 ? h.cljs$core$IFn$_invoke$arity$2(r1,size) : h.call(null,r1,size));
-var map__28437 = (k.cljs$core$IFn$_invoke$arity$1 ? k.cljs$core$IFn$_invoke$arity$1(inner) : k.call(null,inner));
-var map__28437__$1 = cljs.core.__destructure_map(map__28437);
-var result = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__28437__$1,new cljs.core.Keyword(null,"gen","gen",142575302));
+var map__23555 = (k.cljs$core$IFn$_invoke$arity$1 ? k.cljs$core$IFn$_invoke$arity$1(inner) : k.call(null,inner));
+var map__23555__$1 = cljs.core.__destructure_map(map__23555);
+var result = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__23555__$1,new cljs.core.Keyword(null,"gen","gen",142575302));
 return (result.cljs$core$IFn$_invoke$arity$2 ? result.cljs$core$IFn$_invoke$arity$2(r2,size) : result.call(null,r2,size));
 }));
 });
@@ -273,9 +273,9 @@ return (result.cljs$core$IFn$_invoke$arity$2 ? result.cljs$core$IFn$_invoke$arit
  */
 clojure.test.check.generators.lazy_random_states = (function clojure$test$check$generators$lazy_random_states(rr){
 return (new cljs.core.LazySeq(null,(function (){
-var vec__28443 = clojure.test.check.random.split(rr);
-var r1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28443,(0),null);
-var r2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28443,(1),null);
+var vec__23578 = clojure.test.check.random.split(rr);
+var r1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23578,(0),null);
+var r2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23578,(1),null);
 return cljs.core.cons(r1,(clojure.test.check.generators.lazy_random_states.cljs$core$IFn$_invoke$arity$1 ? clojure.test.check.generators.lazy_random_states.cljs$core$IFn$_invoke$arity$1(r2) : clojure.test.check.generators.lazy_random_states.call(null,r2)));
 }),null,null));
 });
@@ -284,8 +284,8 @@ return cljs.core.cons(r1,(clojure.test.check.generators.lazy_random_states.cljs$
  */
 clojure.test.check.generators.gen_tuple = (function clojure$test$check$generators$gen_tuple(gens){
 return clojure.test.check.generators.make_gen((function (rnd,size){
-return cljs.core.mapv.cljs$core$IFn$_invoke$arity$3((function (p1__28448_SHARP_,p2__28449_SHARP_){
-return clojure.test.check.generators.call_gen(p1__28448_SHARP_,p2__28449_SHARP_,size);
+return cljs.core.mapv.cljs$core$IFn$_invoke$arity$3((function (p1__23625_SHARP_,p2__23627_SHARP_){
+return clojure.test.check.generators.call_gen(p1__23625_SHARP_,p2__23627_SHARP_,size);
 }),gens,clojure.test.check.random.split_n(rnd,cljs.core.count(gens)));
 }));
 });
@@ -304,8 +304,8 @@ if(clojure.test.check.generators.generator_QMARK_(gen)){
 throw (new Error(["Assert failed: ","Second arg to fmap must be a generator","\n","(generator? gen)"].join('')));
 }
 
-return clojure.test.check.generators.gen_fmap((function (p1__28453_SHARP_){
-return clojure.test.check.rose_tree.fmap(f,p1__28453_SHARP_);
+return clojure.test.check.generators.gen_fmap((function (p1__23681_SHARP_){
+return clojure.test.check.rose_tree.fmap(f,p1__23681_SHARP_);
 }),gen);
 });
 /**
@@ -322,8 +322,8 @@ return clojure.test.check.generators.gen_pure(clojure.test.check.rose_tree.pure(
 clojure.test.check.generators.bind_helper = (function clojure$test$check$generators$bind_helper(f){
 return (function (rose){
 return clojure.test.check.generators.gen_fmap(clojure.test.check.rose_tree.join,clojure.test.check.generators.make_gen((function (rnd,size){
-return clojure.test.check.rose_tree.fmap((function (p1__28469_SHARP_){
-return clojure.test.check.generators.call_gen((f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(p1__28469_SHARP_) : f.call(null,p1__28469_SHARP_)),rnd,size);
+return clojure.test.check.rose_tree.fmap((function (p1__23801_SHARP_){
+return clojure.test.check.generators.call_gen((f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(p1__23801_SHARP_) : f.call(null,p1__23801_SHARP_)),rnd,size);
 }),rose);
 })));
 });
@@ -365,8 +365,8 @@ return cljs.core.cycle(cljs.core.range.cljs$core$IFn$_invoke$arity$2((0),max_siz
  *   to build other generators.
  */
 clojure.test.check.generators.sample_seq = (function clojure$test$check$generators$sample_seq(var_args){
-var G__28478 = arguments.length;
-switch (G__28478) {
+var G__23871 = arguments.length;
+switch (G__23871) {
 case 1:
 return clojure.test.check.generators.sample_seq.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -388,8 +388,8 @@ return clojure.test.check.generators.sample_seq.cljs$core$IFn$_invoke$arity$2(ge
 (clojure.test.check.generators.sample_seq.cljs$core$IFn$_invoke$arity$2 = (function (generator,max_size){
 var r = clojure.test.check.random.make_random.cljs$core$IFn$_invoke$arity$0();
 var size_seq = clojure.test.check.generators.make_size_range_seq(max_size);
-return cljs.core.map.cljs$core$IFn$_invoke$arity$3((function (p1__28475_SHARP_,p2__28476_SHARP_){
-return clojure.test.check.rose_tree.root(clojure.test.check.generators.call_gen(generator,p1__28475_SHARP_,p2__28476_SHARP_));
+return cljs.core.map.cljs$core$IFn$_invoke$arity$3((function (p1__23848_SHARP_,p2__23849_SHARP_){
+return clojure.test.check.rose_tree.root(clojure.test.check.generators.call_gen(generator,p1__23848_SHARP_,p2__23849_SHARP_));
 }),clojure.test.check.generators.lazy_random_states(r),size_seq);
 }));
 
@@ -407,8 +407,8 @@ return clojure.test.check.rose_tree.root(clojure.test.check.generators.call_gen(
  *   to build other generators.
  */
 clojure.test.check.generators.sample = (function clojure$test$check$generators$sample(var_args){
-var G__28480 = arguments.length;
-switch (G__28480) {
+var G__23939 = arguments.length;
+switch (G__23939) {
 case 1:
 return clojure.test.check.generators.sample.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -450,8 +450,8 @@ return cljs.core.take.cljs$core$IFn$_invoke$arity$2(num_samples,clojure.test.che
  *   - seed: the seed for the random number generator, an integer
  */
 clojure.test.check.generators.generate = (function clojure$test$check$generators$generate(var_args){
-var G__28482 = arguments.length;
-switch (G__28482) {
+var G__24010 = arguments.length;
+switch (G__24010) {
 case 1:
 return clojure.test.check.generators.generate.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -487,15 +487,15 @@ return clojure.test.check.rose_tree.root(clojure.test.check.generators.call_gen(
 (clojure.test.check.generators.generate.cljs$lang$maxFixedArity = 3);
 
 clojure.test.check.generators.halfs = (function clojure$test$check$generators$halfs(n){
-return cljs.core.take_while.cljs$core$IFn$_invoke$arity$2((function (p1__28489_SHARP_){
-return cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2((0),p1__28489_SHARP_);
-}),cljs.core.iterate((function (p1__28490_SHARP_){
-return cljs.core.quot(p1__28490_SHARP_,(2));
+return cljs.core.take_while.cljs$core$IFn$_invoke$arity$2((function (p1__24044_SHARP_){
+return cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2((0),p1__24044_SHARP_);
+}),cljs.core.iterate((function (p1__24045_SHARP_){
+return cljs.core.quot(p1__24045_SHARP_,(2));
 }),n));
 });
 clojure.test.check.generators.shrink_int = (function clojure$test$check$generators$shrink_int(integer){
-return cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__28492_SHARP_){
-return (integer - p1__28492_SHARP_);
+return cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__24058_SHARP_){
+return (integer - p1__24058_SHARP_);
 }),clojure.test.check.generators.halfs(integer));
 });
 clojure.test.check.generators.int_rose_tree = (function clojure$test$check$generators$int_rose_tree(value){
@@ -561,9 +561,9 @@ if(clojure.test.check.generators.generator_QMARK_(generator)){
 throw (new Error(["Assert failed: ","Second arg to resize must be a generator","\n","(generator? generator)"].join('')));
 }
 
-var map__28521 = generator;
-var map__28521__$1 = cljs.core.__destructure_map(map__28521);
-var gen = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__28521__$1,new cljs.core.Keyword(null,"gen","gen",142575302));
+var map__24133 = generator;
+var map__24133__$1 = cljs.core.__destructure_map(map__24133);
+var gen = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__24133__$1,new cljs.core.Keyword(null,"gen","gen",142575302));
 return clojure.test.check.generators.make_gen((function (rnd,_size){
 return (gen.cljs$core$IFn$_invoke$arity$2 ? gen.cljs$core$IFn$_invoke$arity$2(rnd,n) : gen.call(null,rnd,n));
 }));
@@ -594,8 +594,8 @@ return clojure.test.check.generators.resize((f.cljs$core$IFn$_invoke$arity$1 ? f
 clojure.test.check.generators.choose = (function clojure$test$check$generators$choose(lower,upper){
 return clojure.test.check.generators.make_gen((function (rnd,_size){
 var value = clojure.test.check.generators.rand_range(rnd,lower,upper);
-return clojure.test.check.rose_tree.filter((function (p1__28532_SHARP_){
-return (((p1__28532_SHARP_ >= lower)) && ((p1__28532_SHARP_ <= upper)));
+return clojure.test.check.rose_tree.filter((function (p1__24145_SHARP_){
+return (((p1__24145_SHARP_ >= lower)) && ((p1__24145_SHARP_ <= upper)));
 }),clojure.test.check.generators.int_rose_tree(value));
 }));
 });
@@ -618,16 +618,16 @@ if(cljs.core.seq(generators)){
 throw (new Error(["Assert failed: ","one-of cannot be called with an empty collection","\n","(seq generators)"].join('')));
 }
 
-return clojure.test.check.generators.bind(clojure.test.check.generators.choose((0),(cljs.core.count(generators) - (1))),(function (p1__28542_SHARP_){
-return cljs.core.nth.cljs$core$IFn$_invoke$arity$2(generators,p1__28542_SHARP_);
+return clojure.test.check.generators.bind(clojure.test.check.generators.choose((0),(cljs.core.count(generators) - (1))),(function (p1__24152_SHARP_){
+return cljs.core.nth.cljs$core$IFn$_invoke$arity$2(generators,p1__24152_SHARP_);
 }));
 });
 /**
  * Returns an index into the `likelihoods` sequence.
  */
 clojure.test.check.generators.pick = (function clojure$test$check$generators$pick(likelihoods,n){
-return cljs.core.count(cljs.core.take_while.cljs$core$IFn$_invoke$arity$2((function (p1__28549_SHARP_){
-return (p1__28549_SHARP_ <= n);
+return cljs.core.count(cljs.core.take_while.cljs$core$IFn$_invoke$arity$2((function (p1__24160_SHARP_){
+return (p1__24160_SHARP_ <= n);
 }),cljs.core.rest(cljs.core.reductions.cljs$core$IFn$_invoke$arity$3(cljs.core._PLUS_,(0),likelihoods))));
 });
 /**
@@ -643,10 +643,10 @@ return (p1__28549_SHARP_ <= n);
  *    => (true [] -1 [0] [1 -4 -4 1] true 4 [] 6 true)
  */
 clojure.test.check.generators.frequency = (function clojure$test$check$generators$frequency(pairs){
-if(cljs.core.every_QMARK_((function (p__28563){
-var vec__28564 = p__28563;
-var x = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28564,(0),null);
-var g = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28564,(1),null);
+if(cljs.core.every_QMARK_((function (p__24183){
+var vec__24188 = p__24183;
+var x = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24188,(0),null);
+var g = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24188,(1),null);
 return ((typeof x === 'number') && (clojure.test.check.generators.generator_QMARK_(g)));
 }),pairs)){
 } else {
@@ -665,25 +665,25 @@ return clojure.test.check.generators.call_gen(clojure.test.check.generators.gen_
 var idx = clojure.test.check.generators.pick(cljs.core.map.cljs$core$IFn$_invoke$arity$2(cljs.core.first,pairs__$1),clojure.test.check.rose_tree.root(x));
 return clojure.test.check.generators.gen_fmap((function (rose){
 return clojure.test.check.rose_tree.make_rose(clojure.test.check.rose_tree.root(rose),(new cljs.core.LazySeq(null,(function (){
-return cljs.core.concat.cljs$core$IFn$_invoke$arity$2((function (){var iter__4652__auto__ = (function clojure$test$check$generators$frequency_$_iter__28579(s__28580){
+return cljs.core.concat.cljs$core$IFn$_invoke$arity$2((function (){var iter__5523__auto__ = (function clojure$test$check$generators$frequency_$_iter__24223(s__24224){
 return (new cljs.core.LazySeq(null,(function (){
-var s__28580__$1 = s__28580;
+var s__24224__$1 = s__24224;
 while(true){
-var temp__5753__auto__ = cljs.core.seq(s__28580__$1);
-if(temp__5753__auto__){
-var s__28580__$2 = temp__5753__auto__;
-if(cljs.core.chunked_seq_QMARK_(s__28580__$2)){
-var c__4650__auto__ = cljs.core.chunk_first(s__28580__$2);
-var size__4651__auto__ = cljs.core.count(c__4650__auto__);
-var b__28582 = cljs.core.chunk_buffer(size__4651__auto__);
-if((function (){var i__28581 = (0);
+var temp__5804__auto__ = cljs.core.seq(s__24224__$1);
+if(temp__5804__auto__){
+var s__24224__$2 = temp__5804__auto__;
+if(cljs.core.chunked_seq_QMARK_(s__24224__$2)){
+var c__5521__auto__ = cljs.core.chunk_first(s__24224__$2);
+var size__5522__auto__ = cljs.core.count(c__5521__auto__);
+var b__24227 = cljs.core.chunk_buffer(size__5522__auto__);
+if((function (){var i__24226 = (0);
 while(true){
-if((i__28581 < size__4651__auto__)){
-var idx__$1 = cljs.core._nth(c__4650__auto__,i__28581);
-cljs.core.chunk_append(b__28582,clojure.test.check.generators.call_gen(cljs.core.second(cljs.core.nth.cljs$core$IFn$_invoke$arity$2(pairs__$1,idx__$1)),rnd,size));
+if((i__24226 < size__5522__auto__)){
+var idx__$1 = cljs.core._nth(c__5521__auto__,i__24226);
+cljs.core.chunk_append(b__24227,clojure.test.check.generators.call_gen(cljs.core.second(cljs.core.nth.cljs$core$IFn$_invoke$arity$2(pairs__$1,idx__$1)),rnd,size));
 
-var G__29239 = (i__28581 + (1));
-i__28581 = G__29239;
+var G__25713 = (i__24226 + (1));
+i__24226 = G__25713;
 continue;
 } else {
 return true;
@@ -691,13 +691,13 @@ return true;
 break;
 }
 })()){
-return cljs.core.chunk_cons(cljs.core.chunk(b__28582),clojure$test$check$generators$frequency_$_iter__28579(cljs.core.chunk_rest(s__28580__$2)));
+return cljs.core.chunk_cons(cljs.core.chunk(b__24227),clojure$test$check$generators$frequency_$_iter__24223(cljs.core.chunk_rest(s__24224__$2)));
 } else {
-return cljs.core.chunk_cons(cljs.core.chunk(b__28582),null);
+return cljs.core.chunk_cons(cljs.core.chunk(b__24227),null);
 }
 } else {
-var idx__$1 = cljs.core.first(s__28580__$2);
-return cljs.core.cons(clojure.test.check.generators.call_gen(cljs.core.second(cljs.core.nth.cljs$core$IFn$_invoke$arity$2(pairs__$1,idx__$1)),rnd,size),clojure$test$check$generators$frequency_$_iter__28579(cljs.core.rest(s__28580__$2)));
+var idx__$1 = cljs.core.first(s__24224__$2);
+return cljs.core.cons(clojure.test.check.generators.call_gen(cljs.core.second(cljs.core.nth.cljs$core$IFn$_invoke$arity$2(pairs__$1,idx__$1)),rnd,size),clojure$test$check$generators$frequency_$_iter__24223(cljs.core.rest(s__24224__$2)));
 }
 } else {
 return null;
@@ -706,7 +706,7 @@ break;
 }
 }),null,null));
 });
-return iter__4652__auto__(cljs.core.range.cljs$core$IFn$_invoke$arity$1(idx));
+return iter__5523__auto__(cljs.core.range.cljs$core$IFn$_invoke$arity$1(idx));
 })(),clojure.test.check.rose_tree.children(rose));
 }),null,null)));
 }),cljs.core.second(cljs.core.nth.cljs$core$IFn$_invoke$arity$2(pairs__$1,idx)));
@@ -726,50 +726,50 @@ throw (new Error(["Assert failed: ","elements cannot be called with an empty col
 }
 
 var v = cljs.core.vec(coll);
-return clojure.test.check.generators.gen_fmap((function (p1__28590_SHARP_){
-return clojure.test.check.rose_tree.fmap(v,p1__28590_SHARP_);
+return clojure.test.check.generators.gen_fmap((function (p1__24264_SHARP_){
+return clojure.test.check.rose_tree.fmap(v,p1__24264_SHARP_);
 }),clojure.test.check.generators.choose((0),(cljs.core.count(v) - (1))));
 });
-clojure.test.check.generators.such_that_helper = (function clojure$test$check$generators$such_that_helper(pred,gen,p__28591,rng,size){
-var map__28592 = p__28591;
-var map__28592__$1 = cljs.core.__destructure_map(map__28592);
-var ex_fn = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__28592__$1,new cljs.core.Keyword(null,"ex-fn","ex-fn",-284925510));
-var max_tries = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__28592__$1,new cljs.core.Keyword(null,"max-tries","max-tries",-1824441792));
+clojure.test.check.generators.such_that_helper = (function clojure$test$check$generators$such_that_helper(pred,gen,p__24286,rng,size){
+var map__24287 = p__24286;
+var map__24287__$1 = cljs.core.__destructure_map(map__24287);
+var ex_fn = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__24287__$1,new cljs.core.Keyword(null,"ex-fn","ex-fn",-284925510));
+var max_tries = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__24287__$1,new cljs.core.Keyword(null,"max-tries","max-tries",-1824441792));
 var tries_left = max_tries;
 var rng__$1 = rng;
 var size__$1 = size;
 while(true){
 if((tries_left === (0))){
-throw (function (){var G__28604 = new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"pred","pred",1927423397),pred,new cljs.core.Keyword(null,"gen","gen",142575302),gen,new cljs.core.Keyword(null,"max-tries","max-tries",-1824441792),max_tries], null);
-return (ex_fn.cljs$core$IFn$_invoke$arity$1 ? ex_fn.cljs$core$IFn$_invoke$arity$1(G__28604) : ex_fn.call(null,G__28604));
+throw (function (){var G__24305 = new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"pred","pred",1927423397),pred,new cljs.core.Keyword(null,"gen","gen",142575302),gen,new cljs.core.Keyword(null,"max-tries","max-tries",-1824441792),max_tries], null);
+return (ex_fn.cljs$core$IFn$_invoke$arity$1 ? ex_fn.cljs$core$IFn$_invoke$arity$1(G__24305) : ex_fn.call(null,G__24305));
 })();
 } else {
-var vec__28605 = clojure.test.check.random.split(rng__$1);
-var r1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28605,(0),null);
-var r2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28605,(1),null);
+var vec__24308 = clojure.test.check.random.split(rng__$1);
+var r1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24308,(0),null);
+var r2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24308,(1),null);
 var value = clojure.test.check.generators.call_gen(gen,r1,size__$1);
-if(cljs.core.truth_((function (){var G__28609 = clojure.test.check.rose_tree.root(value);
-return (pred.cljs$core$IFn$_invoke$arity$1 ? pred.cljs$core$IFn$_invoke$arity$1(G__28609) : pred.call(null,G__28609));
+if(cljs.core.truth_((function (){var G__24312 = clojure.test.check.rose_tree.root(value);
+return (pred.cljs$core$IFn$_invoke$arity$1 ? pred.cljs$core$IFn$_invoke$arity$1(G__24312) : pred.call(null,G__24312));
 })())){
 return clojure.test.check.rose_tree.filter(pred,value);
 } else {
-var G__29243 = (tries_left - (1));
-var G__29244 = r2;
-var G__29245 = (size__$1 + (1));
-tries_left = G__29243;
-rng__$1 = G__29244;
-size__$1 = G__29245;
+var G__25730 = (tries_left - (1));
+var G__25731 = r2;
+var G__25732 = (size__$1 + (1));
+tries_left = G__25730;
+rng__$1 = G__25731;
+size__$1 = G__25732;
 continue;
 }
 }
 break;
 }
 });
-clojure.test.check.generators.default_such_that_opts = new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"ex-fn","ex-fn",-284925510),(function (p__28613){
-var map__28614 = p__28613;
-var map__28614__$1 = cljs.core.__destructure_map(map__28614);
-var arg = map__28614__$1;
-var max_tries = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__28614__$1,new cljs.core.Keyword(null,"max-tries","max-tries",-1824441792));
+clojure.test.check.generators.default_such_that_opts = new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"ex-fn","ex-fn",-284925510),(function (p__24316){
+var map__24317 = p__24316;
+var map__24317__$1 = cljs.core.__destructure_map(map__24317);
+var arg = map__24317__$1;
+var max_tries = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__24317__$1,new cljs.core.Keyword(null,"max-tries","max-tries",-1824441792));
 return cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2(["Couldn't satisfy such-that predicate after ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(max_tries)," tries."].join(''),arg);
 }),new cljs.core.Keyword(null,"max-tries","max-tries",-1824441792),(10)], null);
 /**
@@ -796,8 +796,8 @@ return cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2(["Couldn't satisfy such-t
  *                `:pred`, and `:max-tries` and should return an exception
  */
 clojure.test.check.generators.such_that = (function clojure$test$check$generators$such_that(var_args){
-var G__28622 = arguments.length;
-switch (G__28622) {
+var G__24325 = arguments.length;
+switch (G__24325) {
 case 2:
 return clojure.test.check.generators.such_that.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -902,23 +902,23 @@ clojure.test.check.generators.boolean$ = clojure.test.check.generators.elements(
  *    ;; =>  [3 true] [-4 false] [9 true]))
  */
 clojure.test.check.generators.tuple = (function clojure$test$check$generators$tuple(var_args){
-var args__4870__auto__ = [];
-var len__4864__auto___29251 = arguments.length;
-var i__4865__auto___29252 = (0);
+var args__5775__auto__ = [];
+var len__5769__auto___25744 = arguments.length;
+var i__5770__auto___25745 = (0);
 while(true){
-if((i__4865__auto___29252 < len__4864__auto___29251)){
-args__4870__auto__.push((arguments[i__4865__auto___29252]));
+if((i__5770__auto___25745 < len__5769__auto___25744)){
+args__5775__auto__.push((arguments[i__5770__auto___25745]));
 
-var G__29257 = (i__4865__auto___29252 + (1));
-i__4865__auto___29252 = G__29257;
+var G__25746 = (i__5770__auto___25745 + (1));
+i__5770__auto___25745 = G__25746;
 continue;
 } else {
 }
 break;
 }
 
-var argseq__4871__auto__ = ((((0) < args__4870__auto__.length))?(new cljs.core.IndexedSeq(args__4870__auto__.slice((0)),(0),null)):null);
-return clojure.test.check.generators.tuple.cljs$core$IFn$_invoke$arity$variadic(argseq__4871__auto__);
+var argseq__5776__auto__ = ((((0) < args__5775__auto__.length))?(new cljs.core.IndexedSeq(args__5775__auto__.slice((0)),(0),null)):null);
+return clojure.test.check.generators.tuple.cljs$core$IFn$_invoke$arity$variadic(argseq__5776__auto__);
 });
 
 (clojure.test.check.generators.tuple.cljs$core$IFn$_invoke$arity$variadic = (function (generators){
@@ -935,9 +935,9 @@ return clojure.test.check.rose_tree.zip(cljs.core.vector,roses);
 (clojure.test.check.generators.tuple.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(clojure.test.check.generators.tuple.cljs$lang$applyTo = (function (seq28651){
-var self__4852__auto__ = this;
-return self__4852__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq28651));
+(clojure.test.check.generators.tuple.cljs$lang$applyTo = (function (seq24362){
+var self__5755__auto__ = this;
+return self__5755__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq24362));
 }));
 
 /**
@@ -976,8 +976,8 @@ clojure.test.check.generators.pos_int = clojure.test.check.generators.nat;
  * 
  *   Generates nonpositive integers bounded by the generator's `size` parameter.
  */
-clojure.test.check.generators.neg_int = clojure.test.check.generators.fmap((function (p1__28678_SHARP_){
-return ((-1) * p1__28678_SHARP_);
+clojure.test.check.generators.neg_int = clojure.test.check.generators.fmap((function (p1__24395_SHARP_){
+return ((-1) * p1__24395_SHARP_);
 }),clojure.test.check.generators.nat);
 /**
  * Deprecated - use (gen/fmap inc gen/nat) instead (see also gen/large-integer).
@@ -997,8 +997,8 @@ clojure.test.check.generators.s_neg_int = clojure.test.check.generators.fmap(clj
  *   generator parameter.
  */
 clojure.test.check.generators.vector = (function clojure$test$check$generators$vector(var_args){
-var G__28690 = arguments.length;
-switch (G__28690) {
+var G__24410 = arguments.length;
+switch (G__24410) {
 case 1:
 return clojure.test.check.generators.vector.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -1023,8 +1023,8 @@ if(clojure.test.check.generators.generator_QMARK_(generator)){
 throw (new Error(["Assert failed: ","Arg to vector must be a generator","\n","(generator? generator)"].join('')));
 }
 
-return clojure.test.check.generators.gen_bind(clojure.test.check.generators.sized((function (p1__28683_SHARP_){
-return clojure.test.check.generators.choose((0),p1__28683_SHARP_);
+return clojure.test.check.generators.gen_bind(clojure.test.check.generators.sized((function (p1__24402_SHARP_){
+return clojure.test.check.generators.choose((0),p1__24402_SHARP_);
 })),(function (num_elements_rose){
 return clojure.test.check.generators.gen_fmap((function (roses){
 return clojure.test.check.rose_tree.shrink_vector(cljs.core.vector,roses);
@@ -1067,18 +1067,18 @@ if(clojure.test.check.generators.generator_QMARK_(generator)){
 throw (new Error(["Assert failed: ","First arg to list must be a generator","\n","(generator? generator)"].join('')));
 }
 
-return clojure.test.check.generators.gen_bind(clojure.test.check.generators.sized((function (p1__28704_SHARP_){
-return clojure.test.check.generators.choose((0),p1__28704_SHARP_);
+return clojure.test.check.generators.gen_bind(clojure.test.check.generators.sized((function (p1__24436_SHARP_){
+return clojure.test.check.generators.choose((0),p1__24436_SHARP_);
 })),(function (num_elements_rose){
 return clojure.test.check.generators.gen_fmap((function (roses){
 return clojure.test.check.rose_tree.shrink_vector(cljs.core.list,roses);
 }),clojure.test.check.generators.gen_tuple(cljs.core.repeat.cljs$core$IFn$_invoke$arity$2(clojure.test.check.rose_tree.root(num_elements_rose),generator)));
 }));
 });
-clojure.test.check.generators.swap = (function clojure$test$check$generators$swap(coll,p__28711){
-var vec__28713 = p__28711;
-var i1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28713,(0),null);
-var i2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28713,(1),null);
+clojure.test.check.generators.swap = (function clojure$test$check$generators$swap(coll,p__24465){
+var vec__24466 = p__24465;
+var i1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24466,(0),null);
+var i2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24466,(1),null);
 return cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(coll,i2,(coll.cljs$core$IFn$_invoke$arity$1 ? coll.cljs$core$IFn$_invoke$arity$1(i1) : coll.call(null,i1)),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([i1,(coll.cljs$core$IFn$_invoke$arity$1 ? coll.cljs$core$IFn$_invoke$arity$1(i2) : coll.call(null,i2))], 0));
 });
 /**
@@ -1089,8 +1089,8 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(coll,i2,(coll.cljs$c
 clojure.test.check.generators.shuffle = (function clojure$test$check$generators$shuffle(coll){
 var coll__$1 = ((cljs.core.vector_QMARK_(coll))?coll:cljs.core.vec(coll));
 var index_gen = clojure.test.check.generators.choose((0),(cljs.core.count(coll__$1) - (1)));
-return clojure.test.check.generators.fmap((function (p1__28719_SHARP_){
-return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(clojure.test.check.generators.swap,coll__$1,p1__28719_SHARP_);
+return clojure.test.check.generators.fmap((function (p1__24473_SHARP_){
+return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(clojure.test.check.generators.swap,coll__$1,p1__24473_SHARP_);
 }),clojure.test.check.generators.vector.cljs$core$IFn$_invoke$arity$3(clojure.test.check.generators.tuple.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([index_gen,index_gen], 0)),(0),((2) * cljs.core.count(coll__$1))));
 });
 /**
@@ -1111,23 +1111,23 @@ return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(clojure.test.check.generat
  *         {:a false, :b 0})
  */
 clojure.test.check.generators.hash_map = (function clojure$test$check$generators$hash_map(var_args){
-var args__4870__auto__ = [];
-var len__4864__auto___29270 = arguments.length;
-var i__4865__auto___29271 = (0);
+var args__5775__auto__ = [];
+var len__5769__auto___25775 = arguments.length;
+var i__5770__auto___25776 = (0);
 while(true){
-if((i__4865__auto___29271 < len__4864__auto___29270)){
-args__4870__auto__.push((arguments[i__4865__auto___29271]));
+if((i__5770__auto___25776 < len__5769__auto___25775)){
+args__5775__auto__.push((arguments[i__5770__auto___25776]));
 
-var G__29272 = (i__4865__auto___29271 + (1));
-i__4865__auto___29271 = G__29272;
+var G__25779 = (i__5770__auto___25776 + (1));
+i__5770__auto___25776 = G__25779;
 continue;
 } else {
 }
 break;
 }
 
-var argseq__4871__auto__ = ((((0) < args__4870__auto__.length))?(new cljs.core.IndexedSeq(args__4870__auto__.slice((0)),(0),null)):null);
-return clojure.test.check.generators.hash_map.cljs$core$IFn$_invoke$arity$variadic(argseq__4871__auto__);
+var argseq__5776__auto__ = ((((0) < args__5775__auto__.length))?(new cljs.core.IndexedSeq(args__5775__auto__.slice((0)),(0),null)):null);
+return clojure.test.check.generators.hash_map.cljs$core$IFn$_invoke$arity$variadic(argseq__5776__auto__);
 });
 
 (clojure.test.check.generators.hash_map.cljs$core$IFn$_invoke$arity$variadic = (function (kvs){
@@ -1143,17 +1143,17 @@ if(cljs.core.every_QMARK_(clojure.test.check.generators.generator_QMARK_,vs)){
 throw (new Error(["Assert failed: ","Value args to hash-map must be generators","\n","(every? generator? vs)"].join('')));
 }
 
-return clojure.test.check.generators.fmap((function (p1__28725_SHARP_){
-return cljs.core.zipmap(ks,p1__28725_SHARP_);
+return clojure.test.check.generators.fmap((function (p1__24480_SHARP_){
+return cljs.core.zipmap(ks,p1__24480_SHARP_);
 }),cljs.core.apply.cljs$core$IFn$_invoke$arity$2(clojure.test.check.generators.tuple,vs));
 }));
 
 (clojure.test.check.generators.hash_map.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(clojure.test.check.generators.hash_map.cljs$lang$applyTo = (function (seq28728){
-var self__4852__auto__ = this;
-return self__4852__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq28728));
+(clojure.test.check.generators.hash_map.cljs$lang$applyTo = (function (seq24481){
+var self__5755__auto__ = this;
+return self__5755__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq24481));
 }));
 
 clojure.test.check.generators.transient_set_contains_QMARK_ = (function clojure$test$check$generators$transient_set_contains_QMARK_(s,k){
@@ -1180,67 +1180,67 @@ var size__$1 = size;
 var tries = (0);
 while(true){
 if(((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(max_tries,tries)) && ((cljs.core.count(rose_trees) < min_elements)))){
-throw (function (){var G__28780 = new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"gen","gen",142575302),gen,new cljs.core.Keyword(null,"max-tries","max-tries",-1824441792),max_tries,new cljs.core.Keyword(null,"num-elements","num-elements",1960422107),num_elements], null);
-return (ex_fn.cljs$core$IFn$_invoke$arity$1 ? ex_fn.cljs$core$IFn$_invoke$arity$1(G__28780) : ex_fn.call(null,G__28780));
+throw (function (){var G__24532 = new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"gen","gen",142575302),gen,new cljs.core.Keyword(null,"max-tries","max-tries",-1824441792),max_tries,new cljs.core.Keyword(null,"num-elements","num-elements",1960422107),num_elements], null);
+return (ex_fn.cljs$core$IFn$_invoke$arity$1 ? ex_fn.cljs$core$IFn$_invoke$arity$1(G__24532) : ex_fn.call(null,G__24532));
 })();
 } else {
 if(((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(max_tries,tries)) || (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.count(rose_trees),num_elements)))){
 return clojure.test.check.rose_tree.shrink_vector(((function (rose_trees,s,rng__$1,size__$1,tries){
 return (function() { 
-var G__29279__delegate = function (rest__28752_SHARP_){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(empty_coll,rest__28752_SHARP_);
+var G__25792__delegate = function (rest__24501_SHARP_){
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(empty_coll,rest__24501_SHARP_);
 };
-var G__29279 = function (var_args){
-var rest__28752_SHARP_ = null;
+var G__25792 = function (var_args){
+var rest__24501_SHARP_ = null;
 if (arguments.length > 0) {
-var G__29280__i = 0, G__29280__a = new Array(arguments.length -  0);
-while (G__29280__i < G__29280__a.length) {G__29280__a[G__29280__i] = arguments[G__29280__i + 0]; ++G__29280__i;}
-  rest__28752_SHARP_ = new cljs.core.IndexedSeq(G__29280__a,0,null);
+var G__25793__i = 0, G__25793__a = new Array(arguments.length -  0);
+while (G__25793__i < G__25793__a.length) {G__25793__a[G__25793__i] = arguments[G__25793__i + 0]; ++G__25793__i;}
+  rest__24501_SHARP_ = new cljs.core.IndexedSeq(G__25793__a,0,null);
 } 
-return G__29279__delegate.call(this,rest__28752_SHARP_);};
-G__29279.cljs$lang$maxFixedArity = 0;
-G__29279.cljs$lang$applyTo = (function (arglist__29281){
-var rest__28752_SHARP_ = cljs.core.seq(arglist__29281);
-return G__29279__delegate(rest__28752_SHARP_);
+return G__25792__delegate.call(this,rest__24501_SHARP_);};
+G__25792.cljs$lang$maxFixedArity = 0;
+G__25792.cljs$lang$applyTo = (function (arglist__25796){
+var rest__24501_SHARP_ = cljs.core.seq(arglist__25796);
+return G__25792__delegate(rest__24501_SHARP_);
 });
-G__29279.cljs$core$IFn$_invoke$arity$variadic = G__29279__delegate;
-return G__29279;
+G__25792.cljs$core$IFn$_invoke$arity$variadic = G__25792__delegate;
+return G__25792;
 })()
 ;})(rose_trees,s,rng__$1,size__$1,tries))
-,(function (){var G__28782 = rng__$1;
-var G__28783 = cljs.core.persistent_BANG_(rose_trees);
-return (shuffle_fn.cljs$core$IFn$_invoke$arity$2 ? shuffle_fn.cljs$core$IFn$_invoke$arity$2(G__28782,G__28783) : shuffle_fn.call(null,G__28782,G__28783));
+,(function (){var G__24536 = rng__$1;
+var G__24537 = cljs.core.persistent_BANG_(rose_trees);
+return (shuffle_fn.cljs$core$IFn$_invoke$arity$2 ? shuffle_fn.cljs$core$IFn$_invoke$arity$2(G__24536,G__24537) : shuffle_fn.call(null,G__24536,G__24537));
 })());
 } else {
-var vec__28787 = clojure.test.check.random.split(rng__$1);
-var rng1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28787,(0),null);
-var rng2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28787,(1),null);
+var vec__24539 = clojure.test.check.random.split(rng__$1);
+var rng1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24539,(0),null);
+var rng2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24539,(1),null);
 var rose = clojure.test.check.generators.call_gen(gen,rng1,size__$1);
 var root = clojure.test.check.rose_tree.root(rose);
 var k = (key_fn.cljs$core$IFn$_invoke$arity$1 ? key_fn.cljs$core$IFn$_invoke$arity$1(root) : key_fn.call(null,root));
 if(clojure.test.check.generators.transient_set_contains_QMARK_(s,k)){
-var G__29282 = rose_trees;
-var G__29283 = s;
-var G__29284 = rng2;
-var G__29285 = (size__$1 + (1));
-var G__29286 = (tries + (1));
-rose_trees = G__29282;
-s = G__29283;
-rng__$1 = G__29284;
-size__$1 = G__29285;
-tries = G__29286;
+var G__25803 = rose_trees;
+var G__25804 = s;
+var G__25805 = rng2;
+var G__25806 = (size__$1 + (1));
+var G__25807 = (tries + (1));
+rose_trees = G__25803;
+s = G__25804;
+rng__$1 = G__25805;
+size__$1 = G__25806;
+tries = G__25807;
 continue;
 } else {
-var G__29287 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(rose_trees,rose);
-var G__29288 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(s,k);
-var G__29289 = rng2;
-var G__29290 = size__$1;
-var G__29291 = (0);
-rose_trees = G__29287;
-s = G__29288;
-rng__$1 = G__29289;
-size__$1 = G__29290;
-tries = G__29291;
+var G__25810 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(rose_trees,rose);
+var G__25811 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(s,k);
+var G__25812 = rng2;
+var G__25813 = size__$1;
+var G__25814 = (0);
+rose_trees = G__25810;
+s = G__25811;
+rng__$1 = G__25812;
+size__$1 = G__25813;
+tries = G__25814;
 continue;
 }
 
@@ -1254,9 +1254,9 @@ break;
  *   and returns true for empty collections.
  */
 clojure.test.check.generators.distinct_by_QMARK_ = (function clojure$test$check$generators$distinct_by_QMARK_(f,coll){
-var or__4253__auto__ = cljs.core.empty_QMARK_(coll);
-if(or__4253__auto__){
-return or__4253__auto__;
+var or__5045__auto__ = cljs.core.empty_QMARK_(coll);
+if(or__5045__auto__){
+return or__5045__auto__;
 } else {
 return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.distinct_QMARK_,cljs.core.map.cljs$core$IFn$_invoke$arity$2(f,coll));
 }
@@ -1271,45 +1271,45 @@ var empty_coll = cljs.core.empty(coll);
 var v = cljs.core.vec(coll);
 var card = cljs.core.count(coll);
 var dec_card = (card - (1));
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(empty_coll,cljs.core.first(cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (p__28798,idx){
-var vec__28799 = p__28798;
-var v__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28799,(0),null);
-var rng__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28799,(1),null);
-var vec__28802 = clojure.test.check.random.split(rng__$1);
-var rng1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28802,(0),null);
-var rng2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28802,(1),null);
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(empty_coll,cljs.core.first(cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (p__24557,idx){
+var vec__24559 = p__24557;
+var v__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24559,(0),null);
+var rng__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24559,(1),null);
+var vec__24564 = clojure.test.check.random.split(rng__$1);
+var rng1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24564,(0),null);
+var rng2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24564,(1),null);
 var swap_idx = clojure.test.check.generators.rand_range(rng1,idx,dec_card);
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [clojure.test.check.generators.swap(v__$1,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [idx,swap_idx], null)),rng2], null);
 }),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [v,rng], null),cljs.core.range.cljs$core$IFn$_invoke$arity$1(card))));
 });
-clojure.test.check.generators.coll_distinct_by = (function clojure$test$check$generators$coll_distinct_by(empty_coll,key_fn,allows_dupes_QMARK_,ordered_QMARK_,gen,p__28821){
-var map__28822 = p__28821;
-var map__28822__$1 = cljs.core.__destructure_map(map__28822);
-var num_elements = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__28822__$1,new cljs.core.Keyword(null,"num-elements","num-elements",1960422107));
-var min_elements = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__28822__$1,new cljs.core.Keyword(null,"min-elements","min-elements",949370780));
-var max_elements = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__28822__$1,new cljs.core.Keyword(null,"max-elements","max-elements",433034073));
-var max_tries = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__28822__$1,new cljs.core.Keyword(null,"max-tries","max-tries",-1824441792),(10));
-var ex_fn = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__28822__$1,new cljs.core.Keyword(null,"ex-fn","ex-fn",-284925510),(function (p1__28808_SHARP_){
-return cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2("Couldn't generate enough distinct elements!",p1__28808_SHARP_);
+clojure.test.check.generators.coll_distinct_by = (function clojure$test$check$generators$coll_distinct_by(empty_coll,key_fn,allows_dupes_QMARK_,ordered_QMARK_,gen,p__24580){
+var map__24581 = p__24580;
+var map__24581__$1 = cljs.core.__destructure_map(map__24581);
+var num_elements = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__24581__$1,new cljs.core.Keyword(null,"num-elements","num-elements",1960422107));
+var min_elements = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__24581__$1,new cljs.core.Keyword(null,"min-elements","min-elements",949370780));
+var max_elements = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__24581__$1,new cljs.core.Keyword(null,"max-elements","max-elements",433034073));
+var max_tries = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__24581__$1,new cljs.core.Keyword(null,"max-tries","max-tries",-1824441792),(10));
+var ex_fn = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__24581__$1,new cljs.core.Keyword(null,"ex-fn","ex-fn",-284925510),(function (p1__24568_SHARP_){
+return cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2("Couldn't generate enough distinct elements!",p1__24568_SHARP_);
 }));
 var shuffle_fn = (cljs.core.truth_(ordered_QMARK_)?clojure.test.check.generators.the_shuffle_fn:(function (_rng,coll){
 return coll;
 }));
-var hard_min_elements = (function (){var or__4253__auto__ = num_elements;
-if(cljs.core.truth_(or__4253__auto__)){
-return or__4253__auto__;
+var hard_min_elements = (function (){var or__5045__auto__ = num_elements;
+if(cljs.core.truth_(or__5045__auto__)){
+return or__5045__auto__;
 } else {
-var or__4253__auto____$1 = min_elements;
-if(cljs.core.truth_(or__4253__auto____$1)){
-return or__4253__auto____$1;
+var or__5045__auto____$1 = min_elements;
+if(cljs.core.truth_(or__5045__auto____$1)){
+return or__5045__auto____$1;
 } else {
 return (1);
 }
 }
 })();
 if(cljs.core.truth_(num_elements)){
-var size_pred = (function (p1__28810_SHARP_){
-return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(num_elements,cljs.core.count(p1__28810_SHARP_));
+var size_pred = (function (p1__24570_SHARP_){
+return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(num_elements,cljs.core.count(p1__24570_SHARP_));
 });
 if((((min_elements == null)) && ((max_elements == null)))){
 } else {
@@ -1317,30 +1317,30 @@ throw (new Error("Assert failed: (and (nil? min-elements) (nil? max-elements))")
 }
 
 return clojure.test.check.generators.make_gen((function (rng,gen_size){
-return clojure.test.check.rose_tree.filter((cljs.core.truth_(allows_dupes_QMARK_)?cljs.core.every_pred.cljs$core$IFn$_invoke$arity$2(size_pred,(function (p1__28813_SHARP_){
-return clojure.test.check.generators.distinct_by_QMARK_(key_fn,p1__28813_SHARP_);
+return clojure.test.check.rose_tree.filter((cljs.core.truth_(allows_dupes_QMARK_)?cljs.core.every_pred.cljs$core$IFn$_invoke$arity$2(size_pred,(function (p1__24571_SHARP_){
+return clojure.test.check.generators.distinct_by_QMARK_(key_fn,p1__24571_SHARP_);
 })):size_pred),clojure.test.check.generators.coll_distinct_by_STAR_(empty_coll,key_fn,shuffle_fn,gen,rng,gen_size,num_elements,hard_min_elements,max_tries,ex_fn));
 }));
 } else {
-var min_elements__$1 = (function (){var or__4253__auto__ = min_elements;
-if(cljs.core.truth_(or__4253__auto__)){
-return or__4253__auto__;
+var min_elements__$1 = (function (){var or__5045__auto__ = min_elements;
+if(cljs.core.truth_(or__5045__auto__)){
+return or__5045__auto__;
 } else {
 return (0);
 }
 })();
-var size_pred = (cljs.core.truth_(max_elements)?(function (p1__28814_SHARP_){
-return (((min_elements__$1 <= cljs.core.count(p1__28814_SHARP_))) && ((cljs.core.count(p1__28814_SHARP_) <= max_elements)));
-}):(function (p1__28815_SHARP_){
-return (min_elements__$1 <= cljs.core.count(p1__28815_SHARP_));
+var size_pred = (cljs.core.truth_(max_elements)?(function (p1__24572_SHARP_){
+return (((min_elements__$1 <= cljs.core.count(p1__24572_SHARP_))) && ((cljs.core.count(p1__24572_SHARP_) <= max_elements)));
+}):(function (p1__24574_SHARP_){
+return (min_elements__$1 <= cljs.core.count(p1__24574_SHARP_));
 }));
-return clojure.test.check.generators.gen_bind((cljs.core.truth_(max_elements)?clojure.test.check.generators.choose(min_elements__$1,max_elements):clojure.test.check.generators.sized((function (p1__28816_SHARP_){
-return clojure.test.check.generators.choose(min_elements__$1,(min_elements__$1 + p1__28816_SHARP_));
+return clojure.test.check.generators.gen_bind((cljs.core.truth_(max_elements)?clojure.test.check.generators.choose(min_elements__$1,max_elements):clojure.test.check.generators.sized((function (p1__24575_SHARP_){
+return clojure.test.check.generators.choose(min_elements__$1,(min_elements__$1 + p1__24575_SHARP_));
 }))),(function (num_elements_rose){
 var num_elements__$1 = clojure.test.check.rose_tree.root(num_elements_rose);
 return clojure.test.check.generators.make_gen((function (rng,gen_size){
-return clojure.test.check.rose_tree.filter((cljs.core.truth_(allows_dupes_QMARK_)?cljs.core.every_pred.cljs$core$IFn$_invoke$arity$2(size_pred,(function (p1__28817_SHARP_){
-return clojure.test.check.generators.distinct_by_QMARK_(key_fn,p1__28817_SHARP_);
+return clojure.test.check.rose_tree.filter((cljs.core.truth_(allows_dupes_QMARK_)?cljs.core.every_pred.cljs$core$IFn$_invoke$arity$2(size_pred,(function (p1__24577_SHARP_){
+return clojure.test.check.generators.distinct_by_QMARK_(key_fn,p1__24577_SHARP_);
 })):size_pred),clojure.test.check.generators.coll_distinct_by_STAR_(empty_coll,key_fn,shuffle_fn,gen,rng,gen_size,num_elements__$1,hard_min_elements,max_tries,ex_fn));
 }));
 }));
@@ -1367,8 +1367,8 @@ return clojure.test.check.generators.distinct_by_QMARK_(key_fn,p1__28817_SHARP_)
  *                 exception
  */
 clojure.test.check.generators.vector_distinct = (function clojure$test$check$generators$vector_distinct(var_args){
-var G__28849 = arguments.length;
-switch (G__28849) {
+var G__24634 = arguments.length;
+switch (G__24634) {
 case 1:
 return clojure.test.check.generators.vector_distinct.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -1419,8 +1419,8 @@ return clojure.test.check.generators.coll_distinct_by(cljs.core.PersistentVector
  *                 exception
  */
 clojure.test.check.generators.list_distinct = (function clojure$test$check$generators$list_distinct(var_args){
-var G__28857 = arguments.length;
-switch (G__28857) {
+var G__24645 = arguments.length;
+switch (G__24645) {
 case 1:
 return clojure.test.check.generators.list_distinct.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -1471,8 +1471,8 @@ return clojure.test.check.generators.coll_distinct_by(cljs.core.List.EMPTY,cljs.
  *                 exception
  */
 clojure.test.check.generators.vector_distinct_by = (function clojure$test$check$generators$vector_distinct_by(var_args){
-var G__28859 = arguments.length;
-switch (G__28859) {
+var G__24657 = arguments.length;
+switch (G__24657) {
 case 2:
 return clojure.test.check.generators.vector_distinct_by.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -1523,8 +1523,8 @@ return clojure.test.check.generators.coll_distinct_by(cljs.core.PersistentVector
  *                 exception
  */
 clojure.test.check.generators.list_distinct_by = (function clojure$test$check$generators$list_distinct_by(var_args){
-var G__28861 = arguments.length;
-switch (G__28861) {
+var G__24671 = arguments.length;
+switch (G__24671) {
 case 2:
 return clojure.test.check.generators.list_distinct_by.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -1574,8 +1574,8 @@ return clojure.test.check.generators.coll_distinct_by(cljs.core.List.EMPTY,key_f
  *                 exception
  */
 clojure.test.check.generators.set = (function clojure$test$check$generators$set(var_args){
-var G__28873 = arguments.length;
-switch (G__28873) {
+var G__24680 = arguments.length;
+switch (G__24680) {
 case 1:
 return clojure.test.check.generators.set.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -1625,8 +1625,8 @@ return clojure.test.check.generators.coll_distinct_by(cljs.core.PersistentHashSe
  *                 exception
  */
 clojure.test.check.generators.sorted_set = (function clojure$test$check$generators$sorted_set(var_args){
-var G__28883 = arguments.length;
-switch (G__28883) {
+var G__24694 = arguments.length;
+switch (G__24694) {
 case 1:
 return clojure.test.check.generators.sorted_set.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -1677,8 +1677,8 @@ return clojure.test.check.generators.coll_distinct_by(cljs.core.sorted_set(),clj
  *                 should return an exception
  */
 clojure.test.check.generators.map = (function clojure$test$check$generators$map(var_args){
-var G__28894 = arguments.length;
-switch (G__28894) {
+var G__24728 = arguments.length;
+switch (G__24728) {
 case 2:
 return clojure.test.check.generators.map.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -1715,11 +1715,11 @@ clojure.test.check.generators.abs = (function clojure$test$check$generators$abs(
 return Math.abs(x);
 });
 clojure.test.check.generators.long__GT_large_integer = (function clojure$test$check$generators$long__GT_large_integer(bit_count,x,min,max){
-var res = (function (){var G__28913 = x.shiftRight(((64) - bit_count)).toNumber();
+var res = (function (){var G__24791 = x.shiftRight(((64) - bit_count)).toNumber();
 if((min === (0))){
-return clojure.test.check.generators.abs(G__28913);
+return clojure.test.check.generators.abs(G__24791);
 } else {
-return G__28913;
+return G__24791;
 }
 })();
 while(true){
@@ -1730,15 +1730,15 @@ var res_SINGLEQUOTE_ = (- res);
 if((((min <= res_SINGLEQUOTE_)) && ((res_SINGLEQUOTE_ <= max)))){
 return res_SINGLEQUOTE_;
 } else {
-var G__29303 = ((function (){var G__28920 = res;
+var G__25882 = ((function (){var G__24806 = res;
 if(cljs.core.odd_QMARK_(res)){
-var fexpr__28923 = (((res < (0)))?cljs.core.inc:cljs.core.dec);
-return (fexpr__28923.cljs$core$IFn$_invoke$arity$1 ? fexpr__28923.cljs$core$IFn$_invoke$arity$1(G__28920) : fexpr__28923.call(null,G__28920));
+var fexpr__24807 = (((res < (0)))?cljs.core.inc:cljs.core.dec);
+return (fexpr__24807.cljs$core$IFn$_invoke$arity$1 ? fexpr__24807.cljs$core$IFn$_invoke$arity$1(G__24806) : fexpr__24807.call(null,G__24806));
 } else {
-return G__28920;
+return G__24806;
 }
 })() / (2));
-res = G__29303;
+res = G__25882;
 continue;
 }
 }
@@ -1750,18 +1750,18 @@ break;
  */
 clojure.test.check.generators.large_integer_STAR__STAR_ = (function clojure$test$check$generators$large_integer_STAR__STAR_(min,max){
 return clojure.test.check.generators.sized((function (size){
-var size__$1 = (function (){var x__4336__auto__ = size;
-var y__4337__auto__ = (1);
-return ((x__4336__auto__ > y__4337__auto__) ? x__4336__auto__ : y__4337__auto__);
+var size__$1 = (function (){var x__5130__auto__ = size;
+var y__5131__auto__ = (1);
+return ((x__5130__auto__ > y__5131__auto__) ? x__5130__auto__ : y__5131__auto__);
 })();
-var max_bit_count = (function (){var x__4339__auto__ = size__$1;
-var y__4340__auto__ = (54);
-return ((x__4339__auto__ < y__4340__auto__) ? x__4339__auto__ : y__4340__auto__);
+var max_bit_count = (function (){var x__5133__auto__ = size__$1;
+var y__5134__auto__ = (54);
+return ((x__5133__auto__ < y__5134__auto__) ? x__5133__auto__ : y__5134__auto__);
 })();
 return clojure.test.check.generators.gen_fmap((function (rose){
-var vec__28930 = clojure.test.check.rose_tree.root(rose);
-var bit_count = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28930,(0),null);
-var x = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28930,(1),null);
+var vec__24843 = clojure.test.check.rose_tree.root(rose);
+var bit_count = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24843,(0),null);
+var x = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24843,(1),null);
 return clojure.test.check.generators.int_rose_tree(clojure.test.check.generators.long__GT_large_integer(bit_count,x,min,max));
 }),clojure.test.check.generators.tuple.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([clojure.test.check.generators.choose((1),max_bit_count),clojure.test.check.generators.gen_raw_long], 0)));
 }));
@@ -1777,21 +1777,21 @@ return clojure.test.check.generators.int_rose_tree(clojure.test.check.generators
  *    (gen/sample (gen/large-integer* {:min 9000 :max 10000}))
  *    => (9000 9001 9001 9002 9000 9003 9006 9030 9005 9044)
  */
-clojure.test.check.generators.large_integer_STAR_ = (function clojure$test$check$generators$large_integer_STAR_(p__28939){
-var map__28940 = p__28939;
-var map__28940__$1 = cljs.core.__destructure_map(map__28940);
-var min = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__28940__$1,new cljs.core.Keyword(null,"min","min",444991522));
-var max = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__28940__$1,new cljs.core.Keyword(null,"max","max",61366548));
-var min__$1 = (function (){var or__4253__auto__ = min;
-if(cljs.core.truth_(or__4253__auto__)){
-return or__4253__auto__;
+clojure.test.check.generators.large_integer_STAR_ = (function clojure$test$check$generators$large_integer_STAR_(p__24869){
+var map__24871 = p__24869;
+var map__24871__$1 = cljs.core.__destructure_map(map__24871);
+var min = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__24871__$1,new cljs.core.Keyword(null,"min","min",444991522));
+var max = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__24871__$1,new cljs.core.Keyword(null,"max","max",61366548));
+var min__$1 = (function (){var or__5045__auto__ = min;
+if(cljs.core.truth_(or__5045__auto__)){
+return or__5045__auto__;
 } else {
 return clojure.test.check.generators.MIN_INTEGER;
 }
 })();
-var max__$1 = (function (){var or__4253__auto__ = max;
-if(cljs.core.truth_(or__4253__auto__)){
-return or__4253__auto__;
+var max__$1 = (function (){var or__5045__auto__ = max;
+if(cljs.core.truth_(or__5045__auto__)){
+return or__5045__auto__;
 } else {
 return clojure.test.check.generators.MAX_INTEGER;
 }
@@ -1801,12 +1801,12 @@ if((min__$1 <= max__$1)){
 throw (new Error("Assert failed: (<= min max)"));
 }
 
-return clojure.test.check.generators.such_that.cljs$core$IFn$_invoke$arity$2((function (p1__28935_SHARP_){
-return (((min__$1 <= p1__28935_SHARP_)) && ((p1__28935_SHARP_ <= max__$1)));
-}),(((((min__$1 <= (0))) && (((0) <= max__$1))))?clojure.test.check.generators.large_integer_STAR__STAR_(min__$1,max__$1):(((max__$1 < (0)))?clojure.test.check.generators.fmap((function (p1__28936_SHARP_){
-return (max__$1 + p1__28936_SHARP_);
-}),clojure.test.check.generators.large_integer_STAR__STAR_((min__$1 - max__$1),(0))):clojure.test.check.generators.fmap((function (p1__28938_SHARP_){
-return (min__$1 + p1__28938_SHARP_);
+return clojure.test.check.generators.such_that.cljs$core$IFn$_invoke$arity$2((function (p1__24857_SHARP_){
+return (((min__$1 <= p1__24857_SHARP_)) && ((p1__24857_SHARP_ <= max__$1)));
+}),(((((min__$1 <= (0))) && (((0) <= max__$1))))?clojure.test.check.generators.large_integer_STAR__STAR_(min__$1,max__$1):(((max__$1 < (0)))?clojure.test.check.generators.fmap((function (p1__24860_SHARP_){
+return (max__$1 + p1__24860_SHARP_);
+}),clojure.test.check.generators.large_integer_STAR__STAR_((min__$1 - max__$1),(0))):clojure.test.check.generators.fmap((function (p1__24862_SHARP_){
+return (min__$1 + p1__24862_SHARP_);
 }),clojure.test.check.generators.large_integer_STAR__STAR_((0),(max__$1 - min__$1))))));
 });
 /**
@@ -1827,8 +1827,8 @@ clojure.test.check.generators.NAN = Number.NaN;
  */
 clojure.test.check.generators.uniform_integer = (function clojure$test$check$generators$uniform_integer(bit_count){
 if((bit_count <= (32))){
-return clojure.test.check.generators.choose((0),(function (){var G__28967 = cljs.core.long$(bit_count);
-switch (G__28967) {
+return clojure.test.check.generators.choose((0),(function (){var G__24956 = cljs.core.long$(bit_count);
+switch (G__24956) {
 case (32):
 return (4294967295);
 
@@ -1843,13 +1843,13 @@ return (((1) << bit_count) - (1));
 }
 })());
 } else {
-return clojure.test.check.generators.fmap((function (p__28970){
-var vec__28971 = p__28970;
-var upper = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28971,(0),null);
-var lower = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28971,(1),null);
+return clojure.test.check.generators.fmap((function (p__24966){
+var vec__24970 = p__24966;
+var upper = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24970,(0),null);
+var lower = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24970,(1),null);
 return ((upper * (4294967296)) + lower);
-}),clojure.test.check.generators.tuple.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(function (){var G__28976 = (bit_count - (32));
-return (clojure.test.check.generators.uniform_integer.cljs$core$IFn$_invoke$arity$1 ? clojure.test.check.generators.uniform_integer.cljs$core$IFn$_invoke$arity$1(G__28976) : clojure.test.check.generators.uniform_integer.call(null,G__28976));
+}),clojure.test.check.generators.tuple.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(function (){var G__24981 = (bit_count - (32));
+return (clojure.test.check.generators.uniform_integer.cljs$core$IFn$_invoke$arity$1 ? clojure.test.check.generators.uniform_integer.cljs$core$IFn$_invoke$arity$1(G__24981) : clojure.test.check.generators.uniform_integer.call(null,G__24981));
 })(),(clojure.test.check.generators.uniform_integer.cljs$core$IFn$_invoke$arity$1 ? clojure.test.check.generators.uniform_integer.cljs$core$IFn$_invoke$arity$1((32)) : clojure.test.check.generators.uniform_integer.call(null,(32)))], 0)));
 }
 });
@@ -1867,12 +1867,12 @@ while(true){
 if((n__$1 < (1))){
 return (out * out_shifter);
 } else {
-var G__29317 = ((out * (2)) + (n__$1 & (1)));
-var G__29318 = (n__$1 / (2));
-var G__29319 = (out_shifter / (2));
-out = G__29317;
-n__$1 = G__29318;
-out_shifter = G__29319;
+var G__25911 = ((out * (2)) + (n__$1 & (1)));
+var G__25912 = (n__$1 / (2));
+var G__25913 = (out_shifter / (2));
+out = G__25911;
+n__$1 = G__25912;
+out_shifter = G__25913;
 continue;
 }
 break;
@@ -1883,9 +1883,9 @@ break;
  *   fewer lower-order bits (and shrinks to 0 if possible).
  */
 clojure.test.check.generators.backwards_shrinking_significand = clojure.test.check.generators.fmap(clojure.test.check.generators.fifty_two_bit_reverse,clojure.test.check.generators.sized((function (size){
-return clojure.test.check.generators.gen_bind(clojure.test.check.generators.choose((0),(function (){var x__4339__auto__ = size;
-var y__4340__auto__ = (52);
-return ((x__4339__auto__ < y__4340__auto__) ? x__4339__auto__ : y__4340__auto__);
+return clojure.test.check.generators.gen_bind(clojure.test.check.generators.choose((0),(function (){var x__5133__auto__ = size;
+var y__5134__auto__ = (52);
+return ((x__5133__auto__ < y__5134__auto__) ? x__5133__auto__ : y__5134__auto__);
 })()),(function (rose){
 return clojure.test.check.generators.uniform_integer(clojure.test.check.rose_tree.root(rose));
 }));
@@ -1917,28 +1917,28 @@ return res;
 clojure.test.check.generators.double_exp_and_sign = (function clojure$test$check$generators$double_exp_and_sign(lower_bound,upper_bound){
 var gen_exp = (function clojure$test$check$generators$double_exp_and_sign_$_gen_exp(lb,ub){
 return clojure.test.check.generators.sized((function (size){
-var qs8 = ((1) << cljs.core.quot((function (){var x__4339__auto__ = (200);
-var y__4340__auto__ = size;
-return ((x__4339__auto__ < y__4340__auto__) ? x__4339__auto__ : y__4340__auto__);
+var qs8 = ((1) << cljs.core.quot((function (){var x__5133__auto__ = (200);
+var y__5134__auto__ = size;
+return ((x__5133__auto__ < y__5134__auto__) ? x__5133__auto__ : y__5134__auto__);
 })(),(8)));
 if((((lb <= (0))) && (((0) <= ub)))){
-return clojure.test.check.generators.choose((function (){var x__4336__auto__ = lb;
-var y__4337__auto__ = (- qs8);
-return ((x__4336__auto__ > y__4337__auto__) ? x__4336__auto__ : y__4337__auto__);
-})(),(function (){var x__4339__auto__ = ub;
-var y__4340__auto__ = qs8;
-return ((x__4339__auto__ < y__4340__auto__) ? x__4339__auto__ : y__4340__auto__);
+return clojure.test.check.generators.choose((function (){var x__5130__auto__ = lb;
+var y__5131__auto__ = (- qs8);
+return ((x__5130__auto__ > y__5131__auto__) ? x__5130__auto__ : y__5131__auto__);
+})(),(function (){var x__5133__auto__ = ub;
+var y__5134__auto__ = qs8;
+return ((x__5133__auto__ < y__5134__auto__) ? x__5133__auto__ : y__5134__auto__);
 })());
 } else {
 if((ub < (0))){
-return clojure.test.check.generators.choose((function (){var x__4336__auto__ = lb;
-var y__4337__auto__ = (ub - qs8);
-return ((x__4336__auto__ > y__4337__auto__) ? x__4336__auto__ : y__4337__auto__);
+return clojure.test.check.generators.choose((function (){var x__5130__auto__ = lb;
+var y__5131__auto__ = (ub - qs8);
+return ((x__5130__auto__ > y__5131__auto__) ? x__5130__auto__ : y__5131__auto__);
 })(),ub);
 } else {
-return clojure.test.check.generators.choose(lb,(function (){var x__4339__auto__ = ub;
-var y__4340__auto__ = (lb + qs8);
-return ((x__4339__auto__ < y__4340__auto__) ? x__4339__auto__ : y__4340__auto__);
+return clojure.test.check.generators.choose(lb,(function (){var x__5133__auto__ = ub;
+var y__5134__auto__ = (lb + qs8);
+return ((x__5133__auto__ < y__5134__auto__) ? x__5133__auto__ : y__5134__auto__);
 })());
 
 }
@@ -1948,27 +1948,27 @@ return ((x__4339__auto__ < y__4340__auto__) ? x__4339__auto__ : y__4340__auto__)
 if((((lower_bound == null)) && ((upper_bound == null)))){
 return clojure.test.check.generators.tuple.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([gen_exp((-1023),(1023)),clojure.test.check.generators.elements(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [1.0,-1.0], null))], 0));
 } else {
-var lower_bound__$1 = (function (){var or__4253__auto__ = lower_bound;
-if(cljs.core.truth_(or__4253__auto__)){
-return or__4253__auto__;
+var lower_bound__$1 = (function (){var or__5045__auto__ = lower_bound;
+if(cljs.core.truth_(or__5045__auto__)){
+return or__5045__auto__;
 } else {
 return clojure.test.check.generators.MIN_NEG_VALUE;
 }
 })();
-var upper_bound__$1 = (function (){var or__4253__auto__ = upper_bound;
-if(cljs.core.truth_(or__4253__auto__)){
-return or__4253__auto__;
+var upper_bound__$1 = (function (){var or__5045__auto__ = upper_bound;
+if(cljs.core.truth_(or__5045__auto__)){
+return or__5045__auto__;
 } else {
 return clojure.test.check.generators.MAX_POS_VALUE;
 }
 })();
-var lbexp = (function (){var x__4336__auto__ = (-1023);
-var y__4337__auto__ = clojure.test.check.generators.get_exponent(lower_bound__$1);
-return ((x__4336__auto__ > y__4337__auto__) ? x__4336__auto__ : y__4337__auto__);
+var lbexp = (function (){var x__5130__auto__ = (-1023);
+var y__5131__auto__ = clojure.test.check.generators.get_exponent(lower_bound__$1);
+return ((x__5130__auto__ > y__5131__auto__) ? x__5130__auto__ : y__5131__auto__);
 })();
-var ubexp = (function (){var x__4336__auto__ = (-1023);
-var y__4337__auto__ = clojure.test.check.generators.get_exponent(upper_bound__$1);
-return ((x__4336__auto__ > y__4337__auto__) ? x__4336__auto__ : y__4337__auto__);
+var ubexp = (function (){var x__5130__auto__ = (-1023);
+var y__5131__auto__ = clojure.test.check.generators.get_exponent(upper_bound__$1);
+return ((x__5130__auto__ > y__5131__auto__) ? x__5130__auto__ : y__5131__auto__);
 })();
 if((0.0 <= lower_bound__$1)){
 return clojure.test.check.generators.tuple.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([gen_exp(lbexp,ubexp),clojure.test.check.generators.return$(1.0)], 0));
@@ -1976,19 +1976,19 @@ return clojure.test.check.generators.tuple.cljs$core$IFn$_invoke$arity$variadic(
 if((upper_bound__$1 <= 0.0)){
 return clojure.test.check.generators.tuple.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([gen_exp(ubexp,lbexp),clojure.test.check.generators.return$(-1.0)], 0));
 } else {
-return clojure.test.check.generators.fmap((function (p__29031){
-var vec__29033 = p__29031;
-var exp = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29033,(0),null);
-var sign = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29033,(1),null);
-var pair = vec__29033;
+return clojure.test.check.generators.fmap((function (p__25058){
+var vec__25060 = p__25058;
+var exp = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25060,(0),null);
+var sign = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25060,(1),null);
+var pair = vec__25060;
 if((((((sign < (0))) && ((lbexp < exp)))) || ((((sign > (0))) && ((ubexp < exp)))))){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [exp,(- sign)], null);
 } else {
 return pair;
 }
-}),clojure.test.check.generators.tuple.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([gen_exp((-1023),(function (){var x__4336__auto__ = ubexp;
-var y__4337__auto__ = lbexp;
-return ((x__4336__auto__ > y__4337__auto__) ? x__4336__auto__ : y__4337__auto__);
+}),clojure.test.check.generators.tuple.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([gen_exp((-1023),(function (){var x__5130__auto__ = ubexp;
+var y__5131__auto__ = lbexp;
+return ((x__5130__auto__ > y__5131__auto__) ? x__5130__auto__ : y__5131__auto__);
 })()),clojure.test.check.generators.elements(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [1.0,-1.0], null))], 0)));
 
 }
@@ -2001,12 +2001,12 @@ return ((x__4336__auto__ > y__4337__auto__) ? x__4336__auto__ : y__4337__auto__)
  */
 clojure.test.check.generators.block_bounds = (function clojure$test$check$generators$block_bounds(exp,sign){
 if((sign < (0))){
-var vec__29045 = (function (){var G__29049 = exp;
-var G__29050 = (- sign);
-return (clojure.test.check.generators.block_bounds.cljs$core$IFn$_invoke$arity$2 ? clojure.test.check.generators.block_bounds.cljs$core$IFn$_invoke$arity$2(G__29049,G__29050) : clojure.test.check.generators.block_bounds.call(null,G__29049,G__29050));
+var vec__25087 = (function (){var G__25090 = exp;
+var G__25091 = (- sign);
+return (clojure.test.check.generators.block_bounds.cljs$core$IFn$_invoke$arity$2 ? clojure.test.check.generators.block_bounds.cljs$core$IFn$_invoke$arity$2(G__25090,G__25091) : clojure.test.check.generators.block_bounds.call(null,G__25090,G__25091));
 })();
-var low = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29045,(0),null);
-var high = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29045,(1),null);
+var low = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25087,(0),null);
+var high = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25087,(1),null);
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(- high),(- low)], null);
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((-1023),exp)){
@@ -2022,65 +2022,65 @@ if((((lower_bound == null)) || ((((upper_bound == null)) || ((lower_bound <= upp
 throw (new Error("Assert failed: (or (nil? lower-bound) (nil? upper-bound) (<= lower-bound upper-bound))"));
 }
 
-var pred = (cljs.core.truth_(lower_bound)?(cljs.core.truth_(upper_bound)?(function (p1__29055_SHARP_){
-return (((lower_bound <= p1__29055_SHARP_)) && ((p1__29055_SHARP_ <= upper_bound)));
-}):(function (p1__29056_SHARP_){
-return (lower_bound <= p1__29056_SHARP_);
-})):(cljs.core.truth_(upper_bound)?(function (p1__29057_SHARP_){
-return (p1__29057_SHARP_ <= upper_bound);
+var pred = (cljs.core.truth_(lower_bound)?(cljs.core.truth_(upper_bound)?(function (p1__25103_SHARP_){
+return (((lower_bound <= p1__25103_SHARP_)) && ((p1__25103_SHARP_ <= upper_bound)));
+}):(function (p1__25104_SHARP_){
+return (lower_bound <= p1__25104_SHARP_);
+})):(cljs.core.truth_(upper_bound)?(function (p1__25106_SHARP_){
+return (p1__25106_SHARP_ <= upper_bound);
 }):null));
-var gen = clojure.test.check.generators.fmap((function (p__29064){
-var vec__29065 = p__29064;
-var vec__29068 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29065,(0),null);
-var exp = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29068,(0),null);
-var sign = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29068,(1),null);
-var significand = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29065,(1),null);
+var gen = clojure.test.check.generators.fmap((function (p__25116){
+var vec__25117 = p__25116;
+var vec__25120 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25117,(0),null);
+var exp = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25120,(0),null);
+var sign = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25120,(1),null);
+var significand = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25117,(1),null);
 var base = ((significand / Math.pow((2),(52))) + (1));
 var x = (clojure.test.check.generators.scalb(base,exp) * sign);
-if(cljs.core.truth_((function (){var or__4253__auto__ = (pred == null);
-if(or__4253__auto__){
-return or__4253__auto__;
+if(cljs.core.truth_((function (){var or__5045__auto__ = (pred == null);
+if(or__5045__auto__){
+return or__5045__auto__;
 } else {
 return (pred.cljs$core$IFn$_invoke$arity$1 ? pred.cljs$core$IFn$_invoke$arity$1(x) : pred.call(null,x));
 }
 })())){
 return x;
 } else {
-var vec__29071 = clojure.test.check.generators.block_bounds(exp,sign);
-var low = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29071,(0),null);
-var high = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29071,(1),null);
-var block_lb = (function (){var G__29076 = low;
+var vec__25132 = clojure.test.check.generators.block_bounds(exp,sign);
+var low = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25132,(0),null);
+var high = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25132,(1),null);
+var block_lb = (function (){var G__25136 = low;
 if(cljs.core.truth_(lower_bound)){
-var x__4336__auto__ = G__29076;
-var y__4337__auto__ = lower_bound;
-return ((x__4336__auto__ > y__4337__auto__) ? x__4336__auto__ : y__4337__auto__);
+var x__5130__auto__ = G__25136;
+var y__5131__auto__ = lower_bound;
+return ((x__5130__auto__ > y__5131__auto__) ? x__5130__auto__ : y__5131__auto__);
 } else {
-return G__29076;
+return G__25136;
 }
 })();
-var block_ub = (function (){var G__29078 = high;
+var block_ub = (function (){var G__25138 = high;
 if(cljs.core.truth_(upper_bound)){
-var x__4339__auto__ = G__29078;
-var y__4340__auto__ = upper_bound;
-return ((x__4339__auto__ < y__4340__auto__) ? x__4339__auto__ : y__4340__auto__);
+var x__5133__auto__ = G__25138;
+var y__5134__auto__ = upper_bound;
+return ((x__5133__auto__ < y__5134__auto__) ? x__5133__auto__ : y__5134__auto__);
 } else {
-return G__29078;
+return G__25138;
 }
 })();
 var x__$1 = (block_lb + ((block_ub - block_lb) * (base - (1))));
-var x__4336__auto__ = (function (){var x__4339__auto__ = x__$1;
-var y__4340__auto__ = block_ub;
-return ((x__4339__auto__ < y__4340__auto__) ? x__4339__auto__ : y__4340__auto__);
+var x__5130__auto__ = (function (){var x__5133__auto__ = x__$1;
+var y__5134__auto__ = block_ub;
+return ((x__5133__auto__ < y__5134__auto__) ? x__5133__auto__ : y__5134__auto__);
 })();
-var y__4337__auto__ = block_lb;
-return ((x__4336__auto__ > y__4337__auto__) ? x__4336__auto__ : y__4337__auto__);
+var y__5131__auto__ = block_lb;
+return ((x__5130__auto__ > y__5131__auto__) ? x__5130__auto__ : y__5131__auto__);
 }
 }),clojure.test.check.generators.tuple.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([clojure.test.check.generators.double_exp_and_sign(lower_bound,upper_bound),clojure.test.check.generators.backwards_shrinking_significand], 0)));
-var G__29082 = gen;
+var G__25144 = gen;
 if(cljs.core.truth_(pred)){
-return clojure.test.check.generators.such_that.cljs$core$IFn$_invoke$arity$2(pred,G__29082);
+return clojure.test.check.generators.such_that.cljs$core$IFn$_invoke$arity$2(pred,G__25144);
 } else {
-return G__29082;
+return G__25144;
 }
 });
 /**
@@ -2094,33 +2094,33 @@ return G__29082;
  *   Note that the min/max options must be finite numbers. Supplying a
  *   min precludes -Infinity, and supplying a max precludes +Infinity.
  */
-clojure.test.check.generators.double_STAR_ = (function clojure$test$check$generators$double_STAR_(p__29087){
-var map__29088 = p__29087;
-var map__29088__$1 = cljs.core.__destructure_map(map__29088);
-var infinite_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__29088__$1,new cljs.core.Keyword(null,"infinite?","infinite?",-2017886608),true);
-var NaN_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__29088__$1,new cljs.core.Keyword(null,"NaN?","NaN?",-1917767651),true);
-var min = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__29088__$1,new cljs.core.Keyword(null,"min","min",444991522));
-var max = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__29088__$1,new cljs.core.Keyword(null,"max","max",61366548));
-var frequency_arg = (function (){var G__29089 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(95),clojure.test.check.generators.double_finite(min,max)], null)], null);
-var G__29089__$1 = (((((min == null))?(((max == null)) || ((0.0 <= max))):(((max == null))?(min <= 0.0):(((min <= 0.0)) && ((0.0 <= max))))))?cljs.core.conj.cljs$core$IFn$_invoke$arity$variadic(G__29089,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(1),clojure.test.check.generators.return$(0.0)], null),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(1),clojure.test.check.generators.return$(-0.0)], null)], 0)):G__29089);
-var G__29089__$2 = (cljs.core.truth_((function (){var and__4251__auto__ = infinite_QMARK_;
-if(cljs.core.truth_(and__4251__auto__)){
+clojure.test.check.generators.double_STAR_ = (function clojure$test$check$generators$double_STAR_(p__25159){
+var map__25161 = p__25159;
+var map__25161__$1 = cljs.core.__destructure_map(map__25161);
+var infinite_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__25161__$1,new cljs.core.Keyword(null,"infinite?","infinite?",-2017886608),true);
+var NaN_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__25161__$1,new cljs.core.Keyword(null,"NaN?","NaN?",-1917767651),true);
+var min = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__25161__$1,new cljs.core.Keyword(null,"min","min",444991522));
+var max = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__25161__$1,new cljs.core.Keyword(null,"max","max",61366548));
+var frequency_arg = (function (){var G__25168 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(95),clojure.test.check.generators.double_finite(min,max)], null)], null);
+var G__25168__$1 = (((((min == null))?(((max == null)) || ((0.0 <= max))):(((max == null))?(min <= 0.0):(((min <= 0.0)) && ((0.0 <= max))))))?cljs.core.conj.cljs$core$IFn$_invoke$arity$variadic(G__25168,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(1),clojure.test.check.generators.return$(0.0)], null),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(1),clojure.test.check.generators.return$(-0.0)], null)], 0)):G__25168);
+var G__25168__$2 = (cljs.core.truth_((function (){var and__5043__auto__ = infinite_QMARK_;
+if(cljs.core.truth_(and__5043__auto__)){
 return (max == null);
 } else {
-return and__4251__auto__;
+return and__5043__auto__;
 }
-})())?cljs.core.conj.cljs$core$IFn$_invoke$arity$2(G__29089__$1,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(1),clojure.test.check.generators.return$(clojure.test.check.generators.POS_INFINITY)], null)):G__29089__$1);
-var G__29089__$3 = (cljs.core.truth_((function (){var and__4251__auto__ = infinite_QMARK_;
-if(cljs.core.truth_(and__4251__auto__)){
+})())?cljs.core.conj.cljs$core$IFn$_invoke$arity$2(G__25168__$1,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(1),clojure.test.check.generators.return$(clojure.test.check.generators.POS_INFINITY)], null)):G__25168__$1);
+var G__25168__$3 = (cljs.core.truth_((function (){var and__5043__auto__ = infinite_QMARK_;
+if(cljs.core.truth_(and__5043__auto__)){
 return (min == null);
 } else {
-return and__4251__auto__;
+return and__5043__auto__;
 }
-})())?cljs.core.conj.cljs$core$IFn$_invoke$arity$2(G__29089__$2,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(1),clojure.test.check.generators.return$(clojure.test.check.generators.NEG_INFINITY)], null)):G__29089__$2);
+})())?cljs.core.conj.cljs$core$IFn$_invoke$arity$2(G__25168__$2,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(1),clojure.test.check.generators.return$(clojure.test.check.generators.NEG_INFINITY)], null)):G__25168__$2);
 if(cljs.core.truth_(NaN_QMARK_)){
-return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(G__29089__$3,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(1),clojure.test.check.generators.return$(clojure.test.check.generators.NAN)], null));
+return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(G__25168__$3,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(1),clojure.test.check.generators.return$(clojure.test.check.generators.NAN)], null));
 } else {
-return G__29089__$3;
+return G__25168__$3;
 }
 })();
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((1),cljs.core.count(frequency_arg))){
@@ -2196,33 +2196,33 @@ return goog.string.isNumeric(d);
  *   like numbers.
  */
 clojure.test.check.generators._PLUS__or___digit_QMARK_ = (function clojure$test$check$generators$_PLUS__or___digit_QMARK_(c,d){
-return cljs.core.boolean$((function (){var and__4251__auto__ = d;
-if(cljs.core.truth_(and__4251__auto__)){
-var and__4251__auto____$1 = ((("+" === c)) || (("-" === c)));
-if(and__4251__auto____$1){
+return cljs.core.boolean$((function (){var and__5043__auto__ = d;
+if(cljs.core.truth_(and__5043__auto__)){
+var and__5043__auto____$1 = ((("+" === c)) || (("-" === c)));
+if(and__5043__auto____$1){
 return clojure.test.check.generators.digit_QMARK_(d);
 } else {
-return and__4251__auto____$1;
+return and__5043__auto____$1;
 }
 } else {
-return and__4251__auto__;
+return and__5043__auto__;
 }
 })());
 });
 /**
  * Generates a namespace string for a symbol/keyword.
  */
-clojure.test.check.generators.symbol_name_or_namespace = clojure.test.check.generators.fmap((function (p__29122){
-var vec__29124 = p__29122;
-var c = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29124,(0),null);
-var cs = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29124,(1),null);
+clojure.test.check.generators.symbol_name_or_namespace = clojure.test.check.generators.fmap((function (p__25225){
+var vec__25226 = p__25225;
+var c = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25226,(0),null);
+var cs = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25226,(1),null);
 var s = clojure.string.join.cljs$core$IFn$_invoke$arity$1(cljs.core.cons(c,cs));
 return clojure.string.replace(clojure.string.replace(s,/:{2,}/,":"),/:$/,"");
-}),clojure.test.check.generators.such_that.cljs$core$IFn$_invoke$arity$2((function (p__29127){
-var vec__29128 = p__29127;
-var c = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29128,(0),null);
-var vec__29131 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29128,(1),null);
-var d = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29131,(0),null);
+}),clojure.test.check.generators.such_that.cljs$core$IFn$_invoke$arity$2((function (p__25242){
+var vec__25244 = p__25242;
+var c = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25244,(0),null);
+var vec__25248 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25244,(1),null);
+var d = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25248,(0),null);
 return (!(clojure.test.check.generators._PLUS__or___digit_QMARK_(c,d)));
 }),clojure.test.check.generators.tuple.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([clojure.test.check.generators.char_symbol_initial,clojure.test.check.generators.vector.cljs$core$IFn$_invoke$arity$1(clojure.test.check.generators.char_symbol_noninitial)], 0))));
 /**
@@ -2230,8 +2230,8 @@ return (!(clojure.test.check.generators._PLUS__or___digit_QMARK_(c,d)));
  *   make it reasonable.
  */
 clojure.test.check.generators.resize_symbolish_generator = (function clojure$test$check$generators$resize_symbolish_generator(g){
-return clojure.test.check.generators.scale((function (p1__29136_SHARP_){
-return cljs.core.long$(Math.pow(p1__29136_SHARP_,0.6));
+return clojure.test.check.generators.scale((function (p1__25260_SHARP_){
+return cljs.core.long$(Math.pow(p1__25260_SHARP_,0.6));
 }),g);
 });
 /**
@@ -2241,10 +2241,10 @@ clojure.test.check.generators.keyword = clojure.test.check.generators.frequency(
 /**
  * Generates keywords with namespaces.
  */
-clojure.test.check.generators.keyword_ns = clojure.test.check.generators.resize_symbolish_generator(clojure.test.check.generators.fmap((function (p__29141){
-var vec__29142 = p__29141;
-var ns = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29142,(0),null);
-var name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29142,(1),null);
+clojure.test.check.generators.keyword_ns = clojure.test.check.generators.resize_symbolish_generator(clojure.test.check.generators.fmap((function (p__25268){
+var vec__25269 = p__25268;
+var ns = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25269,(0),null);
+var name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25269,(1),null);
 return cljs.core.keyword.cljs$core$IFn$_invoke$arity$2(ns,name);
 }),clojure.test.check.generators.tuple.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([clojure.test.check.generators.symbol_name_or_namespace,clojure.test.check.generators.symbol_name_or_namespace], 0))));
 /**
@@ -2254,20 +2254,20 @@ clojure.test.check.generators.symbol = clojure.test.check.generators.frequency(n
 /**
  * Generates symbols with namespaces.
  */
-clojure.test.check.generators.symbol_ns = clojure.test.check.generators.resize_symbolish_generator(clojure.test.check.generators.fmap((function (p__29145){
-var vec__29146 = p__29145;
-var ns = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29146,(0),null);
-var name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29146,(1),null);
+clojure.test.check.generators.symbol_ns = clojure.test.check.generators.resize_symbolish_generator(clojure.test.check.generators.fmap((function (p__25282){
+var vec__25284 = p__25282;
+var ns = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25284,(0),null);
+var name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25284,(1),null);
 return cljs.core.symbol.cljs$core$IFn$_invoke$arity$2(ns,name);
 }),clojure.test.check.generators.tuple.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([clojure.test.check.generators.symbol_name_or_namespace,clojure.test.check.generators.symbol_name_or_namespace], 0))));
 /**
  * Generates a small ratio (or integer) using gen/small-integer. Shrinks
  *   toward simpler ratios, which may be larger or smaller.
  */
-clojure.test.check.generators.ratio = clojure.test.check.generators.fmap((function (p__29149){
-var vec__29150 = p__29149;
-var a = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29150,(0),null);
-var b = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29150,(1),null);
+clojure.test.check.generators.ratio = clojure.test.check.generators.fmap((function (p__25291){
+var vec__25292 = p__25291;
+var a = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25292,(0),null);
+var b = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25292,(1),null);
 return (a / b);
 }),clojure.test.check.generators.tuple.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([clojure.test.check.generators.small_integer,clojure.test.check.generators.fmap(cljs.core.inc,clojure.test.check.generators.nat)], 0)));
 /**
@@ -2303,9 +2303,9 @@ clojure.test.check.generators.simple_type_equatable = clojure.test.check.generat
 clojure.test.check.generators.simple_type_printable_equatable = clojure.test.check.generators.base_simple_type(clojure.test.check.generators.double_STAR_(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"NaN?","NaN?",-1917767651),false], null)),clojure.test.check.generators.char_ascii,clojure.test.check.generators.string_ascii);
 clojure.test.check.generators.hashable_QMARK_ = (function clojure$test$check$generators$hashable_QMARK_(x){
 if(typeof x === 'number'){
-return cljs.core.not((function (){var or__4253__auto__ = isNaN(x);
-if(cljs.core.truth_(or__4253__auto__)){
-return or__4253__auto__;
+return cljs.core.not((function (){var or__5045__auto__ = isNaN(x);
+if(cljs.core.truth_(or__5045__auto__)){
+return or__5045__auto__;
 } else {
 return ((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(clojure.test.check.generators.NEG_INFINITY,x)) || (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(clojure.test.check.generators.POS_INFINITY,x)));
 }
@@ -2315,14 +2315,14 @@ return true;
 }
 });
 clojure.test.check.generators.container_type = (function clojure$test$check$generators$container_type(inner_type){
-return clojure.test.check.generators.one_of(new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [clojure.test.check.generators.vector.cljs$core$IFn$_invoke$arity$1(inner_type),clojure.test.check.generators.list(inner_type),clojure.test.check.generators.set.cljs$core$IFn$_invoke$arity$1(clojure.test.check.generators.such_that.cljs$core$IFn$_invoke$arity$2(clojure.test.check.generators.hashable_QMARK_,inner_type)),clojure.test.check.generators.scale((function (p1__29153_SHARP_){
-return cljs.core.quot(p1__29153_SHARP_,(2));
+return clojure.test.check.generators.one_of(new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [clojure.test.check.generators.vector.cljs$core$IFn$_invoke$arity$1(inner_type),clojure.test.check.generators.list(inner_type),clojure.test.check.generators.set.cljs$core$IFn$_invoke$arity$1(clojure.test.check.generators.such_that.cljs$core$IFn$_invoke$arity$2(clojure.test.check.generators.hashable_QMARK_,inner_type)),clojure.test.check.generators.scale((function (p1__25391_SHARP_){
+return cljs.core.quot(p1__25391_SHARP_,(2));
 }),clojure.test.check.generators.map.cljs$core$IFn$_invoke$arity$2(clojure.test.check.generators.such_that.cljs$core$IFn$_invoke$arity$2(clojure.test.check.generators.hashable_QMARK_,inner_type),inner_type))], null));
 });
 clojure.test.check.generators.size__GT_max_leaf_count = (function clojure$test$check$generators$size__GT_max_leaf_count(size){
 return cljs.core.long$(Math.pow(size,1.1));
 });
-var log2_29377 = Math.log((2));
+var log2_25986 = Math.log((2));
 /**
  * Returns (not generates) a random collection of integers `xs`
  *   greater than 1 such that (<= (apply * xs) n).
@@ -2332,10 +2332,10 @@ if((n <= (2))){
 return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [n], null);
 } else {
 var log = Math.log(n);
-var vec__29154 = clojure.test.check.random.split(rng);
-var r1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29154,(0),null);
-var r2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29154,(1),null);
-var n1 = cljs.core.long$(Math.exp(((clojure.test.check.random.rand_double(r1) * (log - log2_29377)) + log2_29377)));
+var vec__25437 = clojure.test.check.random.split(rng);
+var r1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25437,(0),null);
+var r2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25437,(1),null);
+var n1 = cljs.core.long$(Math.exp(((clojure.test.check.random.rand_double(r1) * (log - log2_25986)) + log2_25986)));
 var n2 = cljs.core.quot(n,n1);
 if(((((1) < n1)) && (((1) < n2)))){
 return cljs.core.cons(n1,(clojure.test.check.generators.random_pseudofactoring.cljs$core$IFn$_invoke$arity$2 ? clojure.test.check.generators.random_pseudofactoring.cljs$core$IFn$_invoke$arity$2(n2,r2) : clojure.test.check.generators.random_pseudofactoring.call(null,n2,r2)));
@@ -2349,9 +2349,9 @@ return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMP
  */
 clojure.test.check.generators.randomized = (function clojure$test$check$generators$randomized(func){
 return clojure.test.check.generators.make_gen((function (rng,size){
-var vec__29162 = clojure.test.check.random.split(rng);
-var r1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29162,(0),null);
-var r2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29162,(1),null);
+var vec__25469 = clojure.test.check.random.split(rng);
+var r1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25469,(0),null);
+var r2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25469,(1),null);
 return clojure.test.check.generators.call_gen((func.cljs$core$IFn$_invoke$arity$1 ? func.cljs$core$IFn$_invoke$arity$1(r1) : func.call(null,r1)),r2,size);
 }));
 });

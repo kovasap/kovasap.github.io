@@ -26,15 +26,15 @@ devtools.protocols.ISurrogate = function(){};
  */
 devtools.protocols.IFormat = function(){};
 
-var devtools$protocols$IFormat$_header$dyn_40176 = (function (value){
-var x__4550__auto__ = (((value == null))?null:value);
-var m__4551__auto__ = (devtools.protocols._header[goog.typeOf(x__4550__auto__)]);
-if((!((m__4551__auto__ == null)))){
-return (m__4551__auto__.cljs$core$IFn$_invoke$arity$1 ? m__4551__auto__.cljs$core$IFn$_invoke$arity$1(value) : m__4551__auto__.call(null,value));
+var devtools$protocols$IFormat$_header$dyn_28119 = (function (value){
+var x__5393__auto__ = (((value == null))?null:value);
+var m__5394__auto__ = (devtools.protocols._header[goog.typeOf(x__5393__auto__)]);
+if((!((m__5394__auto__ == null)))){
+return (m__5394__auto__.cljs$core$IFn$_invoke$arity$1 ? m__5394__auto__.cljs$core$IFn$_invoke$arity$1(value) : m__5394__auto__.call(null,value));
 } else {
-var m__4549__auto__ = (devtools.protocols._header["_"]);
-if((!((m__4549__auto__ == null)))){
-return (m__4549__auto__.cljs$core$IFn$_invoke$arity$1 ? m__4549__auto__.cljs$core$IFn$_invoke$arity$1(value) : m__4549__auto__.call(null,value));
+var m__5392__auto__ = (devtools.protocols._header["_"]);
+if((!((m__5392__auto__ == null)))){
+return (m__5392__auto__.cljs$core$IFn$_invoke$arity$1 ? m__5392__auto__.cljs$core$IFn$_invoke$arity$1(value) : m__5392__auto__.call(null,value));
 } else {
 throw cljs.core.missing_protocol("IFormat.-header",value);
 }
@@ -44,19 +44,19 @@ devtools.protocols._header = (function devtools$protocols$_header(value){
 if((((!((value == null)))) && ((!((value.devtools$protocols$IFormat$_header$arity$1 == null)))))){
 return value.devtools$protocols$IFormat$_header$arity$1(value);
 } else {
-return devtools$protocols$IFormat$_header$dyn_40176(value);
+return devtools$protocols$IFormat$_header$dyn_28119(value);
 }
 });
 
-var devtools$protocols$IFormat$_has_body$dyn_40187 = (function (value){
-var x__4550__auto__ = (((value == null))?null:value);
-var m__4551__auto__ = (devtools.protocols._has_body[goog.typeOf(x__4550__auto__)]);
-if((!((m__4551__auto__ == null)))){
-return (m__4551__auto__.cljs$core$IFn$_invoke$arity$1 ? m__4551__auto__.cljs$core$IFn$_invoke$arity$1(value) : m__4551__auto__.call(null,value));
+var devtools$protocols$IFormat$_has_body$dyn_28123 = (function (value){
+var x__5393__auto__ = (((value == null))?null:value);
+var m__5394__auto__ = (devtools.protocols._has_body[goog.typeOf(x__5393__auto__)]);
+if((!((m__5394__auto__ == null)))){
+return (m__5394__auto__.cljs$core$IFn$_invoke$arity$1 ? m__5394__auto__.cljs$core$IFn$_invoke$arity$1(value) : m__5394__auto__.call(null,value));
 } else {
-var m__4549__auto__ = (devtools.protocols._has_body["_"]);
-if((!((m__4549__auto__ == null)))){
-return (m__4549__auto__.cljs$core$IFn$_invoke$arity$1 ? m__4549__auto__.cljs$core$IFn$_invoke$arity$1(value) : m__4549__auto__.call(null,value));
+var m__5392__auto__ = (devtools.protocols._has_body["_"]);
+if((!((m__5392__auto__ == null)))){
+return (m__5392__auto__.cljs$core$IFn$_invoke$arity$1 ? m__5392__auto__.cljs$core$IFn$_invoke$arity$1(value) : m__5392__auto__.call(null,value));
 } else {
 throw cljs.core.missing_protocol("IFormat.-has-body",value);
 }
@@ -66,19 +66,19 @@ devtools.protocols._has_body = (function devtools$protocols$_has_body(value){
 if((((!((value == null)))) && ((!((value.devtools$protocols$IFormat$_has_body$arity$1 == null)))))){
 return value.devtools$protocols$IFormat$_has_body$arity$1(value);
 } else {
-return devtools$protocols$IFormat$_has_body$dyn_40187(value);
+return devtools$protocols$IFormat$_has_body$dyn_28123(value);
 }
 });
 
-var devtools$protocols$IFormat$_body$dyn_40196 = (function (value){
-var x__4550__auto__ = (((value == null))?null:value);
-var m__4551__auto__ = (devtools.protocols._body[goog.typeOf(x__4550__auto__)]);
-if((!((m__4551__auto__ == null)))){
-return (m__4551__auto__.cljs$core$IFn$_invoke$arity$1 ? m__4551__auto__.cljs$core$IFn$_invoke$arity$1(value) : m__4551__auto__.call(null,value));
+var devtools$protocols$IFormat$_body$dyn_28128 = (function (value){
+var x__5393__auto__ = (((value == null))?null:value);
+var m__5394__auto__ = (devtools.protocols._body[goog.typeOf(x__5393__auto__)]);
+if((!((m__5394__auto__ == null)))){
+return (m__5394__auto__.cljs$core$IFn$_invoke$arity$1 ? m__5394__auto__.cljs$core$IFn$_invoke$arity$1(value) : m__5394__auto__.call(null,value));
 } else {
-var m__4549__auto__ = (devtools.protocols._body["_"]);
-if((!((m__4549__auto__ == null)))){
-return (m__4549__auto__.cljs$core$IFn$_invoke$arity$1 ? m__4549__auto__.cljs$core$IFn$_invoke$arity$1(value) : m__4549__auto__.call(null,value));
+var m__5392__auto__ = (devtools.protocols._body["_"]);
+if((!((m__5392__auto__ == null)))){
+return (m__5392__auto__.cljs$core$IFn$_invoke$arity$1 ? m__5392__auto__.cljs$core$IFn$_invoke$arity$1(value) : m__5392__auto__.call(null,value));
 } else {
 throw cljs.core.missing_protocol("IFormat.-body",value);
 }
@@ -88,7 +88,7 @@ devtools.protocols._body = (function devtools$protocols$_body(value){
 if((((!((value == null)))) && ((!((value.devtools$protocols$IFormat$_body$arity$1 == null)))))){
 return value.devtools$protocols$IFormat$_body$arity$1(value);
 } else {
-return devtools$protocols$IFormat$_body$dyn_40196(value);
+return devtools$protocols$IFormat$_body$dyn_28128(value);
 }
 });
 

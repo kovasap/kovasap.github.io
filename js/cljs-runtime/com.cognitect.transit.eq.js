@@ -7,59 +7,51 @@ goog.scope(function() {
   eq.equals = function(x, y) {
     if (x == null) {
       return y == null;
-    } else {
-      if (x === y) {
-        return true;
-      } else {
-        if (typeof x === "object") {
-          if (util.isArray(x)) {
-            if (util.isArray(y)) {
-              if (x.length === y.length) {
-                for (var i = 0; i < x.length; i++) {
-                  if (!eq.equals(x[i], y[i])) {
-                    return false;
-                  }
-                }
-                return true;
-              } else {
+    } else if (x === y) {
+      return true;
+    } else if (typeof x === "object") {
+      if (util.isArray(x)) {
+        if (util.isArray(y)) {
+          if (x.length === y.length) {
+            for (var i = 0; i < x.length; i++) {
+              if (!eq.equals(x[i], y[i])) {
                 return false;
               }
-            } else {
-              return false;
             }
+            return true;
           } else {
-            if (x.com$cognitect$transit$equals) {
-              return x.com$cognitect$transit$equals(y);
-            } else {
-              if (y != null && typeof y === "object") {
-                if (y.com$cognitect$transit$equals) {
-                  return y.com$cognitect$transit$equals(x);
-                } else {
-                  var xklen = 0, yklen = util.objectKeys(y).length;
-                  for (var p in x) {
-                    if (!x.hasOwnProperty(p)) {
-                      continue;
-                    }
-                    xklen++;
-                    if (!y.hasOwnProperty(p)) {
-                      return false;
-                    } else {
-                      if (!eq.equals(x[p], y[p])) {
-                        return false;
-                      }
-                    }
-                  }
-                  return xklen === yklen;
-                }
-              } else {
-                return false;
-              }
-            }
+            return false;
           }
         } else {
           return false;
         }
+      } else if (x.com$cognitect$transit$equals) {
+        return x.com$cognitect$transit$equals(y);
+      } else if (y != null && typeof y === "object") {
+        if (y.com$cognitect$transit$equals) {
+          return y.com$cognitect$transit$equals(x);
+        } else {
+          var xklen = 0, yklen = util.objectKeys(y).length;
+          for (var p in x) {
+            if (!x.hasOwnProperty(p)) {
+              continue;
+            }
+            xklen++;
+            if (!y.hasOwnProperty(p)) {
+              return false;
+            } else {
+              if (!eq.equals(x[p], y[p])) {
+                return false;
+              }
+            }
+          }
+          return xklen === yklen;
+        }
+      } else {
+        return false;
       }
+    } else {
+      return false;
     }
   };
   eq.hashCombine = function(seed, hash) {
@@ -108,12 +100,10 @@ goog.scope(function() {
       for (var i = 0; i < arr.length; i++) {
         code = eq.hashCombine(code, eq.hashCode(arr[i]));
       }
-    } else {
-      if (arr.forEach) {
-        arr.forEach(function(x, i) {
-          code = eq.hashCombine(code, eq.hashCode(x));
-        });
-      }
+    } else if (arr.forEach) {
+      arr.forEach(function(x, i) {
+        code = eq.hashCombine(code, eq.hashCode(x));
+      });
     }
     return code;
   };
@@ -149,10 +139,8 @@ goog.scope(function() {
         default:
           if (x instanceof Date) {
             return x.valueOf();
-          } else {
-            if (util.isArray(x)) {
-              return eq.hashArrayLike(x);
-            }
+          } else if (util.isArray(x)) {
+            return eq.hashArrayLike(x);
           }
           if (x.com$cognitect$transit$hashCode) {
             return x.com$cognitect$transit$hashCode();

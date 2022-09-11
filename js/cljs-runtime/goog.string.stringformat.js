@@ -41,16 +41,12 @@ goog.string.format.demuxes_["f"] = function(value, flags, width, dotp, precision
   let sign;
   if (Number(value) < 0) {
     sign = "-";
+  } else if (flags.indexOf("+") >= 0) {
+    sign = "+";
+  } else if (flags.indexOf(" ") >= 0) {
+    sign = " ";
   } else {
-    if (flags.indexOf("+") >= 0) {
-      sign = "+";
-    } else {
-      if (flags.indexOf(" ") >= 0) {
-        sign = " ";
-      } else {
-        sign = "";
-      }
-    }
+    sign = "";
   }
   if (Number(value) >= 0) {
     replacement = sign + replacement;

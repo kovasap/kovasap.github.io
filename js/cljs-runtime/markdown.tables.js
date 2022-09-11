@@ -1,14 +1,14 @@
 goog.provide('markdown.tables');
 markdown.tables.parse_table_row = (function markdown$tables$parse_table_row(text){
-return cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__41829_SHARP_){
-return cljs.core.identity(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"text","text",-1790561697),p1__41829_SHARP_], null));
-}),cljs.core.map.cljs$core$IFn$_invoke$arity$2(clojure.string.trim,(function (p1__41828_SHARP_){
-return clojure.string.split.cljs$core$IFn$_invoke$arity$2(p1__41828_SHARP_,/\|/);
-})(clojure.string.trim((function (p1__41827_SHARP_){
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.first(p1__41827_SHARP_),"|")){
-return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,cljs.core.rest(p1__41827_SHARP_));
+return cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__39552_SHARP_){
+return cljs.core.identity(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"text","text",-1790561697),p1__39552_SHARP_], null));
+}),cljs.core.map.cljs$core$IFn$_invoke$arity$2(clojure.string.trim,(function (p1__39551_SHARP_){
+return clojure.string.split.cljs$core$IFn$_invoke$arity$2(p1__39551_SHARP_,/\|/);
+})(clojure.string.trim((function (p1__39550_SHARP_){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.first(p1__39550_SHARP_),"|")){
+return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,cljs.core.rest(p1__39550_SHARP_));
 } else {
-return p1__41827_SHARP_;
+return p1__39550_SHARP_;
 }
 })(text)))));
 });
@@ -57,16 +57,16 @@ var table_row_re = cljs.core.re_find(/\|(?: [\S ]+ \|)+/,text);
 var table_divider_re = cljs.core.re_find(/\|(?: :?-+:? \|)+/,text);
 var is_table_row_QMARK_ = cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(table_row_re,text);
 var is_table_header_QMARK_ = ((is_table_row_QMARK_) && (cljs.core.not(cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(state,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"table","table",-564943036),new cljs.core.Keyword(null,"in-table-body?","in-table-body?",-136773915)], null)))));
-var is_table_divider_QMARK_ = (function (){var and__4251__auto__ = cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(table_divider_re,text);
-if(and__4251__auto__){
-var and__4251__auto____$1 = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(state,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"table","table",-564943036),new cljs.core.Keyword(null,"in-table-body?","in-table-body?",-136773915)], null));
-if(cljs.core.truth_(and__4251__auto____$1)){
+var is_table_divider_QMARK_ = (function (){var and__5043__auto__ = cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(table_divider_re,text);
+if(and__5043__auto__){
+var and__5043__auto____$1 = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(state,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"table","table",-564943036),new cljs.core.Keyword(null,"in-table-body?","in-table-body?",-136773915)], null));
+if(cljs.core.truth_(and__5043__auto____$1)){
 return cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(state,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"table","table",-564943036),new cljs.core.Keyword(null,"is-prev-header?","is-prev-header?",-1637281701)], null));
 } else {
-return and__4251__auto____$1;
+return and__5043__auto____$1;
 }
 } else {
-return and__4251__auto__;
+return and__5043__auto__;
 }
 })();
 if(is_table_header_QMARK_){

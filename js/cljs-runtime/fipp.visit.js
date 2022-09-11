@@ -5,15 +5,15 @@ goog.provide('fipp.visit');
  */
 fipp.visit.IVisitor = function(){};
 
-var fipp$visit$IVisitor$visit_unknown$dyn_73345 = (function (this$,x){
-var x__4550__auto__ = (((this$ == null))?null:this$);
-var m__4551__auto__ = (fipp.visit.visit_unknown[goog.typeOf(x__4550__auto__)]);
-if((!((m__4551__auto__ == null)))){
-return (m__4551__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4551__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__4551__auto__.call(null,this$,x));
+var fipp$visit$IVisitor$visit_unknown$dyn_44545 = (function (this$,x){
+var x__5393__auto__ = (((this$ == null))?null:this$);
+var m__5394__auto__ = (fipp.visit.visit_unknown[goog.typeOf(x__5393__auto__)]);
+if((!((m__5394__auto__ == null)))){
+return (m__5394__auto__.cljs$core$IFn$_invoke$arity$2 ? m__5394__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__5394__auto__.call(null,this$,x));
 } else {
-var m__4549__auto__ = (fipp.visit.visit_unknown["_"]);
-if((!((m__4549__auto__ == null)))){
-return (m__4549__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4549__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__4549__auto__.call(null,this$,x));
+var m__5392__auto__ = (fipp.visit.visit_unknown["_"]);
+if((!((m__5392__auto__ == null)))){
+return (m__5392__auto__.cljs$core$IFn$_invoke$arity$2 ? m__5392__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__5392__auto__.call(null,this$,x));
 } else {
 throw cljs.core.missing_protocol("IVisitor.visit-unknown",this$);
 }
@@ -23,19 +23,19 @@ fipp.visit.visit_unknown = (function fipp$visit$visit_unknown(this$,x){
 if((((!((this$ == null)))) && ((!((this$.fipp$visit$IVisitor$visit_unknown$arity$2 == null)))))){
 return this$.fipp$visit$IVisitor$visit_unknown$arity$2(this$,x);
 } else {
-return fipp$visit$IVisitor$visit_unknown$dyn_73345(this$,x);
+return fipp$visit$IVisitor$visit_unknown$dyn_44545(this$,x);
 }
 });
 
-var fipp$visit$IVisitor$visit_nil$dyn_73349 = (function (this$){
-var x__4550__auto__ = (((this$ == null))?null:this$);
-var m__4551__auto__ = (fipp.visit.visit_nil[goog.typeOf(x__4550__auto__)]);
-if((!((m__4551__auto__ == null)))){
-return (m__4551__auto__.cljs$core$IFn$_invoke$arity$1 ? m__4551__auto__.cljs$core$IFn$_invoke$arity$1(this$) : m__4551__auto__.call(null,this$));
+var fipp$visit$IVisitor$visit_nil$dyn_44549 = (function (this$){
+var x__5393__auto__ = (((this$ == null))?null:this$);
+var m__5394__auto__ = (fipp.visit.visit_nil[goog.typeOf(x__5393__auto__)]);
+if((!((m__5394__auto__ == null)))){
+return (m__5394__auto__.cljs$core$IFn$_invoke$arity$1 ? m__5394__auto__.cljs$core$IFn$_invoke$arity$1(this$) : m__5394__auto__.call(null,this$));
 } else {
-var m__4549__auto__ = (fipp.visit.visit_nil["_"]);
-if((!((m__4549__auto__ == null)))){
-return (m__4549__auto__.cljs$core$IFn$_invoke$arity$1 ? m__4549__auto__.cljs$core$IFn$_invoke$arity$1(this$) : m__4549__auto__.call(null,this$));
+var m__5392__auto__ = (fipp.visit.visit_nil["_"]);
+if((!((m__5392__auto__ == null)))){
+return (m__5392__auto__.cljs$core$IFn$_invoke$arity$1 ? m__5392__auto__.cljs$core$IFn$_invoke$arity$1(this$) : m__5392__auto__.call(null,this$));
 } else {
 throw cljs.core.missing_protocol("IVisitor.visit-nil",this$);
 }
@@ -45,19 +45,19 @@ fipp.visit.visit_nil = (function fipp$visit$visit_nil(this$){
 if((((!((this$ == null)))) && ((!((this$.fipp$visit$IVisitor$visit_nil$arity$1 == null)))))){
 return this$.fipp$visit$IVisitor$visit_nil$arity$1(this$);
 } else {
-return fipp$visit$IVisitor$visit_nil$dyn_73349(this$);
+return fipp$visit$IVisitor$visit_nil$dyn_44549(this$);
 }
 });
 
-var fipp$visit$IVisitor$visit_boolean$dyn_73350 = (function (this$,x){
-var x__4550__auto__ = (((this$ == null))?null:this$);
-var m__4551__auto__ = (fipp.visit.visit_boolean[goog.typeOf(x__4550__auto__)]);
-if((!((m__4551__auto__ == null)))){
-return (m__4551__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4551__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__4551__auto__.call(null,this$,x));
+var fipp$visit$IVisitor$visit_boolean$dyn_44555 = (function (this$,x){
+var x__5393__auto__ = (((this$ == null))?null:this$);
+var m__5394__auto__ = (fipp.visit.visit_boolean[goog.typeOf(x__5393__auto__)]);
+if((!((m__5394__auto__ == null)))){
+return (m__5394__auto__.cljs$core$IFn$_invoke$arity$2 ? m__5394__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__5394__auto__.call(null,this$,x));
 } else {
-var m__4549__auto__ = (fipp.visit.visit_boolean["_"]);
-if((!((m__4549__auto__ == null)))){
-return (m__4549__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4549__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__4549__auto__.call(null,this$,x));
+var m__5392__auto__ = (fipp.visit.visit_boolean["_"]);
+if((!((m__5392__auto__ == null)))){
+return (m__5392__auto__.cljs$core$IFn$_invoke$arity$2 ? m__5392__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__5392__auto__.call(null,this$,x));
 } else {
 throw cljs.core.missing_protocol("IVisitor.visit-boolean",this$);
 }
@@ -67,19 +67,19 @@ fipp.visit.visit_boolean = (function fipp$visit$visit_boolean(this$,x){
 if((((!((this$ == null)))) && ((!((this$.fipp$visit$IVisitor$visit_boolean$arity$2 == null)))))){
 return this$.fipp$visit$IVisitor$visit_boolean$arity$2(this$,x);
 } else {
-return fipp$visit$IVisitor$visit_boolean$dyn_73350(this$,x);
+return fipp$visit$IVisitor$visit_boolean$dyn_44555(this$,x);
 }
 });
 
-var fipp$visit$IVisitor$visit_string$dyn_73351 = (function (this$,x){
-var x__4550__auto__ = (((this$ == null))?null:this$);
-var m__4551__auto__ = (fipp.visit.visit_string[goog.typeOf(x__4550__auto__)]);
-if((!((m__4551__auto__ == null)))){
-return (m__4551__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4551__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__4551__auto__.call(null,this$,x));
+var fipp$visit$IVisitor$visit_string$dyn_44558 = (function (this$,x){
+var x__5393__auto__ = (((this$ == null))?null:this$);
+var m__5394__auto__ = (fipp.visit.visit_string[goog.typeOf(x__5393__auto__)]);
+if((!((m__5394__auto__ == null)))){
+return (m__5394__auto__.cljs$core$IFn$_invoke$arity$2 ? m__5394__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__5394__auto__.call(null,this$,x));
 } else {
-var m__4549__auto__ = (fipp.visit.visit_string["_"]);
-if((!((m__4549__auto__ == null)))){
-return (m__4549__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4549__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__4549__auto__.call(null,this$,x));
+var m__5392__auto__ = (fipp.visit.visit_string["_"]);
+if((!((m__5392__auto__ == null)))){
+return (m__5392__auto__.cljs$core$IFn$_invoke$arity$2 ? m__5392__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__5392__auto__.call(null,this$,x));
 } else {
 throw cljs.core.missing_protocol("IVisitor.visit-string",this$);
 }
@@ -89,19 +89,19 @@ fipp.visit.visit_string = (function fipp$visit$visit_string(this$,x){
 if((((!((this$ == null)))) && ((!((this$.fipp$visit$IVisitor$visit_string$arity$2 == null)))))){
 return this$.fipp$visit$IVisitor$visit_string$arity$2(this$,x);
 } else {
-return fipp$visit$IVisitor$visit_string$dyn_73351(this$,x);
+return fipp$visit$IVisitor$visit_string$dyn_44558(this$,x);
 }
 });
 
-var fipp$visit$IVisitor$visit_character$dyn_73355 = (function (this$,x){
-var x__4550__auto__ = (((this$ == null))?null:this$);
-var m__4551__auto__ = (fipp.visit.visit_character[goog.typeOf(x__4550__auto__)]);
-if((!((m__4551__auto__ == null)))){
-return (m__4551__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4551__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__4551__auto__.call(null,this$,x));
+var fipp$visit$IVisitor$visit_character$dyn_44564 = (function (this$,x){
+var x__5393__auto__ = (((this$ == null))?null:this$);
+var m__5394__auto__ = (fipp.visit.visit_character[goog.typeOf(x__5393__auto__)]);
+if((!((m__5394__auto__ == null)))){
+return (m__5394__auto__.cljs$core$IFn$_invoke$arity$2 ? m__5394__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__5394__auto__.call(null,this$,x));
 } else {
-var m__4549__auto__ = (fipp.visit.visit_character["_"]);
-if((!((m__4549__auto__ == null)))){
-return (m__4549__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4549__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__4549__auto__.call(null,this$,x));
+var m__5392__auto__ = (fipp.visit.visit_character["_"]);
+if((!((m__5392__auto__ == null)))){
+return (m__5392__auto__.cljs$core$IFn$_invoke$arity$2 ? m__5392__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__5392__auto__.call(null,this$,x));
 } else {
 throw cljs.core.missing_protocol("IVisitor.visit-character",this$);
 }
@@ -111,19 +111,19 @@ fipp.visit.visit_character = (function fipp$visit$visit_character(this$,x){
 if((((!((this$ == null)))) && ((!((this$.fipp$visit$IVisitor$visit_character$arity$2 == null)))))){
 return this$.fipp$visit$IVisitor$visit_character$arity$2(this$,x);
 } else {
-return fipp$visit$IVisitor$visit_character$dyn_73355(this$,x);
+return fipp$visit$IVisitor$visit_character$dyn_44564(this$,x);
 }
 });
 
-var fipp$visit$IVisitor$visit_symbol$dyn_73360 = (function (this$,x){
-var x__4550__auto__ = (((this$ == null))?null:this$);
-var m__4551__auto__ = (fipp.visit.visit_symbol[goog.typeOf(x__4550__auto__)]);
-if((!((m__4551__auto__ == null)))){
-return (m__4551__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4551__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__4551__auto__.call(null,this$,x));
+var fipp$visit$IVisitor$visit_symbol$dyn_44573 = (function (this$,x){
+var x__5393__auto__ = (((this$ == null))?null:this$);
+var m__5394__auto__ = (fipp.visit.visit_symbol[goog.typeOf(x__5393__auto__)]);
+if((!((m__5394__auto__ == null)))){
+return (m__5394__auto__.cljs$core$IFn$_invoke$arity$2 ? m__5394__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__5394__auto__.call(null,this$,x));
 } else {
-var m__4549__auto__ = (fipp.visit.visit_symbol["_"]);
-if((!((m__4549__auto__ == null)))){
-return (m__4549__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4549__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__4549__auto__.call(null,this$,x));
+var m__5392__auto__ = (fipp.visit.visit_symbol["_"]);
+if((!((m__5392__auto__ == null)))){
+return (m__5392__auto__.cljs$core$IFn$_invoke$arity$2 ? m__5392__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__5392__auto__.call(null,this$,x));
 } else {
 throw cljs.core.missing_protocol("IVisitor.visit-symbol",this$);
 }
@@ -133,19 +133,19 @@ fipp.visit.visit_symbol = (function fipp$visit$visit_symbol(this$,x){
 if((((!((this$ == null)))) && ((!((this$.fipp$visit$IVisitor$visit_symbol$arity$2 == null)))))){
 return this$.fipp$visit$IVisitor$visit_symbol$arity$2(this$,x);
 } else {
-return fipp$visit$IVisitor$visit_symbol$dyn_73360(this$,x);
+return fipp$visit$IVisitor$visit_symbol$dyn_44573(this$,x);
 }
 });
 
-var fipp$visit$IVisitor$visit_keyword$dyn_73371 = (function (this$,x){
-var x__4550__auto__ = (((this$ == null))?null:this$);
-var m__4551__auto__ = (fipp.visit.visit_keyword[goog.typeOf(x__4550__auto__)]);
-if((!((m__4551__auto__ == null)))){
-return (m__4551__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4551__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__4551__auto__.call(null,this$,x));
+var fipp$visit$IVisitor$visit_keyword$dyn_44583 = (function (this$,x){
+var x__5393__auto__ = (((this$ == null))?null:this$);
+var m__5394__auto__ = (fipp.visit.visit_keyword[goog.typeOf(x__5393__auto__)]);
+if((!((m__5394__auto__ == null)))){
+return (m__5394__auto__.cljs$core$IFn$_invoke$arity$2 ? m__5394__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__5394__auto__.call(null,this$,x));
 } else {
-var m__4549__auto__ = (fipp.visit.visit_keyword["_"]);
-if((!((m__4549__auto__ == null)))){
-return (m__4549__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4549__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__4549__auto__.call(null,this$,x));
+var m__5392__auto__ = (fipp.visit.visit_keyword["_"]);
+if((!((m__5392__auto__ == null)))){
+return (m__5392__auto__.cljs$core$IFn$_invoke$arity$2 ? m__5392__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__5392__auto__.call(null,this$,x));
 } else {
 throw cljs.core.missing_protocol("IVisitor.visit-keyword",this$);
 }
@@ -155,19 +155,19 @@ fipp.visit.visit_keyword = (function fipp$visit$visit_keyword(this$,x){
 if((((!((this$ == null)))) && ((!((this$.fipp$visit$IVisitor$visit_keyword$arity$2 == null)))))){
 return this$.fipp$visit$IVisitor$visit_keyword$arity$2(this$,x);
 } else {
-return fipp$visit$IVisitor$visit_keyword$dyn_73371(this$,x);
+return fipp$visit$IVisitor$visit_keyword$dyn_44583(this$,x);
 }
 });
 
-var fipp$visit$IVisitor$visit_number$dyn_73374 = (function (this$,x){
-var x__4550__auto__ = (((this$ == null))?null:this$);
-var m__4551__auto__ = (fipp.visit.visit_number[goog.typeOf(x__4550__auto__)]);
-if((!((m__4551__auto__ == null)))){
-return (m__4551__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4551__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__4551__auto__.call(null,this$,x));
+var fipp$visit$IVisitor$visit_number$dyn_44596 = (function (this$,x){
+var x__5393__auto__ = (((this$ == null))?null:this$);
+var m__5394__auto__ = (fipp.visit.visit_number[goog.typeOf(x__5393__auto__)]);
+if((!((m__5394__auto__ == null)))){
+return (m__5394__auto__.cljs$core$IFn$_invoke$arity$2 ? m__5394__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__5394__auto__.call(null,this$,x));
 } else {
-var m__4549__auto__ = (fipp.visit.visit_number["_"]);
-if((!((m__4549__auto__ == null)))){
-return (m__4549__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4549__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__4549__auto__.call(null,this$,x));
+var m__5392__auto__ = (fipp.visit.visit_number["_"]);
+if((!((m__5392__auto__ == null)))){
+return (m__5392__auto__.cljs$core$IFn$_invoke$arity$2 ? m__5392__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__5392__auto__.call(null,this$,x));
 } else {
 throw cljs.core.missing_protocol("IVisitor.visit-number",this$);
 }
@@ -177,19 +177,19 @@ fipp.visit.visit_number = (function fipp$visit$visit_number(this$,x){
 if((((!((this$ == null)))) && ((!((this$.fipp$visit$IVisitor$visit_number$arity$2 == null)))))){
 return this$.fipp$visit$IVisitor$visit_number$arity$2(this$,x);
 } else {
-return fipp$visit$IVisitor$visit_number$dyn_73374(this$,x);
+return fipp$visit$IVisitor$visit_number$dyn_44596(this$,x);
 }
 });
 
-var fipp$visit$IVisitor$visit_seq$dyn_73379 = (function (this$,x){
-var x__4550__auto__ = (((this$ == null))?null:this$);
-var m__4551__auto__ = (fipp.visit.visit_seq[goog.typeOf(x__4550__auto__)]);
-if((!((m__4551__auto__ == null)))){
-return (m__4551__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4551__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__4551__auto__.call(null,this$,x));
+var fipp$visit$IVisitor$visit_seq$dyn_44603 = (function (this$,x){
+var x__5393__auto__ = (((this$ == null))?null:this$);
+var m__5394__auto__ = (fipp.visit.visit_seq[goog.typeOf(x__5393__auto__)]);
+if((!((m__5394__auto__ == null)))){
+return (m__5394__auto__.cljs$core$IFn$_invoke$arity$2 ? m__5394__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__5394__auto__.call(null,this$,x));
 } else {
-var m__4549__auto__ = (fipp.visit.visit_seq["_"]);
-if((!((m__4549__auto__ == null)))){
-return (m__4549__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4549__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__4549__auto__.call(null,this$,x));
+var m__5392__auto__ = (fipp.visit.visit_seq["_"]);
+if((!((m__5392__auto__ == null)))){
+return (m__5392__auto__.cljs$core$IFn$_invoke$arity$2 ? m__5392__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__5392__auto__.call(null,this$,x));
 } else {
 throw cljs.core.missing_protocol("IVisitor.visit-seq",this$);
 }
@@ -199,19 +199,19 @@ fipp.visit.visit_seq = (function fipp$visit$visit_seq(this$,x){
 if((((!((this$ == null)))) && ((!((this$.fipp$visit$IVisitor$visit_seq$arity$2 == null)))))){
 return this$.fipp$visit$IVisitor$visit_seq$arity$2(this$,x);
 } else {
-return fipp$visit$IVisitor$visit_seq$dyn_73379(this$,x);
+return fipp$visit$IVisitor$visit_seq$dyn_44603(this$,x);
 }
 });
 
-var fipp$visit$IVisitor$visit_vector$dyn_73380 = (function (this$,x){
-var x__4550__auto__ = (((this$ == null))?null:this$);
-var m__4551__auto__ = (fipp.visit.visit_vector[goog.typeOf(x__4550__auto__)]);
-if((!((m__4551__auto__ == null)))){
-return (m__4551__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4551__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__4551__auto__.call(null,this$,x));
+var fipp$visit$IVisitor$visit_vector$dyn_44613 = (function (this$,x){
+var x__5393__auto__ = (((this$ == null))?null:this$);
+var m__5394__auto__ = (fipp.visit.visit_vector[goog.typeOf(x__5393__auto__)]);
+if((!((m__5394__auto__ == null)))){
+return (m__5394__auto__.cljs$core$IFn$_invoke$arity$2 ? m__5394__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__5394__auto__.call(null,this$,x));
 } else {
-var m__4549__auto__ = (fipp.visit.visit_vector["_"]);
-if((!((m__4549__auto__ == null)))){
-return (m__4549__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4549__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__4549__auto__.call(null,this$,x));
+var m__5392__auto__ = (fipp.visit.visit_vector["_"]);
+if((!((m__5392__auto__ == null)))){
+return (m__5392__auto__.cljs$core$IFn$_invoke$arity$2 ? m__5392__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__5392__auto__.call(null,this$,x));
 } else {
 throw cljs.core.missing_protocol("IVisitor.visit-vector",this$);
 }
@@ -221,19 +221,19 @@ fipp.visit.visit_vector = (function fipp$visit$visit_vector(this$,x){
 if((((!((this$ == null)))) && ((!((this$.fipp$visit$IVisitor$visit_vector$arity$2 == null)))))){
 return this$.fipp$visit$IVisitor$visit_vector$arity$2(this$,x);
 } else {
-return fipp$visit$IVisitor$visit_vector$dyn_73380(this$,x);
+return fipp$visit$IVisitor$visit_vector$dyn_44613(this$,x);
 }
 });
 
-var fipp$visit$IVisitor$visit_map$dyn_73383 = (function (this$,x){
-var x__4550__auto__ = (((this$ == null))?null:this$);
-var m__4551__auto__ = (fipp.visit.visit_map[goog.typeOf(x__4550__auto__)]);
-if((!((m__4551__auto__ == null)))){
-return (m__4551__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4551__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__4551__auto__.call(null,this$,x));
+var fipp$visit$IVisitor$visit_map$dyn_44629 = (function (this$,x){
+var x__5393__auto__ = (((this$ == null))?null:this$);
+var m__5394__auto__ = (fipp.visit.visit_map[goog.typeOf(x__5393__auto__)]);
+if((!((m__5394__auto__ == null)))){
+return (m__5394__auto__.cljs$core$IFn$_invoke$arity$2 ? m__5394__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__5394__auto__.call(null,this$,x));
 } else {
-var m__4549__auto__ = (fipp.visit.visit_map["_"]);
-if((!((m__4549__auto__ == null)))){
-return (m__4549__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4549__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__4549__auto__.call(null,this$,x));
+var m__5392__auto__ = (fipp.visit.visit_map["_"]);
+if((!((m__5392__auto__ == null)))){
+return (m__5392__auto__.cljs$core$IFn$_invoke$arity$2 ? m__5392__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__5392__auto__.call(null,this$,x));
 } else {
 throw cljs.core.missing_protocol("IVisitor.visit-map",this$);
 }
@@ -243,19 +243,19 @@ fipp.visit.visit_map = (function fipp$visit$visit_map(this$,x){
 if((((!((this$ == null)))) && ((!((this$.fipp$visit$IVisitor$visit_map$arity$2 == null)))))){
 return this$.fipp$visit$IVisitor$visit_map$arity$2(this$,x);
 } else {
-return fipp$visit$IVisitor$visit_map$dyn_73383(this$,x);
+return fipp$visit$IVisitor$visit_map$dyn_44629(this$,x);
 }
 });
 
-var fipp$visit$IVisitor$visit_set$dyn_73387 = (function (this$,x){
-var x__4550__auto__ = (((this$ == null))?null:this$);
-var m__4551__auto__ = (fipp.visit.visit_set[goog.typeOf(x__4550__auto__)]);
-if((!((m__4551__auto__ == null)))){
-return (m__4551__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4551__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__4551__auto__.call(null,this$,x));
+var fipp$visit$IVisitor$visit_set$dyn_44631 = (function (this$,x){
+var x__5393__auto__ = (((this$ == null))?null:this$);
+var m__5394__auto__ = (fipp.visit.visit_set[goog.typeOf(x__5393__auto__)]);
+if((!((m__5394__auto__ == null)))){
+return (m__5394__auto__.cljs$core$IFn$_invoke$arity$2 ? m__5394__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__5394__auto__.call(null,this$,x));
 } else {
-var m__4549__auto__ = (fipp.visit.visit_set["_"]);
-if((!((m__4549__auto__ == null)))){
-return (m__4549__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4549__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__4549__auto__.call(null,this$,x));
+var m__5392__auto__ = (fipp.visit.visit_set["_"]);
+if((!((m__5392__auto__ == null)))){
+return (m__5392__auto__.cljs$core$IFn$_invoke$arity$2 ? m__5392__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__5392__auto__.call(null,this$,x));
 } else {
 throw cljs.core.missing_protocol("IVisitor.visit-set",this$);
 }
@@ -265,19 +265,19 @@ fipp.visit.visit_set = (function fipp$visit$visit_set(this$,x){
 if((((!((this$ == null)))) && ((!((this$.fipp$visit$IVisitor$visit_set$arity$2 == null)))))){
 return this$.fipp$visit$IVisitor$visit_set$arity$2(this$,x);
 } else {
-return fipp$visit$IVisitor$visit_set$dyn_73387(this$,x);
+return fipp$visit$IVisitor$visit_set$dyn_44631(this$,x);
 }
 });
 
-var fipp$visit$IVisitor$visit_tagged$dyn_73389 = (function (this$,x){
-var x__4550__auto__ = (((this$ == null))?null:this$);
-var m__4551__auto__ = (fipp.visit.visit_tagged[goog.typeOf(x__4550__auto__)]);
-if((!((m__4551__auto__ == null)))){
-return (m__4551__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4551__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__4551__auto__.call(null,this$,x));
+var fipp$visit$IVisitor$visit_tagged$dyn_44649 = (function (this$,x){
+var x__5393__auto__ = (((this$ == null))?null:this$);
+var m__5394__auto__ = (fipp.visit.visit_tagged[goog.typeOf(x__5393__auto__)]);
+if((!((m__5394__auto__ == null)))){
+return (m__5394__auto__.cljs$core$IFn$_invoke$arity$2 ? m__5394__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__5394__auto__.call(null,this$,x));
 } else {
-var m__4549__auto__ = (fipp.visit.visit_tagged["_"]);
-if((!((m__4549__auto__ == null)))){
-return (m__4549__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4549__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__4549__auto__.call(null,this$,x));
+var m__5392__auto__ = (fipp.visit.visit_tagged["_"]);
+if((!((m__5392__auto__ == null)))){
+return (m__5392__auto__.cljs$core$IFn$_invoke$arity$2 ? m__5392__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__5392__auto__.call(null,this$,x));
 } else {
 throw cljs.core.missing_protocol("IVisitor.visit-tagged",this$);
 }
@@ -287,19 +287,19 @@ fipp.visit.visit_tagged = (function fipp$visit$visit_tagged(this$,x){
 if((((!((this$ == null)))) && ((!((this$.fipp$visit$IVisitor$visit_tagged$arity$2 == null)))))){
 return this$.fipp$visit$IVisitor$visit_tagged$arity$2(this$,x);
 } else {
-return fipp$visit$IVisitor$visit_tagged$dyn_73389(this$,x);
+return fipp$visit$IVisitor$visit_tagged$dyn_44649(this$,x);
 }
 });
 
-var fipp$visit$IVisitor$visit_meta$dyn_73394 = (function (this$,meta,x){
-var x__4550__auto__ = (((this$ == null))?null:this$);
-var m__4551__auto__ = (fipp.visit.visit_meta[goog.typeOf(x__4550__auto__)]);
-if((!((m__4551__auto__ == null)))){
-return (m__4551__auto__.cljs$core$IFn$_invoke$arity$3 ? m__4551__auto__.cljs$core$IFn$_invoke$arity$3(this$,meta,x) : m__4551__auto__.call(null,this$,meta,x));
+var fipp$visit$IVisitor$visit_meta$dyn_44651 = (function (this$,meta,x){
+var x__5393__auto__ = (((this$ == null))?null:this$);
+var m__5394__auto__ = (fipp.visit.visit_meta[goog.typeOf(x__5393__auto__)]);
+if((!((m__5394__auto__ == null)))){
+return (m__5394__auto__.cljs$core$IFn$_invoke$arity$3 ? m__5394__auto__.cljs$core$IFn$_invoke$arity$3(this$,meta,x) : m__5394__auto__.call(null,this$,meta,x));
 } else {
-var m__4549__auto__ = (fipp.visit.visit_meta["_"]);
-if((!((m__4549__auto__ == null)))){
-return (m__4549__auto__.cljs$core$IFn$_invoke$arity$3 ? m__4549__auto__.cljs$core$IFn$_invoke$arity$3(this$,meta,x) : m__4549__auto__.call(null,this$,meta,x));
+var m__5392__auto__ = (fipp.visit.visit_meta["_"]);
+if((!((m__5392__auto__ == null)))){
+return (m__5392__auto__.cljs$core$IFn$_invoke$arity$3 ? m__5392__auto__.cljs$core$IFn$_invoke$arity$3(this$,meta,x) : m__5392__auto__.call(null,this$,meta,x));
 } else {
 throw cljs.core.missing_protocol("IVisitor.visit-meta",this$);
 }
@@ -309,19 +309,19 @@ fipp.visit.visit_meta = (function fipp$visit$visit_meta(this$,meta,x){
 if((((!((this$ == null)))) && ((!((this$.fipp$visit$IVisitor$visit_meta$arity$3 == null)))))){
 return this$.fipp$visit$IVisitor$visit_meta$arity$3(this$,meta,x);
 } else {
-return fipp$visit$IVisitor$visit_meta$dyn_73394(this$,meta,x);
+return fipp$visit$IVisitor$visit_meta$dyn_44651(this$,meta,x);
 }
 });
 
-var fipp$visit$IVisitor$visit_var$dyn_73395 = (function (this$,x){
-var x__4550__auto__ = (((this$ == null))?null:this$);
-var m__4551__auto__ = (fipp.visit.visit_var[goog.typeOf(x__4550__auto__)]);
-if((!((m__4551__auto__ == null)))){
-return (m__4551__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4551__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__4551__auto__.call(null,this$,x));
+var fipp$visit$IVisitor$visit_var$dyn_44671 = (function (this$,x){
+var x__5393__auto__ = (((this$ == null))?null:this$);
+var m__5394__auto__ = (fipp.visit.visit_var[goog.typeOf(x__5393__auto__)]);
+if((!((m__5394__auto__ == null)))){
+return (m__5394__auto__.cljs$core$IFn$_invoke$arity$2 ? m__5394__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__5394__auto__.call(null,this$,x));
 } else {
-var m__4549__auto__ = (fipp.visit.visit_var["_"]);
-if((!((m__4549__auto__ == null)))){
-return (m__4549__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4549__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__4549__auto__.call(null,this$,x));
+var m__5392__auto__ = (fipp.visit.visit_var["_"]);
+if((!((m__5392__auto__ == null)))){
+return (m__5392__auto__.cljs$core$IFn$_invoke$arity$2 ? m__5392__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__5392__auto__.call(null,this$,x));
 } else {
 throw cljs.core.missing_protocol("IVisitor.visit-var",this$);
 }
@@ -331,19 +331,19 @@ fipp.visit.visit_var = (function fipp$visit$visit_var(this$,x){
 if((((!((this$ == null)))) && ((!((this$.fipp$visit$IVisitor$visit_var$arity$2 == null)))))){
 return this$.fipp$visit$IVisitor$visit_var$arity$2(this$,x);
 } else {
-return fipp$visit$IVisitor$visit_var$dyn_73395(this$,x);
+return fipp$visit$IVisitor$visit_var$dyn_44671(this$,x);
 }
 });
 
-var fipp$visit$IVisitor$visit_pattern$dyn_73396 = (function (this$,x){
-var x__4550__auto__ = (((this$ == null))?null:this$);
-var m__4551__auto__ = (fipp.visit.visit_pattern[goog.typeOf(x__4550__auto__)]);
-if((!((m__4551__auto__ == null)))){
-return (m__4551__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4551__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__4551__auto__.call(null,this$,x));
+var fipp$visit$IVisitor$visit_pattern$dyn_44673 = (function (this$,x){
+var x__5393__auto__ = (((this$ == null))?null:this$);
+var m__5394__auto__ = (fipp.visit.visit_pattern[goog.typeOf(x__5393__auto__)]);
+if((!((m__5394__auto__ == null)))){
+return (m__5394__auto__.cljs$core$IFn$_invoke$arity$2 ? m__5394__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__5394__auto__.call(null,this$,x));
 } else {
-var m__4549__auto__ = (fipp.visit.visit_pattern["_"]);
-if((!((m__4549__auto__ == null)))){
-return (m__4549__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4549__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__4549__auto__.call(null,this$,x));
+var m__5392__auto__ = (fipp.visit.visit_pattern["_"]);
+if((!((m__5392__auto__ == null)))){
+return (m__5392__auto__.cljs$core$IFn$_invoke$arity$2 ? m__5392__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__5392__auto__.call(null,this$,x));
 } else {
 throw cljs.core.missing_protocol("IVisitor.visit-pattern",this$);
 }
@@ -353,19 +353,19 @@ fipp.visit.visit_pattern = (function fipp$visit$visit_pattern(this$,x){
 if((((!((this$ == null)))) && ((!((this$.fipp$visit$IVisitor$visit_pattern$arity$2 == null)))))){
 return this$.fipp$visit$IVisitor$visit_pattern$arity$2(this$,x);
 } else {
-return fipp$visit$IVisitor$visit_pattern$dyn_73396(this$,x);
+return fipp$visit$IVisitor$visit_pattern$dyn_44673(this$,x);
 }
 });
 
-var fipp$visit$IVisitor$visit_record$dyn_73400 = (function (this$,x){
-var x__4550__auto__ = (((this$ == null))?null:this$);
-var m__4551__auto__ = (fipp.visit.visit_record[goog.typeOf(x__4550__auto__)]);
-if((!((m__4551__auto__ == null)))){
-return (m__4551__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4551__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__4551__auto__.call(null,this$,x));
+var fipp$visit$IVisitor$visit_record$dyn_44684 = (function (this$,x){
+var x__5393__auto__ = (((this$ == null))?null:this$);
+var m__5394__auto__ = (fipp.visit.visit_record[goog.typeOf(x__5393__auto__)]);
+if((!((m__5394__auto__ == null)))){
+return (m__5394__auto__.cljs$core$IFn$_invoke$arity$2 ? m__5394__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__5394__auto__.call(null,this$,x));
 } else {
-var m__4549__auto__ = (fipp.visit.visit_record["_"]);
-if((!((m__4549__auto__ == null)))){
-return (m__4549__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4549__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__4549__auto__.call(null,this$,x));
+var m__5392__auto__ = (fipp.visit.visit_record["_"]);
+if((!((m__5392__auto__ == null)))){
+return (m__5392__auto__.cljs$core$IFn$_invoke$arity$2 ? m__5392__auto__.cljs$core$IFn$_invoke$arity$2(this$,x) : m__5392__auto__.call(null,this$,x));
 } else {
 throw cljs.core.missing_protocol("IVisitor.visit-record",this$);
 }
@@ -375,7 +375,7 @@ fipp.visit.visit_record = (function fipp$visit$visit_record(this$,x){
 if((((!((this$ == null)))) && ((!((this$.fipp$visit$IVisitor$visit_record$arity$2 == null)))))){
 return this$.fipp$visit$IVisitor$visit_record$arity$2(this$,x);
 } else {
-return fipp$visit$IVisitor$visit_record$dyn_73400(this$,x);
+return fipp$visit$IVisitor$visit_record$dyn_44684(this$,x);
 }
 });
 
@@ -458,9 +458,9 @@ return null;
 }
 });
 fipp.visit.visit = (function fipp$visit$visit(visitor,x){
-var temp__5751__auto__ = fipp.visit.value_meta(x);
-if(cljs.core.truth_(temp__5751__auto__)){
-var m = temp__5751__auto__;
+var temp__5802__auto__ = fipp.visit.value_meta(x);
+if(cljs.core.truth_(temp__5802__auto__)){
+var m = temp__5802__auto__;
 return fipp.visit.visit_meta(visitor,m,x);
 } else {
 return fipp.visit.visit_STAR_(visitor,x);

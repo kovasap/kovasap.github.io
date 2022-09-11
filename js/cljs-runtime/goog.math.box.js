@@ -78,20 +78,16 @@ goog.math.Box.contains = function(box, other) {
 goog.math.Box.relativePositionX = function(box, coord) {
   if (coord.x < box.left) {
     return coord.x - box.left;
-  } else {
-    if (coord.x > box.right) {
-      return coord.x - box.right;
-    }
+  } else if (coord.x > box.right) {
+    return coord.x - box.right;
   }
   return 0;
 };
 goog.math.Box.relativePositionY = function(box, coord) {
   if (coord.y < box.top) {
     return coord.y - box.top;
-  } else {
-    if (coord.y > box.bottom) {
-      return coord.y - box.bottom;
-    }
+  } else if (coord.y > box.bottom) {
+    return coord.y - box.bottom;
   }
   return 0;
 };

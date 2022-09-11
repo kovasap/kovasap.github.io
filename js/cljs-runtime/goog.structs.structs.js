@@ -77,27 +77,23 @@ goog.structs.isEmpty = function(col) {
 goog.structs.clear = function(col) {
   if (col.clear && typeof col.clear == "function") {
     col.clear();
+  } else if (goog.isArrayLike(col)) {
+    goog.array.clear(col);
   } else {
-    if (goog.isArrayLike(col)) {
-      goog.array.clear(col);
-    } else {
-      goog.object.clear(col);
-    }
+    goog.object.clear(col);
   }
 };
 goog.structs.forEach = function(col, f, opt_obj) {
   if (col.forEach && typeof col.forEach == "function") {
     col.forEach(f, opt_obj);
+  } else if (goog.isArrayLike(col) || typeof col === "string") {
+    Array.prototype.forEach.call(col, f, opt_obj);
   } else {
-    if (goog.isArrayLike(col) || typeof col === "string") {
-      Array.prototype.forEach.call(col, f, opt_obj);
-    } else {
-      var keys = goog.structs.getKeys(col);
-      var values = goog.structs.getValues(col);
-      var l = values.length;
-      for (var i = 0; i < l; i++) {
-        f.call(opt_obj, values[i], keys && keys[i], col);
-      }
+    var keys = goog.structs.getKeys(col);
+    var values = goog.structs.getValues(col);
+    var l = values.length;
+    for (var i = 0; i < l; i++) {
+      f.call(opt_obj, values[i], keys && keys[i], col);
     }
   }
 };

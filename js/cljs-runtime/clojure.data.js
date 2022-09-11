@@ -15,10 +15,10 @@ return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMP
  */
 clojure.data.vectorize = (function clojure$data$vectorize(m){
 if(cljs.core.seq(m)){
-return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (result,p__54744){
-var vec__54748 = p__54744;
-var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__54748,(0),null);
-var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__54748,(1),null);
+return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (result,p__27513){
+var vec__27518 = p__27513;
+var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__27518,(0),null);
+var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__27518,(1),null);
 return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(result,k,v);
 }),cljs.core.vec(cljs.core.repeat.cljs$core$IFn$_invoke$arity$2(cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.max,cljs.core.keys(m)),null)),m);
 } else {
@@ -31,10 +31,10 @@ return null;
 clojure.data.diff_associative_key = (function clojure$data$diff_associative_key(a,b,k){
 var va = cljs.core.get.cljs$core$IFn$_invoke$arity$2(a,k);
 var vb = cljs.core.get.cljs$core$IFn$_invoke$arity$2(b,k);
-var vec__54768 = clojure.data.diff(va,vb);
-var a_STAR_ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__54768,(0),null);
-var b_STAR_ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__54768,(1),null);
-var ab = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__54768,(2),null);
+var vec__27528 = clojure.data.diff(va,vb);
+var a_STAR_ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__27528,(0),null);
+var b_STAR_ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__27528,(1),null);
+var ab = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__27528,(2),null);
 var in_a = cljs.core.contains_QMARK_(a,k);
 var in_b = cljs.core.contains_QMARK_(b,k);
 var same = ((in_a) && (((in_b) && ((((!((ab == null)))) || ((((va == null)) && ((vb == null)))))))));
@@ -44,8 +44,8 @@ return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMP
  * Diff associative things a and b, comparing only keys in ks (if supplied).
  */
 clojure.data.diff_associative = (function clojure$data$diff_associative(var_args){
-var G__54811 = arguments.length;
-switch (G__54811) {
+var G__27539 = arguments.length;
+switch (G__27539) {
 case 2:
 return clojure.data.diff_associative.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -73,9 +73,9 @@ return cljs.core.doall.cljs$core$IFn$_invoke$arity$1(cljs.core.map.cljs$core$IFn
 (clojure.data.diff_associative.cljs$lang$maxFixedArity = 3);
 
 clojure.data.diff_sequential = (function clojure$data$diff_sequential(a,b){
-return cljs.core.vec(cljs.core.map.cljs$core$IFn$_invoke$arity$2(clojure.data.vectorize,clojure.data.diff_associative.cljs$core$IFn$_invoke$arity$3(((cljs.core.vector_QMARK_(a))?a:cljs.core.vec(a)),((cljs.core.vector_QMARK_(b))?b:cljs.core.vec(b)),cljs.core.range.cljs$core$IFn$_invoke$arity$1((function (){var x__4336__auto__ = cljs.core.count(a);
-var y__4337__auto__ = cljs.core.count(b);
-return ((x__4336__auto__ > y__4337__auto__) ? x__4336__auto__ : y__4337__auto__);
+return cljs.core.vec(cljs.core.map.cljs$core$IFn$_invoke$arity$2(clojure.data.vectorize,clojure.data.diff_associative.cljs$core$IFn$_invoke$arity$3(((cljs.core.vector_QMARK_(a))?a:cljs.core.vec(a)),((cljs.core.vector_QMARK_(b))?b:cljs.core.vec(b)),cljs.core.range.cljs$core$IFn$_invoke$arity$1((function (){var x__5130__auto__ = cljs.core.count(a);
+var y__5131__auto__ = cljs.core.count(b);
+return ((x__5130__auto__ > y__5131__auto__) ? x__5130__auto__ : y__5131__auto__);
 })()))));
 });
 clojure.data.diff_set = (function clojure$data$diff_set(a,b){
@@ -88,15 +88,15 @@ return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMP
  */
 clojure.data.EqualityPartition = function(){};
 
-var clojure$data$EqualityPartition$equality_partition$dyn_54973 = (function (x){
-var x__4550__auto__ = (((x == null))?null:x);
-var m__4551__auto__ = (clojure.data.equality_partition[goog.typeOf(x__4550__auto__)]);
-if((!((m__4551__auto__ == null)))){
-return (m__4551__auto__.cljs$core$IFn$_invoke$arity$1 ? m__4551__auto__.cljs$core$IFn$_invoke$arity$1(x) : m__4551__auto__.call(null,x));
+var clojure$data$EqualityPartition$equality_partition$dyn_27674 = (function (x){
+var x__5393__auto__ = (((x == null))?null:x);
+var m__5394__auto__ = (clojure.data.equality_partition[goog.typeOf(x__5393__auto__)]);
+if((!((m__5394__auto__ == null)))){
+return (m__5394__auto__.cljs$core$IFn$_invoke$arity$1 ? m__5394__auto__.cljs$core$IFn$_invoke$arity$1(x) : m__5394__auto__.call(null,x));
 } else {
-var m__4549__auto__ = (clojure.data.equality_partition["_"]);
-if((!((m__4549__auto__ == null)))){
-return (m__4549__auto__.cljs$core$IFn$_invoke$arity$1 ? m__4549__auto__.cljs$core$IFn$_invoke$arity$1(x) : m__4549__auto__.call(null,x));
+var m__5392__auto__ = (clojure.data.equality_partition["_"]);
+if((!((m__5392__auto__ == null)))){
+return (m__5392__auto__.cljs$core$IFn$_invoke$arity$1 ? m__5392__auto__.cljs$core$IFn$_invoke$arity$1(x) : m__5392__auto__.call(null,x));
 } else {
 throw cljs.core.missing_protocol("EqualityPartition.equality-partition",x);
 }
@@ -109,7 +109,7 @@ clojure.data.equality_partition = (function clojure$data$equality_partition(x){
 if((((!((x == null)))) && ((!((x.clojure$data$EqualityPartition$equality_partition$arity$1 == null)))))){
 return x.clojure$data$EqualityPartition$equality_partition$arity$1(x);
 } else {
-return clojure$data$EqualityPartition$equality_partition$dyn_54973(x);
+return clojure$data$EqualityPartition$equality_partition$dyn_27674(x);
 }
 });
 
@@ -120,15 +120,15 @@ return clojure$data$EqualityPartition$equality_partition$dyn_54973(x);
  */
 clojure.data.Diff = function(){};
 
-var clojure$data$Diff$diff_similar$dyn_54982 = (function (a,b){
-var x__4550__auto__ = (((a == null))?null:a);
-var m__4551__auto__ = (clojure.data.diff_similar[goog.typeOf(x__4550__auto__)]);
-if((!((m__4551__auto__ == null)))){
-return (m__4551__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4551__auto__.cljs$core$IFn$_invoke$arity$2(a,b) : m__4551__auto__.call(null,a,b));
+var clojure$data$Diff$diff_similar$dyn_27691 = (function (a,b){
+var x__5393__auto__ = (((a == null))?null:a);
+var m__5394__auto__ = (clojure.data.diff_similar[goog.typeOf(x__5393__auto__)]);
+if((!((m__5394__auto__ == null)))){
+return (m__5394__auto__.cljs$core$IFn$_invoke$arity$2 ? m__5394__auto__.cljs$core$IFn$_invoke$arity$2(a,b) : m__5394__auto__.call(null,a,b));
 } else {
-var m__4549__auto__ = (clojure.data.diff_similar["_"]);
-if((!((m__4549__auto__ == null)))){
-return (m__4549__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4549__auto__.cljs$core$IFn$_invoke$arity$2(a,b) : m__4549__auto__.call(null,a,b));
+var m__5392__auto__ = (clojure.data.diff_similar["_"]);
+if((!((m__5392__auto__ == null)))){
+return (m__5392__auto__.cljs$core$IFn$_invoke$arity$2 ? m__5392__auto__.cljs$core$IFn$_invoke$arity$2(a,b) : m__5392__auto__.call(null,a,b));
 } else {
 throw cljs.core.missing_protocol("Diff.diff-similar",a);
 }
@@ -141,7 +141,7 @@ clojure.data.diff_similar = (function clojure$data$diff_similar(a,b){
 if((((!((a == null)))) && ((!((a.clojure$data$Diff$diff_similar$arity$2 == null)))))){
 return a.clojure$data$Diff$diff_similar$arity$2(a,b);
 } else {
-return clojure$data$Diff$diff_similar$dyn_54982(a,b);
+return clojure$data$Diff$diff_similar$dyn_27691(a,b);
 }
 });
 
@@ -238,9 +238,9 @@ return clojure.data.atom_diff(a,b);
 (clojure.data.Diff["_"] = true);
 
 (clojure.data.diff_similar["_"] = (function (a,b){
-var fexpr__54935 = (function (){var G__54943 = clojure.data.equality_partition(a);
-var G__54943__$1 = (((G__54943 instanceof cljs.core.Keyword))?G__54943.fqn:null);
-switch (G__54943__$1) {
+var fexpr__27624 = (function (){var G__27625 = clojure.data.equality_partition(a);
+var G__27625__$1 = (((G__27625 instanceof cljs.core.Keyword))?G__27625.fqn:null);
+switch (G__27625__$1) {
 case "atom":
 return clojure.data.atom_diff;
 
@@ -258,11 +258,11 @@ return clojure.data.diff_associative;
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__54943__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__27625__$1)].join('')));
 
 }
 })();
-return (fexpr__54935.cljs$core$IFn$_invoke$arity$2 ? fexpr__54935.cljs$core$IFn$_invoke$arity$2(a,b) : fexpr__54935.call(null,a,b));
+return (fexpr__27624.cljs$core$IFn$_invoke$arity$2 ? fexpr__27624.cljs$core$IFn$_invoke$arity$2(a,b) : fexpr__27624.call(null,a,b));
 }));
 /**
  * Recursively compares a and b, returning a tuple of

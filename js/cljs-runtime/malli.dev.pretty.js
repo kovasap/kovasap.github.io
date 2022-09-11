@@ -1,7 +1,7 @@
 goog.provide('malli.dev.pretty');
 malli.dev.pretty._printer = (function malli$dev$pretty$_printer(var_args){
-var G__47209 = arguments.length;
-switch (G__47209) {
+var G__50348 = arguments.length;
+switch (G__50348) {
 case 0:
 return malli.dev.pretty._printer.cljs$core$IFn$_invoke$arity$0();
 
@@ -33,25 +33,25 @@ return null;
 (malli.dev.pretty._printer.cljs$lang$maxFixedArity = 1);
 
 malli.dev.pretty._errors = (function malli$dev$pretty$_errors(explanation,printer){
-return cljs.core.interpose.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"break","break",126570225),(function (){var iter__4652__auto__ = (function malli$dev$pretty$_errors_$_iter__47210(s__47211){
+return cljs.core.interpose.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"break","break",126570225),(function (){var iter__5523__auto__ = (function malli$dev$pretty$_errors_$_iter__50349(s__50350){
 return (new cljs.core.LazySeq(null,(function (){
-var s__47211__$1 = s__47211;
+var s__50350__$1 = s__50350;
 while(true){
-var temp__5753__auto__ = cljs.core.seq(s__47211__$1);
-if(temp__5753__auto__){
-var s__47211__$2 = temp__5753__auto__;
-if(cljs.core.chunked_seq_QMARK_(s__47211__$2)){
-var c__4650__auto__ = cljs.core.chunk_first(s__47211__$2);
-var size__4651__auto__ = cljs.core.count(c__4650__auto__);
-var b__47213 = cljs.core.chunk_buffer(size__4651__auto__);
-if((function (){var i__47212 = (0);
+var temp__5804__auto__ = cljs.core.seq(s__50350__$1);
+if(temp__5804__auto__){
+var s__50350__$2 = temp__5804__auto__;
+if(cljs.core.chunked_seq_QMARK_(s__50350__$2)){
+var c__5521__auto__ = cljs.core.chunk_first(s__50350__$2);
+var size__5522__auto__ = cljs.core.count(c__5521__auto__);
+var b__50352 = cljs.core.chunk_buffer(size__5522__auto__);
+if((function (){var i__50351 = (0);
 while(true){
-if((i__47212 < size__4651__auto__)){
-var error = cljs.core._nth(c__4650__auto__,i__47212);
-cljs.core.chunk_append(b__47213,malli.dev.virhe._visit(cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,error),printer));
+if((i__50351 < size__5522__auto__)){
+var error = cljs.core._nth(c__5521__auto__,i__50351);
+cljs.core.chunk_append(b__50352,malli.dev.virhe._visit(cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,error),printer));
 
-var G__47240 = (i__47212 + (1));
-i__47212 = G__47240;
+var G__50389 = (i__50351 + (1));
+i__50351 = G__50389;
 continue;
 } else {
 return true;
@@ -59,13 +59,13 @@ return true;
 break;
 }
 })()){
-return cljs.core.chunk_cons(cljs.core.chunk(b__47213),malli$dev$pretty$_errors_$_iter__47210(cljs.core.chunk_rest(s__47211__$2)));
+return cljs.core.chunk_cons(cljs.core.chunk(b__50352),malli$dev$pretty$_errors_$_iter__50349(cljs.core.chunk_rest(s__50350__$2)));
 } else {
-return cljs.core.chunk_cons(cljs.core.chunk(b__47213),null);
+return cljs.core.chunk_cons(cljs.core.chunk(b__50352),null);
 }
 } else {
-var error = cljs.core.first(s__47211__$2);
-return cljs.core.cons(malli.dev.virhe._visit(cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,error),printer),malli$dev$pretty$_errors_$_iter__47210(cljs.core.rest(s__47211__$2)));
+var error = cljs.core.first(s__50350__$2);
+return cljs.core.cons(malli.dev.virhe._visit(cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,error),printer),malli$dev$pretty$_errors_$_iter__50349(cljs.core.rest(s__50350__$2)));
 }
 } else {
 return null;
@@ -74,7 +74,7 @@ break;
 }
 }),null,null));
 });
-return iter__4652__auto__(new cljs.core.Keyword(null,"errors","errors",-908790718).cljs$core$IFn$_invoke$arity$1(malli.error.with_error_messages.cljs$core$IFn$_invoke$arity$1(explanation)));
+return iter__5523__auto__(new cljs.core.Keyword(null,"errors","errors",-908790718).cljs$core$IFn$_invoke$arity$1(malli.error.with_error_messages.cljs$core$IFn$_invoke$arity$1(explanation)));
 })());
 });
 malli.dev.pretty._explain = (function malli$dev$pretty$_explain(schema,value,printer){
@@ -87,41 +87,41 @@ malli.dev.pretty._link = (function malli$dev$pretty$_link(link,printer){
 return malli.dev.virhe._color(new cljs.core.Keyword(null,"link","link",-1769163468),link,printer);
 });
 malli.dev.virhe._format.cljs$core$IMultiFn$_add_method$arity$3(null,new cljs.core.Keyword("malli.core","explain","malli.core/explain",36932858),(function (_,___$1,explanation,printer){
-var map__47215 = explanation;
-var map__47215__$1 = cljs.core.__destructure_map(map__47215);
-var schema = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__47215__$1,new cljs.core.Keyword(null,"schema","schema",-1582001791));
-var value = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__47215__$1,new cljs.core.Keyword(null,"value","value",305978217));
+var map__50353 = explanation;
+var map__50353__$1 = cljs.core.__destructure_map(map__50353);
+var schema = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50353__$1,new cljs.core.Keyword(null,"schema","schema",-1582001791));
+var value = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50353__$1,new cljs.core.Keyword(null,"value","value",305978217));
 return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"body","body",-2049205669),new cljs.core.PersistentVector(null, 11, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"group","group",582596132),malli.dev.pretty._block("Value:",malli.dev.virhe._visit(value,printer),printer),new cljs.core.Keyword(null,"break","break",126570225),new cljs.core.Keyword(null,"break","break",126570225),malli.dev.pretty._block("Errors:",malli.dev.virhe._visit(malli.error.humanize.cljs$core$IFn$_invoke$arity$1(explanation),printer),printer),new cljs.core.Keyword(null,"break","break",126570225),new cljs.core.Keyword(null,"break","break",126570225),malli.dev.pretty._block("Schema:",malli.dev.virhe._visit(schema,printer),printer),new cljs.core.Keyword(null,"break","break",126570225),new cljs.core.Keyword(null,"break","break",126570225),malli.dev.pretty._block("More information:",malli.dev.pretty._link("https://cljdoc.org/d/metosin/malli/CURRENT",printer),printer)], null)], null);
 }));
-malli.dev.virhe._format.cljs$core$IMultiFn$_add_method$arity$3(null,new cljs.core.Keyword("malli.core","invalid-input","malli.core/invalid-input",2010057279),(function (_,___$1,p__47216,printer){
-var map__47217 = p__47216;
-var map__47217__$1 = cljs.core.__destructure_map(map__47217);
-var args = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__47217__$1,new cljs.core.Keyword(null,"args","args",1315556576));
-var input = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__47217__$1,new cljs.core.Keyword(null,"input","input",556931961));
-var fn_name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__47217__$1,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004));
+malli.dev.virhe._format.cljs$core$IMultiFn$_add_method$arity$3(null,new cljs.core.Keyword("malli.core","invalid-input","malli.core/invalid-input",2010057279),(function (_,___$1,p__50354,printer){
+var map__50355 = p__50354;
+var map__50355__$1 = cljs.core.__destructure_map(map__50355);
+var args = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50355__$1,new cljs.core.Keyword(null,"args","args",1315556576));
+var input = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50355__$1,new cljs.core.Keyword(null,"input","input",556931961));
+var fn_name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50355__$1,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004));
 return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"body","body",-2049205669),new cljs.core.PersistentVector(null, 14, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"group","group",582596132),malli.dev.pretty._block("Invalid function arguments:",malli.dev.virhe._visit(args,printer),printer),new cljs.core.Keyword(null,"break","break",126570225),new cljs.core.Keyword(null,"break","break",126570225),malli.dev.pretty._block("Function Var:",malli.dev.virhe._visit(fn_name,printer),printer),new cljs.core.Keyword(null,"break","break",126570225),new cljs.core.Keyword(null,"break","break",126570225),malli.dev.pretty._block("Input Schema:",malli.dev.virhe._visit(input,printer),printer),new cljs.core.Keyword(null,"break","break",126570225),new cljs.core.Keyword(null,"break","break",126570225),malli.dev.pretty._block("Errors:",malli.dev.pretty._explain(input,args,printer),printer),new cljs.core.Keyword(null,"break","break",126570225),new cljs.core.Keyword(null,"break","break",126570225),malli.dev.pretty._block("More information:",malli.dev.pretty._link("https://cljdoc.org/d/metosin/malli/CURRENT/doc/function-schemas",printer),printer)], null)], null);
 }));
-malli.dev.virhe._format.cljs$core$IMultiFn$_add_method$arity$3(null,new cljs.core.Keyword("malli.core","invalid-output","malli.core/invalid-output",-147363519),(function (_,___$1,p__47219,printer){
-var map__47220 = p__47219;
-var map__47220__$1 = cljs.core.__destructure_map(map__47220);
-var args = map__47220__$1;
-var value = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__47220__$1,new cljs.core.Keyword(null,"value","value",305978217));
-var output = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__47220__$1,new cljs.core.Keyword(null,"output","output",-1105869043));
-var fn_name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__47220__$1,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004));
-return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"body","body",-2049205669),new cljs.core.PersistentVector(null, 14, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"group","group",582596132),malli.dev.pretty._block("Invalid function return value:",malli.dev.virhe._visit(value,printer),printer),new cljs.core.Keyword(null,"break","break",126570225),new cljs.core.Keyword(null,"break","break",126570225),malli.dev.pretty._block("Function Var:",malli.dev.virhe._visit(fn_name,printer),printer),new cljs.core.Keyword(null,"break","break",126570225),new cljs.core.Keyword(null,"break","break",126570225),malli.dev.pretty._block("Output Schema:",malli.dev.virhe._visit(output,printer),printer),new cljs.core.Keyword(null,"break","break",126570225),new cljs.core.Keyword(null,"break","break",126570225),malli.dev.pretty._block("Errors:",malli.dev.pretty._explain(output,value,printer),printer),new cljs.core.Keyword(null,"break","break",126570225),new cljs.core.Keyword(null,"break","break",126570225),malli.dev.pretty._block("More information:",malli.dev.pretty._link("https://cljdoc.org/d/metosin/malli/CURRENT/doc/function-schemas",printer),printer)], null)], null);
+malli.dev.virhe._format.cljs$core$IMultiFn$_add_method$arity$3(null,new cljs.core.Keyword("malli.core","invalid-output","malli.core/invalid-output",-147363519),(function (_,___$1,p__50356,printer){
+var map__50357 = p__50356;
+var map__50357__$1 = cljs.core.__destructure_map(map__50357);
+var value = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50357__$1,new cljs.core.Keyword(null,"value","value",305978217));
+var args = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50357__$1,new cljs.core.Keyword(null,"args","args",1315556576));
+var output = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50357__$1,new cljs.core.Keyword(null,"output","output",-1105869043));
+var fn_name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50357__$1,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004));
+return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"body","body",-2049205669),new cljs.core.PersistentVector(null, 17, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"group","group",582596132),malli.dev.pretty._block("Invalid function return value:",malli.dev.virhe._visit(value,printer),printer),new cljs.core.Keyword(null,"break","break",126570225),new cljs.core.Keyword(null,"break","break",126570225),malli.dev.pretty._block("Function Var:",malli.dev.virhe._visit(fn_name,printer),printer),new cljs.core.Keyword(null,"break","break",126570225),new cljs.core.Keyword(null,"break","break",126570225),malli.dev.pretty._block("Function arguments:",malli.dev.virhe._visit(args,printer),printer),new cljs.core.Keyword(null,"break","break",126570225),new cljs.core.Keyword(null,"break","break",126570225),malli.dev.pretty._block("Output Schema:",malli.dev.virhe._visit(output,printer),printer),new cljs.core.Keyword(null,"break","break",126570225),new cljs.core.Keyword(null,"break","break",126570225),malli.dev.pretty._block("Errors:",malli.dev.pretty._explain(output,value,printer),printer),new cljs.core.Keyword(null,"break","break",126570225),new cljs.core.Keyword(null,"break","break",126570225),malli.dev.pretty._block("More information:",malli.dev.pretty._link("https://cljdoc.org/d/metosin/malli/CURRENT/doc/function-schemas",printer),printer)], null)], null);
 }));
-malli.dev.virhe._format.cljs$core$IMultiFn$_add_method$arity$3(null,new cljs.core.Keyword("malli.core","invalid-arity","malli.core/invalid-arity",577014581),(function (_,___$1,p__47222,printer){
-var map__47223 = p__47222;
-var map__47223__$1 = cljs.core.__destructure_map(map__47223);
-var args = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__47223__$1,new cljs.core.Keyword(null,"args","args",1315556576));
-var arity = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__47223__$1,new cljs.core.Keyword(null,"arity","arity",-1808556135));
-var schema = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__47223__$1,new cljs.core.Keyword(null,"schema","schema",-1582001791));
-var fn_name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__47223__$1,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004));
+malli.dev.virhe._format.cljs$core$IMultiFn$_add_method$arity$3(null,new cljs.core.Keyword("malli.core","invalid-arity","malli.core/invalid-arity",577014581),(function (_,___$1,p__50358,printer){
+var map__50359 = p__50358;
+var map__50359__$1 = cljs.core.__destructure_map(map__50359);
+var args = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50359__$1,new cljs.core.Keyword(null,"args","args",1315556576));
+var arity = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50359__$1,new cljs.core.Keyword(null,"arity","arity",-1808556135));
+var schema = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50359__$1,new cljs.core.Keyword(null,"schema","schema",-1582001791));
+var fn_name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50359__$1,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004));
 return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"body","body",-2049205669),new cljs.core.PersistentVector(null, 11, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"group","group",582596132),malli.dev.pretty._block(["Invalid function arity (",cljs.core.str.cljs$core$IFn$_invoke$arity$1(arity),"):"].join(''),malli.dev.virhe._visit(args,printer),printer),new cljs.core.Keyword(null,"break","break",126570225),new cljs.core.Keyword(null,"break","break",126570225),malli.dev.pretty._block("Function Schema:",malli.dev.virhe._visit(schema,printer),printer),new cljs.core.Keyword(null,"break","break",126570225),new cljs.core.Keyword(null,"break","break",126570225),malli.dev.pretty._block("Function Var:",malli.dev.virhe._visit(fn_name,printer),printer),new cljs.core.Keyword(null,"break","break",126570225),new cljs.core.Keyword(null,"break","break",126570225),malli.dev.pretty._block("More information:",malli.dev.pretty._link("https://cljdoc.org/d/metosin/malli/CURRENT/doc/function-schemas",printer),printer)], null)], null);
 }));
 malli.dev.pretty.reporter = (function malli$dev$pretty$reporter(var_args){
-var G__47225 = arguments.length;
-switch (G__47225) {
+var G__50361 = arguments.length;
+switch (G__50361) {
 case 0:
 return malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
 
@@ -142,23 +142,23 @@ return malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$1(malli.dev.pretty.
 
 (malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$1 = (function (printer){
 return (function (type,data){
-return cljs.core.println.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(function (){var sb__4795__auto__ = (new goog.string.StringBuffer());
-var _STAR_print_newline_STAR__orig_val__47226_47250 = cljs.core._STAR_print_newline_STAR_;
-var _STAR_print_fn_STAR__orig_val__47227_47251 = cljs.core._STAR_print_fn_STAR_;
-var _STAR_print_newline_STAR__temp_val__47228_47252 = true;
-var _STAR_print_fn_STAR__temp_val__47229_47253 = (function (x__4796__auto__){
-return sb__4795__auto__.append(x__4796__auto__);
+return cljs.core.println.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(function (){var sb__5690__auto__ = (new goog.string.StringBuffer());
+var _STAR_print_newline_STAR__orig_val__50364_50397 = cljs.core._STAR_print_newline_STAR_;
+var _STAR_print_fn_STAR__orig_val__50365_50398 = cljs.core._STAR_print_fn_STAR_;
+var _STAR_print_newline_STAR__temp_val__50366_50399 = true;
+var _STAR_print_fn_STAR__temp_val__50367_50400 = (function (x__5691__auto__){
+return sb__5690__auto__.append(x__5691__auto__);
 });
-(cljs.core._STAR_print_newline_STAR_ = _STAR_print_newline_STAR__temp_val__47228_47252);
+(cljs.core._STAR_print_newline_STAR_ = _STAR_print_newline_STAR__temp_val__50366_50399);
 
-(cljs.core._STAR_print_fn_STAR_ = _STAR_print_fn_STAR__temp_val__47229_47253);
+(cljs.core._STAR_print_fn_STAR_ = _STAR_print_fn_STAR__temp_val__50367_50400);
 
 try{malli.dev.virhe._print_doc(malli.dev.virhe._exception_doc(cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2(cljs.core.str.cljs$core$IFn$_invoke$arity$1(type),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"type","type",1174270348),type,new cljs.core.Keyword(null,"data","data",-232669377),data], null)),printer),printer);
-}finally {(cljs.core._STAR_print_fn_STAR_ = _STAR_print_fn_STAR__orig_val__47227_47251);
+}finally {(cljs.core._STAR_print_fn_STAR_ = _STAR_print_fn_STAR__orig_val__50365_50398);
 
-(cljs.core._STAR_print_newline_STAR_ = _STAR_print_newline_STAR__orig_val__47226_47250);
+(cljs.core._STAR_print_newline_STAR_ = _STAR_print_newline_STAR__orig_val__50364_50397);
 }
-return cljs.core.str.cljs$core$IFn$_invoke$arity$1(sb__4795__auto__);
+return cljs.core.str.cljs$core$IFn$_invoke$arity$1(sb__5690__auto__);
 })()], 0));
 });
 }));
@@ -166,8 +166,8 @@ return cljs.core.str.cljs$core$IFn$_invoke$arity$1(sb__4795__auto__);
 (malli.dev.pretty.reporter.cljs$lang$maxFixedArity = 1);
 
 malli.dev.pretty.thrower = (function malli$dev$pretty$thrower(var_args){
-var G__47231 = arguments.length;
-switch (G__47231) {
+var G__50370 = arguments.length;
+switch (G__50370) {
 case 0:
 return malli.dev.pretty.thrower.cljs$core$IFn$_invoke$arity$0();
 
@@ -189,23 +189,23 @@ return malli.dev.pretty.thrower.cljs$core$IFn$_invoke$arity$1(malli.dev.pretty._
 (malli.dev.pretty.thrower.cljs$core$IFn$_invoke$arity$1 = (function (printer){
 var report = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$1(printer);
 return (function (type,data){
-var message = (function (){var sb__4795__auto__ = (new goog.string.StringBuffer());
-var _STAR_print_newline_STAR__orig_val__47232_47259 = cljs.core._STAR_print_newline_STAR_;
-var _STAR_print_fn_STAR__orig_val__47233_47260 = cljs.core._STAR_print_fn_STAR_;
-var _STAR_print_newline_STAR__temp_val__47234_47261 = true;
-var _STAR_print_fn_STAR__temp_val__47235_47262 = (function (x__4796__auto__){
-return sb__4795__auto__.append(x__4796__auto__);
+var message = (function (){var sb__5690__auto__ = (new goog.string.StringBuffer());
+var _STAR_print_newline_STAR__orig_val__50377_50402 = cljs.core._STAR_print_newline_STAR_;
+var _STAR_print_fn_STAR__orig_val__50378_50403 = cljs.core._STAR_print_fn_STAR_;
+var _STAR_print_newline_STAR__temp_val__50379_50404 = true;
+var _STAR_print_fn_STAR__temp_val__50380_50405 = (function (x__5691__auto__){
+return sb__5690__auto__.append(x__5691__auto__);
 });
-(cljs.core._STAR_print_newline_STAR_ = _STAR_print_newline_STAR__temp_val__47234_47261);
+(cljs.core._STAR_print_newline_STAR_ = _STAR_print_newline_STAR__temp_val__50379_50404);
 
-(cljs.core._STAR_print_fn_STAR_ = _STAR_print_fn_STAR__temp_val__47235_47262);
+(cljs.core._STAR_print_fn_STAR_ = _STAR_print_fn_STAR__temp_val__50380_50405);
 
 try{report(type,data);
-}finally {(cljs.core._STAR_print_fn_STAR_ = _STAR_print_fn_STAR__orig_val__47233_47260);
+}finally {(cljs.core._STAR_print_fn_STAR_ = _STAR_print_fn_STAR__orig_val__50378_50403);
 
-(cljs.core._STAR_print_newline_STAR_ = _STAR_print_newline_STAR__orig_val__47232_47259);
+(cljs.core._STAR_print_newline_STAR_ = _STAR_print_newline_STAR__orig_val__50377_50402);
 }
-return cljs.core.str.cljs$core$IFn$_invoke$arity$1(sb__4795__auto__);
+return cljs.core.str.cljs$core$IFn$_invoke$arity$1(sb__5690__auto__);
 })();
 throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2(message,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"type","type",1174270348),type,new cljs.core.Keyword(null,"data","data",-232669377),data], null));
 });
@@ -214,48 +214,48 @@ throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2(message,new cljs.core.Pers
 (malli.dev.pretty.thrower.cljs$lang$maxFixedArity = 1);
 
 malli.dev.pretty.prettifier = (function malli$dev$pretty$prettifier(type,title,f,options){
-var printer = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3((function (){var or__4253__auto__ = new cljs.core.Keyword("malli.dev.pretty","printer","malli.dev.pretty/printer",-1293932392).cljs$core$IFn$_invoke$arity$1(options);
-if(cljs.core.truth_(or__4253__auto__)){
-return or__4253__auto__;
+var printer = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3((function (){var or__5045__auto__ = new cljs.core.Keyword("malli.dev.pretty","printer","malli.dev.pretty/printer",-1293932392).cljs$core$IFn$_invoke$arity$1(options);
+if(cljs.core.truth_(or__5045__auto__)){
+return or__5045__auto__;
 } else {
 return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(malli.dev.pretty._printer.cljs$core$IFn$_invoke$arity$0(),new cljs.core.Keyword(null,"width","width",-384071477),(60));
 }
 })(),new cljs.core.Keyword(null,"title","title",636505583),title);
 var actor = new cljs.core.Keyword("malli.dev.pretty","actor","malli.dev.pretty/actor",-1785917433).cljs$core$IFn$_invoke$arity$2(options,malli.dev.pretty.reporter);
 return (function() { 
-var G__47265__delegate = function (args){
-var temp__5753__auto__ = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(f,args);
-if(cljs.core.truth_(temp__5753__auto__)){
-var res = temp__5753__auto__;
-var fexpr__47236_47268 = (actor.cljs$core$IFn$_invoke$arity$1 ? actor.cljs$core$IFn$_invoke$arity$1(printer) : actor.call(null,printer));
-(fexpr__47236_47268.cljs$core$IFn$_invoke$arity$2 ? fexpr__47236_47268.cljs$core$IFn$_invoke$arity$2(type,res) : fexpr__47236_47268.call(null,type,res));
+var G__50409__delegate = function (args){
+var temp__5804__auto__ = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(f,args);
+if(cljs.core.truth_(temp__5804__auto__)){
+var res = temp__5804__auto__;
+var fexpr__50383_50411 = (actor.cljs$core$IFn$_invoke$arity$1 ? actor.cljs$core$IFn$_invoke$arity$1(printer) : actor.call(null,printer));
+(fexpr__50383_50411.cljs$core$IFn$_invoke$arity$2 ? fexpr__50383_50411.cljs$core$IFn$_invoke$arity$2(type,res) : fexpr__50383_50411.call(null,type,res));
 
 return res;
 } else {
 return null;
 }
 };
-var G__47265 = function (var_args){
+var G__50409 = function (var_args){
 var args = null;
 if (arguments.length > 0) {
-var G__47269__i = 0, G__47269__a = new Array(arguments.length -  0);
-while (G__47269__i < G__47269__a.length) {G__47269__a[G__47269__i] = arguments[G__47269__i + 0]; ++G__47269__i;}
-  args = new cljs.core.IndexedSeq(G__47269__a,0,null);
+var G__50413__i = 0, G__50413__a = new Array(arguments.length -  0);
+while (G__50413__i < G__50413__a.length) {G__50413__a[G__50413__i] = arguments[G__50413__i + 0]; ++G__50413__i;}
+  args = new cljs.core.IndexedSeq(G__50413__a,0,null);
 } 
-return G__47265__delegate.call(this,args);};
-G__47265.cljs$lang$maxFixedArity = 0;
-G__47265.cljs$lang$applyTo = (function (arglist__47271){
-var args = cljs.core.seq(arglist__47271);
-return G__47265__delegate(args);
+return G__50409__delegate.call(this,args);};
+G__50409.cljs$lang$maxFixedArity = 0;
+G__50409.cljs$lang$applyTo = (function (arglist__50414){
+var args = cljs.core.seq(arglist__50414);
+return G__50409__delegate(args);
 });
-G__47265.cljs$core$IFn$_invoke$arity$variadic = G__47265__delegate;
-return G__47265;
+G__50409.cljs$core$IFn$_invoke$arity$variadic = G__50409__delegate;
+return G__50409;
 })()
 ;
 });
 malli.dev.pretty.explain = (function malli$dev$pretty$explain(var_args){
-var G__47238 = arguments.length;
-switch (G__47238) {
+var G__50386 = arguments.length;
+switch (G__50386) {
 case 2:
 return malli.dev.pretty.explain.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 

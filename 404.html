@@ -16,7 +16,7 @@
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.4ec7fab1cd5831e6981ff1f65306eadd6159f418ef8640003670748784b1cd2d.css" integrity="sha256-Tsf6sc1YMeaYH/H2Uwbq3WFZ9BjvhkAANnB0h4SxzS0=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.0b65fbb8bc14c87a4730435977147440640f833dcf16b5c73c93cdf234c3718e.js" integrity="sha256-C2X7uLwUyHpHMENZdxR0QGQPgz3PFrXHPJPN8jTDcY4=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.76558bc5376546703e59ad03065478cc133ef06dac54e92f30524d6243947128.js" integrity="sha256-dlWLxTdlRnA&#43;Wa0DBlR4zBM&#43;8G2sVOkvMFJNYkOUcSg=" crossorigin="anonymous"></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -57,22 +57,6 @@ const urlParams = new URLSearchParams(window.location.search);
 
 
 window.onload = function() {  
-    var cur_page = window.location.pathname;
-    console.log(cur_page);
-    var path_elements = cur_page.split('/').slice(2, -2);
-    path_elements.forEach(
-        element => {
-            console.log(element);
-            var page_element = document.getElementById(element);
-            if (page_element !== null) {
-                page_element.open = true;
-            }
-        });
-    
-    
-    
-    
-
     
     if (urlParams.get('embed') == '1') {
         ['book-menu', 'book-toc', 'book-header'].forEach(

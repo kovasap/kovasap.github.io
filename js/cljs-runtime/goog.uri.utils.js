@@ -182,10 +182,8 @@ goog.uri.utils.appendKeyValuePairs_ = function(key, value, pairs) {
     for (var j = 0; j < value.length; j++) {
       goog.uri.utils.appendKeyValuePairs_(key, String(value[j]), pairs);
     }
-  } else {
-    if (value != null) {
-      pairs.push(key + (value === "" ? "" : "\x3d" + goog.string.urlEncode(value)));
-    }
+  } else if (value != null) {
+    pairs.push(key + (value === "" ? "" : "\x3d" + goog.string.urlEncode(value)));
   }
 };
 goog.uri.utils.buildQueryData = function(keysAndValues, opt_startIndex) {

@@ -9,39 +9,42 @@ return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(s) : f
 });
 });
 malli.instrument.cljs._filter_ns = (function malli$instrument$cljs$_filter_ns(var_args){
-var args__4870__auto__ = [];
-var len__4864__auto___69676 = arguments.length;
-var i__4865__auto___69677 = (0);
+var args__5775__auto__ = [];
+var len__5769__auto___50176 = arguments.length;
+var i__5770__auto___50177 = (0);
 while(true){
-if((i__4865__auto___69677 < len__4864__auto___69676)){
-args__4870__auto__.push((arguments[i__4865__auto___69677]));
+if((i__5770__auto___50177 < len__5769__auto___50176)){
+args__5775__auto__.push((arguments[i__5770__auto___50177]));
 
-var G__69678 = (i__4865__auto___69677 + (1));
-i__4865__auto___69677 = G__69678;
+var G__50178 = (i__5770__auto___50177 + (1));
+i__5770__auto___50177 = G__50178;
 continue;
 } else {
 }
 break;
 }
 
-var argseq__4871__auto__ = ((((0) < args__4870__auto__.length))?(new cljs.core.IndexedSeq(args__4870__auto__.slice((0)),(0),null)):null);
-return malli.instrument.cljs._filter_ns.cljs$core$IFn$_invoke$arity$variadic(argseq__4871__auto__);
+var argseq__5776__auto__ = ((((0) < args__5775__auto__.length))?(new cljs.core.IndexedSeq(args__5775__auto__.slice((0)),(0),null)):null);
+return malli.instrument.cljs._filter_ns.cljs$core$IFn$_invoke$arity$variadic(argseq__5776__auto__);
 });
 
 (malli.instrument.cljs._filter_ns.cljs$core$IFn$_invoke$arity$variadic = (function (ns){
 return (function (n,_,___$1){
-var fexpr__69671 = cljs.core.set(ns);
-return (fexpr__69671.cljs$core$IFn$_invoke$arity$1 ? fexpr__69671.cljs$core$IFn$_invoke$arity$1(n) : fexpr__69671.call(null,n));
+var fexpr__50166 = cljs.core.set(ns);
+return (fexpr__50166.cljs$core$IFn$_invoke$arity$1 ? fexpr__50166.cljs$core$IFn$_invoke$arity$1(n) : fexpr__50166.call(null,n));
 });
 }));
 
 (malli.instrument.cljs._filter_ns.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(malli.instrument.cljs._filter_ns.cljs$lang$applyTo = (function (seq69662){
-var self__4852__auto__ = this;
-return self__4852__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq69662));
+(malli.instrument.cljs._filter_ns.cljs$lang$applyTo = (function (seq50165){
+var self__5755__auto__ = this;
+return self__5755__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq50165));
 }));
 
+malli.instrument.cljs.perform_check = (function malli$instrument$cljs$perform_check(schema,f){
+return malli.generator.check.cljs$core$IFn$_invoke$arity$2(schema,f);
+});
 
 //# sourceMappingURL=malli.instrument.cljs.js.map
