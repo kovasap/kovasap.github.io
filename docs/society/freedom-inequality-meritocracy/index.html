@@ -3,18 +3,16 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Rain in Seattle # As I&rsquo;ve experienced Seattle weather day to day, my mind has come up with random theories for periods of the day (morning, afternoon) when it rains the most/least. This is important to me enough to think about because I commute by bike. Dodging the rain is really nice when possible so that I don&rsquo;t get as wet on the way to work.
-Unfortunately, there doesn&rsquo;t seem to be much correlation at all with time of day and precipitation.">
+<meta name="description" content="Freedom, Inequality, and Meritocracy # I was listening to the rational reminder financial podcast and they had an episode about financial literacy and one of the statistics they mentioned was 30 to 40% of retirement savings can be explained by financial literacy alone. If true, it’s kind of crazy to think that a large fraction of the financial inequality in at least the United States or wherever the study was done is due to financial literacy.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
-<meta property="og:description" content="Rain in Seattle # As I&rsquo;ve experienced Seattle weather day to day, my mind has come up with random theories for periods of the day (morning, afternoon) when it rains the most/least. This is important to me enough to think about because I commute by bike. Dodging the rain is really nice when possible so that I don&rsquo;t get as wet on the way to work.
-Unfortunately, there doesn&rsquo;t seem to be much correlation at all with time of day and precipitation." />
+<meta property="og:description" content="Freedom, Inequality, and Meritocracy # I was listening to the rational reminder financial podcast and they had an episode about financial literacy and one of the statistics they mentioned was 30 to 40% of retirement savings can be explained by financial literacy alone. If true, it’s kind of crazy to think that a large fraction of the financial inequality in at least the United States or wherever the study was done is due to financial literacy." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://kovasap.github.io/docs/datavis/seattle-rain/" /><meta property="article:section" content="docs" />
+<meta property="og:url" content="https://kovasap.github.io/docs/society/freedom-inequality-meritocracy/" /><meta property="article:section" content="docs" />
 
-<meta property="article:modified_time" content="2022-06-20T12:27:32-07:00" />
+<meta property="article:modified_time" content="2022-09-19T14:37:49-07:00" />
 
-<title>Seattle Rain | Things to Remember</title>
+<title>Freedom Inequality Meritocracy | Things to Remember</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.4ec7fab1cd5831e6981ff1f65306eadd6159f418ef8640003670748784b1cd2d.css" integrity="sha256-Tsf6sc1YMeaYH/H2Uwbq3WFZ9BjvhkAANnB0h4SxzS0=" crossorigin="anonymous">
@@ -40,8 +38,6 @@ https://github.com/alex-shpak/hugo-book
 <link href="/css/style.css" rel="stylesheet" type="text/css">
 <script src="/js/website_helpers.js" type="text/javascript"></script>
 
-
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
 
 <script>
@@ -207,7 +203,7 @@ window.onload = function() {
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Seattle Rain</strong>
+  <strong>Freedom Inequality Meritocracy</strong>
 
   <label for="toc-control">
     
@@ -221,12 +217,7 @@ window.onload = function() {
   <aside class="hidden clearfix">
     
   
-<nav id="TableOfContents">
-  <ul>
-    <li><a href="#data">Data</a></li>
-    <li><a href="#analysis">Analysis</a></li>
-  </ul>
-</nav>
+<nav id="TableOfContents"></nav>
 
 
 
@@ -237,67 +228,51 @@ window.onload = function() {
 
       
       
-  <article class="markdown"><h1 id="rain-in-seattle">
-  Rain in Seattle
-  <a class="anchor" href="#rain-in-seattle">#</a>
+  <article class="markdown"><h1 id="freedom-inequality-and-meritocracy">
+  Freedom, Inequality, and Meritocracy
+  <a class="anchor" href="#freedom-inequality-and-meritocracy">#</a>
 </h1>
-<p>As I&rsquo;ve experienced Seattle weather day to day, my mind has come up with random
-theories for periods of the day (morning, afternoon) when it rains the
-most/least. This is important to me enough to think about because I commute by
-bike. Dodging the rain is really nice when possible so that I don&rsquo;t get as wet
-on the way to work.</p>
-<p><strong>Unfortunately, there doesn&rsquo;t seem to be much correlation at all with time of
-day and precipitation.</strong> Read on to see how I discovered this&hellip;</p>
-<h2 id="data">
-  Data
-  <a class="anchor" href="#data">#</a>
-</h2>
-<p>I thought I&rsquo;d try answering the question once and for all by looking at some
-weather station data.  I first tried getting data via this service:
-<a href="https://www.ncdc.noaa.gov/cdo-web/datasets">https://www.ncdc.noaa.gov/cdo-web/datasets</a>.  Unfortunately, the data I got was
-pretty inconsistent. I talked to a meteorologist from NOAA via their help email
-and was redirected to some <a href="https://www1.ncdc.noaa.gov/pub/data/hpd/auto/v2/beta/15min/">beta
-data</a>. For this
-data, I needed to pick a station, so I looked in the <code>hpd-stations-inventory</code>
-file and found a list of Washington stations with coordinates. I loaded these
-up using <a href="https://webapps.stackexchange.com/a/102780">Google Maps</a> and found
-that the Everett station was the closest one to Seattle (there was no station
-in Seattle proper 🙁). Then I found and downloaded the file corresponding to
-this station ID (USC00452675).</p>
-<h2 id="analysis">
-  Analysis
-  <a class="anchor" href="#analysis">#</a>
-</h2>
-<p>I analyzed the data using plotly with <a href="https://github.com/kovasap/weather-data">this
-code</a>. This code calculates the
-probability that it will rain in all the historical data during any given
-15-minute interval and plots that number, with error bars given as the standard
-deviation.  I first did data from 2019-2021 for speed of processing&hellip;</p>
-
-
-
-<div id="/USC00452675.15m.2019-2021.csv.json" class="plotly" style="height:1800px maxHeight:1800px"></div>
-<script>
-Plotly.d3.json("/USC00452675.15m.2019-2021.csv.json", function(err, fig) {
-    Plotly.plot('\/USC00452675.15m.2019-2021.csv.json', fig.data, fig.layout, {responsive: false});
-});
-</script>
-
-<p>&hellip;and I saw some trends! Especially in August and July it looked like it
-didn&rsquo;t ever rain in the afternoon. This got me excited to think I&rsquo;d learned
-something, so I ran with more data (2000-2021)&hellip;</p>
-
-
-
-<div id="/USC00452675.15m.2000-2021.csv.json" class="plotly" style="height:1800px maxHeight:1800px"></div>
-<script>
-Plotly.d3.json("/USC00452675.15m.2000-2021.csv.json", function(err, fig) {
-    Plotly.plot('\/USC00452675.15m.2000-2021.csv.json', fig.data, fig.layout, {responsive: false});
-});
-</script>
-
-<p>&hellip;and everything averaged out 😦.</p>
-<p>Categories: <a href="/?Datavis=true">Datavis</a></p>
+<p>I was listening to the rational reminder financial podcast and they had <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9yYXRpb25hbHJlbWluZGVyLmxpYnN5bi5jb20vcnNz/episode/ZjQyYThmNjktZjhiMC00MzFmLTk0NzQtM2EwZTY2ODc0ZTk5?ep=14">an
+episode about financial
+literacy</a>
+and one of the statistics they mentioned was 30 to 40% of retirement savings can
+be explained by financial literacy alone.
+If true, it’s kind of crazy to think that a large fraction of the financial
+inequality in at least the United States or wherever the study was done is due
+to financial literacy.</p>
+<p>This got me thinking more generally about the price of freedom to make our own
+choices and to play the game of life.
+I feel like in a very individualistic society like the United States people have
+a lot of freedom with their choices and there&rsquo;s relatively little guidance or
+forced defaulting that helps guide people to make the right decisions.
+For instance, I can do whatever I want with my own money: I can invest it in
+whatever I want, or just put it all in the bank without investing it anywhere.
+I can buy the most random stuff with it and there&rsquo;s no real fall back if I make
+poor decisions - I just have to suffer the consequences.
+This is true with a lot of other things too like physical health, media
+consumption habits, mental health, etc.
+A lot of these areas are very unintuitive and difficult to perform well in so
+it&rsquo;s very easy to “lose” the game of life in certain dimensions without the
+defaulting or other guardrails that are less &ldquo;free&rdquo; society would provide to its
+citizens.
+I think this freedom to make decisions and stuff has a lot of benefits but
+without any defaults I feel like you can lead a lot of people to make really
+poor decisions just because they don&rsquo;t know any better and that can perpetuate a
+lot of problems like social inequality.</p>
+<p>This line of thinking has made me think that &ldquo;information inequality&rdquo; via lack
+of exposure to people who talk about finances or talk about health or whatever
+might be a bigger problem than I thought.
+If someone doesn&rsquo;t expose themselves to said people or their culture doesn&rsquo;t
+really value this kind of knowledge, or has suboptimal opinions on how to
+approach these topics, they are going to have a harder time succeeding in life.
+They will be making worse decisions due to their information environment.</p>
+<p>I think having the government provide some basic default services that people
+have to opt out of might help combat this inequality.
+The price of these services would be deducted from paychecks, but if people
+wanted to solve these problems themselves they could just opt out and get their
+money directly.
+There&rsquo;s probably a lot of problems with this idea that I haven&rsquo;t thought of.</p>
+<p>Categories: <a href="/?Society=true">Society</a></p>
 </article>
  
       
@@ -307,16 +282,16 @@ Plotly.d3.json("/USC00452675.15m.2000-2021.csv.json", function(err, fig) {
   <div class="flex flex-wrap justify-between">
 
 
-  <div><a class="flex align-center" href="https://github.com/kovasap/website/commit/4fdb9bb2a5733f518c5a60c0b897f53cb21a1c0c" title='Last modified by Kovas Palunas | June 20, 2022' target="_blank" rel="noopener">
+  <div><a class="flex align-center" href="https://github.com/kovasap/website/commit/5e1191f318e3eb4a861d856a2e3214e49cf82727" title='Last modified by Kovas Palunas | September 19, 2022' target="_blank" rel="noopener">
       <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
-      <span>June 20, 2022</span>
+      <span>September 19, 2022</span>
     </a>
   </div>
 
 
 
   <div>
-    <a class="flex align-center" href="https://github.com/kovasap/website/tree/master/content/docs/datavis/seattle-rain.md" target="_blank" rel="noopener">
+    <a class="flex align-center" href="https://github.com/kovasap/website/tree/master/content/docs/society/freedom-inequality-meritocracy.md" target="_blank" rel="noopener">
       <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
       <span>Edit this page</span>
     </a>
@@ -350,12 +325,7 @@ Plotly.d3.json("/USC00452675.15m.2000-2021.csv.json", function(err, fig) {
       <div class="book-toc-content">
         
   
-<nav id="TableOfContents">
-  <ul>
-    <li><a href="#data">Data</a></li>
-    <li><a href="#analysis">Analysis</a></li>
-  </ul>
-</nav>
+<nav id="TableOfContents"></nav>
 
 
  
