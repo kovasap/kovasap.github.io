@@ -1358,7 +1358,7 @@ Paprika # An app that parses recipes out of the cancer that is most recipe websi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/lifestyle-optimizations/daily-physiological-tricks/</guid>
-      <description>Daily Physiological Tricks # Do as much cleaning (e.g. dishwasher loading and emptying) as possible while cooking or right before eating. Potential hunger and being already moving around makes it much easier to do this than after sitting and eating for a while. Try some of these ideas when feeling unfocused/unproductive/writer&amp;rsquo;s blocked. Eat one plate of food (even a large one), then wait &amp;gt;2 hours before eating more. It&amp;rsquo;s really easy for me to feel overfull when going for seconds 10 mins after eating.</description>
+      <description>Daily Physiological Tricks # Mental # Do as much cleaning (e.g. dishwasher loading and emptying) as possible while cooking or right before eating. Potential hunger and being already moving around makes it much easier to do this than after sitting and eating for a while. Try some of these ideas when feeling unfocused/unproductive/writer&amp;rsquo;s blocked. When having a conversation with someone, try to use some of these concepts to make the discussion more productive.</description>
     </item>
     
     <item>
@@ -1644,6 +1644,17 @@ Thinking, Fast and Slow by Daniel Kahneman # Video inspired by book done by Veri
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/mind/intelligence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/mind/intelligence/</guid>
+      <description>Intelligence # Disclaimer: This is not based on any specific research, just my own personal observations and discussions. I would love to be shown that any of this is wrong!
+I don&amp;rsquo;t think that intelligence is a useful concept, and don&amp;rsquo;t think that some kind of &amp;ldquo;general intelligence&amp;rdquo; (e.g. IQ) even exists in the way it&amp;rsquo;s commonly invoked (e.g. &amp;ldquo;Alex is more intelligent than Tom&amp;rdquo;).
+My main critique is that the human brain is very context/domain specific in it&amp;rsquo;s ability.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/mind/motivation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1680,6 +1691,16 @@ Karl Popper and/or Immanuel Kant Real progress requires the act of creation, whi
       
       <guid>https://kovasap.github.io/docs/mind/perspective/</guid>
       <description>Perspective # One way to think about perspective is as the narrative you tell yourself about the world. I think that perspective really strongly shapes more than anything else your experience and even your abilities, because the way you think about the world and the way you conceptualize it informs your behavior directly. The information we get from our senses is full of holes and is just generally imperfect. Our mind has to construct a coherent perspective out of that to act upon, so given the same inputs there are many many very valid perspectives to take from them.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/mind/socializing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/mind/socializing/</guid>
+      <description>Socializing # The Art of Conversation # Disruption # Any given person has a whole host of thoughts and concerns that are constantly coming up and being resolved in their heads. Resolving those concerns can be done in many ways, for example:
+Actually doing a real world task that resolves the concern (fixing something, or looking up a piece of information). Writing down the task as a reminder to do it later.</description>
     </item>
     
     <item>
@@ -2044,10 +2065,10 @@ Categories: Understanding The World</description>
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/understanding-the-world/productive_conversations/</link>
+      <link>https://kovasap.github.io/docs/understanding-the-world/productive-conversations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/understanding-the-world/productive_conversations/</guid>
+      <guid>https://kovasap.github.io/docs/understanding-the-world/productive-conversations/</guid>
       <description>Productive Conversations # Start with &amp;ldquo;what would convince you that you&amp;rsquo;re wrong?&amp;rdquo; Talk about how specific possibilities make you feel, then try to pin down why. This can lead to identifying more specific concerns that may not be the same as the initial point of argument. Don&amp;rsquo;t change the subject or gloss over a point until it is resolved. Especially don&amp;rsquo;t counter a point with something unrelated. Make sure the objective of the conversation is crystal clear to all parties (state it explicitly).</description>
     </item>
     
