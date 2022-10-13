@@ -3,32 +3,16 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Copyright and IP # TODO finish this piece.
-Harnessing creativity is the key to improving society.
-Because creativity is mostly about remixing existing ideas, then it makes sense to make sharing ideas as easy as possible.
-https://buttondown.email/a327ex/archive/authorship-isnt-real/
-The question of copyright is even more important in the case of creativity meant to solve real world problems.
-https://sci-hub.se/
-https://libgen.rs/
-Categories: Understanding The World
-Backlinks: Creativity, Utopia,">
+<meta name="description" content="Managing player failure in games # Quick saving and quick loading is a bad system # If you as a designer want your player to explore your game without fear, one way to do it is to implement quick saving and quick loading and recommend that your player quick save before they do something risky and then quick load if it doesn&rsquo;t work out. This is a bad system because it&rsquo;s easy for the player to forget to quick save or have saved a long time ago then, do something that leads them to failure and having to reload a long time ago in order to progress in the game.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
-<meta property="og:description" content="Copyright and IP # TODO finish this piece.
-Harnessing creativity is the key to improving society.
-Because creativity is mostly about remixing existing ideas, then it makes sense to make sharing ideas as easy as possible.
-https://buttondown.email/a327ex/archive/authorship-isnt-real/
-The question of copyright is even more important in the case of creativity meant to solve real world problems.
-https://sci-hub.se/
-https://libgen.rs/
-Categories: Understanding The World
-Backlinks: Creativity, Utopia," />
+<meta property="og:description" content="Managing player failure in games # Quick saving and quick loading is a bad system # If you as a designer want your player to explore your game without fear, one way to do it is to implement quick saving and quick loading and recommend that your player quick save before they do something risky and then quick load if it doesn&rsquo;t work out. This is a bad system because it&rsquo;s easy for the player to forget to quick save or have saved a long time ago then, do something that leads them to failure and having to reload a long time ago in order to progress in the game." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://kovasap.github.io/docs/understanding-the-world/copyright-and-ip/" /><meta property="article:section" content="docs" />
+<meta property="og:url" content="https://kovasap.github.io/docs/gamedev/managing-player-failure/" /><meta property="article:section" content="docs" />
 
-<meta property="article:modified_time" content="2022-06-27T20:55:28-07:00" />
 
-<title>Copyright and IP | Things to Remember</title>
+
+<title>Managing Player Failure | Things to Remember</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.4ec7fab1cd5831e6981ff1f65306eadd6159f418ef8640003670748784b1cd2d.css" integrity="sha256-Tsf6sc1YMeaYH/H2Uwbq3WFZ9BjvhkAANnB0h4SxzS0=" crossorigin="anonymous">
@@ -219,7 +203,7 @@ window.onload = function() {
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Copyright and IP</strong>
+  <strong>Managing Player Failure</strong>
 
   <label for="toc-control">
     
@@ -233,7 +217,11 @@ window.onload = function() {
   <aside class="hidden clearfix">
     
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#quick-saving-and-quick-loading-is-a-bad-system">Quick saving and quick loading is a bad system</a></li>
+  </ul>
+</nav>
 
 
 
@@ -244,24 +232,33 @@ window.onload = function() {
 
       
       
-  <article class="markdown"><h1 id="copyright-and-ip">
-  Copyright and IP
-  <a class="anchor" href="#copyright-and-ip">#</a>
+  <article class="markdown"><h1 id="managing-player-failure-in-games">
+  Managing player failure in games
+  <a class="anchor" href="#managing-player-failure-in-games">#</a>
 </h1>
-<p>TODO finish this piece.</p>
-<p>Harnessing <a href="/docs/mind/creativity/">creativity</a> is the <a href="/docs/society/utopia/">key
-to improving society</a>.</p>
-<p>Because creativity is mostly about <a href="https://youtu.be/nJPERZDfyWc">remixing existing
-ideas</a>, then it makes sense to make sharing ideas
-as easy as possible.</p>
-<p><a href="https://buttondown.email/a327ex/archive/authorship-isnt-real/">https://buttondown.email/a327ex/archive/authorship-isnt-real/</a></p>
-<p>The question of copyright is even more important in the case of creativity
-meant to solve real world problems.</p>
-<p><a href="https://sci-hub.se/">https://sci-hub.se/</a></p>
-<p><a href="https://libgen.rs/">https://libgen.rs/</a></p>
-<p>Categories: <a href="/?Understanding-The-World=true">Understanding The World</a></p>
-<p>Backlinks: <a href="/docs/mind/creativity/">Creativity</a>,
-<a href="/docs/society/utopia/">Utopia</a>,</p>
+<h2 id="quick-saving-and-quick-loading-is-a-bad-system">
+  Quick saving and quick loading is a bad system
+  <a class="anchor" href="#quick-saving-and-quick-loading-is-a-bad-system">#</a>
+</h2>
+<p>If you as a designer want your player to explore your game without fear, one way
+to do it is to implement quick saving and quick loading and recommend that your
+player quick save before they do something risky and then quick load if it
+doesn&rsquo;t work out.
+This is a bad system because it&rsquo;s easy for the player to forget to quick save or
+have saved a long time ago then, do something that leads them to failure and
+having to reload a long time ago in order to progress in the game.
+Also a lot of games have long loading times and quick saving/loading can lead to
+frustrating waiting.
+If you think you need quicksaving and quick loading in your game, I recommend
+looking into games like <a href="/docs/experiences/Iron-Danger/">Iron Danger</a> that have a time rewind mechanic which
+serves the same purpose but is a lot more ergonomic for the player to work with.</p>
+<p>A very silly and IMO bad quick loading and quicksaving system in a game series
+is the system in Shadow Tactics: Blades of the Shogun.
+In this game, you are literally reminded you to quick save on a regular timer.
+You would think that the game would be able to handle that for the player if
+that&rsquo;s really the way the designers want you to progress through those games.
+I think a time rewinding mechanic in these games would be miles better.</p>
+<p>Categories: <a href="/?Gamedev=true">Gamedev</a></p>
 </article>
  
       
@@ -271,16 +268,10 @@ meant to solve real world problems.</p>
   <div class="flex flex-wrap justify-between">
 
 
-  <div><a class="flex align-center" href="https://github.com/kovasap/website/commit/406268e019a79665e04c327416e77715ecf6d6de" title='Last modified by Kovas Palunas | June 27, 2022' target="_blank" rel="noopener">
-      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
-      <span>June 27, 2022</span>
-    </a>
-  </div>
-
 
 
   <div>
-    <a class="flex align-center" href="https://github.com/kovasap/website/tree/master/content/docs/understanding-the-world/copyright-and-ip.md" target="_blank" rel="noopener">
+    <a class="flex align-center" href="https://github.com/kovasap/website/tree/master/content/docs/gamedev/managing-player-failure.md" target="_blank" rel="noopener">
       <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
       <span>Edit this page</span>
     </a>
@@ -314,7 +305,11 @@ meant to solve real world problems.</p>
       <div class="book-toc-content">
         
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#quick-saving-and-quick-loading-is-a-bad-system">Quick saving and quick loading is a bad system</a></li>
+  </ul>
+</nav>
 
 
  

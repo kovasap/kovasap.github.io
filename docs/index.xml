@@ -425,7 +425,8 @@ Before every players turn another player pulls an &amp;ldquo;event&amp;rdquo; ca
       <guid>https://kovasap.github.io/docs/experiences/Iron-Danger/</guid>
       <description>Iron Danger # Really cool strategy game with a cool story. Would love it if they made a sequel and/or expanded it into a bigger RPG with more customization.
 Feelings:
-Categories: Experiences, Game, Solitary, Story</description>
+Categories: Experiences, Game, Solitary, Story
+Backlinks: Managing Player Failure,</description>
     </item>
     
     <item>
@@ -754,6 +755,15 @@ During the run phase, people come to live/work in the building you designed, and
       <guid>https://kovasap.github.io/docs/gamedev/gamedev-context/</guid>
       <description>Useful Gamedev Context and Concepts # The story of SNKRX # 20 Lessons from 20 Years of MTG by Mark Rosewater # /r/gamedev on Reddit # Categories: Gamedev
 Backlinks: Creativity,</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/gamedev/managing-player-failure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/gamedev/managing-player-failure/</guid>
+      <description>Managing player failure in games # Quick saving and quick loading is a bad system # If you as a designer want your player to explore your game without fear, one way to do it is to implement quick saving and quick loading and recommend that your player quick save before they do something risky and then quick load if it doesn&amp;rsquo;t work out. This is a bad system because it&amp;rsquo;s easy for the player to forget to quick save or have saved a long time ago then, do something that leads them to failure and having to reload a long time ago in order to progress in the game.</description>
     </item>
     
     <item>
