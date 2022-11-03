@@ -6,7 +6,7 @@
   :dir? false
   :links ["/"]
   :size 301
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/favorite-music.md"
   :title "Favorite Music"
@@ -16,7 +16,7 @@
   :dir? false
   :links []
   :size 1099
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/feelings.md"
   :title "Feelings"
@@ -46,7 +46,7 @@
           "/docs/experiences/Three-Worlds-Collide.md"
           "/docs/experiences/Wordle.md"]
   :size 4399
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/manifesto.md"
   :title "Manifesto"
@@ -72,7 +72,7 @@
           "/docs/mind/motivation.md"
           "/docs/understanding-the-world/what-to-believe.md"]
   :size 10709
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/potential-life-missions.md"
   :title "Potential Life Missions"
@@ -85,7 +85,7 @@
           "/docs/mind/optimism.md"
           "/docs/society/utopia.md"]
   :size 2846
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/books/antifragile.md"
   :title "Antifragile"
@@ -97,7 +97,7 @@
   :links ["/"
           "/"]
   :size 1407
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/books/fooled-by-randomness.md"
   :title "Fooled By Randomness"
@@ -109,19 +109,19 @@
   :links ["/"
           "/"]
   :size 222
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/books/the-beginning-of-infinity.md"
   :title "The Beginning Of Infinity"
-  :markdown "# [_The Beginning of Infinity_ by David Deutsch](https://en.wikipedia.org/wiki/The_Beginning_of_Infinity)\n\nExcellent book that addresses (a theory for) how knowledge is created and the\nimplications that has for humankind, and \"people\" more generally. David's\ntheory is that knowledge is created by filtering many creative conjectures into\nthose that give the best explanations for things via a tradition of criticism.\n\nCategories: [Books]({{< relref \"/\" >}}?Books=true),\n[Understanding The World]({{< relref \"/\" >}}?Understanding-The-World=true)\n"
+  :markdown "# [_The Beginning of Infinity_ by David Deutsch](https://en.wikipedia.org/wiki/The_Beginning_of_Infinity)\n\nExcellent book that addresses (a theory for) how knowledge is created and the\nimplications that has for humankind, and \"people\" more generally. David's\ntheory is that knowledge is created by filtering many creative conjectures into\nthose that give the best explanations for things via a tradition of criticism.\n\nCategories: [Books]({{< relref \"/\" >}}?Books=true),\n[Understanding The World]({{< relref \"/\" >}}?Understanding-The-World=true)"
   :name "the-beginning-of-infinity.md"
   :categories #{"Books"
                 "Understanding The World"}
   :dir? false
   :links ["/"
           "/"]
-  :size 546
-  :modtime 1667452642
+  :size 545
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/books/zero-to-one.md"
   :title "Zero To One"
@@ -134,7 +134,7 @@
           "/"
           "/docs/understanding-the-world/influences.md"]
   :size 982
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/climbing/breaking-point.md"
   :title "Breaking Point"
@@ -144,7 +144,7 @@
   :dir? false
   :links ["/"]
   :size 760
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/climbing/media.md"
   :title "Media"
@@ -154,7 +154,7 @@
   :dir? false
   :links ["/"]
   :size 649
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/climbing/resources.md"
   :title "Resources"
@@ -164,7 +164,7 @@
   :dir? false
   :links ["/"]
   :size 180
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/climbing/safety-checklist.md"
   :title "Safety Checklist"
@@ -174,7 +174,7 @@
   :dir? false
   :links ["/"]
   :size 3333
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/climbing/event-reports/2019-10-7-namaste-wall-zion.md"
   :title "2019 10 7 Namaste Wall Zion"
@@ -187,7 +187,7 @@
           "/"
           "/"]
   :size 2075
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/climbing/event-reports/2020-8-10-lake-erie.md"
   :title "2020 8 10 Lake Erie"
@@ -200,7 +200,7 @@
           "/"
           "/"]
   :size 1401
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/climbing/event-reports/2020-8-12-mile-high-club.md"
   :title "2020 8 12 Mile High Club"
@@ -213,7 +213,7 @@
           "/"
           "/"]
   :size 10838
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/climbing/event-reports/first-512.md"
   :title "First 512"
@@ -226,7 +226,7 @@
           "/"
           "/"]
   :size 390
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/datavis/clerk-notebooks.md"
   :title "Clerk Notebooks"
@@ -236,7 +236,7 @@
   :dir? false
   :links ["/"]
   :size 261
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/datavis/inspiration.md"
   :title "Inspiration"
@@ -246,7 +246,7 @@
   :dir? false
   :links ["/"]
   :size 194
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/datavis/reddit-tree.md"
   :title "Reddit Tree"
@@ -256,7 +256,7 @@
   :dir? false
   :links ["/"]
   :size 771
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/datavis/seattle-rain.md"
   :title "Seattle Rain"
@@ -266,7 +266,7 @@
   :dir? false
   :links ["/"]
   :size 2160
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Age-of-Darkness:-Final-Stand.md"
   :title "Age Of Darkness: Final Stand"
@@ -281,7 +281,7 @@
           "/"
           "/"]
   :size 388
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Apex-Legends.md"
   :title "Apex Legends"
@@ -300,7 +300,7 @@
           "/"
           "/"]
   :size 485
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Backpack-Hero.md"
   :title "Backpack Hero"
@@ -314,7 +314,7 @@
           "/"
           "/"]
   :size 288
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Bad-North.md"
   :title "Bad North"
@@ -328,7 +328,7 @@
           "/"
           "/"]
   :size 201
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Bananagrams.md"
   :title "Bananagrams"
@@ -342,7 +342,7 @@
           "/"
           "/"]
   :size 325
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Battle-Brothers.md"
   :title "Battle Brothers"
@@ -359,7 +359,7 @@
           "/"
           "/"]
   :size 1207
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Beat-Saber.md"
   :title "Beat Saber"
@@ -371,7 +371,7 @@
           "/docs/feelings.md"
           "/"]
   :size 301
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Bike-Commuting.md"
   :title "Bike Commuting"
@@ -386,7 +386,7 @@
           "/"
           "/"]
   :size 422
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Browsing-Hacker-News.md"
   :title "Browsing Hacker News"
@@ -402,7 +402,7 @@
           "/"
           "/"]
   :size 382
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Chess.md"
   :title "Chess"
@@ -418,7 +418,7 @@
           "/"
           "/"]
   :size 272
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/CoD:-MW2.md"
   :title "Cod: Mw2"
@@ -432,7 +432,7 @@
           "/"
           "/"]
   :size 331
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Codenames.md"
   :title "Codenames"
@@ -446,7 +446,7 @@
           "/"
           "/"]
   :size 581
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Comparing-prices.md"
   :title "Comparing Prices"
@@ -460,7 +460,7 @@
           "/"
           "/"]
   :size 513
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/DAT-Creativity.md"
   :title "Dat Creativity"
@@ -473,7 +473,7 @@
           "/"
           "/"]
   :size 340
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Darkest-Dungeon.md"
   :title "Darkest Dungeon"
@@ -491,7 +491,7 @@
           "/"
           "/"]
   :size 369
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Dead-of-Winter.md"
   :title "Dead Of Winter"
@@ -504,7 +504,7 @@
           "/"
           "/docs/gamedev/mechanic-ideas/limiting-collaboration.md"]
   :size 1215
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Drafting-Magic:-The-Gathering.md"
   :title "Drafting Magic: The Gathering"
@@ -520,7 +520,7 @@
           "/"
           "/"]
   :size 742
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Fell-Seal---Arbiter's-Mark.md"
   :title "Fell Seal   Arbiter's Mark"
@@ -538,7 +538,7 @@
           "/"
           "/"]
   :size 950
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Fire-Emblem-7-&-8.md"
   :title "Fire Emblem 7 & 8"
@@ -558,7 +558,7 @@
           "/"
           "/"]
   :size 1766
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Iron-Danger.md"
   :title "Iron Danger"
@@ -575,7 +575,7 @@
           "/"
           "/docs/gamedev/managing-player-failure.md"]
   :size 514
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Islanders.md"
   :title "Islanders"
@@ -594,7 +594,7 @@
           "/"
           "/"]
   :size 489
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Lead-Climbing-in-a-Gym.md"
   :title "Lead Climbing In A Gym"
@@ -616,7 +616,7 @@
           "/"
           "/"]
   :size 675
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Longwave.md"
   :title "Longwave"
@@ -630,7 +630,7 @@
           "/"
           "/"]
   :size 282
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Making-Small-Web-Apps-in-ClojureScript-with-Reagent.md"
   :title "Making Small Web Apps In Clojurescript With Reagent"
@@ -644,7 +644,7 @@
           "/"
           "/"]
   :size 360
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Opus-Magnum.md"
   :title "Opus Magnum"
@@ -660,7 +660,7 @@
           "/"
           "/"]
   :size 331
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Overwatch.md"
   :title "Overwatch"
@@ -674,7 +674,7 @@
           "/"
           "/"]
   :size 236
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Puzzgrid.md"
   :title "Puzzgrid"
@@ -690,7 +690,7 @@
           "/"
           "/"]
   :size 288
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Quordle.md"
   :title "Quordle"
@@ -707,7 +707,7 @@
           "/"
           "/"]
   :size 482
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Rainbow-6:-Siege.md"
   :title "Rainbow 6: Siege"
@@ -721,7 +721,7 @@
           "/"
           "/"]
   :size 1248
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Redditing.md"
   :title "Redditing"
@@ -739,7 +739,7 @@
           "/"
           "/"]
   :size 621
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Semantle.md"
   :title "Semantle"
@@ -756,7 +756,7 @@
           "/"
           "/"]
   :size 404
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Slipways.md"
   :title "Slipways"
@@ -775,7 +775,7 @@
           "/"
           "/"]
   :size 470
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/The-Witness.md"
   :title "The Witness"
@@ -789,7 +789,7 @@
           "/"
           "/"]
   :size 264
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Three-Worlds-Collide.md"
   :title "Three Worlds Collide"
@@ -804,7 +804,7 @@
           "/"
           "/"]
   :size 390
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Watching-GothamChess.md"
   :title "Watching Gothamchess"
@@ -819,7 +819,7 @@
           "/"
           "/"]
   :size 412
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Watching-Inside-Out.md"
   :title "Watching Inside Out"
@@ -833,7 +833,7 @@
           "/"
           "/"]
   :size 523
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Watching-Spiderman:-Into-the-Spider-Verse.md"
   :title "Watching Spiderman: Into The Spider Verse"
@@ -847,7 +847,7 @@
           "/"
           "/"]
   :size 341
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Watching-The-Matrix.md"
   :title "Watching The Matrix"
@@ -861,7 +861,7 @@
           "/"
           "/"]
   :size 607
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Watching-educational-YouTube.md"
   :title "Watching Educational Youtube"
@@ -874,7 +874,7 @@
           "/"
           "/"]
   :size 442
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Wordle.md"
   :title "Wordle"
@@ -891,7 +891,7 @@
           "/"
           "/"]
   :size 380
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/XCOM-2-+-War-of-the-Chosen.md"
   :title "Xcom 2 + War Of The Chosen"
@@ -909,7 +909,7 @@
           "/"
           "/"]
   :size 424
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/Yo-Yoing.md"
   :title "Yo Yoing"
@@ -920,7 +920,7 @@
   :links ["/docs/feelings.md"
           "/"]
   :size 236
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/experiences/iratus.md"
   :title "Iratus"
@@ -930,7 +930,7 @@
   :dir? false
   :links ["/"]
   :size 1055
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/gamedev/common-patterns.md"
   :title "Common Patterns"
@@ -943,7 +943,7 @@
           "/"
           "/docs/lifestyle-optimizations/experiences.md"]
   :size 2432
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/gamedev/gamedev-context.md"
   :title "Gamedev Context"
@@ -954,7 +954,7 @@
   :links ["/"
           "/docs/mind/creativity.md"]
   :size 381
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/gamedev/managing-player-failure.md"
   :title "Managing Player Failure"
@@ -965,7 +965,7 @@
   :links ["/docs/experiences/Iron-Danger.md"
           "/"]
   :size 1451
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/gamedev/my-projects.md"
   :title "My Projects"
@@ -975,7 +975,7 @@
   :dir? false
   :links ["/"]
   :size 1186
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/gamedev/social-games.md"
   :title "Social Games"
@@ -985,7 +985,7 @@
   :dir? false
   :links ["/"]
   :size 946
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/gamedev/useful-tools.md"
   :title "Useful Tools"
@@ -995,7 +995,7 @@
   :dir? false
   :links ["/"]
   :size 184
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/gamedev/game-ideas/farming-video-game.md"
   :title "Farming Video Game"
@@ -1008,7 +1008,7 @@
           "/"
           "/"]
   :size 942
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/gamedev/game-ideas/keyboard-city-builder.md"
   :title "Keyboard City Builder"
@@ -1021,7 +1021,7 @@
           "/"
           "/"]
   :size 405
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/gamedev/game-ideas/roguelike-base-builder.md"
   :title "Roguelike Base Builder"
@@ -1034,7 +1034,7 @@
           "/"
           "/"]
   :size 2175
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/gamedev/game-ideas/safe-building-designer.md"
   :title "Safe Building Designer"
@@ -1047,7 +1047,7 @@
           "/"
           "/"]
   :size 663
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/gamedev/game-ideas/trading-card-mmorpg.md"
   :title "Trading Card Mmorpg"
@@ -1059,7 +1059,7 @@
   :links ["/"
           "/"]
   :size 851
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/gamedev/mechanic-ideas/character-alignment.md"
   :title "Character Alignment"
@@ -1072,7 +1072,7 @@
           "/"
           "/"]
   :size 614
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/gamedev/mechanic-ideas/clairvoyant-turn-based-tactics.md"
   :title "Clairvoyant Turn Based Tactics"
@@ -1085,7 +1085,7 @@
           "/"
           "/"]
   :size 1020
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/gamedev/mechanic-ideas/limiting-collaboration.md"
   :title "Limiting Collaboration"
@@ -1100,7 +1100,7 @@
           "/"
           "/docs/experiences/Dead-of-Winter.md"]
   :size 4097
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/gamedev/mechanic-ideas/low-friction-turn-based-tactics.md"
   :title "Low Friction Turn Based Tactics"
@@ -1113,7 +1113,7 @@
           "/"
           "/"]
   :size 3365
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/gamedev/mechanic-ideas/random-technologies.md"
   :title "Random Technologies"
@@ -1125,7 +1125,7 @@
   :links ["/"
           "/"]
   :size 782
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/gaming/buying-games.md"
   :title "Buying Games"
@@ -1135,7 +1135,7 @@
   :dir? false
   :links ["/"]
   :size 965
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/gaming/chess.md"
   :title "Chess"
@@ -1145,7 +1145,7 @@
   :dir? false
   :links ["/"]
   :size 350
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/gaming/fps-principles.md"
   :title "Fps Principles"
@@ -1155,7 +1155,7 @@
   :dir? false
   :links ["/"]
   :size 6382
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/gaming/oxygen-not-included.md"
   :title "Oxygen Not Included"
@@ -1165,7 +1165,7 @@
   :dir? false
   :links ["/"]
   :size 524
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/gaming/pathfinder-kingmaker.md"
   :title "Pathfinder Kingmaker"
@@ -1175,7 +1175,7 @@
   :dir? false
   :links ["/"]
   :size 543
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/gaming/pillars-of-eternity-2.md"
   :title "Pillars Of Eternity 2"
@@ -1185,7 +1185,7 @@
   :dir? false
   :links ["/"]
   :size 357
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/gaming/recommendations.md"
   :title "Recommendations"
@@ -1200,7 +1200,7 @@
           "/docs/gaming/recommendations.md"
           "/docs/lifestyle-optimizations/experiences.md"]
   :size 655
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/gaming/skyrim.md"
   :title "Skyrim"
@@ -1213,7 +1213,7 @@
           "/"
           "/"]
   :size 274
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/health-and-longevity/aging-science.md"
   :title "Aging Science"
@@ -1237,7 +1237,7 @@
           "/docs/health-and-longevity/theories-of-aging.md"
           "/docs/understanding-the-world/what-to-believe.md"]
   :size 2617
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/health-and-longevity/avoiding-accidents.md"
   :title "Avoiding Accidents"
@@ -1247,7 +1247,7 @@
   :dir? false
   :links ["/"]
   :size 325
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/health-and-longevity/baking.md"
   :title "Baking"
@@ -1257,7 +1257,7 @@
   :dir? false
   :links ["/"]
   :size 5593
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/health-and-longevity/biomarker-correlator.md"
   :title "Biomarker Correlator"
@@ -1268,7 +1268,7 @@
   :links ["/"
           "/docs/health-and-longevity/food.md"]
   :size 353
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/health-and-longevity/causes-of-death.md"
   :title "Causes Of Death"
@@ -1278,7 +1278,7 @@
   :dir? false
   :links ["/"]
   :size 874
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/health-and-longevity/chronic-stress.md"
   :title "Chronic Stress"
@@ -1290,7 +1290,7 @@
           "/docs/manifesto.md"
           "/docs/health-and-longevity/aging-science.md"]
   :size 260
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/health-and-longevity/circadian-rhythm.md"
   :title "Circadian Rhythm"
@@ -1301,7 +1301,7 @@
   :links ["/"
           "/docs/manifesto.md"]
   :size 226
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/health-and-longevity/continuous-glucose-monitoring.md"
   :title "Continuous Glucose Monitoring"
@@ -1313,7 +1313,7 @@
           "/docs/health-and-longevity/tracking-health.md"
           "/docs/lifelogging/what-and-why.md"]
   :size 1640
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/health-and-longevity/cooking.md"
   :title "Cooking"
@@ -1323,7 +1323,7 @@
   :dir? false
   :links ["/"]
   :size 4221
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/health-and-longevity/dental-health.md"
   :title "Dental Health"
@@ -1333,7 +1333,7 @@
   :dir? false
   :links ["/"]
   :size 216
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/health-and-longevity/dna-testing.md"
   :title "Dna Testing"
@@ -1343,7 +1343,7 @@
   :dir? false
   :links ["/"]
   :size 751
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/health-and-longevity/exercise.md"
   :title "Exercise"
@@ -1355,7 +1355,7 @@
           "/docs/manifesto.md"
           "/docs/health-and-longevity/aging-science.md"]
   :size 263
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/health-and-longevity/fasting.md"
   :title "Fasting"
@@ -1366,7 +1366,7 @@
   :links ["/"
           "/docs/health-and-longevity/food.md"]
   :size 6075
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/health-and-longevity/finding-care.md"
   :title "Finding Care"
@@ -1376,7 +1376,7 @@
   :dir? false
   :links ["/"]
   :size 356
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/health-and-longevity/food.md"
   :title "Food"
@@ -1393,7 +1393,7 @@
           "/docs/health-and-longevity/biomarker-correlator.md"
           "/docs/health-and-longevity/fasting.md"]
   :size 17211
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/health-and-longevity/influences.md"
   :title "Influences"
@@ -1405,7 +1405,7 @@
           "/"
           "/docs/health-and-longevity/sens.md"]
   :size 9573
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/health-and-longevity/misc-research.md"
   :title "Misc Research"
@@ -1415,7 +1415,7 @@
   :dir? false
   :links ["/"]
   :size 490
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/health-and-longevity/my-physiological-states.md"
   :title "My Physiological States"
@@ -1425,7 +1425,7 @@
   :dir? false
   :links ["/"]
   :size 717
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/health-and-longevity/personal-specific-food-notes.md"
   :title "Personal Specific Food Notes"
@@ -1435,7 +1435,7 @@
   :dir? false
   :links ["/"]
   :size 519
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/health-and-longevity/sens.md"
   :title "Sens"
@@ -1448,7 +1448,7 @@
           "/docs/health-and-longevity/influences.md"
           "/docs/understanding-the-world/what-to-believe.md"]
   :size 990
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/health-and-longevity/sleep.md"
   :title "Sleep"
@@ -1462,7 +1462,7 @@
           "/docs/health-and-longevity/aging-science.md"
           "/docs/lifestyle-optimizations/task-tracking.md"]
   :size 5432
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/health-and-longevity/theories-of-aging.md"
   :title "Theories Of Aging"
@@ -1475,7 +1475,7 @@
           "/"
           "/docs/health-and-longevity/aging-science.md"]
   :size 2244
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/health-and-longevity/tracking-food.md"
   :title "Tracking Food"
@@ -1486,7 +1486,7 @@
   :links ["/"
           "/docs/health-and-longevity/tracking-health.md"]
   :size 4198
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/health-and-longevity/tracking-health.md"
   :title "Tracking Health"
@@ -1501,7 +1501,7 @@
           "/docs/health-and-longevity/tracking-food.md"
           "/docs/lifelogging/what-and-why.md"]
   :size 3936
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/health-and-longevity/unhealthy-food.md"
   :title "Unhealthy Food"
@@ -1511,7 +1511,7 @@
   :dir? false
   :links ["/"]
   :size 414
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/housing/home-energy-monitoring.md"
   :title "Home Energy Monitoring"
@@ -1521,7 +1521,7 @@
   :dir? false
   :links ["/"]
   :size 887
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/housing/projects.md"
   :title "Projects"
@@ -1531,7 +1531,7 @@
   :dir? false
   :links ["/"]
   :size 250
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/hydroponics/journal.md"
   :title "Journal"
@@ -1541,7 +1541,7 @@
   :dir? false
   :links ["/"]
   :size 1588
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/hydroponics/my-setup.md"
   :title "My Setup"
@@ -1551,7 +1551,7 @@
   :dir? false
   :links ["/"]
   :size 4441
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/investing-and-finances/comprehensive-housing-return-estimator.md"
   :title "Comprehensive Housing Return Estimator"
@@ -1561,7 +1561,7 @@
   :dir? false
   :links ["/"]
   :size 11799
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/investing-and-finances/financial-independence.md"
   :title "Financial Independence"
@@ -1571,7 +1571,7 @@
   :dir? false
   :links ["/"]
   :size 830
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/investing-and-finances/housing.md"
   :title "Housing"
@@ -1581,7 +1581,7 @@
   :dir? false
   :links ["/"]
   :size 1600
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/investing-and-finances/influences.md"
   :title "Influences"
@@ -1593,7 +1593,7 @@
           "/"
           "/docs/understanding-the-world/influences.md"]
   :size 1552
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/investing-and-finances/monthly-costs-of-car-ownership.md"
   :title "Monthly Costs Of Car Ownership"
@@ -1603,7 +1603,7 @@
   :dir? false
   :links ["/"]
   :size 560
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/investing-and-finances/personal-portfolio.md"
   :title "Personal Portfolio"
@@ -1613,7 +1613,7 @@
   :dir? false
   :links ["/"]
   :size 2537
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/investing-and-finances/strategies.md"
   :title "Strategies"
@@ -1623,7 +1623,7 @@
   :dir? false
   :links ["/"]
   :size 5166
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/investing-and-finances/taxes.md"
   :title "Taxes"
@@ -1633,7 +1633,7 @@
   :dir? false
   :links ["/"]
   :size 2867
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/lifelogging/camera.md"
   :title "Camera"
@@ -1644,7 +1644,7 @@
   :links ["/"
           "/docs/lifelogging/what-and-why.md"]
   :size 1023
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/lifelogging/influences.md"
   :title "Influences"
@@ -1654,7 +1654,7 @@
   :dir? false
   :links ["/"]
   :size 440
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/lifelogging/what-and-why.md"
   :title "What And Why"
@@ -1674,7 +1674,7 @@
           "/docs/lifelogging/camera.md"
           "/docs/lifestyle-optimizations/task-tracking.md"]
   :size 9173
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/android-apps.md"
   :title "Android Apps"
@@ -1684,7 +1684,7 @@
   :dir? false
   :links ["/"]
   :size 1386
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/bike-commuting.md"
   :title "Bike Commuting"
@@ -1694,7 +1694,7 @@
   :dir? false
   :links ["/"]
   :size 8092
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/daily-physiological-tricks.md"
   :title "Daily Physiological Tricks"
@@ -1708,7 +1708,7 @@
           "/docs/mind/things-to-do-when-unmotivated.md"
           "/docs/understanding-the-world/productive-conversations.md"]
   :size 1414
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/elements-of-a-good-day.md"
   :title "Elements Of A Good Day"
@@ -1718,7 +1718,7 @@
   :dir? false
   :links ["/"]
   :size 667
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/experiences.md"
   :title "Experiences"
@@ -1732,7 +1732,7 @@
           "/docs/gaming/recommendations.md"
           "/docs/thought-experiments/mind-mapping-concept.md"]
   :size 779
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/geographical-maps.md"
   :title "Geographical Maps"
@@ -1742,7 +1742,7 @@
   :dir? false
   :links ["/"]
   :size 287
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/hang-drying-clothes.md"
   :title "Hang Drying Clothes"
@@ -1752,7 +1752,7 @@
   :dir? false
   :links ["/"]
   :size 2629
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/home-network-and-internet-troubleshooting.md"
   :title "Home Network And Internet Troubleshooting"
@@ -1762,7 +1762,7 @@
   :dir? false
   :links ["/"]
   :size 839
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/keyboard-layouts.md"
   :title "Keyboard Layouts"
@@ -1772,7 +1772,7 @@
   :dir? false
   :links ["/"]
   :size 846
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/life-advice.md"
   :title "Life Advice"
@@ -1782,7 +1782,7 @@
   :dir? false
   :links ["/"]
   :size 287
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/listening-to-books.md"
   :title "Listening To Books"
@@ -1792,7 +1792,7 @@
   :dir? false
   :links ["/"]
   :size 798
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/my-computer-configuration-dotfiles.md"
   :title "My Computer Configuration Dotfiles"
@@ -1802,7 +1802,7 @@
   :dir? false
   :links ["/"]
   :size 6270
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/no-ad-youtube-viewing.md"
   :title "No Ad Youtube Viewing"
@@ -1812,7 +1812,7 @@
   :dir? false
   :links ["/"]
   :size 873
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/phone-case.md"
   :title "Phone Case"
@@ -1822,7 +1822,7 @@
   :dir? false
   :links ["/"]
   :size 1128
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/task-tracking.md"
   :title "Task Tracking"
@@ -1834,7 +1834,7 @@
           "/docs/health-and-longevity/sleep.md"
           "/docs/lifelogging/what-and-why.md"]
   :size 2415
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/taut-line-hitch.md"
   :title "Taut Line Hitch"
@@ -1844,7 +1844,7 @@
   :dir? false
   :links ["/"]
   :size 558
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/this-website.md"
   :title "This Website"
@@ -1854,7 +1854,7 @@
   :dir? false
   :links ["/"]
   :size 1374
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/vim-tricks.md"
   :title "Vim Tricks"
@@ -1864,7 +1864,7 @@
   :dir? false
   :links ["/"]
   :size 168
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/writing.md"
   :title "Writing"
@@ -1874,7 +1874,7 @@
   :dir? false
   :links ["/"]
   :size 1030
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/mind/absorbing-and-professing.md"
   :title "Absorbing And Professing"
@@ -1884,7 +1884,7 @@
   :dir? false
   :links ["/"]
   :size 7467
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/mind/behavior-change.md"
   :title "Behavior Change"
@@ -1894,7 +1894,7 @@
   :dir? false
   :links ["/"]
   :size 593
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/mind/brain-juice.md"
   :title "Brain Juice"
@@ -1904,7 +1904,7 @@
   :dir? false
   :links ["/"]
   :size 491
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/mind/contentment.md"
   :title "Contentment"
@@ -1914,7 +1914,7 @@
   :dir? false
   :links ["/"]
   :size 1530
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/mind/creativity.md"
   :title "Creativity"
@@ -1931,7 +1931,7 @@
           "/docs/society/utopia.md"
           "/docs/understanding-the-world/copyright-and-ip.md"]
   :size 3427
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/mind/desires-and-deprivation.md"
   :title "Desires And Deprivation"
@@ -1941,7 +1941,7 @@
   :dir? false
   :links ["/"]
   :size 1165
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/mind/education.md"
   :title "Education"
@@ -1951,7 +1951,7 @@
   :dir? false
   :links ["/"]
   :size 6529
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/mind/how-to-do-hard-tasks.md"
   :title "How To Do Hard Tasks"
@@ -1963,7 +1963,7 @@
           "/"
           "/docs/mind/motivation.md"]
   :size 5171
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/mind/influences.md"
   :title "Influences"
@@ -1973,7 +1973,7 @@
   :dir? false
   :links ["/"]
   :size 1471
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/mind/intelligence.md"
   :title "Intelligence"
@@ -1983,7 +1983,7 @@
   :dir? false
   :links ["/"]
   :size 1769
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/mind/motivation.md"
   :title "Motivation"
@@ -1999,7 +1999,7 @@
           "/docs/mind/how-to-do-hard-tasks.md"
           "/docs/mind/things-to-do-when-unmotivated.md"]
   :size 12202
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/mind/myers-briggs-personality-typing.md"
   :title "Myers Briggs Personality Typing"
@@ -2009,7 +2009,7 @@
   :dir? false
   :links ["/"]
   :size 1284
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/mind/optimism.md"
   :title "Optimism"
@@ -2021,7 +2021,7 @@
           "/docs/potential-life-missions.md"
           "/docs/society/solving-societal-problems.md"]
   :size 1329
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/mind/perspective.md"
   :title "Perspective"
@@ -2032,7 +2032,7 @@
   :links ["/"
           "/docs/understanding-the-world/what-to-believe.md"]
   :size 4925
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/mind/socializing.md"
   :title "Socializing"
@@ -2042,7 +2042,7 @@
   :dir? false
   :links ["/"]
   :size 1042
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/mind/things-to-do-when-unmotivated.md"
   :title "Things To Do When Unmotivated"
@@ -2055,7 +2055,7 @@
           "/docs/lifestyle-optimizations/daily-physiological-tricks.md"
           "/docs/mind/motivation.md"]
   :size 2353
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/mind/working-with-others.md"
   :title "Working With Others"
@@ -2065,7 +2065,7 @@
   :dir? false
   :links ["/"]
   :size 7487
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/morality/altruism.md"
   :title "Altruism"
@@ -2075,7 +2075,7 @@
   :dir? false
   :links ["/"]
   :size 149
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/morality/cancelling-high-contributors.md"
   :title "Cancelling High Contributors"
@@ -2085,7 +2085,7 @@
   :dir? false
   :links ["/"]
   :size 1225
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/morality/efficient-living-and-morality.md"
   :title "Efficient Living And Morality"
@@ -2095,7 +2095,7 @@
   :dir? false
   :links ["/"]
   :size 4990
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/morality/future.md"
   :title "Future"
@@ -2105,7 +2105,7 @@
   :dir? false
   :links ["/"]
   :size 231
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/morality/right-to-risk.md"
   :title "Right To Risk"
@@ -2115,7 +2115,7 @@
   :dir? false
   :links ["/"]
   :size 1524
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/society/co-ops.md"
   :title "Co Ops"
@@ -2125,7 +2125,7 @@
   :dir? false
   :links ["/"]
   :size 4682
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/society/doom-and-how-to-avoid-it.md"
   :title "Doom And How To Avoid It"
@@ -2135,7 +2135,7 @@
   :dir? false
   :links ["/"]
   :size 2060
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/society/freedom-inequality-meritocracy.md"
   :title "Freedom Inequality Meritocracy"
@@ -2145,7 +2145,7 @@
   :dir? false
   :links ["/"]
   :size 2821
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/society/individuals-vs-groups.md"
   :title "Individuals Vs Groups"
@@ -2155,7 +2155,7 @@
   :dir? false
   :links ["/"]
   :size 658
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/society/politics.md"
   :title "Politics"
@@ -2165,7 +2165,7 @@
   :dir? false
   :links ["/"]
   :size 1431
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/society/solving-societal-problems.md"
   :title "Solving Societal Problems"
@@ -2177,7 +2177,7 @@
           "/"
           "/docs/mind/optimism.md"]
   :size 9673
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/society/utopia.md"
   :title "Utopia"
@@ -2191,7 +2191,7 @@
           "/docs/mind/creativity.md"
           "/docs/understanding-the-world/copyright-and-ip.md"]
   :size 8838
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/software-dev/actionable-tips.md"
   :title "Actionable Tips"
@@ -2201,7 +2201,7 @@
   :dir? false
   :links ["/"]
   :size 442
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/software-dev/auto-input-data-collection.md"
   :title "Auto Input Data Collection"
@@ -2211,7 +2211,7 @@
   :dir? false
   :links ["/"]
   :size 2360
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/software-dev/choosing-a-language.md"
   :title "Choosing A Language"
@@ -2221,7 +2221,7 @@
   :dir? false
   :links ["/"]
   :size 1050
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/software-dev/complexity.md"
   :title "Complexity"
@@ -2231,7 +2231,7 @@
   :dir? false
   :links ["/"]
   :size 1246
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/software-dev/functional-programming.md"
   :title "Functional Programming"
@@ -2241,7 +2241,7 @@
   :dir? false
   :links ["/"]
   :size 1390
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/software-dev/impact.md"
   :title "Impact"
@@ -2251,7 +2251,7 @@
   :dir? false
   :links ["/"]
   :size 198
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/software-dev/influences.md"
   :title "Influences"
@@ -2261,7 +2261,7 @@
   :dir? false
   :links ["/"]
   :size 1438
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/software-dev/patterned-code.md"
   :title "Patterned Code"
@@ -2271,7 +2271,7 @@
   :dir? false
   :links ["/"]
   :size 338
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/thought-experiments/artificial-intelligence.md"
   :title "Artificial Intelligence"
@@ -2281,7 +2281,7 @@
   :dir? false
   :links ["/"]
   :size 2408
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/thought-experiments/life-quests.md"
   :title "Life Quests"
@@ -2291,7 +2291,7 @@
   :dir? false
   :links ["/"]
   :size 396
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/thought-experiments/mind-mapping-concept.md"
   :title "Mind Mapping Concept"
@@ -2308,7 +2308,7 @@
           "/"
           "/docs/lifestyle-optimizations/experiences.md"]
   :size 1915
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/thought-experiments/random-ideas.md"
   :title "Random Ideas"
@@ -2318,7 +2318,7 @@
   :dir? false
   :links ["/"]
   :size 9066
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/thought-experiments/two-glasses.md"
   :title "Two Glasses"
@@ -2328,7 +2328,7 @@
   :dir? false
   :links ["/"]
   :size 1752
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/understanding-the-world/applying-theories.md"
   :title "Applying Theories"
@@ -2338,7 +2338,7 @@
   :dir? false
   :links ["/"]
   :size 4672
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/understanding-the-world/copyright-and-ip.md"
   :title "Copyright And Ip"
@@ -2352,7 +2352,7 @@
           "/docs/mind/creativity.md"
           "/docs/society/utopia.md"]
   :size 774
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/understanding-the-world/great-explanations.md"
   :title "Great Explanations"
@@ -2362,21 +2362,22 @@
   :dir? false
   :links ["/"]
   :size 302
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/understanding-the-world/influences.md"
   :title "Influences"
-  :markdown "# Influences\n\nThese works have guided my thinking about how to discover truths about the\nworld. They include examinations of general patterns that reappear in many\nparts of the world - understanding these I feel helps hasten future discovery,\nso I put them in this section of the website.\n\n[Click here to make the sidebar filter down to the works.]({{< relref \"/docs/understanding-the-world/influences.md\" >}}?Books=true&Understanding+The+World=true)\n\n - [_Zero to One_]({{< relref \"/docs/books/zero-to-one.md\" >}})\n\n\n## [Kevin Bass](https://thedietwars.com/)\n\nRepresentative articles:\n\n - https://thedietwars.com/how-to-determine-who-is-a-legitimate-science-based-health-expert/\n\n\n## Tech Blogs\n\n- [danluu](http://danluu.com)\n- [Paul Graham](http://www.paulgraham.com/articles.html)\n\n\nCategories: [Understanding The World]({{< relref \"/\" >}}?Understanding-The-World=true)\n\nBacklinks: [Influences]({{< relref \"/docs/investing-and-finances/influences.md\" >}}), \n[Influences]({{< relref \"/docs/understanding-the-world/influences.md\" >}}), \n"
+  :markdown "# Influences\n\nThese works have guided my thinking about how to discover truths about the\nworld. They include examinations of general patterns that reappear in many\nparts of the world - understanding these I feel helps hasten future discovery,\nso I put them in this section of the website.\n\n[Click here to make the sidebar filter down to the works.]({{< relref \"/docs/understanding-the-world/influences.md\" >}}?Books=true&Understanding+The+World=true)\n\n - [_Zero to One_]({{< relref \"/docs/books/zero-to-one.md\" >}})\n\n\n## [Kevin Bass](https://thedietwars.com/)\n\nRepresentative articles:\n\n - https://thedietwars.com/how-to-determine-who-is-a-legitimate-science-based-health-expert/\n\n\n## Tech Blogs\n\n- [danluu](http://danluu.com)\n- [Paul Graham](http://www.paulgraham.com/articles.html)\n\n\nCategories: [Understanding The World]({{< relref \"/\" >}}?Understanding-The-World=true)\n\nBacklinks: [Zero To One]({{< relref \"/docs/books/zero-to-one.md\" >}}), \n[Influences]({{< relref \"/docs/investing-and-finances/influences.md\" >}}), \n[Influences]({{< relref \"/docs/understanding-the-world/influences.md\" >}}), \n"
   :name "influences.md"
   :categories #{"Understanding The World"}
   :dir? false
   :links ["/docs/understanding-the-world/influences.md"
           "/docs/books/zero-to-one.md"
           "/"
+          "/docs/books/zero-to-one.md"
           "/docs/investing-and-finances/influences.md"
           "/docs/understanding-the-world/influences.md"]
-  :size 1038
-  :modtime 1667452642
+  :size 1099
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/understanding-the-world/judging-decisions.md"
   :title "Judging Decisions"
@@ -2386,7 +2387,7 @@
   :dir? false
   :links ["/"]
   :size 2328
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/understanding-the-world/notetaking.md"
   :title "Notetaking"
@@ -2396,7 +2397,7 @@
   :dir? false
   :links ["/"]
   :size 1065
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/understanding-the-world/physics.md"
   :title "Physics"
@@ -2406,7 +2407,7 @@
   :dir? false
   :links ["/"]
   :size 415
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/understanding-the-world/productive-conversations.md"
   :title "Productive Conversations"
@@ -2417,7 +2418,7 @@
   :links ["/"
           "/docs/lifestyle-optimizations/daily-physiological-tricks.md"]
   :size 886
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/understanding-the-world/what-to-believe.md"
   :title "What To Believe"
@@ -2434,7 +2435,7 @@
           "/docs/mind/perspective.md"
           "/docs/understanding-the-world/working-with-complex-systems.md"]
   :size 14947
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/understanding-the-world/working-with-complex-systems.md"
   :title "Working With Complex Systems"
@@ -2445,7 +2446,7 @@
   :links ["/"
           "/docs/understanding-the-world/what-to-believe.md"]
   :size 867
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/visual-art/generative-art.md"
   :title "Generative Art"
@@ -2455,7 +2456,7 @@
   :dir? false
   :links ["/"]
   :size 1453
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/visual-art/inspiration-and-resources.md"
   :title "Inspiration And Resources"
@@ -2465,7 +2466,7 @@
   :dir? false
   :links ["/"]
   :size 640
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}
  {:path "content/docs/visual-art/judging-art.md"
   :title "Judging Art"
@@ -2475,5 +2476,5 @@
   :dir? false
   :links ["/"]
   :size 597
-  :modtime 1667452337
+  :modtime 1667452687
   :mode 416}]

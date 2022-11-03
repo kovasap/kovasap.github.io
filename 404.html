@@ -108,8 +108,8 @@ window.onload = function() {
                         !element.href.includes(window.location.pathname))){
                 element.onmouseover = function(e) {
                     const embedded_page = getEmbeddedPage(element.href);
-                    embedded_page.style.left = e.clientX  + "px";
-                    embedded_page.style.top = e.clientY  + "px";
+                    embedded_page.style.left = 20 + e.clientX  + "px";
+                    embedded_page.style.top = "150px";
                     embedded_page.style.display = "block";
                 };
                 element.onmouseout = function(e) {
