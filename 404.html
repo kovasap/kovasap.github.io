@@ -16,7 +16,7 @@
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.4ec7fab1cd5831e6981ff1f65306eadd6159f418ef8640003670748784b1cd2d.css" integrity="sha256-Tsf6sc1YMeaYH/H2Uwbq3WFZ9BjvhkAANnB0h4SxzS0=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.fdb01c7d34a640e76c3a970f630389d49f84c881327d401789b5c7f3c76136d1.js" integrity="sha256-/bAcfTSmQOdsOpcPYwOJ1J&#43;EyIEyfUAXibXH88dhNtE=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.e690355dc2cfd4cae240b52135bd7d3a56456858ffdd101334baa96d7735b912.js" integrity="sha256-5pA1XcLP1MriQLUhNb19OlZFaFj/3RATNLqpbXc1uRI=" crossorigin="anonymous"></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -81,14 +81,31 @@ window.onload = function() {
             embedded_page.style.display = "none";
             embedded_page.style.width = "700px";
             embedded_page.style.height = "1000px";
+            embedded_page.style.backgroundColor = "rgba(255, 255, 255, 1.0)";
+            embedded_page.style.zIndex = "10";
             iframes[href] = embedded_page;
             return embedded_page;
         }
     }
-    Array.from(document.getElementsByClassName('book-page').item(0).getElementsByTagName('a')).forEach(
+    var all_links = [];
+    all_links = Array.prototype.concat.apply(
+        all_links,
+        document.getElementsByClassName("book-page").item(0)
+        .getElementsByTagName('a'));
+    all_links = Array.prototype.concat.apply(
+        all_links,
+        document.getElementsByClassName("book-menu").item(0)
+        .getElementsByTagName('a'));
+    console.log(all_links);
+    all_links.forEach(
         (element, index, array) => {
+            console.log(element);
+            console.log(element.href.includes('/docs/'));
+            console.log(!element.href.includes(window.location.pathname));
+            console.log(window.location.pathname);
             if (element.href.includes('/docs/') &&
-                    !element.href.includes(window.location.pathname)){
+                    (window.location.pathname == "/" ||
+                        !element.href.includes(window.location.pathname))){
                 element.onmouseover = function(e) {
                     const embedded_page = getEmbeddedPage(element.href);
                     embedded_page.style.left = e.clientX  + "px";

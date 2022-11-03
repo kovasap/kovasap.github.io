@@ -27,6 +27,46 @@ Links # https://github.com/kovasap Categories: Me</description>
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/books/antifragile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/books/antifragile/</guid>
+      <description>Antifragile by Nassim Taleb # Really insightful book into types of systems in the world and how they behave. Specifically those that manifest &amp;ldquo;antifragile&amp;rdquo; behaviors.
+What is Antifragility? # Fragile - hurt by random variation Robust - not sensitive to anything Antifraile - hurt by lack of variation
+Convexity/Concavity # The fragile is well represented by a concave distribution - outcomes are fine most of the time, but can sometimes be catastrophic.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/books/fooled-by-randomness/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/books/fooled-by-randomness/</guid>
+      <description>Fooled by Randomness by Nassim Taleb # Categories: Books, Understanding The World</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/books/the-beginning-of-infinity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/books/the-beginning-of-infinity/</guid>
+      <description>The Beginning of Infinity by David Deutsch # Excellent book that addresses (a theory for) how knowledge is created and the implications that has for humankind, and &amp;ldquo;people&amp;rdquo; more generally. David&amp;rsquo;s theory is that knowledge is created by filtering many creative conjectures into those that give the best explanations for things via a tradition of criticism.
+Categories: Books, Understanding The World</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/books/zero-to-one/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/books/zero-to-one/</guid>
+      <description>Zero to One by Peter Thiel # Book that tries to answer the question of (1) what kinds of work will have the highest (positive) impact on humanity and (2) how to do that work.
+My short synopsis: Zero to One argues that completely novel ideas that don&amp;rsquo;t directly compete in any existing markets lead to the most successful businesses and the most positive change for humanity. Therefore, we should focus our energy on being different, &amp;ldquo;thinking for ourselves&amp;rdquo;, and coming up with the most bold, creative ideas possible as opposed to diversifying our interests and seeking incremental change.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/climbing/breaking-point/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -916,9 +956,9 @@ Categories: Gaming</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/gaming/recommendations/</guid>
-      <description>Recommendations # Check out the following filters on my &amp;ldquo;experiences&amp;rdquo; page for recommended games:
+      <description>Recommendations # Puzzle Games # OLD VIEW WITH OLD DATA:
 Puzzle Games Real Time Competitive Games Categories: Gaming
-Backlinks: Experiences,</description>
+Backlinks: Recommendations, Experiences,</description>
     </item>
     
     <item>
@@ -1294,6 +1334,19 @@ Categories: Investing And Finances</description>
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/investing-and-finances/personal-portfolio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/investing-and-finances/personal-portfolio/</guid>
+      <description>Personal Portfolio Thoughts # Historically 100% VTSAX due to long time horizon and simplicity.
+Recently I have become convinced that more global diversification and factor weighting would be smart. Media that has done this:
+Five Factor Investing with ETFs Ben Felix Portfolio Optimized Portfolio summary of Ben Felix portfolio Here&amp;rsquo;s a scratchpad of me trying to implement this.
+A step in this direction would be:
+22% total international 8% small cap value international 12% small cap value US 58% vtsax Backtesting on portfoliovisulizer.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/investing-and-finances/strategies/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1388,6 +1441,7 @@ Life360 # Memento Database # Import from TODO add google drive link here</descri
       
       <guid>https://kovasap.github.io/docs/lifestyle-optimizations/experiences/</guid>
       <description>My Experiences # A summary of experiences I&amp;rsquo;ve had, and the states of mind they invoke for me. See Mind Mapping Concept for ideas on how else to display this.
+Note that this view is obselete - the current way to view this is via the menu sidebar.
 Categories: Lifestyle Optimizations
 Backlinks: Common Patterns, Recommendations, Mind Mapping Concept,</description>
     </item>
@@ -1398,7 +1452,7 @@ Backlinks: Common Patterns, Recommendations, Mind Mapping Concept,</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/lifestyle-optimizations/geographical-maps/</guid>
-      <description>Geographical Maps # Map of what you can visually see from any given point on Earth: https://www.heywhatsthat.com/ Categories: Lifestyle Optimizations</description>
+      <description>Geographical Maps # Map of what you can visually see from any given point on Earth: https://www.heywhatsthat.com/ 3D map of all satellites: https://platform.leolabs.space/visualizations/leo Categories: Lifestyle Optimizations</description>
     </item>
     
     <item>
@@ -2040,8 +2094,10 @@ GPS: https://ciechanow.ski/gps/ Programming Tetris in ClojureScript: https://sha
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/understanding-the-world/influences/</guid>
-      <description>Influences # These works have guided my thinking about how to discover truths about the world. They include examinations of general patterns that reappear in many parts of the world - understanding these I feel helps hasten future discovery, so I put them in this section of the website. These sources are roughly sorted by their level of influence on my thinking.
-The Beginning of Infinity by David Deutsch # Excellent book that addresses (a theory for) how knowledge is created and the implications that has for humankind, and &amp;ldquo;people&amp;rdquo; more generally.</description>
+      <description>Influences # These works have guided my thinking about how to discover truths about the world. They include examinations of general patterns that reappear in many parts of the world - understanding these I feel helps hasten future discovery, so I put them in this section of the website.
+Click here to make the sidebar filter down to the works.
+Zero to One Kevin Bass # Representative articles:
+https://thedietwars.com/how-to-determine-who-is-a-legitimate-science-based-health-expert/ Tech Blogs # danluu Paul Graham Categories: Understanding The World</description>
     </item>
     
     <item>

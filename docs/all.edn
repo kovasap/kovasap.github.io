@@ -1,12 +1,12 @@
 [{:path "content/docs/about-me.md"
   :title "About Me"
-  :markdown "# About Me\n\n## Name Pronunciation\n\n1. **K**\n1. **O**, like the first part of the British \"oi\"\n1. **Vus**, like the English word \"us\"\n1. \"Kovas\"\n\nSee https://forvo.com/word/kovas_%28m.%29/ for an accurate recording.\n\n## Links\n\n - https://github.com/kovasap\n\nCategories: [Me]({{< relref \"/\" >}}?Me=true)\n"
+  :markdown "# About Me\n\n## Name Pronunciation\n\n1. **K**\n1. **O**, like the first part of the British \"oi\"\n1. **Vus**, like the English word \"us\"\n1. \"Kovas\"\n\nSee https://forvo.com/word/kovas_%28m.%29/ for an accurate recording.\n\n## Links\n\n - https://github.com/kovasap\n\nCategories: [Me]({{< relref \"/\" >}}?Me=true)"
   :name "about-me.md"
   :categories #{"Me"}
   :dir? false
   :links ["/"]
-  :size 302
-  :modtime 1665686627
+  :size 301
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/favorite-music.md"
   :title "Favorite Music"
@@ -16,7 +16,7 @@
   :dir? false
   :links []
   :size 1099
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/feelings.md"
   :title "Feelings"
@@ -46,7 +46,7 @@
           "/docs/experiences/Three-Worlds-Collide.md"
           "/docs/experiences/Wordle.md"]
   :size 4399
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/manifesto.md"
   :title "Manifesto"
@@ -72,7 +72,7 @@
           "/docs/mind/motivation.md"
           "/docs/understanding-the-world/what-to-believe.md"]
   :size 10709
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/potential-life-missions.md"
   :title "Potential Life Missions"
@@ -85,7 +85,56 @@
           "/docs/mind/optimism.md"
           "/docs/society/utopia.md"]
   :size 2846
-  :modtime 1665686564
+  :modtime 1667452337
+  :mode 416}
+ {:path "content/docs/books/antifragile.md"
+  :title "Antifragile"
+  :markdown "# [Antifragile by Nassim Taleb](https://en.wikipedia.org/wiki/Antifragile)\n\nReally insightful book into types of systems in the world and how they behave.\nSpecifically those that manifest \"antifragile\" behaviors.\n\n## What is Antifragility?\n\nFragile - hurt by random variation\nRobust - not sensitive to anything\nAntifraile - hurt by lack of variation\n\n\n## Convexity/Concavity\n\nThe fragile is well represented by a concave distribution - outcomes are fine\nmost of the time, but can sometimes be catastrophic.\n\nThe antifragile is well represented by a convex distribution - outcomes are\nfine most of the time, but can sometimes be very good.\n\n\n## Theorizing vs Tinkering\n\nTheorizing involves making many (tested or untested) logical steps to explain a\nbehavior.  This is most effective in simple systems with little\nself-interaction (e.g. toy physics models).  When applied to complex systems,\ntheorizing can be fragile.\n\nRandom tinkering is done by making immediate decisions (hopefully with multiple\noptions) in a more near-sighted way.  The results of these decisions feed back\ninto the process, hopefully stumbling the tinkerer closer to a solution.  This\nis antifragile - your expectations are low most of the time, but sometimes you\nstumble onto something very groundbreaking.\n\nCategories: [Books]({{< relref \"/\" >}}?Books=true),\n[Understanding The World]({{< relref \"/\" >}}?Understanding-The-World=true)"
+  :name "antifragile.md"
+  :categories #{"Books"
+                "Understanding The World"}
+  :dir? false
+  :links ["/"
+          "/"]
+  :size 1407
+  :modtime 1667452337
+  :mode 416}
+ {:path "content/docs/books/fooled-by-randomness.md"
+  :title "Fooled By Randomness"
+  :markdown "# [_Fooled by Randomness_ by Nassim Taleb](https://en.wikipedia.org/wiki/Fooled_by_Randomness)\n\nCategories: [Books]({{< relref \"/\" >}}?Books=true),\n[Understanding The World]({{< relref \"/\" >}}?Understanding-The-World=true)"
+  :name "fooled-by-randomness.md"
+  :categories #{"Books"
+                "Understanding The World"}
+  :dir? false
+  :links ["/"
+          "/"]
+  :size 222
+  :modtime 1667452337
+  :mode 416}
+ {:path "content/docs/books/the-beginning-of-infinity.md"
+  :title "The Beginning Of Infinity"
+  :markdown "# [_The Beginning of Infinity_ by David Deutsch](https://en.wikipedia.org/wiki/The_Beginning_of_Infinity)\n\nExcellent book that addresses (a theory for) how knowledge is created and the\nimplications that has for humankind, and \"people\" more generally. David's\ntheory is that knowledge is created by filtering many creative conjectures into\nthose that give the best explanations for things via a tradition of criticism.\n\nCategories: [Books]({{< relref \"/\" >}}?Books=true),\n[Understanding The World]({{< relref \"/\" >}}?Understanding-The-World=true)\n"
+  :name "the-beginning-of-infinity.md"
+  :categories #{"Books"
+                "Understanding The World"}
+  :dir? false
+  :links ["/"
+          "/"]
+  :size 546
+  :modtime 1667452642
+  :mode 416}
+ {:path "content/docs/books/zero-to-one.md"
+  :title "Zero To One"
+  :markdown "# [_Zero to One_ by Peter Thiel](https://en.wikipedia.org/wiki/Zero_to_One)\n\nBook that tries to answer the question of (1) what kinds of work\nwill have the highest (positive) impact on humanity and (2) how to do that\nwork.\n\nMy short synopsis: _Zero to One_ argues that completely novel ideas that don't\ndirectly compete in any existing markets lead to the most successful businesses\nand the most positive change for humanity. Therefore, we should focus our\nenergy on being different, \"thinking for ourselves\", and coming up with the\nmost bold, creative ideas possible as opposed to diversifying our interests and\nseeking incremental change.\n\nInteresting criticism at\nhttps://medium.com/@LouisGudema/zero-to-some-a-critique-of-peter-thiels-zero-to-one-a3df11d484de.\n\nCategories: [Books]({{< relref \"/\" >}}?Books=true),\n[Understanding The World]({{< relref \"/\" >}}?Understanding-The-World=true)\n\nBacklinks: [Influences]({{< relref \"/docs/understanding-the-world/influences.md\" >}}), \n"
+  :name "zero-to-one.md"
+  :categories #{"Books"
+                "Understanding The World"}
+  :dir? false
+  :links ["/"
+          "/"
+          "/docs/understanding-the-world/influences.md"]
+  :size 982
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/climbing/breaking-point.md"
   :title "Breaking Point"
@@ -95,7 +144,7 @@
   :dir? false
   :links ["/"]
   :size 760
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/climbing/media.md"
   :title "Media"
@@ -105,7 +154,7 @@
   :dir? false
   :links ["/"]
   :size 649
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/climbing/resources.md"
   :title "Resources"
@@ -115,7 +164,7 @@
   :dir? false
   :links ["/"]
   :size 180
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/climbing/safety-checklist.md"
   :title "Safety Checklist"
@@ -125,7 +174,7 @@
   :dir? false
   :links ["/"]
   :size 3333
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/climbing/event-reports/2019-10-7-namaste-wall-zion.md"
   :title "2019 10 7 Namaste Wall Zion"
@@ -138,7 +187,7 @@
           "/"
           "/"]
   :size 2075
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/climbing/event-reports/2020-8-10-lake-erie.md"
   :title "2020 8 10 Lake Erie"
@@ -151,7 +200,7 @@
           "/"
           "/"]
   :size 1401
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/climbing/event-reports/2020-8-12-mile-high-club.md"
   :title "2020 8 12 Mile High Club"
@@ -164,7 +213,7 @@
           "/"
           "/"]
   :size 10838
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/climbing/event-reports/first-512.md"
   :title "First 512"
@@ -177,7 +226,7 @@
           "/"
           "/"]
   :size 390
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/datavis/clerk-notebooks.md"
   :title "Clerk Notebooks"
@@ -187,7 +236,7 @@
   :dir? false
   :links ["/"]
   :size 261
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/datavis/inspiration.md"
   :title "Inspiration"
@@ -197,7 +246,7 @@
   :dir? false
   :links ["/"]
   :size 194
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/datavis/reddit-tree.md"
   :title "Reddit Tree"
@@ -207,7 +256,7 @@
   :dir? false
   :links ["/"]
   :size 771
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/datavis/seattle-rain.md"
   :title "Seattle Rain"
@@ -217,7 +266,7 @@
   :dir? false
   :links ["/"]
   :size 2160
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Age-of-Darkness:-Final-Stand.md"
   :title "Age Of Darkness: Final Stand"
@@ -232,7 +281,7 @@
           "/"
           "/"]
   :size 388
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Apex-Legends.md"
   :title "Apex Legends"
@@ -251,7 +300,7 @@
           "/"
           "/"]
   :size 485
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Backpack-Hero.md"
   :title "Backpack Hero"
@@ -265,7 +314,7 @@
           "/"
           "/"]
   :size 288
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Bad-North.md"
   :title "Bad North"
@@ -279,7 +328,7 @@
           "/"
           "/"]
   :size 201
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Bananagrams.md"
   :title "Bananagrams"
@@ -293,7 +342,7 @@
           "/"
           "/"]
   :size 325
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Battle-Brothers.md"
   :title "Battle Brothers"
@@ -310,7 +359,7 @@
           "/"
           "/"]
   :size 1207
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Beat-Saber.md"
   :title "Beat Saber"
@@ -322,7 +371,7 @@
           "/docs/feelings.md"
           "/"]
   :size 301
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Bike-Commuting.md"
   :title "Bike Commuting"
@@ -337,7 +386,7 @@
           "/"
           "/"]
   :size 422
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Browsing-Hacker-News.md"
   :title "Browsing Hacker News"
@@ -353,7 +402,7 @@
           "/"
           "/"]
   :size 382
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Chess.md"
   :title "Chess"
@@ -369,7 +418,7 @@
           "/"
           "/"]
   :size 272
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/CoD:-MW2.md"
   :title "Cod: Mw2"
@@ -383,7 +432,7 @@
           "/"
           "/"]
   :size 331
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Codenames.md"
   :title "Codenames"
@@ -397,7 +446,7 @@
           "/"
           "/"]
   :size 581
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Comparing-prices.md"
   :title "Comparing Prices"
@@ -411,7 +460,7 @@
           "/"
           "/"]
   :size 513
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/DAT-Creativity.md"
   :title "Dat Creativity"
@@ -424,7 +473,7 @@
           "/"
           "/"]
   :size 340
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Darkest-Dungeon.md"
   :title "Darkest Dungeon"
@@ -442,7 +491,7 @@
           "/"
           "/"]
   :size 369
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Dead-of-Winter.md"
   :title "Dead Of Winter"
@@ -455,7 +504,7 @@
           "/"
           "/docs/gamedev/mechanic-ideas/limiting-collaboration.md"]
   :size 1215
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Drafting-Magic:-The-Gathering.md"
   :title "Drafting Magic: The Gathering"
@@ -471,7 +520,7 @@
           "/"
           "/"]
   :size 742
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Fell-Seal---Arbiter's-Mark.md"
   :title "Fell Seal   Arbiter's Mark"
@@ -489,7 +538,7 @@
           "/"
           "/"]
   :size 950
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Fire-Emblem-7-&-8.md"
   :title "Fire Emblem 7 & 8"
@@ -509,7 +558,7 @@
           "/"
           "/"]
   :size 1766
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Iron-Danger.md"
   :title "Iron Danger"
@@ -526,7 +575,7 @@
           "/"
           "/docs/gamedev/managing-player-failure.md"]
   :size 514
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Islanders.md"
   :title "Islanders"
@@ -545,7 +594,7 @@
           "/"
           "/"]
   :size 489
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Lead-Climbing-in-a-Gym.md"
   :title "Lead Climbing In A Gym"
@@ -567,7 +616,7 @@
           "/"
           "/"]
   :size 675
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Longwave.md"
   :title "Longwave"
@@ -581,7 +630,7 @@
           "/"
           "/"]
   :size 282
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Making-Small-Web-Apps-in-ClojureScript-with-Reagent.md"
   :title "Making Small Web Apps In Clojurescript With Reagent"
@@ -595,7 +644,7 @@
           "/"
           "/"]
   :size 360
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Opus-Magnum.md"
   :title "Opus Magnum"
@@ -611,7 +660,7 @@
           "/"
           "/"]
   :size 331
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Overwatch.md"
   :title "Overwatch"
@@ -625,7 +674,7 @@
           "/"
           "/"]
   :size 236
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Puzzgrid.md"
   :title "Puzzgrid"
@@ -641,7 +690,7 @@
           "/"
           "/"]
   :size 288
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Quordle.md"
   :title "Quordle"
@@ -658,7 +707,7 @@
           "/"
           "/"]
   :size 482
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Rainbow-6:-Siege.md"
   :title "Rainbow 6: Siege"
@@ -672,7 +721,7 @@
           "/"
           "/"]
   :size 1248
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Redditing.md"
   :title "Redditing"
@@ -690,7 +739,7 @@
           "/"
           "/"]
   :size 621
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Semantle.md"
   :title "Semantle"
@@ -707,7 +756,7 @@
           "/"
           "/"]
   :size 404
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Slipways.md"
   :title "Slipways"
@@ -726,7 +775,7 @@
           "/"
           "/"]
   :size 470
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/The-Witness.md"
   :title "The Witness"
@@ -740,7 +789,7 @@
           "/"
           "/"]
   :size 264
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Three-Worlds-Collide.md"
   :title "Three Worlds Collide"
@@ -755,7 +804,7 @@
           "/"
           "/"]
   :size 390
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Watching-GothamChess.md"
   :title "Watching Gothamchess"
@@ -770,7 +819,7 @@
           "/"
           "/"]
   :size 412
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Watching-Inside-Out.md"
   :title "Watching Inside Out"
@@ -784,7 +833,7 @@
           "/"
           "/"]
   :size 523
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Watching-Spiderman:-Into-the-Spider-Verse.md"
   :title "Watching Spiderman: Into The Spider Verse"
@@ -798,7 +847,7 @@
           "/"
           "/"]
   :size 341
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Watching-The-Matrix.md"
   :title "Watching The Matrix"
@@ -812,7 +861,7 @@
           "/"
           "/"]
   :size 607
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Watching-educational-YouTube.md"
   :title "Watching Educational Youtube"
@@ -825,7 +874,7 @@
           "/"
           "/"]
   :size 442
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Wordle.md"
   :title "Wordle"
@@ -842,7 +891,7 @@
           "/"
           "/"]
   :size 380
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/XCOM-2-+-War-of-the-Chosen.md"
   :title "Xcom 2 + War Of The Chosen"
@@ -860,7 +909,7 @@
           "/"
           "/"]
   :size 424
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/Yo-Yoing.md"
   :title "Yo Yoing"
@@ -871,7 +920,7 @@
   :links ["/docs/feelings.md"
           "/"]
   :size 236
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/experiences/iratus.md"
   :title "Iratus"
@@ -881,7 +930,7 @@
   :dir? false
   :links ["/"]
   :size 1055
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/gamedev/common-patterns.md"
   :title "Common Patterns"
@@ -894,7 +943,7 @@
           "/"
           "/docs/lifestyle-optimizations/experiences.md"]
   :size 2432
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/gamedev/gamedev-context.md"
   :title "Gamedev Context"
@@ -905,7 +954,7 @@
   :links ["/"
           "/docs/mind/creativity.md"]
   :size 381
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/gamedev/managing-player-failure.md"
   :title "Managing Player Failure"
@@ -916,7 +965,7 @@
   :links ["/docs/experiences/Iron-Danger.md"
           "/"]
   :size 1451
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/gamedev/my-projects.md"
   :title "My Projects"
@@ -926,7 +975,7 @@
   :dir? false
   :links ["/"]
   :size 1186
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/gamedev/social-games.md"
   :title "Social Games"
@@ -936,7 +985,7 @@
   :dir? false
   :links ["/"]
   :size 946
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/gamedev/useful-tools.md"
   :title "Useful Tools"
@@ -946,7 +995,7 @@
   :dir? false
   :links ["/"]
   :size 184
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/gamedev/game-ideas/farming-video-game.md"
   :title "Farming Video Game"
@@ -959,7 +1008,7 @@
           "/"
           "/"]
   :size 942
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/gamedev/game-ideas/keyboard-city-builder.md"
   :title "Keyboard City Builder"
@@ -972,7 +1021,7 @@
           "/"
           "/"]
   :size 405
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/gamedev/game-ideas/roguelike-base-builder.md"
   :title "Roguelike Base Builder"
@@ -985,7 +1034,7 @@
           "/"
           "/"]
   :size 2175
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/gamedev/game-ideas/safe-building-designer.md"
   :title "Safe Building Designer"
@@ -998,7 +1047,7 @@
           "/"
           "/"]
   :size 663
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/gamedev/game-ideas/trading-card-mmorpg.md"
   :title "Trading Card Mmorpg"
@@ -1010,7 +1059,7 @@
   :links ["/"
           "/"]
   :size 851
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/gamedev/mechanic-ideas/character-alignment.md"
   :title "Character Alignment"
@@ -1023,7 +1072,7 @@
           "/"
           "/"]
   :size 614
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/gamedev/mechanic-ideas/clairvoyant-turn-based-tactics.md"
   :title "Clairvoyant Turn Based Tactics"
@@ -1036,7 +1085,7 @@
           "/"
           "/"]
   :size 1020
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/gamedev/mechanic-ideas/limiting-collaboration.md"
   :title "Limiting Collaboration"
@@ -1051,7 +1100,7 @@
           "/"
           "/docs/experiences/Dead-of-Winter.md"]
   :size 4097
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/gamedev/mechanic-ideas/low-friction-turn-based-tactics.md"
   :title "Low Friction Turn Based Tactics"
@@ -1064,7 +1113,7 @@
           "/"
           "/"]
   :size 3365
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/gamedev/mechanic-ideas/random-technologies.md"
   :title "Random Technologies"
@@ -1076,7 +1125,7 @@
   :links ["/"
           "/"]
   :size 782
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/gaming/buying-games.md"
   :title "Buying Games"
@@ -1086,7 +1135,7 @@
   :dir? false
   :links ["/"]
   :size 965
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/gaming/chess.md"
   :title "Chess"
@@ -1096,7 +1145,7 @@
   :dir? false
   :links ["/"]
   :size 350
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/gaming/fps-principles.md"
   :title "Fps Principles"
@@ -1106,7 +1155,7 @@
   :dir? false
   :links ["/"]
   :size 6382
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/gaming/oxygen-not-included.md"
   :title "Oxygen Not Included"
@@ -1116,7 +1165,7 @@
   :dir? false
   :links ["/"]
   :size 524
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/gaming/pathfinder-kingmaker.md"
   :title "Pathfinder Kingmaker"
@@ -1126,7 +1175,7 @@
   :dir? false
   :links ["/"]
   :size 543
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/gaming/pillars-of-eternity-2.md"
   :title "Pillars Of Eternity 2"
@@ -1136,20 +1185,22 @@
   :dir? false
   :links ["/"]
   :size 357
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/gaming/recommendations.md"
   :title "Recommendations"
-  :markdown "# Recommendations\n\nCheck out the following filters on my \"experiences\" page for recommended games:\n\n - [Puzzle Games]({{< relref \"/docs/lifestyle-optimizations/experiences.md\" >}}?game=true&puzzle=true)\n - [Real Time Competitive Games]({{< relref \"/docs/lifestyle-optimizations/experiences.md\" >}}?game=true&competitive=true)\n\n\n\n\n\n\n\n\n\n\nCategories: [Gaming]({{< relref \"/\" >}}?Gaming=true)\n\nBacklinks: [Experiences]({{< relref \"/docs/lifestyle-optimizations/experiences.md\" >}}), \n"
+  :markdown "# Recommendations\n\n## [Puzzle Games]({{< relref \"/docs/gaming/recommendations.md\" >}}?Puzzle=true)\n\n\n{{< website_graph >}}\n{{% include \"/content/docs/all.edn\" %}}\n{{< /website_graph >}}\n\n\nOLD VIEW WITH OLD DATA:\n\n - [Puzzle Games]({{< relref \"/docs/lifestyle-optimizations/experiences.md\" >}}?game=true&puzzle=true)\n - [Real Time Competitive Games]({{< relref \"/docs/lifestyle-optimizations/experiences.md\" >}}?game=true&competitive=true)\n\n\nCategories: [Gaming]({{< relref \"/\" >}}?Gaming=true)\n\nBacklinks: [Recommendations]({{< relref \"/docs/gaming/recommendations.md\" >}}), \n[Experiences]({{< relref \"/docs/lifestyle-optimizations/experiences.md\" >}}), \n"
   :name "recommendations.md"
   :categories #{"Gaming"}
   :dir? false
-  :links ["/docs/lifestyle-optimizations/experiences.md"
+  :links ["/docs/gaming/recommendations.md"
+          "/docs/lifestyle-optimizations/experiences.md"
           "/docs/lifestyle-optimizations/experiences.md"
           "/"
+          "/docs/gaming/recommendations.md"
           "/docs/lifestyle-optimizations/experiences.md"]
-  :size 480
-  :modtime 1665686564
+  :size 655
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/gaming/skyrim.md"
   :title "Skyrim"
@@ -1162,7 +1213,7 @@
           "/"
           "/"]
   :size 274
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/health-and-longevity/aging-science.md"
   :title "Aging Science"
@@ -1186,7 +1237,7 @@
           "/docs/health-and-longevity/theories-of-aging.md"
           "/docs/understanding-the-world/what-to-believe.md"]
   :size 2617
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/health-and-longevity/avoiding-accidents.md"
   :title "Avoiding Accidents"
@@ -1196,7 +1247,7 @@
   :dir? false
   :links ["/"]
   :size 325
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/health-and-longevity/baking.md"
   :title "Baking"
@@ -1206,7 +1257,7 @@
   :dir? false
   :links ["/"]
   :size 5593
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/health-and-longevity/biomarker-correlator.md"
   :title "Biomarker Correlator"
@@ -1217,7 +1268,7 @@
   :links ["/"
           "/docs/health-and-longevity/food.md"]
   :size 353
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/health-and-longevity/causes-of-death.md"
   :title "Causes Of Death"
@@ -1227,7 +1278,7 @@
   :dir? false
   :links ["/"]
   :size 874
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/health-and-longevity/chronic-stress.md"
   :title "Chronic Stress"
@@ -1239,7 +1290,7 @@
           "/docs/manifesto.md"
           "/docs/health-and-longevity/aging-science.md"]
   :size 260
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/health-and-longevity/circadian-rhythm.md"
   :title "Circadian Rhythm"
@@ -1250,7 +1301,7 @@
   :links ["/"
           "/docs/manifesto.md"]
   :size 226
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/health-and-longevity/continuous-glucose-monitoring.md"
   :title "Continuous Glucose Monitoring"
@@ -1262,7 +1313,7 @@
           "/docs/health-and-longevity/tracking-health.md"
           "/docs/lifelogging/what-and-why.md"]
   :size 1640
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/health-and-longevity/cooking.md"
   :title "Cooking"
@@ -1272,7 +1323,7 @@
   :dir? false
   :links ["/"]
   :size 4221
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/health-and-longevity/dental-health.md"
   :title "Dental Health"
@@ -1282,7 +1333,7 @@
   :dir? false
   :links ["/"]
   :size 216
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/health-and-longevity/dna-testing.md"
   :title "Dna Testing"
@@ -1292,7 +1343,7 @@
   :dir? false
   :links ["/"]
   :size 751
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/health-and-longevity/exercise.md"
   :title "Exercise"
@@ -1304,7 +1355,7 @@
           "/docs/manifesto.md"
           "/docs/health-and-longevity/aging-science.md"]
   :size 263
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/health-and-longevity/fasting.md"
   :title "Fasting"
@@ -1315,7 +1366,7 @@
   :links ["/"
           "/docs/health-and-longevity/food.md"]
   :size 6075
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/health-and-longevity/finding-care.md"
   :title "Finding Care"
@@ -1325,7 +1376,7 @@
   :dir? false
   :links ["/"]
   :size 356
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/health-and-longevity/food.md"
   :title "Food"
@@ -1342,7 +1393,7 @@
           "/docs/health-and-longevity/biomarker-correlator.md"
           "/docs/health-and-longevity/fasting.md"]
   :size 17211
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/health-and-longevity/influences.md"
   :title "Influences"
@@ -1354,7 +1405,7 @@
           "/"
           "/docs/health-and-longevity/sens.md"]
   :size 9573
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/health-and-longevity/misc-research.md"
   :title "Misc Research"
@@ -1364,7 +1415,7 @@
   :dir? false
   :links ["/"]
   :size 490
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/health-and-longevity/my-physiological-states.md"
   :title "My Physiological States"
@@ -1374,7 +1425,7 @@
   :dir? false
   :links ["/"]
   :size 717
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/health-and-longevity/personal-specific-food-notes.md"
   :title "Personal Specific Food Notes"
@@ -1384,7 +1435,7 @@
   :dir? false
   :links ["/"]
   :size 519
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/health-and-longevity/sens.md"
   :title "Sens"
@@ -1397,7 +1448,7 @@
           "/docs/health-and-longevity/influences.md"
           "/docs/understanding-the-world/what-to-believe.md"]
   :size 990
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/health-and-longevity/sleep.md"
   :title "Sleep"
@@ -1411,7 +1462,7 @@
           "/docs/health-and-longevity/aging-science.md"
           "/docs/lifestyle-optimizations/task-tracking.md"]
   :size 5432
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/health-and-longevity/theories-of-aging.md"
   :title "Theories Of Aging"
@@ -1424,7 +1475,7 @@
           "/"
           "/docs/health-and-longevity/aging-science.md"]
   :size 2244
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/health-and-longevity/tracking-food.md"
   :title "Tracking Food"
@@ -1435,7 +1486,7 @@
   :links ["/"
           "/docs/health-and-longevity/tracking-health.md"]
   :size 4198
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/health-and-longevity/tracking-health.md"
   :title "Tracking Health"
@@ -1450,7 +1501,7 @@
           "/docs/health-and-longevity/tracking-food.md"
           "/docs/lifelogging/what-and-why.md"]
   :size 3936
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/health-and-longevity/unhealthy-food.md"
   :title "Unhealthy Food"
@@ -1460,7 +1511,7 @@
   :dir? false
   :links ["/"]
   :size 414
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/housing/home-energy-monitoring.md"
   :title "Home Energy Monitoring"
@@ -1470,7 +1521,7 @@
   :dir? false
   :links ["/"]
   :size 887
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/housing/projects.md"
   :title "Projects"
@@ -1480,7 +1531,7 @@
   :dir? false
   :links ["/"]
   :size 250
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/hydroponics/journal.md"
   :title "Journal"
@@ -1490,7 +1541,7 @@
   :dir? false
   :links ["/"]
   :size 1588
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/hydroponics/my-setup.md"
   :title "My Setup"
@@ -1500,7 +1551,7 @@
   :dir? false
   :links ["/"]
   :size 4441
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/investing-and-finances/comprehensive-housing-return-estimator.md"
   :title "Comprehensive Housing Return Estimator"
@@ -1510,7 +1561,7 @@
   :dir? false
   :links ["/"]
   :size 11799
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/investing-and-finances/financial-independence.md"
   :title "Financial Independence"
@@ -1520,7 +1571,7 @@
   :dir? false
   :links ["/"]
   :size 830
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/investing-and-finances/housing.md"
   :title "Housing"
@@ -1530,7 +1581,7 @@
   :dir? false
   :links ["/"]
   :size 1600
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/investing-and-finances/influences.md"
   :title "Influences"
@@ -1542,7 +1593,7 @@
           "/"
           "/docs/understanding-the-world/influences.md"]
   :size 1552
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/investing-and-finances/monthly-costs-of-car-ownership.md"
   :title "Monthly Costs Of Car Ownership"
@@ -1552,7 +1603,17 @@
   :dir? false
   :links ["/"]
   :size 560
-  :modtime 1665686564
+  :modtime 1667452337
+  :mode 416}
+ {:path "content/docs/investing-and-finances/personal-portfolio.md"
+  :title "Personal Portfolio"
+  :markdown "# Personal Portfolio Thoughts\n\nHistorically 100% VTSAX due to long time horizon and simplicity.\n\nRecently I have become convinced that more global diversification and factor weighting would be smart.\nMedia that has done this:\n\n - [Five Factor Investing with ETFs](https://www.youtube.com/watch?v=jKWbW7Wgm0w)\n - [Ben Felix Portfolio](https://www.pwlcapital.com/wp-content/uploads/2020/12/Five-Factor-Investing-with-ETFs.pdf)\n - [Optimized Portfolio summary of Ben Felix portfolio](https://www.optimizedportfolio.com/ben-felix-model-portfolio/)\n\n[Here's](https://docs.google.com/spreadsheets/d/194MljSwYb0xPcHhG7sznh0LJ2a-2YejxfP0fVGVV2Jw/edit#gid=0) a scratchpad of me trying to implement this.\n\nA step in this direction would be:\n - 22% total international\n - 8% small cap value international\n - 12% small cap value US\n - 58% vtsax\n\n[Backtesting on portfoliovisulizer.com](https://www.portfoliovisualizer.com/backtest-portfolio?s=y&timePeriod=4&startYear=1985&firstMonth=1&endYear=2022&lastMonth=12&calendarAligned=true&includeYTD=false&initialAmount=10000&annualOperation=0&annualAdjustment=0&inflationAdjusted=true&annualPercentage=0.0&frequency=4&rebalanceType=1&absoluteDeviation=5.0&relativeDeviation=25.0&leverageType=0&leverageRatio=0.0&debtAmount=0&debtInterest=0.0&maintenanceMargin=25.0&leveragedBenchmark=false&reinvestDividends=true&showYield=false&showFactors=false&factorModel=3&portfolioNames=false&portfolioName1=Portfolio+1&portfolioName2=Portfolio+2&portfolioName3=Bogleheads+Three+Funds&symbol1=VTSAX&allocation1_1=58&allocation1_2=100&symbol2=AVUV&symbol3=AVDV&symbol4=VGTSX&allocation4_1=22&symbol5=DISVX&allocation5_1=8&symbol6=DFSVX&allocation6_1=12&symbol7=VOO&symbol8=VTSMX&allocation8_3=50&symbol9=VGTSX&allocation9_3=30&symbol10=VBMFX&allocation10_3=20)\n\nLooking at \"growth of $10,000\" charts is kinda misleading, because the end result can vary greatly based on when you start.\nRolling or yearly return charts are better I think.\n[Here](https://docs.google.com/spreadsheets/d/1DEl9ddc2U0Ycc-hWV2PrWsrrcuVH7J8gtCL2c1D1UaA/edit#gid=0) is a yearly return chart comparing vtsax with the Ben Felix portfolio.\n\nMy current decision is to just stick to VTSAX unless it starts underperforming for over a year.\nThen I may switch to something like the Ben Felix portfolio.\nIt's hard for me to do otherwise seeing as the US market has outperformed the ex-US index for the last 10 years:\n\n![us-vs-intl](us-vs-international-returns.png)\n\nCategories: [Investing And Finances]({{< relref \"/\" >}}?Investing-And-Finances=true)"
+  :name "personal-portfolio.md"
+  :categories #{"Investing And Finances"}
+  :dir? false
+  :links ["/"]
+  :size 2537
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/investing-and-finances/strategies.md"
   :title "Strategies"
@@ -1562,7 +1623,7 @@
   :dir? false
   :links ["/"]
   :size 5166
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/investing-and-finances/taxes.md"
   :title "Taxes"
@@ -1572,7 +1633,7 @@
   :dir? false
   :links ["/"]
   :size 2867
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/lifelogging/camera.md"
   :title "Camera"
@@ -1583,7 +1644,7 @@
   :links ["/"
           "/docs/lifelogging/what-and-why.md"]
   :size 1023
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/lifelogging/influences.md"
   :title "Influences"
@@ -1593,7 +1654,7 @@
   :dir? false
   :links ["/"]
   :size 440
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/lifelogging/what-and-why.md"
   :title "What And Why"
@@ -1613,7 +1674,7 @@
           "/docs/lifelogging/camera.md"
           "/docs/lifestyle-optimizations/task-tracking.md"]
   :size 9173
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/android-apps.md"
   :title "Android Apps"
@@ -1623,7 +1684,7 @@
   :dir? false
   :links ["/"]
   :size 1386
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/bike-commuting.md"
   :title "Bike Commuting"
@@ -1633,7 +1694,7 @@
   :dir? false
   :links ["/"]
   :size 8092
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/daily-physiological-tricks.md"
   :title "Daily Physiological Tricks"
@@ -1647,7 +1708,7 @@
           "/docs/mind/things-to-do-when-unmotivated.md"
           "/docs/understanding-the-world/productive-conversations.md"]
   :size 1414
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/elements-of-a-good-day.md"
   :title "Elements Of A Good Day"
@@ -1657,11 +1718,11 @@
   :dir? false
   :links ["/"]
   :size 667
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/experiences.md"
   :title "Experiences"
-  :markdown "# My Experiences\n\nA summary of experiences I've had, and the states of mind they invoke for me.\nSee [Mind Mapping Concept]({{< relref\n\"/docs/thought-experiments/mind-mapping-concept.md\" >}}) for ideas on how else\nto display this.\n\n{{< experience_aggregator >}}\n{{% include \"docs/lifestyle-optimizations/experiences.edn\" %}}\n{{< /experience_aggregator >}}\n\n\n\n\n\n\n\n\n\n\nCategories: [Lifestyle Optimizations]({{< relref \"/\" >}}?Lifestyle-Optimizations=true)\n\nBacklinks: [Common Patterns]({{< relref \"/docs/gamedev/common-patterns.md\" >}}), \n[Recommendations]({{< relref \"/docs/gaming/recommendations.md\" >}}), \n[Mind Mapping Concept]({{< relref \"/docs/thought-experiments/mind-mapping-concept.md\" >}}), \n"
+  :markdown "# My Experiences\n\nA summary of experiences I've had, and the states of mind they invoke for me.\nSee [Mind Mapping Concept]({{< relref\n\"/docs/thought-experiments/mind-mapping-concept.md\" >}}) for ideas on how else\nto display this.\n\nNote that this view is obselete - the current way to view this is via the menu\nsidebar.\n\n{{< experience_aggregator >}}\n{{% include \"docs/lifestyle-optimizations/experiences.edn\" %}}\n{{< /experience_aggregator >}}\n\n\nCategories: [Lifestyle Optimizations]({{< relref \"/\" >}}?Lifestyle-Optimizations=true)\n\nBacklinks: [Common Patterns]({{< relref \"/docs/gamedev/common-patterns.md\" >}}), \n[Recommendations]({{< relref \"/docs/gaming/recommendations.md\" >}}), \n[Mind Mapping Concept]({{< relref \"/docs/thought-experiments/mind-mapping-concept.md\" >}}), \n"
   :name "experiences.md"
   :categories #{"Lifestyle Optimizations"}
   :dir? false
@@ -1670,18 +1731,18 @@
           "/docs/gamedev/common-patterns.md"
           "/docs/gaming/recommendations.md"
           "/docs/thought-experiments/mind-mapping-concept.md"]
-  :size 698
-  :modtime 1665686564
+  :size 779
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/geographical-maps.md"
   :title "Geographical Maps"
-  :markdown "# Geographical Maps\n\n - Map of what you can visually see from any given point on Earth:\n   https://www.heywhatsthat.com/\n\nCategories: [Lifestyle Optimizations]({{< relref \"/\" >}}?Lifestyle-Optimizations=true)"
+  :markdown "# Geographical Maps\n\n - Map of what you can visually see from any given point on Earth:\n   https://www.heywhatsthat.com/\n - 3D map of all satellites: https://platform.leolabs.space/visualizations/leo\n\nCategories: [Lifestyle Optimizations]({{< relref \"/\" >}}?Lifestyle-Optimizations=true)"
   :name "geographical-maps.md"
   :categories #{"Lifestyle Optimizations"}
   :dir? false
   :links ["/"]
-  :size 208
-  :modtime 1665686564
+  :size 287
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/hang-drying-clothes.md"
   :title "Hang Drying Clothes"
@@ -1691,7 +1752,7 @@
   :dir? false
   :links ["/"]
   :size 2629
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/home-network-and-internet-troubleshooting.md"
   :title "Home Network And Internet Troubleshooting"
@@ -1701,7 +1762,7 @@
   :dir? false
   :links ["/"]
   :size 839
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/keyboard-layouts.md"
   :title "Keyboard Layouts"
@@ -1711,7 +1772,7 @@
   :dir? false
   :links ["/"]
   :size 846
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/life-advice.md"
   :title "Life Advice"
@@ -1721,7 +1782,7 @@
   :dir? false
   :links ["/"]
   :size 287
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/listening-to-books.md"
   :title "Listening To Books"
@@ -1731,7 +1792,7 @@
   :dir? false
   :links ["/"]
   :size 798
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/my-computer-configuration-dotfiles.md"
   :title "My Computer Configuration Dotfiles"
@@ -1741,7 +1802,7 @@
   :dir? false
   :links ["/"]
   :size 6270
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/no-ad-youtube-viewing.md"
   :title "No Ad Youtube Viewing"
@@ -1751,7 +1812,7 @@
   :dir? false
   :links ["/"]
   :size 873
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/phone-case.md"
   :title "Phone Case"
@@ -1761,7 +1822,7 @@
   :dir? false
   :links ["/"]
   :size 1128
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/task-tracking.md"
   :title "Task Tracking"
@@ -1773,7 +1834,7 @@
           "/docs/health-and-longevity/sleep.md"
           "/docs/lifelogging/what-and-why.md"]
   :size 2415
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/taut-line-hitch.md"
   :title "Taut Line Hitch"
@@ -1783,7 +1844,7 @@
   :dir? false
   :links ["/"]
   :size 558
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/this-website.md"
   :title "This Website"
@@ -1793,7 +1854,7 @@
   :dir? false
   :links ["/"]
   :size 1374
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/vim-tricks.md"
   :title "Vim Tricks"
@@ -1803,7 +1864,7 @@
   :dir? false
   :links ["/"]
   :size 168
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/writing.md"
   :title "Writing"
@@ -1813,7 +1874,7 @@
   :dir? false
   :links ["/"]
   :size 1030
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/mind/absorbing-and-professing.md"
   :title "Absorbing And Professing"
@@ -1823,7 +1884,7 @@
   :dir? false
   :links ["/"]
   :size 7467
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/mind/behavior-change.md"
   :title "Behavior Change"
@@ -1833,7 +1894,7 @@
   :dir? false
   :links ["/"]
   :size 593
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/mind/brain-juice.md"
   :title "Brain Juice"
@@ -1843,7 +1904,7 @@
   :dir? false
   :links ["/"]
   :size 491
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/mind/contentment.md"
   :title "Contentment"
@@ -1853,7 +1914,7 @@
   :dir? false
   :links ["/"]
   :size 1530
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/mind/creativity.md"
   :title "Creativity"
@@ -1870,7 +1931,7 @@
           "/docs/society/utopia.md"
           "/docs/understanding-the-world/copyright-and-ip.md"]
   :size 3427
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/mind/desires-and-deprivation.md"
   :title "Desires And Deprivation"
@@ -1880,17 +1941,17 @@
   :dir? false
   :links ["/"]
   :size 1165
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/mind/education.md"
   :title "Education"
-  :markdown "# Thoughts on Education\n\n## Education as a Certification\n\nOne problem educational system have is that they force students to sit through\nclasses that are boring because the students either already know the material\nor are not compatible with the pace of the class (too fast or too slow). If\nsystems independently let students test out of courses, or offered testing\nseparately from training, this problem might be solved to some extent.  Of\ncourse, in this case the testing would have to be very good, and some things\nare unfortunately hard to test for.  Project-based evaluation might be a good\nway around this.\n\nSee https://miguelrochefort.com/blog/cs-degree/ for a great story about what a\ntest-driven education could look like for a motivated individual.\n\n## High School as Survey\n\nIn my opinion, (at least my) high school education focused too much on\nfulfilling prerequisites and teaching fundamental topics and too little on\nsurveying possible areas of study and career paths. I believe this is due to\nthe assumption that prerequisites are necessary for students to be able to\nstudy higher level concepts (e.g. algebra before calculus before physics).\nWhile this is strictly speaking true, it ignores the power of motivating\ncontext.  By this I mean that if you want to learn how a ball moves through\nspace in physics, it is very obvious how calculus is helpful towards achieving\nyour goal.  However, if you are just learning calculus (or algebra!) without\nthis context, it can feel like what you are learning is pointless (because it\nis to you at that moment).\n\nTrying to learn complex topics without understanding why they are useful is\nextremely difficult and leads to less memory retention of the things you\nlearned if you end up do learning them. IMO this is one of the primary reason\nmany people struggle in school. Conversely, if you DO have a strong reason to\nlearn something, it is much easier to do so, and you may be able to pack much\nmore learning into a shorter period of time.  Plus, the learning will be more\nuseful, as it is already shown to have at least the one motivating use.\n\nNot only can focus on hierarchical prerequisites stifle learning rate, it also\ndoes a disservice to students who are trying to figure out what to specialize\nin at college (if they attend) and in their careers. I personally knew a lot of\nabstract concepts in high school, and knew I was interested in STEM, but had\npretty much no conception of the different types of STEM careers available to\nme and what kinds of day-to-day work they each would entail. If half the time\nspent in high school on academic classes was instead spent on career/field\nsurvey talks/activities/classes, I would have been much better prepared to set\nmyself up for a fulfilling life after graduation, and I would have been more\nmotivated to independently study those careers/fields.\n\nAs it stands, I feel like I got extremely lucky to land in the jobs I did.  I\nvery nearly joined a PhD program after college that in retrospect I'm quite\ncertain I would have liked less than the companies I randomly was exposed to in\nmy last years in college. It scares me that the only thing that saved me from\nthis misstep was a random email on a mailing list I randomly joined, as opposed\nto something built into the educational system.\n\n## Extended Education Concept\n\nIn high school and college I often felt extremely mentally busy. I was usually\nin 5+ hours a day of classes teaching radically different things. Synthesizing\nand remembering everything I was taught was difficult, and I fear that many of\nthose hours were wasted simply because I didn't have the mental bandwidth to\nget all the information to stick.\n\nPost-college, I feel like I have much more mental bandwidth for learning.  I'm\nwell able to fill this with books, podcasts, and other online resources.\nDespite this, I sometimes wonder if generally speaking formal education could\ndo a better job of utilizing mental bandwidth over time.  By this I mean\n\"hybridizing\" college and other pursuits more than they already are.\n\nFor example, instead of being a full time vocation, college could instead\ninvolving taking 1 class per quarter/semester and spending the rest of one's\ntime working or doing whatever else you would otherwise do post-graduation.\nThis would lead to college taking longer to provide the same level of\neducation.\n\nThis could cause problems for people who want to start a skill-requiring job\nas soon as possible. I wonder if it's possible to front-load practical\nprerequisites early in the education cycle for such jobs. In my experience in\ntechnical fields so far, there are only a few requirements I've truly needed\nfrom my education; otherwise most of my skills have been learned on the job.\n\n## Higher Education\n\nInteresting Article: https://annehelen.substack.com/p/is-everything-an-mlm?s=r\n\n## Letter to my past (middle/high school) self\n\nYou are a person.\nAs such you have the power to be creative and to change the world around you.\nUsing this power is what you will spend the majority of your life doing.\n\nYou can use this power as an individual but most likely you'll be working with\nother people in organizations to use your power together to achieve larger\ngoals.\nSome examples of using your power individually include writing or creating any\nkind of content to be consumed by others on your own, or creating whole projects\non your own perhaps tools for other people to use etc.\n\nThe world is full of big and small organizations of people trying to use their\npower together to make change.\nSome examples include companies, large and small, governments, research labs,\nuniversities, schools.\n\nWhen joining an organization it's important to understand who funds the\norganization and why and what you can stand to benefit from joining said\norganization, both in terms of the force multiplier on your power to change the\nworld and how much you'll be compensated for joining that organization\nspecifically.\n\nThere should be a school course that explores each one of these types of\norganizations in turn and discusses key features of that organization type and\nwhy you might want to be a part of it  - and how you could be a part of it; what\nit takes to join and then rank up in said organization.\n\nFor example I have no idea what it takes to become someone who works on\ngovernment policy as a full-time job.\nOr what the concerns of people doing this job are for  instance with respect to\ntheir compensation or job security.\n\n\nCategories: [Mind]({{< relref \"/\" >}}?Mind=true)\n"
+  :markdown "# Thoughts on Education\n\n## Education as a Certification\n\nOne problem educational system have is that they force students to sit through\nclasses that are boring because the students either already know the material\nor are not compatible with the pace of the class (too fast or too slow). If\nsystems independently let students test out of courses, or offered testing\nseparately from training, this problem might be solved to some extent.  Of\ncourse, in this case the testing would have to be very good, and some things\nare unfortunately hard to test for.  Project-based evaluation might be a good\nway around this.\n\nSee https://miguelrochefort.com/blog/cs-degree/ for a great story about what a\ntest-driven education could look like for a motivated individual.\n\n## High School as Survey\n\nIn my opinion, (at least my) high school education focused too much on\nfulfilling prerequisites and teaching fundamental topics and too little on\nsurveying possible areas of study and career paths. I believe this is due to\nthe assumption that prerequisites are necessary for students to be able to\nstudy higher level concepts (e.g. algebra before calculus before physics).\nWhile this is strictly speaking true, it ignores the power of motivating\ncontext.  By this I mean that if you want to learn how a ball moves through\nspace in physics, it is very obvious how calculus is helpful towards achieving\nyour goal.  However, if you are just learning calculus (or algebra!) without\nthis context, it can feel like what you are learning is pointless (because it\nis to you at that moment).\n\nTrying to learn complex topics without understanding why they are useful is\nextremely difficult and leads to less memory retention of the things you\nlearned if you end up do learning them. IMO this is one of the primary reason\nmany people struggle in school. Conversely, if you DO have a strong reason to\nlearn something, it is much easier to do so, and you may be able to pack much\nmore learning into a shorter period of time.  Plus, the learning will be more\nuseful, as it is already shown to have at least the one motivating use.\n\nNot only can focus on hierarchical prerequisites stifle learning rate, it also\ndoes a disservice to students who are trying to figure out what to specialize\nin at college (if they attend) and in their careers. I personally knew a lot of\nabstract concepts in high school, and knew I was interested in STEM, but had\npretty much no conception of the different types of STEM careers available to\nme and what kinds of day-to-day work they each would entail. If half the time\nspent in high school on academic classes was instead spent on career/field\nsurvey talks/activities/classes, I would have been much better prepared to set\nmyself up for a fulfilling life after graduation, and I would have been more\nmotivated to independently study those careers/fields.\n\nAs it stands, I feel like I got extremely lucky to land in the jobs I did.  I\nvery nearly joined a PhD program after college that in retrospect I'm quite\ncertain I would have liked less than the companies I randomly was exposed to in\nmy last years in college. It scares me that the only thing that saved me from\nthis misstep was a random email on a mailing list I randomly joined, as opposed\nto something built into the educational system.\n\n## Extended Education Concept\n\nIn high school and college I often felt extremely mentally busy. I was usually\nin 5+ hours a day of classes teaching radically different things. Synthesizing\nand remembering everything I was taught was difficult, and I fear that many of\nthose hours were wasted simply because I didn't have the mental bandwidth to\nget all the information to stick.\n\nPost-college, I feel like I have much more mental bandwidth for learning.  I'm\nwell able to fill this with books, podcasts, and other online resources.\nDespite this, I sometimes wonder if generally speaking formal education could\ndo a better job of utilizing mental bandwidth over time.  By this I mean\n\"hybridizing\" college and other pursuits more than they already are.\n\nFor example, instead of being a full time vocation, college could instead\ninvolving taking 1 class per quarter/semester and spending the rest of one's\ntime working or doing whatever else you would otherwise do post-graduation.\nThis would lead to college taking longer to provide the same level of\neducation.\n\nThis could cause problems for people who want to start a skill-requiring job\nas soon as possible. I wonder if it's possible to front-load practical\nprerequisites early in the education cycle for such jobs. In my experience in\ntechnical fields so far, there are only a few requirements I've truly needed\nfrom my education; otherwise most of my skills have been learned on the job.\n\n## Higher Education\n\nInteresting Article: https://annehelen.substack.com/p/is-everything-an-mlm?s=r\n\n## Letter to my past (middle/high school) self\n\nYou are a person.\nAs such you have the power to be creative and to change the world around you.\nUsing this power is what you will spend the majority of your life doing.\n\nYou can use this power as an individual but most likely you'll be working with\nother people in organizations to use your power together to achieve larger\ngoals.\nSome examples of using your power individually include writing or creating any\nkind of content to be consumed by others on your own, or creating whole projects\non your own perhaps tools for other people to use etc.\n\nThe world is full of big and small organizations of people trying to use their\npower together to make change.\nSome examples include companies, large and small, governments, research labs,\nuniversities, schools.\n\nWhen joining an organization it's important to understand who funds the\norganization and why and what you can stand to benefit from joining said\norganization, both in terms of the force multiplier on your power to change the\nworld and how much you'll be compensated for joining that organization\nspecifically.\n\nThere should be a school course that explores each one of these types of\norganizations in turn and discusses key features of that organization type and\nwhy you might want to be a part of it  - and how you could be a part of it; what\nit takes to join and then rank up in said organization.\n\nFor example I have no idea what it takes to become someone who works on\ngovernment policy as a full-time job.\nOr what the concerns of people doing this job are for  instance with respect to\ntheir compensation or job security.\n\nCategories: [Mind]({{< relref \"/\" >}}?Mind=true)"
   :name "education.md"
   :categories #{"Mind"}
   :dir? false
   :links ["/"]
-  :size 6531
-  :modtime 1667062737
+  :size 6529
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/mind/how-to-do-hard-tasks.md"
   :title "How To Do Hard Tasks"
@@ -1902,7 +1963,7 @@
           "/"
           "/docs/mind/motivation.md"]
   :size 5171
-  :modtime 1667065112
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/mind/influences.md"
   :title "Influences"
@@ -1912,7 +1973,7 @@
   :dir? false
   :links ["/"]
   :size 1471
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/mind/intelligence.md"
   :title "Intelligence"
@@ -1922,7 +1983,7 @@
   :dir? false
   :links ["/"]
   :size 1769
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/mind/motivation.md"
   :title "Motivation"
@@ -1938,7 +1999,7 @@
           "/docs/mind/how-to-do-hard-tasks.md"
           "/docs/mind/things-to-do-when-unmotivated.md"]
   :size 12202
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/mind/myers-briggs-personality-typing.md"
   :title "Myers Briggs Personality Typing"
@@ -1948,7 +2009,7 @@
   :dir? false
   :links ["/"]
   :size 1284
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/mind/optimism.md"
   :title "Optimism"
@@ -1960,7 +2021,7 @@
           "/docs/potential-life-missions.md"
           "/docs/society/solving-societal-problems.md"]
   :size 1329
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/mind/perspective.md"
   :title "Perspective"
@@ -1971,7 +2032,7 @@
   :links ["/"
           "/docs/understanding-the-world/what-to-believe.md"]
   :size 4925
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/mind/socializing.md"
   :title "Socializing"
@@ -1981,7 +2042,7 @@
   :dir? false
   :links ["/"]
   :size 1042
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/mind/things-to-do-when-unmotivated.md"
   :title "Things To Do When Unmotivated"
@@ -1994,7 +2055,7 @@
           "/docs/lifestyle-optimizations/daily-physiological-tricks.md"
           "/docs/mind/motivation.md"]
   :size 2353
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/mind/working-with-others.md"
   :title "Working With Others"
@@ -2004,7 +2065,7 @@
   :dir? false
   :links ["/"]
   :size 7487
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/morality/altruism.md"
   :title "Altruism"
@@ -2014,7 +2075,7 @@
   :dir? false
   :links ["/"]
   :size 149
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/morality/cancelling-high-contributors.md"
   :title "Cancelling High Contributors"
@@ -2024,7 +2085,7 @@
   :dir? false
   :links ["/"]
   :size 1225
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/morality/efficient-living-and-morality.md"
   :title "Efficient Living And Morality"
@@ -2034,7 +2095,7 @@
   :dir? false
   :links ["/"]
   :size 4990
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/morality/future.md"
   :title "Future"
@@ -2044,7 +2105,7 @@
   :dir? false
   :links ["/"]
   :size 231
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/morality/right-to-risk.md"
   :title "Right To Risk"
@@ -2054,7 +2115,7 @@
   :dir? false
   :links ["/"]
   :size 1524
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/society/co-ops.md"
   :title "Co Ops"
@@ -2064,7 +2125,7 @@
   :dir? false
   :links ["/"]
   :size 4682
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/society/doom-and-how-to-avoid-it.md"
   :title "Doom And How To Avoid It"
@@ -2074,7 +2135,7 @@
   :dir? false
   :links ["/"]
   :size 2060
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/society/freedom-inequality-meritocracy.md"
   :title "Freedom Inequality Meritocracy"
@@ -2084,7 +2145,7 @@
   :dir? false
   :links ["/"]
   :size 2821
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/society/individuals-vs-groups.md"
   :title "Individuals Vs Groups"
@@ -2094,7 +2155,7 @@
   :dir? false
   :links ["/"]
   :size 658
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/society/politics.md"
   :title "Politics"
@@ -2104,7 +2165,7 @@
   :dir? false
   :links ["/"]
   :size 1431
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/society/solving-societal-problems.md"
   :title "Solving Societal Problems"
@@ -2116,7 +2177,7 @@
           "/"
           "/docs/mind/optimism.md"]
   :size 9673
-  :modtime 1667064718
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/society/utopia.md"
   :title "Utopia"
@@ -2130,7 +2191,7 @@
           "/docs/mind/creativity.md"
           "/docs/understanding-the-world/copyright-and-ip.md"]
   :size 8838
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/software-dev/actionable-tips.md"
   :title "Actionable Tips"
@@ -2140,7 +2201,7 @@
   :dir? false
   :links ["/"]
   :size 442
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/software-dev/auto-input-data-collection.md"
   :title "Auto Input Data Collection"
@@ -2150,7 +2211,7 @@
   :dir? false
   :links ["/"]
   :size 2360
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/software-dev/choosing-a-language.md"
   :title "Choosing A Language"
@@ -2160,7 +2221,7 @@
   :dir? false
   :links ["/"]
   :size 1050
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/software-dev/complexity.md"
   :title "Complexity"
@@ -2170,7 +2231,7 @@
   :dir? false
   :links ["/"]
   :size 1246
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/software-dev/functional-programming.md"
   :title "Functional Programming"
@@ -2180,7 +2241,7 @@
   :dir? false
   :links ["/"]
   :size 1390
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/software-dev/impact.md"
   :title "Impact"
@@ -2190,7 +2251,7 @@
   :dir? false
   :links ["/"]
   :size 198
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/software-dev/influences.md"
   :title "Influences"
@@ -2200,7 +2261,7 @@
   :dir? false
   :links ["/"]
   :size 1438
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/software-dev/patterned-code.md"
   :title "Patterned Code"
@@ -2210,7 +2271,7 @@
   :dir? false
   :links ["/"]
   :size 338
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/thought-experiments/artificial-intelligence.md"
   :title "Artificial Intelligence"
@@ -2220,7 +2281,7 @@
   :dir? false
   :links ["/"]
   :size 2408
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/thought-experiments/life-quests.md"
   :title "Life Quests"
@@ -2230,7 +2291,7 @@
   :dir? false
   :links ["/"]
   :size 396
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/thought-experiments/mind-mapping-concept.md"
   :title "Mind Mapping Concept"
@@ -2247,17 +2308,17 @@
           "/"
           "/docs/lifestyle-optimizations/experiences.md"]
   :size 1915
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/thought-experiments/random-ideas.md"
   :title "Random Ideas"
-  :markdown "# Random Ideas\n\nA collection of random short ideas I've had over the years that I haven't\nexecuted on (yet). If you find or do one of these things let me know!\n\n\n## Programming\n\n### Make $1 on the Internet\n\nWill probably lead to an interesting journey!\n\n### \"System 1\" Chatbot\n\nA chatbot that simulates talking to the \"system 1\" part of the brain only as\ndescribed in \"Thinking, Fast and Slow\".\n\n### Album Cover Quiz Site\n\nGiven an album cover (or movie cover or book cover), try to guess its genre or\nother things about it.  Basically [this](http://playjudgey.com/).  \n\n### Money Conversion App/Site\n\nAn app that allows the user to compare current market values of different\nthings.  For example, avocados to dollars or hours of specific work to rocks\netc.  Would be cool to have a web page associated that points out interesting\ncomparisons.  \n\n### String Image Formatter\n\nWrite a program that takes in a string and an image file, then adds\nnewlines/spaces/formatting to the string so that it looks like the image when\nviewed from a distance.  If the string is too short to work, repeat it or\nsomehow compress the image so it works out perfectly.  \n\n### Synonym Finder\n\nA program (or text editor plugin) where you can search text using all synonyms\nof the words you typed to search.  For example, searching some documentation for\n\"log\" would search for the word \"log\", but also (and with lower priority) the\nwords \"stderr\", \"stdout\", \"output\", etc.  This could also just be build in to\nthe search bar, where a window would pop up containing reframings of what you\nsearched for, as suggestions for what else to try.  \n\n### See Through Walls with VR/AR\n\nTry to (using google maps or pre-collected data) model an object in the real\nworld at its exact real world position in a VR or AR simulation.  For example,\nmodel a toothbrush in a bathroom so that when using VR in the living room you\ncan \"see through walls\" to see exactly the toothbrush.  Could be used to show\nlarge objects around the world at their exact positions (like the Eiffel tower\nor Mt Everest).  This would have a cool effect of giving you a really good\nbearing on your location with respect to the rest of the world.  \n\n### Word Traversal Game\n\nMake a word game where you try to get from one word to another via connections\nsuch as:\n\n - Words used in the same sentence of a given book\n - Synonyms/Antonyms\n\nhttps://www.word.golf/ is pretty close to this. It would be cool if it could be\nextended to other ways of connecting words.\n\n### Open Twitter\n\nA social network that just provides a raw database of tweets or posts and lets\nmany third party sites pop up that censor/curate/organize the posts/tweets in\ndifferent ways.\n\n### Memorization Game Mod\n\nMod a game you play often (e.g. Skyrim) so that random quips (e.g. \"arrow to\nthe knee\") are replaced by random facts you want to memorize.\n\n\n## Lifestyle Optimization\n\n### Water Saving Toilet\n\nMake a toilet where urine is redirected (like a composting toilet) into a\nseparate area with no water in it (the back of the toilet still has water).\nThen, when you pee in that area you don't need to flush, but when you poop (or\notherwise flush), the rising water will drain into the pee area as well,\nwashing it.  This should reduce the number of flushes per day by a lot for the\naverage toilet.\n\n### \"Feeling\" Biomarkers\n\nTry hooking up a continuous glucose (or other biomarker) monitor up to a\nvibration arm band (as discussed in the book \"Livewired\" by David Eagleman) to\n\"feel\" blood glucose concentration.\n\n### Hot Water Towel Rack\n\nExtend the hot water pipe that feeds a shower outside of the wall in a towel\nrack shape.\nThis will let the water flowing through the pipe heat your towel so it's nice\nand warm when you go to dry off.\n\n\n## Amusing\n\n### Musical Toothbrush\n\nA vibrating toothbrush that can accept a midi or other audio file. Then it will\nmodulate the vibrations to the tune of the audio.\n\n### Random Ice Prank\n\nPut [two liquids that\nfreeze](https://pubs.acs.org/doi/10.1021/acs.macromol.8b00239) (or get cold)\nwhen mixed in a laundry machine, surprising whoever goes to transfer their\nclothes!\n\n### Reverse Car Wash\n\nInstead of (or in addition to) spinning the bristles in a car wash, spin the\ncar instead!\nMore specifically, move the car around quickly like an amusement park ride so \nthat it rubs against the bristles.\n\n\n## Data Exploration\n\n### Ambiguous Acronyms\n\nMake a survey with ambiguous acronyms and see how the results differ based on\nthe community that's being asked (e.g. AC could be Armor Class or Air\nConditioning). This could be done on subreddits.\n\n### Regular Break Lifelogging\n\nEvery 30 minutes get up, walk around, and quickly note down what the last 30\nminutes was spent doing. Then use that data for cool visualizations.\n\n### Tracking Digestion with Center of Mass\n\nUse body's center of mass to estimate digestion progress/state.  Presumably\nright after eating mass is centered in the stomach, then slowly diffuses to\nother parts of the body\n\n\n## Food\n\n### Bell Pepper Cup\n\nCut the top off of a bell pepper and use it as a cup.  \n\n### Popped Potatoes\n\nPop potatoes like corn by wrapping them in a hard shell and cooking them.\n\n### Refried Bean Pizza\n\nPut refried beans on pizza.\n\n### Selling Chip Dust\n\nCompanies should sell the flavoring blends that flavor potato chips.\n\n\n## Cultural\n\n### Day of Music\n\nA holiday where everyone in their own homes/neighborhoods plays along to a\nsingle song in whatever way they can.\n\n### 1000 Hour Tattoos\n\nEverybody has a list of activities that they've done for a thousand hours or\nmore.\nIt would be cool if people had a piece of jewelry with removable parts like a\nnecklace with beads, and each activity that they've done for over a thousand\nhours would be represented by one bead.\nYou could also do this with a tattoo where you have different parts of a pattern\ninterlinking, with each part representing an activity.\n\nI think this would be a cool way to start conversations and also show people\nthat people spend a lot of time doing things that you may not expect just by\nlooking at them.\nEspecially things that are mindless or relaxing; everybody would have a bead for\nsleeping but people might also have beads for zoning out.\nI think visualizing this is a good way of normalizing the fact that everybody\nneeds that kind of time.\nAnd that that kind of time isn't an impediment to success, because many people\nthat you may aspire to be like may have beads like that, which shows that\nthey're more human than you might think.\n\n\n## Artistic\n\n### Monthly Clock Garden\n\nMake a circular (or square) yard with 12 plants that each bloom during each\nmonth of the year.\n\n### Mood Ring Contacts\n\nContact for you eyes that change their color based on your mood.  For example,\nred eyes could signify anger, black eyes depressions, blue eyes calm, green\neyes joy, etc.\n\n### Encoding Vocal Inflection in Text\n\nIn March 2022 I started using text to speech converters to generate audiobooks\nfor me to listen to on commutes. The biggest difference I noticed between robot\naudio and a human reading out loud is that spacing between words and vocal\ninflections don't always happen in the same way. For instance, a robot voice\nmay not give weight to a sentence that a human would.\n\nIt would be neat if an author could somehow encode this vocal inflection in\ntheir text (by using bold/italics or special characters) in such a way that a\ntext to speech encoder could react to, to generate more natural sounding audio.\n\nPoets (or artistic authors) could even hijack this system to instead add\nbizarre inflection to their text such that it would sound strange when\ntext-to-speechified. I imagine you could do some pretty wild stuff here, from\ncreating novel accents to spicing up rhyming verses. This technique would also\nallow you to encode sounds in writing that are impossible for a human voice to\nmake.\n\n### Laser Cut Leaves\n\nEtch some cool pattern in tough, large leaves (treating them like paper).\n\n### Laser Cut Flip Book\n\n#### Main Idea\n\nCreate a flip book by laser engraving a stack of thin wood (or thick paper)\npieces, each with one frame of a gif or short video.  Then, create a box that\nthe stack can fit into snugly, with one of the walls perpendicular to the stack\nremoved.  In the place of that wall, put a mobile rod (or just make the wall\nremovable).  If you then turn the box so that the rod or movable wall is facing\nthe ground, you can remove the wall and let the pieces fall downward, advancing\nthe frame and animating the gif/video.\n\n#### Variation\n\nMake the stack of frames, then drill a hole in one corner and thread a rod\nthrough the stack.  You should be able to then rotate the stack around like a\nspiral staircase.  Maybe you can animate it like this?\n\n### Table Fountain\n\nIf you have a round table to eat at that seats ~4 people, put a symmetrical\nfountain like those found in gardens in the middle for people to use to refill\ntheir water cups.  Could have four streams for easier filling.\n\nCategories: [Thought Experiments]({{< relref \"/\" >}}?Thought-Experiments=true)\n"
+  :markdown "# Random Ideas\n\nA collection of random short ideas I've had over the years that I haven't\nexecuted on (yet). If you find or do one of these things let me know!\n\n\n## Programming\n\n### Make $1 on the Internet\n\nWill probably lead to an interesting journey!\n\n### \"System 1\" Chatbot\n\nA chatbot that simulates talking to the \"system 1\" part of the brain only as\ndescribed in \"Thinking, Fast and Slow\".\n\n### Album Cover Quiz Site\n\nGiven an album cover (or movie cover or book cover), try to guess its genre or\nother things about it.  Basically [this](http://playjudgey.com/).  \n\n### Money Conversion App/Site\n\nAn app that allows the user to compare current market values of different\nthings.  For example, avocados to dollars or hours of specific work to rocks\netc.  Would be cool to have a web page associated that points out interesting\ncomparisons.  \n\n### String Image Formatter\n\nWrite a program that takes in a string and an image file, then adds\nnewlines/spaces/formatting to the string so that it looks like the image when\nviewed from a distance.  If the string is too short to work, repeat it or\nsomehow compress the image so it works out perfectly.  \n\n### Synonym Finder\n\nA program (or text editor plugin) where you can search text using all synonyms\nof the words you typed to search.  For example, searching some documentation for\n\"log\" would search for the word \"log\", but also (and with lower priority) the\nwords \"stderr\", \"stdout\", \"output\", etc.  This could also just be build in to\nthe search bar, where a window would pop up containing reframings of what you\nsearched for, as suggestions for what else to try.  \n\n### See Through Walls with VR/AR\n\nTry to (using google maps or pre-collected data) model an object in the real\nworld at its exact real world position in a VR or AR simulation.  For example,\nmodel a toothbrush in a bathroom so that when using VR in the living room you\ncan \"see through walls\" to see exactly the toothbrush.  Could be used to show\nlarge objects around the world at their exact positions (like the Eiffel tower\nor Mt Everest).  This would have a cool effect of giving you a really good\nbearing on your location with respect to the rest of the world.  \n\n### Word Traversal Game\n\nMake a word game where you try to get from one word to another via connections\nsuch as:\n\n - Words used in the same sentence of a given book\n - Synonyms/Antonyms\n\nhttps://www.word.golf/ is pretty close to this. It would be cool if it could be\nextended to other ways of connecting words.\n\n### Open Twitter\n\nA social network that just provides a raw database of tweets or posts and lets\nmany third party sites pop up that censor/curate/organize the posts/tweets in\ndifferent ways.\n\n### Memorization Game Mod\n\nMod a game you play often (e.g. Skyrim) so that random quips (e.g. \"arrow to\nthe knee\") are replaced by random facts you want to memorize.\n\n\n## Lifestyle Optimization\n\n### Water Saving Toilet\n\nMake a toilet where urine is redirected (like a composting toilet) into a\nseparate area with no water in it (the back of the toilet still has water).\nThen, when you pee in that area you don't need to flush, but when you poop (or\notherwise flush), the rising water will drain into the pee area as well,\nwashing it.  This should reduce the number of flushes per day by a lot for the\naverage toilet.\n\n### \"Feeling\" Biomarkers\n\nTry hooking up a continuous glucose (or other biomarker) monitor up to a\nvibration arm band (as discussed in the book \"Livewired\" by David Eagleman) to\n\"feel\" blood glucose concentration.\n\n### Hot Water Towel Rack\n\nExtend the hot water pipe that feeds a shower outside of the wall in a towel\nrack shape.\nThis will let the water flowing through the pipe heat your towel so it's nice\nand warm when you go to dry off.\n\n\n## Amusing\n\n### Musical Toothbrush\n\nA vibrating toothbrush that can accept a midi or other audio file. Then it will\nmodulate the vibrations to the tune of the audio.\n\n### Random Ice Prank\n\nPut [two liquids that\nfreeze](https://pubs.acs.org/doi/10.1021/acs.macromol.8b00239) (or get cold)\nwhen mixed in a laundry machine, surprising whoever goes to transfer their\nclothes!\n\n### Reverse Car Wash\n\nInstead of (or in addition to) spinning the bristles in a car wash, spin the\ncar instead!\nMore specifically, move the car around quickly like an amusement park ride so \nthat it rubs against the bristles.\n\n\n## Data Exploration\n\n### Ambiguous Acronyms\n\nMake a survey with ambiguous acronyms and see how the results differ based on\nthe community that's being asked (e.g. AC could be Armor Class or Air\nConditioning). This could be done on subreddits.\n\n### Regular Break Lifelogging\n\nEvery 30 minutes get up, walk around, and quickly note down what the last 30\nminutes was spent doing. Then use that data for cool visualizations.\n\n### Tracking Digestion with Center of Mass\n\nUse body's center of mass to estimate digestion progress/state.  Presumably\nright after eating mass is centered in the stomach, then slowly diffuses to\nother parts of the body\n\n\n## Food\n\n### Bell Pepper Cup\n\nCut the top off of a bell pepper and use it as a cup.  \n\n### Popped Potatoes\n\nPop potatoes like corn by wrapping them in a hard shell and cooking them.\n\n### Refried Bean Pizza\n\nPut refried beans on pizza.\n\n### Selling Chip Dust\n\nCompanies should sell the flavoring blends that flavor potato chips.\n\n\n## Cultural\n\n### Day of Music\n\nA holiday where everyone in their own homes/neighborhoods plays along to a\nsingle song in whatever way they can.\n\n### 1000 Hour Tattoos\n\nEverybody has a list of activities that they've done for a thousand hours or\nmore.\nIt would be cool if people had a piece of jewelry with removable parts like a\nnecklace with beads, and each activity that they've done for over a thousand\nhours would be represented by one bead.\nYou could also do this with a tattoo where you have different parts of a pattern\ninterlinking, with each part representing an activity.\n\nI think this would be a cool way to start conversations and also show people\nthat people spend a lot of time doing things that you may not expect just by\nlooking at them.\nEspecially things that are mindless or relaxing; everybody would have a bead for\nsleeping but people might also have beads for zoning out.\nI think visualizing this is a good way of normalizing the fact that everybody\nneeds that kind of time.\nAnd that that kind of time isn't an impediment to success, because many people\nthat you may aspire to be like may have beads like that, which shows that\nthey're more human than you might think.\n\n\n## Artistic\n\n### Monthly Clock Garden\n\nMake a circular (or square) yard with 12 plants that each bloom during each\nmonth of the year.\n\n### Mood Ring Contacts\n\nContact for you eyes that change their color based on your mood.  For example,\nred eyes could signify anger, black eyes depressions, blue eyes calm, green\neyes joy, etc.\n\n### Encoding Vocal Inflection in Text\n\nIn March 2022 I started using text to speech converters to generate audiobooks\nfor me to listen to on commutes. The biggest difference I noticed between robot\naudio and a human reading out loud is that spacing between words and vocal\ninflections don't always happen in the same way. For instance, a robot voice\nmay not give weight to a sentence that a human would.\n\nIt would be neat if an author could somehow encode this vocal inflection in\ntheir text (by using bold/italics or special characters) in such a way that a\ntext to speech encoder could react to, to generate more natural sounding audio.\n\nPoets (or artistic authors) could even hijack this system to instead add\nbizarre inflection to their text such that it would sound strange when\ntext-to-speechified. I imagine you could do some pretty wild stuff here, from\ncreating novel accents to spicing up rhyming verses. This technique would also\nallow you to encode sounds in writing that are impossible for a human voice to\nmake.\n\n### Laser Cut Leaves\n\nEtch some cool pattern in tough, large leaves (treating them like paper).\n\n### Laser Cut Flip Book\n\n#### Main Idea\n\nCreate a flip book by laser engraving a stack of thin wood (or thick paper)\npieces, each with one frame of a gif or short video.  Then, create a box that\nthe stack can fit into snugly, with one of the walls perpendicular to the stack\nremoved.  In the place of that wall, put a mobile rod (or just make the wall\nremovable).  If you then turn the box so that the rod or movable wall is facing\nthe ground, you can remove the wall and let the pieces fall downward, advancing\nthe frame and animating the gif/video.\n\n#### Variation\n\nMake the stack of frames, then drill a hole in one corner and thread a rod\nthrough the stack.  You should be able to then rotate the stack around like a\nspiral staircase.  Maybe you can animate it like this?\n\n### Table Fountain\n\nIf you have a round table to eat at that seats ~4 people, put a symmetrical\nfountain like those found in gardens in the middle for people to use to refill\ntheir water cups.  Could have four streams for easier filling.\n\nCategories: [Thought Experiments]({{< relref \"/\" >}}?Thought-Experiments=true)"
   :name "random-ideas.md"
   :categories #{"Thought Experiments"}
   :dir? false
   :links ["/"]
-  :size 9067
-  :modtime 1667064988
+  :size 9066
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/thought-experiments/two-glasses.md"
   :title "Two Glasses"
@@ -2267,7 +2328,7 @@
   :dir? false
   :links ["/"]
   :size 1752
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/understanding-the-world/applying-theories.md"
   :title "Applying Theories"
@@ -2277,7 +2338,7 @@
   :dir? false
   :links ["/"]
   :size 4672
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/understanding-the-world/copyright-and-ip.md"
   :title "Copyright And Ip"
@@ -2291,7 +2352,7 @@
           "/docs/mind/creativity.md"
           "/docs/society/utopia.md"]
   :size 774
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/understanding-the-world/great-explanations.md"
   :title "Great Explanations"
@@ -2301,18 +2362,21 @@
   :dir? false
   :links ["/"]
   :size 302
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/understanding-the-world/influences.md"
   :title "Influences"
-  :markdown "# Influences\n\nThese works have guided my thinking about how to discover truths about the\nworld. They include examinations of general patterns that reappear in many\nparts of the world - understanding these I feel helps hasten future discovery,\nso I put them in this section of the website.  These sources are roughly sorted\nby their level of influence on my thinking.\n\n\n## [The Beginning of Infinity by David Deutsch](https://en.wikipedia.org/wiki/The_Beginning_of_Infinity)\n\nExcellent book that addresses (a theory for) how knowledge is created and the\nimplications that has for humankind, and \"people\" more generally. David's\ntheory is that knowledge is created by filtering many creative conjectures into\nthose that give the best explanations for things via a tradition of criticism.\n\n\n## [Antifragile by Nassim Taleb](https://en.wikipedia.org/wiki/Antifragile)\n\nReally insightful book into types of systems in the world and how they behave.\nSpecifically those that manifest \"antifragile\" behaviors.\n\n### What is Antifragility?\n\nFragile - hurt by random variation\nRobust - not sensitive to anything\nAntifraile - hurt by lack of variation\n\n\n### Convexity/Concavity\n\nThe fragile is well represented by a concave distribution - outcomes are fine\nmost of the time, but can sometimes be catastrophic.\n\nThe antifragile is well represented by a convex distribution - outcomes are\nfine most of the time, but can sometimes be very good.\n\n\n### Theorizing vs Tinkering\n\nTheorizing involves making many (tested or untested) logical steps to explain a\nbehavior.  This is most effective in simple systems with little\nself-interaction (e.g. toy physics models).  When applied to complex systems,\ntheorizing can be fragile.\n\nRandom tinkering is done by making immediate decisions (hopefully with multiple\noptions) in a more near-sighted way.  The results of these decisions feed back\ninto the process, hopefully stumbling the tinkerer closer to a solution.  This\nis antifragile - your expectations are low most of the time, but sometimes you\nstumble onto something very groundbreaking.\n\n\n## [Kevin Bass](https://thedietwars.com/)\n\nRepresentative articles:\n\n - https://thedietwars.com/how-to-determine-who-is-a-legitimate-science-based-health-expert/\n\n\n## [_Zero to One_ by Peter Thiel](https://en.wikipedia.org/wiki/Zero_to_One)\n\nInteresting book that tries to answer the question of (1) what kinds of work\nwill have the highest (positive) impact on humanity and (2) how to do that\nwork.\n\nMy short synopsis: _Zero to One_ argues that completely novel ideas that don't\ndirectly compete in any existing markets lead to the most successful businesses\nand the most positive change for humanity. Therefore, we should focus our\nenergy on being different, \"thinking for ourselves\", and coming up with the\nmost bold, creative ideas possible as opposed to diversifying our interests and\nseeking incremental change.\n\nInteresting criticism at\nhttps://medium.com/@LouisGudema/zero-to-some-a-critique-of-peter-thiels-zero-to-one-a3df11d484de.\n\n\n## Tech Blogs\n\n- [danluu](http://danluu.com)\n- [Paul Graham](http://www.paulgraham.com/articles.html)\n\n\n\n\n\n\n\n\n\n\nCategories: [Understanding The World]({{< relref \"/\" >}}?Understanding-The-World=true)\n\nBacklinks: [Influences]({{< relref \"/docs/investing-and-finances/influences.md\" >}}), \n"
+  :markdown "# Influences\n\nThese works have guided my thinking about how to discover truths about the\nworld. They include examinations of general patterns that reappear in many\nparts of the world - understanding these I feel helps hasten future discovery,\nso I put them in this section of the website.\n\n[Click here to make the sidebar filter down to the works.]({{< relref \"/docs/understanding-the-world/influences.md\" >}}?Books=true&Understanding+The+World=true)\n\n - [_Zero to One_]({{< relref \"/docs/books/zero-to-one.md\" >}})\n\n\n## [Kevin Bass](https://thedietwars.com/)\n\nRepresentative articles:\n\n - https://thedietwars.com/how-to-determine-who-is-a-legitimate-science-based-health-expert/\n\n\n## Tech Blogs\n\n- [danluu](http://danluu.com)\n- [Paul Graham](http://www.paulgraham.com/articles.html)\n\n\nCategories: [Understanding The World]({{< relref \"/\" >}}?Understanding-The-World=true)\n\nBacklinks: [Influences]({{< relref \"/docs/investing-and-finances/influences.md\" >}}), \n[Influences]({{< relref \"/docs/understanding-the-world/influences.md\" >}}), \n"
   :name "influences.md"
   :categories #{"Understanding The World"}
   :dir? false
-  :links ["/"
-          "/docs/investing-and-finances/influences.md"]
-  :size 3305
-  :modtime 1665686564
+  :links ["/docs/understanding-the-world/influences.md"
+          "/docs/books/zero-to-one.md"
+          "/"
+          "/docs/investing-and-finances/influences.md"
+          "/docs/understanding-the-world/influences.md"]
+  :size 1038
+  :modtime 1667452642
   :mode 416}
  {:path "content/docs/understanding-the-world/judging-decisions.md"
   :title "Judging Decisions"
@@ -2322,7 +2386,7 @@
   :dir? false
   :links ["/"]
   :size 2328
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/understanding-the-world/notetaking.md"
   :title "Notetaking"
@@ -2332,7 +2396,7 @@
   :dir? false
   :links ["/"]
   :size 1065
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/understanding-the-world/physics.md"
   :title "Physics"
@@ -2342,7 +2406,7 @@
   :dir? false
   :links ["/"]
   :size 415
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/understanding-the-world/productive-conversations.md"
   :title "Productive Conversations"
@@ -2353,7 +2417,7 @@
   :links ["/"
           "/docs/lifestyle-optimizations/daily-physiological-tricks.md"]
   :size 886
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/understanding-the-world/what-to-believe.md"
   :title "What To Believe"
@@ -2370,7 +2434,7 @@
           "/docs/mind/perspective.md"
           "/docs/understanding-the-world/working-with-complex-systems.md"]
   :size 14947
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/understanding-the-world/working-with-complex-systems.md"
   :title "Working With Complex Systems"
@@ -2381,7 +2445,7 @@
   :links ["/"
           "/docs/understanding-the-world/what-to-believe.md"]
   :size 867
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/visual-art/generative-art.md"
   :title "Generative Art"
@@ -2391,7 +2455,7 @@
   :dir? false
   :links ["/"]
   :size 1453
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/visual-art/inspiration-and-resources.md"
   :title "Inspiration And Resources"
@@ -2401,7 +2465,7 @@
   :dir? false
   :links ["/"]
   :size 640
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}
  {:path "content/docs/visual-art/judging-art.md"
   :title "Judging Art"
@@ -2411,5 +2475,5 @@
   :dir? false
   :links ["/"]
   :size 597
-  :modtime 1665686564
+  :modtime 1667452337
   :mode 416}]
