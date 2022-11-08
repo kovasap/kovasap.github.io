@@ -59,6 +59,16 @@ Categories: Books, Understanding The World</description>
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/books/The-Black-Swan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/books/The-Black-Swan/</guid>
+      <description>The Black Swan by Nassim Taleb # Categories: Books
+Backlinks: Gerrymandering,</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/books/the-open-society-and-its-enemies/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1887,6 +1897,15 @@ Empowering People # I currently believe that creative people are the solution to
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/society/gerrymandering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/society/gerrymandering/</guid>
+      <description>Gerrymandering # In the US, a mostly agreed upon problem is that our legislative districts are drawn in a biased way which favors whichever party was in power when the lines were last drawn. This is easy because geographical boundaries are pretty arbitrary, and IMO do a bad job of sorting people into representable groups. So there isn&amp;rsquo;t really a way to judge the quality of the lines as they are drawn.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/society/individuals-vs-groups/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -2136,6 +2155,17 @@ Constraints under which the notes info doesn&amp;rsquo;t apply (limitation of a 
       <guid>https://kovasap.github.io/docs/understanding-the-world/physics/</guid>
       <description>How the World Really Works (Physics) # Yet-untestable questions about physics described in Interpretations of Quantum Mechanics by Domain of Science. See also Bells Theorem, which I really want to deeply understand if possible.
 Categories: Understanding The World</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/understanding-the-world/predicting-the-future/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/understanding-the-world/predicting-the-future/</guid>
+      <description>Predicting the Future # Predicting the future is very difficult.
+This is especially true when working with complex systems, which unfortunately compose most of our world.
+The Problem of Induction # Categories: Understanding The World</description>
     </item>
     
     <item>
