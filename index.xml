@@ -452,6 +452,15 @@ Market Trading Board Game # My take on a resource management euro-style game. Co
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/gamedev/real-time-strategy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/gamedev/real-time-strategy/</guid>
+      <description>Real Time Strategy # One big issue I have with real time economic simulation games (Offworld Trading Company, Rimworld, Oxygen Not Included) is that there is often a period of the game where you are just waiting for resources to accumulate or for some random event to happen. This IMO is a really bad experience because (1) it&amp;rsquo;s boring and (2) it puts the player in a more reactive frame of mind.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/gamedev/social-games/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -572,13 +581,14 @@ Backlinks: Feelings,</description>
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/games/Chess/</link>
+      <link>https://kovasap.github.io/docs/games/chess/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/games/Chess/</guid>
-      <description>Chess # I&amp;rsquo;ve found lichess.org is a great place to play.
-Feelings:
-Categories: Competitive, Experiences, Game, Games, Turn Based</description>
+      <guid>https://kovasap.github.io/docs/games/chess/</guid>
+      <description>Chess # I play my chess on lichess.org, which has a great UI and cool analysis features.
+I&amp;rsquo;ve learned a lot from watching GothamChess on YouTube, especially his opening videos.
+I want to try out chessable at some point.
+Categories: Games, Gaming</description>
     </item>
     
     <item>
@@ -733,6 +743,17 @@ Backlinks: Feelings,</description>
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/games/Offworld-Trading-Company/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/games/Offworld-Trading-Company/</guid>
+      <description>Offworld Trading Company # Feelings:
+Categories: Experiences, Games, Solitary
+Backlinks: Real Time Strategy,</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/games/Opus-Magnum/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -749,6 +770,42 @@ Categories: Experiences, Game, Games, Programming, Puzzle</description>
       
       <guid>https://kovasap.github.io/docs/games/Overwatch/</guid>
       <description>[Overwatch](https://en.wikipedia.org/wiki/Overwatch_(video_game%29) # Strategy # &amp;ldquo;Bowl&amp;rdquo; Concept # Many Overwatch maps have bowl shaped sections where there is an objective surrounded by high ground or buildings. Fighting in the center of the bowl is often very dangerous because you can be attacked from multiple directions at once. Because of this, it might be a good rule of thumb to fight on the edges of the bowl either against others on the edge or, ideally, against enemies in the center of the bowl.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/games/oxygen-not-included/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/games/oxygen-not-included/</guid>
+      <description>Oxygen Not Included # A cool base building game with a focus on designing complex interacting systems.
+Build Ideas # Arbor tree -&amp;gt; ethanol setup:
+https://forums.kleientertainment.com/forums/topic/110495-trees-petroleum-generator/ https://forums.kleientertainment.com/forums/topic/111356-arbor-tree-farming/?tab=comments Dreko farm for plastic: https://forums.kleientertainment.com/forums/topic/95124-an-easy-to-build-compact-and-efficient-glossy-drecko-farm/
+Categories: Games, Gaming
+Backlinks: Real Time Strategy,</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/games/pathfinder-kingmaker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/games/pathfinder-kingmaker/</guid>
+      <description>Pathfinder Kingmaker # Gripes # Information Obfuscation # The mental load of trying to make decisions in this game, like which enemy to target with which skill, is really high. I think this is because:
+Chance to hit is not calculated for you &amp;hellip; This makes me think that the game is not actually meant to be played as a tactical strategy game, but rather as a level-gated exploration game (where you just run from too-high-level fights instead of trying to puzzle them out).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/games/pillars-of-eternity-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/games/pillars-of-eternity-2/</guid>
+      <description>Pillars of Eternity 2 # Helpful commands for reclassing companions:
+https://forums.obsidian.net/topic/109311-class-change-cheats-for-companions-here-console/
+And the main character:
+https://www.reddit.com/r/projecteternity/comments/8j74ne/comment/dyxi5nn/?utm_source=share&amp;utm_medium=web2x&amp;context=3
+Categories: Games, Gaming</description>
     </item>
     
     <item>
@@ -797,6 +854,18 @@ Backlinks: Feelings,</description>
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/games/Rimworld/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/games/Rimworld/</guid>
+      <description>Rimworld # A great description of a core issue: https://news.ycombinator.com/item?id=33882724
+Feelings:
+Categories: Experiences, Game, Games, Solitary
+Backlinks: Real Time Strategy,</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/games/Semantle/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -805,6 +874,17 @@ Backlinks: Feelings,</description>
 Feelings:
 Scanning through possibilities Categories: Experiences, Game, Games, Puzzle, Social
 Backlinks: Feelings,</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/games/skyrim/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/games/skyrim/</guid>
+      <description>Skyrim # Best played with mods: https://drive.google.com/drive/folders/1ekiDIGgRXa7bplPzls803Y0dYBrP53tz?usp=sharing
+Gaming
+Categories: Experiences, Games, Gaming</description>
     </item>
     
     <item>
@@ -900,59 +980,12 @@ Steam # Has good sales and an amazing UI/management system for your game collect
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/gaming/chess/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/gaming/chess/</guid>
-      <description>Chess # I play my chess on lichess.org, which has a great UI and cool analysis features.
-I&amp;rsquo;ve learned a lot from watching GothamChess on YouTube, especially his opening videos.
-I want to try out chessable at some point.
-Categories: Gaming</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://kovasap.github.io/docs/gaming/fps-principles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/gaming/fps-principles/</guid>
       <description>Core First Person Shooter (FPS) Principles # These are some general guidelines I&amp;rsquo;ve learned over my many hours playing FPS games. I&amp;rsquo;m writing them here so I don&amp;rsquo;t forget them, and so others might learn something - or point out flaws in my reasoning so I can get better!
 Information, and Proactivity # Most FPS fights come down to proactively acting on information about where exactly your opponent is. If you know with precision where your opponent is, and they don&amp;rsquo;t know where you are, you can confidently peek at them and often even prefire (or shoot as you are peeking).</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/gaming/oxygen-not-included/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/gaming/oxygen-not-included/</guid>
-      <description>Oxygen Not Included # A cool base building game with a focus on designing complex interacting systems.
-Build Ideas # Arbor tree -&amp;gt; ethanol setup:
-https://forums.kleientertainment.com/forums/topic/110495-trees-petroleum-generator/ https://forums.kleientertainment.com/forums/topic/111356-arbor-tree-farming/?tab=comments Dreko farm for plastic: https://forums.kleientertainment.com/forums/topic/95124-an-easy-to-build-compact-and-efficient-glossy-drecko-farm/
-Categories: Gaming</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/gaming/pathfinder-kingmaker/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/gaming/pathfinder-kingmaker/</guid>
-      <description>Pathfinder Kingmaker # Gripes # Information Obfuscation # The mental load of trying to make decisions in this game, like which enemy to target with which skill, is really high. I think this is because:
-Chance to hit is not calculated for you &amp;hellip; This makes me think that the game is not actually meant to be played as a tactical strategy game, but rather as a level-gated exploration game (where you just run from too-high-level fights instead of trying to puzzle them out).</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/gaming/pillars-of-eternity-2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/gaming/pillars-of-eternity-2/</guid>
-      <description>Pillars of Eternity 2 # Helpful commands for reclassing companions:
-https://forums.obsidian.net/topic/109311-class-change-cheats-for-companions-here-console/
-And the main character:
-https://www.reddit.com/r/projecteternity/comments/8j74ne/comment/dyxi5nn/?utm_source=share&amp;utm_medium=web2x&amp;context=3
-Categories: Gaming</description>
     </item>
     
     <item>
@@ -964,17 +997,6 @@ Categories: Gaming</description>
       <description>Recommendations # Puzzle Games # OLD VIEW WITH OLD DATA:
 Puzzle Games Real Time Competitive Games Categories: Gaming
 Backlinks: Recommendations, Experiences,</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/gaming/skyrim/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/gaming/skyrim/</guid>
-      <description>Skyrim # Best played with mods: https://drive.google.com/drive/folders/1ekiDIGgRXa7bplPzls803Y0dYBrP53tz?usp=sharing
-Gaming
-Categories: Experiences, Gaming</description>
     </item>
     
     <item>

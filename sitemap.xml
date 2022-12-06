@@ -133,6 +133,8 @@
     <loc>https://kovasap.github.io/docs/gamedev/my-projects/</loc>
     <lastmod>2022-06-20T12:27:32-07:00</lastmod>
   </url><url>
+    <loc>https://kovasap.github.io/docs/gamedev/real-time-strategy/</loc>
+  </url><url>
     <loc>https://kovasap.github.io/docs/gamedev/social-games/</loc>
     <lastmod>2022-07-19T17:35:43-07:00</lastmod>
   </url><url>
@@ -166,8 +168,8 @@
     <loc>https://kovasap.github.io/docs/games/Browsing-Hacker-News/</loc>
     <lastmod>2022-11-06T11:28:13-08:00</lastmod>
   </url><url>
-    <loc>https://kovasap.github.io/docs/games/Chess/</loc>
-    <lastmod>2022-11-06T11:28:13-08:00</lastmod>
+    <loc>https://kovasap.github.io/docs/games/chess/</loc>
+    <lastmod>2021-07-10T10:48:48-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/games/CoD-MW2/</loc>
     <lastmod>2022-11-06T11:28:13-08:00</lastmod>
@@ -211,11 +213,20 @@
     <loc>https://kovasap.github.io/docs/games/Making-Small-Web-Apps-in-ClojureScript-with-Reagent/</loc>
     <lastmod>2022-11-06T11:28:13-08:00</lastmod>
   </url><url>
+    <loc>https://kovasap.github.io/docs/games/Offworld-Trading-Company/</loc>
+  </url><url>
     <loc>https://kovasap.github.io/docs/games/Opus-Magnum/</loc>
     <lastmod>2022-11-06T11:28:13-08:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/games/Overwatch/</loc>
     <lastmod>2022-11-30T18:30:34-08:00</lastmod>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/games/oxygen-not-included/</loc>
+    <lastmod>2021-07-10T10:48:48-07:00</lastmod>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/games/pathfinder-kingmaker/</loc>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/games/pillars-of-eternity-2/</loc>
   </url><url>
     <loc>https://kovasap.github.io/docs/games/Puzzgrid/</loc>
     <lastmod>2022-11-06T11:28:13-08:00</lastmod>
@@ -229,14 +240,18 @@
     <loc>https://kovasap.github.io/docs/games/Redditing/</loc>
     <lastmod>2022-11-06T11:28:13-08:00</lastmod>
   </url><url>
+    <loc>https://kovasap.github.io/docs/games/Rimworld/</loc>
+  </url><url>
     <loc>https://kovasap.github.io/docs/games/Semantle/</loc>
     <lastmod>2022-11-06T11:28:13-08:00</lastmod>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/games/skyrim/</loc>
   </url><url>
     <loc>https://kovasap.github.io/docs/games/Slipways/</loc>
     <lastmod>2022-11-06T11:28:13-08:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/games/symphony-of-war/</loc>
-    <lastmod>2022-12-01T15:49:39-08:00</lastmod>
+    <lastmod>2022-12-05T09:55:24-08:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/games/The-Last-Spell/</loc>
     <lastmod>2022-11-06T11:28:13-08:00</lastmod>
@@ -256,26 +271,11 @@
     <loc>https://kovasap.github.io/docs/gaming/buying-games/</loc>
     <lastmod>2022-06-20T12:27:32-07:00</lastmod>
   </url><url>
-    <loc>https://kovasap.github.io/docs/gaming/chess/</loc>
-    <lastmod>2022-06-20T12:27:32-07:00</lastmod>
-  </url><url>
     <loc>https://kovasap.github.io/docs/gaming/fps-principles/</loc>
-    <lastmod>2022-06-20T12:27:32-07:00</lastmod>
-  </url><url>
-    <loc>https://kovasap.github.io/docs/gaming/oxygen-not-included/</loc>
-    <lastmod>2022-06-20T12:27:32-07:00</lastmod>
-  </url><url>
-    <loc>https://kovasap.github.io/docs/gaming/pathfinder-kingmaker/</loc>
-    <lastmod>2022-06-20T12:27:32-07:00</lastmod>
-  </url><url>
-    <loc>https://kovasap.github.io/docs/gaming/pillars-of-eternity-2/</loc>
     <lastmod>2022-06-20T12:27:32-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/gaming/recommendations/</loc>
     <lastmod>2022-11-02T22:18:00-07:00</lastmod>
-  </url><url>
-    <loc>https://kovasap.github.io/docs/gaming/skyrim/</loc>
-    <lastmod>2022-09-11T12:25:12-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/health-and-longevity/aging-science/</loc>
     <lastmod>2022-08-03T11:34:45-07:00</lastmod>
@@ -302,7 +302,7 @@
     <lastmod>2022-06-19T19:12:34-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/health-and-longevity/cooking/</loc>
-    <lastmod>2022-08-22T14:00:31-07:00</lastmod>
+    <lastmod>2022-12-05T09:55:24-08:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/health-and-longevity/dental-health/</loc>
     <lastmod>2022-06-20T12:27:32-07:00</lastmod>
@@ -662,9 +662,9 @@
     <lastmod>2022-06-20T12:25:27-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/</loc>
-    <lastmod>2022-12-05T09:53:43-08:00</lastmod>
+    <lastmod>2022-12-05T09:55:24-08:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/</loc>
-    <lastmod>2022-11-30T18:30:34-08:00</lastmod>
+    <lastmod>2022-12-05T09:55:24-08:00</lastmod>
   </url>
 </urlset>
