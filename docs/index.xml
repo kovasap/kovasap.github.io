@@ -314,17 +314,6 @@ Chaos to Solution # The feeling when you have no idea how to fix something but s
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/FREEWRITE/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/FREEWRITE/</guid>
-      <description>01/16/2022 Week in review # Started on the biomarker correlator project with Michael Lustgarten, made good progress. Clojure is still kinda frustrating to work with, so many functions to learn! It seems like there is a lot of initial breath to master before getting really in the flow.
-Modded Skyrim and started a playthrough. It&amp;rsquo;s fun to get distracted by all the random things in the world :).
-Took lunch home every day at work, which made me feel a lot more productive.</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://kovasap.github.io/docs/gamedev/common-patterns/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1559,6 +1548,16 @@ https://kk.org/thetechnium/103-bits-of-advice-i-wish-i-had-known/ https://guzey.
       <description>Listening to Books # When commuting I like to listen to podcasts or books for learning and entertainment. Unfortunately, many books do not have audiobook versions. Luckily, it&amp;rsquo;s fairly easy to use text-to-speech engines to convert the text of e books into audio. See tools in this repo: https://github.com/kovasap/pico-read-speaker
 TODO check out:
 https://gtts.readthedocs.io/en/latest/ I was listening to https://www.lifespan.io/the-rejuvenation-roundup-podcast/ recently and noticed the voice of the presenter sounded a bit generated.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/lifestyle-optimizations/making-friends/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/making-friends/</guid>
+      <description>Making Friends # https://www.neelnanda.io/blog/43-making-friends
+Categories: Lifestyle Optimizations</description>
     </item>
     
     <item>
