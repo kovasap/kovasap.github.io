@@ -1411,8 +1411,7 @@ Note that your capital gains themselves help determine your capital gains tax ra
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/lifelogging/camera/</guid>
-      <description>Lifelogging with a Camera # Used the iON Snapcam.
-Requires this third party software to enable the time lapse: https://github.com/dimhoff/snapcamcontrol. Use a version hosted on this site here.
+      <description>Lifelogging with a Camera # Using the iON Snapcam. # Requires this third party software to enable the time lapse: https://github.com/dimhoff/snapcamcontrol. Use a version hosted on this site here.
 The beeping when taking a picture is really annoying, see https://www.reddit.com/r/ElectronicsRepair/comments/tzmesl/how_to_silence_a_beeping_speaker_on_a_circuit/ for how to disable.
 Memory usage # My snapcam has a 8MP camera mode and a 2MP one. The 2MP images are ~340 kB in size, and the 8MP ones are ~1.</description>
     </item>
@@ -1424,6 +1423,17 @@ Memory usage # My snapcam has a 8MP camera mode and a 2MP one. The 2MP images ar
       
       <guid>https://kovasap.github.io/docs/lifelogging/influences/</guid>
       <description>Influences and Inspiration # Time tracking: https://www.reddit.com/r/dataisbeautiful/comments/radi1e/oc_i_tracked_every_minute_of_every_day_for_the/ http://karpathy.github.io/2014/08/03/quantifying-productivity/ https://howisfelix.today/? SmarterTime is a system for tracking all life events similar to my autojournal. Audio tracking: https://roberdam.com/en/wisper.html (https://news.ycombinator.com/item?id=33608437) Categories: Lifelogging</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/lifelogging/screenshot-logging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/lifelogging/screenshot-logging/</guid>
+      <description>Lifelogging via Screenshots # Pictures are easy to take and contain a ton of context-rich information. Therefore, they are a great way to easily lifelog.
+Manual # On windows, pressing Win+PrnScn will take a screenshot and place it in the Home\Pictures\Screenshots folder. Using the Google Drive desktop app you can mark this folder so that all photos places to it automatically get uploaded to Google Photos.
+Fully automatic # https://github.</description>
     </item>
     
     <item>
