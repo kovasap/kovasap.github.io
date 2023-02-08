@@ -1411,7 +1411,7 @@ Note that your capital gains themselves help determine your capital gains tax ra
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/lifelogging/camera/</guid>
-      <description>Lifelogging with a Camera # Using the iON Snapcam. # Requires this third party software to enable the time lapse: https://github.com/dimhoff/snapcamcontrol. Use a version hosted on this site here.
+      <description>Lifelogging with a Camera # To Try # https://www.brilliantmonocle.com/ Using the iON Snapcam. # Requires this third party software to enable the time lapse: https://github.com/dimhoff/snapcamcontrol. Use a version hosted on this site here.
 The beeping when taking a picture is really annoying, see https://www.reddit.com/r/ElectronicsRepair/comments/tzmesl/how_to_silence_a_beeping_speaker_on_a_circuit/ for how to disable.
 Memory usage # My snapcam has a 8MP camera mode and a 2MP one. The 2MP images are ~340 kB in size, and the 8MP ones are ~1.</description>
     </item>
