@@ -779,6 +779,16 @@ Backlinks: Real Time Strategy,</description>
     
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/games/ozymandius/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/games/ozymandius/</guid>
+      <description>Ozymandius # Cool puzzle civ-like game that doesn&amp;rsquo;t drag on forever.
+Categories: Experiences, Game, Games, Puzzle, Solitary, Turn Based</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/games/pathfinder-kingmaker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -829,7 +839,7 @@ Backlinks: Feelings,</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/games/Rainbow-6-Siege/</guid>
-      <description>Rainbow 6: Siege # Very intense and engaging game that requires a high level of focus. Everymovement made in this game produces audible sound, meaning that movement givesaway your position and makes you vulnerable. However, like in most shooters,if you proactively move to shoot at a particular point, you will still have anadvantage against someone reacting to your movement. This leads to a dynamicwhere both you and your opponent are trying to determine the location of theother without giving away their own location - once one person knows withcertainty they can simply move to attack and will have a strong advantage.</description>
+      <description>Rainbow 6: Siege # Very intense and engaging game that requires a high level of focus. Every movement made in this game produces audible sound, meaning that movement gives away your position and makes you vulnerable. However, like in most shooters,if you proactively move to shoot at a particular point, you will still have an advantage against someone reacting to your movement. This leads to a dynamic where both you and your opponent are trying to determine the location of the other without giving away their own location - once one person knows withc ertainty they can simply move to attack and will have a strong advantage.</description>
     </item>
     
     <item>
@@ -889,6 +899,16 @@ Categories: Experiences, Games, Gaming</description>
 Feelings:
 Scanning through possibilities Categories: Experiences, Game, Games, Puzzle, Solitary, Turn Based
 Backlinks: Feelings,</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/games/subnautica/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/games/subnautica/</guid>
+      <description>Subnautica # Amazing game about exploring an unknown world.
+Categories: Experiences, Exploration, Game, Games, Solitary</description>
     </item>
     
     <item>
@@ -2070,7 +2090,8 @@ Perspectives # Simple made Easy by Rich Hickey Complex = entangled = difficult t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/software-dev/functional-programming/</guid>
-      <description>Functional Programming # As I&amp;rsquo;ve writing I&amp;rsquo;ve done a few projects using Clojure, a functional programming lisp-like language. From those projects, I&amp;rsquo;ve noticed a few distinct differences between Clojure and Python, the procedural/object oriented language I&amp;rsquo;m most familiar with.
+      <description>Functional Programming # What it it? # This talk is a really good overview: https://www.youtube.com/watch?app=desktop&amp;v=vK1DazRK_a0.
+Personal Observations # As I&amp;rsquo;ve writing I&amp;rsquo;ve done a few projects using Clojure, a functional programming lisp-like language. From those projects, I&amp;rsquo;ve noticed a few distinct differences between Clojure and Python, the procedural/object oriented language I&amp;rsquo;m most familiar with.
 Programming a function # When getting down to implementing a specific function in Clojure vs Python, I&amp;rsquo;ve noticed that Clojure requires more upfront thought and searching to try to find the proper functions to compose together to achieve the desired functionality.</description>
     </item>
     
