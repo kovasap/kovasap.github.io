@@ -295,11 +295,25 @@ I love video games, and other forms of interactive art, because they are designe
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/favorite-music/</link>
+      <link>https://kovasap.github.io/docs/favorites/favorite-music/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/favorite-music/</guid>
-      <description>My Favorite Albums # Flow/Immersive # hubris. jakob God is an Astronaut Night Verses Intervals 65daysofstatic Unprocessed Pump # Russian Circles Zeal and Ardor Catchy # Tender Metal Mother Pair of Arrows Neon Trees Chill/Background # Ratatat El Ten Eleven Glitch Mob Tim Hecker Nick Johnston Categories:</description>
+      <guid>https://kovasap.github.io/docs/favorites/favorite-music/</guid>
+      <description>My Favorite Albums # Flow/Immersive # hubris. jakob God is an Astronaut Night Verses Intervals 65daysofstatic Unprocessed Pump # Russian Circles Zeal and Ardor Catchy # Tender Metal Mother Pair of Arrows Neon Trees Chill/Background # Ratatat El Ten Eleven Glitch Mob Tim Hecker Nick Johnston Categories: Favorites</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/favorites/game-tier-lists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/favorites/game-tier-lists/</guid>
+      <description>Game Tier Lists # Single Player Experiences # T Game S A B C D S - Amazing, fully immersed for entire length
+A - Pretty good, with some rough spots or tedium
+B - OK
+C - Good in theory, but some fatal flaws prevented me from playing more than the beginning.
+D - Just bad
+Categories: Favorites</description>
     </item>
     
     <item>
@@ -784,8 +798,7 @@ Backlinks: Real Time Strategy,</description>
       
       <guid>https://kovasap.github.io/docs/games/ozymandius/</guid>
       <description>Ozymandius # Cool puzzle civ-like game that doesn&amp;rsquo;t drag on forever.
-Categories: Experiences, Game, Games, Puzzle, Solitary, Turn Based
-Backlinks: Feelings,</description>
+Categories: Experiences, Game, Games, Puzzle, Solitary, Turn Based</description>
     </item>
     
     <item>
@@ -909,8 +922,7 @@ Backlinks: Feelings,</description>
       
       <guid>https://kovasap.github.io/docs/games/subnautica/</guid>
       <description>Subnautica # Amazing game about exploring an unknown world.
-Categories: Experiences, Exploration, Game, Games, Solitary
-Backlinks: Feelings,</description>
+Categories: Experiences, Exploration, Game, Games, Solitary</description>
     </item>
     
     <item>
