@@ -718,7 +718,8 @@ I first played FE7 game on the Game Boy Advance when I was in middle school. For
       <guid>https://kovasap.github.io/docs/games/iron-danger/</guid>
       <description>Iron Danger # Really cool strategy game with a cool story. Would love it if they made a sequel and/or expanded it into a bigger RPG with more customization.
 Feelings:
-Categories: Experiences, Game, Games, Solitary, Story</description>
+Categories: Experiences, Game, Games, Solitary, Story
+Backlinks: Managing Player Failure,</description>
     </item>
     
     <item>
@@ -941,8 +942,7 @@ Backlinks: Feelings,</description>
       
       <guid>https://kovasap.github.io/docs/games/subnautica/</guid>
       <description>Subnautica # Amazing game about exploring an unknown world.
-Categories: Experiences, Exploration, Game, Games, Solitary
-Backlinks: Feelings,</description>
+Categories: Experiences, Exploration, Game, Games, Solitary</description>
     </item>
     
     <item>
@@ -1552,17 +1552,6 @@ Falling into a competitive mindset can lead to a lot of frustration when you see
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/lifestyle-optimizations/data-management/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/data-management/</guid>
-      <description>Data Management # Store photos and others things I interact with regularly in Google Drive/Photos. Mirror this to a hard drive I own via the Google Drive app for windows.
-Every 2 months store a google takeout backup on two hard drives I own. Store other &amp;ldquo;cold storage&amp;rdquo; items there as well.
-When Google Drive releases a 500GB pricing tier (or lowers the price of the 2TB tier), just store everything in Google Drive.</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://kovasap.github.io/docs/lifestyle-optimizations/elements-of-a-good-day/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1682,11 +1671,9 @@ On Linux # I use Redshift to keep my screen at a low temperature (low 3000Ks). C
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/lifestyle-optimizations/personal-data-management/</guid>
-      <description>Personal Data Management # General Purpose File Storage # Google Drive.
-Code and Digital Creative Projects # Github.
-Passwords and Secrets # Bitwarden.
-Also this project looks useful: https://github.com/mprimi/portable-secret
-Categories: Lifestyle Optimizations</description>
+      <description>Personal Data Management # General Purpose File Storage # Store photos and others things I interact with regularly in Google Drive/Photos. Mirror this to a hard drive I own via the Google Drive app for windows.
+Every 2 months store a google takeout backup on two hard drives I own. Store other &amp;ldquo;cold storage&amp;rdquo; items there as well.
+When Google Drive releases a 500GB pricing tier (or lowers the price of the 2TB tier), just store everything in Google Drive.</description>
     </item>
     
     <item>
