@@ -308,12 +308,12 @@ I love video games, and other forms of interactive art, because they are designe
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/favorites/game-tier-lists/</guid>
-      <description>Game Tier Lists # Single Player Experiences # T Game S A B C D S - Amazing, fully immersed for entire length
+      <description>Game Tier Lists # Tactics Single Player Experiences # T Game S A B C D S - Amazing, fully immersed for entire length
 A - Pretty good, with some rough spots or tedium
 B - OK
 C - Good in theory, but some fatal flaws prevented me from playing more than the beginning.
 D - Just bad
-Categories: Favorites</description>
+Competitive Real-Time Multiplayer Games # T Game S S? A B C D S - Amazing and very replayable</description>
     </item>
     
     <item>
@@ -383,7 +383,7 @@ During the run phase, people come to live/work in the building you designed, and
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/gamedev/gamedev-context/</guid>
-      <description>Useful Gamedev Context and Concepts # The story of SNKRX # 20 Lessons from 20 Years of MTG by Mark Rosewater # /r/gamedev on Reddit # Categories: Gamedev
+      <description>Useful Gamedev Context and Concepts # The story of SNKRX # 20 Lessons from 20 Years of MTG by Mark Rosewater # /r/gamedev on Reddit # Why Gamedev # https://etodd.io/2023/06/27/making-games/ Categories: Gamedev
 Backlinks: Creativity,</description>
     </item>
     
@@ -656,10 +656,10 @@ Backlinks: Feelings,</description>
     
     <item>
       <title></title>
-      <link>https://kovasap.github.io/docs/games/Dead-of-Winter/</link>
+      <link>https://kovasap.github.io/docs/games/dead-of-winter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovasap.github.io/docs/games/Dead-of-Winter/</guid>
+      <guid>https://kovasap.github.io/docs/games/dead-of-winter/</guid>
       <description>Dead of Winter # A cooperative strategy board game that doesn&amp;rsquo;t require too much inter-player planning (see Limiting Collaboration for why this can be a problem). Has a couple cool mechanics that I really enjoyed playing with:
 Before every players turn another player pulls an &amp;ldquo;event&amp;rdquo; card that will only lead to something if the player whose turn it is does something specific. This leads to a fun dynamic of one player knowing what might happen (good or bad) if the current player takes a specific action.</description>
     </item>
@@ -718,7 +718,8 @@ I first played FE7 game on the Game Boy Advance when I was in middle school. For
       <guid>https://kovasap.github.io/docs/games/iron-danger/</guid>
       <description>Iron Danger # Really cool strategy game with a cool story. Would love it if they made a sequel and/or expanded it into a bigger RPG with more customization.
 Feelings:
-Categories: Experiences, Game, Games, Solitary, Story</description>
+Categories: Experiences, Game, Games, Solitary, Story
+Backlinks: Managing Player Failure,</description>
     </item>
     
     <item>
@@ -941,8 +942,7 @@ Backlinks: Feelings,</description>
       
       <guid>https://kovasap.github.io/docs/games/subnautica/</guid>
       <description>Subnautica # Amazing game about exploring an unknown world.
-Categories: Experiences, Exploration, Game, Games, Solitary
-Backlinks: Feelings,</description>
+Categories: Experiences, Exploration, Game, Games, Solitary</description>
     </item>
     
     <item>
