@@ -4,7 +4,8 @@
     <title>Docs on Things to Remember</title>
     <link>https://kovasap.github.io/docs/</link>
     <description>Recent content in Docs on Things to Remember</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://kovasap.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://kovasap.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://kovasap.github.io/docs/about-me/</link>
@@ -718,8 +719,7 @@ I first played FE7 game on the Game Boy Advance when I was in middle school. For
       <guid>https://kovasap.github.io/docs/games/iron-danger/</guid>
       <description>Iron Danger # Really cool strategy game with a cool story. Would love it if they made a sequel and/or expanded it into a bigger RPG with more customization.
 Feelings:
-Categories: Experiences, Game, Games, Solitary, Story
-Backlinks: Managing Player Failure,</description>
+Categories: Experiences, Game, Games, Solitary, Story</description>
     </item>
     
     <item>
@@ -942,7 +942,8 @@ Backlinks: Feelings,</description>
       
       <guid>https://kovasap.github.io/docs/games/subnautica/</guid>
       <description>Subnautica # Amazing game about exploring an unknown world.
-Categories: Experiences, Exploration, Game, Games, Solitary</description>
+Categories: Experiences, Exploration, Game, Games, Solitary
+Backlinks: Feelings,</description>
     </item>
     
     <item>
@@ -1041,6 +1042,18 @@ Steam # Has good sales and an amazing UI/management system for your game collect
       <guid>https://kovasap.github.io/docs/gaming/fps-principles/</guid>
       <description>Core First Person Shooter (FPS) Principles # These are some general guidelines I&amp;rsquo;ve learned over my many hours playing FPS games. I&amp;rsquo;m writing them here so I don&amp;rsquo;t forget them, and so others might learn something - or point out flaws in my reasoning so I can get better!
 Information, and Proactivity # Most FPS fights come down to proactively acting on information about where exactly your opponent is. If you know with precision where your opponent is, and they don&amp;rsquo;t know where you are, you can confidently peek at them and often even prefire (or shoot as you are peeking).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/gaming/microphone-setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/gaming/microphone-setup/</guid>
+      <description>Microphone Setup Notes # Use https://medium.com/@bssankaran/free-and-open-source-software-noise-cancelling-for-working-from-home-edb1b4e9764e to set up noise reduction on any mic for any application.
+https://amzn.to/44BAjtZ is a great microphone with good volume. Noise reduction from the above link is helpful to make it work.
+I&amp;rsquo;ve struggled a lot to get non-usb mics to work well, for some reason they all end up very quiet for me. Maybe I&amp;rsquo;m just unlucky.
+Categories: Gaming</description>
     </item>
     
     <item>
@@ -2082,6 +2095,17 @@ Climate Change could be solved if we all transitioned to using more renewable so
       <guid>https://kovasap.github.io/docs/society/utopia/</guid>
       <description>Achieving Utopia # Problems # Humanity has some big problems that need to be solved before we can safely say we have built a utopia.
 Wasted Human Potential # Most people spend their productive time doing work that does not materially move our society forward. As discussed later, people have the potential to create completely new ideas that radically and positively improve the lives of humanity as a whole. Any work that does not leverage this potential by definition wastes it, slowing our progress toward a utopia.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/society/utopian-idea-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/society/utopian-idea-management/</guid>
+      <description>Utopian Idea Management # As touched on in Utopia, in my opinion the concept that people can &amp;ldquo;own&amp;rdquo; any form of information and have sole right to profit off of it is deeply problematic to me.
+Ideas and information more generally is derived from existing info, no matter how &amp;ldquo;original&amp;rdquo; it may look. This means that:
+Any &amp;ldquo;right&amp;rdquo; to own ideas/info is just as valid as the &amp;ldquo;right&amp;rdquo; a LLM has over the work it produces (none at all).</description>
     </item>
     
     <item>
