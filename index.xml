@@ -742,7 +742,8 @@ I first played FE7 game on the Game Boy Advance when I was in middle school. For
       <guid>https://kovasap.github.io/docs/games/iron-danger/</guid>
       <description>Iron Danger # Really cool strategy game with a cool story. Would love it if they made a sequel and/or expanded it into a bigger RPG with more customization.
 Feelings:
-Categories: Experiences, Game, Games, Solitary, Story</description>
+Categories: Experiences, Game, Games, Solitary, Story
+Backlinks: Managing Player Failure,</description>
     </item>
     
     <item>
@@ -965,8 +966,7 @@ Backlinks: Feelings,</description>
       
       <guid>https://kovasap.github.io/docs/games/subnautica/</guid>
       <description>Subnautica # Amazing game about exploring an unknown world.
-Categories: Experiences, Exploration, Game, Games, Solitary
-Backlinks: Feelings,</description>
+Categories: Experiences, Exploration, Game, Games, Solitary</description>
     </item>
     
     <item>
@@ -2059,7 +2059,8 @@ Empowering People # I currently believe that creative people are the solution to
       <description>Communal Living # In media like Everyday Utopia, communal living situations are brought up as a way to help people get a better sense of community and lead happier lives. Why then do many people not live this way?
 I hear personally anecdotes from people that they &amp;ldquo;want their own place&amp;rdquo; or that they are tired of living with others.
 &amp;hellip; elaborate &amp;hellip;
-Categories: Society</description>
+Categories: Society
+Backlinks: Everyday Utopia,</description>
     </item>
     
     <item>
@@ -2202,6 +2203,16 @@ Perspectives # Simple made Easy by Rich Hickey Complex = entangled = difficult t
       <description>Functional Programming # What it it? # This talk is a really good overview: https://www.youtube.com/watch?app=desktop&amp;v=vK1DazRK_a0.
 Personal Observations # As I&amp;rsquo;ve writing I&amp;rsquo;ve done a few projects using Clojure, a functional programming lisp-like language. From those projects, I&amp;rsquo;ve noticed a few distinct differences between Clojure and Python, the procedural/object oriented language I&amp;rsquo;m most familiar with.
 Programming a function # When getting down to implementing a specific function in Clojure vs Python, I&amp;rsquo;ve noticed that Clojure requires more upfront thought and searching to try to find the proper functions to compose together to achieve the desired functionality.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/software-dev/getting-into-it/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/software-dev/getting-into-it/</guid>
+      <description>Getting Into It # The hardest part of many programming endeavors (or creative projects in general) is &amp;ldquo;getting into it&amp;rdquo;. This is the initial stage of the project where you are loading in the context required to fix your bug, add your feature, etc.
+The difficulty comes mostly from ambiguity: not knowing what actions to take to make progress. Usually, ambiguity in these cases leads to lots of &amp;ldquo;wasted&amp;rdquo; time trying things that don&amp;rsquo;t work or otherwise stumbling around blindly.</description>
     </item>
     
     <item>
