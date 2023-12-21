@@ -742,8 +742,7 @@ I first played FE7 game on the Game Boy Advance when I was in middle school. For
       <guid>https://kovasap.github.io/docs/games/iron-danger/</guid>
       <description>Iron Danger # Really cool strategy game with a cool story. Would love it if they made a sequel and/or expanded it into a bigger RPG with more customization.
 Feelings:
-Categories: Experiences, Game, Games, Solitary, Story
-Backlinks: Managing Player Failure,</description>
+Categories: Experiences, Game, Games, Solitary, Story</description>
     </item>
     
     <item>
@@ -966,7 +965,8 @@ Backlinks: Feelings,</description>
       
       <guid>https://kovasap.github.io/docs/games/subnautica/</guid>
       <description>Subnautica # Amazing game about exploring an unknown world.
-Categories: Experiences, Exploration, Game, Games, Solitary</description>
+Categories: Experiences, Exploration, Game, Games, Solitary
+Backlinks: Feelings,</description>
     </item>
     
     <item>
@@ -2192,6 +2192,15 @@ The library/tooling ecosystem around the language. Some very non-ergonomic langu
       <guid>https://kovasap.github.io/docs/software-dev/complexity/</guid>
       <description>Complexity # A killer of productivity (and fun).
 Perspectives # Simple made Easy by Rich Hickey Complex = entangled = difficult to reason about To make systems more understandable, need to reduce them to small, independant pieces (like pure functions with no side effects) The Origin of Complexity by Joakim Tengstrand Complexity arises when systems are not changeable. To make systems more changeable, increase their usability and reduce coordination between their pieces.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/software-dev/design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/software-dev/design/</guid>
+      <description>Design # One trap that I&amp;rsquo;ve fallen into early on in a project is a lack of &amp;ldquo;concreteness&amp;rdquo; about what the final proposed product will look like. Design documents should solve this problem, but are often written in a more abstract tone, or have holes of vagueness in them that are hard to find. The main issue with this is that two people reading the same design can come to different conclusions, or no one will spot a big problem.</description>
     </item>
     
     <item>
