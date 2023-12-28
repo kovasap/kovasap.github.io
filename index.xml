@@ -742,7 +742,8 @@ I first played FE7 game on the Game Boy Advance when I was in middle school. For
       <guid>https://kovasap.github.io/docs/games/iron-danger/</guid>
       <description>Iron Danger # Really cool strategy game with a cool story. Would love it if they made a sequel and/or expanded it into a bigger RPG with more customization.
 Feelings:
-Categories: Experiences, Game, Games, Solitary, Story</description>
+Categories: Experiences, Game, Games, Solitary, Story
+Backlinks: Managing Player Failure,</description>
     </item>
     
     <item>
@@ -965,8 +966,7 @@ Backlinks: Feelings,</description>
       
       <guid>https://kovasap.github.io/docs/games/subnautica/</guid>
       <description>Subnautica # Amazing game about exploring an unknown world.
-Categories: Experiences, Exploration, Game, Games, Solitary
-Backlinks: Feelings,</description>
+Categories: Experiences, Exploration, Game, Games, Solitary</description>
     </item>
     
     <item>
@@ -2200,7 +2200,8 @@ Perspectives # Simple made Easy by Rich Hickey Complex = entangled = difficult t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovasap.github.io/docs/software-dev/design/</guid>
-      <description>Design via Documentation # One trap that I&amp;rsquo;ve fallen into early on in a project is a lack of &amp;ldquo;concreteness&amp;rdquo; about what the final proposed product will look like. Design documents should solve this problem, but are often written in a more abstract tone, or have holes of vagueness in them that are hard to find at time of writing. The main issue with this is that two people reading the same design can come to different conclusions, or no one will spot a big problem.</description>
+      <description>Design via Documentation # One trap that I&amp;rsquo;ve fallen into early on in a project is a lack of &amp;ldquo;concreteness&amp;rdquo; about what the final proposed product will look like.
+Design documents should solve this problem, but often contain so much information that it is hard to come to a singular view of how someone would use the final product. For instance, design documents often have lists of requirements, UML/component diagrams, sections on supporting systems (telemetry, testing, security, etc.</description>
     </item>
     
     <item>
