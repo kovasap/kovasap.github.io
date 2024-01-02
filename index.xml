@@ -742,8 +742,7 @@ I first played FE7 game on the Game Boy Advance when I was in middle school. For
       <guid>https://kovasap.github.io/docs/games/iron-danger/</guid>
       <description>Iron Danger # Really cool strategy game with a cool story. Would love it if they made a sequel and/or expanded it into a bigger RPG with more customization.
 Feelings:
-Categories: Experiences, Game, Games, Solitary, Story
-Backlinks: Managing Player Failure,</description>
+Categories: Experiences, Game, Games, Solitary, Story</description>
     </item>
     
     <item>
@@ -966,7 +965,8 @@ Backlinks: Feelings,</description>
       
       <guid>https://kovasap.github.io/docs/games/subnautica/</guid>
       <description>Subnautica # Amazing game about exploring an unknown world.
-Categories: Experiences, Exploration, Game, Games, Solitary</description>
+Categories: Experiences, Exploration, Game, Games, Solitary
+Backlinks: Feelings,</description>
     </item>
     
     <item>
@@ -1644,6 +1644,16 @@ Wash cloths Hang dry - this must happen now because cloths are wet! Easily find 
       <guid>https://kovasap.github.io/docs/lifestyle-optimizations/home-network-and-internet-troubleshooting/</guid>
       <description>Internet and Home Network Troubleshooting # Lag when playing games # When downloading stuff and playing games at the same time, the game&amp;rsquo;s packets can be queued behind the download&amp;rsquo;s packets, causing lag. This can be measured with this test: https://www.waveform.com/tools/bufferbloat. QoS and SQM are router features that can be enabled from the router&amp;rsquo;s web interface that are supposed to help with this. https://www.bufferbloat.net/projects/bloat/wiki/What_can_I_do_about_Bufferbloat/ is another good resource.
 Another thing to try is to run ping &amp;lt;your-routers-ip&amp;gt; -t in a windows cmd prompt.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/lifestyle-optimizations/house-diy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/house-diy/</guid>
+      <description>Housing DIY Tricks # TODO: Write about washing machine install here.
+https://fixmyblinds.com/ Categories: Lifestyle Optimizations</description>
     </item>
     
     <item>
