@@ -6,11 +6,11 @@
   :dir? false
   :links ["/"]
   :size 301
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/feelings.md"
   :title "Feelings"
-  :markdown "# Feelings\n\n## Being in the Zone\n\nBeing in a state of mind where all your attention must be focused on a single thing to avoid failure, leading to an emptiness of other thoughts.\n\n\n## Chaos to Solution\n\nThe feeling when you have no idea how to fix something but suddenly a solution appears out of nowhere. You may or may not understand how the solution works or where it came from.\n\n\n## Constructive regret\n\nThe feeling when you step out of a test and think 'I knew that answer!!' in a way that makes you want to walk right back into the testing hall and fix your mistake.\n\n\n## Discovery of hidden gems\n\nMost of the time this activity is monotonous and/or forgettable, but occasionally it will yield an extremely memorable or life-changing experience.\n\n\n## Easy to do\n\nRequires little to no difficult decision making, so is therefore easy to pick up and do. This can lead to impulsively doing this thing too much.\n\n\n## False Understanding\n\nA state of mind where something seems to make sense emotionally, but if you were to try to explain it in your own words or otherwise apply the knowledge you would fail.\n\n\n## Financial Control\n\nA feeling that you understand and are in control of your finances.\n\n  - positive\n\n## Fitting puzzle pieces together\n\nThe feeling of finding the right place for a part of something you are building.\n\n\n## Focus fragmenting\n\nThe feeling of constantly having your focus redirected, preventing you from going deeper on any one particular thing.\n\n\n## Having a clear goal\n\nThe feeling of knowing exactly what you need to do.\n\n\n## Joy of sharing\n\nThe feeling you get when you find something cool and share it with someone else.\n\n\n## Pride of Construction\n\nFeeling proud or even in awe of something you made that is now a (semi) permenant thing in the world. \n\n  - positive\n\n## Reactive Randomness Stress\n\nCommitting a decision and then bracing yourself for bad things to happen based on some probability which you cannot stop (since you have already committed).\n\n\n## Relaxing\n\nFeeling comfortable and liable to zone out.\n\n  - positive\n\n## Scanning through possibilities\n\nConstantly examining many options and determining the best one by some usually simple criteria.\n\n  - engaging\n\n## Skill clicking into place\n\nThe feeling when something that you thought was impossible, or otherwise had no idea how to even approach doing, you can suddenly do effortlessly.\n\n\n## Thrill of Committment\n\nDoing something with a penalty for failure that you can't turn back from.\n\n\n## Triumph over Exposure\n\nPutting yourself in a stressful situation and showing yourself that you can survive in it. I think this is a feeling Marc-André Leclerc was chasing in the movie 'The Alpinist'.\n\n\n## Wonder\n\nA sense of wonder at the beauty of the world.\n\nCategories:\n\nBacklinks: [Comparing Prices]({{< relref \"/docs/games/Comparing-prices.md\" >}}), \n[Apex Legends]({{< relref \"/docs/games/Apex-Legends.md\" >}}), \n[Watching Gothamchess]({{< relref \"/docs/videos/Watching-GothamChess.md\" >}}), \n[Redditing]({{< relref \"/docs/games/Redditing.md\" >}}), \n[Watching Educational Youtube]({{< relref \"/docs/videos/Watching-educational-YouTube.md\" >}}), \n[Quordle]({{< relref \"/docs/games/Quordle.md\" >}}), \n[Browsing Hacker News]({{< relref \"/docs/games/Browsing-Hacker-News.md\" >}}), \n[Islanders]({{< relref \"/docs/games/Islanders.md\" >}}), \n[Wordle]({{< relref \"/docs/games/Wordle.md\" >}}), \n[Age Of Darkness: Final Stand]({{< relref \"/docs/games/Age-of-Darkness:-Final-Stand.md\" >}}), \n[Lead Climbing In A Gym]({{< relref \"/docs/hobbies/Lead-Climbing-in-a-Gym.md\" >}}), \n[Bike Commuting]({{< relref \"/docs/games/Bike-Commuting.md\" >}}), \n[Beat Saber]({{< relref \"/docs/games/Beat-Saber.md\" >}}), \n[Battle Brothers]({{< relref \"/docs/games/battle-brothers.md\" >}}), \n[Yo Yoing]({{< relref \"/docs/hobbies/Yo-Yoing.md\" >}}), \n[Slipways]({{< relref \"/docs/games/Slipways.md\" >}}), \n[Dead Of Winter]({{< relref \"/docs/games/dead-of-winter.md\" >}}), \n[Semantle]({{< relref \"/docs/games/Semantle.md\" >}}), \n[Making Small Web Apps In Clojurescript With Reagent]({{< relref \"/docs/games/Making-Small-Web-Apps-in-ClojureScript-with-Reagent.md\" >}}), \n[Dat Creativity]({{< relref \"/docs/games/DAT-Creativity.md\" >}}), \n[Three Worlds Collide]({{< relref \"/docs/games/Three-Worlds-Collide.md\" >}}), \n"
+  :markdown "# Feelings\n\n## Being in the Zone\n\nBeing in a state of mind where all your attention must be focused on a single thing to avoid failure, leading to an emptiness of other thoughts.\n\n\n## Chaos to Solution\n\nThe feeling when you have no idea how to fix something but suddenly a solution appears out of nowhere. You may or may not understand how the solution works or where it came from.\n\n\n## Constructive regret\n\nThe feeling when you step out of a test and think 'I knew that answer!!' in a way that makes you want to walk right back into the testing hall and fix your mistake.\n\n\n## Discovery of hidden gems\n\nMost of the time this activity is monotonous and/or forgettable, but occasionally it will yield an extremely memorable or life-changing experience.\n\n\n## Easy to do\n\nRequires little to no difficult decision making, so is therefore easy to pick up and do. This can lead to impulsively doing this thing too much.\n\n\n## False Understanding\n\nA state of mind where something seems to make sense emotionally, but if you were to try to explain it in your own words or otherwise apply the knowledge you would fail.\n\n\n## Financial Control\n\nA feeling that you understand and are in control of your finances.\n\n  - positive\n\n## Fitting puzzle pieces together\n\nThe feeling of finding the right place for a part of something you are building.\n\n\n## Focus fragmenting\n\nThe feeling of constantly having your focus redirected, preventing you from going deeper on any one particular thing.\n\n\n## Having a clear goal\n\nThe feeling of knowing exactly what you need to do.\n\n\n## Joy of sharing\n\nThe feeling you get when you find something cool and share it with someone else.\n\n\n## Pride of Construction\n\nFeeling proud or even in awe of something you made that is now a (semi) permenant thing in the world. \n\n  - positive\n\n## Reactive Randomness Stress\n\nCommitting a decision and then bracing yourself for bad things to happen based on some probability which you cannot stop (since you have already committed).\n\n\n## Relaxing\n\nFeeling comfortable and liable to zone out.\n\n  - positive\n\n## Scanning through possibilities\n\nConstantly examining many options and determining the best one by some usually simple criteria.\n\n  - engaging\n\n## Skill clicking into place\n\nThe feeling when something that you thought was impossible, or otherwise had no idea how to even approach doing, you can suddenly do effortlessly.\n\n\n## Thrill of Committment\n\nDoing something with a penalty for failure that you can't turn back from.\n\n\n## Triumph over Exposure\n\nPutting yourself in a stressful situation and showing yourself that you can survive in it. I think this is a feeling Marc-André Leclerc was chasing in the movie 'The Alpinist'.\n\n\n## Wonder\n\nA sense of wonder at the beauty of the world.\n\nCategories:\n\nBacklinks: [Comparing Prices]({{< relref \"/docs/games/Comparing-prices.md\" >}}), \n[Apex Legends]({{< relref \"/docs/games/Apex-Legends.md\" >}}), \n[Watching Gothamchess]({{< relref \"/docs/videos/Watching-GothamChess.md\" >}}), \n[Redditing]({{< relref \"/docs/games/Redditing.md\" >}}), \n[Watching Educational Youtube]({{< relref \"/docs/videos/Watching-educational-YouTube.md\" >}}), \n[Quordle]({{< relref \"/docs/games/Quordle.md\" >}}), \n[Browsing Hacker News]({{< relref \"/docs/games/Browsing-Hacker-News.md\" >}}), \n[Islanders]({{< relref \"/docs/games/Islanders.md\" >}}), \n[Wordle]({{< relref \"/docs/games/Wordle.md\" >}}), \n[Age Of Darkness: Final Stand]({{< relref \"/docs/games/Age-of-Darkness:-Final-Stand.md\" >}}), \n[Lead Climbing In A Gym]({{< relref \"/docs/hobbies/Lead-Climbing-in-a-Gym.md\" >}}), \n[Bike Commuting]({{< relref \"/docs/games/Bike-Commuting.md\" >}}), \n[Beat Saber]({{< relref \"/docs/games/Beat-Saber.md\" >}}), \n[Battle Brothers]({{< relref \"/docs/games/battle-brothers.md\" >}}), \n[Yo Yoing]({{< relref \"/docs/hobbies/Yo-Yoing.md\" >}}), \n[Slipways]({{< relref \"/docs/games/Slipways.md\" >}}), \n[Dead Of Winter]({{< relref \"/docs/games/dead-of-winter.md\" >}}), \n[Semantle]({{< relref \"/docs/games/Semantle.md\" >}}), \n[Making Small Web Apps In Clojurescript With Reagent]({{< relref \"/docs/games/Making-Small-Web-Apps-in-ClojureScript-with-Reagent.md\" >}}), \n[Dat Creativity]({{< relref \"/docs/games/DAT-Creativity.md\" >}}), \n[Three Worlds Collide]({{< relref \"/docs/games/Three-Worlds-Collide.md\" >}}), \n[Subnautica]({{< relref \"/docs/games/subnautica.md\" >}}), \n"
   :name "feelings.md"
   :categories #{}
   :dir? false
@@ -34,9 +34,10 @@
           "/docs/games/Semantle.md"
           "/docs/games/Making-Small-Web-Apps-in-ClojureScript-with-Reagent.md"
           "/docs/games/DAT-Creativity.md"
-          "/docs/games/Three-Worlds-Collide.md"]
-  :size 4279
-  :modtime 1704233550
+          "/docs/games/Three-Worlds-Collide.md"
+          "/docs/games/subnautica.md"]
+  :size 4338
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/manifesto.md"
   :title "Manifesto"
@@ -64,7 +65,7 @@
           "/docs/mind/motivation.md"
           "/docs/health-and-longevity/exercise.md"]
   :size 11692
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/potential-life-missions.md"
   :title "Potential Life Missions"
@@ -79,7 +80,7 @@
           "/docs/mind/optimism.md"
           "/docs/society/utopia.md"]
   :size 3586
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/books/The-Black-Swan.md"
   :title "The Black Swan"
@@ -90,7 +91,7 @@
   :links ["/"
           "/docs/society/gerrymandering.md"]
   :size 253
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/books/antifragile.md"
   :title "Antifragile"
@@ -103,7 +104,7 @@
           "/"
           "/docs/society/utopia.md"]
   :size 1473
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/books/everyday-utopia.md"
   :title "Everyday Utopia"
@@ -114,7 +115,7 @@
   :links ["/"
           "/docs/society/communal-living.md"]
   :size 249
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/books/fooled-by-randomness.md"
   :title "Fooled By Randomness"
@@ -128,7 +129,7 @@
           "/"
           "/docs/books/the-open-society-and-its-enemies.md"]
   :size 481
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/books/the-beginning-of-infinity.md"
   :title "The Beginning Of Infinity"
@@ -140,7 +141,7 @@
   :links ["/"
           "/"]
   :size 545
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/books/the-open-society-and-its-enemies.md"
   :title "The Open Society And Its Enemies"
@@ -153,7 +154,7 @@
           "/"
           "/docs/books/fooled-by-randomness.md"]
   :size 284
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/books/why-greatness-cannot-be-planned.md"
   :title "Why Greatness Cannot Be Planned"
@@ -170,7 +171,7 @@
           "/docs/society/utopia.md"
           "/docs/understanding-the-world/what-to-believe.md"]
   :size 578
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/books/zero-to-one.md"
   :title "Zero To One"
@@ -183,7 +184,7 @@
           "/"
           "/docs/understanding-the-world/influences.md"]
   :size 982
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/climbing/breaking-point.md"
   :title "Breaking Point"
@@ -193,7 +194,7 @@
   :dir? false
   :links ["/"]
   :size 760
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/climbing/media.md"
   :title "Media"
@@ -203,7 +204,7 @@
   :dir? false
   :links ["/"]
   :size 649
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/climbing/resources.md"
   :title "Resources"
@@ -213,7 +214,7 @@
   :dir? false
   :links ["/"]
   :size 180
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/climbing/safety-checklist.md"
   :title "Safety Checklist"
@@ -223,7 +224,7 @@
   :dir? false
   :links ["/"]
   :size 3333
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/climbing/tips-and-tricks.md"
   :title "Tips And Tricks"
@@ -233,7 +234,7 @@
   :dir? false
   :links ["/"]
   :size 318
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/climbing/event-reports/2019-10-7-namaste-wall-zion.md"
   :title "2019 10 7 Namaste Wall Zion"
@@ -246,7 +247,7 @@
           "/"
           "/"]
   :size 2075
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/climbing/event-reports/2020-8-10-lake-erie.md"
   :title "2020 8 10 Lake Erie"
@@ -259,7 +260,7 @@
           "/"
           "/"]
   :size 1401
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/climbing/event-reports/2020-8-12-mile-high-club.md"
   :title "2020 8 12 Mile High Club"
@@ -272,7 +273,7 @@
           "/"
           "/"]
   :size 10838
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/climbing/event-reports/first-512.md"
   :title "First 512"
@@ -285,7 +286,7 @@
           "/"
           "/"]
   :size 390
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/datavis/clerk-notebooks.md"
   :title "Clerk Notebooks"
@@ -295,7 +296,7 @@
   :dir? false
   :links ["/"]
   :size 261
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/datavis/inspiration.md"
   :title "Inspiration"
@@ -305,7 +306,7 @@
   :dir? false
   :links ["/"]
   :size 255
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/datavis/reddit-tree.md"
   :title "Reddit Tree"
@@ -315,7 +316,7 @@
   :dir? false
   :links ["/"]
   :size 771
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/datavis/seattle-rain.md"
   :title "Seattle Rain"
@@ -325,7 +326,7 @@
   :dir? false
   :links ["/"]
   :size 2160
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/favorites/favorite-music.md"
   :title "Favorite Music"
@@ -335,7 +336,7 @@
   :dir? false
   :links ["/"]
   :size 1146
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/favorites/game-tier-lists.md"
   :title "Game Tier Lists"
@@ -345,7 +346,7 @@
   :dir? false
   :links ["/"]
   :size 4230
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/gamedev/bringing-players-together.md"
   :title "Bringing Players Together"
@@ -355,7 +356,7 @@
   :dir? false
   :links ["/"]
   :size 253
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/gamedev/common-patterns.md"
   :title "Common Patterns"
@@ -370,7 +371,7 @@
           "/docs/games/fell-seal-arbiters-mark.md"
           "/docs/lifestyle-optimizations/experiences.md"]
   :size 2769
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/gamedev/gamedev-context.md"
   :title "Gamedev Context"
@@ -381,20 +382,19 @@
   :links ["/"
           "/docs/mind/creativity.md"]
   :size 441
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/gamedev/managing-player-failure.md"
   :title "Managing Player Failure"
-  :markdown "# Managing player failure in games\n\n## Quick saving and quick loading is a bad system\n\nIf you as a designer want your player to explore your game without fear, one way\nto do it is to implement quick saving and quick loading and recommend that your\nplayer quick save before they do something risky and then quick load if it\ndoesn't work out.\nThis is a bad system because it's easy for the player to forget to quick save or\nhave saved a long time ago then, do something that leads them to failure and\nhaving to reload a long time ago in order to progress in the game.\nAlso a lot of games have long loading times and quick saving/loading can lead to\nfrustrating waiting.\nIf you think you need quicksaving and quick loading in your game, I recommend\nlooking into games like [Iron Danger]({{< relref\n\"/docs/games/Iron-Danger.md\" >}}) that have a time rewind mechanic which\nserves the same purpose but is a lot more ergonomic for the player to work with.\n\nA very silly and IMO bad quick loading and quicksaving system in a game series\nis the system in Shadow Tactics: Blades of the Shogun.\nIn this game, you are literally reminded you to quick save on a regular timer.\nYou would think that the game would be able to handle that for the player if\nthat's really the way the designers want you to progress through those games.\nI think a time rewinding mechanic in these games would be miles better.\n\nCategories: [Gamedev]({{< relref \"/\" >}}?Gamedev=true)\n\nBacklinks: [Iron Danger]({{< relref \"/docs/games/Iron-Danger.md\" >}}), \n[Iron Danger]({{< relref \"/docs/games/iron-danger.md\" >}}), \n"
+  :markdown "# Managing player failure in games\n\n## Quick saving and quick loading is a bad system\n\nIf you as a designer want your player to explore your game without fear, one way\nto do it is to implement quick saving and quick loading and recommend that your\nplayer quick save before they do something risky and then quick load if it\ndoesn't work out.\nThis is a bad system because it's easy for the player to forget to quick save or\nhave saved a long time ago then, do something that leads them to failure and\nhaving to reload a long time ago in order to progress in the game.\nAlso a lot of games have long loading times and quick saving/loading can lead to\nfrustrating waiting.\nIf you think you need quicksaving and quick loading in your game, I recommend\nlooking into games like [Iron Danger]({{< relref\n\"/docs/games/Iron-Danger.md\" >}}) that have a time rewind mechanic which\nserves the same purpose but is a lot more ergonomic for the player to work with.\n\nA very silly and IMO bad quick loading and quicksaving system in a game series\nis the system in Shadow Tactics: Blades of the Shogun.\nIn this game, you are literally reminded you to quick save on a regular timer.\nYou would think that the game would be able to handle that for the player if\nthat's really the way the designers want you to progress through those games.\nI think a time rewinding mechanic in these games would be miles better.\n\nCategories: [Gamedev]({{< relref \"/\" >}}?Gamedev=true)\n\nBacklinks: [Iron Danger]({{< relref \"/docs/games/Iron-Danger.md\" >}}), \n"
   :name "managing-player-failure.md"
   :categories #{"Gamedev"}
   :dir? false
   :links ["/docs/games/Iron-Danger.md"
           "/"
-          "/docs/games/Iron-Danger.md"
-          "/docs/games/iron-danger.md"]
-  :size 1580
-  :modtime 1704233550
+          "/docs/games/Iron-Danger.md"]
+  :size 1519
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/gamedev/my-projects.md"
   :title "My Projects"
@@ -404,7 +404,7 @@
   :dir? false
   :links ["/"]
   :size 1429
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/gamedev/real-time-strategy.md"
   :title "Real Time Strategy"
@@ -420,7 +420,7 @@
           "/docs/games/Rimworld.md"
           "/docs/games/oxygen-not-included.md"]
   :size 884
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/gamedev/social-games.md"
   :title "Social Games"
@@ -430,7 +430,7 @@
   :dir? false
   :links ["/"]
   :size 946
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/gamedev/useful-tools.md"
   :title "Useful Tools"
@@ -440,7 +440,7 @@
   :dir? false
   :links ["/"]
   :size 261
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/gamedev/game-ideas/farming-video-game.md"
   :title "Farming Video Game"
@@ -453,7 +453,7 @@
           "/"
           "/"]
   :size 942
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/gamedev/game-ideas/keyboard-city-builder.md"
   :title "Keyboard City Builder"
@@ -466,7 +466,7 @@
           "/"
           "/"]
   :size 405
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/gamedev/game-ideas/roguelike-base-builder.md"
   :title "Roguelike Base Builder"
@@ -479,7 +479,7 @@
           "/"
           "/"]
   :size 2175
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/gamedev/game-ideas/safe-building-designer.md"
   :title "Safe Building Designer"
@@ -492,7 +492,7 @@
           "/"
           "/"]
   :size 663
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/gamedev/game-ideas/trading-card-mmorpg.md"
   :title "Trading Card Mmorpg"
@@ -504,7 +504,7 @@
   :links ["/"
           "/"]
   :size 851
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/gamedev/mechanic-ideas/character-alignment.md"
   :title "Character Alignment"
@@ -517,7 +517,7 @@
           "/"
           "/"]
   :size 614
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/gamedev/mechanic-ideas/clairvoyant-turn-based-tactics.md"
   :title "Clairvoyant Turn Based Tactics"
@@ -530,7 +530,7 @@
           "/"
           "/"]
   :size 1020
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/gamedev/mechanic-ideas/limiting-collaboration.md"
   :title "Limiting Collaboration"
@@ -545,7 +545,7 @@
           "/"
           "/docs/games/dead-of-winter.md"]
   :size 4085
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/gamedev/mechanic-ideas/low-friction-turn-based-tactics.md"
   :title "Low Friction Turn Based Tactics"
@@ -558,7 +558,7 @@
           "/"
           "/"]
   :size 3365
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/gamedev/mechanic-ideas/random-technologies.md"
   :title "Random Technologies"
@@ -572,7 +572,7 @@
           "/"
           "/docs/books/why-greatness-cannot-be-planned.md"]
   :size 963
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/Age-of-Darkness:-Final-Stand.md"
   :title "Age Of Darkness: Final Stand"
@@ -590,7 +590,7 @@
           "/"
           "/docs/feelings.md"]
   :size 490
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/Apex-Legends.md"
   :title "Apex Legends"
@@ -612,7 +612,7 @@
           "/"
           "/docs/feelings.md"]
   :size 587
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/Backpack-Hero.md"
   :title "Backpack Hero"
@@ -628,7 +628,7 @@
           "/"
           "/"]
   :size 328
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/Bad-North.md"
   :title "Bad North"
@@ -644,7 +644,7 @@
           "/"
           "/"]
   :size 241
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/Bananagrams.md"
   :title "Bananagrams"
@@ -660,7 +660,7 @@
           "/"
           "/"]
   :size 836
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/Beat-Saber.md"
   :title "Beat Saber"
@@ -675,7 +675,7 @@
           "/"
           "/docs/feelings.md"]
   :size 403
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/Bike-Commuting.md"
   :title "Bike Commuting"
@@ -693,7 +693,7 @@
           "/"
           "/docs/feelings.md"]
   :size 524
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/Browsing-Hacker-News.md"
   :title "Browsing Hacker News"
@@ -712,7 +712,7 @@
           "/"
           "/docs/feelings.md"]
   :size 484
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/CoD:-MW2.md"
   :title "Cod: Mw2"
@@ -728,7 +728,7 @@
           "/"
           "/"]
   :size 371
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/Codenames.md"
   :title "Codenames"
@@ -744,7 +744,7 @@
           "/"
           "/"]
   :size 621
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/Comparing-prices.md"
   :title "Comparing Prices"
@@ -761,7 +761,7 @@
           "/"
           "/docs/feelings.md"]
   :size 615
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/DAT-Creativity.md"
   :title "Dat Creativity"
@@ -777,7 +777,7 @@
           "/"
           "/docs/feelings.md"]
   :size 442
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/Drafting-Magic:-The-Gathering.md"
   :title "Drafting Magic: The Gathering"
@@ -795,7 +795,17 @@
           "/"
           "/"]
   :size 946
-  :modtime 1704233550
+  :modtime 1704401423
+  :mode 416}
+ {:path "content/docs/games/Infinite-Craft.md"
+  :title "Infinite Craft"
+  :markdown "# Infinite Craft\n\nhttps://neal.fun/infinite-craft/\n"
+  :name "Infinite-Craft.md"
+  :categories #{}
+  :dir? false
+  :links []
+  :size 51
+  :modtime 1706730734
   :mode 416}
  {:path "content/docs/games/Iron-Danger.md"
   :title "Iron Danger"
@@ -814,7 +824,7 @@
           "/"
           "/docs/gamedev/managing-player-failure.md"]
   :size 554
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/Islanders.md"
   :title "Islanders"
@@ -836,7 +846,7 @@
           "/"
           "/docs/feelings.md"]
   :size 591
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/Longwave.md"
   :title "Longwave"
@@ -852,7 +862,7 @@
           "/"
           "/"]
   :size 322
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/Making-Small-Web-Apps-in-ClojureScript-with-Reagent.md"
   :title "Making Small Web Apps In Clojurescript With Reagent"
@@ -869,7 +879,7 @@
           "/"
           "/docs/feelings.md"]
   :size 462
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/Offworld-Trading-Company.md"
   :title "Offworld Trading Company"
@@ -884,7 +894,7 @@
           "/"
           "/docs/gamedev/real-time-strategy.md"]
   :size 310
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/Opus-Magnum.md"
   :title "Opus Magnum"
@@ -902,7 +912,7 @@
           "/"
           "/"]
   :size 371
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/Overwatch.md"
   :title "Overwatch"
@@ -918,7 +928,7 @@
           "/"
           "/"]
   :size 2270
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/Puzzgrid.md"
   :title "Puzzgrid"
@@ -936,7 +946,7 @@
           "/"
           "/"]
   :size 328
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/Quordle.md"
   :title "Quordle"
@@ -956,7 +966,7 @@
           "/"
           "/docs/feelings.md"]
   :size 584
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/Rainbow-6:-Siege.md"
   :title "Rainbow 6: Siege"
@@ -972,7 +982,7 @@
           "/"
           "/"]
   :size 1566
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/Redditing.md"
   :title "Redditing"
@@ -993,7 +1003,7 @@
           "/"
           "/docs/feelings.md"]
   :size 723
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/Rimworld.md"
   :title "Rimworld"
@@ -1010,7 +1020,7 @@
           "/"
           "/docs/gamedev/real-time-strategy.md"]
   :size 412
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/Semantle.md"
   :title "Semantle"
@@ -1030,7 +1040,7 @@
           "/"
           "/docs/feelings.md"]
   :size 506
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/Slipways.md"
   :title "Slipways"
@@ -1052,7 +1062,7 @@
           "/"
           "/docs/feelings.md"]
   :size 572
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/The-Witness.md"
   :title "The Witness"
@@ -1068,7 +1078,7 @@
           "/"
           "/"]
   :size 304
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/Three-Worlds-Collide.md"
   :title "Three Worlds Collide"
@@ -1086,7 +1096,7 @@
           "/"
           "/docs/feelings.md"]
   :size 492
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/Wordle.md"
   :title "Wordle"
@@ -1106,7 +1116,7 @@
           "/"
           "/docs/feelings.md"]
   :size 482
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/XCOM-2-+-War-of-the-Chosen.md"
   :title "Xcom 2 + War Of The Chosen"
@@ -1127,7 +1137,7 @@
           "/"
           "/docs/gamedev/common-patterns.md"]
   :size 548
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/battle-brothers.md"
   :title "Battle Brothers"
@@ -1147,7 +1157,7 @@
           "/"
           "/docs/feelings.md"]
   :size 1353
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/chess.md"
   :title "Chess"
@@ -1165,7 +1175,7 @@
           "/"
           "/"]
   :size 743
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/darkest-dungeon.md"
   :title "Darkest Dungeon"
@@ -1185,7 +1195,7 @@
           "/"
           "/"]
   :size 453
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/dead-of-winter.md"
   :title "Dead Of Winter"
@@ -1201,7 +1211,7 @@
           "/docs/feelings.md"
           "/docs/gamedev/mechanic-ideas/limiting-collaboration.md"]
   :size 1295
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/druidstone.md"
   :title "Druidstone"
@@ -1211,7 +1221,7 @@
   :dir? false
   :links ["/"]
   :size 135
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/fell-seal-arbiters-mark.md"
   :title "Fell Seal Arbiters Mark"
@@ -1232,7 +1242,7 @@
           "/"
           "/docs/gamedev/common-patterns.md"]
   :size 1126
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/fire-emblem-the-sacred-stones.md"
   :title "Fire Emblem The Sacred Stones"
@@ -1254,7 +1264,7 @@
           "/"
           "/"]
   :size 1933
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/iratus.md"
   :title "Iratus"
@@ -1266,11 +1276,11 @@
   :links ["/"
           "/"]
   :size 1095
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/iron-danger.md"
   :title "Iron Danger"
-  :markdown "# [Iron Danger](https://store.steampowered.com/app/899310/Iron_Danger/)\n\n{{< game-img \"iron-danger\" \"400px\" >}}\n\nReally cool strategy game with a cool story. Would love it if they made a sequel and/or expanded it into a bigger RPG with more customization.\n\nFeelings:\n\nCategories: [Experiences]({{< relref \"/\" >}}?Experiences=true),\n[Game]({{< relref \"/\" >}}?Game=true),\n[Games]({{< relref \"/\" >}}?Games=true),\n[Solitary]({{< relref \"/\" >}}?Solitary=true),\n[Story]({{< relref \"/\" >}}?Story=true)"
+  :markdown "# [Iron Danger](https://store.steampowered.com/app/899310/Iron_Danger/)\n\n{{< game-img \"iron-danger\" \"400px\" >}}\n\nReally cool strategy game with a cool story. Would love it if they made a sequel and/or expanded it into a bigger RPG with more customization.\n\nFeelings:\n\nCategories: [Experiences]({{< relref \"/\" >}}?Experiences=true),\n[Game]({{< relref \"/\" >}}?Game=true),\n[Games]({{< relref \"/\" >}}?Games=true),\n[Solitary]({{< relref \"/\" >}}?Solitary=true),\n[Story]({{< relref \"/\" >}}?Story=true)\n\nBacklinks: [Managing Player Failure]({{< relref \"/docs/gamedev/managing-player-failure.md\" >}}), \n"
   :name "iron-danger.md"
   :categories #{"Experiences"
                 "Game"
@@ -1282,9 +1292,10 @@
           "/"
           "/"
           "/"
-          "/"]
-  :size 494
-  :modtime 1704233550
+          "/"
+          "/docs/gamedev/managing-player-failure.md"]
+  :size 594
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/oxygen-not-included.md"
   :title "Oxygen Not Included"
@@ -1297,7 +1308,7 @@
           "/"
           "/docs/gamedev/real-time-strategy.md"]
   :size 654
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/ozymandias.md"
   :title "Ozymandias"
@@ -1317,7 +1328,7 @@
           "/"
           "/"]
   :size 434
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/pathfinder-kingmaker.md"
   :title "Pathfinder Kingmaker"
@@ -1329,7 +1340,7 @@
   :links ["/"
           "/"]
   :size 632
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/pillars-of-eternity-2.md"
   :title "Pillars Of Eternity 2"
@@ -1341,7 +1352,7 @@
   :links ["/"
           "/"]
   :size 397
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/skyrim.md"
   :title "Skyrim"
@@ -1356,7 +1367,7 @@
           "/"
           "/"]
   :size 314
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/solasta.md"
   :title "Solasta"
@@ -1366,11 +1377,11 @@
   :dir? false
   :links ["/"]
   :size 130
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/subnautica.md"
   :title "Subnautica"
-  :markdown "# [Subnautica](https://unknownworlds.com/subnautica/)\n\nAmazing game about exploring an unknown world.\n\nCategories: [Experiences]({{< relref \"/\" >}}?Experiences=true),\n[Exploration]({{< relref \"/\" >}}?Exploration=true),\n[Game]({{< relref \"/\" >}}?Game=true),\n[Games]({{< relref \"/\" >}}?Games=true),\n[Solitary]({{< relref \"/\" >}}?Solitary=true)\n\nBacklinks: [Feelings]({{< relref \"/docs/feelings.md\" >}}), \n"
+  :markdown "# [Subnautica](https://unknownworlds.com/subnautica/)\n\nAmazing game about exploring an unknown world.\n\nCategories: [Experiences]({{< relref \"/\" >}}?Experiences=true),\n[Exploration]({{< relref \"/\" >}}?Exploration=true),\n[Game]({{< relref \"/\" >}}?Game=true),\n[Games]({{< relref \"/\" >}}?Games=true),\n[Solitary]({{< relref \"/\" >}}?Solitary=true)"
   :name "subnautica.md"
   :categories #{"Experiences"
                 "Exploration"
@@ -1382,10 +1393,9 @@
           "/"
           "/"
           "/"
-          "/"
-          "/docs/feelings.md"]
-  :size 403
-  :modtime 1704233550
+          "/"]
+  :size 341
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/symphony-of-war.md"
   :title "Symphony Of War"
@@ -1397,7 +1407,7 @@
   :links ["/"
           "/"]
   :size 412
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/terra-mystica.md"
   :title "Terra Mystica"
@@ -1407,7 +1417,7 @@
   :dir? false
   :links ["/"]
   :size 367
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/games/the-last-spell.md"
   :title "The Last Spell"
@@ -1421,7 +1431,7 @@
           "/"
           "/"]
   :size 361
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/gaming/buying-games.md"
   :title "Buying Games"
@@ -1431,7 +1441,7 @@
   :dir? false
   :links ["/"]
   :size 965
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/gaming/fps-principles.md"
   :title "Fps Principles"
@@ -1441,7 +1451,7 @@
   :dir? false
   :links ["/"]
   :size 6888
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/gaming/microphone-setup.md"
   :title "Microphone Setup"
@@ -1451,7 +1461,7 @@
   :dir? false
   :links ["/"]
   :size 514
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/gaming/monitor-notes.md"
   :title "Monitor Notes"
@@ -1461,7 +1471,7 @@
   :dir? false
   :links ["/"]
   :size 1653
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/gaming/recommendations.md"
   :title "Recommendations"
@@ -1476,7 +1486,7 @@
           "/docs/gaming/recommendations.md"
           "/docs/lifestyle-optimizations/experiences.md"]
   :size 655
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/health-and-longevity/aging-science.md"
   :title "Aging Science"
@@ -1500,7 +1510,7 @@
           "/docs/health-and-longevity/theories-of-aging.md"
           "/docs/understanding-the-world/what-to-believe.md"]
   :size 2617
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/health-and-longevity/avoiding-accidents.md"
   :title "Avoiding Accidents"
@@ -1510,7 +1520,7 @@
   :dir? false
   :links ["/"]
   :size 325
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/health-and-longevity/baking.md"
   :title "Baking"
@@ -1520,7 +1530,7 @@
   :dir? false
   :links ["/"]
   :size 5593
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/health-and-longevity/biomarker-correlator.md"
   :title "Biomarker Correlator"
@@ -1531,7 +1541,7 @@
   :links ["/"
           "/docs/health-and-longevity/food.md"]
   :size 353
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/health-and-longevity/causes-of-death.md"
   :title "Causes Of Death"
@@ -1541,7 +1551,7 @@
   :dir? false
   :links ["/"]
   :size 874
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/health-and-longevity/chronic-stress.md"
   :title "Chronic Stress"
@@ -1553,7 +1563,7 @@
           "/docs/manifesto.md"
           "/docs/health-and-longevity/aging-science.md"]
   :size 260
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/health-and-longevity/circadian-rhythm.md"
   :title "Circadian Rhythm"
@@ -1564,7 +1574,7 @@
   :links ["/"
           "/docs/manifesto.md"]
   :size 226
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/health-and-longevity/continuous-glucose-monitoring.md"
   :title "Continuous Glucose Monitoring"
@@ -1576,7 +1586,7 @@
           "/docs/health-and-longevity/tracking-health.md"
           "/docs/lifelogging/what-and-why.md"]
   :size 1640
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/health-and-longevity/cooking.md"
   :title "Cooking"
@@ -1586,7 +1596,7 @@
   :dir? false
   :links ["/"]
   :size 4347
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/health-and-longevity/dental-health.md"
   :title "Dental Health"
@@ -1596,7 +1606,7 @@
   :dir? false
   :links ["/"]
   :size 216
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/health-and-longevity/dna-testing.md"
   :title "Dna Testing"
@@ -1606,7 +1616,7 @@
   :dir? false
   :links ["/"]
   :size 751
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/health-and-longevity/exercise.md"
   :title "Exercise"
@@ -1618,7 +1628,7 @@
           "/docs/manifesto.md"
           "/docs/health-and-longevity/aging-science.md"]
   :size 263
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/health-and-longevity/fasting.md"
   :title "Fasting"
@@ -1629,7 +1639,7 @@
   :links ["/"
           "/docs/health-and-longevity/food.md"]
   :size 6075
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/health-and-longevity/finding-care.md"
   :title "Finding Care"
@@ -1639,7 +1649,7 @@
   :dir? false
   :links ["/"]
   :size 356
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/health-and-longevity/food.md"
   :title "Food"
@@ -1656,7 +1666,7 @@
           "/docs/health-and-longevity/biomarker-correlator.md"
           "/docs/health-and-longevity/fasting.md"]
   :size 17211
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/health-and-longevity/influences.md"
   :title "Influences"
@@ -1668,7 +1678,7 @@
           "/"
           "/docs/health-and-longevity/sens.md"]
   :size 9573
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/health-and-longevity/misc-research.md"
   :title "Misc Research"
@@ -1678,7 +1688,7 @@
   :dir? false
   :links ["/"]
   :size 490
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/health-and-longevity/my-physiological-states.md"
   :title "My Physiological States"
@@ -1688,7 +1698,7 @@
   :dir? false
   :links ["/"]
   :size 717
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/health-and-longevity/personal-specific-food-notes.md"
   :title "Personal Specific Food Notes"
@@ -1698,7 +1708,7 @@
   :dir? false
   :links ["/"]
   :size 519
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/health-and-longevity/sens.md"
   :title "Sens"
@@ -1711,7 +1721,7 @@
           "/docs/health-and-longevity/influences.md"
           "/docs/understanding-the-world/what-to-believe.md"]
   :size 990
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/health-and-longevity/sleep.md"
   :title "Sleep"
@@ -1726,7 +1736,7 @@
           "/docs/lifestyle-optimizations/daily-physiological-tricks.md"
           "/docs/lifestyle-optimizations/task-tracking.md"]
   :size 6265
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/health-and-longevity/theories-of-aging.md"
   :title "Theories Of Aging"
@@ -1739,7 +1749,7 @@
           "/"
           "/docs/health-and-longevity/aging-science.md"]
   :size 2244
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/health-and-longevity/tracking-food.md"
   :title "Tracking Food"
@@ -1750,7 +1760,7 @@
   :links ["/"
           "/docs/health-and-longevity/tracking-health.md"]
   :size 4292
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/health-and-longevity/tracking-health.md"
   :title "Tracking Health"
@@ -1765,7 +1775,7 @@
           "/docs/health-and-longevity/tracking-food.md"
           "/docs/lifelogging/what-and-why.md"]
   :size 3936
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/health-and-longevity/unhealthy-food.md"
   :title "Unhealthy Food"
@@ -1775,7 +1785,7 @@
   :dir? false
   :links ["/"]
   :size 414
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/hobbies/Lead-Climbing-in-a-Gym.md"
   :title "Lead Climbing In A Gym"
@@ -1800,7 +1810,7 @@
           "/"
           "/docs/feelings.md"]
   :size 781
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/hobbies/Yo-Yoing.md"
   :title "Yo Yoing"
@@ -1814,7 +1824,7 @@
           "/"
           "/docs/feelings.md"]
   :size 342
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/housing/home-energy-monitoring.md"
   :title "Home Energy Monitoring"
@@ -1824,7 +1834,7 @@
   :dir? false
   :links ["/"]
   :size 887
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/housing/projects.md"
   :title "Projects"
@@ -1834,7 +1844,7 @@
   :dir? false
   :links ["/"]
   :size 373
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/hydroponics/journal.md"
   :title "Journal"
@@ -1844,7 +1854,7 @@
   :dir? false
   :links ["/"]
   :size 1588
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/hydroponics/my-setup.md"
   :title "My Setup"
@@ -1854,17 +1864,17 @@
   :dir? false
   :links ["/"]
   :size 4441
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/investing-and-finances/comprehensive-housing-return-estimator.md"
   :title "Comprehensive Housing Return Estimator"
-  :markdown "# Expected Returns for Buying a House\n\nA simpler alternative for a quick calcution is\nhttps://businesscaseguy.com/should-i-invest-in-real-estate-or-stocks/.\n\nFor the rent vs buy question, see\nhttps://www.nytimes.com/interactive/2014/upshot/buy-rent-calculator.html.\n\nLooking at list prices for homes can be a strange experience.  To me, a list\nprice is just a large number that has little or any meaning to the impact\nbuying that house will have on my finances.  To confidently judge whether a\nhouse I'm interested in buying is actually a good deal, I made the spreadsheet\ndescribed here. **The primary goal of the spreadsheet is to translate details\nabout the house (e.g. it's price) into an expected percentage return that can\nbe directly compared to other investments.**\n\nHere is the spreadsheet:\nhttps://docs.google.com/spreadsheets/d/11GTEiYBGF1NXaob9DczvUcQyloDVQ-dJfALDsg-L4-U/edit?usp=sharing\n\nOn the left side of the spreadsheet are a bunch of blue fields where details\nabout the house should be filled in.  On the right are shown the results, in\ngory detail.\n\nNote that I was looking for live-in multi-plex properties, so the spreadsheet\nhas features to judge the effect of rent on the ultimate return.\n\n**If you have any questions or** ***especially*** **if you notice errors in the\nspreadsheet, please comment on it to let me know.**\n\n## Input Field Descriptions\n\n### House Details\n\n - **Property Price**: <br/> The price you will be able to buy the property at.\n - **Property Growth Rate**: <br/> One of the most impactful, yet hardest to\n   estimate parameters. Some useful estimates can be found on Redfin ([rawer\n   data](https://www.redfin.com/news/data-center/),\n   [summarized](https://www.redfin.com/us-housing-market)), but you can't\n   always use the past to predict the future! I just set a really conservative\n   value here and pray.\n - **Property Land Value**: <br/> The value of the land the property sits on.\n   This is used to calculate depreciation (since land doesn't depreciate, only\n   man made structures do). In you live in the Seattle area, you can find this\n   information by searching for the property on\n   https://gismaps.kingcounty.gov/parcelviewer2/.\n - **Property Tax Rate**: <br/> Can also be found on a local parcel viewer\n   resource, or even on listings.  Taxes collected on properties are public\n   record in the US. Using prior year taxes is usually a good way to estimate\n   this; I found that the tax appraisals for properties can value them very\n   differently than the market does, so multiplying the list price by the tax\n   rate to calculate this is not recommended.\n - **Depreciation Period**: <br/> The time after which you can assume (for tax\n   purposes) that your property will completely turn to worthless dust. This\n   only applies if you are using part of your property for business purposes\n   (renting it).\n - **Income Tax Rate**: <br/> The rate at which any rental income will be\n   taxed.  Note that I am assuming your income tax rate doesn't change over the\n   course of owning the property. Since income taxes on rent are essentially\n   deferred due to depreciation and then depreciation recapture on sale, your\n   return will be better if your income tax rate is lower when you sell the\n   property.\n - **Depreciation Recapture Tax Rate**: <br/> The rate at which depreciation\n   recapture income will be taxed.  This is your ordinary income tax rate when\n   you sell the property [OR\n   25%](https://www.millionacres.com/taxes/depreciation/understanding-depreciation-recapture-when-you-sell-rental-property/#:~:text=That's%20what%20depreciation%20recapture%20does,4797%2C%20Sales%20of%20Business%20Property.),\n   whichever is larger.\n\n\n### Debt\n\n - **Down Payment**: <br/> How much upfront you will be paying for the house\n   (in your own cash).\n - **Years**: <br/> The time after which your mortgage will be fully paid.\n - **Interest Rate**: <br/> Multiplying this percent by the remaining loan\n   balance after a given year tells you how much you have to pay your lender\n   for the privilege of using their money.\n\n\n### Goals\n\n - **Investment Growth Rate**: <br/> How much you expect your other investments\n   to grow by yearly on average.  This just color-codes the results (green is\n   better than your other investments, red is worse).\n - **Investment Tolerance**: <br/> Results minus this amount from your\n   investment growth rate will be colored yellow.\n - **Personal monthly \"rent\"**: <br/> This quantifies the amount of value you\n   personally extract from the home by living in it. This makes comparisons\n   between investments more fair, because you can't live in a stock! A good\n   ballpark for this number is your current rent, or a rent that you would be\n   comfortable paying.\n - **Max Upfront Costs**: <br/> The total maximum amount of money upfront you\n   can spend on the house. Used for color coding.\n - **Max Monthly Costs**: <br/> The maximum amount of money you can spend on\n   the house per month **on average**. You should always have some buffer,\n   since many housing expenses come in large lump payments.  Used for color\n   coding.\n - **Portfolio Start Size**: <br/> The amount of money you have in your\n   investment portfolio when you buy the home. Used to calculate how much of\n   your investment portfolio is made up of by the house\n - **Yearly Investment**: <br/> The amount of money you are investing per year\n   into your portfolio.  Used to calculate how much of your investment\n   portfolio is made up of by the house\n\n\n### Income\n\n - **Rent**: <br/> The amount of rent you expect to earn from tenants living on\n   your property.\n - **Percentage Rented**: <br/> The percentage of your house that is considered\n   rented. I think you can calculate this using square footage. This determines\n   how much of all your expenses you can use to cancel out income taxes as a\n   business expense.\n - **Occupancy Rate**: <br/> What percent of the time you expect to have rent\n   flowing in.\n - **Rental Growth Rate**: <br/> How much you expect rents to increase by in a\n   year.\n\n\n### Monthly Expenses\n\nVarious expenses that need to be paid every month by you on behalf of the whole\nhouse. Notice the tax deduction rate assumes that these services will be used\nevenly by you and your tenants.\n\n### Selling Costs\n\n - **Capital Gains Rate**: <br/> The percentage of {the price you are selling\n   the property at minus the amount you bought it for} that you must pay as\n   tax.  Up to 250k for single owner or 500k for a joint ownership of capital\n   gains can be ignored for a single family home.  In a duplex, this can be\n   applied to <Percentage Rented>% of the property, the rest is subject to tax\n   (unless you do a 1031 exchange).  See\n   https://finance.zacks.com/rental-income-taxed-duplex-7533.html.  Note also\n   that if you are using depreciation to offset your income tax while you own\n   the property, this **lowers your cost basis** in the house, which increases\n   your capital gains tax.  Additionally, this \"depreciation recapture\" tax is\n   taxed at normal income tax rate, since that is what it offset earlier.\n - **Closing Costs**: <br/> The percentage of the selling price you have to pay\n   to agents that help you sell the house. You can reduce this greatly by\n   selling by owner, but then you might not get the best buyer.\n\n\n### Upfront Buying Costs\n\nVarious expenses and fees that you must pay when you are buying the home up\nfront.\n\n\n## Results\n\n - **Time**: <br/> Year after purchase that you would be selling the house\n   (assuming \"Months Per Row\" is set to 12, the default).\n - **Rental Revenue**: <br/> Total amount of money paid to you by renters in\n   that year.\n - **Property Value**: <br/> The amount of money you could sell the property\n   for.\n - **Property Gain**: <br/> Amount the property grew in value by in the last\n   year.\n - **Net Gain**: <br/> Amount of money you \"made\" this year via rent and\n   property growth.\n - **Property Tax**: <br/> \"Rent\" you must pay your city/government for owning\n   your property.\n - **Mortgage Payment**: <br/> The amount of money that you must pay your\n   lender towards your loan.\n - **Interest Paid**: <br/> The amount of money going to your lender that goes\n   directly to them as a fee for you using their money.\n - **Principle Paid**: <br/> The amount of money going to your lender that\n   effectively purchases part of your property (equity) from them.\n - **Loan Amount Left**: <br/> The amount of your loan left to pay off.\n - **Expenses**: <br/> Total expenses paid from the \"Monthly Expenses\" input\n   section.\n - **Unrecoverable Loss**: <br/> The total amount of money that you spent this\n   year that you will never see again :).\n - **Depreciation**: <br/> How much of your property you lost as it crumbled to\n   dust (as far as the IRS is concerned).\n - **Total Tax Deductions**: <br/> The total expenses you can deduct as\n   business expenses from your taxes.\n - **Taxable Income**: <br/> The income from your property that is taxable as\n   ordinary income.\n - **Income Tax Paid**: <br/> The amount of income tax you actually need to pay\n   this year because you own your property.\n - **Total Expense**: <br/> The total amount you must pay this year to others.\n - **Cash Flow**: <br/> The total amount paid to you by others minus the total\n   amount you must pay to others.\n - **Monthly Cash Flow**: <br/> The last column divided by \"Months Per Row\".\n - **\"Rent\"**: <br/> The total amount of value you extract from living in the\n   property (see \"Goals\" input section).\n - **\"Rent\" Cashflow**: <br/> Cashflow considering the \"rent\" you are \"paying\".\n - **Money Put In**: <br/> The total amount of money you have spent on the\n   property.\n - **Rest of Portfolio Value**: <br/> The value of your investments, minus the\n   house.\n - **Percent of Portfolio**: <br/> The percentage of the portfolio that is made\n   up of by the house.\n - **Money Put In w/\"Rent\"**: <br/> The \"Money Put In\" column considering the\n   \"rent\" you are \"paying\".\n - **Cost to Sell**: <br/> The amount of money you need to pay to others when\n   selling the house.  This includes paying off the mortgage, paying realtors,\n   etc.\n - **Depreciation Recapture**: <br/> The amount of money you have written off\n   your taxes so far due to property depreciation - if the property value has\n   increased despite this depreciation, you need to pay it back.\n - **Cost Basis**: <br/> The amount you bought the house for plus any\n   improvements, adjusted by how much of it you own this year.\n - **Capital Gains**: <br/> How much your property has appreciated since you\n   bought it, adjusted for how much of it you own this year.\n - **Total Sale Tax**: <br/> How much in tax you would have to pay if you sold\n   the property this year, including capital gains tax and depreciation\n   recapture income tax.\n - **Sale Proceeds**: <br/> The amount of money you would end up with in cash\n   after the sale of the property this year.\n - **IRR**: <br/> The time-adjusted rate of return you have made on all the\n   money you put into the property.\n - **IRR w/\"Rent\"**: <br/> The time-adjusted rate of return you have made on\n   all the money you put into the property, considering also the value you got\n   out of it by living in it.  **If this value is less than your expected\n   investment growth rate, financially you probably shouldn't buy the house.**\n - **Portfolio Return w/\"Rent\"**: <br/> The return of your entire portfolio\n   including the house, given that you sell the house this year.\n - **Rental Delta**: <br/> To translate the rate of return to a \"dollars per\n   month\" figure, fill in the top cell of this column until the **IRR w/Rent\n   Delta** column matches your expected **Investment Growth Rate** for the year\n   you are planning to sell at.  This will tell you how much money per month\n   you are saving (or losing) per month compared to your **Personal monthly\n   \"rent\"**.\n\nCategories: [Investing And Finances]({{< relref \"/\" >}}?Investing-And-Finances=true)\n"
+  :markdown "# Expected Returns for Buying a House\n\nA simpler alternative for a quick calcution is\nhttps://businesscaseguy.com/should-i-invest-in-real-estate-or-stocks/.\n\nFor the rent vs buy question, see\nhttps://www.nytimes.com/interactive/2014/upshot/buy-rent-calculator.html.\n\nLooking at list prices for homes can be a strange experience.  To me, a list\nprice is just a large number that has little or any meaning to the impact\nbuying that house will have on my finances.  To confidently judge whether a\nhouse I'm interested in buying is actually a good deal, I made the spreadsheet\ndescribed here. **The primary goal of the spreadsheet is to translate details\nabout the house (e.g. it's price) into an expected percentage return that can\nbe directly compared to other investments.**\n\nHere is the spreadsheet:\nhttps://docs.google.com/spreadsheets/d/11GTEiYBGF1NXaob9DczvUcQyloDVQ-dJfALDsg-L4-U/edit?usp=sharing\n\nOn the left side of the spreadsheet are a bunch of blue fields where details\nabout the house should be filled in.  On the right are shown the results, in\ngory detail.\n\nNote that I was looking for live-in multi-plex properties, so the spreadsheet\nhas features to judge the effect of rent on the ultimate return.\n\n**If you have any questions or** ***especially*** **if you notice errors in the\nspreadsheet, please comment on it to let me know.**\n\n## Input Field Descriptions\n\n### House Details\n\n - **Property Price**: <br/> The price you will be able to buy the property at.\n - **Property Growth Rate**: <br/> One of the most impactful, yet hardest to\n   estimate parameters. Some useful estimates can be found on Redfin ([rawer\n   data](https://www.redfin.com/news/data-center/),\n   [summarized](https://www.redfin.com/us-housing-market)), but you can't\n   always use the past to predict the future! I just set a really conservative\n   value here and pray.\n - **Property Land Value**: <br/> The value of the land the property sits on.\n   This is used to calculate depreciation (since land doesn't depreciate, only\n   man made structures do). In you live in the Seattle area, you can find this\n   information by searching for the property on\n   https://gismaps.kingcounty.gov/parcelviewer2/.\n - **Property Tax Rate**: <br/> Can also be found on a local parcel viewer\n   resource, or even on listings.  Taxes collected on properties are public\n   record in the US. Using prior year taxes is usually a good way to estimate\n   this; I found that the tax appraisals for properties can value them very\n   differently than the market does, so multiplying the list price by the tax\n   rate to calculate this is not recommended.\n - **Depreciation Period**: <br/> The time after which you can assume (for tax\n   purposes) that your property will completely turn to worthless dust. This\n   only applies if you are using part of your property for business purposes\n   (renting it).\n - **Income Tax Rate**: <br/> The rate at which any rental income will be\n   taxed.  Note that I am assuming your income tax rate doesn't change over the\n   course of owning the property. Since income taxes on rent are essentially\n   deferred due to depreciation and then depreciation recapture on sale, your\n   return will be better if your income tax rate is lower when you sell the\n   property.\n - **Depreciation Recapture Tax Rate**: <br/> The rate at which depreciation\n   recapture income will be taxed.  This is your ordinary income tax rate when\n   you sell the property [OR\n   25%](https://www.millionacres.com/taxes/depreciation/understanding-depreciation-recapture-when-you-sell-rental-property/#:~:text=That's%20what%20depreciation%20recapture%20does,4797%2C%20Sales%20of%20Business%20Property.),\n   whichever is larger.\n\n\n### Debt\n\n - **Down Payment**: <br/> How much upfront you will be paying for the house\n   (in your own cash).\n - **Years**: <br/> The time after which your mortgage will be fully paid.\n - **Interest Rate**: <br/> Multiplying this percent by the remaining loan\n   balance after a given year tells you how much you have to pay your lender\n   for the privilege of using their money.\n\n\n### Goals\n\n - **Investment Growth Rate**: <br/> How much you expect your other investments\n   to grow by yearly on average.  This just color-codes the results (green is\n   better than your other investments, red is worse).\n - **Investment Tolerance**: <br/> Results minus this amount from your\n   investment growth rate will be colored yellow.\n - **Personal monthly \"rent\"**: <br/> This quantifies the amount of value you\n   personally extract from the home by living in it. This makes comparisons\n   between investments more fair, because you can't live in a stock! A good\n   ballpark for this number is your current rent, or a rent that you would be\n   comfortable paying.\n - **Max Upfront Costs**: <br/> The total maximum amount of money upfront you\n   can spend on the house. Used for color coding.\n - **Max Monthly Costs**: <br/> The maximum amount of money you can spend on\n   the house per month **on average**. You should always have some buffer,\n   since many housing expenses come in large lump payments.  Used for color\n   coding.\n - **Portfolio Start Size**: <br/> The amount of money you have in your\n   investment portfolio when you buy the home. Used to calculate how much of\n   your investment portfolio is made up of by the house\n - **Yearly Investment**: <br/> The amount of money you are investing per year\n   into your portfolio.  Used to calculate how much of your investment\n   portfolio is made up of by the house\n\n\n### Income\n\n - **Rent**: <br/> The amount of rent you expect to earn from tenants living on\n   your property.\n - **Percentage Rented**: <br/> The percentage of your house that is considered\n   rented. I think you can calculate this using square footage. This determines\n   how much of all your expenses you can use to cancel out income taxes as a\n   business expense.\n - **Occupancy Rate**: <br/> What percent of the time you expect to have rent\n   flowing in.\n - **Rental Growth Rate**: <br/> How much you expect rents to increase by in a\n   year.\n\n\n### Monthly Expenses\n\nVarious expenses that need to be paid every month by you on behalf of the whole\nhouse. Notice the tax deduction rate assumes that these services will be used\nevenly by you and your tenants.\n\n### Selling Costs\n\n - **Capital Gains Rate**: <br/> The percentage of {the price you are selling\n   the property at minus the amount you bought it for} that you must pay as\n   tax.  Up to 250k for single owner or 500k for a joint ownership of capital\n   gains can be ignored for a single family home.  In a duplex, this can be\n   applied to <Percentage Rented>% of the property, the rest is subject to tax\n   (unless you do a 1031 exchange).  See\n   https://finance.zacks.com/rental-income-taxed-duplex-7533.html.  Note also\n   that if you are using depreciation to offset your income tax while you own\n   the property, this **lowers your cost basis** in the house, which increases\n   your capital gains tax.  Additionally, this \"depreciation recapture\" tax is\n   taxed at normal income tax rate, since that is what it offset earlier.\n - **Closing Costs**: <br/> The percentage of the selling price you have to pay\n   to agents that help you sell the house. You can reduce this greatly by\n   selling by owner, but then you might not get the best buyer.\n\n\n### Upfront Buying Costs\n\nVarious expenses and fees that you must pay when you are buying the home up\nfront.\n\n\n## Results\n\n - **Time**: <br/> Year after purchase that you would be selling the house\n   (assuming \"Months Per Row\" is set to 12, the default).\n - **Rental Revenue**: <br/> Total amount of money paid to you by renters in\n   that year.\n - **Property Value**: <br/> The amount of money you could sell the property\n   for.\n - **Property Gain**: <br/> Amount the property grew in value by in the last\n   year.\n - **Net Gain**: <br/> Amount of money you \"made\" this year via rent and\n   property growth.\n - **Property Tax**: <br/> \"Rent\" you must pay your city/government for owning\n   your property.\n - **Mortgage Payment**: <br/> The amount of money that you must pay your\n   lender towards your loan.\n - **Interest Paid**: <br/> The amount of money going to your lender that goes\n   directly to them as a fee for you using their money.\n - **Principle Paid**: <br/> The amount of money going to your lender that\n   effectively purchases part of your property (equity) from them.\n - **Loan Amount Left**: <br/> The amount of your loan left to pay off.\n - **Expenses**: <br/> Total expenses paid from the \"Monthly Expenses\" input\n   section.\n - **Unrecoverable Loss**: <br/> The total amount of money that you spent this\n   year that you will never see again :).\n - **Depreciation**: <br/> How much of your property you lost as it crumbled to\n   dust (as far as the IRS is concerned).\n - **Total Tax Deductions**: <br/> The total expenses you can deduct as\n   business expenses from your taxes.\n - **Taxable Income**: <br/> The income from your property that is taxable as\n   ordinary income.\n - **Income Tax Paid**: <br/> The amount of income tax you actually need to pay\n   this year because you own your property.\n - **Total Expense**: <br/> The total amount you must pay this year to others.\n - **Cash Flow**: <br/> The total amount paid to you by others minus the total\n   amount you must pay to others.\n - **Monthly Cash Flow**: <br/> The last column divided by \"Months Per Row\".\n - **\"Rent\"**: <br/> The total amount of value you extract from living in the\n   property (see \"Goals\" input section).\n - **\"Rent\" Cashflow**: <br/> Cashflow considering the \"rent\" you are \"paying\".\n - **Money Put In**: <br/> The total amount of money you have spent on the\n   property.\n - **Rest of Portfolio Value**: <br/> The value of your investments, minus the\n   house.\n - **Percent of Portfolio**: <br/> The percentage of the portfolio that is made\n   up of by the house.\n - **Money Put In w/\"Rent\"**: <br/> The \"Money Put In\" column considering the\n   \"rent\" you are \"paying\".\n - **Cost to Sell**: <br/> The amount of money you need to pay to others when\n   selling the house.  This includes paying off the mortgage, paying realtors,\n   etc.\n - **Depreciation Recapture**: <br/> The amount of money you have written off\n   your taxes so far due to property depreciation - if the property value has\n   increased despite this depreciation, you need to pay it back.\n - **Cost Basis**: <br/> The amount you bought the house for plus any\n   improvements, adjusted by how much of it you own this year.\n - **Capital Gains**: <br/> How much your property has appreciated since you\n   bought it, adjusted for how much of it you own this year.\n - **Total Sale Tax**: <br/> How much in tax you would have to pay if you sold\n   the property this year, including capital gains tax and depreciation\n   recapture income tax.\n - **Sale Proceeds**: <br/> The amount of money you would end up with in cash\n   after the sale of the property this year.\n - **IRR**: <br/> The time-adjusted rate of return you have made on all the\n   money you put into the property.\n - **IRR w/\"Rent\"**: <br/> The time-adjusted rate of return you have made on\n   all the money you put into the property, considering also the value you got\n   out of it by living in it.  **If this value is less than your expected\n   investment growth rate, financially you probably shouldn't buy the house.**\n - **Portfolio Return w/\"Rent\"**: <br/> The return of your entire portfolio\n   including the house, given that you sell the house this year.\n - **Rental Delta**: <br/> To translate the rate of return to a \"dollars per\n   month\" figure, fill in the top cell of this column until the **IRR w/Rent\n   Delta** column matches your expected **Investment Growth Rate** for the year\n   you are planning to sell at.  This will tell you how much money per month\n   you are saving (or losing) per month compared to your **Personal monthly\n   \"rent\"**.\n\nCategories: [Investing And Finances]({{< relref \"/\" >}}?Investing-And-Finances=true)"
   :name "comprehensive-housing-return-estimator.md"
   :categories #{"Investing And Finances"}
   :dir? false
   :links ["/"]
-  :size 12028
-  :modtime 1704401348
+  :size 12027
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/investing-and-finances/financial-independence.md"
   :title "Financial Independence"
@@ -1874,7 +1884,7 @@
   :dir? false
   :links ["/"]
   :size 830
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/investing-and-finances/housing.md"
   :title "Housing"
@@ -1884,7 +1894,7 @@
   :dir? false
   :links ["/"]
   :size 1600
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/investing-and-finances/influences.md"
   :title "Influences"
@@ -1896,7 +1906,7 @@
           "/"
           "/docs/understanding-the-world/influences.md"]
   :size 1552
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/investing-and-finances/monthly-costs-of-car-ownership.md"
   :title "Monthly Costs Of Car Ownership"
@@ -1906,17 +1916,17 @@
   :dir? false
   :links ["/"]
   :size 560
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/investing-and-finances/personal-portfolio.md"
   :title "Personal Portfolio"
-  :markdown "# Personal Portfolio Thoughts\n\nHistorically 100% VTSAX due to long time horizon and simplicity.\n\nRecently I have become convinced that more global diversification and factor weighting would be smart.\nMedia that has done this:\n\n - [Five Factor Investing with ETFs](https://www.youtube.com/watch?v=jKWbW7Wgm0w)\n - [Ben Felix Portfolio](https://www.pwlcapital.com/wp-content/uploads/2020/12/Five-Factor-Investing-with-ETFs.pdf)\n - [Optimized Portfolio summary of Ben Felix portfolio](https://www.optimizedportfolio.com/ben-felix-model-portfolio/)\n\n[Here's](https://docs.google.com/spreadsheets/d/194MljSwYb0xPcHhG7sznh0LJ2a-2YejxfP0fVGVV2Jw/edit#gid=0) a scratchpad of me trying to implement this.\n\nA step in this direction would be:\n - 22% total international\n - 8% small cap value international\n - 12% small cap value US\n - 58% vtsax\n\n[Backtesting on portfoliovisulizer.com](https://www.portfoliovisualizer.com/backtest-portfolio?s=y&timePeriod=4&startYear=1985&firstMonth=1&endYear=2022&lastMonth=12&calendarAligned=true&includeYTD=false&initialAmount=10000&annualOperation=0&annualAdjustment=0&inflationAdjusted=true&annualPercentage=0.0&frequency=4&rebalanceType=1&absoluteDeviation=5.0&relativeDeviation=25.0&leverageType=0&leverageRatio=0.0&debtAmount=0&debtInterest=0.0&maintenanceMargin=25.0&leveragedBenchmark=false&reinvestDividends=true&showYield=false&showFactors=false&factorModel=3&portfolioNames=false&portfolioName1=Portfolio+1&portfolioName2=Portfolio+2&portfolioName3=Bogleheads+Three+Funds&symbol1=VTSAX&allocation1_1=58&allocation1_2=100&symbol2=AVUV&symbol3=AVDV&symbol4=VGTSX&allocation4_1=22&symbol5=DISVX&allocation5_1=8&symbol6=DFSVX&allocation6_1=12&symbol7=VOO&symbol8=VTSMX&allocation8_3=50&symbol9=VGTSX&allocation9_3=30&symbol10=VBMFX&allocation10_3=20)\n\nLooking at \"growth of $10,000\" charts is kinda misleading, because the end result can vary greatly based on when you start.\nRolling or yearly return charts are better I think.\n[Here](https://docs.google.com/spreadsheets/d/1DEl9ddc2U0Ycc-hWV2PrWsrrcuVH7J8gtCL2c1D1UaA/edit#gid=0) is a yearly return chart comparing vtsax with the Ben Felix portfolio.\n\nMy current decision is to just stick to VTSAX unless it starts underperforming for over a year.\nThen I may switch to something like the Ben Felix portfolio.\nIt's hard for me to do otherwise seeing as the US market has outperformed the ex-US index for the last 10 years:\n\n![us-vs-intl](/docs/investing-and-finances/us-vs-international-returns.png)\n\nCategories: [Investing And Finances]({{< relref \"/\" >}}?Investing-And-Finances=true)"
+  :markdown "# Personal Portfolio Thoughts\n\nHistorically 100% VTSAX due to long time horizon and simplicity.\n\nRecently I have become convinced that more global diversification and factor weighting would be smart.\nMedia that has done this:\n\n - [Five Factor Investing with ETFs](https://www.youtube.com/watch?v=jKWbW7Wgm0w)\n - [Ben Felix Portfolio](https://www.pwlcapital.com/wp-content/uploads/2020/12/Five-Factor-Investing-with-ETFs.pdf)\n - [Optimized Portfolio summary of Ben Felix portfolio](https://www.optimizedportfolio.com/ben-felix-model-portfolio/)\n\n[Here's](https://docs.google.com/spreadsheets/d/194MljSwYb0xPcHhG7sznh0LJ2a-2YejxfP0fVGVV2Jw/edit#gid=0) a scratchpad of me trying to implement this.\n\nA step in this direction would be:\n - 22% total international\n - 8% small cap value international\n - 12% small cap value US\n - 58% vtsax\n\n[Backtesting on portfoliovisulizer.com](https://www.portfoliovisualizer.com/backtest-portfolio?s=y&timePeriod=4&startYear=1985&firstMonth=1&endYear=2022&lastMonth=12&calendarAligned=true&includeYTD=false&initialAmount=10000&annualOperation=0&annualAdjustment=0&inflationAdjusted=true&annualPercentage=0.0&frequency=4&rebalanceType=1&absoluteDeviation=5.0&relativeDeviation=25.0&leverageType=0&leverageRatio=0.0&debtAmount=0&debtInterest=0.0&maintenanceMargin=25.0&leveragedBenchmark=false&reinvestDividends=true&showYield=false&showFactors=false&factorModel=3&portfolioNames=false&portfolioName1=Portfolio+1&portfolioName2=Portfolio+2&portfolioName3=Bogleheads+Three+Funds&symbol1=VTSAX&allocation1_1=58&allocation1_2=100&symbol2=AVUV&symbol3=AVDV&symbol4=VGTSX&allocation4_1=22&symbol5=DISVX&allocation5_1=8&symbol6=DFSVX&allocation6_1=12&symbol7=VOO&symbol8=VTSMX&allocation8_3=50&symbol9=VGTSX&allocation9_3=30&symbol10=VBMFX&allocation10_3=20)\n\nLooking at \"growth of $10,000\" charts is kinda misleading, because the end result can vary greatly based on when you start.\nRolling or yearly return charts are better I think.\n[Here](https://docs.google.com/spreadsheets/d/1DEl9ddc2U0Ycc-hWV2PrWsrrcuVH7J8gtCL2c1D1UaA/edit#gid=0) is a yearly return chart comparing vtsax with the Ben Felix portfolio.\n\nMy current decision is to just stick to VTSAX unless it starts underperforming for over a year.\nThen I may switch to something like the Ben Felix portfolio.\nIt's hard for me to do otherwise seeing as the US market has outperformed the ex-US index for the last 10 years:\n\n![us-vs-intl](/docs/investing-and-finances/us-vs-international-returns.png)\n\n## Bonds\n\nSee https://www.youtube.com/watch?v=JlgMSDYnT2o for some thoughts.\n\nCategories: [Investing And Finances]({{< relref \"/\" >}}?Investing-And-Finances=true)\n"
   :name "personal-portfolio.md"
   :categories #{"Investing And Finances"}
   :dir? false
   :links ["/"]
-  :size 2566
-  :modtime 1704233550
+  :size 2645
+  :modtime 1707596117
   :mode 416}
  {:path "content/docs/investing-and-finances/strategies.md"
   :title "Strategies"
@@ -1926,7 +1936,7 @@
   :dir? false
   :links ["/"]
   :size 5408
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/investing-and-finances/taxes.md"
   :title "Taxes"
@@ -1936,7 +1946,7 @@
   :dir? false
   :links ["/"]
   :size 2867
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/lifelogging/camera.md"
   :title "Camera"
@@ -1947,7 +1957,7 @@
   :links ["/"
           "/docs/lifelogging/what-and-why.md"]
   :size 1189
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/lifelogging/influences.md"
   :title "Influences"
@@ -1957,7 +1967,7 @@
   :dir? false
   :links ["/"]
   :size 663
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/lifelogging/screenshot-logging.md"
   :title "Screenshot Logging"
@@ -1967,7 +1977,7 @@
   :dir? false
   :links ["/"]
   :size 644
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/lifelogging/what-and-why.md"
   :title "What And Why"
@@ -1987,7 +1997,7 @@
           "/docs/lifelogging/camera.md"
           "/docs/lifestyle-optimizations/task-tracking.md"]
   :size 9282
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/android-apps.md"
   :title "Android Apps"
@@ -1997,7 +2007,7 @@
   :dir? false
   :links ["/"]
   :size 1386
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/being-competitive.md"
   :title "Being Competitive"
@@ -2007,17 +2017,17 @@
   :dir? false
   :links ["/"]
   :size 1983
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/bike-commuting.md"
   :title "Bike Commuting"
-  :markdown "# Bike Commuting\n\n\n## Benefits\n\n1. **Exercise**. Moving your body is good for you, especially when regularly\n   done. If you have to go to work every day, it makes sense to couple that\n   mandatory travel with exercise to make the exercise \"mandatory\" itself!\n1. **Inexpensive**. Especially if you buy cheap bikes, bike commuting might be\n   the least expensive way to travel around a city short of walking.\n1. **On your own terms**. For me, it's important to be on my own schedule and\n   not have to worry about public transportation schedules and parking time\n   limits. Biking is not the only way to accomplish this, but it does a good\n   job at it.\n\n## Downsides\n\n1. Requires living in an area where everyday needs (work, grocery, etc.) are\n   close by. Living in these areas is usually more expensive. This is not\n   really a con if you want to live in these areas for other reasons.\n1. If you do not have a car, then it can be logistically harder to participate\n   in certain activities, which will probably end up with you simply not doing\n   them consistently.\n\n## Listening while Biking\n\nI highly recommend listening to audiobooks or podcasts when biking to both be\nentertained and maybe learn some stuff or get inspired while you're at it.\n\nI used to do this by putting some large studio-style over-ear headphones over\nmy *helmet* so that the speakers would not sit on my ears, but rather a couple\ninches away from them. This worked pretty well, although it did look kinda\nsilly.\n\nSince then I've switch to using \"bone-conduction\" headphones like\n[these](https://amzn.to/3j79zfw) (I can't find my originally purchased ones).\nIn my experience, these just act like tiny speakers that are close to your\nears, but not in them - I don't get much \"bone-conduction\" effect from my pair.\n\nHowever you listen when biking, I highly recommend making sure you can still\nhear what's going on around you for safety.\n\n## Buying a Bike\n\nI personally recommend buying a cheap, used bike for commuting. There are\nseveral reasons for this:\n\n - Maintaining an expensive bike's high performance can itself be expensive and\n   time consuming, especially if you ride it a lot, which you would be doing if\n   you are commuting. A cheaper bike with worse performance will require less\n   maintenance to keep it at its current performance level, and you can even\n   just let it fall into disrepair and get another cheap bike when it becomes\n   unusable. This makes the assumption that performance for commuting is not\n   that important (it isn't for me).\n - It's easier to buy multiple bikes if they are cheap, which has several\n   benefits:\n    - You can try out different styles of bike and/or bikes with different\n      features over a longer time window.\n    - If one bike has a problem that might take a couple days to resolve (e.g.\n      if you are waiting for a part delivery), you still have a bike to use.\n - Bike theft is a real problem, and having a used bike (1) makes your bike a\n   less attractive target for thieves and (2) makes any theft that does occur\n   less painful. AFAIK no lock perfectly secures your bike, and few/no locks\n   secure individual bike components.\n\nIn a big city like Seattle, there are a lot of people selling bikes, so they\nare usually pretty easy to find. I use [craigslist](https://craigslist.org/)\nand [Facebook Marketplace](https://www.facebook.com/marketplace) for this.\n\n## Modifications\n\n### Milk Crate\n\nThe best way I've found to transport stuff on a bike is a back rack + milk\ncrate combo:\n\n![Milk Crate](/docs/lifestyle-optimizations/bike_milk_crate.jpg)\n\nThis securely holds things that are just placed in it (like a backpack).\nPreviously I used straps to secure bags to the bike rack itself, but this is\nmuch easier.  This is also **much** more pleasant than actually wearing a\nbackpack when biking, especially if you don't want to sweat too much.\n\n## Rainy Weather\n\nOne of the worst parts of bike commuting is getting wet on the way in to work\nand not being able to dry off.  For me, most of my cloths dry pretty quickly in\nthe generally light Seattle rain, but my shoes and socks do not. This is\npartially because of their relative thickness and also because they are usually\nexposed to the most water. Even when it is not actively raining, biking on wet\nground can toss up a good amount of water on- or into my shoes.\n\nI've found the best solution to this problem by far is wearing some kind of\nwaterproof shoe covers like [these](https://amzn.to/3NvMFMK).\n\n## Maintenance\n\nMost bike maintenance is not that hard to learn, and you will save lots of time\nand money in the long run if you learn some basics. Here I list the most common\nproblems that can be easily addressed DIY. Check out YouTube for good tutorials\nif I haven't linked any myself. \n\nMost repairs require some specialized tools, which are pretty cheap on Amazon\n(usually less expensive than having the repair done professionally once).\n\nA good site for learning more is https://www.sheldonbrown.com.\n\n### Flat Tires\n\nI like to keep a couple tubes (like [this one](https://amzn.to/3qN1r87)) around\nfor an easy change. I also use patch kits for small punctures.\n\nYou'll also need [tire levers](https://amzn.to/3JyEIDg) to remove your tire.\n\nWhen changing a tube, keep in mind that your tube was damaged by something.\nThis could be:\n\n - Something that punctured your tire. Run your hands along the inside of your\n   tire near the puncture to make sure that nothing sharp is still embedded in\n   your tire!\n - Your tire itself has a hole in it.\n - Your tube folded as it inflated, or was otherwise pinched.\n\nYou don't want to change your tube only to have your new tube break for the\nsame reason!\n\n### Skipping Gears\n\nSometimes when you bike you may notice skipping when pedaling, especially when\npedaling hard. This is usually quite jarring and in bad cases can make your\nbike fairly unridable. This issue can be caused by several different problems:\n\n#### 1. Misaligned Shifters\n\nYour gear shifters may put the chain in between two of the cogs that it wraps\naround. To fix this, usually shifters can be shifted around by tighting or\nloosening a screw on them.\n\n#### 2. A Stretched Chain\n\nOver time, bike chains stretch.  An overly stretched chain can lead to\nskipping, as the distance between the links no longer properly matches the\ndistances between the teeth on the cog. See\nhttps://www.parktool.com/blog/repair-help/when-to-replace-a-chain-on-a-bicycle\nfor a good overview of this problem.\n\n#### 3. Worn Cogs\n\nJust like chains can wear out, so can the cogs they wrap around.  This happens\nmore slowly, and I've heard can be slowed even further by regularly replacing\nyour chain (presumably stretched chains wear out cogs faster). When a cog is\nworn, skipping occurs for the same reason as when a chain is worn - there is a\nmisfit between the chain and the cog. Cogs can also break teeth, making this\neven worse! \n\nNote when replacing cogs that there are two types, freewheels and cassettes.\nIt is crucial to know which one you have before attempting a replacement! Check\nout these sites for more details:\n\n - https://www.sheldonbrown.com/free-k7.html\n - https://www.parktool.com/blog/repair-help/determining-cassette-freewheel-type\n\nI've made the mistake before of trying to replace the wrong type of cog, and\nit's not fun.\n\n### Stuck Seatpost\n\nI had a very persistent problem for a while of my seatpost being stuck in a\nspecific position on one of my bikes.  I think the root cause was corrosion\nfusing the post to the frame, but am not completely sure.  I tried very hard\nfor a long time to fix this, as the seat was slightly too high and I suspect\nthis was causing me [pain in my left\nknee](https://docs.google.com/document/d/1a9vPQ6muSLYFzL1YfB7s90kQxWDijXBOpVjZqCm5GEs/edit#heading=h.4aznx89p4bq7).\nEventually, a coworker lent me a [pipe wrench](https://amzn.to/3NpLoGN) and I\nbought some [penetrating lube](https://amzn.to/3zgWxFH). These two in tandem\neasily loosened my seatpost!\n\n*Note that any links to products on this page are Amazon affiliate links.*\n\nCategories: [Lifestyle Optimizations]({{< relref \"/\" >}}?Lifestyle-Optimizations=true)"
+  :markdown "# Bike Commuting\n\n\n## Benefits\n\n1. **Exercise**. Moving your body is good for you, especially when regularly\n   done. If you have to go to work every day, it makes sense to couple that\n   mandatory travel with exercise to make the exercise \"mandatory\" itself!\n1. **Inexpensive**. Especially if you buy cheap bikes, bike commuting might be\n   the least expensive way to travel around a city short of walking.\n1. **On your own terms**. For me, it's important to be on my own schedule and\n   not have to worry about public transportation schedules and parking time\n   limits. Biking is not the only way to accomplish this, but it does a good\n   job at it.\n\n## Downsides\n\n1. Requires living in an area where everyday needs (work, grocery, etc.) are\n   close by. Living in these areas is usually more expensive. This is not\n   really a con if you want to live in these areas for other reasons.\n1. If you do not have a car, then it can be logistically harder to participate\n   in certain activities, which will probably end up with you simply not doing\n   them consistently.\n\n## Listening while Biking\n\nI highly recommend listening to audiobooks or podcasts when biking to both be\nentertained and maybe learn some stuff or get inspired while you're at it.\n\nI used to do this by putting some large studio-style over-ear headphones over\nmy *helmet* so that the speakers would not sit on my ears, but rather a couple\ninches away from them. This worked pretty well, although it did look kinda\nsilly.\n\nSince then I've switch to using \"bone-conduction\" headphones like\n[these](https://amzn.to/3j79zfw) (I can't find my originally purchased ones).\nIn my experience, these just act like tiny speakers that are close to your\nears, but not in them - I don't get much \"bone-conduction\" effect from my pair.\n\nHowever you listen when biking, I highly recommend making sure you can still\nhear what's going on around you for safety.\n\n## Buying a Bike\n\nI personally recommend buying a cheap, used bike for commuting. There are\nseveral reasons for this:\n\n - Maintaining an expensive bike's high performance can itself be expensive and\n   time consuming, especially if you ride it a lot, which you would be doing if\n   you are commuting. A cheaper bike with worse performance will require less\n   maintenance to keep it at its current performance level, and you can even\n   just let it fall into disrepair and get another cheap bike when it becomes\n   unusable. This makes the assumption that performance for commuting is not\n   that important (it isn't for me).\n - It's easier to buy multiple bikes if they are cheap, which has several\n   benefits:\n    - You can try out different styles of bike and/or bikes with different\n      features over a longer time window.\n    - If one bike has a problem that might take a couple days to resolve (e.g.\n      if you are waiting for a part delivery), you still have a bike to use.\n - Bike theft is a real problem, and having a used bike (1) makes your bike a\n   less attractive target for thieves and (2) makes any theft that does occur\n   less painful. AFAIK no lock perfectly secures your bike, and few/no locks\n   secure individual bike components.\n\nIn a big city like Seattle, there are a lot of people selling bikes, so they\nare usually pretty easy to find. I use [craigslist](https://craigslist.org/)\nand [Facebook Marketplace](https://www.facebook.com/marketplace) for this.\n\n## Modifications\n\n### Milk Crate\n\nThe best way I've found to transport stuff on a bike is a back rack + milk\ncrate combo:\n\n![Milk Crate](/docs/lifestyle-optimizations/bike_milk_crate.jpg)\n\nThis securely holds things that are just placed in it (like a backpack).\nPreviously I used straps to secure bags to the bike rack itself, but this is\nmuch easier.  This is also **much** more pleasant than actually wearing a\nbackpack when biking, especially if you don't want to sweat too much.\n\n## Rainy Weather\n\nOne of the worst parts of bike commuting is getting wet on the way in to work\nand not being able to dry off.  For me, most of my cloths dry pretty quickly in\nthe generally light Seattle rain, but my shoes and socks do not. This is\npartially because of their relative thickness and also because they are usually\nexposed to the most water. Even when it is not actively raining, biking on wet\nground can toss up a good amount of water on- or into my shoes.\n\nI've found the best solution to this problem by far is wearing some kind of\nwaterproof shoe covers like [these](https://amzn.to/3NvMFMK).\n\n## Maintenance\n\nMost bike maintenance is not that hard to learn, and you will save lots of time\nand money in the long run if you learn some basics. Here I list the most common\nproblems that can be easily addressed DIY. Check out YouTube for good tutorials\nif I haven't linked any myself. \n\nMost repairs require some specialized tools, which are pretty cheap on Amazon\n(usually less expensive than having the repair done professionally once).\n\nA good site for learning more is https://www.sheldonbrown.com.\n\n### Flat Tires\n\nI like to keep a couple tubes (like [this one](https://amzn.to/3qN1r87)) around\nfor an easy change. I also use patch kits for small punctures.\n\nYou'll also need [tire levers](https://amzn.to/3JyEIDg) to remove your tire.\n\nWhen changing a tube, keep in mind that your tube was damaged by something.\nThis could be:\n\n - Something that punctured your tire. Run your hands along the inside of your\n   tire near the puncture to make sure that nothing sharp is still embedded in\n   your tire!\n - Your tire itself has a hole in it.\n - Your tube folded as it inflated, or was otherwise pinched.\n\nYou don't want to change your tube only to have your new tube break for the\nsame reason!\n\n### Skipping Gears\n\nSometimes when you bike you may notice skipping when pedaling, especially when\npedaling hard. This is usually quite jarring and in bad cases can make your\nbike fairly unridable. This issue can be caused by several different problems:\n\n#### 1. Misaligned Shifters\n\nYour gear shifters may put the chain in between two of the cogs that it wraps\naround. To fix this, usually shifters can be shifted around by tighting or\nloosening a screw on them.\n\n#### 2. A Stretched Chain\n\nOver time, bike chains stretch.  An overly stretched chain can lead to\nskipping, as the distance between the links no longer properly matches the\ndistances between the teeth on the cog. See\nhttps://www.parktool.com/blog/repair-help/when-to-replace-a-chain-on-a-bicycle\nfor a good overview of this problem.\n\n**TIP:** When replacing the chain, sometimes using a chain tool to drive the\ncylindrical bit through the two links to close the loop will result in a \"stiff\"\nlink.\nBasically the two links of the chain on either side of the bit you just drove\nthrough will not rotate freely along the bit like the other links.\nOne common reason this happens is because the pressure from driving the bit will\n*press the outer link firming against the inner one*.\nTo fix this, simply put some metal pliers or the like into the gap between the\ntwo outer link's sides and twist to push the sides further apart!\n\n#### 3. Worn Cogs\n\nJust like chains can wear out, so can the cogs they wrap around.  This happens\nmore slowly, and I've heard can be slowed even further by regularly replacing\nyour chain (presumably stretched chains wear out cogs faster). When a cog is\nworn, skipping occurs for the same reason as when a chain is worn - there is a\nmisfit between the chain and the cog. Cogs can also break teeth, making this\neven worse! \n\nNote when replacing cogs that there are two types, freewheels and cassettes.\nIt is crucial to know which one you have before attempting a replacement! Check\nout these sites for more details:\n\n - https://www.sheldonbrown.com/free-k7.html\n - https://www.parktool.com/blog/repair-help/determining-cassette-freewheel-type\n\nI've made the mistake before of trying to replace the wrong type of cog, and\nit's not fun.\n\n### Stuck Seatpost\n\nI had a very persistent problem for a while of my seatpost being stuck in a\nspecific position on one of my bikes.  I think the root cause was corrosion\nfusing the post to the frame, but am not completely sure.  I tried very hard\nfor a long time to fix this, as the seat was slightly too high and I suspect\nthis was causing me [pain in my left\nknee](https://docs.google.com/document/d/1a9vPQ6muSLYFzL1YfB7s90kQxWDijXBOpVjZqCm5GEs/edit#heading=h.4aznx89p4bq7).\nEventually, a coworker lent me a [pipe wrench](https://amzn.to/3NpLoGN) and I\nbought some [penetrating lube](https://amzn.to/3zgWxFH). These two in tandem\neasily loosened my seatpost!\n\n*Note that any links to products on this page are Amazon affiliate links.*\n\nCategories: [Lifestyle Optimizations]({{< relref \"/\" >}}?Lifestyle-Optimizations=true)\n"
   :name "bike-commuting.md"
   :categories #{"Lifestyle Optimizations"}
   :dir? false
   :links ["/"]
-  :size 8156
-  :modtime 1704233550
+  :size 8747
+  :modtime 1707596105
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/daily-physiological-tricks.md"
   :title "Daily Physiological Tricks"
@@ -2033,7 +2043,7 @@
           "/docs/mind/things-to-do-when-unmotivated.md"
           "/docs/understanding-the-world/productive-conversations.md"]
   :size 2408
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/elements-of-a-good-day.md"
   :title "Elements Of A Good Day"
@@ -2043,7 +2053,7 @@
   :dir? false
   :links ["/"]
   :size 667
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/experiences.md"
   :title "Experiences"
@@ -2057,7 +2067,7 @@
           "/docs/gaming/recommendations.md"
           "/docs/thought-experiments/mind-mapping-concept.md"]
   :size 779
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/geographical-maps.md"
   :title "Geographical Maps"
@@ -2067,7 +2077,7 @@
   :dir? false
   :links ["/"]
   :size 287
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/hang-drying-clothes.md"
   :title "Hang Drying Clothes"
@@ -2077,7 +2087,7 @@
   :dir? false
   :links ["/"]
   :size 2629
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/home-network-and-internet-troubleshooting.md"
   :title "Home Network And Internet Troubleshooting"
@@ -2087,7 +2097,7 @@
   :dir? false
   :links ["/"]
   :size 839
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/house-diy.md"
   :title "House Diy"
@@ -2097,7 +2107,7 @@
   :dir? false
   :links ["/"]
   :size 186
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/keyboard-layouts.md"
   :title "Keyboard Layouts"
@@ -2107,7 +2117,7 @@
   :dir? false
   :links ["/"]
   :size 846
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/life-advice.md"
   :title "Life Advice"
@@ -2117,7 +2127,7 @@
   :dir? false
   :links ["/"]
   :size 287
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/listening-to-books.md"
   :title "Listening To Books"
@@ -2127,7 +2137,7 @@
   :dir? false
   :links ["/"]
   :size 914
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/making-friends.md"
   :title "Making Friends"
@@ -2137,7 +2147,7 @@
   :dir? false
   :links ["/"]
   :size 153
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/my-computer-configuration-dotfiles.md"
   :title "My Computer Configuration Dotfiles"
@@ -2147,7 +2157,7 @@
   :dir? false
   :links ["/"]
   :size 6270
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/no-ad-youtube-viewing.md"
   :title "No Ad Youtube Viewing"
@@ -2157,7 +2167,7 @@
   :dir? false
   :links ["/"]
   :size 873
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/personal-data-management.md"
   :title "Personal Data Management"
@@ -2167,7 +2177,7 @@
   :dir? false
   :links ["/"]
   :size 709
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/phone-case.md"
   :title "Phone Case"
@@ -2177,7 +2187,7 @@
   :dir? false
   :links ["/"]
   :size 1128
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/task-tracking.md"
   :title "Task Tracking"
@@ -2189,7 +2199,7 @@
           "/docs/health-and-longevity/sleep.md"
           "/docs/lifelogging/what-and-why.md"]
   :size 2415
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/taut-line-hitch.md"
   :title "Taut Line Hitch"
@@ -2199,7 +2209,7 @@
   :dir? false
   :links ["/"]
   :size 558
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/this-website.md"
   :title "This Website"
@@ -2209,7 +2219,7 @@
   :dir? false
   :links ["/"]
   :size 1400
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/vim-tricks.md"
   :title "Vim Tricks"
@@ -2219,7 +2229,7 @@
   :dir? false
   :links ["/"]
   :size 168
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/lifestyle-optimizations/writing.md"
   :title "Writing"
@@ -2229,7 +2239,7 @@
   :dir? false
   :links ["/"]
   :size 1109
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/mind/absorbing-and-professing.md"
   :title "Absorbing And Professing"
@@ -2239,7 +2249,7 @@
   :dir? false
   :links ["/"]
   :size 7467
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/mind/behavior-change.md"
   :title "Behavior Change"
@@ -2249,7 +2259,7 @@
   :dir? false
   :links ["/"]
   :size 593
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/mind/brain-juice.md"
   :title "Brain Juice"
@@ -2259,7 +2269,7 @@
   :dir? false
   :links ["/"]
   :size 491
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/mind/contentment.md"
   :title "Contentment"
@@ -2269,7 +2279,7 @@
   :dir? false
   :links ["/"]
   :size 1530
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/mind/creativity.md"
   :title "Creativity"
@@ -2286,7 +2296,7 @@
           "/docs/society/utopia.md"
           "/docs/understanding-the-world/copyright-and-ip.md"]
   :size 3419
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/mind/desires-and-deprivation.md"
   :title "Desires And Deprivation"
@@ -2296,7 +2306,7 @@
   :dir? false
   :links ["/"]
   :size 1165
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/mind/education.md"
   :title "Education"
@@ -2306,7 +2316,7 @@
   :dir? false
   :links ["/"]
   :size 6529
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/mind/how-to-do-hard-tasks.md"
   :title "How To Do Hard Tasks"
@@ -2318,7 +2328,7 @@
           "/"
           "/docs/mind/motivation.md"]
   :size 5171
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/mind/influences.md"
   :title "Influences"
@@ -2328,7 +2338,7 @@
   :dir? false
   :links ["/"]
   :size 1471
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/mind/intelligence.md"
   :title "Intelligence"
@@ -2338,7 +2348,7 @@
   :dir? false
   :links ["/"]
   :size 1831
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/mind/motivation.md"
   :title "Motivation"
@@ -2354,7 +2364,7 @@
           "/docs/mind/how-to-do-hard-tasks.md"
           "/docs/mind/things-to-do-when-unmotivated.md"]
   :size 12202
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/mind/myers-briggs-personality-typing.md"
   :title "Myers Briggs Personality Typing"
@@ -2364,7 +2374,7 @@
   :dir? false
   :links ["/"]
   :size 1284
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/mind/optimism.md"
   :title "Optimism"
@@ -2376,7 +2386,7 @@
           "/docs/potential-life-missions.md"
           "/docs/society/solving-societal-problems.md"]
   :size 2406
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/mind/perspective.md"
   :title "Perspective"
@@ -2387,7 +2397,7 @@
   :links ["/"
           "/docs/understanding-the-world/what-to-believe.md"]
   :size 4925
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/mind/socializing.md"
   :title "Socializing"
@@ -2397,7 +2407,7 @@
   :dir? false
   :links ["/"]
   :size 1042
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/mind/things-to-do-when-unmotivated.md"
   :title "Things To Do When Unmotivated"
@@ -2410,7 +2420,7 @@
           "/docs/lifestyle-optimizations/daily-physiological-tricks.md"
           "/docs/mind/motivation.md"]
   :size 2353
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/mind/working-with-others.md"
   :title "Working With Others"
@@ -2420,7 +2430,7 @@
   :dir? false
   :links ["/"]
   :size 7487
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/morality/altruism.md"
   :title "Altruism"
@@ -2430,7 +2440,7 @@
   :dir? false
   :links ["/"]
   :size 149
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/morality/cancelling-high-contributors.md"
   :title "Cancelling High Contributors"
@@ -2440,7 +2450,7 @@
   :dir? false
   :links ["/"]
   :size 1225
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/morality/efficient-living-and-morality.md"
   :title "Efficient Living And Morality"
@@ -2450,7 +2460,7 @@
   :dir? false
   :links ["/"]
   :size 6192
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/morality/future.md"
   :title "Future"
@@ -2460,7 +2470,7 @@
   :dir? false
   :links ["/"]
   :size 231
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/morality/right-to-risk.md"
   :title "Right To Risk"
@@ -2470,7 +2480,7 @@
   :dir? false
   :links ["/"]
   :size 1524
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/society/co-ops.md"
   :title "Co Ops"
@@ -2480,7 +2490,7 @@
   :dir? false
   :links ["/"]
   :size 4682
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/society/communal-living.md"
   :title "Communal Living"
@@ -2492,7 +2502,7 @@
           "/"
           "/docs/books/everyday-utopia.md"]
   :size 542
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/society/doom-and-how-to-avoid-it.md"
   :title "Doom And How To Avoid It"
@@ -2502,7 +2512,7 @@
   :dir? false
   :links ["/"]
   :size 2060
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/society/freedom-inequality-meritocracy.md"
   :title "Freedom Inequality Meritocracy"
@@ -2512,7 +2522,7 @@
   :dir? false
   :links ["/"]
   :size 2821
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/society/gerrymandering.md"
   :title "Gerrymandering"
@@ -2524,7 +2534,7 @@
           "/"
           "/docs/books/The-Black-Swan.md"]
   :size 4003
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/society/individuals-vs-groups.md"
   :title "Individuals Vs Groups"
@@ -2534,7 +2544,7 @@
   :dir? false
   :links ["/"]
   :size 658
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/society/multi-job-normalization.md"
   :title "Multi Job Normalization"
@@ -2544,7 +2554,7 @@
   :dir? false
   :links ["/"]
   :size 744
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/society/politics.md"
   :title "Politics"
@@ -2554,7 +2564,7 @@
   :dir? false
   :links ["/"]
   :size 1431
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/society/solving-societal-problems.md"
   :title "Solving Societal Problems"
@@ -2566,7 +2576,7 @@
           "/"
           "/docs/mind/optimism.md"]
   :size 9673
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/society/utopia.md"
   :title "Utopia"
@@ -2585,7 +2595,7 @@
           "/docs/society/utopian-idea-management.md"
           "/docs/understanding-the-world/copyright-and-ip.md"]
   :size 10449
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/society/utopian-idea-management.md"
   :title "Utopian Idea Management"
@@ -2597,7 +2607,7 @@
           "/"
           "/docs/society/utopia.md"]
   :size 2353
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/software-dev/actionable-tips.md"
   :title "Actionable Tips"
@@ -2607,7 +2617,7 @@
   :dir? false
   :links ["/"]
   :size 442
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/software-dev/auto-input-data-collection.md"
   :title "Auto Input Data Collection"
@@ -2617,7 +2627,7 @@
   :dir? false
   :links ["/"]
   :size 11598
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/software-dev/choosing-a-language.md"
   :title "Choosing A Language"
@@ -2627,7 +2637,7 @@
   :dir? false
   :links ["/"]
   :size 1247
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/software-dev/complexity.md"
   :title "Complexity"
@@ -2637,7 +2647,7 @@
   :dir? false
   :links ["/"]
   :size 1246
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/software-dev/design.md"
   :title "Design"
@@ -2647,7 +2657,7 @@
   :dir? false
   :links ["/"]
   :size 2100
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/software-dev/functional-programming.md"
   :title "Functional Programming"
@@ -2657,7 +2667,7 @@
   :dir? false
   :links ["/"]
   :size 1528
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/software-dev/getting-into-it.md"
   :title "Getting Into It"
@@ -2667,7 +2677,7 @@
   :dir? false
   :links ["/"]
   :size 1273
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/software-dev/impact.md"
   :title "Impact"
@@ -2677,7 +2687,7 @@
   :dir? false
   :links ["/"]
   :size 198
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/software-dev/influences.md"
   :title "Influences"
@@ -2687,7 +2697,7 @@
   :dir? false
   :links ["/"]
   :size 1438
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/software-dev/patterned-code.md"
   :title "Patterned Code"
@@ -2697,7 +2707,7 @@
   :dir? false
   :links ["/"]
   :size 338
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/thought-experiments/artificial-intelligence.md"
   :title "Artificial Intelligence"
@@ -2707,7 +2717,7 @@
   :dir? false
   :links ["/"]
   :size 2408
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/thought-experiments/life-quests.md"
   :title "Life Quests"
@@ -2717,7 +2727,7 @@
   :dir? false
   :links ["/"]
   :size 396
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/thought-experiments/mind-mapping-concept.md"
   :title "Mind Mapping Concept"
@@ -2734,7 +2744,7 @@
           "/"
           "/docs/lifestyle-optimizations/experiences.md"]
   :size 1915
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/thought-experiments/random-ideas.md"
   :title "Random Ideas"
@@ -2744,7 +2754,7 @@
   :dir? false
   :links ["/"]
   :size 9269
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/thought-experiments/two-glasses.md"
   :title "Two Glasses"
@@ -2754,7 +2764,7 @@
   :dir? false
   :links ["/"]
   :size 1752
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/understanding-the-world/applying-theories.md"
   :title "Applying Theories"
@@ -2764,7 +2774,7 @@
   :dir? false
   :links ["/"]
   :size 4672
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/understanding-the-world/copyright-and-ip.md"
   :title "Copyright And Ip"
@@ -2778,7 +2788,7 @@
           "/docs/mind/creativity.md"
           "/docs/society/utopia.md"]
   :size 807
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/understanding-the-world/great-explanations.md"
   :title "Great Explanations"
@@ -2788,7 +2798,7 @@
   :dir? false
   :links ["/"]
   :size 302
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/understanding-the-world/influences.md"
   :title "Influences"
@@ -2803,7 +2813,7 @@
           "/docs/investing-and-finances/influences.md"
           "/docs/understanding-the-world/influences.md"]
   :size 1099
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/understanding-the-world/judging-decisions.md"
   :title "Judging Decisions"
@@ -2813,7 +2823,7 @@
   :dir? false
   :links ["/"]
   :size 2328
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/understanding-the-world/notetaking.md"
   :title "Notetaking"
@@ -2823,7 +2833,7 @@
   :dir? false
   :links ["/"]
   :size 1065
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/understanding-the-world/physics.md"
   :title "Physics"
@@ -2833,7 +2843,7 @@
   :dir? false
   :links ["/"]
   :size 415
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/understanding-the-world/predicting-the-future.md"
   :title "Predicting The Future"
@@ -2845,7 +2855,7 @@
           "/"
           "/docs/understanding-the-world/working-with-complex-systems.md"]
   :size 551
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/understanding-the-world/productive-conversations.md"
   :title "Productive Conversations"
@@ -2856,7 +2866,7 @@
   :links ["/"
           "/docs/lifestyle-optimizations/daily-physiological-tricks.md"]
   :size 886
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/understanding-the-world/what-to-believe.md"
   :title "What To Believe"
@@ -2875,7 +2885,7 @@
           "/docs/mind/perspective.md"
           "/docs/understanding-the-world/working-with-complex-systems.md"]
   :size 15246
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/understanding-the-world/working-with-complex-systems.md"
   :title "Working With Complex Systems"
@@ -2887,7 +2897,7 @@
           "/docs/understanding-the-world/predicting-the-future.md"
           "/docs/understanding-the-world/what-to-believe.md"]
   :size 966
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/videos/Watching-GothamChess.md"
   :title "Watching Gothamchess"
@@ -2905,7 +2915,7 @@
           "/"
           "/docs/feelings.md"]
   :size 516
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/videos/Watching-Inside-Out.md"
   :title "Watching Inside Out"
@@ -2921,7 +2931,7 @@
           "/"
           "/"]
   :size 565
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/videos/Watching-Spiderman:-Into-the-Spider-Verse.md"
   :title "Watching Spiderman: Into The Spider Verse"
@@ -2937,7 +2947,7 @@
           "/"
           "/"]
   :size 383
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/videos/Watching-The-Matrix.md"
   :title "Watching The Matrix"
@@ -2953,7 +2963,7 @@
           "/"
           "/"]
   :size 649
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/videos/Watching-educational-YouTube.md"
   :title "Watching Educational Youtube"
@@ -2969,7 +2979,7 @@
           "/"
           "/docs/feelings.md"]
   :size 546
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/visual-art/generative-art.md"
   :title "Generative Art"
@@ -2981,7 +2991,7 @@
           "/"
           "/docs/visual-art/inspiration-and-resources.md"]
   :size 1654
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/visual-art/inspiration-and-resources.md"
   :title "Inspiration And Resources"
@@ -2992,7 +3002,7 @@
   :links ["/"
           "/docs/visual-art/generative-art.md"]
   :size 786
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}
  {:path "content/docs/visual-art/judging-art.md"
   :title "Judging Art"
@@ -3002,5 +3012,5 @@
   :dir? false
   :links ["/"]
   :size 597
-  :modtime 1704233550
+  :modtime 1704401423
   :mode 416}]
