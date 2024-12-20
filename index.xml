@@ -331,6 +331,13 @@
     </item>
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/gamedev/mechanic-ideas/Random-Balance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kovasap.github.io/docs/gamedev/mechanic-ideas/Random-Balance/</guid>
+      <description>Random Balance # It would be interesting to play a PvP game where every match/day/week, random adjustments were made to the stats of in game objects (cards, items, etc.). This would make a big part of the game trying to understand what is strong this session, as it always changes. This could lead to less staleness overall, and avoid the problem many games have where some strategies are perennially weak and never get used.</description>
+    </item>
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/gamedev/mechanic-ideas/random-technologies/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://kovasap.github.io/docs/gamedev/mechanic-ideas/random-technologies/</guid>
@@ -670,7 +677,7 @@
       <link>https://kovasap.github.io/docs/games/subnautica/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://kovasap.github.io/docs/games/subnautica/</guid>
-      <description>Subnautica # Amazing game about exploring an unknown world.&#xA;Categories: Exploration, Games, Solitary</description>
+      <description>Subnautica # Amazing game about exploring an unknown world.&#xA;Categories: Exploration, Games, Solitary&#xA;Backlinks: Feelings,</description>
     </item>
     <item>
       <title></title>
