@@ -338,6 +338,13 @@
     </item>
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/gamedev/mechanic-ideas/positional-turn-based-combat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kovasap.github.io/docs/gamedev/mechanic-ideas/positional-turn-based-combat/</guid>
+      <description>Positional Turn Based Combat # I&amp;rsquo;m a huge fan of the Darkest Dungeon combat system, where each team is arranged in a line. Each position of the line enables abilities specific to that position, that can then target specific positions of the enemy line. Reordering the lines then becomes a cool tactical tool that can be used to gain an advantage.&#xA;This idea could be extrapolated and twisted into a system where each battlefield has a set of unique positions that each have tags:</description>
+    </item>
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/gamedev/mechanic-ideas/Random-Balance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://kovasap.github.io/docs/gamedev/mechanic-ideas/Random-Balance/</guid>
@@ -684,7 +691,7 @@
       <link>https://kovasap.github.io/docs/games/subnautica/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://kovasap.github.io/docs/games/subnautica/</guid>
-      <description>Subnautica # Amazing game about exploring an unknown world.&#xA;Categories: Exploration, Games, Solitary</description>
+      <description>Subnautica # Amazing game about exploring an unknown world.&#xA;Categories: Exploration, Games, Solitary&#xA;Backlinks: Feelings,</description>
     </item>
     <item>
       <title></title>
