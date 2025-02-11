@@ -16,7 +16,7 @@
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.7609115fb1a148721de28051c378d3bc69f1515e0ecdd167e2587472ce5d1b9c.css" integrity="sha256-dgkRX7GhSHId4oBRw3jTvGnxUV4OzdFn4lh0cs5dG5w=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.b9370f4ae8fcefbf56fcb4e87fea1bcaf2f68e8ebc6d971f4ca70fc137a8165d.js" integrity="sha256-uTcPSuj8779W/LTof&#43;obyvL2jo68bZcfTKcPwTeoFl0=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.5304dd4b34621b42ad42254af379b529f4443f1ad18e5d27982a1e3ad0c72327.js" integrity="sha256-UwTdSzRiG0KtQiVK83m1KfREPxrRjl0nmCoeOtDHIyc=" crossorigin="anonymous"></script>
 
   
     
@@ -68,7 +68,10 @@ const urlParams = new URLSearchParams(window.location.search);
 
 
 
-window.onload = function() {  
+setTimeout(
+
+
+    function() {  
     
     if (urlParams.get('embed') == '1') {
         ['book-menu', 'book-toc', 'book-header'].forEach(
@@ -102,13 +105,21 @@ window.onload = function() {
     var all_links = [];
     all_links = Array.prototype.concat.apply(
         all_links,
-        document.getElementsByClassName("book-page").item(0)
-        .getElementsByTagName('a'));
+        document.getElementsByClassName("book-page").item(0).getElementsByTagName('a'));
     all_links = Array.prototype.concat.apply(
         all_links,
         document.getElementsByClassName("book-menu").item(0)
         .getElementsByTagName('a'));
-    all_links.forEach(
+    var internal_links = all_links.filter(
+        (element, index, array) => {
+            return element.href.includes('/docs/')
+                && (window.location.pathname == "/" ||
+                    !element.href.includes(window.location.pathname))
+                && element.innerText.length > 0;
+        });
+    
+    
+    internal_links.forEach(
         (element, index, array) => {
             const showEmbeddedPage = (e) => {
                 const embedded_page = getEmbeddedPage(element.href);
@@ -124,6 +135,7 @@ window.onload = function() {
                     (window.location.pathname == "/" ||
                         !element.href.includes(window.location.pathname))){
                 element.onmouseover = function(e) {
+                    console.log(element.innerText);
                     var delay = setTimeout(function(){showEmbeddedPage(e);},
                         200);
                     element.onmouseout = function(){clearTimeout(delay);
@@ -132,7 +144,8 @@ window.onload = function() {
                 element.onmouseout = hideEmbeddedPage;
             }
         });
-}
+},
+3500);
 </script>
 
 

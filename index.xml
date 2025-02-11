@@ -786,6 +786,13 @@
     </item>
     <item>
       <title></title>
+      <link>http://localhost:1313/docs/health-and-longevity/alt-health/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/health-and-longevity/alt-health/</guid>
+      <description>Alt-Health: A Critique # What is Alt-Health? # I&amp;rsquo;m defining &amp;ldquo;alt-health&amp;rdquo; as a general movement of people on the internet who feel that the modern healthcare system (&amp;ldquo;healthcare 2.0&amp;rdquo; in Peter Attia&amp;rsquo;s parlance) is &amp;ldquo;broken&amp;rdquo; or not meeting the needs of society. Specifically, these people cite the growing incidence of chronic disease - e.g. obesity - in our population, and criticize how the modern healthcase system is really a &amp;ldquo;sick-care&amp;rdquo; system that specializes in managing symptoms of chronic disease, as opposed to preventing that disease in the first place.</description>
+    </item>
+    <item>
+      <title></title>
       <link>http://localhost:1313/docs/health-and-longevity/avoiding-accidents/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/docs/health-and-longevity/avoiding-accidents/</guid>
@@ -951,6 +958,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/docs/health-and-longevity/unhealthy-food/</guid>
       <description>Why Foods Are &amp;ldquo;Unhealthy&amp;rdquo; # They take up space # You eat them instead of other, healthier foods&#xA;They contain unhealthy compounds # Like trans fats&#xA;They are energy dense # It’s easy to eat many calories of the food. This is probably the most important aspect citizens of the developed world need to concern themselves with.&#xA;Categories: Health And Longevity</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/history/family/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/history/family/</guid>
+      <description>Family History # --- title: Family Tree --- %%{ init: { &amp;#39;theme&amp;#39;: &amp;#39;base&amp;#39;, &amp;#39;themeVariables&amp;#39;: { &amp;#39;background&amp;#39;: &amp;#39;#f4f4f4&amp;#39;, &amp;#39;edgeLabelBackground&amp;#39;: &amp;#39;#f4f4f4&amp;#39;, &amp;#39;secondaryColor&amp;#39;: &amp;#39;#f4f4f4&amp;#39; } } }%% flowchart BT; %% Types of nodes with distinctive styles classDef person fill:#bbf,stroke-width:4px classDef union fill:#f9f subgraph mother %% m-school[&amp;#34;Went to school&amp;#34;] end %% style mother fill:#bbf class mother person class m-school person mother--&amp;gt;mf-married subgraph father end father--&amp;gt;mf-married mf-married[&amp;#34;Married&amp;#34;] %% Pranute Branch %% mf-married--&amp;gt;pranute subgraph pranute[&amp;#34;Pranute&amp;#34;] end pranute--&amp;gt;aidas subgraph aidas[&amp;#34;Aidas&amp;#34;] end pranute--&amp;gt;daina subgraph daina[&amp;#34;Daina&amp;#34;] end daina--&amp;gt;daina-aloyzas-married subgraph aloyzas[&amp;#34;Aloyzas&amp;#34;] end aloyzas--&amp;gt;daina-aloyzas-married daina-aloyzas-married[&amp;#34;Married&amp;#34;] daina-aloyzas-married--&amp;gt;marius subgraph marius[&amp;#34;Marius&amp;#34;] end daina-aloyzas-married--&amp;gt;vilija subgraph vilija[&amp;#34;Vilija&amp;#34;] end daina-aloyzas-married--&amp;gt;svaja subgraph svaja[&amp;#34;Svaja&amp;#34;] end %% Zuzana Branch %% mf-married--&amp;gt;|1900|zuzana subgraph zuzana[&amp;#34;Zuzana Alexandraviciute&amp;#34;] born--&amp;gt;schooled end subgraph petras[&amp;#34;Petras Pupius&amp;#34;] bornn--&amp;gt;schooledd end zuzana--&amp;gt;zuzana-petras-married petras--&amp;gt;zuzana-petras-married subgraph zuzana-petras-married married--&amp;gt;moved--&amp;gt;did-x end zuzana-petras-married--&amp;gt;antanas subgraph antanas[&amp;#34;Antanas&amp;#34;] end subgraph nijole[&amp;#34;Nijole (Mamulyte)&amp;#34;] end nijole--&amp;gt;antanas-nijole-married antanas--&amp;gt;antanas-nijole-married subgraph antanas-nijole-married[&amp;#34;Married&amp;#34;] direction LR nijole-austria[&amp;#34;Lived in Austrian Barn&amp;#34;] nijole-austria--&amp;gt;nijole-us nijole-us[&amp;#34;Travelled to US&amp;#34;] end subgraph rim[&amp;#34;Rimvydas&amp;#34;] end rim---&amp;gt;|Invited| palunas-seattle antanas-nijole-married--&amp;gt;|October 11, 1962; Chicago|neris subgraph neris[&amp;#34;🌊 Neris&amp;#34;] direction BT neris-li[&amp;#34;1980: Masters Lithuanian Studies&amp;#34;]--&amp;gt;neris-bs[&amp;#34;1985: Pharmacy BS, U Illinois&amp;#34;]--&amp;gt;neris-pharmd[&amp;#34;2003: Pharm-D, U Washington&amp;#34;]--&amp;gt;neris-geriatric[&amp;#34;2005: BCGP, U Washington&amp;#34;] end subgraph andy[&amp;#34;`**Andy** Structural Engineer Skiier, Guitarist Introverted `&amp;#34;] end neris--&amp;gt;neris-andy-married andy--&amp;gt;neris-andy-married subgraph neris-andy-married palunas-seattle[&amp;#34;Moved to Seattle&amp;#34;] end neris--&amp;gt;laura-neris-married laura--&amp;gt;laura-neris-married subgraph laura-neris-married orcas-move[&amp;#34;Moved to Orcas 🐋&amp;#34;] end neris-andy-married--&amp;gt;|September 14, 1993; Seattle|kovas kovas[&amp;#34;`&amp;lt;a href=&amp;#39;/docs/about-me/&amp;#39;&amp;gt;🐦 Kovas&amp;lt;/a&amp;gt; Programmer, Bio Data Analyst Rock Climber, Gamer kovasap.</description>
     </item>
     <item>
       <title></title>
