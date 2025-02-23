@@ -3,9 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://kovasap.github.io/docs/about-me/</loc>
-    <lastmod>2024-11-25T16:51:27-08:00</lastmod>
+    <lastmod>2025-01-15T16:06:11-08:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/all/</loc>
+    <lastmod>2025-02-23T14:35:01-08:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/books/antifragile/</loc>
     <lastmod>2022-11-05T19:54:07-07:00</lastmod>
@@ -22,8 +23,14 @@
     <loc>https://kovasap.github.io/docs/books/The-Black-Swan/</loc>
     <lastmod>2022-11-14T15:37:21-08:00</lastmod>
   </url><url>
+    <loc>https://kovasap.github.io/docs/books/The-Enigma-of-Reason/</loc>
+    <lastmod>2024-12-15T13:01:14-08:00</lastmod>
+  </url><url>
     <loc>https://kovasap.github.io/docs/books/the-open-society-and-its-enemies/</loc>
     <lastmod>2022-11-05T19:54:07-07:00</lastmod>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/books/Whats-Our-Problem/</loc>
+    <lastmod>2024-12-15T13:01:14-08:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/books/why-greatness-cannot-be-planned/</loc>
     <lastmod>2023-10-22T12:08:52-07:00</lastmod>
@@ -95,13 +102,16 @@
     <lastmod>2023-06-28T12:54:16-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/feelings/</loc>
-    <lastmod>2024-12-11T22:44:23-08:00</lastmod>
+    <lastmod>2025-02-23T14:35:01-08:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/gamedev/bringing-players-together/</loc>
     <lastmod>2023-11-03T12:58:14-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/gamedev/common-patterns/</loc>
     <lastmod>2023-05-29T13:27:50-07:00</lastmod>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/gamedev/game-ideas/honorable-extraction-looter/</loc>
+    <lastmod>2025-01-06T22:20:28-08:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/gamedev/game-ideas/keyboard-city-builder/</loc>
     <lastmod>2022-09-11T12:25:12-07:00</lastmod>
@@ -119,7 +129,7 @@
     <lastmod>2023-06-28T12:54:16-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/gamedev/managing-player-failure/</loc>
-    <lastmod>2024-12-11T22:44:23-08:00</lastmod>
+    <lastmod>2025-02-23T14:35:01-08:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/gamedev/mechanic-ideas/character-alignment/</loc>
     <lastmod>2022-09-11T12:25:12-07:00</lastmod>
@@ -133,11 +143,17 @@
     <loc>https://kovasap.github.io/docs/gamedev/mechanic-ideas/low-friction-turn-based-tactics/</loc>
     <lastmod>2022-09-11T12:25:12-07:00</lastmod>
   </url><url>
+    <loc>https://kovasap.github.io/docs/gamedev/mechanic-ideas/positional-turn-based-combat/</loc>
+    <lastmod>2025-01-07T10:18:13-08:00</lastmod>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/gamedev/mechanic-ideas/Random-Balance/</loc>
+    <lastmod>2024-12-20T14:18:02-08:00</lastmod>
+  </url><url>
     <loc>https://kovasap.github.io/docs/gamedev/mechanic-ideas/random-technologies/</loc>
     <lastmod>2022-11-06T11:28:13-08:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/gamedev/my-projects/</loc>
-    <lastmod>2023-05-08T12:47:12-07:00</lastmod>
+    <lastmod>2025-01-07T10:18:13-08:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/gamedev/real-time-strategy/</loc>
     <lastmod>2022-12-06T11:32:39-08:00</lastmod>
@@ -278,7 +294,7 @@
     <lastmod>2023-05-29T13:27:50-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/games/subnautica/</loc>
-    <lastmod>2024-12-11T22:44:23-08:00</lastmod>
+    <lastmod>2025-02-23T14:35:01-08:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/games/symphony-of-war/</loc>
     <lastmod>2023-05-29T13:27:50-07:00</lastmod>
@@ -318,6 +334,9 @@
   </url><url>
     <loc>https://kovasap.github.io/docs/health-and-longevity/aging-science/</loc>
     <lastmod>2022-08-03T11:34:45-07:00</lastmod>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/health-and-longevity/alt-health/</loc>
+    <lastmod>2025-02-14T13:49:44-08:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/health-and-longevity/avoiding-accidents/</loc>
     <lastmod>2022-06-20T12:27:32-07:00</lastmod>
@@ -359,7 +378,7 @@
     <lastmod>2022-06-20T12:27:32-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/health-and-longevity/food/</loc>
-    <lastmod>2022-08-04T19:15:42-07:00</lastmod>
+    <lastmod>2025-02-14T13:49:44-08:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/health-and-longevity/influences/</loc>
     <lastmod>2022-09-11T13:02:58-07:00</lastmod>
@@ -390,6 +409,9 @@
   </url><url>
     <loc>https://kovasap.github.io/docs/health-and-longevity/unhealthy-food/</loc>
     <lastmod>2022-07-04T20:03:20-07:00</lastmod>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/history/family/</loc>
+    <lastmod>2025-01-26T20:26:44-08:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/hobbies/Lead-Climbing-in-a-Gym/</loc>
     <lastmod>2024-11-12T14:29:36-08:00</lastmod>
@@ -455,10 +477,10 @@
     <lastmod>2024-03-12T16:49:22-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/lifestyle-optimizations/daily-habits/</loc>
-    <lastmod>2024-11-28T16:54:34-08:00</lastmod>
+    <lastmod>2025-02-17T12:27:05-08:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/lifestyle-optimizations/daily-physiological-tricks/</loc>
-    <lastmod>2024-07-03T10:59:13-07:00</lastmod>
+    <lastmod>2025-02-11T15:30:39-08:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/lifestyle-optimizations/elements-of-a-good-day/</loc>
     <lastmod>2022-07-19T17:35:43-07:00</lastmod>
@@ -511,6 +533,9 @@
     <loc>https://kovasap.github.io/docs/lifestyle-optimizations/this-website/</loc>
     <lastmod>2023-12-12T12:46:59-08:00</lastmod>
   </url><url>
+    <loc>https://kovasap.github.io/docs/lifestyle-optimizations/travel/</loc>
+    <lastmod>2025-01-13T22:21:51-08:00</lastmod>
+  </url><url>
     <loc>https://kovasap.github.io/docs/lifestyle-optimizations/vim-tricks/</loc>
     <lastmod>2022-07-19T17:35:43-07:00</lastmod>
   </url><url>
@@ -543,6 +568,9 @@
   </url><url>
     <loc>https://kovasap.github.io/docs/mind/education/</loc>
     <lastmod>2022-10-29T10:54:43-07:00</lastmod>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/mind/friendship/</loc>
+    <lastmod>2024-12-12T20:14:59-08:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/mind/how-to-do-hard-tasks/</loc>
     <lastmod>2022-10-29T10:54:43-07:00</lastmod>
@@ -616,11 +644,17 @@
     <loc>https://kovasap.github.io/docs/society/individuals-vs-groups/</loc>
     <lastmod>2022-07-22T09:58:49-07:00</lastmod>
   </url><url>
+    <loc>https://kovasap.github.io/docs/society/livelihood-traps/</loc>
+    <lastmod>2025-02-19T21:47:50-08:00</lastmod>
+  </url><url>
     <loc>https://kovasap.github.io/docs/society/multi-job-normalization/</loc>
     <lastmod>2023-01-20T13:45:34-08:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/society/politics/</loc>
     <lastmod>2022-07-22T09:58:49-07:00</lastmod>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/society/shelter-in-the-storm/</loc>
+    <lastmod>2025-01-13T22:21:51-08:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/society/solving-societal-problems/</loc>
     <lastmod>2022-10-29T10:54:43-07:00</lastmod>
@@ -656,7 +690,7 @@
     <lastmod>2022-06-20T12:27:32-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/software-dev/influences/</loc>
-    <lastmod>2022-07-29T09:51:32-07:00</lastmod>
+    <lastmod>2025-01-07T10:18:13-08:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/software-dev/patterned-code/</loc>
     <lastmod>2022-06-20T12:27:32-07:00</lastmod>
@@ -740,9 +774,9 @@
     <lastmod>2022-06-20T12:25:27-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/</loc>
-    <lastmod>2024-12-11T22:44:23-08:00</lastmod>
+    <lastmod>2025-02-23T14:35:01-08:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/</loc>
-    <lastmod>2024-12-11T22:44:23-08:00</lastmod>
+    <lastmod>2025-02-23T14:35:01-08:00</lastmod>
   </url>
 </urlset>
