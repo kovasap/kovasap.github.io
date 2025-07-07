@@ -6,11 +6,11 @@
   :dir? false
   :links []
   :size 36
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/feelings.md"
   :title "Feelings"
-  :markdown "This file is encrypted.\n\nCategories:\n\nBacklinks: [Comparing Prices]({{< relref \"/docs/games/Comparing-prices.md\" >}}), \n[Apex Legends]({{< relref \"/docs/games/Apex-Legends.md\" >}}), \n[Watching Gothamchess]({{< relref \"/docs/videos/Watching-GothamChess.md\" >}}), \n[Redditing]({{< relref \"/docs/games/Redditing.md\" >}}), \n[Watching Educational Youtube]({{< relref \"/docs/videos/Watching-educational-YouTube.md\" >}}), \n[Quordle]({{< relref \"/docs/games/Quordle.md\" >}}), \n[Browsing Hacker News]({{< relref \"/docs/games/Browsing-Hacker-News.md\" >}}), \n[Islanders]({{< relref \"/docs/games/Islanders.md\" >}}), \n[Wordle]({{< relref \"/docs/games/Wordle.md\" >}}), \n[Age Of Darkness: Final Stand]({{< relref \"/docs/games/Age-of-Darkness:-Final-Stand.md\" >}}), \n[Lead Climbing In A Gym]({{< relref \"/docs/hobbies/Lead-Climbing-in-a-Gym.md\" >}}), \n[Bike Commuting]({{< relref \"/docs/games/Bike-Commuting.md\" >}}), \n[Beat Saber]({{< relref \"/docs/games/Beat-Saber.md\" >}}), \n[Battle Brothers]({{< relref \"/docs/games/battle-brothers.md\" >}}), \n[Yo Yoing]({{< relref \"/docs/hobbies/Yo-Yoing.md\" >}}), \n[Slipways]({{< relref \"/docs/games/Slipways.md\" >}}), \n[Dead Of Winter]({{< relref \"/docs/games/dead-of-winter.md\" >}}), \n[Semantle]({{< relref \"/docs/games/Semantle.md\" >}}), \n[Making Small Web Apps In Clojurescript With Reagent]({{< relref \"/docs/games/Making-Small-Web-Apps-in-ClojureScript-with-Reagent.md\" >}}), \n[Dat Creativity]({{< relref \"/docs/games/DAT-Creativity.md\" >}}), \n[Three Worlds Collide]({{< relref \"/docs/games/Three-Worlds-Collide.md\" >}}), \n[Subnautica]({{< relref \"/docs/games/subnautica.md\" >}}), \n"
+  :markdown "This file is encrypted.\n\nCategories:\n\nBacklinks: [Comparing Prices]({{< relref \"/docs/games/Comparing-prices.md\" >}}), \n[Apex Legends]({{< relref \"/docs/games/Apex-Legends.md\" >}}), \n[Watching Gothamchess]({{< relref \"/docs/videos/Watching-GothamChess.md\" >}}), \n[Redditing]({{< relref \"/docs/games/Redditing.md\" >}}), \n[Watching Educational Youtube]({{< relref \"/docs/videos/Watching-educational-YouTube.md\" >}}), \n[Quordle]({{< relref \"/docs/games/Quordle.md\" >}}), \n[Browsing Hacker News]({{< relref \"/docs/games/Browsing-Hacker-News.md\" >}}), \n[Islanders]({{< relref \"/docs/games/Islanders.md\" >}}), \n[Wordle]({{< relref \"/docs/games/Wordle.md\" >}}), \n[Age Of Darkness: Final Stand]({{< relref \"/docs/games/Age-of-Darkness:-Final-Stand.md\" >}}), \n[Lead Climbing In A Gym]({{< relref \"/docs/hobbies/Lead-Climbing-in-a-Gym.md\" >}}), \n[Bike Commuting]({{< relref \"/docs/games/Bike-Commuting.md\" >}}), \n[Beat Saber]({{< relref \"/docs/games/Beat-Saber.md\" >}}), \n[Battle Brothers]({{< relref \"/docs/games/battle-brothers.md\" >}}), \n[Yo Yoing]({{< relref \"/docs/hobbies/Yo-Yoing.md\" >}}), \n[Slipways]({{< relref \"/docs/games/Slipways.md\" >}}), \n[Dead Of Winter]({{< relref \"/docs/games/dead-of-winter.md\" >}}), \n[Semantle]({{< relref \"/docs/games/Semantle.md\" >}}), \n[Making Small Web Apps In Clojurescript With Reagent]({{< relref \"/docs/games/Making-Small-Web-Apps-in-ClojureScript-with-Reagent.md\" >}}), \n[Dat Creativity]({{< relref \"/docs/games/DAT-Creativity.md\" >}}), \n[Three Worlds Collide]({{< relref \"/docs/games/Three-Worlds-Collide.md\" >}}), \n"
   :name "feelings.md"
   :categories #{}
   :dir? false
@@ -34,10 +34,9 @@
           "/docs/games/Semantle.md"
           "/docs/games/Making-Small-Web-Apps-in-ClojureScript-with-Reagent.md"
           "/docs/games/DAT-Creativity.md"
-          "/docs/games/Three-Worlds-Collide.md"
-          "/docs/games/subnautica.md"]
-  :size 1611
-  :modtime 1749183448
+          "/docs/games/Three-Worlds-Collide.md"]
+  :size 1552
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/manifesto.md"
   :title "Manifesto"
@@ -65,7 +64,7 @@
           "/docs/mind/motivation.md"
           "/docs/health-and-longevity/exercise.md"]
   :size 11692
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/potential-life-missions.md"
   :title "Potential Life Missions"
@@ -80,7 +79,7 @@
           "/docs/mind/optimism.md"
           "/docs/society/utopia.md"]
   :size 4025
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/recent-interests.md"
   :title "Recent Interests"
@@ -96,7 +95,7 @@
           "/docs/health-and-longevity/alt-health.md"
           "/docs/lifestyle-optimizations/keyboards-and-typing.md"]
   :size 3241
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/books/The-Black-Swan.md"
   :title "The Black Swan"
@@ -107,7 +106,7 @@
   :links ["/"
           "/docs/society/gerrymandering.md"]
   :size 253
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/books/The-Enigma-of-Reason.md"
   :title "The Enigma Of Reason"
@@ -118,7 +117,7 @@
   :links ["/"
           "/docs/understanding-the-world/what-to-believe.md"]
   :size 225
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/books/What's-Our-Problem?.md"
   :title "What's Our Problem?"
@@ -128,7 +127,7 @@
   :dir? false
   :links ["/"]
   :size 77
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/books/antifragile.md"
   :title "Antifragile"
@@ -141,7 +140,7 @@
           "/"
           "/docs/society/utopia.md"]
   :size 1473
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/books/everyday-utopia.md"
   :title "Everyday Utopia"
@@ -152,7 +151,7 @@
   :links ["/"
           "/docs/society/communal-living.md"]
   :size 249
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/books/fooled-by-randomness.md"
   :title "Fooled By Randomness"
@@ -166,7 +165,7 @@
           "/"
           "/docs/books/the-open-society-and-its-enemies.md"]
   :size 481
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/books/the-beginning-of-infinity.md"
   :title "The Beginning Of Infinity"
@@ -178,7 +177,7 @@
   :links ["/"
           "/"]
   :size 545
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/books/the-open-society-and-its-enemies.md"
   :title "The Open Society And Its Enemies"
@@ -191,7 +190,7 @@
           "/"
           "/docs/books/fooled-by-randomness.md"]
   :size 284
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/books/why-greatness-cannot-be-planned.md"
   :title "Why Greatness Cannot Be Planned"
@@ -208,7 +207,7 @@
           "/docs/society/utopia.md"
           "/docs/understanding-the-world/what-to-believe.md"]
   :size 578
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/books/zero-to-one.md"
   :title "Zero To One"
@@ -221,7 +220,7 @@
           "/"
           "/docs/understanding-the-world/influences.md"]
   :size 982
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/climbing/breaking-point.md"
   :title "Breaking Point"
@@ -231,7 +230,7 @@
   :dir? false
   :links ["/"]
   :size 760
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/climbing/media.md"
   :title "Media"
@@ -241,7 +240,7 @@
   :dir? false
   :links ["/"]
   :size 649
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/climbing/resources.md"
   :title "Resources"
@@ -251,7 +250,7 @@
   :dir? false
   :links ["/"]
   :size 212
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/climbing/safety-checklist.md"
   :title "Safety Checklist"
@@ -261,7 +260,7 @@
   :dir? false
   :links ["/"]
   :size 3373
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/climbing/tips-and-tricks.md"
   :title "Tips And Tricks"
@@ -271,7 +270,7 @@
   :dir? false
   :links ["/"]
   :size 318
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/climbing/event-reports/2019-10-7-namaste-wall-zion.md"
   :title "2019 10 7 Namaste Wall Zion"
@@ -284,7 +283,7 @@
           "/"
           "/"]
   :size 2075
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/climbing/event-reports/2020-8-10-lake-erie.md"
   :title "2020 8 10 Lake Erie"
@@ -297,7 +296,7 @@
           "/"
           "/"]
   :size 1401
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/climbing/event-reports/2020-8-12-mile-high-club.md"
   :title "2020 8 12 Mile High Club"
@@ -310,7 +309,7 @@
           "/"
           "/"]
   :size 10838
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/climbing/event-reports/2024-7-enchantments-prusik-peak.md"
   :title "2024 7 Enchantments Prusik Peak"
@@ -324,7 +323,7 @@
           "/"
           "/"]
   :size 17537
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/climbing/event-reports/first-512.md"
   :title "First 512"
@@ -336,7 +335,7 @@
   :links ["/"
           "/"]
   :size 327
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/datavis/clerk-notebooks.md"
   :title "Clerk Notebooks"
@@ -346,7 +345,7 @@
   :dir? false
   :links ["/"]
   :size 261
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/datavis/inspiration.md"
   :title "Inspiration"
@@ -356,7 +355,7 @@
   :dir? false
   :links ["/"]
   :size 255
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/datavis/reddit-tree.md"
   :title "Reddit Tree"
@@ -366,7 +365,7 @@
   :dir? false
   :links ["/"]
   :size 911
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/datavis/seattle-rain.md"
   :title "Seattle Rain"
@@ -376,7 +375,7 @@
   :dir? false
   :links ["/"]
   :size 2160
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/favorites/favorite-music.md"
   :title "Favorite Music"
@@ -386,7 +385,7 @@
   :dir? false
   :links ["/"]
   :size 1146
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/favorites/game-tier-lists.md"
   :title "Game Tier Lists"
@@ -398,7 +397,7 @@
   :links ["/"
           "/"]
   :size 4272
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/gamedev/bringing-players-together.md"
   :title "Bringing Players Together"
@@ -408,7 +407,7 @@
   :dir? false
   :links ["/"]
   :size 253
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/gamedev/common-patterns.md"
   :title "Common Patterns"
@@ -423,7 +422,7 @@
           "/docs/games/fell-seal-arbiters-mark.md"
           "/docs/lifestyle-optimizations/experiences.md"]
   :size 2769
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/gamedev/gamedev-context.md"
   :title "Gamedev Context"
@@ -434,19 +433,20 @@
   :links ["/"
           "/docs/mind/creativity.md"]
   :size 441
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/gamedev/managing-player-failure.md"
   :title "Managing Player Failure"
-  :markdown "# Managing player failure in games\n\n## Quick saving and quick loading is a bad system\n\nIf you as a designer want your player to explore your game without fear, one way\nto do it is to implement quick saving and quick loading and recommend that your\nplayer quick save before they do something risky and then quick load if it\ndoesn't work out.\nThis is a bad system because it's easy for the player to forget to quick save or\nhave saved a long time ago then, do something that leads them to failure and\nhaving to reload a long time ago in order to progress in the game.\nAlso a lot of games have long loading times and quick saving/loading can lead to\nfrustrating waiting.\nIf you think you need quicksaving and quick loading in your game, I recommend\nlooking into games like [Iron Danger]({{< relref\n\"/docs/games/Iron-Danger.md\" >}}) that have a time rewind mechanic which\nserves the same purpose but is a lot more ergonomic for the player to work with.\n\nA very silly and IMO bad quick loading and quicksaving system in a game series\nis the system in Shadow Tactics: Blades of the Shogun.\nIn this game, you are literally reminded you to quick save on a regular timer.\nYou would think that the game would be able to handle that for the player if\nthat's really the way the designers want you to progress through those games.\nI think a time rewinding mechanic in these games would be miles better.\n\nCategories: [Gamedev]({{< relref \"/\" >}}?Gamedev=true)\n\nBacklinks: [Iron Danger]({{< relref \"/docs/games/Iron-Danger.md\" >}}), \n"
+  :markdown "# Managing player failure in games\n\n## Quick saving and quick loading is a bad system\n\nIf you as a designer want your player to explore your game without fear, one way\nto do it is to implement quick saving and quick loading and recommend that your\nplayer quick save before they do something risky and then quick load if it\ndoesn't work out.\nThis is a bad system because it's easy for the player to forget to quick save or\nhave saved a long time ago then, do something that leads them to failure and\nhaving to reload a long time ago in order to progress in the game.\nAlso a lot of games have long loading times and quick saving/loading can lead to\nfrustrating waiting.\nIf you think you need quicksaving and quick loading in your game, I recommend\nlooking into games like [Iron Danger]({{< relref\n\"/docs/games/Iron-Danger.md\" >}}) that have a time rewind mechanic which\nserves the same purpose but is a lot more ergonomic for the player to work with.\n\nA very silly and IMO bad quick loading and quicksaving system in a game series\nis the system in Shadow Tactics: Blades of the Shogun.\nIn this game, you are literally reminded you to quick save on a regular timer.\nYou would think that the game would be able to handle that for the player if\nthat's really the way the designers want you to progress through those games.\nI think a time rewinding mechanic in these games would be miles better.\n\nCategories: [Gamedev]({{< relref \"/\" >}}?Gamedev=true)\n\nBacklinks: [Iron Danger]({{< relref \"/docs/games/Iron-Danger.md\" >}}), \n[Iron Danger]({{< relref \"/docs/games/iron-danger.md\" >}}), \n"
   :name "managing-player-failure.md"
   :categories #{"Gamedev"}
   :dir? false
   :links ["/docs/games/Iron-Danger.md"
           "/"
-          "/docs/games/Iron-Danger.md"]
-  :size 1519
-  :modtime 1749183448
+          "/docs/games/Iron-Danger.md"
+          "/docs/games/iron-danger.md"]
+  :size 1580
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/gamedev/my-projects.md"
   :title "My Projects"
@@ -456,7 +456,7 @@
   :dir? false
   :links ["/"]
   :size 1627
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/gamedev/real-time-strategy.md"
   :title "Real Time Strategy"
@@ -472,7 +472,7 @@
           "/docs/games/Rimworld.md"
           "/docs/games/oxygen-not-included.md"]
   :size 884
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/gamedev/social-games.md"
   :title "Social Games"
@@ -482,7 +482,7 @@
   :dir? false
   :links ["/"]
   :size 946
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/gamedev/useful-tools.md"
   :title "Useful Tools"
@@ -492,7 +492,7 @@
   :dir? false
   :links ["/"]
   :size 261
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/gamedev/game-ideas/farming-video-game.md"
   :title "Farming Video Game"
@@ -505,7 +505,7 @@
           "/"
           "/"]
   :size 942
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/gamedev/game-ideas/honorable-extraction-looter.md"
   :title "Honorable Extraction Looter"
@@ -517,7 +517,7 @@
   :links ["/"
           "/"]
   :size 1064
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/gamedev/game-ideas/keyboard-city-builder.md"
   :title "Keyboard City Builder"
@@ -530,7 +530,7 @@
           "/"
           "/"]
   :size 405
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/gamedev/game-ideas/roguelike-base-builder.md"
   :title "Roguelike Base Builder"
@@ -543,7 +543,7 @@
           "/"
           "/"]
   :size 2175
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/gamedev/game-ideas/safe-building-designer.md"
   :title "Safe Building Designer"
@@ -556,7 +556,7 @@
           "/"
           "/"]
   :size 663
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/gamedev/game-ideas/trading-card-mmorpg.md"
   :title "Trading Card Mmorpg"
@@ -568,7 +568,7 @@
   :links ["/"
           "/"]
   :size 851
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/gamedev/mechanic-ideas/Random-Balance.md"
   :title "Random Balance"
@@ -580,7 +580,7 @@
   :links ["/"
           "/"]
   :size 540
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/gamedev/mechanic-ideas/character-alignment.md"
   :title "Character Alignment"
@@ -593,7 +593,7 @@
           "/"
           "/"]
   :size 614
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/gamedev/mechanic-ideas/clairvoyant-turn-based-tactics.md"
   :title "Clairvoyant Turn Based Tactics"
@@ -606,7 +606,7 @@
           "/"
           "/"]
   :size 1020
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/gamedev/mechanic-ideas/limiting-collaboration.md"
   :title "Limiting Collaboration"
@@ -621,7 +621,7 @@
           "/"
           "/docs/games/dead-of-winter.md"]
   :size 4085
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/gamedev/mechanic-ideas/low-friction-turn-based-tactics.md"
   :title "Low Friction Turn Based Tactics"
@@ -634,7 +634,7 @@
           "/"
           "/"]
   :size 3365
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/gamedev/mechanic-ideas/positional-turn-based-combat.md"
   :title "Positional Turn Based Combat"
@@ -646,7 +646,7 @@
   :links ["/"
           "/"]
   :size 2894
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/gamedev/mechanic-ideas/random-technologies.md"
   :title "Random Technologies"
@@ -660,7 +660,7 @@
           "/"
           "/docs/books/why-greatness-cannot-be-planned.md"]
   :size 963
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/Age-of-Darkness:-Final-Stand.md"
   :title "Age Of Darkness: Final Stand"
@@ -674,7 +674,7 @@
           "/"
           "/docs/feelings.md"]
   :size 400
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/Apex-Legends.md"
   :title "Apex Legends"
@@ -692,7 +692,7 @@
           "/"
           "/docs/feelings.md"]
   :size 497
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/Backpack-Hero.md"
   :title "Backpack Hero"
@@ -704,7 +704,7 @@
   :links ["/"
           "/"]
   :size 238
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/Bad-North.md"
   :title "Bad North"
@@ -716,7 +716,7 @@
   :links ["/"
           "/"]
   :size 151
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/Bananagrams.md"
   :title "Bananagrams"
@@ -728,7 +728,7 @@
   :links ["/"
           "/"]
   :size 746
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/Beat-Saber.md"
   :title "Beat Saber"
@@ -741,7 +741,7 @@
           "/"
           "/docs/feelings.md"]
   :size 351
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/Bike-Commuting.md"
   :title "Bike Commuting"
@@ -757,7 +757,7 @@
           "/"
           "/docs/feelings.md"]
   :size 472
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/Browsing-Hacker-News.md"
   :title "Browsing Hacker News"
@@ -774,7 +774,7 @@
           "/"
           "/docs/feelings.md"]
   :size 432
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/CoD:-MW2.md"
   :title "Cod: Mw2"
@@ -786,7 +786,7 @@
   :links ["/"
           "/"]
   :size 291
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/Codenames.md"
   :title "Codenames"
@@ -798,7 +798,7 @@
   :links ["/"
           "/"]
   :size 531
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/Comparing-prices.md"
   :title "Comparing Prices"
@@ -813,7 +813,7 @@
           "/"
           "/docs/feelings.md"]
   :size 563
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/Counter-Strike.md"
   :title "Counter Strike"
@@ -824,7 +824,7 @@
   :links ["/"
           "/docs/recent-interests.md"]
   :size 150
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/DAT-Creativity.md"
   :title "Dat Creativity"
@@ -836,7 +836,7 @@
           "/"
           "/docs/feelings.md"]
   :size 352
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/Drafting-Magic:-The-Gathering.md"
   :title "Drafting Magic: The Gathering"
@@ -850,7 +850,7 @@
           "/"
           "/"]
   :size 856
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/Infinite-Craft.md"
   :title "Infinite Craft"
@@ -860,7 +860,7 @@
   :dir? false
   :links ["/"]
   :size 102
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/Iron-Danger.md"
   :title "Iron Danger"
@@ -875,7 +875,7 @@
           "/"
           "/docs/gamedev/managing-player-failure.md"]
   :size 464
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/Islanders.md"
   :title "Islanders"
@@ -893,7 +893,7 @@
           "/"
           "/docs/feelings.md"]
   :size 501
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/Longwave.md"
   :title "Longwave"
@@ -905,7 +905,7 @@
   :links ["/"
           "/"]
   :size 232
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/Making-Small-Web-Apps-in-ClojureScript-with-Reagent.md"
   :title "Making Small Web Apps In Clojurescript With Reagent"
@@ -920,7 +920,7 @@
           "/"
           "/docs/feelings.md"]
   :size 410
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/Offworld-Trading-Company.md"
   :title "Offworld Trading Company"
@@ -933,7 +933,7 @@
           "/"
           "/docs/gamedev/real-time-strategy.md"]
   :size 258
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/Opus-Magnum.md"
   :title "Opus Magnum"
@@ -947,7 +947,7 @@
           "/"
           "/"]
   :size 281
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/Overwatch.md"
   :title "Overwatch"
@@ -959,7 +959,7 @@
   :links ["/"
           "/"]
   :size 2180
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/Puzzgrid.md"
   :title "Puzzgrid"
@@ -973,7 +973,7 @@
           "/"
           "/"]
   :size 238
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/Quordle.md"
   :title "Quordle"
@@ -989,7 +989,7 @@
           "/"
           "/docs/feelings.md"]
   :size 494
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/Rainbow-6:-Siege.md"
   :title "Rainbow 6: Siege"
@@ -1001,7 +1001,7 @@
   :links ["/"
           "/"]
   :size 1476
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/Redditing.md"
   :title "Redditing"
@@ -1020,7 +1020,7 @@
           "/"
           "/docs/feelings.md"]
   :size 671
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/Rimworld.md"
   :title "Rimworld"
@@ -1033,7 +1033,7 @@
           "/"
           "/docs/gamedev/real-time-strategy.md"]
   :size 322
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/Semantle.md"
   :title "Semantle"
@@ -1049,7 +1049,7 @@
           "/"
           "/docs/feelings.md"]
   :size 416
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/Slipways.md"
   :title "Slipways"
@@ -1067,7 +1067,7 @@
           "/"
           "/docs/feelings.md"]
   :size 482
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/The-Witness.md"
   :title "The Witness"
@@ -1079,7 +1079,7 @@
   :links ["/"
           "/"]
   :size 214
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/Three-Worlds-Collide.md"
   :title "Three Worlds Collide"
@@ -1095,7 +1095,7 @@
           "/"
           "/docs/feelings.md"]
   :size 440
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/Wordle.md"
   :title "Wordle"
@@ -1111,7 +1111,7 @@
           "/"
           "/docs/feelings.md"]
   :size 392
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/XCOM-2-+-War-of-the-Chosen.md"
   :title "Xcom 2 + War Of The Chosen"
@@ -1128,7 +1128,7 @@
           "/"
           "/docs/gamedev/common-patterns.md"]
   :size 458
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/battle-brothers.md"
   :title "Battle Brothers"
@@ -1144,7 +1144,7 @@
           "/"
           "/docs/feelings.md"]
   :size 1382
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/chess.md"
   :title "Chess"
@@ -1158,7 +1158,7 @@
           "/"
           "/"]
   :size 653
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/counter-strike.md.md"
   :title "Counter Strike"
@@ -1168,7 +1168,7 @@
   :dir? false
   :links ["/"]
   :size 81
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/dark-and-darker.md"
   :title "Dark And Darker"
@@ -1180,7 +1180,7 @@
   :links ["/"
           "/"]
   :size 358
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/darkest-dungeon.md"
   :title "Darkest Dungeon"
@@ -1196,7 +1196,7 @@
           "/"
           "/"]
   :size 363
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/dead-of-winter.md"
   :title "Dead Of Winter"
@@ -1210,7 +1210,7 @@
           "/docs/feelings.md"
           "/docs/gamedev/mechanic-ideas/limiting-collaboration.md"]
   :size 1243
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/druidstone.md"
   :title "Druidstone"
@@ -1220,7 +1220,7 @@
   :dir? false
   :links ["/"]
   :size 135
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/fell-seal-arbiters-mark.md"
   :title "Fell Seal Arbiters Mark"
@@ -1237,7 +1237,7 @@
           "/"
           "/docs/gamedev/common-patterns.md"]
   :size 1036
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/fire-emblem-the-sacred-stones.md"
   :title "Fire Emblem The Sacred Stones"
@@ -1255,7 +1255,7 @@
           "/"
           "/"]
   :size 1843
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/iratus.md"
   :title "Iratus"
@@ -1265,11 +1265,11 @@
   :dir? false
   :links ["/"]
   :size 1043
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/iron-danger.md"
   :title "Iron Danger"
-  :markdown "# [Iron Danger](https://store.steampowered.com/app/899310/Iron_Danger/)\n\n{{< game-img \"iron-danger\" \"400px\" >}}\n\nReally cool strategy game with a cool story. Would love it if they made a sequel and/or expanded it into a bigger RPG with more customization.\n\nFeelings:\n\nCategories: [Games]({{< relref \"/\" >}}?Games=true),\n[Solitary]({{< relref \"/\" >}}?Solitary=true),\n[Story]({{< relref \"/\" >}}?Story=true)\n\nBacklinks: [Managing Player Failure]({{< relref \"/docs/gamedev/managing-player-failure.md\" >}}), \n"
+  :markdown "# [Iron Danger](https://store.steampowered.com/app/899310/Iron_Danger/)\n\n{{< game-img \"iron-danger\" \"400px\" >}}\n\nReally cool strategy game with a cool story. Would love it if they made a sequel and/or expanded it into a bigger RPG with more customization.\n\nFeelings:\n\nCategories: [Games]({{< relref \"/\" >}}?Games=true),\n[Solitary]({{< relref \"/\" >}}?Solitary=true),\n[Story]({{< relref \"/\" >}}?Story=true)"
   :name "iron-danger.md"
   :categories #{"Games"
                 "Solitary"
@@ -1277,10 +1277,9 @@
   :dir? false
   :links ["/"
           "/"
-          "/"
-          "/docs/gamedev/managing-player-failure.md"]
-  :size 504
-  :modtime 1749183448
+          "/"]
+  :size 404
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/oxygen-not-included.md"
   :title "Oxygen Not Included"
@@ -1293,7 +1292,7 @@
           "/"
           "/docs/gamedev/real-time-strategy.md"]
   :size 654
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/ozymandias.md"
   :title "Ozymandias"
@@ -1309,7 +1308,7 @@
           "/"
           "/"]
   :size 344
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/pathfinder-kingmaker.md"
   :title "Pathfinder Kingmaker"
@@ -1321,7 +1320,7 @@
   :links ["/"
           "/"]
   :size 632
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/pillars-of-eternity-2.md"
   :title "Pillars Of Eternity 2"
@@ -1333,7 +1332,7 @@
   :links ["/"
           "/"]
   :size 397
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/skyrim.md"
   :title "Skyrim"
@@ -1346,7 +1345,7 @@
           "/"
           "/"]
   :size 262
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/solasta.md"
   :title "Solasta"
@@ -1356,11 +1355,11 @@
   :dir? false
   :links ["/"]
   :size 130
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/subnautica.md"
   :title "Subnautica"
-  :markdown "# [Subnautica](https://unknownworlds.com/subnautica/)\n\nAmazing game about exploring an unknown world.\n\nCategories: [Exploration]({{< relref \"/\" >}}?Exploration=true),\n[Games]({{< relref \"/\" >}}?Games=true),\n[Solitary]({{< relref \"/\" >}}?Solitary=true)"
+  :markdown "# [Subnautica](https://unknownworlds.com/subnautica/)\n\nAmazing game about exploring an unknown world.\n\nCategories: [Exploration]({{< relref \"/\" >}}?Exploration=true),\n[Games]({{< relref \"/\" >}}?Games=true),\n[Solitary]({{< relref \"/\" >}}?Solitary=true)\n\nBacklinks: [Feelings]({{< relref \"/docs/feelings.md\" >}}), \n"
   :name "subnautica.md"
   :categories #{"Exploration"
                 "Games"
@@ -1368,9 +1367,10 @@
   :dir? false
   :links ["/"
           "/"
-          "/"]
-  :size 251
-  :modtime 1749183448
+          "/"
+          "/docs/feelings.md"]
+  :size 313
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/symphony-of-war.md"
   :title "Symphony Of War"
@@ -1382,7 +1382,7 @@
   :links ["/"
           "/"]
   :size 412
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/terra-mystica.md"
   :title "Terra Mystica"
@@ -1392,7 +1392,7 @@
   :dir? false
   :links ["/"]
   :size 367
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/games/the-last-spell.md"
   :title "The Last Spell"
@@ -1402,7 +1402,7 @@
   :dir? false
   :links ["/"]
   :size 271
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/gaming/buying-games.md"
   :title "Buying Games"
@@ -1412,7 +1412,7 @@
   :dir? false
   :links ["/"]
   :size 965
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/gaming/fps-principles.md"
   :title "Fps Principles"
@@ -1422,7 +1422,7 @@
   :dir? false
   :links ["/"]
   :size 6888
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/gaming/microphone-setup.md"
   :title "Microphone Setup"
@@ -1432,7 +1432,7 @@
   :dir? false
   :links ["/"]
   :size 514
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/gaming/monitor-notes.md"
   :title "Monitor Notes"
@@ -1442,7 +1442,7 @@
   :dir? false
   :links ["/"]
   :size 1653
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/gaming/recommendations.md"
   :title "Recommendations"
@@ -1457,7 +1457,7 @@
           "/docs/gaming/recommendations.md"
           "/docs/lifestyle-optimizations/experiences.md"]
   :size 655
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/health-and-longevity/aging-science.md"
   :title "Aging Science"
@@ -1481,7 +1481,7 @@
           "/docs/health-and-longevity/theories-of-aging.md"
           "/docs/understanding-the-world/what-to-believe.md"]
   :size 2617
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/health-and-longevity/alt-health.md"
   :title "Alt Health"
@@ -1494,7 +1494,7 @@
           "/"
           "/docs/recent-interests.md"]
   :size 8522
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/health-and-longevity/avoiding-accidents.md"
   :title "Avoiding Accidents"
@@ -1504,7 +1504,7 @@
   :dir? false
   :links ["/"]
   :size 325
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/health-and-longevity/baking.md"
   :title "Baking"
@@ -1514,7 +1514,7 @@
   :dir? false
   :links ["/"]
   :size 5593
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/health-and-longevity/biomarker-correlator.md"
   :title "Biomarker Correlator"
@@ -1526,7 +1526,7 @@
           "/docs/health-and-longevity/food.md"
           "/docs/lifelogging/what-and-why.md"]
   :size 422
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/health-and-longevity/causes-of-death.md"
   :title "Causes Of Death"
@@ -1536,7 +1536,7 @@
   :dir? false
   :links ["/"]
   :size 874
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/health-and-longevity/chronic-stress.md"
   :title "Chronic Stress"
@@ -1548,7 +1548,7 @@
           "/docs/manifesto.md"
           "/docs/health-and-longevity/aging-science.md"]
   :size 260
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/health-and-longevity/circadian-rhythm.md"
   :title "Circadian Rhythm"
@@ -1559,7 +1559,7 @@
   :links ["/"
           "/docs/manifesto.md"]
   :size 226
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/health-and-longevity/continuous-glucose-monitoring.md"
   :title "Continuous Glucose Monitoring"
@@ -1571,7 +1571,7 @@
           "/docs/health-and-longevity/tracking-health.md"
           "/docs/lifelogging/what-and-why.md"]
   :size 1640
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/health-and-longevity/cooking.md"
   :title "Cooking"
@@ -1582,7 +1582,7 @@
   :links ["/"
           "/docs/lifestyle-optimizations/daily-habits.md"]
   :size 4954
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/health-and-longevity/dental-health.md"
   :title "Dental Health"
@@ -1592,7 +1592,7 @@
   :dir? false
   :links ["/"]
   :size 216
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/health-and-longevity/dna-testing.md"
   :title "Dna Testing"
@@ -1602,7 +1602,7 @@
   :dir? false
   :links ["/"]
   :size 751
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/health-and-longevity/exercise.md"
   :title "Exercise"
@@ -1614,7 +1614,7 @@
           "/docs/manifesto.md"
           "/docs/health-and-longevity/aging-science.md"]
   :size 263
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/health-and-longevity/fasting.md"
   :title "Fasting"
@@ -1625,7 +1625,7 @@
   :links ["/"
           "/docs/health-and-longevity/food.md"]
   :size 6075
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/health-and-longevity/finding-care.md"
   :title "Finding Care"
@@ -1635,7 +1635,7 @@
   :dir? false
   :links ["/"]
   :size 356
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/health-and-longevity/food.md"
   :title "Food"
@@ -1654,7 +1654,7 @@
           "/docs/health-and-longevity/fasting.md"
           "/docs/lifestyle-optimizations/daily-habits.md"]
   :size 17442
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/health-and-longevity/influences.md"
   :title "Influences"
@@ -1666,7 +1666,7 @@
           "/"
           "/docs/health-and-longevity/sens.md"]
   :size 9573
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/health-and-longevity/misc-research.md"
   :title "Misc Research"
@@ -1676,7 +1676,7 @@
   :dir? false
   :links ["/"]
   :size 490
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/health-and-longevity/my-physiological-states.md"
   :title "My Physiological States"
@@ -1686,7 +1686,7 @@
   :dir? false
   :links ["/"]
   :size 717
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/health-and-longevity/personal-specific-food-notes.md"
   :title "Personal Specific Food Notes"
@@ -1696,7 +1696,7 @@
   :dir? false
   :links ["/"]
   :size 519
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/health-and-longevity/sens.md"
   :title "Sens"
@@ -1709,7 +1709,7 @@
           "/docs/health-and-longevity/influences.md"
           "/docs/understanding-the-world/what-to-believe.md"]
   :size 990
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/health-and-longevity/sleep.md"
   :title "Sleep"
@@ -1726,7 +1726,7 @@
           "/docs/lifestyle-optimizations/daily-physiological-tricks.md"
           "/docs/lifestyle-optimizations/task-tracking.md"]
   :size 6313
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/health-and-longevity/theories-of-aging.md"
   :title "Theories Of Aging"
@@ -1739,7 +1739,7 @@
           "/"
           "/docs/health-and-longevity/aging-science.md"]
   :size 2244
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/health-and-longevity/tracking-food.md"
   :title "Tracking Food"
@@ -1750,7 +1750,7 @@
   :links ["/"
           "/docs/health-and-longevity/tracking-health.md"]
   :size 4292
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/health-and-longevity/tracking-health.md"
   :title "Tracking Health"
@@ -1765,7 +1765,7 @@
           "/docs/health-and-longevity/tracking-food.md"
           "/docs/lifelogging/what-and-why.md"]
   :size 3936
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/health-and-longevity/unhealthy-food.md"
   :title "Unhealthy Food"
@@ -1775,7 +1775,7 @@
   :dir? false
   :links ["/"]
   :size 414
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/history/family.md"
   :title "Family"
@@ -1808,7 +1808,7 @@
           "/"
           "/docs/feelings.md"]
   :size 729
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/hobbies/Yo-Yoing.md"
   :title "Yo Yoing"
@@ -1820,7 +1820,7 @@
           "/"
           "/docs/feelings.md"]
   :size 290
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/housing/home-energy-monitoring.md"
   :title "Home Energy Monitoring"
@@ -1830,7 +1830,7 @@
   :dir? false
   :links ["/"]
   :size 887
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/housing/projects.md"
   :title "Projects"
@@ -1840,7 +1840,7 @@
   :dir? false
   :links ["/"]
   :size 373
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/hydroponics/journal.md"
   :title "Journal"
@@ -1850,7 +1850,7 @@
   :dir? false
   :links ["/"]
   :size 1588
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/hydroponics/my-setup.md"
   :title "My Setup"
@@ -1860,7 +1860,7 @@
   :dir? false
   :links ["/"]
   :size 4441
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/investing-and-finances/comprehensive-housing-return-estimator.md"
   :title "Comprehensive Housing Return Estimator"
@@ -1870,7 +1870,7 @@
   :dir? false
   :links ["/"]
   :size 12027
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/investing-and-finances/financial-independence.md"
   :title "Financial Independence"
@@ -1880,7 +1880,7 @@
   :dir? false
   :links ["/"]
   :size 830
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/investing-and-finances/housing.md"
   :title "Housing"
@@ -1890,7 +1890,7 @@
   :dir? false
   :links ["/"]
   :size 1600
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/investing-and-finances/influences.md"
   :title "Influences"
@@ -1902,7 +1902,7 @@
           "/"
           "/docs/understanding-the-world/influences.md"]
   :size 1552
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/investing-and-finances/monthly-costs-of-car-ownership.md"
   :title "Monthly Costs Of Car Ownership"
@@ -1912,7 +1912,7 @@
   :dir? false
   :links ["/"]
   :size 560
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/investing-and-finances/personal-portfolio.md"
   :title "Personal Portfolio"
@@ -1922,7 +1922,7 @@
   :dir? false
   :links ["/"]
   :size 2735
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/investing-and-finances/strategies.md"
   :title "Strategies"
@@ -1932,7 +1932,7 @@
   :dir? false
   :links ["/"]
   :size 5408
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/investing-and-finances/taxes.md"
   :title "Taxes"
@@ -1942,20 +1942,21 @@
   :dir? false
   :links ["/"]
   :size 2867
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/lifelogging/2025-update.md"
   :title "2025 Update"
-  :markdown "# 2025 Lifelogging Update\n\nSomeone on Reddit working on developing a new lifelogging product reached out to\nme to help guide their work.\nHere are my responses to their survey on March 28, 2025:\n\n**How did you first discover lifelogging, and how has it changed your day-to-day life?**\n\nI don't remember a specific event, but I slowly started finding myself aware\nthat many events/experiences in my life were very ephemeral.\nThey would happen and then be forgotten; I would have nothing to \"show\" for my\ntime spent.\nOccasionally I would even notice myself repeating behaviors or attempting things\nthat I had tried in the past and never learned from, leading to the same\noutcome.\n\nThis would often manifest when people asked me what I'd been up to lately, and I\nwould struggle to respond coherently.\n\nI found both the ephemerality and forgetting very dissatisfying.\nIt made me feel like my time spent was wasted, or at least not fully utiltized.\n\nI saw lifelogging as a way to make me feel better about this.\n\nGenerally speaking, my lifelogging has worked at achieving this goal.\nNow, when I'm curious, it's a lot easier for me to go back in my logs and\nremember specific events, even those that have long passed.\n\n**Could you describe your current lifelogging workflow? (Please cover: devices used, scenario selection, post-processing, data storage, and long-term use cases.)**\n\nI currently use Mementodb on my phone and computer to log notable events that\nhappen during the day.\nI usually log 1-3 events per day.\nEach log is a line or two of text, with some categorization tags and a general\npositive-negative rating of the event.\nI go back and read this log when I feel like it, and am consistently surprised\nby how well it sparks vivid memories of even long past events.\n\nI use my own tool https://github.com/kovasap/autojournal-on-gas to collect\ninformation from ActivityWatch running on my computers, and a location logging\napp on my phone, to pull information about what I'm up to into my Google\ncalendar to a visual representation of my activity.\nIt also sends me emails summarizing my Mementodb lifelog, and puts the events on\nmy calendar as well.\nThis tools runs automatically in the background via Google Apps Script.\nI have been actively using this tool less in recent times, but occasionally I'll\nlook at the calendar to remember stuff.\nUnfortunately, my computer logging has recently broken and I haven't been\nmotivated to fix it (it's probably a simple issue).\n\nI have a program regularly take screenshots of my computer screen and upload\nthem to Google photos.\nThis is described at\nhttps://github.com/kovasap/dotfiles?tab=readme-ov-file#automatic-screenshooting.\n\nI have a recurring reminder on my phone to take a picture of the real world,\nwhich is then stored in google photos.\n\n[My \"Daily Habits\" page]({{< relref\n\"/docs/lifestyle-optimizations/daily-habits.md\" >}}) should have an up to date\n\"lifelogging\" section that may change in the future with what I actually do.\nI never plan to update this page (it is a snapshot).\n\n**What is the biggest challenge you face in your lifelogging process? How do you currently handle it?**\n\nOne of the biggest challenges I did face was motivating myself to do manual\nlogging.\nMy big breakthrough was to focus on logging the things that made me feel most\npassionate and treat the logging as a conversation with another person (and only\nlog things I felt were worth sharing with that hypothetical person).\nWith this perspective, logging is much easier now.\n\nI tried [rolling my own automatic camera lifelogging system]({{< relref\n\"/docs/lifelogging/camera.md\" >}})), but managing the mass volume of data from\nthe camera was too hard.\nThe Narrative Clip, which I tried afterward, was amazingly better.\nToo bad they shut the service down or I would be still using it.\n\nI was also very motivated for a time to find a way to have a microphone record\nme at all times and translate all the conversations I had to a text \"script\".\nI could never figure out how to technically accomplish this, but would be super\nexcited to try a solution here.\nI feel that lifelogging can have a data volume problem, but a simple text script\nof your day I think would be very easy to read/digest/postprocess compared to\nother forms of lifelogging data.\n\n**Do you have any memorable lifelogging-related stories you’d like to share with us?**\n\nNot specifics, but as stated earlier I am consistently amazed at how vivid the\nmemories my lifelog triggers can be, even of very old events.\n\n**We’ve designed a lifelogging device with the following specs:**\n\n - Weight: ~30g (wearable/clippable)\n - Features: Interval photo/video, audio recording. etc\n - Battery life: ~2 days\n - AI integration: Auto-categorization & video clipping\n\n**Would you be willing to use this product? Do you see any potential shortcomings?**\n\nYes definitely!\n\nI worry that the data generated will need to be stored somewhere, which will\nlead to a monthly subscription fee requirement.\nI would much rather have an option to aggressively cull data, pay a larger\nupfront fee, or manage my own data somehow than need to pay a subscription.\n\n**Which features interest you most, or features you want that we didn't provide?**\n\nAs noted above, if you can do speech-to-text and output a script of each day\nfrom the microphone that would be amazing!\n\n**What's your top concern regarding this product/system? (privacy? storage?)**\n\nManaging data storage.\n\nCategories: [Lifelogging]({{< relref \"/\" >}}?Lifelogging=true)\n\nBacklinks: [Camera]({{< relref \"/docs/lifelogging/camera.md\" >}}), \n"
+  :markdown "# 2025 Lifelogging Update\n\nSomeone on Reddit working on developing a new lifelogging product reached out to\nme to help guide their work.\nHere are my responses to their survey on March 28, 2025:\n\n**How did you first discover lifelogging, and how has it changed your day-to-day life?**\n\nI don't remember a specific event, but I slowly started finding myself aware\nthat many events/experiences in my life were very ephemeral.\nThey would happen and then be forgotten; I would have nothing to \"show\" for my\ntime spent.\nOccasionally I would even notice myself repeating behaviors or attempting things\nthat I had tried in the past and never learned from, leading to the same\noutcome.\n\nThis would often manifest when people asked me what I'd been up to lately, and I\nwould struggle to respond coherently.\n\nI found both the ephemerality and forgetting very dissatisfying.\nIt made me feel like my time spent was wasted, or at least not fully utiltized.\n\nI saw lifelogging as a way to make me feel better about this.\n\nGenerally speaking, my lifelogging has worked at achieving this goal.\nNow, when I'm curious, it's a lot easier for me to go back in my logs and\nremember specific events, even those that have long passed.\n\n**Could you describe your current lifelogging workflow? (Please cover: devices used, scenario selection, post-processing, data storage, and long-term use cases.)**\n\nI currently use Mementodb on my phone and computer to log notable events that\nhappen during the day.\nI usually log 1-3 events per day.\nEach log is a line or two of text, with some categorization tags and a general\npositive-negative rating of the event.\nI go back and read this log when I feel like it, and am consistently surprised\nby how well it sparks vivid memories of even long past events.\n\nI use my own tool https://github.com/kovasap/autojournal-on-gas to collect\ninformation from ActivityWatch running on my computers, and a location logging\napp on my phone, to pull information about what I'm up to into my Google\ncalendar to a visual representation of my activity.\nIt also sends me emails summarizing my Mementodb lifelog, and puts the events on\nmy calendar as well.\nThis tools runs automatically in the background via Google Apps Script.\nI have been actively using this tool less in recent times, but occasionally I'll\nlook at the calendar to remember stuff.\nUnfortunately, my computer logging has recently broken and I haven't been\nmotivated to fix it (it's probably a simple issue).\n\nI have a program regularly take screenshots of my computer screen and upload\nthem to Google photos.\nThis is described at\nhttps://github.com/kovasap/dotfiles?tab=readme-ov-file#automatic-screenshooting.\n\nI have a recurring reminder on my phone to take a picture of the real world,\nwhich is then stored in google photos.\n\n[My \"Daily Habits\" page]({{< relref\n\"/docs/lifestyle-optimizations/daily-habits.md\" >}}) should have an up to date\n\"lifelogging\" section that may change in the future with what I actually do.\nI never plan to update this page (it is a snapshot).\n\n**What is the biggest challenge you face in your lifelogging process? How do you currently handle it?**\n\nOne of the biggest challenges I did face was motivating myself to do manual\nlogging.\nMy big breakthrough was to focus on logging the things that made me feel most\npassionate and treat the logging as a conversation with another person (and only\nlog things I felt were worth sharing with that hypothetical person).\nWith this perspective, logging is much easier now.\n\nI tried [rolling my own automatic camera lifelogging system]({{< relref\n\"/docs/lifelogging/camera.md\" >}})), but managing the mass volume of data from\nthe camera was too hard.\nThe Narrative Clip, which I tried afterward, was amazingly better.\nToo bad they shut the service down or I would be still using it.\n\nI was also very motivated for a time to find a way to have a microphone record\nme at all times and translate all the conversations I had to a text \"script\".\nI could never figure out how to technically accomplish this, but would be super\nexcited to try a solution here.\nI feel that lifelogging can have a data volume problem, but a simple text script\nof your day I think would be very easy to read/digest/postprocess compared to\nother forms of lifelogging data.\n\n**Do you have any memorable lifelogging-related stories you’d like to share with us?**\n\nNot specifics, but as stated earlier I am consistently amazed at how vivid the\nmemories my lifelog triggers can be, even of very old events.\n\n**We’ve designed a lifelogging device with the following specs:**\n\n - Weight: ~30g (wearable/clippable)\n - Features: Interval photo/video, audio recording. etc\n - Battery life: ~2 days\n - AI integration: Auto-categorization & video clipping\n\n**Would you be willing to use this product? Do you see any potential shortcomings?**\n\nYes definitely!\n\nI worry that the data generated will need to be stored somewhere, which will\nlead to a monthly subscription fee requirement.\nI would much rather have an option to aggressively cull data, pay a larger\nupfront fee, or manage my own data somehow than need to pay a subscription.\n\n**Which features interest you most, or features you want that we didn't provide?**\n\nAs noted above, if you can do speech-to-text and output a script of each day\nfrom the microphone that would be amazing!\n\n**What's your top concern regarding this product/system? (privacy? storage?)**\n\nManaging data storage.\n\nCategories: [Lifelogging]({{< relref \"/\" >}}?Lifelogging=true)\n\nBacklinks: [Camera]({{< relref \"/docs/lifelogging/camera.md\" >}}), \n[Daily Habits]({{< relref \"/docs/lifestyle-optimizations/daily-habits.md\" >}}), \n"
   :name "2025-update.md"
   :categories #{"Lifelogging"}
   :dir? false
   :links ["/docs/lifestyle-optimizations/daily-habits.md"
           "/docs/lifelogging/camera.md"
           "/"
-          "/docs/lifelogging/camera.md"]
-  :size 5578
-  :modtime 1749183448
+          "/docs/lifelogging/camera.md"
+          "/docs/lifestyle-optimizations/daily-habits.md"]
+  :size 5659
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/lifelogging/camera.md"
   :title "Camera"
@@ -1967,7 +1968,7 @@
           "/docs/lifelogging/2025-update.md"
           "/docs/lifelogging/what-and-why.md"]
   :size 1256
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/lifelogging/influences.md"
   :title "Influences"
@@ -1977,7 +1978,7 @@
   :dir? false
   :links ["/"]
   :size 663
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/lifelogging/screenshot-logging.md"
   :title "Screenshot Logging"
@@ -1987,7 +1988,7 @@
   :dir? false
   :links ["/"]
   :size 772
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/lifelogging/what-and-why.md"
   :title "What And Why"
@@ -2009,7 +2010,7 @@
           "/docs/lifestyle-optimizations/daily-habits.md"
           "/docs/lifestyle-optimizations/task-tracking.md"]
   :size 9473
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/lifestyle-optimizations/android-apps.md"
   :title "Android Apps"
@@ -2019,7 +2020,7 @@
   :dir? false
   :links ["/"]
   :size 1386
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/lifestyle-optimizations/being-competitive.md"
   :title "Being Competitive"
@@ -2029,7 +2030,7 @@
   :dir? false
   :links ["/"]
   :size 1983
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/lifestyle-optimizations/bike-commuting.md"
   :title "Bike Commuting"
@@ -2039,7 +2040,7 @@
   :dir? false
   :links ["/"]
   :size 8746
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/lifestyle-optimizations/daily-habits.md"
   :title "Daily Habits"
@@ -2057,7 +2058,7 @@
           "/docs/lifelogging/2025-update.md"
           "/docs/lifelogging/what-and-why.md"]
   :size 6238
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/lifestyle-optimizations/daily-physiological-tricks.md"
   :title "Daily Physiological Tricks"
@@ -2073,7 +2074,7 @@
           "/docs/mind/things-to-do-when-unmotivated.md"
           "/docs/understanding-the-world/productive-conversations.md"]
   :size 2832
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/lifestyle-optimizations/elements-of-a-good-day.md"
   :title "Elements Of A Good Day"
@@ -2083,7 +2084,7 @@
   :dir? false
   :links ["/"]
   :size 667
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/lifestyle-optimizations/experiences.md"
   :title "Experiences"
@@ -2097,7 +2098,7 @@
           "/docs/gaming/recommendations.md"
           "/docs/thought-experiments/mind-mapping-concept.md"]
   :size 779
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/lifestyle-optimizations/footwear.md"
   :title "Footwear"
@@ -2109,7 +2110,7 @@
   :links ["/"
           "/"]
   :size 1205
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/lifestyle-optimizations/geographical-maps.md"
   :title "Geographical Maps"
@@ -2119,7 +2120,7 @@
   :dir? false
   :links ["/"]
   :size 287
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/lifestyle-optimizations/hang-drying-clothes.md"
   :title "Hang Drying Clothes"
@@ -2129,7 +2130,7 @@
   :dir? false
   :links ["/"]
   :size 2629
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/lifestyle-optimizations/home-network-and-internet-troubleshooting.md"
   :title "Home Network And Internet Troubleshooting"
@@ -2139,7 +2140,7 @@
   :dir? false
   :links ["/"]
   :size 839
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/lifestyle-optimizations/house-diy.md"
   :title "House Diy"
@@ -2149,7 +2150,7 @@
   :dir? false
   :links ["/"]
   :size 186
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/lifestyle-optimizations/keyboards-and-typing.md"
   :title "Keyboards And Typing"
@@ -2162,7 +2163,7 @@
           "/"
           "/docs/recent-interests.md"]
   :size 8466
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/lifestyle-optimizations/life-advice.md"
   :title "Life Advice"
@@ -2172,7 +2173,7 @@
   :dir? false
   :links ["/"]
   :size 287
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/lifestyle-optimizations/listening-to-books.md"
   :title "Listening To Books"
@@ -2182,7 +2183,7 @@
   :dir? false
   :links ["/"]
   :size 914
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/lifestyle-optimizations/making-friends.md"
   :title "Making Friends"
@@ -2192,7 +2193,17 @@
   :dir? false
   :links ["/"]
   :size 153
-  :modtime 1749183448
+  :modtime 1749183593
+  :mode 420}
+ {:path "content/docs/lifestyle-optimizations/mice.md"
+  :title "Mice"
+  :markdown "# Mice\n\n## Things I've tried\n\n### PICTEK Gaming Mouse\n\nFunctional, but felt too small for my hands.\n\n### Razer DeathAdder Essential\n\nHas a tall center that I find a bit uncomfortable.\n\n### Corsair Sabre RGB\n\nExcellent shape, but not enough buttons!\n\n### Logitech G502 Hero\n\nMore buttons, but some downgrades from the Sabre:\n\n - Mouse wheel is too hard to scroll when not in freewheel mode.\n - Mouse wheel scrolls itself when in freewheel mode!\n - Thumb does not touch table due to design of mouse.\n   Also design feels like it was made for a smaller thumb than mine: a bit\n   uncomfortable.\n - Feels slightly smaller overall, which is not as nice for my larger hands.\n\n### Razer Naga\n\n## To Try Perhaps?\n\n## Corsair DARKSTAR WIRELESS RGB\n\n - Expensive\n - Many complaints about build/technical issues\n\n## Corsair IRONCLAW RGB WIRELESS\n\n - No mouse wheel side buttons\n\n## Steelseries Rival 500 \n\n - Discontinued :(\n"
+  :name "mice.md"
+  :categories #{}
+  :dir? false
+  :links []
+  :size 913
+  :modtime 1751868741
   :mode 420}
  {:path "content/docs/lifestyle-optimizations/my-computer-configuration-dotfiles.md"
   :title "My Computer Configuration Dotfiles"
@@ -2202,7 +2213,7 @@
   :dir? false
   :links ["/"]
   :size 6270
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/lifestyle-optimizations/no-ad-youtube-viewing.md"
   :title "No Ad Youtube Viewing"
@@ -2212,7 +2223,7 @@
   :dir? false
   :links ["/"]
   :size 873
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/lifestyle-optimizations/personal-data-management.md"
   :title "Personal Data Management"
@@ -2222,7 +2233,7 @@
   :dir? false
   :links ["/"]
   :size 709
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/lifestyle-optimizations/phone-case.md"
   :title "Phone Case"
@@ -2232,7 +2243,7 @@
   :dir? false
   :links ["/"]
   :size 1128
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/lifestyle-optimizations/task-tracking.md"
   :title "Task Tracking"
@@ -2244,7 +2255,7 @@
           "/docs/health-and-longevity/sleep.md"
           "/docs/lifelogging/what-and-why.md"]
   :size 2415
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/lifestyle-optimizations/taut-line-hitch.md"
   :title "Taut Line Hitch"
@@ -2254,7 +2265,7 @@
   :dir? false
   :links ["/"]
   :size 558
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/lifestyle-optimizations/this-website.md"
   :title "This Website"
@@ -2264,7 +2275,7 @@
   :dir? false
   :links ["/"]
   :size 1400
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/lifestyle-optimizations/travel.md"
   :title "Travel"
@@ -2276,7 +2287,7 @@
   :links ["/"
           "/"]
   :size 293
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/lifestyle-optimizations/vim-tricks.md"
   :title "Vim Tricks"
@@ -2286,7 +2297,7 @@
   :dir? false
   :links ["/"]
   :size 168
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/lifestyle-optimizations/writing.md"
   :title "Writing"
@@ -2296,7 +2307,7 @@
   :dir? false
   :links ["/"]
   :size 1109
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/mind/absorbing-and-professing.md"
   :title "Absorbing And Professing"
@@ -2306,7 +2317,7 @@
   :dir? false
   :links ["/"]
   :size 7467
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/mind/behavior-change.md"
   :title "Behavior Change"
@@ -2316,7 +2327,7 @@
   :dir? false
   :links ["/"]
   :size 593
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/mind/brain-juice.md"
   :title "Brain Juice"
@@ -2326,7 +2337,7 @@
   :dir? false
   :links ["/"]
   :size 491
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/mind/contentment.md"
   :title "Contentment"
@@ -2336,7 +2347,7 @@
   :dir? false
   :links ["/"]
   :size 1530
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/mind/creativity.md"
   :title "Creativity"
@@ -2353,7 +2364,7 @@
           "/docs/society/utopia.md"
           "/docs/understanding-the-world/copyright-and-ip.md"]
   :size 3419
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/mind/desires-and-deprivation.md"
   :title "Desires And Deprivation"
@@ -2363,7 +2374,7 @@
   :dir? false
   :links ["/"]
   :size 1165
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/mind/education.md"
   :title "Education"
@@ -2373,7 +2384,7 @@
   :dir? false
   :links ["/"]
   :size 6529
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/mind/friendship.md"
   :title "Friendship"
@@ -2383,7 +2394,7 @@
   :dir? false
   :links ["/"]
   :size 317
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/mind/how-to-do-hard-tasks.md"
   :title "How To Do Hard Tasks"
@@ -2395,7 +2406,7 @@
           "/"
           "/docs/mind/motivation.md"]
   :size 5171
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/mind/influences.md"
   :title "Influences"
@@ -2405,7 +2416,7 @@
   :dir? false
   :links ["/"]
   :size 1471
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/mind/intelligence.md"
   :title "Intelligence"
@@ -2415,7 +2426,7 @@
   :dir? false
   :links ["/"]
   :size 1831
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/mind/motivation.md"
   :title "Motivation"
@@ -2431,7 +2442,7 @@
           "/docs/mind/how-to-do-hard-tasks.md"
           "/docs/mind/things-to-do-when-unmotivated.md"]
   :size 12745
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/mind/myers-briggs-personality-typing.md"
   :title "Myers Briggs Personality Typing"
@@ -2441,7 +2452,7 @@
   :dir? false
   :links ["/"]
   :size 1284
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/mind/optimism.md"
   :title "Optimism"
@@ -2453,7 +2464,7 @@
           "/docs/potential-life-missions.md"
           "/docs/society/solving-societal-problems.md"]
   :size 2406
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/mind/perspective.md"
   :title "Perspective"
@@ -2464,7 +2475,7 @@
   :links ["/"
           "/docs/understanding-the-world/what-to-believe.md"]
   :size 4925
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/mind/socializing.md"
   :title "Socializing"
@@ -2474,7 +2485,7 @@
   :dir? false
   :links ["/"]
   :size 1302
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/mind/standard-of-thought.md"
   :title "Standard Of Thought"
@@ -2486,7 +2497,7 @@
   :links ["/"
           "/"]
   :size 2189
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/mind/things-to-do-when-unmotivated.md"
   :title "Things To Do When Unmotivated"
@@ -2499,7 +2510,7 @@
           "/docs/lifestyle-optimizations/daily-physiological-tricks.md"
           "/docs/mind/motivation.md"]
   :size 2834
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/mind/working-with-others.md"
   :title "Working With Others"
@@ -2509,7 +2520,7 @@
   :dir? false
   :links ["/"]
   :size 7487
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/morality/altruism.md"
   :title "Altruism"
@@ -2519,7 +2530,7 @@
   :dir? false
   :links ["/"]
   :size 149
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/morality/cancelling-high-contributors.md"
   :title "Cancelling High Contributors"
@@ -2529,7 +2540,7 @@
   :dir? false
   :links ["/"]
   :size 1225
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/morality/efficient-living-and-morality.md"
   :title "Efficient Living And Morality"
@@ -2539,7 +2550,7 @@
   :dir? false
   :links ["/"]
   :size 6192
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/morality/future.md"
   :title "Future"
@@ -2549,7 +2560,7 @@
   :dir? false
   :links ["/"]
   :size 231
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/morality/right-to-risk.md"
   :title "Right To Risk"
@@ -2559,7 +2570,7 @@
   :dir? false
   :links ["/"]
   :size 1524
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/morality/self-sacrificers.md"
   :title "Self Sacrificers"
@@ -2569,7 +2580,7 @@
   :dir? false
   :links ["/"]
   :size 514
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/music/my-musical-interest-history.md"
   :title "My Musical Interest History"
@@ -2579,7 +2590,7 @@
   :dir? false
   :links ["/"]
   :size 1703
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/society/co-ops.md"
   :title "Co Ops"
@@ -2589,7 +2600,7 @@
   :dir? false
   :links ["/"]
   :size 4682
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/society/communal-living.md"
   :title "Communal Living"
@@ -2601,7 +2612,7 @@
           "/"
           "/docs/books/everyday-utopia.md"]
   :size 542
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/society/doom-and-how-to-avoid-it.md"
   :title "Doom And How To Avoid It"
@@ -2611,7 +2622,7 @@
   :dir? false
   :links ["/"]
   :size 2060
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/society/freedom-inequality-meritocracy.md"
   :title "Freedom Inequality Meritocracy"
@@ -2621,7 +2632,7 @@
   :dir? false
   :links ["/"]
   :size 2821
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/society/gerrymandering.md"
   :title "Gerrymandering"
@@ -2633,7 +2644,7 @@
           "/"
           "/docs/books/The-Black-Swan.md"]
   :size 4003
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/society/individuals-vs-groups.md"
   :title "Individuals Vs Groups"
@@ -2643,7 +2654,7 @@
   :dir? false
   :links ["/"]
   :size 658
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/society/livelihood-traps.md"
   :title "Livelihood Traps"
@@ -2655,7 +2666,7 @@
   :links ["/"
           "/"]
   :size 1554
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/society/multi-job-normalization.md"
   :title "Multi Job Normalization"
@@ -2665,7 +2676,7 @@
   :dir? false
   :links ["/"]
   :size 744
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/society/politics.md"
   :title "Politics"
@@ -2675,7 +2686,7 @@
   :dir? false
   :links ["/"]
   :size 1431
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/society/shelter-in-the-storm.md"
   :title "Shelter In The Storm"
@@ -2685,7 +2696,7 @@
   :dir? false
   :links ["/"]
   :size 430
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/society/solving-societal-problems.md"
   :title "Solving Societal Problems"
@@ -2697,7 +2708,7 @@
           "/"
           "/docs/mind/optimism.md"]
   :size 9673
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/society/utopia.md"
   :title "Utopia"
@@ -2716,7 +2727,7 @@
           "/docs/society/utopian-idea-management.md"
           "/docs/understanding-the-world/copyright-and-ip.md"]
   :size 10449
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/society/utopian-idea-management.md"
   :title "Utopian Idea Management"
@@ -2728,7 +2739,7 @@
           "/"
           "/docs/society/utopia.md"]
   :size 2353
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/software-dev/actionable-tips.md"
   :title "Actionable Tips"
@@ -2738,7 +2749,7 @@
   :dir? false
   :links ["/"]
   :size 442
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/software-dev/auto-input-data-collection.md"
   :title "Auto Input Data Collection"
@@ -2748,7 +2759,7 @@
   :dir? false
   :links ["/"]
   :size 11598
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/software-dev/choosing-a-language.md"
   :title "Choosing A Language"
@@ -2758,7 +2769,7 @@
   :dir? false
   :links ["/"]
   :size 1247
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/software-dev/complexity.md"
   :title "Complexity"
@@ -2768,7 +2779,7 @@
   :dir? false
   :links ["/"]
   :size 1246
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/software-dev/design.md"
   :title "Design"
@@ -2778,7 +2789,7 @@
   :dir? false
   :links ["/"]
   :size 2100
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/software-dev/functional-programming.md"
   :title "Functional Programming"
@@ -2788,7 +2799,7 @@
   :dir? false
   :links ["/"]
   :size 1528
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/software-dev/getting-into-it.md"
   :title "Getting Into It"
@@ -2798,7 +2809,7 @@
   :dir? false
   :links ["/"]
   :size 1273
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/software-dev/impact.md"
   :title "Impact"
@@ -2808,7 +2819,7 @@
   :dir? false
   :links ["/"]
   :size 198
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/software-dev/influences.md"
   :title "Influences"
@@ -2818,7 +2829,7 @@
   :dir? false
   :links ["/"]
   :size 1608
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/software-dev/patterned-code.md"
   :title "Patterned Code"
@@ -2828,7 +2839,7 @@
   :dir? false
   :links ["/"]
   :size 338
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/thought-experiments/artificial-intelligence.md"
   :title "Artificial Intelligence"
@@ -2838,7 +2849,7 @@
   :dir? false
   :links ["/"]
   :size 2408
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/thought-experiments/life-quests.md"
   :title "Life Quests"
@@ -2848,7 +2859,7 @@
   :dir? false
   :links ["/"]
   :size 396
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/thought-experiments/mind-mapping-concept.md"
   :title "Mind Mapping Concept"
@@ -2865,7 +2876,7 @@
           "/"
           "/docs/lifestyle-optimizations/experiences.md"]
   :size 1915
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/thought-experiments/random-ideas.md"
   :title "Random Ideas"
@@ -2875,7 +2886,7 @@
   :dir? false
   :links ["/"]
   :size 9269
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/thought-experiments/two-glasses.md"
   :title "Two Glasses"
@@ -2885,7 +2896,7 @@
   :dir? false
   :links ["/"]
   :size 1752
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/understanding-the-world/applying-theories.md"
   :title "Applying Theories"
@@ -2895,7 +2906,7 @@
   :dir? false
   :links ["/"]
   :size 4672
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/understanding-the-world/copyright-and-ip.md"
   :title "Copyright And Ip"
@@ -2909,7 +2920,7 @@
           "/docs/mind/creativity.md"
           "/docs/society/utopia.md"]
   :size 850
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/understanding-the-world/great-explanations.md"
   :title "Great Explanations"
@@ -2919,7 +2930,7 @@
   :dir? false
   :links ["/"]
   :size 302
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/understanding-the-world/influences.md"
   :title "Influences"
@@ -2934,7 +2945,7 @@
           "/docs/investing-and-finances/influences.md"
           "/docs/understanding-the-world/influences.md"]
   :size 1099
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/understanding-the-world/judging-decisions.md"
   :title "Judging Decisions"
@@ -2944,7 +2955,7 @@
   :dir? false
   :links ["/"]
   :size 2328
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/understanding-the-world/notetaking.md"
   :title "Notetaking"
@@ -2954,7 +2965,7 @@
   :dir? false
   :links ["/"]
   :size 1065
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/understanding-the-world/physics.md"
   :title "Physics"
@@ -2964,7 +2975,7 @@
   :dir? false
   :links ["/"]
   :size 415
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/understanding-the-world/predicting-the-future.md"
   :title "Predicting The Future"
@@ -2976,7 +2987,7 @@
           "/"
           "/docs/understanding-the-world/working-with-complex-systems.md"]
   :size 551
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/understanding-the-world/productive-conversations.md"
   :title "Productive Conversations"
@@ -2987,7 +2998,7 @@
   :links ["/"
           "/docs/lifestyle-optimizations/daily-physiological-tricks.md"]
   :size 886
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/understanding-the-world/what-to-believe.md"
   :title "What To Believe"
@@ -3010,7 +3021,7 @@
           "/docs/mind/perspective.md"
           "/docs/understanding-the-world/working-with-complex-systems.md"]
   :size 15523
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/understanding-the-world/working-with-complex-systems.md"
   :title "Working With Complex Systems"
@@ -3022,7 +3033,7 @@
           "/docs/understanding-the-world/predicting-the-future.md"
           "/docs/understanding-the-world/what-to-believe.md"]
   :size 966
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/videos/Watching-GothamChess.md"
   :title "Watching Gothamchess"
@@ -3038,7 +3049,7 @@
           "/"
           "/docs/feelings.md"]
   :size 464
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/videos/Watching-Inside-Out.md"
   :title "Watching Inside Out"
@@ -3052,7 +3063,7 @@
           "/"
           "/"]
   :size 513
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/videos/Watching-Spiderman:-Into-the-Spider-Verse.md"
   :title "Watching Spiderman: Into The Spider Verse"
@@ -3066,7 +3077,7 @@
           "/"
           "/"]
   :size 331
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/videos/Watching-The-Matrix.md"
   :title "Watching The Matrix"
@@ -3080,7 +3091,7 @@
           "/"
           "/"]
   :size 597
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/videos/Watching-educational-YouTube.md"
   :title "Watching Educational Youtube"
@@ -3094,7 +3105,7 @@
           "/"
           "/docs/feelings.md"]
   :size 494
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/visual-art/generative-art.md"
   :title "Generative Art"
@@ -3106,7 +3117,7 @@
           "/"
           "/docs/visual-art/inspiration-and-resources.md"]
   :size 1654
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/visual-art/inspiration-and-resources.md"
   :title "Inspiration And Resources"
@@ -3117,7 +3128,7 @@
   :links ["/"
           "/docs/visual-art/generative-art.md"]
   :size 869
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}
  {:path "content/docs/visual-art/judging-art.md"
   :title "Judging Art"
@@ -3127,5 +3138,5 @@
   :dir? false
   :links ["/"]
   :size 597
-  :modtime 1749183448
+  :modtime 1749183593
   :mode 420}]
