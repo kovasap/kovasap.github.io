@@ -1,0 +1,17 @@
+ol ol { list-style-type: lower-alpha; }
+
+ol ol ol { list-style-type: lower-roman; }
+
+#graph {
+  position: absolute;
+  top: 0;
+  /* This is the size of the sidebar navigation menu.
+   * TODO reference that element's size directly */
+  left: -24rem;
+  z-index: -100;
+}
+
+.book-menu .book-menu-content {
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.0);
+}

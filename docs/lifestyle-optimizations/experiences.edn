@@ -1,0 +1,359 @@
+[["Comparing prices"
+  "When buying a good or service, comparing many alternatives to find the
+  best price. For example, looking at the price per pound of various grocery
+  items and picking the one with the lowest price."
+  ["habit"]
+  [["Financial Control"
+    "A feeling that you understand and are in control of your finances."
+    ["positive"]]
+   ["Scanning through possibilities"
+    "Constantly examining many options and determining the best one by some
+    usually simple criteria."
+    ["engaging"]]]]
+
+ ["[Bike Commuting](https://kovasap.github.io/docs/lifestyle-optimizations/bike-commuting/)"
+  "Using a bike to fulfill daily transportation needs. Best with combined with
+  audiobooks or podcasts."
+  ["lifestyle" "exercise"]
+  [["Relaxing"
+    "Feeling comfortable and liable to zone out."
+    ["positive"]]]]
+
+ ["Lead Climbing in a Gym" 
+  "Clipping quickdraws on the way up a climbing route in a gym."
+  ["climbing" "exercise" "⭐top10" "social"]
+  [["Thrill of Committment"
+    "Doing something with a penalty for failure that you can't turn back from."]
+   ["Triumph over Exposure"
+    "Putting yourself in a stressful situation and showing yourself that you
+    can survive in it. I think this is a feeling Marc-André Leclerc was chasing
+    in the movie 'The Alpinist'."]
+   ["Having a clear goal"
+    "The feeling of knowing exactly what you need to do."]
+   ["Being in the Zone"]]]
+
+ ["[Backpack Hero](https://thejaspel.itch.io/backpack-hero)"
+  "A cool rougelike game about arranging a grid inventory optimally."
+  ["game" "turn-based"]
+  []]
+
+ ["Redditing"
+  "Browsing reddit. Some good subreddits include r/AnimalsBeingDerps and
+  r/DataIsBeautiful. Warning: can be a big time sink!"
+  ["habit" "consuming content"]
+  [["Easy to do"
+    "Requires little to no difficult decision making, so is therefore easy to
+    pick up and do. This can lead to impulsively doing this thing too much."]
+   ["Joy of sharing"
+    "The feeling you get when you find something cool and share it with someone
+    else."]
+   ["Focus fragmenting"
+    "The feeling of constantly having your focus redirected, preventing you
+    from going deeper on any one particular thing."]
+   ["Discovery of hidden gems"
+    "Most of the time this activity is monotonous and/or forgettable, but
+    occasionally it will yield an extremely memorable or life-changing
+    experience."]]]
+
+ ["Browsing Hacker News"
+  "Like browsing reddit."
+  ["habit" "consuming content"]
+  [["Easy to do"]
+   ["Discovery of hidden gems"]]]
+
+ ["Watching educational YouTube"
+  "This includes watching videos from channels like
+  [Veritasium](https://www.youtube.com/user/1veritasium), 
+  [CGP Grey](https://www.youtube.com/user/CGPGrey),
+  and [Kurzgesagt](https://www.youtube.com/user/Kurzgesagt)."
+  ["consuming content"]
+  [["Wonder"
+    "A sense of wonder at the beauty of the world."]]]
+
+ ["Watching GothamChess"
+  "Watching the GothamChess YouTube channel."
+  ["consuming content"]
+  [["Easy to do"]
+   ["False Understanding"
+    "A state of mind where something seems to make sense emotionally, but if
+    you were to try to explain it in your own words or otherwise apply the
+    knowledge you would fail."]
+   ["Relaxing"]]]
+
+ ["Watching Spiderman: Into the Spider-Verse"
+  "Great story, cool themes about family and parenting.  Also about self
+  discovery. Quintessential all-ages kind of film."
+  ["movie" "consuming content"]
+  []]
+
+ ["Watching Inside Out"
+  "I loved the modelling of the mind as a collection of different emotions
+  competing for control.  Really made me get invested with the main character,
+  and made me cry when things started going poorly for her at one point.
+  Discussing this movie might be a good way to connect with people that
+  are otherwise fairly different.  
+  "
+  ["movie" "consuming content"]
+  []]
+
+ ["Watching The Matrix"
+  "Watched with my Dad after being told that it would be very hard to understand.
+  Turned out that wasn't true for either of us.
+
+  Excellent sci-fi, where sci-fi is defined as a medium that explores how new
+  plausible technologies would affect the world.  Action/style was very compelling
+  to.  Favorite movie for many years, perhaps even still in some ways.
+
+  I think the sequels are pretty good, unlike many others."
+  ["movie" "consuming content"]
+  []]
+
+ ["Drafting Magic: The Gathering"
+  "My first experience was 'that complex card game that older kids played' when
+  I was very young.  Faintly remember that I specifically thought the lands were
+  really cool, have specific memory of the plains.  
+
+  Started playing first from a friend's cube (a collection of cards you can draft
+  decks from and then play each other in a tournament style).  Was pretty
+  intense/overwhelming at first, but in a good way.  
+
+  Since have played a bunch on MTG: Arena, a very polished computer interface
+  to the game.
+  "
+  ["game" "turn-based" "competitive"]
+  []]
+
+ ["Wavelength or [Longwave](https://longwave.web.app/)"
+  "An icebreaker-type game that revolves around guessing people's opinions."
+  ["game" "social"]
+  []]
+
+ ["[Codenames](https://codenames.game/)"
+  "One variant worth trying is trying to play with pictures instead of words on
+  the main board. A stand-alone game (Codenames Pictures) exists for this, but 
+  it's also fun to try using custom pictures. For instance, the dream cards
+  from Mysterium led to a pretty fun game. Note that
+  [this site](https://codenames-pictures.dport.me/) looks like it allows you to
+  do this in a virtual setting."
+  ["game" "social"]
+  []]
+
+ ["Chess"
+  "I've found lichess.org is a great place to play."
+  ["game" "turn-based" "competitive"]
+  []]
+
+ ["Yo-Yoing"
+  "Playing with a yo-yo, and learning new tricks for it."
+  []
+  [["Skill clicking into place"
+    "The feeling when something that you thought was impossible, or otherwise
+    had no idea how to even approach doing, you can suddenly do effortlessly."]]]
+
+ ["Beat Saber"
+  "Playing the VR rhythm game beat saber."
+  []
+  [["Skill clicking into place"]
+   ["Being in the Zone"
+    "Being in a state of mind where all your attention must be focused on a
+    single thing to avoid failure, leading to an emptiness of other thoughts."]]]
+
+ ["Making Small Web Apps in ClojureScript with Reagent"
+  "See title :)"
+  ["programming"]
+  [["Pride of Construction"
+    "Feeling proud or even in awe of something you made that is now a (semi)
+    permenant thing in the world. "
+    ["positive"]]
+   ["Chaos to Solution"
+    "The feeling when you have no idea how to fix something but suddenly a
+    solution appears out of nowhere. You may or may not understand how the
+    solution works or where it came from."]]]
+
+ ["Apex Legends"
+  "A fast-paced first person shooter video game. Has extremely good art
+  direction, smooth gameplay, and balanced mechanics."
+  ["game" "multiplayer" "competitive" "real-time"]
+  [["Constructive regret"
+    "The feeling when you step out of a test and think 'I knew that answer!!'
+    in a way that makes you want to walk right back into the testing hall and
+    fix your mistake."]]]
+
+ ["[Wordle](https://www.nytimes.com/games/wordle/index.html)"
+  "A fun word game."
+  ["game" "social" "puzzle"]
+  [["Scanning through possibilities"]]]
+
+ ["[Quordle](https://www.quordle.com/#/)"
+  "A more complex form of wordle, with a higher frequency of [BS words](https://www.reddit.com/r/Quordle/comments/t27irp/unfair_word_today/)."
+  ["game" "social" "puzzle"]
+  [["Scanning through possibilities"]]]
+
+ ["[DAT Creativity](https://www.datcreativity.com/)"
+  "A test about tring to come up with the most different words possible."
+  ["game"]
+  [["Scanning through possibilities"]]]
+
+ ["[Semantle](https://semantle.novalis.org/)"
+  "Similar to DAT Creativity, but a daily game like Wordle."
+  ["game" "social" "puzzle"]
+  [["Scanning through possibilities"]]]
+
+ ["[Puzzgrid](https://puzzgrid.com/best.php)"
+  "A game about matching ambiguous word meanings."
+  ["game" "social" "puzzle"]
+  []]
+
+ ["[The Witness](https://store.steampowered.com/app/210970/The_Witness/)"
+  "3-D puzzle game in a beautiful world"
+  ["game" "puzzle"]
+  []]
+
+ ["[Opus Magnum](https://store.steampowered.com/app/558990/Opus_Magnum/)"
+  "Game about programming machines to build molecules."
+  ["game" "puzzle" "programming"]
+  []]
+
+ ["[Fire Emblem 7 & 8](https://en.wikipedia.org/wiki/Fire_Emblem_(video_game%29)"
+  "I first played this game on the Game Boy Advance when I was in middle school.
+For some reason the art style and especially animation really spoke to me, and
+I found the gameplay loop very compelling.  Fair warning though that this game
+may be on this list mostly because of nostalgia.
+
+One aspect of this game that I really enjoy is the process of building your
+party over time and making sure you train the right characters.  It's very
+satisfying to help a weaker character finish enemies to get experience with the
+goal of making them a core part of your team composition later on.  This is
+often fairly difficult - since the characters are weaker after all - which only
+adds to the satisfaction when you pull it off.
+
+Another cool mechanic in FE is building supports between characters.  When two
+characters fight side by side they will over time build a relationship, which
+leads to little dialogue bites.  It's satisfying to discover these as you play
+through the game.
+
+Both training weaker units and building supports are examples of
+'meta-challenges' in FE; they aren't required to finish the games, but give you
+self-directed and sometimes difficult optional objectives during the battles.
+Because these challenges are self directed they make me feel like I am
+expressing myself more as a player, which makes the game feel more interesting
+than if I was just solving the same battle puzzles as everyone else."
+  ["game" "solitary" "turn-based" "story" "⭐top10"]
+  []]
+
+ ["[XCOM 2 + War of the Chosen](https://en.wikipedia.org/wiki/XCOM_2)"
+  "Very similar appeal to Fire Emblem. Less story focused and more focused on 
+  character customization."
+  ["game" "solitary" "turn-based" "⭐top10"]
+  []]
+
+ ["[Battle Brothers](http://battlebrothersgame.com/)"
+  "Good tactical RPG set in a low fantasy world.
+
+  Lots of character customization via different weapon types, and stat/perk
+  assignment on level up. Not to mention the starting stats given to each
+  character. Unfortunately, the randomness in this game will lead to characters
+  dying, so if you want to preserve specific characters get ready to save and
+  load a lot :).
+  
+  This game is pretty hard and doesn't necessarily give you direct feedback as
+  to why you are failing. The combat uses randomness pretty heavily to
+  determine hit/miss/crit (head hit) chance, which means that the consequences
+  of your actions are 'fuzzed' - good decisions will sometimes be punished, and
+  bad ones you will sometimes get away with. This means that it's tricky to
+  personally track if your strategy is working without a decent time investment
+  for each strategy you are trying."
+  ["game" "solitary" "turn-based"]
+  [["Reactive Randomness Stress"
+    "Committing a decision and then bracing yourself for bad things to happen
+    based on some probability which you cannot stop (since you have already
+    committed)."]]]
+
+ ["[Fell Seal - Arbiter's Mark](https://www.fellseal.com/)"
+  "Really well designed game with a good story, deep character customization,
+  and difficult encounters. This game does a great job of letting you customize
+  your character abilities with a lot of depth, but still with enough
+  constraints to not make every character feel the same. Then, it makes the
+  encounters in the main story difficult, but allows you to level up your
+  characters in 'patrol' side-encounters in case the way you built your
+  characters was not optimal for the main story. This is an awesome way to
+  reward players who do a good job with their builds (they have to grind less)
+  without forcing players into said optimal builds."
+  ["game" "solitary" "turn-based" "⭐top10"]
+  []]
+
+ ["[Overwatch](https://en.wikipedia.org/wiki/Overwatch_(video_game%29)"
+  ""
+  ["game" "competitive"]
+  []]
+
+ ["[Darkest Dungeon](https://en.wikipedia.org/wiki/Darkest_Dungeon)"
+  "Amazing atmosphere and fun character building."
+  ["game" "solitary" "turn-based" "⭐top10"]
+  []]
+
+ ["Bananagrams"
+  "One fun variant is to open a book in text format with some program that can 
+  search text and make it so that you can only use words that exist in that
+  book."
+  ["game" "social"]
+  []]
+
+ ["[Islanders](https://en.wikipedia.org/wiki/Islanders_(video_game%29)"
+  "Cool turn based city builder made with a beautiful art style."
+  ["game" "solitary" "turn-based" "puzzle"]
+  [["Scanning through possibilities"]]]
+
+ ["[Bad North](https://www.badnorth.com/)"
+  ""
+  ["game" "solitary"]]
+
+ ["Rainbow 6: Siege"
+  "Very intense and engaging game that requires a high level of focus.  Every
+movement made in this game produces audible sound, meaning that movement gives
+away your position and makes you vulnerable.  However, like in most shooters,
+if you proactively move to shoot at a particular point, you will still have an
+advantage against someone reacting to your movement.  This leads to a dynamic
+where both you and your opponent are trying to determine the location of the
+other without giving away their own location - once one person knows with
+certainty they can simply move to attack and will have a strong advantage.
+
+This dynamic is framed by the asymmetric nature of all game modes, which have
+attacking and defending sides.  Attackers must move to engage the defenders,
+meaning that they start out disadvantaged (they are moving and making noise
+while defenders are not).  To counter this, attackers all have remote control
+drones that make noise when they move around.  These are easily destroyed, but
+can be used to determine the locations of defenders, giving attackers
+advantage."
+   ["game" "competitive"]
+   []]
+
+ ["CoD: MW2"
+  "This game was trash but at least it let me [make a YouTube video with 160k views](https://www.youtube.com/watch?v=fx1vtMZCFvI&ab_channel=s1lentProtector)."
+  ["game" "competitive"]
+  []]
+
+ ["[Iron Danger](https://store.steampowered.com/app/899310/Iron_Danger/)"
+  "Really cool strategy game with a cool story. Would love it if they made a
+  sequel and/or expanded it into a bigger RPG with more customization."
+  ["game" "story" "solitary"]
+  []]
+
+ ["[Slipways](https://slipways.net/)"
+  "A video game about colonizing planets and connecting them with trade
+  routes."
+  ["game" "solitary" "turn-based" "puzzle"]
+  [["Scanning through possibilities"]]]
+
+ ["[Age of Darkness: Final Stand](https://www.ageofdarkness.com/)"
+  "A real-time-with-pause strategy game with excellent art. "
+  ["game" "solitary"]
+  [["Fitting puzzle pieces together"
+    "The feeling of finding the right place for a part of something you are
+    building."]]]
+
+ ["[Three Worlds
+    Collide](https://www.lesswrong.com/posts/HawFh7RvDM4RyoJ2d/three-worlds-collide-0-8)"
+  "Science fiction with a philosophical twist."
+  ["story" "philosophy"]
+  [["Thought Provoking"]]]]

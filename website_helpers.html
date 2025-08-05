@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="/css/website_helpers.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="app">
+      <h3>ClojureScript has not been compiled!</h3>
+      <p>please run <b>npx shadow-cljs watch app</b> in order to start the compiler!</p>
+    </div>
+    <div style="margin:10cm;">--------------------</div>
+    <div id="aggregator"></div>
+    <script src="/js/website_helpers.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      website_helpers.core.render_to_element(
+          website_helpers.filterable_items.make_aggregated_items(
+              website_helpers.core.read_edn_string("\n\n[[&#34;Comparing prices&#34;\n  &#34;When buying a good or service, comparing many alternatives to find the\n  best price. For example, looking at the price per pound of various grocery\n  items and picking the one with the lowest price.&#34;\n  [&#34;habit&#34;]\n  [[&#34;Saves some money&#34;\n    &#34;&#34;\n    [&#34;positive&#34;]]\n   [&#34;Optimization problem&#34;\n    &#34;Involves constantly scanning many options and determining the best one.&#34;\n    [&#34;engaging&#34;]]]]\n [&#34;Slipways&#34;\n  &#34;A video game about colonizing planets and connecting them with trade\n  routes.&#34;\n  [&#34;game&#34; &#34;solitary&#34;]\n  [[&#34;Optimization problem&#34;]]]]\n\n\n")),
+          "aggregator");
+      website_helpers.core.init_BANG_();
+    </script>
+  </body>
+</html>

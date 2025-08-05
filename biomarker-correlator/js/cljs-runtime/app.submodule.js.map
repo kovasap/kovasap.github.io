@@ -1,0 +1,1 @@
+{"version":3,"sources":["app/submodule.cljs"],"mappings":";AAEA,qBAAA,rBAAKA","names":["app.submodule/data"],"sourcesContent":["(ns app.submodule)\n\n(def data [])\n"]}

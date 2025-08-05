@@ -1,0 +1,1 @@
+{:main sketches.all, :output-to "target/public/cljs-out/all-main.js", :output-dir "target/public/cljs-out/all", :asset-path "/cljs-out/all", :aot-cache false, :preloads [devtools.preload]}

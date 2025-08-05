@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="https://kovasap.github.io/404.html">
+  <meta property="og:site_name" content="Things to Remember">
+  <meta property="og:title" content="404 Page not found">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+<title>404 Page not found | Things to Remember</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.5e006349c2660274f41c71ad8d3e3a03716809442b4e74298c51fe82f89b166c.css" integrity="sha256-XgBjScJmAnT0HHGtjT46A3FoCUQrTnQpjFH&#43;gvibFmw=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.ac9bac3e685aff93e84ffcbf6f1cfbbb8b83f3d10d28b80a8c69723fec9c044e.js" integrity="sha256-rJusPmha/5PoT/y/bxz7u4uD89ENKLgKjGlyP&#43;ycBE4=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+    <link href="/css/website_helpers.css" rel="stylesheet" type="text/css">
+<link href="/css/style.css" rel="stylesheet" type="text/css">
+<script src="/js/website_helpers.js" type="text/javascript"></script>
+
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1T1KY2E7ZN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1T1KY2E7ZN');
+</script>
+
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4538205428063440"
+     crossorigin="anonymous"></script>
+
+<script>
+const urlParams = new URLSearchParams(window.location.search);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setTimeout(
+
+
+    function() {  
+    
+    if (urlParams.get('embed') == '1') {
+        ['book-menu', 'book-toc', 'book-header'].forEach(
+            cls => {
+                Array.from(document.getElementsByClassName(cls)).forEach(
+                    (element, index, array) => {
+                        element.style.display = "none";
+                });
+            });
+    }
+    
+    
+    let iframes = {};
+    const getEmbeddedPage = (href) => {
+        if (href in iframes) {
+            return iframes[href];
+        } else {
+            const embedded_page = document.createElement("iframe");
+            document.body.appendChild(embedded_page);
+            embedded_page.src = href + "?embed=1";
+            embedded_page.style.position = "fixed";
+            embedded_page.style.display = "none";
+            embedded_page.style.width = "700px";
+            embedded_page.style.height = "1000px";
+            embedded_page.style.backgroundColor = "rgba(255, 255, 255, 1.0)";
+            embedded_page.style.zIndex = "10";
+            iframes[href] = embedded_page;
+            return embedded_page;
+        }
+    }
+    var all_links = [];
+    all_links = Array.prototype.concat.apply(
+        all_links,
+        document.getElementsByClassName("book-page").item(0).getElementsByTagName('a'));
+    all_links = Array.prototype.concat.apply(
+        all_links,
+        document.getElementsByClassName("book-menu").item(0)
+        .getElementsByTagName('a'));
+    var internal_links = all_links.filter(
+        (element, index, array) => {
+            return element.href.includes('/docs/')
+                && (window.location.pathname == "/" ||
+                    !element.href.includes(window.location.pathname))
+                && element.innerText.length > 0;
+        });
+    
+    
+    internal_links.forEach(
+        (element, index, array) => {
+            const showEmbeddedPage = (e) => {
+                const embedded_page = getEmbeddedPage(element.href);
+                embedded_page.style.left = 40 + e.clientX  + "px";
+                embedded_page.style.top = "150px";
+                embedded_page.style.display = "block";
+            }
+            const hideEmbeddedPage = (e) => {
+                const embedded_page = getEmbeddedPage(element.href);
+                embedded_page.style.display = "none";
+            }
+            if (element.href.includes('/docs/') &&
+                    (window.location.pathname == "/" ||
+                        !element.href.includes(window.location.pathname))){
+                element.onmouseover = function(e) {
+                    console.log(element.innerText);
+                    var delay = setTimeout(function(){showEmbeddedPage(e);},
+                        200);
+                    element.onmouseout = function(){clearTimeout(delay);
+                        hideEmbeddedPage(e);}
+                };
+                element.onmouseout = hideEmbeddedPage;
+            }
+        });
+},
+3500);
+</script>
+
+
+
+
+
+    <style>
+      .not-found {
+        text-align: center;
+      }
+      .not-found h1 {
+        margin: .25em 0 0 0;
+        opacity: .25;
+        font-size: 40vmin;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main class="flex justify-center not-found">
+      <div>
+        <h1>404</h1>
+        <h2>Page Not Found</h2>
+        <h3>
+          <a href="/">Things to Remember</a>
+        </h3>
+      </div>
+    </main>
+
+    
+  </body>
+
+  </html>
