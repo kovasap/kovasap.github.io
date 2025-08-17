@@ -9,9 +9,9 @@
   :dir? false
   :links []
   :size 67
-  :modtime 1755394632
+  :modtime 1755409384
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{}
   :path "content/docs/feelings.md"
   :backlinks #{"content/docs/games/Comparing-prices.md"
@@ -43,9 +43,9 @@
   :dir? false
   :links []
   :size 939
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{}
   :path "content/docs/manifesto.md"
   :backlinks nil
@@ -65,9 +65,9 @@
           "/docs/books/why-greatness-cannot-be-planned.md"
           "/docs/mind/motivation.md"]
   :size 11003
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{}
   :path "content/docs/potential-life-missions.md"
   :backlinks nil
@@ -81,9 +81,9 @@
           "/docs/mind/optimism.md"
           "/docs/books/why-greatness-cannot-be-planned.md"]
   :size 3835
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{}
   :path "content/docs/recent-interests.md"
   :backlinks nil
@@ -97,9 +97,9 @@
           "/docs/games/Counter-Strike.md"
           "/docs/health-and-longevity/alt-health.md"]
   :size 4174
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Books"}
   :path "content/docs/books/The-Black-Swan.md"
   :backlinks #{"content/docs/society/gerrymandering.md"}
@@ -111,9 +111,9 @@
   :dir? false
   :links []
   :size 213
-  :modtime 1755394632
+  :modtime 1755409384
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Books"}
   :path "content/docs/books/The-Enigma-of-Reason.md"
   :backlinks #{"content/docs/understanding-the-world/what-to-believe.md"}
@@ -125,9 +125,9 @@
   :dir? false
   :links []
   :size 184
-  :modtime 1755394632
+  :modtime 1755409384
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Books"}
   :path "content/docs/books/What's-Our-Problem?.md"
   :backlinks nil
@@ -139,9 +139,9 @@
   :dir? false
   :links []
   :size 76
-  :modtime 1755394632
+  :modtime 1755409384
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Books"}
   :path "content/docs/books/antifragile.md"
   :backlinks #{"content/docs/society/utopia.md"}
@@ -154,9 +154,9 @@
   :dir? false
   :links []
   :size 1391
-  :modtime 1755394632
+  :modtime 1755409384
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Books"}
   :path "content/docs/books/everyday-utopia.md"
   :backlinks #{"content/docs/society/communal-living.md"}
@@ -168,9 +168,9 @@
   :dir? false
   :links []
   :size 208
-  :modtime 1755394632
+  :modtime 1755409384
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Books"}
   :path "content/docs/books/fooled-by-randomness.md"
   :backlinks nil
@@ -183,9 +183,9 @@
   :dir? false
   :links ["/docs/books/the-open-society-and-its-enemies.md"]
   :size 314
-  :modtime 1755394632
+  :modtime 1755409384
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Books"}
   :path "content/docs/books/the-beginning-of-infinity.md"
   :backlinks nil
@@ -198,9 +198,9 @@
   :dir? false
   :links []
   :size 494
-  :modtime 1755394632
+  :modtime 1755409384
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Books"}
   :path "content/docs/books/the-open-society-and-its-enemies.md"
   :backlinks #{"content/docs/books/fooled-by-randomness.md"}
@@ -213,9 +213,9 @@
   :dir? false
   :links []
   :size 188
-  :modtime 1755394632
+  :modtime 1755409384
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Books"}
   :path "content/docs/books/why-greatness-cannot-be-planned.md"
   :backlinks #{"content/docs/manifesto.md"
@@ -232,9 +232,9 @@
   :dir? false
   :links []
   :size 374
-  :modtime 1755394632
+  :modtime 1755409384
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Books"}
   :path "content/docs/books/zero-to-one.md"
   :backlinks #{"content/docs/understanding-the-world/influences.md"}
@@ -247,9 +247,9 @@
   :dir? false
   :links []
   :size 896
-  :modtime 1755394632
+  :modtime 1755409384
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Climbing"}
   :path "content/docs/climbing/breaking-point.md"
   :backlinks nil
@@ -261,9 +261,37 @@
   :dir? false
   :links []
   :size 756
-  :modtime 1755394632
+  :modtime 1755409384
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
+ {:path-categories #{"Climbing"}
+  :path "content/docs/climbing/gym-sends.md"
+  :backlinks nil
+  :title "Gym Sends"
+  :markdown "---\nbacklinks-set: \ncategories-set: #{\"Climbing\"}\n---\n# Gym Sends\n\nClimbs I'm proud of doing at gyms.\n\n## Black 5.12+ \"Darkrai\"\n\nSpent a long time on this one, with the crux being a very balancy and precise\nleft hand gaston sidepull to a really bad right hand sloping crimp.\nThe angle of my flagging right foot was critical to do it!\n\n![start](/docs/climbing/darkrai-start.jpg)\n![rest](/docs/climbing/darkrai-rest.jpg)\n![crux](/docs/climbing/darkrai-crux.jpg)"
+  :name "gym-sends.md"
+  :private false
+  :categories #{"Climbing"}
+  :dir? false
+  :links []
+  :size 406
+  :modtime 1755409385
+  :mode 420
+  :modification-unix-timestamps [1755409361]}
+ {:path-categories #{"Climbing"}
+  :path "content/docs/climbing/injuries.md"
+  :backlinks nil
+  :title "Injuries"
+  :markdown "---\nbacklinks-set: \ncategories-set: #{\"Climbing\"}\n---\n# Injuries\n\n## Climbers Elbow\n\nFor 2+ years I suffered from a mild, or at least easily avoided, inner elbow pain that I found very hard to accurately define.  Eventually, I learned that it was likely climber's elbow.  \n\nAfter learning this, it still took me some trial and error to address it properly.  I tried several exercises:\n\n - Dumbbell eccentric wrist extensions\n   - These were time consuming to do and it was hard for me to notice them\n     working my forearm or having any other real effect.\n - [Hammer\n   rotations](https://trainingforclimbing.com/treating-climbers-elbow-medial-epicondylitis/)\n   - These felt effective, but only at high weight.\n     Unfortunately, at high weight my left wrist also really started to hurt,\n     making these not very viable to fix my problem.\n - **Eccentric bicep curls (barbell or resistance bands)**\n   - These are awesome!\n     Very easy to do in a way that works my muscle, and seem to have a strong\n     effect towards reducing my elbow pain.\n     Plus they make my arms look strong while I am doing them :).\n\nSome more notes at https://docs.google.com/document/d/1y8MYx9GGeIE7VZtD-RxeXZNkHAlSygasY8N6iRFDrv4."
+  :name "injuries.md"
+  :private false
+  :categories #{"Climbing"}
+  :dir? false
+  :links []
+  :size 1162
+  :modtime 1755409385
+  :mode 420
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Climbing"}
   :path "content/docs/climbing/media.md"
   :backlinks nil
@@ -275,23 +303,37 @@
   :dir? false
   :links []
   :size 645
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Climbing"}
   :path "content/docs/climbing/resources.md"
   :backlinks nil
   :title "Resources"
-  :markdown "---\nbacklinks-set: \ncategories-set: #{\"Climbing\"}\n---\n# Climbing Resources\n\n - https://climbingdangers.net/\n - [Too Rainy To Climb](http://toorainy.com/) - weather forecast estimating how\n   wet rock will be."
+  :markdown "---\nbacklinks-set: \ncategories-set: #{\"Climbing\"}\n---\n# Climbing Resources\n\n - https://www.mountainproject.com/international-climbing-grades\n - https://climbingdangers.net/\n - [Too Rainy To Climb](http://toorainy.com/) - weather forecast estimating how\n   wet rock will be."
   :name "resources.md"
   :private false
   :categories #{"Climbing"}
   :dir? false
   :links []
-  :size 208
-  :modtime 1755394633
+  :size 274
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
+ {:path-categories #{"Climbing"}
+  :path "content/docs/climbing/routesetting.md"
+  :backlinks nil
+  :title "Routesetting"
+  :markdown "---\nbacklinks-set: \ncategories-set: #{\"Climbing\"}\n---\n# Routesetting\n\n## 8/10/2025\n\n2 routes on \"two crack\" rope 13.  \n\n - Purple:\n   - Exaggeratedly long start traverse that people could boulder.\n     Found some good crimps deep in upper roof crack.\n - Green:\n   - Thin, with double baby heads facing each other on underside of upper roof.\n\n## 7/12/2025\n\n2 routes on long overhanging pillar.\n\n - Brown:\n   - Lots of foot hand matching.\n     Hard gaston to large knob hold at roof, then thin holds to finish.\n     Fun to watch people lead!\n - Black:\n   - Soo many hoolds!\n     Used everything even though I brought up a lot.\n     Felt mediocre.\n\n## 6/28/2025\n\n3 routes right by window.  Needed to toe hook window to get over enough to put some holds in!\n\n - Red:\n   - Blood holds, exploring fun rightmost side of wall that is usually empty\n - Grey:\n   - Fin pinch holds, barn door inducing.\n     A hold near the top broke while someone was trying to climb it!\n - Brown:\n   - Sidepull jugs, more of a warmup.\n\n## 5/31/2025\n\n2 routes on rope 22 next to bouldering wall.\n\n - Yellow \"comPRESS me\":\n  - Cool start with big mantle move to sloping hold.\n    Then some diabolical compression climbing on the corner which I'm not sure\n    is even possible.\n - Black \"dark growth\":\n  - Fun growth like holds that flowed well for me.\n    May be a bit reachy, especially at the top :/.\n\n## 5/17/2025\n\nBoulder setting.\nEspecially proud of a yellow route with big rectangular holds where you start\nwith your back to the wall.\n\n![yellow](/docs/climbing/yellow-back-to-wall.jpg)\n\n## 4/6/2025\n\n2 routes on \"two crack\" rope 13.  \n\n - Grey \"imPRESS me\":\n  - Very proud of this one.\n    Cool press moves, and interesting roof manuvering\n\n![impress](/docs/climbing/impress-me.jpg)\n\n - Red:\n  - Less good, tried to make easy but still ended up 5.10.\n    Roof area was particularly awkward.\n    Big holds do not make for an easy fun time when there are no feet.\n\n## Rain city send 2/2025\n\nVery happy with the \"crawling out of a hole\" vibe this black one I set gave off:\n\n![black](/docs/climbing/rcs-black-knobs.jpg)"
+  :name "routesetting.md"
+  :private false
+  :categories #{"Climbing"}
+  :dir? false
+  :links []
+  :size 2039
+  :modtime 1755409385
+  :mode 420
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Climbing"}
   :path "content/docs/climbing/safety-checklist.md"
   :backlinks nil
@@ -303,9 +345,9 @@
   :dir? false
   :links []
   :size 3369
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Climbing"}
   :path "content/docs/climbing/tips-and-tricks.md"
   :backlinks nil
@@ -317,25 +359,57 @@
   :dir? false
   :links []
   :size 314
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
+ {:path-categories #{"Climbing"
+                     "Cragging"}
+  :path "content/docs/climbing/cragging/crag-of-the-20s.md"
+  :backlinks nil
+  :title "Crag Of The 20s"
+  :markdown "---\nbacklinks-set: \ncategories-set: #{\"Climbing\" \"Cragging\"}\n---\n# Crag of the 20s\n\n## Quadratic Cave\n\n### Orthogonal Projection - 5.11b\n\nExtremely cool route.\nHaven't yet figured out how to get out of the cave with the hanging chain clip.\n\n### Urination Equation - 5.12c/d\n\nSurprisingly close on TR, need to go back for this one.\n\n## Waterfall Wall\n\n### Concentrated Moisture - 5.12-\n\nWorked with Jakob helping finish what another party started.\n\nJakob had a very harrowing lead:\n\n - Dropping a quickdraw which bounced into the woods when trying to unclip it\n   from an unnecessary bolt.\n - Blowing a clip while I was trying to detangle the rope from a stick clip,\n   leading to me getting pulled through a handrail fixed line and him taking a\n   big (luckily safe) fall.\n - Extremely tense final chain clip.\n   Honestly this is kinda the crux of the route.\n   Not much to work with when mantling over the final ledge."
+  :name "crag-of-the-20s.md"
+  :private false
+  :categories #{"Climbing"
+                "Cragging"}
+  :dir? false
+  :links []
+  :size 855
+  :modtime 1755409384
+  :mode 420
+  :modification-unix-timestamps [1755409361]}
+ {:path-categories #{"Climbing"
+                     "Cragging"}
+  :path "content/docs/climbing/cragging/little-si.md"
+  :backlinks nil
+  :title "Little Si"
+  :markdown "---\nbacklinks-set: \ncategories-set: #{\"Climbing\" \"Cragging\"}\n---\n# Little Si - Exit 32\n\n## World Wall\n\nLeft to right.\n\n### Dairy Freeze - 5.12b\n\n### Bust a Move - 5.12a\n\n#### Beta\n\nFor \"the move\", I need to gaston undercling left hand above rest crimp, get my\nfeet up, then throw strait for the right hand undercling/sidepull.\nFrom there I should be able to continue getting my feet up to throw for the next\ngood holds.\n\n### Rainy Day Woman - 5.12a\n\nDone on TR, very close on lead.\n\n#### Beta\n\nKey is to recover effectively at rests.\nAt the upper roof I need to not be scared and get my feet up constantly,\n\"perching\" on the holds.  Meanwhile with my hands:\n\n - Left hand on crimp above roof\n - Right on lower stair step\n - Left hand on upper stair step\n - Reach right across to clipping sidepull\n\nThen foot up on crimp above roof, then onto stairsteps.\n\n## Other\n\n### Lay of the Land - 5.12a\n\nMy first 5.12 on lead!\n\nVery easy start that is a good warm up, then just gets harder until the top.\n\n#### Beta\n\nImportant to go far right at the two draws on the right side of the corner; better holds over there.\n\nAfter turning the corner is the crux.\nI found later that the easiest way to do the crux is actually to lieback the\ncorner and smear my feet on nothing, then reach up for the good rail.\nThis felt better than putting my foot on the crux foolhold and going up from\nthere.\nAt least that move is very low percentage for me."
+  :name "little-si.md"
+  :private false
+  :categories #{"Climbing"
+                "Cragging"}
+  :dir? false
+  :links []
+  :size 1363
+  :modtime 1755409384
+  :mode 420
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Climbing"
                      "Event Reports"}
   :path "content/docs/climbing/event-reports/2019-10-7-namaste-wall-zion.md"
   :backlinks nil
   :title "2019 10 7 Namaste Wall Zion"
-  :markdown "---\nbacklinks-set: \ncategories-set: #{\"Climbing\" \"Event Reports\"}\n---\n# Namaste Wall - Zion National Park\n\nDone on October 7th, 2019.\n\nI heard originally of this wall from lots of beautiful Reddit posts on\nr/climbing. Claire and I took a trip to the area together and took the\nopportunity to visit the place for ourselves.\n\nThe rock was absolutely incredible, forming many shapes I've never climbed on\nbefore. Most features were easy to grab, which was good, as the wall was quite\noverhanging and the sandy rock meant it was a bit tricky to get a firm grip.\n\n![Handle](/docs/climbing/event-reports/2019-10-07-namaste-wall-zion-pics/handle.jpg)\n\n![Height](/docs/climbing/event-reports/2019-10-07-namaste-wall-zion-pics/height.jpg)\n\n![Looking Down](/docs/climbing/event-reports/2019-10-07-namaste-wall-zion-pics/looking-down.jpg)\n\n![Profile](/docs/climbing/event-reports/2019-10-07-namaste-wall-zion-pics/profile.jpg)\n\n![Clip](/docs/climbing/event-reports/2019-10-07-namaste-wall-zion-pics/silouette-clip.jpg)\n\nOne close mishap we had was the first climb I tried with Claire as my belay.\nThe large overhang made her swing more that we anticipated into a nearby rock\nwhen I uncliped my first quickdraw from the wall (after getting lowered).\nLuckily she wasn't hurt, but it was a good lesson to be very sure about rope\ngeometry before unclipping!\n\n![Claire Belay](/docs/climbing/event-reports/2019-10-07-namaste-wall-zion-pics/claire-belay.jpg)\n\nWe were extremely luckly to run into a pair of Canadian guys with a nice camera\nthat were also climbing at Namaste at the same time. In exchange for me taking\npictures of them, we traded belays, which let me try several more routes than I\nwould have otherwise with just Claire as my belay.\n\nHere is a complete album: https://photos.app.goo.gl/kLGvWTqGBEjh2Dzv7\n\n![Rock](/docs/climbing/event-reports/2019-10-07-namaste-wall-zion-pics/rock.jpg)\n\n![Trees](/docs/climbing/event-reports/2019-10-07-namaste-wall-zion-pics/trees.jpg)\n\n\n\n\n\n\n\n\n[Event Reports]({{< relref \"/\" >}}?Event-Reports=true)"
+  :markdown "---\nbacklinks-set: \ncategories-set: #{\"Climbing\" \"Event Reports\"}\n---\n# Namaste Wall - Zion National Park\n\nDone on October 7th, 2019.\n\nI heard originally of this wall from lots of beautiful Reddit posts on\nr/climbing. Claire and I took a trip to the area together and took the\nopportunity to visit the place for ourselves.\n\nThe rock was absolutely incredible, forming many shapes I've never climbed on\nbefore. Most features were easy to grab, which was good, as the wall was quite\noverhanging and the sandy rock meant it was a bit tricky to get a firm grip.\n\n![Handle](/docs/climbing/event-reports/2019-10-07-namaste-wall-zion-pics/handle.jpg)\n\n![Height](/docs/climbing/event-reports/2019-10-07-namaste-wall-zion-pics/height.jpg)\n\n![Looking Down](/docs/climbing/event-reports/2019-10-07-namaste-wall-zion-pics/looking-down.jpg)\n\n![Profile](/docs/climbing/event-reports/2019-10-07-namaste-wall-zion-pics/profile.jpg)\n\n![Clip](/docs/climbing/event-reports/2019-10-07-namaste-wall-zion-pics/silouette-clip.jpg)\n\nOne close mishap we had was the first climb I tried with Claire as my belay.\nThe large overhang made her swing more that we anticipated into a nearby rock\nwhen I uncliped my first quickdraw from the wall (after getting lowered).\nLuckily she wasn't hurt, but it was a good lesson to be very sure about rope\ngeometry before unclipping!\n\n![Claire Belay](/docs/climbing/event-reports/2019-10-07-namaste-wall-zion-pics/claire-belay.jpg)\n\nWe were extremely luckly to run into a pair of Canadian guys with a nice camera\nthat were also climbing at Namaste at the same time. In exchange for me taking\npictures of them, we traded belays, which let me try several more routes than I\nwould have otherwise with just Claire as my belay.\n\nHere is a complete album: https://photos.app.goo.gl/kLGvWTqGBEjh2Dzv7\n\n![Rock](/docs/climbing/event-reports/2019-10-07-namaste-wall-zion-pics/rock.jpg)\n\n![Trees](/docs/climbing/event-reports/2019-10-07-namaste-wall-zion-pics/trees.jpg)"
   :name "2019-10-7-namaste-wall-zion.md"
   :private false
   :categories #{"Climbing"
                 "Event Reports"}
   :dir? false
-  :links ["/"]
-  :size 2031
-  :modtime 1755394632
+  :links []
+  :size 1969
+  :modtime 1755409384
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Climbing"
                      "Event Reports"}
   :path "content/docs/climbing/event-reports/2020-8-10-lake-erie.md"
@@ -349,42 +423,41 @@
   :dir? false
   :links ["/"]
   :size 1357
-  :modtime 1755394632
+  :modtime 1755409384
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Climbing"
                      "Event Reports"}
   :path "content/docs/climbing/event-reports/2020-8-12-mile-high-club.md"
   :backlinks nil
   :title "2020 8 12 Mile High Club"
-  :markdown "---\nbacklinks-set: \ncategories-set: #{\"Climbing\" \"Event Reports\"}\n---\n# Mile High Club\n\nDone in Mid-August 2020.\n\nA climb I discovered on [Mountain\nProject](https://www.mountainproject.com/route/112553808/mile-high-club) to do\nwhile I was in the area on a camping trip.\n\nWe started the day a bit after 8, taking a quick sub-30 minute drive to get to\nthe trailhead from our camp site.  The road down to the Sunrise Mine trailhead\nwas a bit rough in places, with at least a single large washout that I was\nimpressed our large van could handle - the clearance was better that I thought!\nOur hike down the trailhead started around 8:30ish, after a quick banana/peanut\nbutter breakfast.\n\nThe hike in was really pretty, with 3-4 stream/river crossings and some amazing\nmountain views as the trees thinned.  Pardon the mediocre image quality : ).\n\n![Stream](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/stream.jpg)\n\n![Mountain Through Trees](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/mtn-through-trees.jpg)\n\n![Cliff Through Trees](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/cliff-through-trees.jpg)\n\n![Matthew Hiking](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/matthew-hiking.jpg)\n*Matthew on the trail*\n\nEventually the trail turned into a treeless alpine meadow...\n\n![Meadow](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/meadow.jpg)\n\n...and then into a talus field.  The transition was marked by this cute\ncampsite:  \n\n![Talus Campsite](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/talus-campsite.jpg)\n\n![Meadow opening](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/matthew/approach.jpeg)\n*Kovas trying to find which switchback is the last one, so we could break off. Don't \nworry, you still have a ways to go.*\n\nA short ways up we saw this ice cave, reminiscent of the Big Four Ice caves we\nvisited the previous day:\n\n![Ice Cave](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/ice-cave.jpg)\n\nOn the talus, the trail became hard to follow, and we lost it on our way up.\nWe knew we had to leave the trail at some point, but were not sure which\ndirection.  On the Mountain Project guide there were directions to break off\nbefore the last set of switchbacks. But because we didn't have a map, we didn't\nknow when the last set were.  Luckily we eventually found this trail marker,\nwhich marked our fork left, with the pass trail going right.  This whole\nprocess led to a lot of confusion on the approach, and likely added 30 minutes\nto it.\n\n![Turn Right](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/turn-right.jpg)\n\n![Switch Back Marker from Mountain Project](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/matthew/where-the-switchbacks-are.jpeg)\n*A view from much higher up that shows the switchback clearly.*\n\n\nAfter finding our turn off, it still embarrassingly took us a bit to\ndisambiguate which of the peaks we were actually planning to climb...\n\n![Mountain Talus](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/mtn-talus.jpg)\n\n...but we found it eventually!\n\n![Vega North Tower](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/vega-north-tower.jpg)\n\nAs we closed in on the peak the Mountain Project description for how to\napproach got a lot clearer, as did the pass tail with its many switchbacks.\n\n![Pass Trail](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/pass-trail.jpg)\n\nThis reddish colored rock with a slight trickle of water marked the end of our\nhike and the start of our climb.  We stopped here briefly for our last\nbanana+bread wraps, left our bag on a ledge, and continued up!  Our climb\nstarted at around noon; we lost some time on the approach pathfinding.\n\n![Red Rock](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/red-rock.jpg)\n\n![Looking Up](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/looking-up.jpg)\n\nThe climb up was very easy to track both by scanning for the bright, new bolts\nand referencing the Mountain Project description.  The first pitch had a very\nobvious start, with three close bolts through a slightly overhanging juggy\nstart.  It was a bit intimidating as a first lead, but quickly confidence\nboosting as I realized the moves were actually quite natural.\n\n![First Belay](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/first-belay.jpg)\n*Looking down from the first belay.*\n\nThe second pitch was more relaxed, and the third, long, pitch had a couple\nsections of hiking-with-a-rope.  The views were beautiful the whole way.\n\n![Climb View](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/climb-view.jpg)\n\n![Mountain View](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/mtn-view.jpg)\n\n![At Anchors Dark](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/at-anchors-dark.jpg)\n\n![At Anchors](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/at-anchors.jpg)\n\n![Corner Pitch](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/pitch-4-or-5.jpg)\n*Matthew starting up pitch 4 or 5.*\n\n![Corner Pitch Kovas](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/matthew/from-belay.jpeg)\n*Kovas starting up pitch 4 or 5.*\n\n![Looking Up](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/looking-up.jpg)\n*The summit!?*\n\n![Cool Rock](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/cool-rock.jpg)\n\n![Finishing Corner Pitch](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/matthew-corner-pitch.jpg)\n\n![I think this is near the top](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/matthew/setting-up-anchor.jpeg)\n\n![Across the Valley](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/grand-cliff.jpg)\n\n![Pass Trail](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/pass-trail.jpg)\n*Looking back at the switchbacked pass trail from a better vantage.*\n\nWe reached the summit at around 4pm (behind schedule), but were treated with an\namazing view anyway : ).  \n\n![Mordor Snow](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/mordor-snow.jpg)\n*Looking over into the next valley.  The snow reminded me of the lava flows in\nthe Lord of the Rings films.  I wonder if they shot those scenes by just\nrecoloring snow?*\n\n![Summit View](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/summit-view.jpg)\n\n![Summit Rock](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/summit-rock.jpg)\n\n![Summit Register](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/summit-register.jpg)\n*Official!  Funnily enough some of our friends from the UW IMA had just\nsummited a week before.*\n\nRappelling down was met with some trickiness at first; our first rope through\nwent a bit off route and we needed to find our way back kinda awkwardly.  The\nnext couple rappels were very straightforward, until we got to pitch 3. \n\n![Rappel Corner](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/rappel-corner-pitch.jpg)\n\nFirstly, this pitch was very long to rappel.  I remember having to daisy-chain\nsome quickdraws together in order to keep a hold of both rope ends, but still\ncouldn't make it all the way to the anchors.  Instead I had to stop at this\ntree with a sling around it (perhaps others had the same issue).\n\n![Up Pitch 3](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/up-pitch-3.jpg)\n\nOnce Matthew had also rappelled down, we decided to pull the rope through and\nbelay each other off the tree as we walked down to the ~20ft away anchors.\nThis is where we ran into another snag:\n\nSo far, I had been rappelling down the climb with this technique:\n\n![GriGri Rappel](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/grigri-rappel.jpg)\n*Image source: https://ropeandsummit.wordpress.com/technique/belaying-rappeling/*\n\nThis allowed me to use my GriGri for a more comfortable and safer rappel.\nUnfortunately, this method had the before unforseen drawback of making it much\neasier for the rope to get stuck in constrictions when pulling it through.\nThis is exactly what happened when pulling our rope through on this pitch.  Our\nknot got stuck about 5 feet from the upper anchor, and no amount of wiggling\nand pulling would set it free!\n\nVery very luckily, the other end of the rope was still in reach.  I was able to\ngrab it, pull it down, attach my GriGri, and then part climb/part jug up the\nwhole climb back to the anchors.  I noticed a clear spot where the knot had\ngotten stuck.  I am extremely grateful that this spot was not further down the\nclimb; had we not been able to use the other rope end to climb up we would have\nbeen very stuck.  I then set up a more traditional rappel, rappelled down, and\npulled the rope with no issues.\n\nThis extra \"climb\" burned even more time, and now we were very eager to make a\nhasty descent.  We quickly finished the rest of our rappels and started\nscrambling back to the trail over the talus fields.\n\n![Looking Back](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/looking-back.jpg)\n\nBy the time we had reached the trail proper, the sun was already (beautifully)\nsetting.\n\n![Sunset](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/sunset.jpg)\n\nWith the solid trail beneath our feet, we started moving faster, breaking\nalmost into a jog as the trail got flatter.  On the way down, we passed a very\ntired, but very chilled out family hiking up on a backpacking trip.  Their\ncalming influence was very welcome.\n\nOnce we had made it into the forest, we had to pull out our phone flashlights,\nas it was now completely dark.  We managed to do this part of the trail in\nrecord time, only getting lost a bit on the largest river crossing.  Luckily we\nwere both able to quickly retrace our steps and re-locate the trail on the\nother side of the river without too much more time.\n\nWe got to the car around 9:30pm and drove as quickly as we could to get back to\nour campsite just after they closed at 10pm.  The gatekeeper took pity on us\nand let us in without a fine or any other trouble.  Our fellow campers were\npretty worried about us though.  Reflecting back on our botch rappel this trip\nmade me realize that I really want to either have cell service or a satellite\ncommunication device the next time I go on a trip like this.\n\nBesides our rushed finish, this climb was truly spectacular. It was also a\ngreat sport -> alpine climbing introduction.  I wouldn't go so far as to call\nit \"pleasure climbing\" like a roped soloer we met two days before at Mt. Erie\ncalled it, but it was a really cool alpine climbing experience.  Just make sure\nyou give yourself enough time!\n\n![Matthew Looking Back](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/matthew-looking-back.jpg)\n\n\n\n\n\n\n\n\n[Event Reports]({{< relref \"/\" >}}?Event-Reports=true)"
+  :markdown "---\nbacklinks-set: \ncategories-set: #{\"Climbing\" \"Event Reports\"}\n---\n# Mile High Club\n\nDone in Mid-August 2020.\n\nA climb I discovered on [Mountain\nProject](https://www.mountainproject.com/route/112553808/mile-high-club) to do\nwhile I was in the area on a camping trip.\n\nWe started the day a bit after 8, taking a quick sub-30 minute drive to get to\nthe trailhead from our camp site.  The road down to the Sunrise Mine trailhead\nwas a bit rough in places, with at least a single large washout that I was\nimpressed our large van could handle - the clearance was better that I thought!\nOur hike down the trailhead started around 8:30ish, after a quick banana/peanut\nbutter breakfast.\n\nThe hike in was really pretty, with 3-4 stream/river crossings and some amazing\nmountain views as the trees thinned.  Pardon the mediocre image quality : ).\n\n![Stream](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/stream.jpg)\n\n![Mountain Through Trees](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/mtn-through-trees.jpg)\n\n![Cliff Through Trees](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/cliff-through-trees.jpg)\n\n![Matthew Hiking](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/matthew-hiking.jpg)\n*Matthew on the trail*\n\nEventually the trail turned into a treeless alpine meadow...\n\n![Meadow](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/meadow.jpg)\n\n...and then into a talus field.  The transition was marked by this cute\ncampsite:  \n\n![Talus Campsite](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/talus-campsite.jpg)\n\n![Meadow opening](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/matthew/approach.jpeg)\n*Kovas trying to find which switchback is the last one, so we could break off. Don't \nworry, you still have a ways to go.*\n\nA short ways up we saw this ice cave, reminiscent of the Big Four Ice caves we\nvisited the previous day:\n\n![Ice Cave](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/ice-cave.jpg)\n\nOn the talus, the trail became hard to follow, and we lost it on our way up.\nWe knew we had to leave the trail at some point, but were not sure which\ndirection.  On the Mountain Project guide there were directions to break off\nbefore the last set of switchbacks. But because we didn't have a map, we didn't\nknow when the last set were.  Luckily we eventually found this trail marker,\nwhich marked our fork left, with the pass trail going right.  This whole\nprocess led to a lot of confusion on the approach, and likely added 30 minutes\nto it.\n\n![Turn Right](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/turn-right.jpg)\n\n![Switch Back Marker from Mountain Project](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/matthew/where-the-switchbacks-are.jpeg)\n*A view from much higher up that shows the switchback clearly.*\n\n\nAfter finding our turn off, it still embarrassingly took us a bit to\ndisambiguate which of the peaks we were actually planning to climb...\n\n![Mountain Talus](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/mtn-talus.jpg)\n\n...but we found it eventually!\n\n![Vega North Tower](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/vega-north-tower.jpg)\n\nAs we closed in on the peak the Mountain Project description for how to\napproach got a lot clearer, as did the pass tail with its many switchbacks.\n\n![Pass Trail](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/pass-trail.jpg)\n\nThis reddish colored rock with a slight trickle of water marked the end of our\nhike and the start of our climb.  We stopped here briefly for our last\nbanana+bread wraps, left our bag on a ledge, and continued up!  Our climb\nstarted at around noon; we lost some time on the approach pathfinding.\n\n![Red Rock](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/red-rock.jpg)\n\n![Looking Up](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/looking-up.jpg)\n\nThe climb up was very easy to track both by scanning for the bright, new bolts\nand referencing the Mountain Project description.  The first pitch had a very\nobvious start, with three close bolts through a slightly overhanging juggy\nstart.  It was a bit intimidating as a first lead, but quickly confidence\nboosting as I realized the moves were actually quite natural.\n\n![First Belay](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/first-belay.jpg)\n*Looking down from the first belay.*\n\nThe second pitch was more relaxed, and the third, long, pitch had a couple\nsections of hiking-with-a-rope.  The views were beautiful the whole way.\n\n![Climb View](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/climb-view.jpg)\n\n![Mountain View](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/mtn-view.jpg)\n\n![At Anchors Dark](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/at-anchors-dark.jpg)\n\n![At Anchors](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/at-anchors.jpg)\n\n![Corner Pitch](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/pitch-4-or-5.jpg)\n*Matthew starting up pitch 4 or 5.*\n\n![Corner Pitch Kovas](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/matthew/from-belay.jpeg)\n*Kovas starting up pitch 4 or 5.*\n\n![Looking Up](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/looking-up.jpg)\n*The summit!?*\n\n![Cool Rock](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/cool-rock.jpg)\n\n![Finishing Corner Pitch](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/matthew-corner-pitch.jpg)\n\n![I think this is near the top](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/matthew/setting-up-anchor.jpeg)\n\n![Across the Valley](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/grand-cliff.jpg)\n\n![Pass Trail](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/pass-trail.jpg)\n*Looking back at the switchbacked pass trail from a better vantage.*\n\nWe reached the summit at around 4pm (behind schedule), but were treated with an\namazing view anyway : ).  \n\n![Mordor Snow](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/mordor-snow.jpg)\n*Looking over into the next valley.  The snow reminded me of the lava flows in\nthe Lord of the Rings films.  I wonder if they shot those scenes by just\nrecoloring snow?*\n\n![Summit View](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/summit-view.jpg)\n\n![Summit Rock](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/summit-rock.jpg)\n\n![Summit Register](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/summit-register.jpg)\n*Official!  Funnily enough some of our friends from the UW IMA had just\nsummited a week before.*\n\nRappelling down was met with some trickiness at first; our first rope through\nwent a bit off route and we needed to find our way back kinda awkwardly.  The\nnext couple rappels were very straightforward, until we got to pitch 3. \n\n![Rappel Corner](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/rappel-corner-pitch.jpg)\n\nFirstly, this pitch was very long to rappel.  I remember having to daisy-chain\nsome quickdraws together in order to keep a hold of both rope ends, but still\ncouldn't make it all the way to the anchors.  Instead I had to stop at this\ntree with a sling around it (perhaps others had the same issue).\n\n![Up Pitch 3](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/up-pitch-3.jpg)\n\nOnce Matthew had also rappelled down, we decided to pull the rope through and\nbelay each other off the tree as we walked down to the ~20ft away anchors.\nThis is where we ran into another snag:\n\nSo far, I had been rappelling down the climb with this technique:\n\n![GriGri Rappel](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/grigri-rappel.jpg)\n*Image source: https://ropeandsummit.wordpress.com/technique/belaying-rappeling/*\n\nThis allowed me to use my GriGri for a more comfortable and safer rappel.\nUnfortunately, this method had the before unforseen drawback of making it much\neasier for the rope to get stuck in constrictions when pulling it through.\nThis is exactly what happened when pulling our rope through on this pitch.  Our\nknot got stuck about 5 feet from the upper anchor, and no amount of wiggling\nand pulling would set it free!\n\nVery very luckily, the other end of the rope was still in reach.  I was able to\ngrab it, pull it down, attach my GriGri, and then part climb/part jug up the\nwhole climb back to the anchors.  I noticed a clear spot where the knot had\ngotten stuck.  I am extremely grateful that this spot was not further down the\nclimb; had we not been able to use the other rope end to climb up we would have\nbeen very stuck.  I then set up a more traditional rappel, rappelled down, and\npulled the rope with no issues.\n\nThis extra \"climb\" burned even more time, and now we were very eager to make a\nhasty descent.  We quickly finished the rest of our rappels and started\nscrambling back to the trail over the talus fields.\n\n![Looking Back](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/looking-back.jpg)\n\nBy the time we had reached the trail proper, the sun was already (beautifully)\nsetting.\n\n![Sunset](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/sunset.jpg)\n\nWith the solid trail beneath our feet, we started moving faster, breaking\nalmost into a jog as the trail got flatter.  On the way down, we passed a very\ntired, but very chilled out family hiking up on a backpacking trip.  Their\ncalming influence was very welcome.\n\nOnce we had made it into the forest, we had to pull out our phone flashlights,\nas it was now completely dark.  We managed to do this part of the trail in\nrecord time, only getting lost a bit on the largest river crossing.  Luckily we\nwere both able to quickly retrace our steps and re-locate the trail on the\nother side of the river without too much more time.\n\nWe got to the car around 9:30pm and drove as quickly as we could to get back to\nour campsite just after they closed at 10pm.  The gatekeeper took pity on us\nand let us in without a fine or any other trouble.  Our fellow campers were\npretty worried about us though.  Reflecting back on our botch rappel this trip\nmade me realize that I really want to either have cell service or a satellite\ncommunication device the next time I go on a trip like this.\n\nBesides our rushed finish, this climb was truly spectacular. It was also a\ngreat sport -> alpine climbing introduction.  I wouldn't go so far as to call\nit \"pleasure climbing\" like a roped soloer we met two days before at Mt. Erie\ncalled it, but it was a really cool alpine climbing experience.  Just make sure\nyou give yourself enough time!\n\n![Matthew Looking Back](/docs/climbing/event-reports/2020-8-12-mile-high-club-pics/matthew-looking-back.jpg)"
   :name "2020-8-12-mile-high-club.md"
   :private false
   :categories #{"Climbing"
                 "Event Reports"}
   :dir? false
-  :links ["/"]
-  :size 10794
-  :modtime 1755394632
+  :links []
+  :size 10733
+  :modtime 1755409384
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Climbing"
                      "Event Reports"}
   :path "content/docs/climbing/event-reports/2024-7-enchantments-prusik-peak.md"
   :backlinks nil
   :title "2024 7 Enchantments Prusik Peak"
-  :markdown "---\nbacklinks-set: \ncategories-set: #{\"Climbing\" \"Event Reports\" \"Recent\"}\n---\n# Prusik Peak and the Enchantments\n\nDone at the beginning of July 2024.\n\nComplete photo album can be found at https://photos.app.goo.gl/U7eW6R2zFRehbVT3A.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/map.jpg)\n*A map of our route, with our approximate campsite shown as a purple dot.*\n\n## Day 0: Leavenworth\n\nWe arrived in Leavenworth the day before starting our backpack to give us the\nmost time possible on our hike in.\nWe mostly just explored the town on this day; my favorite part was the sauce\nshop that had probably 50 different sauces (mostly hot sauces) available to\nsample.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/leavenworth.jpg)\n*Dinner in Leavenworth*\n\nAfter our dinner, it started to rain very heavily, and some members of our party\nwere starting to reconsider our plans to camp nearby that night.\nEventually we split up, with some staying in a hotel and some (my cheap self\nincluded) camping in the rain.\nLuckily, the rain petered out by bed time and our tent held out the moisture.\nWe did at least have to endure a very wet, but surprisingly tolerable, campfire\nwhile we waited for bedtime.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/leavenworth-camping.jpg)\n\n## Day 1: Colchuck, Aasgard, and Finding Camp \n\nWe woke up early and headed to the trailhead to start our adventure.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/trailhead.jpg)\n\nThe trail in was very well maintained and easy going, with us quickly making it\nto Colchuck Lake, our first destination.\nThere were some bugs here which made me nervous for the rest of the trip, but\nluckily here was the worst they would be.\n\nOn the hike in I was pretty happy to have some old beat up ski poles that\noriginally I had brought for someone else (who ended up refusing them).\nI had never backpacked with poles before, and was surprised at how much they\nhelped me stay stable on the trail.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/dragontail.jpg)\n*The imposing Dragontail Peak, towering over Colchuck Lake.*\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/misty-mountains.jpg)\n*Mist was rolling over the mountains around the lake, making for a very dramatic view at times.*\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/aasgard-pass.jpg)\n*Aasgard Pass, our next obstacle, to the left of Dragontail.*\n\nWe next made our way around the lake to the start of Aasgard Pass.\nThe trail somewhat disappeared here into a boulder field, but all the landmarks\nnearby made it impossible to get lost.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/aasgard-boulders.jpg)\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/up-aasgard.jpg)\n*Heading up Aasgard!*\n\nThe pass was very steep, but I was able to make it more fun for myself by going\nsomewhat off trail and scrambling between the boulders.\nFrequently I would have to stop and think about the best way to navigate the\nrocks.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/boulders-of-aasgard.jpg)\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/dragontail-from-aasgard.jpg)\n*Dragontail Peak from Aasgard Pass.*\n\nTowards the top of the pass I started running into more and more snow, under\nwhich I could hear the roar of water.\nBefore the trip I had read a harrowing report of a hiker walking on this very\nsnowfield.\nThe hiker fell through the snow and was swept downhill by the water, only being\nsaved by a lucky constriction in the underground river.\nMade me glad I was on the rocks.\n\nI noticed some climbers on a route to the left of me, on a beautiful very\nexposed spire.\nI also noticed a mountain goat and excitedly gestured towards it to some\nclimbers at the base.\nThey didn't seem very excited and later I felt a bit silly, as the goats were\neverywhere over the pass.\nIn fact, for the next couple miles there would always be at least one in sight.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/first-goat.jpg)\n*My first goat sighting!\nLater I would not need to zoom in so much to get a good shot.*\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/climbers-by-aasgard.jpg)\n*See if you can spot the climbers towards the top of the spire!*\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/goat-1.jpg)\n*A more normal goat sighting, just a little while further up the trail.*\n\nOnce we rounded the top of Aasgard, the valley below was like another world.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/over-aasgard.jpg)\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/snow-walkers.jpg)\n*Wending our way through the snow.*\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/blue-lakes.jpg)\n\nThe extremely cold lakes were a welcome way to fill up our water.\nOne of my companions had a neat squeezable bottle with a built in filter, so we\ncould easily drink directly from the snowmelt.\n\nThe next part of the hike was a bit of a slog, as we descended through lots of\nsnow looking for a good campsite.\nI was pretty tired at this point, so constantly not running into a good spot\nas we passed lake after lake was a bit disappointing.\n\nWe did have one exciting moment where we needed to cross a pretty steep\nsnowfield.\nI was first, and I tried to follow some goat tracks that made their way across.\nAs I was crossing, I slipped into an uncontrolled slide down the hill!\nLuckily the bottom petered out safely, but this was my first firsthand\nexperience with the dangers of steep snow travel, and why always being ready to\nself-arrest is so important.\n\nOthers tried to descend without sliding, but everyone slipped just like me so\neventually we just started having fun with it.\n\n[Sliding Video](https://photos.google.com/share/AF1QipOFMA41w7gbJRZeE4GOA0smt5OtV2XbNeQMEoZ8ZQHn3VXhaGVXOssPaNZjwn2zmQ/photo/AF1QipP5hc1v3dNjKZ_23Y8v5hxkoKLzCXLYlm5VRqKm?key=YXZsU3UxUkNPc2hWMVFVeElhRVFnTDQyeFFodkpR)\n\nTowards the end of our day, we finally found a good place to camp.\nThere was only one more obstacle to overcome: a rushing river draining out of a\nnearby lake.\nOur best way across after much searching was one of the snowbridges crossing the\nwater.\n\n[Snowbridge Video](https://photos.google.com/share/AF1QipOFMA41w7gbJRZeE4GOA0smt5OtV2XbNeQMEoZ8ZQHn3VXhaGVXOssPaNZjwn2zmQ/photo/AF1QipNPd3MisNH2f0zmVL9zHSAbqjcVtOnqDm9f5GeU?key=YXZsU3UxUkNPc2hWMVFVeElhRVFnTDQyeFFodkpR)\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/snowbridge-from-below.jpg)\n*None of the snowbridges were particularly confidence inspiring...*\n\nFinally, we started setting up camp.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/setting-tent.jpg)\n*Yours truly setting up a tent in my climbing shoes while unsuccessfully\nattempting to dry my boots.\nPrusik Peak, our goal for tomorrow is in the background.*\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/goat-at-camp.jpg)\n*The ever present goats were with us even at camp.\nOnce when taking a pee one came right up behind me and spooked me!\nThey seem to be attracted to pee residue.*\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/baby-goat.jpg)\n*Goats usually traveled in adorable families.*\n\n## Day 2: Prusik Peak\n\nThe next day, my climbing partner and I set out to climb Prusik Peak, whilst the\nothers went off on other various adventures.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/goat-prusik.jpg)\n\nFinding our way to the base of the climb was pretty fun; the wide open terrain\nmade it easy to see where we were going, yet still was engaging to traverse.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/rock-and-snow.jpg)\n*Walking on the gently sloping rock was pleasant and made the world feel wide\nopen for exploration.*\n\nFairly quickly, after needing to walk back on the trail from yesterday for a\ntime, we found ourselves at the base of the climb.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/prusik-topo.jpg)\n*A useful map we used to try to navigate up the west ridge of Prusik.\nWe still got somewhat lost at least once.*\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/prusik-base.jpg)\n\nAs you may see, the first \"pitch\" of the climb was really just a hike/scramble up what felt like a pile of boulders.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/down-first-pitch.jpg)\n*Looking down the first pitch.*\n\nThe views were, as expected, incredible.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/looking-at-camp.jpg)\n*Looking back at our camp (located by the waterfall draining into the lake) from\nearly on in the climb.*\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/prusik-panorama.jpg)\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/balance-rock.jpg)\n*Doing pitch 1 of climbing above \"Balanced Rock\".*\n\nThe climbing continued to be mostly an adventurous scramble more than a\ntechnical climb.\nI remember one moment distinctly where I was following my partner around a\ncorner while on belay.\nAs I rounded the corner, I couldn't help but smile as I saw the rope just\nhanging in the wind with no protection between me and my partner fairly far\naway, and the rest of the pitch just consisting of a flat - yet quite exposed -\nridge.  Falling would have been bad, but really it was unprotectable.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/pitch-2-and-3.jpg)\n*Looking up pitches 2 and 3, the crux slab pitch.*\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/prusik-west-ridge.jpg)\n*A shot of us, as well as several parties ahead of us.\nUnfortunately, our route did not take us up the beautiful steep slabs to the\nright.*\n\nThe route wound its way around large rock formations that made it hard to\ncommunicate and find the next belay.\nAs an illustration, the trickiest part of the climb was not actually physically\nchallenging, but a test of routefinding.\nJust after the crux slab (pitch 3), my partner, leading, had veered too far\nright and ran low on gear.\nWe think he may have found a belay for one of the steeper routes heading up the\nsouth side of the peak.\nEventually he was able to backtrack and get back on route, but there was a time\nI was just sitting there nervously waiting - walkie talkies would have been\nnice.\n\nThe best climbing in my opinion was at the very top (pitch 5), where we found\nsome solid cracks to climb and even a chimney to squeeze through!\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/crack.jpg)\n*A crack on pitch 5.*\n\nAfter these pitches, we found ourselves at the summit.\nIt was cool to see all the other, harder routes on the south side of the peak\nfacing our camp site from above.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/prusik-summit.jpg)\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/prusik-summit-from-camp.jpg)\n*A picture of (we think) us at the summit, taken from our campsite.\nShows off some of the harder routes, one of them being currently climbed!*\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/summit-spires.jpg)\n*From the summit we could see other sheer spires continuing down the ridge.\nThis area really has so much high quality climbing to explore!*\n\nSoon enough, we started descending, almost directly behind another party.\nAll the rappel stations were rap rings through slings of a questionable age,\nbut they all had 3-4 slings piled up redundantly so I felt pretty good about\nthem.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/dark-rappel.jpg)\n*It started getting a little gloomy as we descended, giving us some extra\nmotivation to get down.*\n\nOnce we got to the bottom, we found ourselves right in the middle of some steep\nsnowfields.\nThe party ahead of us had completely disappeared, without even leaving\nfootsteps, so we were quite confused about where to go.\nWe ended up having to do a lot of rough traversing of steep snow to get back to\nthe start of the climb.\nWe kicked our climbing shoes into the snow toe first up to our heels to stay\nsecure and avoid slipping into a slide like yesterday on the trail - the runout\nhere was much less friendly looking!\nI felt bad for my partner, who had tighter, less comfortable shoes than me.\n    \n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/prusik-descent-snowfields.jpg)\n*The snowfields we had to traverse to get back to the start of the climb.*\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/steep-snowfields.jpg)\n*Some fields were extremely steep and we spent a lot of time trying to find the\nsafest way around them.*\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/return-to-balance-rock.jpg)\n*The start of our climb in sight: \"Balanced Rock\"!*\n\nLuckily, we eventually made it back to the start of the climb without incident.\nThe hike back to camp was just as enjoyable as the walk there - a relaxing\nadventure finding our own way over the fields of rock slab.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/prusik-looking-back.jpg)\n\nDinner time!\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/diet.jpg)\n*My diet throughout the trip: I pretty much just ate raw rolled oats, peanut\nbutter, and dried mango for every meal.\nNormally my digestion wouldn't tolerate this very well (especially the peanut\nbutter), but something about the constant exercise or environment made me feel\ngreat digestive speaking the whole time!*\n\nThat night we played some cards and tried our best to ignore the incessant loud wind rushing through our campsite while sleeping.\n\n## Day 3: The Long Walk Out\n\nOur last day started with us packing up camp and chatting with other hikers making their way through the same trail.\n\nAs one of these groups passed by, one of their members tried to jump over the\nsketchy snowbridge we had crossed the day before and landed full force right in\nthe middle of it.\nOf course, their heel broke through and I watched in horror as I expected them\nto be swept away by the river.\nAmazingly, the rest of the snow held, letting them get out of the way, but the\nbridge was destroyed.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/snowbridge-broken.jpg)\n*Note the footsteps leading up to the broken bridge.*\n\n[This\nvideo](https://photos.google.com/share/AF1QipOFMA41w7gbJRZeE4GOA0smt5OtV2XbNeQMEoZ8ZQHn3VXhaGVXOssPaNZjwn2zmQ/photo/AF1QipPndRWhlthwdO6l4w8ZbopSRoKgSFsD9Dp6jgW6?key=YXZsU3UxUkNPc2hWMVFVeElhRVFnTDQyeFFodkpR)\nshows the entire snowbridge area, post destruction.\nNote that the snow on the far side of the river was too steep to allow access to\nthe bridge downstream to the right of the initial frame.\n\nAfter the breakage, the rest of the group opted to wade through the river\nupstream, which was treacherous in its own right (deep cold water with slippery\nstones below), but at least was a known quantity.\n\nOnce packed up, we started our hike out.\nAt first we traversed through the fun rock slabs we had explored all of\nyesterday, but soon the trail became a much more standard walk in the woods.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/rebar-steps.jpg)\n*The trail was very well maintained, with steel traction bars added to this\nparticularly steep and wet section.*\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/transition.jpg)\n*The transition from rocky alpine terrain to forest.*\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/forest-and-lakes.jpg)\n*A typical view on the way down.*\n\nThe temperature got steadily more hot and humid as we descended and,\nthematically, the final area we walked through to get to the car was a hot, dry,\ndusty valley full of burned trees from a forest fire.\nBy the end I was very thankful the hike was over!\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/before-and-after.jpg)\n*Us before and after the trip.*\n\n## Lessons Learned For Future Trips\n\n - The squeezable water bottle with a built in filter I used a couple times was\n   super handy - I should get one.\n - Poles were particularly useful when backpacking.\n - Wind at night can be very loud and annoying.\n   It may be worth trying earplugs or something similar for future trips.\n - Walkie talkies would have been very useful for communication on the climb,\n   and possibly even on the hike depending on their range.\n - Staying as high as possible on the rappel down from the climb may have given\n   us some opportunities to avoid the steep snowfields.\n - Someone in our group had a Garmin watch which showed our exact position on a\n   map and our progress on an elevation gain chart.\n   This was very nice to refer to every so often to satisfy curiosity.\n - My boots got very wet after the first day of hiking, and I had trouble drying\n   them for the rest of the trip.\n   Next time I should bring a second pair of shoes besides climbing shoes, and\n   do some research about the best way to dry boots overnight in the wilderness."
+  :markdown "---\nbacklinks-set: \ncategories-set: #{\"Climbing\" \"Event Reports\"}\n---\n# Prusik Peak and the Enchantments\n\nDone at the beginning of July 2024.\n\nComplete photo album can be found at https://photos.app.goo.gl/U7eW6R2zFRehbVT3A.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/map.jpg)\n*A map of our route, with our approximate campsite shown as a purple dot.*\n\n## Day 0: Leavenworth\n\nWe arrived in Leavenworth the day before starting our backpack to give us the\nmost time possible on our hike in.\nWe mostly just explored the town on this day; my favorite part was the sauce\nshop that had probably 50 different sauces (mostly hot sauces) available to\nsample.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/leavenworth.jpg)\n*Dinner in Leavenworth*\n\nAfter our dinner, it started to rain very heavily, and some members of our party\nwere starting to reconsider our plans to camp nearby that night.\nEventually we split up, with some staying in a hotel and some (my cheap self\nincluded) camping in the rain.\nLuckily, the rain petered out by bed time and our tent held out the moisture.\nWe did at least have to endure a very wet, but surprisingly tolerable, campfire\nwhile we waited for bedtime.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/leavenworth-camping.jpg)\n\n## Day 1: Colchuck, Aasgard, and Finding Camp \n\nWe woke up early and headed to the trailhead to start our adventure.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/trailhead.jpg)\n\nThe trail in was very well maintained and easy going, with us quickly making it\nto Colchuck Lake, our first destination.\nThere were some bugs here which made me nervous for the rest of the trip, but\nluckily here was the worst they would be.\n\nOn the hike in I was pretty happy to have some old beat up ski poles that\noriginally I had brought for someone else (who ended up refusing them).\nI had never backpacked with poles before, and was surprised at how much they\nhelped me stay stable on the trail.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/dragontail.jpg)\n*The imposing Dragontail Peak, towering over Colchuck Lake.*\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/misty-mountains.jpg)\n*Mist was rolling over the mountains around the lake, making for a very dramatic view at times.*\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/aasgard-pass.jpg)\n*Aasgard Pass, our next obstacle, to the left of Dragontail.*\n\nWe next made our way around the lake to the start of Aasgard Pass.\nThe trail somewhat disappeared here into a boulder field, but all the landmarks\nnearby made it impossible to get lost.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/aasgard-boulders.jpg)\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/up-aasgard.jpg)\n*Heading up Aasgard!*\n\nThe pass was very steep, but I was able to make it more fun for myself by going\nsomewhat off trail and scrambling between the boulders.\nFrequently I would have to stop and think about the best way to navigate the\nrocks.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/boulders-of-aasgard.jpg)\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/dragontail-from-aasgard.jpg)\n*Dragontail Peak from Aasgard Pass.*\n\nTowards the top of the pass I started running into more and more snow, under\nwhich I could hear the roar of water.\nBefore the trip I had read a harrowing report of a hiker walking on this very\nsnowfield.\nThe hiker fell through the snow and was swept downhill by the water, only being\nsaved by a lucky constriction in the underground river.\nMade me glad I was on the rocks.\n\nI noticed some climbers on a route to the left of me, on a beautiful very\nexposed spire.\nI also noticed a mountain goat and excitedly gestured towards it to some\nclimbers at the base.\nThey didn't seem very excited and later I felt a bit silly, as the goats were\neverywhere over the pass.\nIn fact, for the next couple miles there would always be at least one in sight.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/first-goat.jpg)\n*My first goat sighting!\nLater I would not need to zoom in so much to get a good shot.*\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/climbers-by-aasgard.jpg)\n*See if you can spot the climbers towards the top of the spire!*\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/goat-1.jpg)\n*A more normal goat sighting, just a little while further up the trail.*\n\nOnce we rounded the top of Aasgard, the valley below was like another world.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/over-aasgard.jpg)\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/snow-walkers.jpg)\n*Wending our way through the snow.*\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/blue-lakes.jpg)\n\nThe extremely cold lakes were a welcome way to fill up our water.\nOne of my companions had a neat squeezable bottle with a built in filter, so we\ncould easily drink directly from the snowmelt.\n\nThe next part of the hike was a bit of a slog, as we descended through lots of\nsnow looking for a good campsite.\nI was pretty tired at this point, so constantly not running into a good spot\nas we passed lake after lake was a bit disappointing.\n\nWe did have one exciting moment where we needed to cross a pretty steep\nsnowfield.\nI was first, and I tried to follow some goat tracks that made their way across.\nAs I was crossing, I slipped into an uncontrolled slide down the hill!\nLuckily the bottom petered out safely, but this was my first firsthand\nexperience with the dangers of steep snow travel, and why always being ready to\nself-arrest is so important.\n\nOthers tried to descend without sliding, but everyone slipped just like me so\neventually we just started having fun with it.\n\n[Sliding Video](https://photos.google.com/share/AF1QipOFMA41w7gbJRZeE4GOA0smt5OtV2XbNeQMEoZ8ZQHn3VXhaGVXOssPaNZjwn2zmQ/photo/AF1QipP5hc1v3dNjKZ_23Y8v5hxkoKLzCXLYlm5VRqKm?key=YXZsU3UxUkNPc2hWMVFVeElhRVFnTDQyeFFodkpR)\n\nTowards the end of our day, we finally found a good place to camp.\nThere was only one more obstacle to overcome: a rushing river draining out of a\nnearby lake.\nOur best way across after much searching was one of the snowbridges crossing the\nwater.\n\n[Snowbridge Video](https://photos.google.com/share/AF1QipOFMA41w7gbJRZeE4GOA0smt5OtV2XbNeQMEoZ8ZQHn3VXhaGVXOssPaNZjwn2zmQ/photo/AF1QipNPd3MisNH2f0zmVL9zHSAbqjcVtOnqDm9f5GeU?key=YXZsU3UxUkNPc2hWMVFVeElhRVFnTDQyeFFodkpR)\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/snowbridge-from-below.jpg)\n*None of the snowbridges were particularly confidence inspiring...*\n\nFinally, we started setting up camp.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/setting-tent.jpg)\n*Yours truly setting up a tent in my climbing shoes while unsuccessfully\nattempting to dry my boots.\nPrusik Peak, our goal for tomorrow is in the background.*\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/goat-at-camp.jpg)\n*The ever present goats were with us even at camp.\nOnce when taking a pee one came right up behind me and spooked me!\nThey seem to be attracted to pee residue.*\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/baby-goat.jpg)\n*Goats usually traveled in adorable families.*\n\n## Day 2: Prusik Peak\n\nThe next day, my climbing partner and I set out to climb Prusik Peak, whilst the\nothers went off on other various adventures.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/goat-prusik.jpg)\n\nFinding our way to the base of the climb was pretty fun; the wide open terrain\nmade it easy to see where we were going, yet still was engaging to traverse.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/rock-and-snow.jpg)\n*Walking on the gently sloping rock was pleasant and made the world feel wide\nopen for exploration.*\n\nFairly quickly, after needing to walk back on the trail from yesterday for a\ntime, we found ourselves at the base of the climb.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/prusik-topo.jpg)\n*A useful map we used to try to navigate up the west ridge of Prusik.\nWe still got somewhat lost at least once.*\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/prusik-base.jpg)\n\nAs you may see, the first \"pitch\" of the climb was really just a hike/scramble up what felt like a pile of boulders.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/down-first-pitch.jpg)\n*Looking down the first pitch.*\n\nThe views were, as expected, incredible.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/looking-at-camp.jpg)\n*Looking back at our camp (located by the waterfall draining into the lake) from\nearly on in the climb.*\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/prusik-panorama.jpg)\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/balance-rock.jpg)\n*Doing pitch 1 of climbing above \"Balanced Rock\".*\n\nThe climbing continued to be mostly an adventurous scramble more than a\ntechnical climb.\nI remember one moment distinctly where I was following my partner around a\ncorner while on belay.\nAs I rounded the corner, I couldn't help but smile as I saw the rope just\nhanging in the wind with no protection between me and my partner fairly far\naway, and the rest of the pitch just consisting of a flat - yet quite exposed -\nridge.  Falling would have been bad, but really it was unprotectable.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/pitch-2-and-3.jpg)\n*Looking up pitches 2 and 3, the crux slab pitch.*\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/prusik-west-ridge.jpg)\n*A shot of us, as well as several parties ahead of us.\nUnfortunately, our route did not take us up the beautiful steep slabs to the\nright.*\n\nThe route wound its way around large rock formations that made it hard to\ncommunicate and find the next belay.\nAs an illustration, the trickiest part of the climb was not actually physically\nchallenging, but a test of routefinding.\nJust after the crux slab (pitch 3), my partner, leading, had veered too far\nright and ran low on gear.\nWe think he may have found a belay for one of the steeper routes heading up the\nsouth side of the peak.\nEventually he was able to backtrack and get back on route, but there was a time\nI was just sitting there nervously waiting - walkie talkies would have been\nnice.\n\nThe best climbing in my opinion was at the very top (pitch 5), where we found\nsome solid cracks to climb and even a chimney to squeeze through!\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/crack.jpg)\n*A crack on pitch 5.*\n\nAfter these pitches, we found ourselves at the summit.\nIt was cool to see all the other, harder routes on the south side of the peak\nfacing our camp site from above.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/prusik-summit.jpg)\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/prusik-summit-from-camp.jpg)\n*A picture of (we think) us at the summit, taken from our campsite.\nShows off some of the harder routes, one of them being currently climbed!*\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/summit-spires.jpg)\n*From the summit we could see other sheer spires continuing down the ridge.\nThis area really has so much high quality climbing to explore!*\n\nSoon enough, we started descending, almost directly behind another party.\nAll the rappel stations were rap rings through slings of a questionable age,\nbut they all had 3-4 slings piled up redundantly so I felt pretty good about\nthem.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/dark-rappel.jpg)\n*It started getting a little gloomy as we descended, giving us some extra\nmotivation to get down.*\n\nOnce we got to the bottom, we found ourselves right in the middle of some steep\nsnowfields.\nThe party ahead of us had completely disappeared, without even leaving\nfootsteps, so we were quite confused about where to go.\nWe ended up having to do a lot of rough traversing of steep snow to get back to\nthe start of the climb.\nWe kicked our climbing shoes into the snow toe first up to our heels to stay\nsecure and avoid slipping into a slide like yesterday on the trail - the runout\nhere was much less friendly looking!\nI felt bad for my partner, who had tighter, less comfortable shoes than me.\n    \n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/prusik-descent-snowfields.jpg)\n*The snowfields we had to traverse to get back to the start of the climb.*\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/steep-snowfields.jpg)\n*Some fields were extremely steep and we spent a lot of time trying to find the\nsafest way around them.*\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/return-to-balance-rock.jpg)\n*The start of our climb in sight: \"Balanced Rock\"!*\n\nLuckily, we eventually made it back to the start of the climb without incident.\nThe hike back to camp was just as enjoyable as the walk there - a relaxing\nadventure finding our own way over the fields of rock slab.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/prusik-looking-back.jpg)\n\nDinner time!\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/diet.jpg)\n*My diet throughout the trip: I pretty much just ate raw rolled oats, peanut\nbutter, and dried mango for every meal.\nNormally my digestion wouldn't tolerate this very well (especially the peanut\nbutter), but something about the constant exercise or environment made me feel\ngreat digestive speaking the whole time!*\n\nThat night we played some cards and tried our best to ignore the incessant loud wind rushing through our campsite while sleeping.\n\n## Day 3: The Long Walk Out\n\nOur last day started with us packing up camp and chatting with other hikers making their way through the same trail.\n\nAs one of these groups passed by, one of their members tried to jump over the\nsketchy snowbridge we had crossed the day before and landed full force right in\nthe middle of it.\nOf course, their heel broke through and I watched in horror as I expected them\nto be swept away by the river.\nAmazingly, the rest of the snow held, letting them get out of the way, but the\nbridge was destroyed.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/snowbridge-broken.jpg)\n*Note the footsteps leading up to the broken bridge.*\n\n[This\nvideo](https://photos.google.com/share/AF1QipOFMA41w7gbJRZeE4GOA0smt5OtV2XbNeQMEoZ8ZQHn3VXhaGVXOssPaNZjwn2zmQ/photo/AF1QipPndRWhlthwdO6l4w8ZbopSRoKgSFsD9Dp6jgW6?key=YXZsU3UxUkNPc2hWMVFVeElhRVFnTDQyeFFodkpR)\nshows the entire snowbridge area, post destruction.\nNote that the snow on the far side of the river was too steep to allow access to\nthe bridge downstream to the right of the initial frame.\n\nAfter the breakage, the rest of the group opted to wade through the river\nupstream, which was treacherous in its own right (deep cold water with slippery\nstones below), but at least was a known quantity.\n\nOnce packed up, we started our hike out.\nAt first we traversed through the fun rock slabs we had explored all of\nyesterday, but soon the trail became a much more standard walk in the woods.\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/rebar-steps.jpg)\n*The trail was very well maintained, with steel traction bars added to this\nparticularly steep and wet section.*\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/transition.jpg)\n*The transition from rocky alpine terrain to forest.*\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/forest-and-lakes.jpg)\n*A typical view on the way down.*\n\nThe temperature got steadily more hot and humid as we descended and,\nthematically, the final area we walked through to get to the car was a hot, dry,\ndusty valley full of burned trees from a forest fire.\nBy the end I was very thankful the hike was over!\n\n![](/docs/climbing/event-reports/2024-7-enchantments-prusik-peak-pics/before-and-after.jpg)\n*Us before and after the trip.*\n\n## Lessons Learned For Future Trips\n\n - The squeezable water bottle with a built in filter I used a couple times was\n   super handy - I should get one.\n - Poles were particularly useful when backpacking.\n - Wind at night can be very loud and annoying.\n   It may be worth trying earplugs or something similar for future trips.\n - Walkie talkies would have been very useful for communication on the climb,\n   and possibly even on the hike depending on their range.\n - Staying as high as possible on the rappel down from the climb may have given\n   us some opportunities to avoid the steep snowfields.\n - Someone in our group had a Garmin watch which showed our exact position on a\n   map and our progress on an elevation gain chart.\n   This was very nice to refer to every so often to satisfy curiosity.\n - My boots got very wet after the first day of hiking, and I had trouble drying\n   them for the rest of the trip.\n   Next time I should bring a second pair of shoes besides climbing shoes, and\n   do some research about the best way to dry boots overnight in the wilderness."
   :name "2024-7-enchantments-prusik-peak.md"
   :private false
   :categories #{"Climbing"
-                "Event Reports"
-                "Recent"}
+                "Event Reports"}
   :dir? false
   :links []
-  :size 17460
-  :modtime 1755394633
+  :size 17452
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Climbing"
                      "Event Reports"}
   :path "content/docs/climbing/event-reports/first-512.md"
@@ -398,9 +471,9 @@
   :dir? false
   :links []
   :size 283
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Datavis"}
   :path "content/docs/datavis/clerk-notebooks.md"
   :backlinks nil
@@ -412,9 +485,9 @@
   :dir? false
   :links []
   :size 258
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Datavis"}
   :path "content/docs/datavis/inspiration.md"
   :backlinks nil
@@ -426,9 +499,9 @@
   :dir? false
   :links []
   :size 252
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Datavis"}
   :path "content/docs/datavis/reddit-tree.md"
   :backlinks nil
@@ -440,9 +513,9 @@
   :dir? false
   :links []
   :size 908
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Datavis"}
   :path "content/docs/datavis/seattle-rain.md"
   :backlinks nil
@@ -454,9 +527,9 @@
   :dir? false
   :links []
   :size 2149
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Favorites"}
   :path "content/docs/favorites/favorite-music.md"
   :backlinks nil
@@ -468,9 +541,9 @@
   :dir? false
   :links []
   :size 1141
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Favorites"}
   :path "content/docs/favorites/game-tier-lists.md"
   :backlinks nil
@@ -483,9 +556,9 @@
   :dir? false
   :links []
   :size 4234
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Gamedev"}
   :path "content/docs/gamedev/bringing-players-together.md"
   :backlinks nil
@@ -497,9 +570,9 @@
   :dir? false
   :links []
   :size 250
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Gamedev"}
   :path "content/docs/gamedev/common-patterns.md"
   :backlinks nil
@@ -512,9 +585,9 @@
   :links ["/docs/games/fell-seal-arbiters-mark.md"
           "/docs/games/XCOM-2-+-War-of-the-Chosen.md"]
   :size 2489
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Gamedev"}
   :path "content/docs/gamedev/gamedev-context.md"
   :backlinks #{"content/docs/mind/creativity.md"}
@@ -526,9 +599,9 @@
   :dir? false
   :links []
   :size 394
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Gamedev"}
   :path "content/docs/gamedev/managing-player-failure.md"
   :backlinks nil
@@ -540,9 +613,9 @@
   :dir? false
   :links ["/docs/games/iron-danger.md"]
   :size 1442
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Gamedev"}
   :path "content/docs/gamedev/my-projects.md"
   :backlinks nil
@@ -554,9 +627,9 @@
   :dir? false
   :links []
   :size 1624
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Gamedev"}
   :path "content/docs/gamedev/real-time-strategy.md"
   :backlinks nil
@@ -570,9 +643,9 @@
           "/docs/games/Rimworld.md"
           "/docs/games/oxygen-not-included.md"]
   :size 649
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Gamedev"}
   :path "content/docs/gamedev/social-games.md"
   :backlinks nil
@@ -584,9 +657,9 @@
   :dir? false
   :links []
   :size 943
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Gamedev"}
   :path "content/docs/gamedev/useful-tools.md"
   :backlinks nil
@@ -598,9 +671,9 @@
   :dir? false
   :links []
   :size 258
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Gamedev"
                      "Game Ideas"}
   :path "content/docs/gamedev/game-ideas/farming-video-game.md"
@@ -614,9 +687,9 @@
   :dir? false
   :links ["/"]
   :size 894
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Gamedev"
                      "Game Ideas"}
   :path "content/docs/gamedev/game-ideas/honorable-extraction-looter.md"
@@ -630,9 +703,9 @@
   :dir? false
   :links []
   :size 1024
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Gamedev"
                      "Game Ideas"}
   :path "content/docs/gamedev/game-ideas/keyboard-city-builder.md"
@@ -646,9 +719,9 @@
   :dir? false
   :links ["/"]
   :size 365
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Gamedev"
                      "Game Ideas"}
   :path "content/docs/gamedev/game-ideas/roguelike-base-builder.md"
@@ -662,9 +735,9 @@
   :dir? false
   :links ["/"]
   :size 2135
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Gamedev"
                      "Game Ideas"}
   :path "content/docs/gamedev/game-ideas/safe-building-designer.md"
@@ -678,9 +751,9 @@
   :dir? false
   :links ["/"]
   :size 623
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Gamedev"
                      "Game Ideas"}
   :path "content/docs/gamedev/game-ideas/trading-card-mmorpg.md"
@@ -694,9 +767,9 @@
   :dir? false
   :links []
   :size 811
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Gamedev"
                      "Mechanic Ideas"}
   :path "content/docs/gamedev/mechanic-ideas/Random-Balance.md"
@@ -710,9 +783,9 @@
   :dir? false
   :links []
   :size 496
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Gamedev"
                      "Mechanic Ideas"}
   :path "content/docs/gamedev/mechanic-ideas/character-alignment.md"
@@ -726,9 +799,9 @@
   :dir? false
   :links ["/"]
   :size 570
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Gamedev"
                      "Mechanic Ideas"}
   :path "content/docs/gamedev/mechanic-ideas/clairvoyant-turn-based-tactics.md"
@@ -742,9 +815,9 @@
   :dir? false
   :links ["/"]
   :size 976
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Gamedev"
                      "Mechanic Ideas"}
   :path "content/docs/gamedev/mechanic-ideas/limiting-collaboration.md"
@@ -759,9 +832,9 @@
   :links ["/docs/games/dead-of-winter.md"
           "/"]
   :size 4001
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Gamedev"
                      "Mechanic Ideas"}
   :path "content/docs/gamedev/mechanic-ideas/low-friction-turn-based-tactics.md"
@@ -775,9 +848,9 @@
   :dir? false
   :links ["/"]
   :size 3321
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Gamedev"
                      "Mechanic Ideas"}
   :path "content/docs/gamedev/mechanic-ideas/positional-turn-based-combat.md"
@@ -791,9 +864,9 @@
   :dir? false
   :links []
   :size 2850
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Gamedev"
                      "Mechanic Ideas"}
   :path "content/docs/gamedev/mechanic-ideas/random-technologies.md"
@@ -807,9 +880,9 @@
   :dir? false
   :links ["/docs/books/why-greatness-cannot-be-planned.md"]
   :size 805
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/Age-of-Darkness:-Final-Stand.md"
   :backlinks nil
@@ -822,9 +895,9 @@
   :dir? false
   :links ["/docs/feelings.md"]
   :size 302
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/Apex-Legends.md"
   :backlinks nil
@@ -839,9 +912,9 @@
   :dir? false
   :links ["/docs/feelings.md"]
   :size 322
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/Backpack-Hero.md"
   :backlinks nil
@@ -854,9 +927,9 @@
   :dir? false
   :links []
   :size 200
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/Bad-North.md"
   :backlinks nil
@@ -869,9 +942,9 @@
   :dir? false
   :links []
   :size 115
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/Bananagrams.md"
   :backlinks nil
@@ -884,9 +957,9 @@
   :dir? false
   :links []
   :size 712
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/Beat-Saber.md"
   :backlinks nil
@@ -899,9 +972,9 @@
   :links ["/docs/feelings.md"
           "/docs/feelings.md"]
   :size 288
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/Bike-Commuting.md"
   :backlinks nil
@@ -915,9 +988,9 @@
   :dir? false
   :links ["/docs/feelings.md"]
   :size 338
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/Browsing-Hacker-News.md"
   :backlinks nil
@@ -932,9 +1005,9 @@
   :links ["/docs/feelings.md"
           "/docs/feelings.md"]
   :size 293
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/CoD:-MW2.md"
   :backlinks nil
@@ -947,9 +1020,9 @@
   :dir? false
   :links []
   :size 252
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/Codenames.md"
   :backlinks nil
@@ -962,9 +1035,9 @@
   :dir? false
   :links []
   :size 497
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/Comparing-prices.md"
   :backlinks nil
@@ -978,9 +1051,9 @@
   :links ["/docs/feelings.md"
           "/docs/feelings.md"]
   :size 468
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/Counter-Strike.md"
   :backlinks #{"content/docs/recent-interests.md"}
@@ -992,9 +1065,9 @@
   :dir? false
   :links []
   :size 108
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/DAT-Creativity.md"
   :backlinks nil
@@ -1006,9 +1079,9 @@
   :dir? false
   :links ["/docs/feelings.md"]
   :size 289
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/Drafting-Magic:-The-Gathering.md"
   :backlinks nil
@@ -1022,9 +1095,9 @@
   :dir? false
   :links []
   :size 780
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/Infinite-Craft.md"
   :backlinks nil
@@ -1036,9 +1109,9 @@
   :dir? false
   :links []
   :size 101
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/Islanders.md"
   :backlinks nil
@@ -1053,9 +1126,9 @@
   :dir? false
   :links ["/docs/feelings.md"]
   :size 333
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/Longwave.md"
   :backlinks nil
@@ -1068,9 +1141,9 @@
   :dir? false
   :links []
   :size 198
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/Making-Small-Web-Apps-in-ClojureScript-with-Reagent.md"
   :backlinks nil
@@ -1084,9 +1157,9 @@
   :links ["/docs/feelings.md"
           "/docs/feelings.md"]
   :size 309
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/Offworld-Trading-Company.md"
   :backlinks #{"content/docs/gamedev/real-time-strategy.md"}
@@ -1099,9 +1172,9 @@
   :dir? false
   :links []
   :size 179
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/Opus-Magnum.md"
   :backlinks nil
@@ -1115,9 +1188,9 @@
   :dir? false
   :links []
   :size 209
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/Overwatch.md"
   :backlinks nil
@@ -1130,9 +1203,9 @@
   :dir? false
   :links []
   :size 2141
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/Puzzgrid.md"
   :backlinks nil
@@ -1146,9 +1219,9 @@
   :dir? false
   :links []
   :size 171
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/Quordle.md"
   :backlinks nil
@@ -1162,9 +1235,9 @@
   :dir? false
   :links ["/docs/feelings.md"]
   :size 365
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/Rainbow-6:-Siege.md"
   :backlinks nil
@@ -1177,9 +1250,9 @@
   :dir? false
   :links []
   :size 1437
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/Redditing.md"
   :backlinks nil
@@ -1196,9 +1269,9 @@
           "/docs/feelings.md"
           "/docs/feelings.md"]
   :size 532
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/Rimworld.md"
   :backlinks #{"content/docs/gamedev/real-time-strategy.md"}
@@ -1211,9 +1284,9 @@
   :dir? false
   :links []
   :size 243
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/Semantle.md"
   :backlinks nil
@@ -1227,9 +1300,9 @@
   :dir? false
   :links ["/docs/feelings.md"]
   :size 287
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/Slipways.md"
   :backlinks nil
@@ -1244,9 +1317,9 @@
   :dir? false
   :links ["/docs/feelings.md"]
   :size 314
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/The-Witness.md"
   :backlinks nil
@@ -1259,9 +1332,9 @@
   :dir? false
   :links []
   :size 180
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/Three-Worlds-Collide.md"
   :backlinks nil
@@ -1275,9 +1348,9 @@
   :dir? false
   :links ["/docs/feelings.md"]
   :size 308
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/Wordle.md"
   :backlinks nil
@@ -1291,9 +1364,9 @@
   :dir? false
   :links ["/docs/feelings.md"]
   :size 263
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/XCOM-2-+-War-of-the-Chosen.md"
   :backlinks #{"content/docs/gamedev/common-patterns.md"}
@@ -1308,9 +1381,9 @@
   :dir? false
   :links []
   :size 310
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/battle-brothers.md"
   :backlinks nil
@@ -1324,9 +1397,9 @@
   :dir? false
   :links ["/docs/feelings.md"]
   :size 1849
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/chess.md"
   :backlinks nil
@@ -1340,9 +1413,9 @@
   :dir? false
   :links []
   :size 577
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/counter-strike.md.md"
   :backlinks nil
@@ -1354,9 +1427,9 @@
   :dir? false
   :links []
   :size 80
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/dark-and-darker.md"
   :backlinks nil
@@ -1369,9 +1442,9 @@
   :dir? false
   :links []
   :size 324
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/darkest-dungeon.md"
   :backlinks nil
@@ -1386,9 +1459,9 @@
   :dir? false
   :links []
   :size 255
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/dead-of-winter.md"
   :backlinks #{"content/docs/gamedev/mechanic-ideas/limiting-collaboration.md"}
@@ -1401,9 +1474,9 @@
   :links ["/docs/gamedev/mechanic-ideas/limiting-collaboration.md"
           "/docs/feelings.md"]
   :size 1146
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/druidstone.md"
   :backlinks nil
@@ -1415,9 +1488,9 @@
   :dir? false
   :links []
   :size 134
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/fell-seal-arbiters-mark.md"
   :backlinks #{"content/docs/gamedev/common-patterns.md"}
@@ -1432,9 +1505,9 @@
   :dir? false
   :links []
   :size 888
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/fire-emblem-the-sacred-stones.md"
   :backlinks nil
@@ -1450,9 +1523,9 @@
   :dir? false
   :links []
   :size 1703
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/iratus.md"
   :backlinks nil
@@ -1464,9 +1537,9 @@
   :dir? false
   :links []
   :size 1042
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/iron-danger.md"
   :backlinks #{"content/docs/gamedev/managing-player-failure.md"}
@@ -1480,9 +1553,9 @@
   :dir? false
   :links []
   :size 388
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/oxygen-not-included.md"
   :backlinks #{"content/docs/gamedev/real-time-strategy.md"}
@@ -1495,9 +1568,9 @@
   :dir? false
   :links []
   :size 577
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/ozymandias.md"
   :backlinks nil
@@ -1512,9 +1585,9 @@
   :dir? false
   :links []
   :size 238
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/pathfinder-kingmaker.md"
   :backlinks nil
@@ -1527,9 +1600,9 @@
   :dir? false
   :links []
   :size 598
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/pillars-of-eternity-2.md"
   :backlinks nil
@@ -1542,9 +1615,9 @@
   :dir? false
   :links []
   :size 363
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/skyrim.md"
   :backlinks nil
@@ -1557,9 +1630,9 @@
   :dir? false
   :links ["/"]
   :size 228
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/solasta.md"
   :backlinks nil
@@ -1571,9 +1644,9 @@
   :dir? false
   :links []
   :size 129
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/subnautica.md"
   :backlinks nil
@@ -1587,9 +1660,9 @@
   :dir? false
   :links []
   :size 177
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/symphony-of-war.md"
   :backlinks nil
@@ -1602,9 +1675,9 @@
   :dir? false
   :links []
   :size 374
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/terra-mystica.md"
   :backlinks nil
@@ -1616,9 +1689,9 @@
   :dir? false
   :links []
   :size 366
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Games"}
   :path "content/docs/games/the-last-spell.md"
   :backlinks nil
@@ -1630,9 +1703,9 @@
   :dir? false
   :links []
   :size 270
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Gaming"}
   :path "content/docs/gaming/buying-games.md"
   :backlinks nil
@@ -1644,9 +1717,9 @@
   :dir? false
   :links []
   :size 963
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Gaming"}
   :path "content/docs/gaming/fps-principles.md"
   :backlinks nil
@@ -1658,9 +1731,9 @@
   :dir? false
   :links []
   :size 6886
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Gaming"}
   :path "content/docs/gaming/microphone-setup.md"
   :backlinks nil
@@ -1672,9 +1745,9 @@
   :dir? false
   :links []
   :size 512
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Gaming"}
   :path "content/docs/gaming/monitor-notes.md"
   :backlinks nil
@@ -1686,9 +1759,9 @@
   :dir? false
   :links []
   :size 1651
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Gaming"}
   :path "content/docs/gaming/recommendations.md"
   :backlinks #{"content/docs/gaming/recommendations.md"}
@@ -1702,9 +1775,9 @@
           "/docs/lifestyle-optimizations/experiences.md"
           "/docs/lifestyle-optimizations/experiences.md"]
   :size 533
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/aging-science.md"
   :backlinks nil
@@ -1722,9 +1795,9 @@
           "/docs/health-and-longevity/food.md"
           "/docs/health-and-longevity/chronic-stress.md"]
   :size 2103
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/alt-health.md"
   :backlinks #{"content/docs/recent-interests.md"}
@@ -1737,9 +1810,9 @@
   :dir? false
   :links []
   :size 8432
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/avoiding-accidents.md"
   :backlinks nil
@@ -1751,9 +1824,9 @@
   :dir? false
   :links []
   :size 309
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/baking.md"
   :backlinks nil
@@ -1765,9 +1838,9 @@
   :dir? false
   :links []
   :size 5577
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/biomarker-correlator.md"
   :backlinks #{"content/docs/health-and-longevity/food.md"
@@ -1780,9 +1853,9 @@
   :dir? false
   :links []
   :size 342
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/causes-of-death.md"
   :backlinks nil
@@ -1794,9 +1867,9 @@
   :dir? false
   :links []
   :size 858
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/chronic-stress.md"
   :backlinks #{"content/docs/manifesto.md"
@@ -1809,9 +1882,9 @@
   :dir? false
   :links []
   :size 174
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/circadian-rhythm.md"
   :backlinks #{"content/docs/manifesto.md"}
@@ -1823,9 +1896,9 @@
   :dir? false
   :links []
   :size 167
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/continuous-glucose-monitoring.md"
   :backlinks #{"content/docs/health-and-longevity/tracking-health.md"
@@ -1838,9 +1911,9 @@
   :dir? false
   :links []
   :size 1549
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/cooking.md"
   :backlinks #{"content/docs/lifestyle-optimizations/daily-habits.md"}
@@ -1852,9 +1925,9 @@
   :dir? false
   :links []
   :size 4901
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/dental-health.md"
   :backlinks nil
@@ -1866,9 +1939,9 @@
   :dir? false
   :links []
   :size 200
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/dna-testing.md"
   :backlinks nil
@@ -1880,9 +1953,9 @@
   :dir? false
   :links []
   :size 735
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/exercise.md"
   :backlinks #{"content/docs/manifesto.md"
@@ -1895,9 +1968,9 @@
   :dir? false
   :links []
   :size 177
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/fasting.md"
   :backlinks #{"content/docs/health-and-longevity/food.md"}
@@ -1909,9 +1982,9 @@
   :dir? false
   :links []
   :size 6020
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/finding-care.md"
   :backlinks nil
@@ -1923,9 +1996,9 @@
   :dir? false
   :links []
   :size 340
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/food.md"
   :backlinks #{"content/docs/manifesto.md"
@@ -1941,9 +2014,9 @@
           "/docs/health-and-longevity/biomarker-correlator.md"
           "/docs/understanding-the-world/influences.md#the-beginning-of-infinity-by-david-deutschhttpsenwikipediaorgwikithe_beginning_of_infinity"]
   :size 17111
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/health-behavior-change-pitfalls.md"
   :backlinks nil
@@ -1955,9 +2028,9 @@
   :dir? false
   :links []
   :size 4647
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/influences.md"
   :backlinks nil
@@ -1969,9 +2042,9 @@
   :dir? false
   :links ["/docs/health-and-longevity/sens.md"]
   :size 9482
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/misc-research.md"
   :backlinks nil
@@ -1983,9 +2056,9 @@
   :dir? false
   :links []
   :size 474
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/my-physiological-states.md"
   :backlinks nil
@@ -1997,9 +2070,9 @@
   :dir? false
   :links []
   :size 701
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/personal-specific-food-notes.md"
   :backlinks nil
@@ -2011,9 +2084,9 @@
   :dir? false
   :links []
   :size 503
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/posture.md"
   :backlinks nil
@@ -2025,9 +2098,9 @@
   :dir? false
   :links []
   :size 325
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/sens.md"
   :backlinks #{"content/docs/health-and-longevity/influences.md"}
@@ -2039,9 +2112,9 @@
   :dir? false
   :links ["/docs/understanding-the-world/what-to-believe.md"]
   :size 852
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/sleep.md"
   :backlinks #{"content/docs/manifesto.md"
@@ -2056,9 +2129,9 @@
   :dir? false
   :links ["/docs/lifestyle-optimizations/task-tracking.md"]
   :size 6067
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/theories-of-aging.md"
   :backlinks #{"content/docs/health-and-longevity/aging-science.md"}
@@ -2071,9 +2144,9 @@
   :dir? false
   :links []
   :size 2158
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/tracking-food.md"
   :backlinks #{"content/docs/health-and-longevity/tracking-health.md"}
@@ -2085,9 +2158,9 @@
   :dir? false
   :links []
   :size 4236
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/tracking-health.md"
   :backlinks #{"content/docs/lifelogging/what-and-why.md"}
@@ -2100,9 +2173,9 @@
   :links ["/docs/health-and-longevity/tracking-food.md"
           "/docs/health-and-longevity/continuous-glucose-monitoring.md"]
   :size 3679
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/unhealthy-food.md"
   :backlinks nil
@@ -2114,9 +2187,9 @@
   :dir? false
   :links []
   :size 398
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Hobbies"}
   :path "content/docs/hobbies/Lead-Climbing-in-a-Gym.md"
   :backlinks nil
@@ -2135,9 +2208,9 @@
           "/docs/feelings.md"
           "/docs/feelings.md"]
   :size 526
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Hobbies"}
   :path "content/docs/hobbies/Yo-Yoing.md"
   :backlinks nil
@@ -2149,9 +2222,9 @@
   :dir? false
   :links ["/docs/feelings.md"]
   :size 225
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Housing"}
   :path "content/docs/housing/home-energy-monitoring.md"
   :backlinks nil
@@ -2163,9 +2236,9 @@
   :dir? false
   :links []
   :size 884
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Housing"}
   :path "content/docs/housing/projects.md"
   :backlinks nil
@@ -2177,9 +2250,9 @@
   :dir? false
   :links []
   :size 370
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Hydroponics"}
   :path "content/docs/hydroponics/journal.md"
   :backlinks nil
@@ -2191,9 +2264,9 @@
   :dir? false
   :links []
   :size 1581
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Hydroponics"}
   :path "content/docs/hydroponics/my-setup.md"
   :backlinks nil
@@ -2205,9 +2278,9 @@
   :dir? false
   :links []
   :size 4434
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Investing And Finances"}
   :path "content/docs/investing-and-finances/comprehensive-housing-return-estimator.md"
   :backlinks nil
@@ -2219,9 +2292,9 @@
   :dir? false
   :links []
   :size 12009
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Investing And Finances"}
   :path "content/docs/investing-and-finances/financial-independence.md"
   :backlinks nil
@@ -2233,9 +2306,9 @@
   :dir? false
   :links []
   :size 812
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Investing And Finances"}
   :path "content/docs/investing-and-finances/housing.md"
   :backlinks nil
@@ -2247,9 +2320,9 @@
   :dir? false
   :links []
   :size 1582
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Investing And Finances"}
   :path "content/docs/investing-and-finances/influences.md"
   :backlinks nil
@@ -2261,9 +2334,9 @@
   :dir? false
   :links ["/docs/understanding-the-world/influences.md"]
   :size 1435
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Investing And Finances"}
   :path "content/docs/investing-and-finances/monthly-costs-of-car-ownership.md"
   :backlinks nil
@@ -2275,9 +2348,9 @@
   :dir? false
   :links []
   :size 542
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Investing And Finances"}
   :path "content/docs/investing-and-finances/personal-portfolio.md"
   :backlinks nil
@@ -2289,9 +2362,9 @@
   :dir? false
   :links []
   :size 2717
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Investing And Finances"}
   :path "content/docs/investing-and-finances/strategies.md"
   :backlinks nil
@@ -2303,9 +2376,9 @@
   :dir? false
   :links []
   :size 5390
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Investing And Finances"}
   :path "content/docs/investing-and-finances/taxes.md"
   :backlinks nil
@@ -2317,9 +2390,9 @@
   :dir? false
   :links []
   :size 2849
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Lifelogging"}
   :path "content/docs/lifelogging/2025-update.md"
   :backlinks nil
@@ -2332,9 +2405,9 @@
   :links ["/docs/lifestyle-optimizations/daily-habits.md"
           "/docs/lifelogging/camera.md"]
   :size 5501
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Lifelogging"}
   :path "content/docs/lifelogging/camera.md"
   :backlinks #{"content/docs/lifelogging/2025-update.md"
@@ -2347,9 +2420,9 @@
   :dir? false
   :links []
   :size 1180
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Lifelogging"}
   :path "content/docs/lifelogging/influences.md"
   :backlinks nil
@@ -2361,9 +2434,9 @@
   :dir? false
   :links []
   :size 656
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Lifelogging"}
   :path "content/docs/lifelogging/screenshot-logging.md"
   :backlinks nil
@@ -2375,9 +2448,9 @@
   :dir? false
   :links []
   :size 765
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Lifelogging"}
   :path "content/docs/lifelogging/what-and-why.md"
   :backlinks #{"content/docs/lifestyle-optimizations/daily-habits.md"}
@@ -2394,9 +2467,9 @@
           "/docs/health-and-longevity/biomarker-correlator.md"
           "/docs/health-and-longevity/continuous-glucose-monitoring.md"]
   :size 8998
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/android-apps.md"
   :backlinks nil
@@ -2408,9 +2481,9 @@
   :dir? false
   :links []
   :size 1367
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/being-competitive.md"
   :backlinks nil
@@ -2422,9 +2495,9 @@
   :dir? false
   :links []
   :size 1964
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/bike-commuting.md"
   :backlinks nil
@@ -2436,9 +2509,9 @@
   :dir? false
   :links []
   :size 8727
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/daily-habits.md"
   :backlinks #{"content/docs/health-and-longevity/food.md"
@@ -2453,9 +2526,9 @@
   :links ["/docs/health-and-longevity/cooking.md"
           "/docs/lifelogging/what-and-why.md"]
   :size 6672
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/daily-physiological-tricks.md"
   :backlinks nil
@@ -2469,9 +2542,9 @@
           "/docs/understanding-the-world/productive-conversations.md"
           "/docs/health-and-longevity/sleep.md"]
   :size 2534
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/elements-of-a-good-day.md"
   :backlinks nil
@@ -2483,9 +2556,9 @@
   :dir? false
   :links []
   :size 648
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/experiences.md"
   :backlinks #{"content/docs/gaming/recommendations.md"
@@ -2498,9 +2571,9 @@
   :dir? false
   :links ["/docs/thought-experiments/mind-mapping-concept.md"]
   :size 614
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/footwear.md"
   :backlinks nil
@@ -2513,9 +2586,9 @@
   :dir? false
   :links []
   :size 1153
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/geographical-maps.md"
   :backlinks nil
@@ -2527,9 +2600,9 @@
   :dir? false
   :links []
   :size 268
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/hang-drying-clothes.md"
   :backlinks nil
@@ -2541,9 +2614,9 @@
   :dir? false
   :links []
   :size 2610
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/home-network-and-internet-troubleshooting.md"
   :backlinks nil
@@ -2555,9 +2628,9 @@
   :dir? false
   :links []
   :size 820
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/house-diy.md"
   :backlinks nil
@@ -2569,9 +2642,9 @@
   :dir? false
   :links []
   :size 167
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/keyboards-and-typing.md"
   :backlinks #{"content/docs/recent-interests.md"}
@@ -2584,9 +2657,9 @@
   :dir? false
   :links []
   :size 8373
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/life-advice.md"
   :backlinks nil
@@ -2598,9 +2671,9 @@
   :dir? false
   :links []
   :size 268
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/listening-to-books.md"
   :backlinks nil
@@ -2612,9 +2685,9 @@
   :dir? false
   :links []
   :size 895
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/making-friends.md"
   :backlinks nil
@@ -2626,9 +2699,9 @@
   :dir? false
   :links []
   :size 134
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/mice.md"
   :backlinks nil
@@ -2640,9 +2713,9 @@
   :dir? false
   :links []
   :size 2438
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/my-computer-configuration-dotfiles.md"
   :backlinks nil
@@ -2654,9 +2727,9 @@
   :dir? false
   :links []
   :size 6251
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/no-ad-youtube-viewing.md"
   :backlinks nil
@@ -2668,9 +2741,9 @@
   :dir? false
   :links []
   :size 854
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/personal-data-management.md"
   :backlinks nil
@@ -2682,9 +2755,9 @@
   :dir? false
   :links []
   :size 690
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/phone-case.md"
   :backlinks nil
@@ -2696,9 +2769,9 @@
   :dir? false
   :links []
   :size 1109
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/task-tracking.md"
   :backlinks #{"content/docs/health-and-longevity/sleep.md"
@@ -2711,9 +2784,9 @@
   :dir? false
   :links []
   :size 2331
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/taut-line-hitch.md"
   :backlinks nil
@@ -2725,9 +2798,9 @@
   :dir? false
   :links []
   :size 539
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/this-website.md"
   :backlinks nil
@@ -2739,9 +2812,9 @@
   :dir? false
   :links []
   :size 1381
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/travel.md"
   :backlinks nil
@@ -2754,9 +2827,9 @@
   :dir? false
   :links []
   :size 241
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/vim-tricks.md"
   :backlinks nil
@@ -2768,9 +2841,9 @@
   :dir? false
   :links []
   :size 149
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/writing.md"
   :backlinks nil
@@ -2782,9 +2855,9 @@
   :dir? false
   :links []
   :size 1090
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/absorbing-and-professing.md"
   :backlinks nil
@@ -2796,9 +2869,9 @@
   :dir? false
   :links []
   :size 7467
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/behavior-change.md"
   :backlinks nil
@@ -2810,9 +2883,9 @@
   :dir? false
   :links []
   :size 593
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/brain-juice.md"
   :backlinks nil
@@ -2824,9 +2897,9 @@
   :dir? false
   :links []
   :size 491
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/contentment.md"
   :backlinks nil
@@ -2838,9 +2911,9 @@
   :dir? false
   :links []
   :size 1530
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/creativity.md"
   :backlinks #{"content/docs/manifesto.md"
@@ -2856,9 +2929,9 @@
   :links ["/docs/gamedev/gamedev-context.md"
           "/docs/understanding-the-world/copyright-and-ip.md"]
   :size 3239
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/desires-and-deprivation.md"
   :backlinks nil
@@ -2870,9 +2943,9 @@
   :dir? false
   :links []
   :size 1165
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/education.md"
   :backlinks nil
@@ -2884,9 +2957,9 @@
   :dir? false
   :links []
   :size 6529
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/friendship.md"
   :backlinks nil
@@ -2898,9 +2971,9 @@
   :dir? false
   :links []
   :size 317
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/how-to-do-hard-tasks.md"
   :backlinks nil
@@ -2912,9 +2985,9 @@
   :dir? false
   :links ["/docs/mind/motivation.md"]
   :size 5091
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/influences.md"
   :backlinks nil
@@ -2926,9 +2999,9 @@
   :dir? false
   :links []
   :size 1471
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/intelligence.md"
   :backlinks nil
@@ -2940,9 +3013,9 @@
   :dir? false
   :links []
   :size 1831
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/motivation.md"
   :backlinks #{"content/docs/manifesto.md"
@@ -2957,9 +3030,9 @@
   :links ["/docs/mind/creativity.md"
           "/docs/mind/creativity.md"]
   :size 12574
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/myers-briggs-personality-typing.md"
   :backlinks nil
@@ -2971,9 +3044,9 @@
   :dir? false
   :links []
   :size 1284
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/optimism.md"
   :backlinks #{"content/docs/potential-life-missions.md"
@@ -2986,9 +3059,9 @@
   :dir? false
   :links []
   :size 2319
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/perspective.md"
   :backlinks #{"content/docs/understanding-the-world/what-to-believe.md"}
@@ -3000,9 +3073,9 @@
   :dir? false
   :links []
   :size 4885
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/socializing.md"
   :backlinks nil
@@ -3014,9 +3087,9 @@
   :dir? false
   :links []
   :size 1302
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/standard-of-thought.md"
   :backlinks nil
@@ -3029,9 +3102,9 @@
   :dir? false
   :links []
   :size 2156
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/things-to-do-when-unmotivated.md"
   :backlinks #{"content/docs/lifestyle-optimizations/daily-physiological-tricks.md"}
@@ -3043,9 +3116,9 @@
   :dir? false
   :links ["/docs/mind/motivation.md"]
   :size 2725
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/working-with-others.md"
   :backlinks nil
@@ -3057,9 +3130,9 @@
   :dir? false
   :links []
   :size 7487
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Morality"}
   :path "content/docs/morality/altruism.md"
   :backlinks nil
@@ -3071,9 +3144,9 @@
   :dir? false
   :links []
   :size 145
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Morality"}
   :path "content/docs/morality/cancelling-high-contributors.md"
   :backlinks nil
@@ -3085,9 +3158,9 @@
   :dir? false
   :links []
   :size 1221
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Morality"}
   :path "content/docs/morality/efficient-living-and-morality.md"
   :backlinks nil
@@ -3099,9 +3172,9 @@
   :dir? false
   :links []
   :size 6188
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Morality"}
   :path "content/docs/morality/future.md"
   :backlinks nil
@@ -3113,9 +3186,9 @@
   :dir? false
   :links []
   :size 227
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Morality"}
   :path "content/docs/morality/right-to-risk.md"
   :backlinks nil
@@ -3127,9 +3200,9 @@
   :dir? false
   :links []
   :size 1520
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Morality"}
   :path "content/docs/morality/self-sacrificers.md"
   :backlinks nil
@@ -3141,9 +3214,9 @@
   :dir? false
   :links []
   :size 510
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Music"}
   :path "content/docs/music/music-library-management.md"
   :backlinks nil
@@ -3155,7 +3228,7 @@
   :dir? false
   :links []
   :size 2720
-  :modtime 1755394662
+  :modtime 1755409417
   :mode 420
   :modification-unix-timestamps [0]}
  {:path-categories #{"Music"}
@@ -3169,9 +3242,9 @@
   :dir? false
   :links []
   :size 1944
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Society"}
   :path "content/docs/society/co-ops.md"
   :backlinks nil
@@ -3183,9 +3256,9 @@
   :dir? false
   :links []
   :size 4679
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Society"}
   :path "content/docs/society/communal-living.md"
   :backlinks nil
@@ -3197,9 +3270,9 @@
   :dir? false
   :links ["/docs/books/everyday-utopia.md"]
   :size 457
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Society"}
   :path "content/docs/society/doom-and-how-to-avoid-it.md"
   :backlinks nil
@@ -3211,9 +3284,9 @@
   :dir? false
   :links []
   :size 2057
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Society"}
   :path "content/docs/society/freedom-inequality-meritocracy.md"
   :backlinks nil
@@ -3225,9 +3298,9 @@
   :dir? false
   :links []
   :size 2818
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Society"}
   :path "content/docs/society/gerrymandering.md"
   :backlinks nil
@@ -3239,9 +3312,9 @@
   :dir? false
   :links ["/docs/books/The-Black-Swan.md"]
   :size 3920
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Society"}
   :path "content/docs/society/individuals-vs-groups.md"
   :backlinks nil
@@ -3253,9 +3326,9 @@
   :dir? false
   :links []
   :size 655
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Society"}
   :path "content/docs/society/livelihood-traps.md"
   :backlinks nil
@@ -3268,9 +3341,9 @@
   :dir? false
   :links []
   :size 1518
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Society"}
   :path "content/docs/society/multi-job-normalization.md"
   :backlinks nil
@@ -3282,9 +3355,9 @@
   :dir? false
   :links []
   :size 741
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Society"}
   :path "content/docs/society/politics.md"
   :backlinks nil
@@ -3296,9 +3369,9 @@
   :dir? false
   :links []
   :size 1428
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Society"}
   :path "content/docs/society/shelter-in-the-storm.md"
   :backlinks nil
@@ -3310,9 +3383,9 @@
   :dir? false
   :links []
   :size 427
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Society"}
   :path "content/docs/society/solving-societal-problems.md"
   :backlinks nil
@@ -3324,9 +3397,9 @@
   :dir? false
   :links ["/docs/mind/optimism.md"]
   :size 9603
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Society"}
   :path "content/docs/society/utopia.md"
   :backlinks #{"content/docs/potential-life-missions.md"
@@ -3342,9 +3415,9 @@
           "/docs/books/antifragile.md"
           "/docs/mind/creativity.md"]
   :size 10111
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Society"}
   :path "content/docs/society/utopian-idea-management.md"
   :backlinks nil
@@ -3356,9 +3429,9 @@
   :dir? false
   :links ["/docs/society/utopia.md"]
   :size 2284
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Software Dev"}
   :path "content/docs/software-dev/actionable-tips.md"
   :backlinks nil
@@ -3370,9 +3443,9 @@
   :dir? false
   :links []
   :size 434
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Software Dev"}
   :path "content/docs/software-dev/auto-input-data-collection.md"
   :backlinks nil
@@ -3384,9 +3457,9 @@
   :dir? false
   :links []
   :size 11590
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Software Dev"}
   :path "content/docs/software-dev/choosing-a-language.md"
   :backlinks nil
@@ -3398,9 +3471,9 @@
   :dir? false
   :links []
   :size 1239
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Software Dev"}
   :path "content/docs/software-dev/complexity.md"
   :backlinks nil
@@ -3412,9 +3485,9 @@
   :dir? false
   :links []
   :size 1238
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Software Dev"}
   :path "content/docs/software-dev/design.md"
   :backlinks nil
@@ -3426,9 +3499,9 @@
   :dir? false
   :links []
   :size 2092
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Software Dev"}
   :path "content/docs/software-dev/functional-programming.md"
   :backlinks nil
@@ -3440,9 +3513,9 @@
   :dir? false
   :links []
   :size 1520
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Software Dev"}
   :path "content/docs/software-dev/getting-into-it.md"
   :backlinks nil
@@ -3454,9 +3527,9 @@
   :dir? false
   :links []
   :size 1265
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Software Dev"}
   :path "content/docs/software-dev/impact.md"
   :backlinks nil
@@ -3468,9 +3541,9 @@
   :dir? false
   :links []
   :size 190
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Software Dev"}
   :path "content/docs/software-dev/influences.md"
   :backlinks nil
@@ -3482,9 +3555,9 @@
   :dir? false
   :links []
   :size 1600
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Software Dev"}
   :path "content/docs/software-dev/patterned-code.md"
   :backlinks nil
@@ -3496,9 +3569,9 @@
   :dir? false
   :links []
   :size 330
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Thought Experiments"}
   :path "content/docs/thought-experiments/artificial-intelligence.md"
   :backlinks nil
@@ -3510,9 +3583,9 @@
   :dir? false
   :links []
   :size 2393
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Thought Experiments"}
   :path "content/docs/thought-experiments/life-quests.md"
   :backlinks nil
@@ -3524,9 +3597,9 @@
   :dir? false
   :links []
   :size 381
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Thought Experiments"}
   :path "content/docs/thought-experiments/mind-mapping-concept.md"
   :backlinks #{"content/docs/lifestyle-optimizations/experiences.md"}
@@ -3542,9 +3615,9 @@
           "/"
           "/"]
   :size 1833
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Thought Experiments"}
   :path "content/docs/thought-experiments/random-ideas.md"
   :backlinks nil
@@ -3556,9 +3629,9 @@
   :dir? false
   :links []
   :size 9254
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Thought Experiments"}
   :path "content/docs/thought-experiments/two-glasses.md"
   :backlinks nil
@@ -3570,9 +3643,9 @@
   :dir? false
   :links []
   :size 1737
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Understanding The World"}
   :path "content/docs/understanding-the-world/applying-theories.md"
   :backlinks nil
@@ -3584,9 +3657,9 @@
   :dir? false
   :links []
   :size 4653
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Understanding The World"}
   :path "content/docs/understanding-the-world/copyright-and-ip.md"
   :backlinks #{"content/docs/mind/creativity.md"}
@@ -3599,9 +3672,9 @@
   :links ["/docs/mind/creativity.md"
           "/docs/society/utopia.md"]
   :size 790
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Understanding The World"}
   :path "content/docs/understanding-the-world/great-explanations.md"
   :backlinks nil
@@ -3613,9 +3686,9 @@
   :dir? false
   :links []
   :size 283
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Understanding The World"}
   :path "content/docs/understanding-the-world/influences.md"
   :backlinks #{"content/docs/investing-and-finances/influences.md"
@@ -3629,9 +3702,9 @@
   :links ["/docs/understanding-the-world/influences.md"
           "/docs/books/zero-to-one.md"]
   :size 959
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Understanding The World"}
   :path "content/docs/understanding-the-world/judging-decisions.md"
   :backlinks nil
@@ -3643,9 +3716,9 @@
   :dir? false
   :links []
   :size 2309
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Understanding The World"}
   :path "content/docs/understanding-the-world/notetaking.md"
   :backlinks nil
@@ -3657,9 +3730,9 @@
   :dir? false
   :links []
   :size 1046
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Understanding The World"}
   :path "content/docs/understanding-the-world/physics.md"
   :backlinks nil
@@ -3671,9 +3744,9 @@
   :dir? false
   :links []
   :size 396
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Understanding The World"}
   :path "content/docs/understanding-the-world/predicting-the-future.md"
   :backlinks nil
@@ -3685,9 +3758,9 @@
   :dir? false
   :links ["/docs/understanding-the-world/working-with-complex-systems.md"]
   :size 406
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Understanding The World"}
   :path "content/docs/understanding-the-world/productive-conversations.md"
   :backlinks #{"content/docs/lifestyle-optimizations/daily-physiological-tricks.md"}
@@ -3699,9 +3772,9 @@
   :dir? false
   :links []
   :size 816
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Understanding The World"}
   :path "content/docs/understanding-the-world/what-to-believe.md"
   :backlinks #{"content/docs/manifesto.md"
@@ -3719,9 +3792,9 @@
           "/docs/books/The-Enigma-of-Reason.md"
           "/docs/understanding-the-world/working-with-complex-systems.md"]
   :size 15027
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Understanding The World"}
   :path "content/docs/understanding-the-world/working-with-complex-systems.md"
   :backlinks #{"content/docs/understanding-the-world/predicting-the-future.md"
@@ -3734,9 +3807,9 @@
   :dir? false
   :links []
   :size 872
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Videos"}
   :path "content/docs/videos/Watching-GothamChess.md"
   :backlinks nil
@@ -3751,9 +3824,9 @@
           "/docs/feelings.md"
           "/docs/feelings.md"]
   :size 356
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Videos"}
   :path "content/docs/videos/Watching-Inside-Out.md"
   :backlinks nil
@@ -3767,9 +3840,9 @@
   :dir? false
   :links []
   :size 435
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Videos"}
   :path "content/docs/videos/Watching-Spiderman:-Into-the-Spider-Verse.md"
   :backlinks nil
@@ -3783,9 +3856,9 @@
   :dir? false
   :links []
   :size 253
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Videos"}
   :path "content/docs/videos/Watching-The-Matrix.md"
   :backlinks nil
@@ -3799,9 +3872,9 @@
   :dir? false
   :links []
   :size 519
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Videos"}
   :path "content/docs/videos/Watching-educational-YouTube.md"
   :backlinks nil
@@ -3814,9 +3887,9 @@
   :dir? false
   :links ["/docs/feelings.md"]
   :size 386
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Visual Art"}
   :path "content/docs/visual-art/generative-art.md"
   :backlinks nil
@@ -3828,9 +3901,9 @@
   :dir? false
   :links ["/docs/visual-art/inspiration-and-resources.md"]
   :size 1563
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Visual Art"}
   :path "content/docs/visual-art/inspiration-and-resources.md"
   :backlinks #{"content/docs/visual-art/generative-art.md"}
@@ -3842,9 +3915,9 @@
   :dir? false
   :links []
   :size 824
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}
+  :modification-unix-timestamps [1755409361]}
  {:path-categories #{"Visual Art"}
   :path "content/docs/visual-art/judging-art.md"
   :backlinks nil
@@ -3856,6 +3929,6 @@
   :dir? false
   :links []
   :size 591
-  :modtime 1755394633
+  :modtime 1755409385
   :mode 420
-  :modification-unix-timestamps [1755394615]}]
+  :modification-unix-timestamps [1755409361]}]
