@@ -716,6 +716,13 @@
     </item>
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/gaming/troubleshooting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kovasap.github.io/docs/gaming/troubleshooting/</guid>
+      <description>&lt;h1 id=&#34;game-troubleshooting&#34;&gt;&#xA;  Game Troubleshooting&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#game-troubleshooting&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;steam-launch-options&#34;&gt;&#xA;  Steam Launch Options&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#steam-launch-options&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;All added before &lt;code&gt;%command%&lt;/code&gt; unless otherwise specified.&lt;/p&gt;&#xA;&lt;h3 id=&#34;linux-audio-crackling&#34;&gt;&#xA;  Linux Audio Crackling&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#linux-audio-crackling&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Add &lt;code&gt;PULSE_LATENCY_MSEC=60&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;reduce-number-of-cpu-cores-used&#34;&gt;&#xA;  Reduce Number of CPU Cores Used&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#reduce-number-of-cpu-cores-used&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;&lt;code&gt;taskset -c 0,2,4,6&lt;/code&gt; to run on 4 (specific) cores.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/health-and-longevity/aging-science/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://kovasap.github.io/docs/health-and-longevity/aging-science/</guid>
