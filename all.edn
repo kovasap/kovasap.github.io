@@ -9,7 +9,7 @@
   :dir? false
   :links []
   :size 67
-  :modtime 1756000670
+  :modtime 1756002666
   :mode 420
   :modification-unix-timestamps [1736985971
                                  1734296474
@@ -40,7 +40,7 @@
   :dir? false
   :links []
   :size 542
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1753148154
@@ -141,7 +141,7 @@
           "/docs/books/why-greatness-cannot-be-planned.md"
           "/docs/mind/motivation.md"]
   :size 11008
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755975293
@@ -177,7 +177,7 @@
   :dir? false
   :links []
   :size 49
-  :modtime 1756000709
+  :modtime 1756002701
   :mode 420
   :modification-unix-timestamps [0]}
  {:path-categories #{}
@@ -193,7 +193,7 @@
           "/docs/mind/optimism.md"
           "/docs/books/why-greatness-cannot-be-planned.md"]
   :size 3835
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1742322542
@@ -213,17 +213,19 @@
   :path "content/docs/recent-interests.md"
   :backlinks nil
   :title "Recent Interests"
-  :markdown "---\nbacklinks-set: \ncategories-set: #{\"Recent\"}\n---\n# Recent Interests\n\nHere I list stuff I've been interested in recently.\nI try to update this monthly, using a recurring task to help.\nI probably forget a lot of things that happen each month :(.\n\nTo populate this page, try using my mementodb diary, and\nhttps://github.com/kovasap/dotfiles/blob/master/bin/chrome-history-for-gemini.zsh.\n\n## 2025\n\n## February\n\n - Routesetting for the Rain City Send climbing competition\n - Fixing toilet flapper and garbage disposal for tenants\n - Several iterations of B. Dylan Hollis bean pie\n - Discovered chickpea flour is good for mug breads\n - Night Agent season 2\n - FTL: Multiverse\n - Dark and Darker Wizard\n - Building my [Lintilla custom keyboard]({{< relref \"/docs/lifestyle-optimizations/keyboards-and-typing.md\" >}})\n - Wingman in Counter Strike\n - Arkham Horror Dunwich Campaign\n - [Alt Health]({{< relref \"/docs/health-and-longevity/alt-health.md\" >}}) thinking\n - Reading ACX, like https://www.astralcodexten.com/p/why-i-am-not-a-conflict-theorist\n\n## March\n\n - Terra Mystica on BGA and in person\n - Writing lots of SQL at work\n - Read Gary Stevenson's book about his life and watched a bunch of videos about\n   wealth inequality.\n   Guy is charismatic, but a bit vague - a dangerous but entertaining combo!\n - Saw Russian Circles live at the showbox.\n   Incredible!\n - Windows crashed during an update, prompted me to try going 100% Linux going\n   forward.  Working surprisingly well.\n - Tried Due Process, good first impression!\n - Dark and Darker and FTL: Multiverse continue to be amazing.\n\n## April\n\n - Started playing The Bazaar with Claire.\n   Really fun, if a bit tiring to do a single run all at once.\n - Watched a bunch of Dave MacLeod videos and tried out a mostly meat diet.\n   It felt pretty good at first, but less good over time.\n   I think I'd need to be particularly motivated to try it more purely for an\n   extended period of time.\n - Had a bunch of computer issues to debug.\n   Namely some black screen crashes when playing cleric in Dark and Darker(which\n   I think were fixed by decreasing particle count in a custom `Engine.ini`\n   file), and some slowness with The Last Spell which prompted me to upgrade my\n   cpu (which didn't seem to help :().\n - Still writing lots of SQL at work.\n   Had a brutal bug to debug where function arguments were being overwritten by\n   aliased column names in a query.\n - Checked out Taskmaster and Ted Lasso, both pretty great in their own ways\n - Played a bunch of Tarkir: Dragonflight draft first in person then on MTG:\n   Arena.\n\n## May\n\n - V Rising\n - Epic saga trying to debug my computer not sleeping after replacing CPU:\n   https://bbs.archlinux.org/viewtopic.php?pid=2244784#p2244784\n - Send long term black 5.12+ project at the IMA crags\n - Started going out climbing at the exits again, feeling strong!\n - Started running to/from work, way better than I expected.\n - Started working in neuroscience research project https://github.com/kovasap/nightly-nwb\n - Started working on new drafting game idea https://github.com/kovasap/draft-concept\n - Got back into R6: siege a bit\n\n## June\n\n - Switched to AMD GPU and better AMD CPU.\n   Fixed my computer sleep problem finally, and struggled a bit to get the new\n   CPU to stay cool with low fan noise.\n - Dark and Darker content creator drama (NotLikeThis/Soma).\n - Learned how to use syncthing to manage music between PC and Android.\n   Really impressive piece of software!\n - Spent a lot of time on https://github.com/kovasap/draft-concept, making\n   progress, but also shifting things around a lot.\n - Working version of https://github.com/kovasap/nightly-nwb created!\n - Lots of attempts on Rainy Day Woman at World Wall.\n   Very close, but still a hard route.\n   Need to be better about finding and trusting footholds, and then remembering\n   them.\n - Ark Nova is fun.\n - Ate a bunch of iceberg lettuce salads.\n   E.g.\n   tortilla chips/mayo/lettuce/shredded carrots.\n - Selling old Pokemon cards I discovered.  Quite a labor intensive process to price and sell them all.\n - The Bazaar continues to be great!\n\nI'm trying to continue tracking my interests via updates to individual pages on\nthis site; see recent edit history!"
+  :markdown "---\nbacklinks-set: \ncategories-set: #{}\n---\n# Recent Interests\n\nHere I list stuff I've been interested in recently.\nI try to update this monthly, using a recurring task to help.\nI probably forget a lot of things that happen each month :(.\n\nTo populate this page, try using my mementodb diary, and\nhttps://github.com/kovasap/dotfiles/blob/master/bin/chrome-history-for-gemini.zsh.\n\n## 2025\n\n## February\n\n - Routesetting for the Rain City Send climbing competition\n - Fixing toilet flapper and garbage disposal for tenants\n - Several iterations of B. Dylan Hollis bean pie\n - Discovered chickpea flour is good for mug breads\n - Night Agent season 2\n - FTL: Multiverse\n - Dark and Darker Wizard\n - Building my [Lintilla custom keyboard]({{< relref \"/docs/lifestyle-optimizations/keyboards-and-typing.md\" >}})\n - Wingman in Counter Strike\n - Arkham Horror Dunwich Campaign\n - [Alt Health]({{< relref \"/docs/health-and-longevity/alt-health.md\" >}}) thinking\n - Reading ACX, like https://www.astralcodexten.com/p/why-i-am-not-a-conflict-theorist\n\n## March\n\n - Terra Mystica on BGA and in person\n - Writing lots of SQL at work\n - Read Gary Stevenson's book about his life and watched a bunch of videos about\n   wealth inequality.\n   Guy is charismatic, but a bit vague - a dangerous but entertaining combo!\n - Saw Russian Circles live at the showbox.\n   Incredible!\n - Windows crashed during an update, prompted me to try going 100% Linux going\n   forward.  Working surprisingly well.\n - Tried Due Process, good first impression!\n - Dark and Darker and FTL: Multiverse continue to be amazing.\n\n## April\n\n - Started playing The Bazaar with Claire.\n   Really fun, if a bit tiring to do a single run all at once.\n - Watched a bunch of Dave MacLeod videos and tried out a mostly meat diet.\n   It felt pretty good at first, but less good over time.\n   I think I'd need to be particularly motivated to try it more purely for an\n   extended period of time.\n - Had a bunch of computer issues to debug.\n   Namely some black screen crashes when playing cleric in Dark and Darker(which\n   I think were fixed by decreasing particle count in a custom `Engine.ini`\n   file), and some slowness with The Last Spell which prompted me to upgrade my\n   cpu (which didn't seem to help :().\n - Still writing lots of SQL at work.\n   Had a brutal bug to debug where function arguments were being overwritten by\n   aliased column names in a query.\n - Checked out Taskmaster and Ted Lasso, both pretty great in their own ways\n - Played a bunch of Tarkir: Dragonflight draft first in person then on MTG:\n   Arena.\n\n## May\n\n - V Rising\n - Epic saga trying to debug my computer not sleeping after replacing CPU:\n   https://bbs.archlinux.org/viewtopic.php?pid=2244784#p2244784\n - Send long term black 5.12+ project at the IMA crags\n - Started going out climbing at the exits again, feeling strong!\n - Started running to/from work, way better than I expected.\n - Started working in neuroscience research project https://github.com/kovasap/nightly-nwb\n - Started working on new drafting game idea https://github.com/kovasap/draft-concept\n - Got back into R6: siege a bit\n\n## June\n\n - Switched to AMD GPU and better AMD CPU.\n   Fixed my computer sleep problem finally, and struggled a bit to get the new\n   CPU to stay cool with low fan noise.\n - Dark and Darker content creator drama (NotLikeThis/Soma).\n - Learned how to use syncthing to manage music between PC and Android.\n   Really impressive piece of software!\n - Spent a lot of time on https://github.com/kovasap/draft-concept, making\n   progress, but also shifting things around a lot.\n - Working version of https://github.com/kovasap/nightly-nwb created!\n - Lots of attempts on Rainy Day Woman at World Wall.\n   Very close, but still a hard route.\n   Need to be better about finding and trusting footholds, and then remembering\n   them.\n - Ark Nova is fun.\n - Ate a bunch of iceberg lettuce salads.\n   E.g.\n   tortilla chips/mayo/lettuce/shredded carrots.\n - Selling old Pokemon cards I discovered.  Quite a labor intensive process to price and sell them all.\n - The Bazaar continues to be great!\n\nI'm trying to continue tracking my interests via updates to individual pages on\nthis site; see recent edit history!"
   :name "recent-interests.md"
   :private false
-  :categories #{"Recent"}
+  :categories #{}
   :dir? false
   :links ["/docs/lifestyle-optimizations/keyboards-and-typing.md"
           "/docs/health-and-longevity/alt-health.md"]
-  :size 4241
-  :modtime 1756000671
+  :size 4233
+  :modtime 1756002667
   :mode 420
-  :modification-unix-timestamps [1755995343
+  :modification-unix-timestamps [1756002649
+                                 1756002482
+                                 1755995343
                                  1755974875
                                  1755412420
                                  1755322345
@@ -247,7 +249,7 @@
   :dir? false
   :links []
   :size 213
-  :modtime 1756000670
+  :modtime 1756002666
   :mode 420
   :modification-unix-timestamps [1668469041]}
  {:path-categories #{"Books"}
@@ -261,7 +263,7 @@
   :dir? false
   :links []
   :size 184
-  :modtime 1756000670
+  :modtime 1756002666
   :mode 420
   :modification-unix-timestamps [1740866322
                                  1734296474
@@ -277,7 +279,7 @@
   :dir? false
   :links []
   :size 76
-  :modtime 1756000670
+  :modtime 1756002666
   :mode 420
   :modification-unix-timestamps [1734296474
                                  1734296082]}
@@ -293,7 +295,7 @@
   :dir? false
   :links []
   :size 1391
-  :modtime 1756000670
+  :modtime 1756002666
   :mode 420
   :modification-unix-timestamps [1667703247
                                  1667452680]}
@@ -308,7 +310,7 @@
   :dir? false
   :links []
   :size 208
-  :modtime 1756000670
+  :modtime 1756002666
   :mode 420
   :modification-unix-timestamps [1699041494
                                  1698384423]}
@@ -324,7 +326,7 @@
   :dir? false
   :links ["/docs/books/the-open-society-and-its-enemies.md"]
   :size 314
-  :modtime 1756000670
+  :modtime 1756002666
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1667762893
@@ -342,7 +344,7 @@
   :dir? false
   :links []
   :size 494
-  :modtime 1756000670
+  :modtime 1756002666
   :mode 420
   :modification-unix-timestamps [1667510508
                                  1667452680]}
@@ -358,7 +360,7 @@
   :dir? false
   :links []
   :size 188
-  :modtime 1756000670
+  :modtime 1756002666
   :mode 420
   :modification-unix-timestamps [1667703247]}
  {:path-categories #{"Books"}
@@ -377,7 +379,7 @@
   :dir? false
   :links []
   :size 381
-  :modtime 1756000670
+  :modtime 1756002666
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1698001732
@@ -395,7 +397,7 @@
   :dir? false
   :links []
   :size 896
-  :modtime 1756000670
+  :modtime 1756002666
   :mode 420
   :modification-unix-timestamps [1667452680]}
  {:path-categories #{"Climbing"}
@@ -409,7 +411,7 @@
   :dir? false
   :links []
   :size 756
-  :modtime 1756000670
+  :modtime 1756002666
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -427,7 +429,7 @@
   :dir? false
   :links []
   :size 674
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875
@@ -443,7 +445,7 @@
   :dir? false
   :links []
   :size 1215
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755409361]}
@@ -458,7 +460,7 @@
   :dir? false
   :links []
   :size 645
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -479,7 +481,7 @@
   :dir? false
   :links []
   :size 273
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755409361
@@ -500,7 +502,7 @@
   :dir? false
   :links []
   :size 2092
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755409361]}
@@ -515,7 +517,7 @@
   :dir? false
   :links []
   :size 3369
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1728452011
                                  1655753252
@@ -537,7 +539,7 @@
   :dir? false
   :links []
   :size 314
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1667703247]}
  {:path-categories #{"Climbing"
@@ -553,7 +555,7 @@
   :dir? false
   :links []
   :size 1036
-  :modtime 1756000670
+  :modtime 1756002666
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875
@@ -571,7 +573,7 @@
   :dir? false
   :links []
   :size 1661
-  :modtime 1756000670
+  :modtime 1756002666
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875
@@ -589,7 +591,7 @@
   :dir? false
   :links []
   :size 1968
-  :modtime 1756000670
+  :modtime 1756002666
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755409361
@@ -613,7 +615,7 @@
   :dir? false
   :links ["/"]
   :size 1357
-  :modtime 1756000670
+  :modtime 1756002666
   :mode 420
   :modification-unix-timestamps [1662924312
                                  1655753252
@@ -634,7 +636,7 @@
   :dir? false
   :links []
   :size 10731
-  :modtime 1756000670
+  :modtime 1756002666
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755409361
@@ -657,7 +659,7 @@
   :dir? false
   :links []
   :size 17451
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755409361
@@ -682,7 +684,7 @@
   :dir? false
   :links []
   :size 283
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1742167498
                                  1741372686
@@ -703,7 +705,7 @@
   :dir? false
   :links []
   :size 258
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1660415829]}
  {:path-categories #{"Datavis"}
@@ -717,7 +719,7 @@
   :dir? false
   :links []
   :size 252
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1673989211
                                  1673389295
@@ -734,7 +736,7 @@
   :dir? false
   :links []
   :size 908
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1731474684
                                  1731474274
@@ -757,7 +759,7 @@
   :dir? false
   :links []
   :size 2149
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -776,24 +778,25 @@
   :dir? false
   :links []
   :size 1141
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1685382293]}
  {:path-categories #{"Favorites"}
   :path "content/docs/favorites/game-tier-lists.md"
   :backlinks nil
   :title "Game Tier Lists"
-  :markdown "---\nbacklinks-set: \ncategories-set: #{\"Favorites\" \"Recent\"}\n---\n# Game Tier Lists\n\n## Tactics Single Player Experiences\n\n| T | Game |\n| - | --------------- |\n| S | {{< game-img \"the-last-spell\" >}} {{< game-img \"fell-seal-arbiters-mark\" >}} {{< game-img \"symphony-of-war\" >}} {{< game-img \"darkest-dungeon\" >}} {{< game-img \"fire-emblem-the-sacred-stones\" >}} {{< game-img \"iron-danger\" >}}|\n| A | {{< game-img \"druidstone\" >}} |\n| B | {{< game-img \"wargroove\" >}} {{< game-img \"battle-brothers\" >}} |\n| C | {{< game-img \"solasta\" >}} {{< game-img \"pathfinder-kingmaker\" >}} |\n| D | |\n\n**S** - Amazing, fully immersed for entire length\n\n**A** - Pretty good, with some rough spots or tedium\n\n**B** - OK\n\n**C** - Good in theory, but some fatal flaws prevented me from playing more than\nthe beginning.\n\n**D** - Just bad\n\n\n## Competitive Real-Time Multiplayer Games\n\n| T | Game |\n| - | --------------- |\n| S |  |\n| S? | |\n| A | {{< game-img \"rainbow-6-siege\" >}}  |\n| B | {{< game-img \"overwatch\" >}} {{< game-img \"cs-go\" >}} {{< game-img \"valorant\" >}} {{< game-img \"apex-legends\" >}} |\n| C |  |\n| D | |\n\n**S** - Amazing and very replayable\n\n**S?** - Amazing but haven't played that many times yet with other players\n\n**A** - Pretty great\n\n**B** - OK\n\n**C** - Some fatal flaws prevent replayability\n\n**D** - Just bad\n\n\n\n## Competitive 1v1 Multiplayer Turn-Based Games\n\n| T | Game |\n| - | --------------- |\n| S |  |\n| S? | {{< game-img \"battle-lines\" >}} |\n| A | {{< game-img \"patchwork\" >}} {{< game-img \"hive\" >}} {{< game-img \"drafting-magic-the-gathering\" >}} {{< game-img \"marvel-snap\" >}} |\n| B | |\n| C | {{< game-img \"chess\" >}} |\n| D | |\n\n**S** - Amazing and very replayable\n\n**S?** - Amazing but haven't played that many times yet with other players\n\n**A** - Pretty great\n\n**B** - OK\n\n**C** - Some fatal flaws prevent replayability\n\n**D** - Just bad\n\n\n\n## Competitive Short Multiplayer Turn-Based Games\n\n| T | Game |\n| - | --------------- |\n| S | {{< game-img \"bananagrams\" >}} |\n| S? | {{< game-img \"cascadia\" >}} |\n| A | {{< game-img \"azul\" >}} {{< game-img \"7-wonders\" >}} |\n| B | |\n| C | |\n| D | |\n\n**S** - Amazing and very replayable\n\n**S?** - Amazing but haven't played that many times yet with other players\n\n**A** - Pretty great\n\n**B** - OK\n\n**C** - Some fatal flaws prevent replayability\n\n**D** - Just bad\n\n\n## Cooperative-ish Long Multiplayer Turn-Based Games\n\n| T | Game |\n| - | --------------- |\n| S |  |\n| S? | {{< game-img \"dead-of-winter\" >}} |\n| A | {{< game-img \"codenames\" >}} {{< game-img \"nemesis\" >}} {{< game-img \"mysterium\" >}}  |\n| B | {{< game-img \"gloomhaven\" >}} |\n| C | {{< game-img \"pandemic\" >}} |\n| D | |\n\n**S** - Amazing and very replayable\n\n**S?** - Amazing but haven't played that many times yet\n\n**A** - Pretty great\n\n**B** - OK\n\n**C** - Some fatal flaws prevent replayability\n\n**D** - Just bad\n\n\n\n## Competitive Long Multiplayer Turn-Based Games\n\n| T | Game |\n| - | --------------- |\n| S |  {{< game-img \"terra-mystica\" >}} |\n| S? | {{< game-img \"ozymandias\" >}} {{< game-img \"alchemists\" >}}|\n| A |  {{< game-img \"galaxy-trucker\" >}} {{< game-img \"bridge\" >}} {{< game-img \"power-grid\" >}} {{< game-img \"viticulture\" >}} {{< game-img \"wingspan\" >}} {{< game-img \"great-western-trail\" >}} {{< game-img \"root\" >}} {{< game-img \"scythe\" >}} {{< game-img \"agricola\" >}} |\n| B | {{< game-img \"sagrada\" >}} {{< game-img \"carcassonne\" >}} {{< game-img \"dominion\" >}} {{< game-img \"ticket-to-ride\" >}} {{< game-img \"clank\" >}} {{< game-img \"terraforming-mars\" >}} {{< game-img \"pax-pamir\" >}} {{< game-img \"brass-birmingham\" >}} |\n| C | {{< game-img \"civilization-5\" >}} |\n| D | |\n\n**S** - Amazing and very replayable\n\n**S?** - Amazing but haven't played that many times yet with other players\n\n**A** - Pretty great\n\n**B** - OK\n\n**C** - Some fatal flaws prevent replayability\n\n**D** - Just bad\n\n\n## Single Player Immersive Experiences\n\n| T | Game |\n| - | --------------- |\n| S | {{< game-img \"subnautica\" >}} |\n| A | {{< game-img \"skyrim\" >}} |\n| B | |\n| C | |\n| D | |\n\n**S** - Amazing, fully immersed for entire length\n\n**A** - Pretty good, with some rough spots or tedium\n\n**B** - OK\n\n**C** - Good in theory, but some fatal flaws prevented me from playing more than\nthe beginning.\n\n**D** - Just bad"
+  :markdown "---\nbacklinks-set: \ncategories-set: #{\"Favorites\"}\n---\n# Game Tier Lists\n\n## Tactics Single Player Experiences\n\n| T | Game |\n| - | --------------- |\n| S | {{< game-img \"the-last-spell\" >}} {{< game-img \"fell-seal-arbiters-mark\" >}} {{< game-img \"symphony-of-war\" >}} {{< game-img \"darkest-dungeon\" >}} {{< game-img \"fire-emblem-the-sacred-stones\" >}} {{< game-img \"iron-danger\" >}}|\n| A | {{< game-img \"druidstone\" >}} |\n| B | {{< game-img \"wargroove\" >}} {{< game-img \"battle-brothers\" >}} |\n| C | {{< game-img \"solasta\" >}} {{< game-img \"pathfinder-kingmaker\" >}} |\n| D | |\n\n**S** - Amazing, fully immersed for entire length\n\n**A** - Pretty good, with some rough spots or tedium\n\n**B** - OK\n\n**C** - Good in theory, but some fatal flaws prevented me from playing more than\nthe beginning.\n\n**D** - Just bad\n\n\n## Competitive Real-Time Multiplayer Games\n\n| T | Game |\n| - | --------------- |\n| S |  |\n| S? | |\n| A | {{< game-img \"rainbow-6-siege\" >}}  |\n| B | {{< game-img \"overwatch\" >}} {{< game-img \"cs-go\" >}} {{< game-img \"valorant\" >}} {{< game-img \"apex-legends\" >}} |\n| C |  |\n| D | |\n\n**S** - Amazing and very replayable\n\n**S?** - Amazing but haven't played that many times yet with other players\n\n**A** - Pretty great\n\n**B** - OK\n\n**C** - Some fatal flaws prevent replayability\n\n**D** - Just bad\n\n\n\n## Competitive 1v1 Multiplayer Turn-Based Games\n\n| T | Game |\n| - | --------------- |\n| S |  |\n| S? | {{< game-img \"battle-lines\" >}} |\n| A | {{< game-img \"patchwork\" >}} {{< game-img \"hive\" >}} {{< game-img \"drafting-magic-the-gathering\" >}} {{< game-img \"marvel-snap\" >}} |\n| B | |\n| C | {{< game-img \"chess\" >}} |\n| D | |\n\n**S** - Amazing and very replayable\n\n**S?** - Amazing but haven't played that many times yet with other players\n\n**A** - Pretty great\n\n**B** - OK\n\n**C** - Some fatal flaws prevent replayability\n\n**D** - Just bad\n\n\n\n## Competitive Short Multiplayer Turn-Based Games\n\n| T | Game |\n| - | --------------- |\n| S | {{< game-img \"bananagrams\" >}} |\n| S? | {{< game-img \"cascadia\" >}} |\n| A | {{< game-img \"azul\" >}} {{< game-img \"7-wonders\" >}} |\n| B | |\n| C | |\n| D | |\n\n**S** - Amazing and very replayable\n\n**S?** - Amazing but haven't played that many times yet with other players\n\n**A** - Pretty great\n\n**B** - OK\n\n**C** - Some fatal flaws prevent replayability\n\n**D** - Just bad\n\n\n## Cooperative-ish Long Multiplayer Turn-Based Games\n\n| T | Game |\n| - | --------------- |\n| S |  |\n| S? | {{< game-img \"dead-of-winter\" >}} |\n| A | {{< game-img \"codenames\" >}} {{< game-img \"nemesis\" >}} {{< game-img \"mysterium\" >}}  |\n| B | {{< game-img \"gloomhaven\" >}} |\n| C | {{< game-img \"pandemic\" >}} |\n| D | |\n\n**S** - Amazing and very replayable\n\n**S?** - Amazing but haven't played that many times yet\n\n**A** - Pretty great\n\n**B** - OK\n\n**C** - Some fatal flaws prevent replayability\n\n**D** - Just bad\n\n\n\n## Competitive Long Multiplayer Turn-Based Games\n\n| T | Game |\n| - | --------------- |\n| S |  {{< game-img \"terra-mystica\" >}} |\n| S? | {{< game-img \"ozymandias\" >}} {{< game-img \"alchemists\" >}}|\n| A |  {{< game-img \"galaxy-trucker\" >}} {{< game-img \"bridge\" >}} {{< game-img \"power-grid\" >}} {{< game-img \"viticulture\" >}} {{< game-img \"wingspan\" >}} {{< game-img \"great-western-trail\" >}} {{< game-img \"root\" >}} {{< game-img \"scythe\" >}} {{< game-img \"agricola\" >}} |\n| B | {{< game-img \"sagrada\" >}} {{< game-img \"carcassonne\" >}} {{< game-img \"dominion\" >}} {{< game-img \"ticket-to-ride\" >}} {{< game-img \"clank\" >}} {{< game-img \"terraforming-mars\" >}} {{< game-img \"pax-pamir\" >}} {{< game-img \"brass-birmingham\" >}} |\n| C | {{< game-img \"civilization-5\" >}} |\n| D | |\n\n**S** - Amazing and very replayable\n\n**S?** - Amazing but haven't played that many times yet with other players\n\n**A** - Pretty great\n\n**B** - OK\n\n**C** - Some fatal flaws prevent replayability\n\n**D** - Just bad\n\n\n## Single Player Immersive Experiences\n\n| T | Game |\n| - | --------------- |\n| S | {{< game-img \"subnautica\" >}} |\n| A | {{< game-img \"skyrim\" >}} |\n| B | |\n| C | |\n| D | |\n\n**S** - Amazing, fully immersed for entire length\n\n**A** - Pretty good, with some rough spots or tedium\n\n**B** - OK\n\n**C** - Good in theory, but some fatal flaws prevented me from playing more than\nthe beginning.\n\n**D** - Just bad"
   :name "game-tier-lists.md"
   :private false
-  :categories #{"Favorites"
-                "Recent"}
+  :categories #{"Favorites"}
   :dir? false
   :links []
-  :size 4234
-  :modtime 1756000671
+  :size 4225
+  :modtime 1756002667
   :mode 420
-  :modification-unix-timestamps [1740866322
+  :modification-unix-timestamps [1756002649
+                                 1756002482
+                                 1740866322
                                  1740862760
                                  1687982056
                                  1687141448
@@ -811,7 +814,7 @@
   :dir? false
   :links []
   :size 963
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -829,7 +832,7 @@
   :dir? false
   :links []
   :size 6886
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1691798373
                                  1691113293
@@ -851,7 +854,7 @@
   :dir? false
   :links []
   :size 512
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1698001732
                                  1697999319
@@ -868,7 +871,7 @@
   :dir? false
   :links []
   :size 1651
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1698001732
                                  1697999319]}
@@ -883,7 +886,7 @@
   :dir? false
   :links []
   :size 302
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755967999]}
@@ -900,7 +903,7 @@
   :dir? false
   :links []
   :size 259
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -918,7 +921,7 @@
   :links ["/docs/gaming/games/tactics-rpg/fell-seal-arbiters-mark.md"
           "/docs/gaming/games/tactics-rpg/XCOM-2-+-War-of-the-Chosen.md"]
   :size 2536
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755449404
@@ -936,7 +939,7 @@
   :dir? false
   :links []
   :size 403
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -953,7 +956,7 @@
   :dir? false
   :links ["/docs/gaming/games/tactics-rpg/iron-danger.md"]
   :size 1470
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755449404
@@ -973,7 +976,7 @@
           "/docs/gaming/games/Rimworld.md"
           "/docs/gaming/games/strategy/oxygen-not-included.md"]
   :size 697
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755449404
@@ -991,7 +994,7 @@
   :dir? false
   :links []
   :size 952
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1008,7 +1011,7 @@
   :dir? false
   :links []
   :size 267
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1027,7 +1030,7 @@
   :dir? false
   :links ["/"]
   :size 903
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1046,7 +1049,7 @@
   :dir? false
   :links []
   :size 1033
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1065,7 +1068,7 @@
   :dir? false
   :links ["/"]
   :size 374
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1084,7 +1087,7 @@
   :dir? false
   :links ["/"]
   :size 2144
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1103,7 +1106,7 @@
   :dir? false
   :links ["/"]
   :size 632
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1122,7 +1125,7 @@
   :dir? false
   :links []
   :size 820
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1141,7 +1144,7 @@
   :dir? false
   :links []
   :size 505
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1160,7 +1163,7 @@
   :dir? false
   :links ["/"]
   :size 579
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1179,7 +1182,7 @@
   :dir? false
   :links ["/"]
   :size 985
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1199,7 +1202,7 @@
   :links ["/docs/gaming/games/cooperative-rpg/dead-of-winter.md"
           "/"]
   :size 4056
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755449988
@@ -1220,7 +1223,7 @@
   :dir? false
   :links ["/"]
   :size 3330
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1239,7 +1242,7 @@
   :dir? false
   :links []
   :size 2859
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1258,7 +1261,7 @@
   :dir? false
   :links ["/docs/books/why-greatness-cannot-be-planned.md"]
   :size 814
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1277,7 +1280,7 @@
   :dir? false
   :links []
   :size 302
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875]}
@@ -1296,7 +1299,7 @@
   :dir? false
   :links []
   :size 1644
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875]}
@@ -1314,7 +1317,7 @@
   :links ["/docs/feelings.md"
           "/docs/feelings.md"]
   :size 297
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1332,7 +1335,7 @@
   :dir? false
   :links []
   :size 259
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1351,7 +1354,7 @@
   :dir? false
   :links ["/"]
   :size 241
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1370,7 +1373,7 @@
   :dir? false
   :links []
   :size 675
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875]}
@@ -1380,19 +1383,20 @@
   :path "content/docs/gaming/games/competitive-fps/dark-and-darker.md"
   :backlinks nil
   :title "Dark And Darker"
-  :markdown "---\nbacklinks-set: \ncategories-set: #{\"Gaming\" \"Games\" \"Competitive Fps\" \"Recent\"}\n---\n# [Dark and Darker](https://www.darkanddarker.com/)\n\nI've made a [bunch of reddit\nposts](https://www.reddit.com/user/a-curious-crow/search/?q=darkanddarker&cId=8a33d130-1208-4e92-9ee1-2ebb42d05766&iId=894256b8-cde2-488c-b5e1-24c83062e550&sort=new)\nabout this game."
+  :markdown "---\nbacklinks-set: \ncategories-set: #{\"Gaming\" \"Games\" \"Competitive Fps\"}\n---\n# [Dark and Darker](https://www.darkanddarker.com/)\n\nI've made a [bunch of reddit\nposts](https://www.reddit.com/user/a-curious-crow/search/?q=darkanddarker&cId=8a33d130-1208-4e92-9ee1-2ebb42d05766&iId=894256b8-cde2-488c-b5e1-24c83062e550&sort=new)\nabout this game."
   :name "dark-and-darker.md"
   :private false
   :categories #{"Gaming"
                 "Games"
-                "Competitive Fps"
-                "Recent"}
+                "Competitive Fps"}
   :dir? false
   :links []
-  :size 351
-  :modtime 1756000671
+  :size 342
+  :modtime 1756002667
   :mode 420
-  :modification-unix-timestamps [1755995343
+  :modification-unix-timestamps [1756002649
+                                 1756002482
+                                 1755995343
                                  1755412331]}
  {:path-categories #{"Gaming"
                      "Games"
@@ -1409,7 +1413,7 @@
   :dir? false
   :links ["/docs/feelings.md"]
   :size 4139
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1430,7 +1434,7 @@
   :dir? false
   :links []
   :size 611
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1449,7 +1453,7 @@
   :dir? false
   :links []
   :size 254
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875]}
@@ -1468,7 +1472,7 @@
   :dir? false
   :links []
   :size 873
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875]}
@@ -1487,7 +1491,7 @@
   :dir? false
   :links []
   :size 518
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875
@@ -1507,7 +1511,7 @@
   :dir? false
   :links []
   :size 591
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755660745]}
@@ -1527,7 +1531,7 @@
   :links ["/docs/gaming/gamedev/mechanic-ideas/limiting-collaboration.md"
           "/docs/feelings.md"]
   :size 1186
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755449988
@@ -1548,7 +1552,7 @@
   :links ["/docs/feelings.md"
           "/docs/feelings.md"]
   :size 2093
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1570,7 +1574,7 @@
   :dir? false
   :links ["/docs/feelings.md"]
   :size 354
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1589,7 +1593,7 @@
   :dir? false
   :links []
   :size 131
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1608,7 +1612,7 @@
   :dir? false
   :links []
   :size 286
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1627,7 +1631,7 @@
   :dir? false
   :links []
   :size 345
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755450418]}
@@ -1646,7 +1650,7 @@
   :dir? false
   :links []
   :size 673
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1666,7 +1670,7 @@
   :dir? false
   :links []
   :size 206
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1685,7 +1689,7 @@
   :dir? false
   :links ["/docs/feelings.md"]
   :size 546
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1704,7 +1708,7 @@
   :dir? false
   :links []
   :size 595
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1726,7 +1730,7 @@
   :dir? false
   :links []
   :size 258
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1745,7 +1749,7 @@
   :dir? false
   :links []
   :size 200
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875]}
@@ -1766,7 +1770,7 @@
   :dir? false
   :links []
   :size 197
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875]}
@@ -1788,7 +1792,7 @@
   :dir? false
   :links []
   :size 340
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1809,7 +1813,7 @@
   :dir? false
   :links ["/docs/feelings.md"]
   :size 2615
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755497689
@@ -1833,7 +1837,7 @@
   :dir? false
   :links []
   :size 278
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1852,7 +1856,7 @@
   :dir? false
   :links []
   :size 157
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1874,7 +1878,7 @@
   :dir? false
   :links []
   :size 918
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1897,7 +1901,7 @@
   :dir? false
   :links []
   :size 1726
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1918,7 +1922,7 @@
   :dir? false
   :links []
   :size 418
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1937,7 +1941,7 @@
   :dir? false
   :links []
   :size 1192
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1957,7 +1961,7 @@
   :dir? false
   :links []
   :size 397
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1976,7 +1980,7 @@
   :dir? false
   :links []
   :size 293
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1995,7 +1999,7 @@
   :dir? false
   :links []
   :size 191
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875]}
@@ -2014,7 +2018,7 @@
   :dir? false
   :links []
   :size 77
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -2033,7 +2037,7 @@
   :dir? false
   :links []
   :size 616
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -2052,7 +2056,7 @@
   :dir? false
   :links []
   :size 381
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -2071,7 +2075,7 @@
   :dir? false
   :links []
   :size 156
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -2092,7 +2096,7 @@
           "/docs/health-and-longevity/food/personal-food-habits.md"
           "/docs/health-and-longevity/chronic-stress.md"]
   :size 2124
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755975293
@@ -2112,17 +2116,18 @@
   :path "content/docs/health-and-longevity/alt-health.md"
   :backlinks #{"content/docs/recent-interests.md"}
   :title "Alt Health"
-  :markdown "---\nbacklinks-set: #{\"content/docs/recent-interests.md\"}\ncategories-set: #{\"Health And Longevity\" \"Recent\"}\n---\n# Alt-Health: A Critique\n\n## What is Alt-Health?\n\nI'm defining \"alt-health\" as a general movement of people on the internet who\nfeel that the modern healthcare system (\"healthcare 2.0\" in Peter Attia's\nparlance) is \"broken\" or not meeting the needs of society.\nSpecifically, these people cite the growing incidence of chronic disease - e.g.\nobesity - in our population, and criticize how the modern healthcare system is\nreally a \"sick-care\" system that specializes in managing symptoms of chronic\ndisease, as opposed to preventing that disease in the first place.\n\nI generally agree with this overarching theme, and consider myself part of this\nmovement to some extent.\nHowever, I have become worried by the lack of rigorous science (and thought)\nthat goes into many \"alt-health\" positions.\nI want to explore this more in this post.\n\n## Inspiration and Backstory\n\nI was inspired to write this when listening to\nhttps://thenuggetclimbing.com/episodes/kaizen-asiedu; a \"Nugget Climbing\"\npodcast episode that talks a lot about the health in America.\nThis episode specifically focused a lot on RFK, jr., a quintessential\n\"alt-health\"-er who has just come to some power in the Trump administration.\n\nIn the episode, the host tells a story about how he had psoriasis on the back of\nhis head.\nHe describes going to a doctor, being told the condition was untreatable, and\nbeing given a steroid to apply topically for the rest of his life to manage\nsymptoms.\nThen, the host describes how he started reading more \"alt-health\" content and\nstarted experimenting with his diet.\nMiraculously, this experimentation led to a dramatic reduction in symptoms (much\nmore than the steroid)!\nThe host concludes his story by discussing how this experience made him feel a\nbit betrayed by the healthcare system, and much more interested in \"alt-health\"\ntakes.\n\nFunnily enough, I have a story from my own life that almost perfectly parallels\nthe host's.\nIn high school I played football and wore these tight padded undershorts 5+ days\na week for practice and games.\nI think something about this triggered a bad eczema on my inner thighs that\npersisted for about a decade after I stopped playing football.\nLike the host, I went to a doctor and had the exact same experience: \"your\ncondition is incurable, here is a steroid\".\nThen, like the host, I started reading about and experimenting with diet, and\nalso made my eczema completely go away.\nFor me, it seemed like eliminating dairy from my diet was the main driver of my\ncure.\n\nI also felt a bit betrayed by the doctor - the word \"incurable\" so strongly\nechoed in my mind and made me feel terrible and defeatist about my condition.\nThe fact that it was in fact curable despite what the doctor said was a relief,\nbut also made me feel bad that I had to live with the defeatist attitude about\nan uncomfortable condition for so long.\n\n## Interlude: Effect Size\n\nBefore going into different influences of health, I want to quickly describe\nwhat I find to be a useful way to rank these influences: comparing effect size.\n\nEffect size is simply the size of the effect you expect a health intervention to\nhave.\nFor instance, for me, eliminating dairy made my eczema go from 100% to 0%, a\nlarge effect.\nI have yet to notice any effect from Vitamin D supplements I've been recently\ntaking, but soon I'll have a blood test that will quantify how much my blood\nlevels have changed (hopefully due to the supplement...).\nThis effect size hopefully I'll be able to map to health outcomes I actually\ncare about.\n\nResearchers use effect size to describe the efficacy of drugs or other\ninterventions so that they can be approved (or banned) for general use by a body\nlike the FDA.\n\nNote that it is quite common for there to be a reasonable explanation for why\nsomething should impact health (e.g. a molecular mechanism), but for the actual\neffect size to be zero or even negative.\nMany, many billions of dollars are continuously and painfully spent on drug\ntrials that fail in probably the best illustration of this phenomenon.\n\nKeeping effect size in mind is a good way to consistency judge things that\nimpact health, and helps prevent getting distracted by the reasonable\nexplanations.\n\n## Specificity: An Alt-Health Tendency\n\nAs I have read books and articles about how to be healthier, emboldened by my\neczema cure, I have noticed some worrying trends in the alt-health space.\nSpecifically, it seems many alt-health-ers love to pick out very specific causes\nof health problems without evidence of a noticeable effect size in real people.\nThese include:\n\n - MSG and \"excitotoxins\"\n - Glyphosate and other herbicides\n - \"GMO\" foods\n - Non-organic foods generally\n - [Seed oils](https://dynomight.net/seed-oil/)\n - Preservatives\n - \"Anti-nutrients\" like oxalates and phytates\n - Microplastics and teflon\n\nI see this happening for interventions that benefit health too:\n\n - Most supplements (flagship example: resveratrol)\n - Some specific diets that make sweeping generalizations, like the blood type\n   diet\n\nIt's entirely possible that some of these things actually do have a measurable\neffect size that I haven't found in the literature yet; if they do please let me\nknow!\n\nI suspect people keep doing this for several reasons, depending on the\ncause/intervention:\n\n1. Because it is neat and simple to say \"if we only got rid of this, we would be\n   so much healthier\".\n2. The reasonable explanations (not based on scientific data) are convincing.\n3. A low level disgust response.\n   \"Eating plastic\" sounds bad to the primitive parts of our brain.\n\n## Unspecific Cures\n\nTo be fair, many \"alt-health\"-ers (like me) are also big fans of less \"specific\"\ninterventions that **do** have a well studied and measurable effect size.\nThese include:\n\n - Daily exercise, low and high intensity\n - A sufficient amount of good quality sleep\n - Consumption of whole foods like:\n   - Fruits\n   - Vegetables\n   - Whole grains\n   - Fish\n   - Meat (controversial), including stuff beyond muscle like organs\n - Avoiding processed foods and hyper-palatable foods that make it easy to\n   overeat.\n   Note that these foods can be helpful if you require them to stay in energy\n   balance, such as when being very physically active.\n - Avoiding chronic stress, e.g. from a stressful job, social media, and/or\n   their commute.\n   Or at least being able to manage stress well.\n - Avoiding chronic exposure to poor air quality, including smoking\n - Avoiding excess alcohol consumption\n - Avoiding chronic high blood pressure, e.g. from high salt/stress\n - Avoiding heart disease risk markers, like high apoB, e.g. from diet\n\n## Big Pharma and Doctors: Corrupted?\n\nMany alt-health-ers have a strong distaste of the pharma industry, and use of\ndrugs in general.\nIn the most extreme case, their story is that pharma companies only care about\nprofit, and would prefer to keep many people in a state of chronic disease\nmanaged by drugs to make the most money.\nAdditionally, the story goes that doctors are complicit in this, and prescribe\ndrugs to fix problems because they are also sucked in by the profit motive.\n\nI personally challenge this interpretation.\nOne of the best alternative explanations I've heard from doctors is that they\nare as frustrated as anyone else, but are unable to effectively prescribe the\n\"alt-health\" \"unspecific cures\" listed above because:\n\n1. Patient compliance is low\n   - People don't want to change their diet\n   - People don't want to exercise\n   - People don't want to - or can't - quit their stressful job\n   - People like hyper-palatable food, alcohol, nicotine, etc.\n2. Some unspecific cures are hard to study, or the effect size varies\n   dramatically patient to patient, leading to more time/energy required to\n   effectively prescribe them (and doctors are overworked/don't have this time)\n   - For instance, many people tolerate dairy quite well, but I do not.\n     Most primary care providers do have have time to suss things like this out\n     for every patient.\n3. Most \"alt-health\" specific cures have low or unknown effect sizes, so\n   prescribing them is a gamble that will probably not pay off and may do harm.\n\n## Further Reading\n\nI highly recommend https://www.redpenreviews.org/ as a good critical review of\ndifferent health philosophies/strategies.  See how your favorite books fare!"
+  :markdown "---\nbacklinks-set: #{\"content/docs/recent-interests.md\"}\ncategories-set: #{\"Health And Longevity\"}\n---\n# Alt-Health: A Critique\n\n## What is Alt-Health?\n\nI'm defining \"alt-health\" as a general movement of people on the internet who\nfeel that the modern healthcare system (\"healthcare 2.0\" in Peter Attia's\nparlance) is \"broken\" or not meeting the needs of society.\nSpecifically, these people cite the growing incidence of chronic disease - e.g.\nobesity - in our population, and criticize how the modern healthcare system is\nreally a \"sick-care\" system that specializes in managing symptoms of chronic\ndisease, as opposed to preventing that disease in the first place.\n\nI generally agree with this overarching theme, and consider myself part of this\nmovement to some extent.\nHowever, I have become worried by the lack of rigorous science (and thought)\nthat goes into many \"alt-health\" positions.\nI want to explore this more in this post.\n\n## Inspiration and Backstory\n\nI was inspired to write this when listening to\nhttps://thenuggetclimbing.com/episodes/kaizen-asiedu; a \"Nugget Climbing\"\npodcast episode that talks a lot about the health in America.\nThis episode specifically focused a lot on RFK, jr., a quintessential\n\"alt-health\"-er who has just come to some power in the Trump administration.\n\nIn the episode, the host tells a story about how he had psoriasis on the back of\nhis head.\nHe describes going to a doctor, being told the condition was untreatable, and\nbeing given a steroid to apply topically for the rest of his life to manage\nsymptoms.\nThen, the host describes how he started reading more \"alt-health\" content and\nstarted experimenting with his diet.\nMiraculously, this experimentation led to a dramatic reduction in symptoms (much\nmore than the steroid)!\nThe host concludes his story by discussing how this experience made him feel a\nbit betrayed by the healthcare system, and much more interested in \"alt-health\"\ntakes.\n\nFunnily enough, I have a story from my own life that almost perfectly parallels\nthe host's.\nIn high school I played football and wore these tight padded undershorts 5+ days\na week for practice and games.\nI think something about this triggered a bad eczema on my inner thighs that\npersisted for about a decade after I stopped playing football.\nLike the host, I went to a doctor and had the exact same experience: \"your\ncondition is incurable, here is a steroid\".\nThen, like the host, I started reading about and experimenting with diet, and\nalso made my eczema completely go away.\nFor me, it seemed like eliminating dairy from my diet was the main driver of my\ncure.\n\nI also felt a bit betrayed by the doctor - the word \"incurable\" so strongly\nechoed in my mind and made me feel terrible and defeatist about my condition.\nThe fact that it was in fact curable despite what the doctor said was a relief,\nbut also made me feel bad that I had to live with the defeatist attitude about\nan uncomfortable condition for so long.\n\n## Interlude: Effect Size\n\nBefore going into different influences of health, I want to quickly describe\nwhat I find to be a useful way to rank these influences: comparing effect size.\n\nEffect size is simply the size of the effect you expect a health intervention to\nhave.\nFor instance, for me, eliminating dairy made my eczema go from 100% to 0%, a\nlarge effect.\nI have yet to notice any effect from Vitamin D supplements I've been recently\ntaking, but soon I'll have a blood test that will quantify how much my blood\nlevels have changed (hopefully due to the supplement...).\nThis effect size hopefully I'll be able to map to health outcomes I actually\ncare about.\n\nResearchers use effect size to describe the efficacy of drugs or other\ninterventions so that they can be approved (or banned) for general use by a body\nlike the FDA.\n\nNote that it is quite common for there to be a reasonable explanation for why\nsomething should impact health (e.g. a molecular mechanism), but for the actual\neffect size to be zero or even negative.\nMany, many billions of dollars are continuously and painfully spent on drug\ntrials that fail in probably the best illustration of this phenomenon.\n\nKeeping effect size in mind is a good way to consistency judge things that\nimpact health, and helps prevent getting distracted by the reasonable\nexplanations.\n\n## Specificity: An Alt-Health Tendency\n\nAs I have read books and articles about how to be healthier, emboldened by my\neczema cure, I have noticed some worrying trends in the alt-health space.\nSpecifically, it seems many alt-health-ers love to pick out very specific causes\nof health problems without evidence of a noticeable effect size in real people.\nThese include:\n\n - MSG and \"excitotoxins\"\n - Glyphosate and other herbicides\n - \"GMO\" foods\n - Non-organic foods generally\n - [Seed oils](https://dynomight.net/seed-oil/)\n - Preservatives\n - \"Anti-nutrients\" like oxalates and phytates\n - Microplastics and teflon\n\nI see this happening for interventions that benefit health too:\n\n - Most supplements (flagship example: resveratrol)\n - Some specific diets that make sweeping generalizations, like the blood type\n   diet\n\nIt's entirely possible that some of these things actually do have a measurable\neffect size that I haven't found in the literature yet; if they do please let me\nknow!\n\nI suspect people keep doing this for several reasons, depending on the\ncause/intervention:\n\n1. Because it is neat and simple to say \"if we only got rid of this, we would be\n   so much healthier\".\n2. The reasonable explanations (not based on scientific data) are convincing.\n3. A low level disgust response.\n   \"Eating plastic\" sounds bad to the primitive parts of our brain.\n\n## Unspecific Cures\n\nTo be fair, many \"alt-health\"-ers (like me) are also big fans of less \"specific\"\ninterventions that **do** have a well studied and measurable effect size.\nThese include:\n\n - Daily exercise, low and high intensity\n - A sufficient amount of good quality sleep\n - Consumption of whole foods like:\n   - Fruits\n   - Vegetables\n   - Whole grains\n   - Fish\n   - Meat (controversial), including stuff beyond muscle like organs\n - Avoiding processed foods and hyper-palatable foods that make it easy to\n   overeat.\n   Note that these foods can be helpful if you require them to stay in energy\n   balance, such as when being very physically active.\n - Avoiding chronic stress, e.g. from a stressful job, social media, and/or\n   their commute.\n   Or at least being able to manage stress well.\n - Avoiding chronic exposure to poor air quality, including smoking\n - Avoiding excess alcohol consumption\n - Avoiding chronic high blood pressure, e.g. from high salt/stress\n - Avoiding heart disease risk markers, like high apoB, e.g. from diet\n\n## Big Pharma and Doctors: Corrupted?\n\nMany alt-health-ers have a strong distaste of the pharma industry, and use of\ndrugs in general.\nIn the most extreme case, their story is that pharma companies only care about\nprofit, and would prefer to keep many people in a state of chronic disease\nmanaged by drugs to make the most money.\nAdditionally, the story goes that doctors are complicit in this, and prescribe\ndrugs to fix problems because they are also sucked in by the profit motive.\n\nI personally challenge this interpretation.\nOne of the best alternative explanations I've heard from doctors is that they\nare as frustrated as anyone else, but are unable to effectively prescribe the\n\"alt-health\" \"unspecific cures\" listed above because:\n\n1. Patient compliance is low\n   - People don't want to change their diet\n   - People don't want to exercise\n   - People don't want to - or can't - quit their stressful job\n   - People like hyper-palatable food, alcohol, nicotine, etc.\n2. Some unspecific cures are hard to study, or the effect size varies\n   dramatically patient to patient, leading to more time/energy required to\n   effectively prescribe them (and doctors are overworked/don't have this time)\n   - For instance, many people tolerate dairy quite well, but I do not.\n     Most primary care providers do have have time to suss things like this out\n     for every patient.\n3. Most \"alt-health\" specific cures have low or unknown effect sizes, so\n   prescribing them is a gamble that will probably not pay off and may do harm.\n\n## Further Reading\n\nI highly recommend https://www.redpenreviews.org/ as a good critical review of\ndifferent health philosophies/strategies.  See how your favorite books fare!"
   :name "alt-health.md"
   :private false
-  :categories #{"Health And Longevity"
-                "Recent"}
+  :categories #{"Health And Longevity"}
   :dir? false
   :links []
-  :size 8432
-  :modtime 1756000671
+  :size 8423
+  :modtime 1756002667
   :mode 420
-  :modification-unix-timestamps [1740866322
+  :modification-unix-timestamps [1756002649
+                                 1756002482
+                                 1740866322
                                  1740862760
                                  1740781684
                                  1740688726
@@ -2144,7 +2149,7 @@
   :dir? false
   :links []
   :size 309
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -2163,7 +2168,7 @@
   :dir? false
   :links []
   :size 347
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1729379357
@@ -2182,7 +2187,7 @@
   :dir? false
   :links []
   :size 858
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1660415854
                                  1660407081
@@ -2207,7 +2212,7 @@
   :dir? false
   :links []
   :size 174
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1659113492
                                  1655691154
@@ -2225,7 +2230,7 @@
   :dir? false
   :links []
   :size 167
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655691154
                                  1655657180
@@ -2243,7 +2248,7 @@
   :dir? false
   :links []
   :size 1549
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655691154
                                  1655657180
@@ -2260,7 +2265,7 @@
   :dir? false
   :links []
   :size 200
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -2278,7 +2283,7 @@
   :dir? false
   :links []
   :size 735
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -2298,7 +2303,7 @@
   :dir? false
   :links []
   :size 177
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1659113492
                                  1655691154
@@ -2316,7 +2321,7 @@
   :dir? false
   :links []
   :size 340
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -2334,7 +2339,7 @@
   :dir? false
   :links []
   :size 4647
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1754518901
@@ -2352,7 +2357,7 @@
   :dir? false
   :links ["/docs/health-and-longevity/sens.md"]
   :size 9482
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1662926578
@@ -2384,7 +2389,7 @@
   :dir? false
   :links []
   :size 474
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -2403,7 +2408,7 @@
   :dir? false
   :links []
   :size 701
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -2421,7 +2426,7 @@
   :dir? false
   :links []
   :size 325
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1753893853]}
  {:path-categories #{"Health And Longevity"}
@@ -2435,7 +2440,7 @@
   :dir? false
   :links ["/docs/understanding-the-world/what-to-believe.md"]
   :size 852
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1655757336
@@ -2458,7 +2463,7 @@
   :dir? false
   :links ["/docs/lifestyle-optimizations/task-tracking.md"]
   :size 6067
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1740862760
@@ -2489,7 +2494,7 @@
   :dir? false
   :links []
   :size 2158
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1659551685
                                  1659113492
@@ -2513,7 +2518,7 @@
   :links ["/docs/health-and-longevity/food/tracking-food.md"
           "/docs/health-and-longevity/continuous-glucose-monitoring.md"]
   :size 3684
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755975293
@@ -2548,7 +2553,7 @@
   :dir? false
   :links []
   :size 6032
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875]}
@@ -2568,7 +2573,7 @@
           "/docs/health-and-longevity/biomarker-correlator.md"
           "/docs/understanding-the-world/influences.md#the-beginning-of-infinity-by-david-deutschhttpsenwikipediaorgwikithe_beginning_of_infinity"]
   :size 17069
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755975293
@@ -2588,7 +2593,7 @@
   :dir? false
   :links ["/docs/health-and-longevity/food/personal-specific-food-notes.md"]
   :size 2913
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875]}
@@ -2605,7 +2610,7 @@
   :dir? false
   :links []
   :size 2623
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875]}
@@ -2622,7 +2627,7 @@
   :dir? false
   :links []
   :size 10240
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875]}
@@ -2639,7 +2644,7 @@
   :dir? false
   :links []
   :size 522
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875]}
@@ -2656,7 +2661,7 @@
   :dir? false
   :links []
   :size 4243
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875]}
@@ -2673,7 +2678,7 @@
   :dir? false
   :links []
   :size 405
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875]}
@@ -2695,7 +2700,7 @@
           "/docs/feelings.md"
           "/docs/feelings.md"]
   :size 526
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1731450576
@@ -2712,7 +2717,7 @@
   :dir? false
   :links ["/docs/feelings.md"]
   :size 225
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1731450576
@@ -2729,7 +2734,7 @@
   :dir? false
   :links []
   :size 884
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -2747,7 +2752,7 @@
   :dir? false
   :links []
   :size 370
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1667703247
                                  1667586520
@@ -2767,7 +2772,7 @@
   :dir? false
   :links []
   :size 1581
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -2787,7 +2792,7 @@
   :dir? false
   :links []
   :size 4434
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -2818,7 +2823,7 @@
   :dir? false
   :links []
   :size 12009
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1706730743
                                  1704401356
@@ -2838,7 +2843,7 @@
   :dir? false
   :links []
   :size 812
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -2857,7 +2862,7 @@
   :dir? false
   :links []
   :size 1582
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -2875,7 +2880,7 @@
   :dir? false
   :links ["/docs/understanding-the-world/influences.md"]
   :size 1435
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1655691154
@@ -2896,7 +2901,7 @@
   :dir? false
   :links []
   :size 542
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -2914,7 +2919,7 @@
   :dir? false
   :links []
   :size 2717
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1710287368
                                  1710287362
@@ -2938,7 +2943,7 @@
   :dir? false
   :links []
   :size 5390
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1669743672
                                  1669230421
@@ -2970,7 +2975,7 @@
   :dir? false
   :links []
   :size 2849
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1665686620
                                  1655753252
@@ -2992,7 +2997,7 @@
   :links ["/docs/lifestyle-optimizations/daily-habits.md"
           "/docs/lifelogging/camera.md"]
   :size 5501
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1743191815
@@ -3010,7 +3015,7 @@
   :dir? false
   :links []
   :size 362
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875]}
@@ -3026,7 +3031,7 @@
   :dir? false
   :links []
   :size 1180
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1743190436
                                  1675806456
@@ -3048,7 +3053,7 @@
   :dir? false
   :links []
   :size 656
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1689818925
                                  1669743672
@@ -3071,7 +3076,7 @@
   :dir? false
   :links []
   :size 765
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1723670821
                                  1723659833
@@ -3092,7 +3097,7 @@
           "/docs/health-and-longevity/biomarker-correlator.md"
           "/docs/health-and-longevity/continuous-glucose-monitoring.md"]
   :size 8998
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1740866322
@@ -3117,7 +3122,7 @@
   :dir? false
   :links []
   :size 1367
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1664948442
                                  1664937384
@@ -3138,7 +3143,7 @@
   :dir? false
   :links []
   :size 1964
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1674070949]}
  {:path-categories #{"Lifestyle Optimizations"}
@@ -3152,7 +3157,7 @@
   :dir? false
   :links []
   :size 8727
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1710287362
                                  1707596110
@@ -3183,7 +3188,7 @@
           "/docs/health-and-longevity/food/supplements.md"
           "/docs/lifelogging/what-and-why.md"]
   :size 2546
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875
@@ -3220,7 +3225,7 @@
           "/docs/understanding-the-world/productive-conversations.md"
           "/docs/health-and-longevity/sleep.md"]
   :size 2534
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1739316639
@@ -3261,7 +3266,7 @@
   :dir? false
   :links []
   :size 648
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1658277343
                                  1657997776]}
@@ -3276,7 +3281,7 @@
   :dir? false
   :links ["/docs/thought-experiments/mind-mapping-concept.md"]
   :size 631
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875
@@ -3291,17 +3296,18 @@
   :path "content/docs/lifestyle-optimizations/footwear.md"
   :backlinks nil
   :title "Footwear"
-  :markdown "---\nbacklinks-set: \ncategories-set: #{\"Lifestyle Optimizations\" \"Recent\"}\n---\n# Footwear\n\n## Socks\n\nI have pretty large feet with I think a larger than average instep.\nBecause of this, I have long struggled to find socks that aren't uncomfortably\ntight on the top of my foot.\nI have ordered and returned many many socks in search of a pair that feels loose\nand comfortable.\n\nI haven't fully found the best socks yet, but the best ones so far have been:\n\n - https://amzn.to/4h7FlV8\n - https://amzn.to/4h7FlV8\n\nI have actually cut holes in the top of my socks just about at the ankle to help\nalleiviate this problem.  It does work.\n\n## Shoes\n\nI exclusively wear https://amzn.to/4bte91Z.\n\nI started trying out minimalist running shoes when building a running habit\nduring the pandemic, and these fit me really well and were cheap.\nI especially like how loose they are - I think I am more sensitive than most to\nhaving an overheated sweaty foot; I hate that feeling.\n\nMost of the time during the day I untie the laces for comfort.  I tie a knot in the end of each lace so that I don't step/trip on them:\n\n![](/docs/lifestyle-optimizations/knot-in-laces.jpg)"
+  :markdown "---\nbacklinks-set: \ncategories-set: #{\"Lifestyle Optimizations\"}\n---\n# Footwear\n\n## Socks\n\nI have pretty large feet with I think a larger than average instep.\nBecause of this, I have long struggled to find socks that aren't uncomfortably\ntight on the top of my foot.\nI have ordered and returned many many socks in search of a pair that feels loose\nand comfortable.\n\nI haven't fully found the best socks yet, but the best ones so far have been:\n\n - https://amzn.to/4h7FlV8\n - https://amzn.to/4h7FlV8\n\nI have actually cut holes in the top of my socks just about at the ankle to help\nalleiviate this problem.  It does work.\n\n## Shoes\n\nI exclusively wear https://amzn.to/4bte91Z.\n\nI started trying out minimalist running shoes when building a running habit\nduring the pandemic, and these fit me really well and were cheap.\nI especially like how loose they are - I think I am more sensitive than most to\nhaving an overheated sweaty foot; I hate that feeling.\n\nMost of the time during the day I untie the laces for comfort.  I tie a knot in the end of each lace so that I don't step/trip on them:\n\n![](/docs/lifestyle-optimizations/knot-in-laces.jpg)"
   :name "footwear.md"
   :private false
-  :categories #{"Lifestyle Optimizations"
-                "Recent"}
+  :categories #{"Lifestyle Optimizations"}
   :dir? false
   :links []
-  :size 1153
-  :modtime 1756000671
+  :size 1144
+  :modtime 1756002667
   :mode 420
-  :modification-unix-timestamps [1749182667
+  :modification-unix-timestamps [1756002649
+                                 1756002482
+                                 1749182667
                                  1740947312]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/geographical-maps.md"
@@ -3314,7 +3320,7 @@
   :dir? false
   :links []
   :size 268
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1667452680
                                  1665881215
@@ -3334,7 +3340,7 @@
   :dir? false
   :links []
   :size 2610
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -3354,7 +3360,7 @@
   :dir? false
   :links []
   :size 820
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -3372,7 +3378,7 @@
   :dir? false
   :links []
   :size 167
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1704401356
                                  1704233545]}
@@ -3380,17 +3386,18 @@
   :path "content/docs/lifestyle-optimizations/keyboards-and-typing.md"
   :backlinks #{"content/docs/recent-interests.md"}
   :title "Keyboards And Typing"
-  :markdown "---\nbacklinks-set: #{\"content/docs/recent-interests.md\"}\ncategories-set: #{\"Lifestyle Optimizations\" \"Recent\"}\n---\n# Keyboards and Typing\n\nSee an overview presentation I made at https://docs.google.com/presentation/d/1YsScPYB9H_Byha7xdw69ekQ6zQyqFh3ReMfeFMfVEDk/edit.\n\n## Layouts\n\nhttps://www.keybr.com/layouts\n\n![layouts](/docs/lifestyle-optimizations/layouts.png)\n\nhttps://www.reddit.com/r/Colemak/comments/qslro8/10000_simple_wikipedia_sentences_heatmap_qwerty/\n\n## Mods\n\n - https://precondition.github.io/home-row-mods#tips-and-tricks\n\n## Touch Typing\n\nI find this \"finger-key ownership\" scheme to be the most comfortable, at least when using the Colemak layout:\n\n![finger-key ownership](/docs/lifestyle-optimizations/fingers.png)\n\nhttps://www.keybr.com/ is a great place to efficiently learn touch typing.\n\n## Speed Testing\n\nhttps://monkeytype.com/ with tags is a good way to compare typing speed.\n\n## My Journey Through Different Boards\n\n### Kinesis Freestyle Split\n\nAfter doing a posture consultation at work, I was recommended to try a split\nkeyboard to help keep my shoulders more relaxed and my wrists/arms strait.\nI was given a kinesis freestyle split keyboard, which felt great.\nI specifically really liked the built in tenting feature, which I found very\ncomfortable.\n\n### Planck\n\nI borrowed a Planck keyboard from a coworker as my first foray into\northolinear mechanical keyboards.\nI liked the key density, programmatability and brown mechanical switches, but\nstruggled with the small size.\nSpecifically, I didn't like how close my hands were to each other, and how the\nkeys didn't really line up with my fingers.\n\n### Boardrun\n\nTo fix the cramped feeling of the Planck, I found a Boardrun keyboard (see\npicture in the Corne section below) from a local via a discord group.\nI didn't use this keyboard for very long before deciding that I really wanted to\ngo back to using a split keyboard.\nThe separation of the two halves on the boardrun just wasn't enough for me.\n\n### Corne Ergo Split Board\n\nI bought a wireless, low profile, hotswap corne already assembled off of reddit.\nhttps://armno.in.th/blog/building-a-wireless-corne-keyboard/ was really helpful\nto get it set up.\n\nMy keymap for this board uses combo keys to activate layers, and can be found at\nhttps://github.com/kovasap/zmk-config/blob/main/config/corne.keymap.\n\n![corne](/docs/lifestyle-optimizations/corne.jpg)\n*My Wireless Corne, with a Boardrun in the background I'm trying to get rid of.*\n\n\n### Kaly42\n\n#### Motivation\n\nI've been liking my Corne, but had two main issues with it:\n\n1. The furthest-in thumb key was very hard to reach, and borderline unusable.\n2. The pinky column stagger was not pronounced enough, making me often use my\n   ring finger to hit the top pinky key.\n\nThe Kaly42 promised to solve both of these problems, and I'd been wanting to try\nbuilding a board from scratch anyway.\n\n#### Parts\n\nI used the parts list on the Kaly and Cantor (which the Kaly is based on) GitHub\npages to guide my purchases.\nI bought everything on Aliexpress except for keycaps and switches, which came\nfrom lowprokb.ca.\nThe PCB I got from JCLPCB.\n\nAt first I bought the wrong microcontroller from Aliexpress.\nIt may have been the right spec, was was too wide to fit on the board.\nI ended up using [this\npost](https://github.com/Dwctor/Kaly/issues/6#issuecomment-2365386452) to get\none that would work.\n\nI hopefully thought my microcontroller would come with pins and sockets so that\nI could make it removable (in case it broke when installed on the board), but it\ndid not.\nI ended up sourcing some low profile sockets from a coworker.\nNext time I would definitely buy sockets up front to make sure I had them.\n\n#### Build Process\n\nThis was my first soldering job, so a good amount of learning was involved.\nSpecifically, it took me a while to get used to the fact that some part of the\nkeyboard took way longer to heat up than others when soldering, and I often\napplied solder too early while the metal was still too cold, leading to an ugly\nconnection.\n\nSome of my connections worked right after soldering, but failed after a couple\nhours exposed to colder temps.\n\n![kaly_in_progress](/docs/lifestyle-optimizations/kaly_in_progress.jpg)\n*Midway\nthrough the build, here I was trying to decide if I should use the large sockets\navailable at my makerspace, or solder directly onto the board.\nLuckily I was able to find shorter sockets from a coworker that gave me the best\nof both worlds.*\n\n#### Final Product\n\n![kaly](/docs/lifestyle-optimizations/kaly.jpg)\n\n![kaly_on_wood](/docs/lifestyle-optimizations/kaly_on_wood.jpg)\n\n![kaly_on_desk](/docs/lifestyle-optimizations/kaly_on_desk.jpg)\n\n#### Keymap\n\nhttps://github.com/kovasap/qmk_firmware/blob/master/keyboards/kaly/kaly42/keymaps/kovasap/keymap.c\n\n### Lintilla\n\n#### Motivation\n\nAfter using my Kaly42 for a while, there were some minor issues that were\nconsistenly annoying me.\nI detailed these issues at\nhttps://www.reddit.com/r/ErgoMechKeyboards/comments/1i6q9ih/searching_for_keyboard_42_key_split_staggered/.\nA commenter helpfully suggested the\n[Lintilla](https://github.com/ctranstrum/lintilla) keyboard, which looked to\nsolve all of my problems, plus add some nice new features like being wireless.\n\n#### Build Process\n\nThe instructions on the Lintilla GitHub page for getting parts and building the\nboard were phenomenal.\nIn no small part due to the high quality instructions, building the Lintilla was\njust as easy or easier than building the Kaly42 despite being a more complex\nboard.\n\nI did run into a couple hiccups that might be useful for others to know:\n\n - Finding the M2 screws and hex nuts was surprisingly difficult in my local\n   area.\n   The hardware stores I tried only had down to M3.\n   I ended up ordering many more than I needed from Amazon.\n - Ordering the Xiao microcontrollers from Seeedstudio in China took 30 days to\n   deliver.\n   Maybe I just got unluchy.\n - At first I put the microcontrollers on both sides of the board backwards.\n   One of them I removed (and destroyed :( ) by grilling it on a hot plate.\n   Luckily the other one I was able to save by removing it with a hot air gun.\n - I had some other minor issues during the build that are documented at\n   https://github.com/ctranstrum/lintilla/issues?q=is%3Aissue%20author%3Akovasap.\n   The keyboard creator was extremely helpful in helping me work through these\n   issues, and several of the issues led to repository updates that will solve\n   the problems for future builders.\n\n\n![Mid build lintilla](/docs/lifestyle-optimizations/mid-build-lintilla.jpg)\n\n![lintilla xiao wrong side](/docs/lifestyle-optimizations/lintilla-wrong-side-xiao.jpg)\n*Note how the microcontroller is incorrectly on the top of the board, whereas\nall the sockets/diodes are on the bottom!*\n\n#### Final Product\n\n![lintilla](/docs/lifestyle-optimizations/lintilla-both.jpg)\n\n![lintilla one side](/docs/lifestyle-optimizations/lintilla-right.jpg)\n*Except for the middle thumb key, the keycaps are colored by the finger that will use them.*\n\n![lintilla other side](/docs/lifestyle-optimizations/lintilla-left.jpg)\n*I tried out some [\"convex\" or \"thumb\"\nkeycaps](https://typeractive.xyz/products/mbk-keycaps?_pos=1&_sid=79cf78d62&_ss=r&variant=46728680407271)\non the thumb keys, and it is incredible how much more comfortable they are to\nuse than the normal keycaps with the sharpish edges.*\n\n![lintilla with kaly](/docs/lifestyle-optimizations/lintilla-with-kaly.jpg)\n*My finished Lintilla, with my Kaly42 behind it.\nI like using gloves as wrist rests, and have even attached some to my kaly with\nstrings.\nThese rests double as \"cases\" I can flip on top of the keycaps to protect them\nfor transport when I put the keybord halves back-to-back.\nI'll probably end up doing something similar for the Lintilla.*\n\n#### Keymap\n\nhttps://github.com/kovasap/zmk-config/blob/main/config/lintilla.keymap\n\n## Normal Keyboard Usage\n\nAs much as I like my custom keyboards, sometimes it's just more convenient to\nuse my laptop keyboard.\nTo make it nicer, I use xkb on linux to implement something like\nhttps://dreymar.colemak.org/ergo-mods.html#angle-wide.\nMy config is at https://github.com/kovasap/dotfiles/tree/master/keyboard.\n\n## Inspiration and other projects\n\n - A small keyboard with many layers:\n   https://news.ycombinator.com/item?id=32634511\n - https://ianthehenry.com/posts/peggi/"
+  :markdown "---\nbacklinks-set: #{\"content/docs/recent-interests.md\"}\ncategories-set: #{\"Lifestyle Optimizations\"}\n---\n# Keyboards and Typing\n\nSee an overview presentation I made at https://docs.google.com/presentation/d/1YsScPYB9H_Byha7xdw69ekQ6zQyqFh3ReMfeFMfVEDk/edit.\n\n## Layouts\n\nhttps://www.keybr.com/layouts\n\n![layouts](/docs/lifestyle-optimizations/layouts.png)\n\nhttps://www.reddit.com/r/Colemak/comments/qslro8/10000_simple_wikipedia_sentences_heatmap_qwerty/\n\n## Mods\n\n - https://precondition.github.io/home-row-mods#tips-and-tricks\n\n## Touch Typing\n\nI find this \"finger-key ownership\" scheme to be the most comfortable, at least when using the Colemak layout:\n\n![finger-key ownership](/docs/lifestyle-optimizations/fingers.png)\n\nhttps://www.keybr.com/ is a great place to efficiently learn touch typing.\n\n## Speed Testing\n\nhttps://monkeytype.com/ with tags is a good way to compare typing speed.\n\n## My Journey Through Different Boards\n\n### Kinesis Freestyle Split\n\nAfter doing a posture consultation at work, I was recommended to try a split\nkeyboard to help keep my shoulders more relaxed and my wrists/arms strait.\nI was given a kinesis freestyle split keyboard, which felt great.\nI specifically really liked the built in tenting feature, which I found very\ncomfortable.\n\n### Planck\n\nI borrowed a Planck keyboard from a coworker as my first foray into\northolinear mechanical keyboards.\nI liked the key density, programmatability and brown mechanical switches, but\nstruggled with the small size.\nSpecifically, I didn't like how close my hands were to each other, and how the\nkeys didn't really line up with my fingers.\n\n### Boardrun\n\nTo fix the cramped feeling of the Planck, I found a Boardrun keyboard (see\npicture in the Corne section below) from a local via a discord group.\nI didn't use this keyboard for very long before deciding that I really wanted to\ngo back to using a split keyboard.\nThe separation of the two halves on the boardrun just wasn't enough for me.\n\n### Corne Ergo Split Board\n\nI bought a wireless, low profile, hotswap corne already assembled off of reddit.\nhttps://armno.in.th/blog/building-a-wireless-corne-keyboard/ was really helpful\nto get it set up.\n\nMy keymap for this board uses combo keys to activate layers, and can be found at\nhttps://github.com/kovasap/zmk-config/blob/main/config/corne.keymap.\n\n![corne](/docs/lifestyle-optimizations/corne.jpg)\n*My Wireless Corne, with a Boardrun in the background I'm trying to get rid of.*\n\n\n### Kaly42\n\n#### Motivation\n\nI've been liking my Corne, but had two main issues with it:\n\n1. The furthest-in thumb key was very hard to reach, and borderline unusable.\n2. The pinky column stagger was not pronounced enough, making me often use my\n   ring finger to hit the top pinky key.\n\nThe Kaly42 promised to solve both of these problems, and I'd been wanting to try\nbuilding a board from scratch anyway.\n\n#### Parts\n\nI used the parts list on the Kaly and Cantor (which the Kaly is based on) GitHub\npages to guide my purchases.\nI bought everything on Aliexpress except for keycaps and switches, which came\nfrom lowprokb.ca.\nThe PCB I got from JCLPCB.\n\nAt first I bought the wrong microcontroller from Aliexpress.\nIt may have been the right spec, was was too wide to fit on the board.\nI ended up using [this\npost](https://github.com/Dwctor/Kaly/issues/6#issuecomment-2365386452) to get\none that would work.\n\nI hopefully thought my microcontroller would come with pins and sockets so that\nI could make it removable (in case it broke when installed on the board), but it\ndid not.\nI ended up sourcing some low profile sockets from a coworker.\nNext time I would definitely buy sockets up front to make sure I had them.\n\n#### Build Process\n\nThis was my first soldering job, so a good amount of learning was involved.\nSpecifically, it took me a while to get used to the fact that some part of the\nkeyboard took way longer to heat up than others when soldering, and I often\napplied solder too early while the metal was still too cold, leading to an ugly\nconnection.\n\nSome of my connections worked right after soldering, but failed after a couple\nhours exposed to colder temps.\n\n![kaly_in_progress](/docs/lifestyle-optimizations/kaly_in_progress.jpg)\n*Midway\nthrough the build, here I was trying to decide if I should use the large sockets\navailable at my makerspace, or solder directly onto the board.\nLuckily I was able to find shorter sockets from a coworker that gave me the best\nof both worlds.*\n\n#### Final Product\n\n![kaly](/docs/lifestyle-optimizations/kaly.jpg)\n\n![kaly_on_wood](/docs/lifestyle-optimizations/kaly_on_wood.jpg)\n\n![kaly_on_desk](/docs/lifestyle-optimizations/kaly_on_desk.jpg)\n\n#### Keymap\n\nhttps://github.com/kovasap/qmk_firmware/blob/master/keyboards/kaly/kaly42/keymaps/kovasap/keymap.c\n\n### Lintilla\n\n#### Motivation\n\nAfter using my Kaly42 for a while, there were some minor issues that were\nconsistenly annoying me.\nI detailed these issues at\nhttps://www.reddit.com/r/ErgoMechKeyboards/comments/1i6q9ih/searching_for_keyboard_42_key_split_staggered/.\nA commenter helpfully suggested the\n[Lintilla](https://github.com/ctranstrum/lintilla) keyboard, which looked to\nsolve all of my problems, plus add some nice new features like being wireless.\n\n#### Build Process\n\nThe instructions on the Lintilla GitHub page for getting parts and building the\nboard were phenomenal.\nIn no small part due to the high quality instructions, building the Lintilla was\njust as easy or easier than building the Kaly42 despite being a more complex\nboard.\n\nI did run into a couple hiccups that might be useful for others to know:\n\n - Finding the M2 screws and hex nuts was surprisingly difficult in my local\n   area.\n   The hardware stores I tried only had down to M3.\n   I ended up ordering many more than I needed from Amazon.\n - Ordering the Xiao microcontrollers from Seeedstudio in China took 30 days to\n   deliver.\n   Maybe I just got unluchy.\n - At first I put the microcontrollers on both sides of the board backwards.\n   One of them I removed (and destroyed :( ) by grilling it on a hot plate.\n   Luckily the other one I was able to save by removing it with a hot air gun.\n - I had some other minor issues during the build that are documented at\n   https://github.com/ctranstrum/lintilla/issues?q=is%3Aissue%20author%3Akovasap.\n   The keyboard creator was extremely helpful in helping me work through these\n   issues, and several of the issues led to repository updates that will solve\n   the problems for future builders.\n\n\n![Mid build lintilla](/docs/lifestyle-optimizations/mid-build-lintilla.jpg)\n\n![lintilla xiao wrong side](/docs/lifestyle-optimizations/lintilla-wrong-side-xiao.jpg)\n*Note how the microcontroller is incorrectly on the top of the board, whereas\nall the sockets/diodes are on the bottom!*\n\n#### Final Product\n\n![lintilla](/docs/lifestyle-optimizations/lintilla-both.jpg)\n\n![lintilla one side](/docs/lifestyle-optimizations/lintilla-right.jpg)\n*Except for the middle thumb key, the keycaps are colored by the finger that will use them.*\n\n![lintilla other side](/docs/lifestyle-optimizations/lintilla-left.jpg)\n*I tried out some [\"convex\" or \"thumb\"\nkeycaps](https://typeractive.xyz/products/mbk-keycaps?_pos=1&_sid=79cf78d62&_ss=r&variant=46728680407271)\non the thumb keys, and it is incredible how much more comfortable they are to\nuse than the normal keycaps with the sharpish edges.*\n\n![lintilla with kaly](/docs/lifestyle-optimizations/lintilla-with-kaly.jpg)\n*My finished Lintilla, with my Kaly42 behind it.\nI like using gloves as wrist rests, and have even attached some to my kaly with\nstrings.\nThese rests double as \"cases\" I can flip on top of the keycaps to protect them\nfor transport when I put the keybord halves back-to-back.\nI'll probably end up doing something similar for the Lintilla.*\n\n#### Keymap\n\nhttps://github.com/kovasap/zmk-config/blob/main/config/lintilla.keymap\n\n## Normal Keyboard Usage\n\nAs much as I like my custom keyboards, sometimes it's just more convenient to\nuse my laptop keyboard.\nTo make it nicer, I use xkb on linux to implement something like\nhttps://dreymar.colemak.org/ergo-mods.html#angle-wide.\nMy config is at https://github.com/kovasap/dotfiles/tree/master/keyboard.\n\n## Inspiration and other projects\n\n - A small keyboard with many layers:\n   https://news.ycombinator.com/item?id=32634511\n - https://ianthehenry.com/posts/peggi/"
   :name "keyboards-and-typing.md"
   :private false
-  :categories #{"Lifestyle Optimizations"
-                "Recent"}
+  :categories #{"Lifestyle Optimizations"}
   :dir? false
   :links []
-  :size 8373
-  :modtime 1756000671
+  :size 8364
+  :modtime 1756002667
   :mode 420
-  :modification-unix-timestamps [1740866322
+  :modification-unix-timestamps [1756002649
+                                 1756002482
+                                 1740866322
                                  1740782964
                                  1740782450
                                  1740781684
@@ -3414,7 +3421,7 @@
   :dir? false
   :links []
   :size 268
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -3432,7 +3439,7 @@
   :dir? false
   :links []
   :size 895
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1683737709
                                  1683575232
@@ -3453,7 +3460,7 @@
   :dir? false
   :links []
   :size 134
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1671658646
                                  1671235170]}
@@ -3468,7 +3475,7 @@
   :dir? false
   :links []
   :size 2660
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875
@@ -3490,7 +3497,7 @@
   :dir? false
   :links []
   :size 6251
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -3510,7 +3517,7 @@
   :dir? false
   :links []
   :size 854
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -3528,7 +3535,7 @@
   :dir? false
   :links []
   :size 690
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1686456666
                                  1671660905]}
@@ -3543,7 +3550,7 @@
   :dir? false
   :links []
   :size 1109
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -3562,7 +3569,7 @@
   :dir? false
   :links []
   :size 2331
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655691154
                                  1655657180
@@ -3580,7 +3587,7 @@
   :dir? false
   :links []
   :size 539
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -3598,7 +3605,7 @@
   :dir? false
   :links []
   :size 1381
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1702414019
                                  1700078474
@@ -3619,17 +3626,18 @@
   :path "content/docs/lifestyle-optimizations/travel.md"
   :backlinks nil
   :title "Travel"
-  :markdown "---\nbacklinks-set: \ncategories-set: #{\"Lifestyle Optimizations\" \"Recent\"}\n---\n# Travel\n\n## Packing List\n\n### Sleep\n\n - [ ] Eyemask\n - [ ] Heated blanket in case there's a chance modifying the temperature of my\n   sleeping space will be hard."
+  :markdown "---\nbacklinks-set: \ncategories-set: #{\"Lifestyle Optimizations\"}\n---\n# Travel\n\n## Packing List\n\n### Sleep\n\n - [ ] Eyemask\n - [ ] Heated blanket in case there's a chance modifying the temperature of my\n   sleeping space will be hard."
   :name "travel.md"
   :private false
-  :categories #{"Lifestyle Optimizations"
-                "Recent"}
+  :categories #{"Lifestyle Optimizations"}
   :dir? false
   :links []
-  :size 241
-  :modtime 1756000671
+  :size 232
+  :modtime 1756002667
   :mode 420
-  :modification-unix-timestamps [1736835711]}
+  :modification-unix-timestamps [1756002649
+                                 1756002482
+                                 1736835711]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/vim-tricks.md"
   :backlinks nil
@@ -3641,7 +3649,7 @@
   :dir? false
   :links []
   :size 149
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1658277343
                                  1657656160
@@ -3661,7 +3669,7 @@
   :dir? false
   :links []
   :size 1090
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1669743672
                                  1668469041
@@ -3678,7 +3686,7 @@
   :dir? false
   :links []
   :size 7467
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -3697,7 +3705,7 @@
   :dir? false
   :links []
   :size 593
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -3715,7 +3723,7 @@
   :dir? false
   :links []
   :size 491
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -3734,7 +3742,7 @@
   :dir? false
   :links []
   :size 1530
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -3756,7 +3764,7 @@
   :links ["/docs/gaming/gamedev/gamedev-context.md"
           "/docs/understanding-the-world/copyright-and-ip.md"]
   :size 3246
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755449404
@@ -3790,7 +3798,7 @@
   :dir? false
   :links []
   :size 1165
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -3808,7 +3816,7 @@
   :dir? false
   :links []
   :size 6529
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1667066083
                                  1655753252
@@ -3830,7 +3838,7 @@
   :dir? false
   :links []
   :size 317
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1734063299]}
  {:path-categories #{"Mind"}
@@ -3844,7 +3852,7 @@
   :dir? false
   :links ["/docs/mind/motivation.md"]
   :size 5091
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1667066083
@@ -3864,7 +3872,7 @@
   :dir? false
   :links []
   :size 1471
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -3884,7 +3892,7 @@
   :dir? false
   :links []
   :size 1831
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1702414019
                                  1701713683
@@ -3904,7 +3912,7 @@
   :links ["/docs/mind/creativity.md"
           "/docs/mind/creativity.md"]
   :size 12746
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875
@@ -3938,7 +3946,7 @@
   :dir? false
   :links []
   :size 1284
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -3957,7 +3965,7 @@
   :dir? false
   :links []
   :size 2319
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1698604706
                                  1692662334
@@ -3974,7 +3982,7 @@
   :dir? false
   :links []
   :size 4885
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1659551821
                                  1659551685
@@ -3991,7 +3999,7 @@
   :dir? false
   :links []
   :size 1302
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1733985863
                                  1664936533
@@ -4000,17 +4008,18 @@
   :path "content/docs/mind/standard-of-thought.md"
   :backlinks nil
   :title "Standard Of Thought"
-  :markdown "---\nbacklinks-set: \ncategories-set: #{\"Mind\" \"Recent\"}\n---\n# What standard of thought should we expect from people?\n\nI recently read *What's Our Problem* by Tim Urban, where he makes the case that\nmany of our current societal divisions are caused by more primitive parts of our\nminds dominating the conversation.\nHe argues that our \"higher minds\" that are capable of considering many\nconflicting perspectives to seek truth should instead be driving the\nconversation.\nSpecifically, Tim argues that all perspectives should be open to higher-minded\ndiscussion and shutting down discussion on certain topics is dangerously\nilliberal.\n\nTim admits that using our higher minds requires effort, and it is impractical to\ncompletely ignore the primitive mind.\nI strongly agree.\nIn fact, I think that use of the higher mind to discover some truths is\nextremely labor intensive, and the resulting truths are hard won artifacts.\nTo me this means that we should really do a better job of recording and\ncataloging these artifacts so that when discussion comes up about them, we can\npoint directly to them as a way to end the conversation (as opposed to doing the\nhigher minded dance all over again).\n\nIn my opinion, encouraging open mindedness on every subject invites people to\nentertain ideas that have been proven wrong for way too long.\nIn some ways, people use \"open mindedness\" as an excuse to promote bad ideas.\nIt would be better to focus on organizing and preserving the arguments\nfor/against ideas, and make it more of a cultural norm to shut down promotion of\nbad ideas unless the promoter has something novel to add to the conversation.\nOf course, the burden of digging through all the prior art to figure out if\ntheir contribution is novel is on the promoter to do.\n\nShifting our discussion in this way puts more realistic expectations on people.\nAccurately and correctly constructing an argument for an idea is hard and error\nprone, which IMO is why many people just give up and use their primitive minds\nto make decisions.\n\nI don't think freedom of speech should be suppressed by any means here.\nI'm purely speaking about cultural norms, not legal changes."
+  :markdown "---\nbacklinks-set: \ncategories-set: #{\"Mind\"}\n---\n# What standard of thought should we expect from people?\n\nI recently read *What's Our Problem* by Tim Urban, where he makes the case that\nmany of our current societal divisions are caused by more primitive parts of our\nminds dominating the conversation.\nHe argues that our \"higher minds\" that are capable of considering many\nconflicting perspectives to seek truth should instead be driving the\nconversation.\nSpecifically, Tim argues that all perspectives should be open to higher-minded\ndiscussion and shutting down discussion on certain topics is dangerously\nilliberal.\n\nTim admits that using our higher minds requires effort, and it is impractical to\ncompletely ignore the primitive mind.\nI strongly agree.\nIn fact, I think that use of the higher mind to discover some truths is\nextremely labor intensive, and the resulting truths are hard won artifacts.\nTo me this means that we should really do a better job of recording and\ncataloging these artifacts so that when discussion comes up about them, we can\npoint directly to them as a way to end the conversation (as opposed to doing the\nhigher minded dance all over again).\n\nIn my opinion, encouraging open mindedness on every subject invites people to\nentertain ideas that have been proven wrong for way too long.\nIn some ways, people use \"open mindedness\" as an excuse to promote bad ideas.\nIt would be better to focus on organizing and preserving the arguments\nfor/against ideas, and make it more of a cultural norm to shut down promotion of\nbad ideas unless the promoter has something novel to add to the conversation.\nOf course, the burden of digging through all the prior art to figure out if\ntheir contribution is novel is on the promoter to do.\n\nShifting our discussion in this way puts more realistic expectations on people.\nAccurately and correctly constructing an argument for an idea is hard and error\nprone, which IMO is why many people just give up and use their primitive minds\nto make decisions.\n\nI don't think freedom of speech should be suppressed by any means here.\nI'm purely speaking about cultural norms, not legal changes."
   :name "standard-of-thought.md"
   :private false
-  :categories #{"Mind"
-                "Recent"}
+  :categories #{"Mind"}
   :dir? false
   :links []
-  :size 2156
-  :modtime 1756000671
+  :size 2147
+  :modtime 1756002667
   :mode 420
-  :modification-unix-timestamps [1733864097
+  :modification-unix-timestamps [1756002649
+                                 1756002482
+                                 1733864097
                                  1733863870]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/things-to-do-when-unmotivated.md"
@@ -4023,7 +4032,7 @@
   :dir? false
   :links ["/docs/mind/motivation.md"]
   :size 2725
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1710287362
@@ -4049,7 +4058,7 @@
   :dir? false
   :links []
   :size 7487
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -4073,7 +4082,7 @@
   :dir? false
   :links []
   :size 145
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -4090,7 +4099,7 @@
   :dir? false
   :links []
   :size 1221
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -4108,7 +4117,7 @@
   :dir? false
   :links []
   :size 6188
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1673301100
                                  1673289798
@@ -4128,7 +4137,7 @@
   :dir? false
   :links []
   :size 227
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1658277343
                                  1658206871]}
@@ -4143,7 +4152,7 @@
   :dir? false
   :links []
   :size 1520
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -4164,7 +4173,7 @@
   :dir? false
   :links []
   :size 510
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1740866322
                                  1740862760
@@ -4181,7 +4190,7 @@
   :dir? false
   :links []
   :size 2720
-  :modtime 1756000709
+  :modtime 1756002701
   :mode 420
   :modification-unix-timestamps [1752514442]}
  {:path-categories #{"Music"}
@@ -4195,7 +4204,7 @@
   :dir? false
   :links []
   :size 1944
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1755114058
@@ -4213,7 +4222,7 @@
   :dir? false
   :links []
   :size 4679
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1656388528
                                  1656388399]}
@@ -4228,7 +4237,7 @@
   :dir? false
   :links ["/docs/books/everyday-utopia.md"]
   :size 457
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1700078474
@@ -4245,7 +4254,7 @@
   :dir? false
   :links []
   :size 2057
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1658509129
                                  1656388528
@@ -4261,7 +4270,7 @@
   :dir? false
   :links []
   :size 2818
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1663982789
                                  1663623469]}
@@ -4276,7 +4285,7 @@
   :dir? false
   :links ["/docs/books/The-Black-Swan.md"]
   :size 3920
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1667948337
@@ -4296,7 +4305,7 @@
   :dir? false
   :links []
   :size 655
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1658509129
                                  1656388528
@@ -4305,17 +4314,18 @@
   :path "content/docs/society/livelihood-traps.md"
   :backlinks nil
   :title "Livelihood Traps"
-  :markdown "---\nbacklinks-set: \ncategories-set: #{\"Recent\" \"Society\"}\n---\n# Livelihood Traps\n\n## The Problem\n\nMany people are not able to live in accordance with their values because their\nwork constrains their behavior.\nWhen their values come into conflict with those of their employer, often people\ncede to the employer's values because they don't want to lose their job.\nIn America, losing your job means losing your health insurance and potentially\nhaving a hard time finding another job.\n\nThis dynamic leads to persistence of inefficient and often harmful status quos.\nFor instance, there are many jobs that are \"bullshit\" in that they don't\ncontribute meaningfully to society, or even detract from it.\nPeople with these jobs are often aware of this, but they don't want to lose\ntheir job, so they continue to do it and even defend its existence!\n\nPoliticians often pander to large electorates of people with jobs on the sole\nplatform of maintaining them or making more, nevermind the usefulness of the\njobs in question.  This makes me sad.\n\nFor some, their job also becomes a part of their identity, and then they start\ndefending their job for more personal reasons like these:\n\nhttps://www.astralcodexten.com/i/157690414/so-what-does-drive-political-disagreement\n\n## Solutions\n\n- Government-provided health insurance or even income\n- Easier ways for people to self organize to retrain for new jobs.\n  This could be accomplished via making interviews at companies based more on\n  skill demonstration and less on credentials."
+  :markdown "---\nbacklinks-set: \ncategories-set: #{\"Society\"}\n---\n# Livelihood Traps\n\n## The Problem\n\nMany people are not able to live in accordance with their values because their\nwork constrains their behavior.\nWhen their values come into conflict with those of their employer, often people\ncede to the employer's values because they don't want to lose their job.\nIn America, losing your job means losing your health insurance and potentially\nhaving a hard time finding another job.\n\nThis dynamic leads to persistence of inefficient and often harmful status quos.\nFor instance, there are many jobs that are \"bullshit\" in that they don't\ncontribute meaningfully to society, or even detract from it.\nPeople with these jobs are often aware of this, but they don't want to lose\ntheir job, so they continue to do it and even defend its existence!\n\nPoliticians often pander to large electorates of people with jobs on the sole\nplatform of maintaining them or making more, nevermind the usefulness of the\njobs in question.  This makes me sad.\n\nFor some, their job also becomes a part of their identity, and then they start\ndefending their job for more personal reasons like these:\n\nhttps://www.astralcodexten.com/i/157690414/so-what-does-drive-political-disagreement\n\n## Solutions\n\n- Government-provided health insurance or even income\n- Easier ways for people to self organize to retrain for new jobs.\n  This could be accomplished via making interviews at companies based more on\n  skill demonstration and less on credentials."
   :name "livelihood-traps.md"
   :private false
-  :categories #{"Recent"
-                "Society"}
+  :categories #{"Society"}
   :dir? false
   :links []
-  :size 1518
-  :modtime 1756000671
+  :size 1509
+  :modtime 1756002667
   :mode 420
-  :modification-unix-timestamps [1740866322
+  :modification-unix-timestamps [1756002649
+                                 1756002482
+                                 1740866322
                                  1740862760
                                  1740688726
                                  1740678785
@@ -4332,7 +4342,7 @@
   :dir? false
   :links []
   :size 741
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1674251134]}
  {:path-categories #{"Society"}
@@ -4346,7 +4356,7 @@
   :dir? false
   :links []
   :size 1428
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1658509129
                                  1656388528
@@ -4362,7 +4372,7 @@
   :dir? false
   :links []
   :size 427
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1736835711
                                  1736835384]}
@@ -4377,7 +4387,7 @@
   :dir? false
   :links ["/docs/mind/optimism.md"]
   :size 9603
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1667066083
@@ -4402,7 +4412,7 @@
           "/docs/books/antifragile.md"
           "/docs/mind/creativity.md"]
   :size 10111
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1701207308
@@ -4429,7 +4439,7 @@
   :dir? false
   :links ["/docs/society/utopia.md"]
   :size 2284
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1697236141
@@ -4446,7 +4456,7 @@
   :dir? false
   :links []
   :size 434
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -4464,7 +4474,7 @@
   :dir? false
   :links []
   :size 11590
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1688672321
                                  1688488756
@@ -4488,7 +4498,7 @@
   :dir? false
   :links []
   :size 1239
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1700078474
                                  1699041494
@@ -4510,7 +4520,7 @@
   :dir? false
   :links []
   :size 1238
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1659551685
                                  1659124913
@@ -4527,7 +4537,7 @@
   :dir? false
   :links []
   :size 2092
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1704232292
                                  1703793258
@@ -4548,7 +4558,7 @@
   :dir? false
   :links []
   :size 1520
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1684276597
                                  1655757336
@@ -4569,7 +4579,7 @@
   :dir? false
   :links []
   :size 1265
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1700078474
                                  1699041494]}
@@ -4584,7 +4594,7 @@
   :dir? false
   :links []
   :size 190
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -4602,7 +4612,7 @@
   :dir? false
   :links []
   :size 1600
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1736273893
                                  1735342544
@@ -4627,7 +4637,7 @@
   :dir? false
   :links []
   :size 330
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -4645,7 +4655,7 @@
   :dir? false
   :links []
   :size 2393
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -4665,7 +4675,7 @@
   :dir? false
   :links []
   :size 381
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -4687,7 +4697,7 @@
           "/"
           "/"]
   :size 1833
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1662924312
                                  1655691154
@@ -4708,7 +4718,7 @@
   :dir? false
   :links []
   :size 9254
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1697236141
                                  1694034285
@@ -4741,7 +4751,7 @@
   :dir? false
   :links []
   :size 1737
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -4759,7 +4769,7 @@
   :dir? false
   :links []
   :size 4653
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -4782,7 +4792,7 @@
   :links ["/docs/mind/creativity.md"
           "/docs/society/utopia.md"]
   :size 790
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1755277458
@@ -4802,7 +4812,7 @@
   :dir? false
   :links []
   :size 283
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -4822,7 +4832,7 @@
   :links ["/docs/understanding-the-world/influences.md"
           "/docs/books/zero-to-one.md"]
   :size 959
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1667510508
@@ -4844,7 +4854,7 @@
   :dir? false
   :links []
   :size 2309
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -4862,7 +4872,7 @@
   :dir? false
   :links []
   :size 1046
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -4880,7 +4890,7 @@
   :dir? false
   :links []
   :size 396
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -4898,7 +4908,7 @@
   :dir? false
   :links ["/docs/understanding-the-world/working-with-complex-systems.md"]
   :size 406
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1667941051
@@ -4915,7 +4925,7 @@
   :dir? false
   :links []
   :size 816
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1664936533
                                  1664901571]}
@@ -4936,7 +4946,7 @@
           "/docs/books/The-Enigma-of-Reason.md"
           "/docs/understanding-the-world/working-with-complex-systems.md"]
   :size 15027
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1749182667
@@ -4971,7 +4981,7 @@
   :dir? false
   :links []
   :size 872
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1667937680
                                  1659551949
@@ -4988,7 +4998,7 @@
   :dir? false
   :links ["/docs/visual-art/inspiration-and-resources.md"]
   :size 1563
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1669743672
                                  1668204865
@@ -5012,7 +5022,7 @@
   :dir? false
   :links []
   :size 824
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1712860286
                                  1668204865
@@ -5036,7 +5046,7 @@
   :dir? false
   :links []
   :size 591
-  :modtime 1756000671
+  :modtime 1756002667
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
