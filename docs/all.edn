@@ -9,9 +9,18 @@
   :dir? false
   :links []
   :size 67
-  :modtime 1756000346
+  :modtime 1756000670
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1736985971
+                                 1734296474
+                                 1732582287
+                                 1731523457
+                                 1728334241
+                                 1726602775
+                                 1667066083
+                                 1665354993
+                                 1658277343
+                                 1658206871]}
  {:path-categories #{}
   :path "content/docs/feelings.md"
   :backlinks #{"content/docs/gaming/games/strategy/other-strategy.md"
@@ -31,9 +40,88 @@
   :dir? false
   :links []
   :size 542
-  :modtime 1756000346
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1753148154
+                                 1751952396
+                                 1751950810
+                                 1751869555
+                                 1749182667
+                                 1740866322
+                                 1740862760
+                                 1740859090
+                                 1740853128
+                                 1740814356
+                                 1740814083
+                                 1740782964
+                                 1740782450
+                                 1740781684
+                                 1740688726
+                                 1740603670
+                                 1740595098
+                                 1740594178
+                                 1736985971
+                                 1736835711
+                                 1736273893
+                                 1736230828
+                                 1734733082
+                                 1733985863
+                                 1731450649
+                                 1729384063
+                                 1729381730
+                                 1729380499
+                                 1729380199
+                                 1729379357
+                                 1729033555
+                                 1728452011
+                                 1723670821
+                                 1720030119
+                                 1715113980
+                                 1715101909
+                                 1710287362
+                                 1706730743
+                                 1704401356
+                                 1704233545
+                                 1704233430
+                                 1704232292
+                                 1703793258
+                                 1703184965
+                                 1703184859
+                                 1703122441
+                                 1702414019
+                                 1700078474
+                                 1699041494
+                                 1698001732
+                                 1697846568
+                                 1697236141
+                                 1694020059
+                                 1691798373
+                                 1690487459
+                                 1689818925
+                                 1689646296
+                                 1688672321
+                                 1688414476
+                                 1688412623
+                                 1688412590
+                                 1687982056
+                                 1686605889
+                                 1686456666
+                                 1686456543
+                                 1686331869
+                                 1686331697
+                                 1685671512
+                                 1685670901
+                                 1685392070
+                                 1685382293
+                                 1684286933
+                                 1684276597
+                                 1667762893
+                                 1655691154
+                                 1655657180
+                                 1654743599
+                                 1653846065
+                                 1653760541]}
  {:path-categories #{}
   :path "content/docs/manifesto.md"
   :backlinks nil
@@ -53,9 +141,31 @@
           "/docs/books/why-greatness-cannot-be-planned.md"
           "/docs/mind/motivation.md"]
   :size 11008
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755975293
+                                 1755322345
+                                 1699041494
+                                 1697846568
+                                 1684902342
+                                 1658277343
+                                 1655691154
+                                 1655657180
+                                 1653846065
+                                 1646971821
+                                 1631835567
+                                 1631835457
+                                 1628301905
+                                 1627280418
+                                 1625958065
+                                 1625947021
+                                 1625940076
+                                 1625939328
+                                 1624658504
+                                 1624602700
+                                 1624337751
+                                 1623646572]}
  {:path-categories #{}
   :path "content/docs/personal-drama.md"
   :backlinks nil
@@ -67,7 +177,7 @@
   :dir? false
   :links []
   :size 49
-  :modtime 1756000386
+  :modtime 1756000709
   :mode 420
   :modification-unix-timestamps [0]}
  {:path-categories #{}
@@ -83,9 +193,22 @@
           "/docs/mind/optimism.md"
           "/docs/books/why-greatness-cannot-be-planned.md"]
   :size 3835
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755322345
+                                 1742322542
+                                 1688414476
+                                 1688406178
+                                 1688405988
+                                 1684189268
+                                 1683737709
+                                 1659551685
+                                 1659025169
+                                 1656990200
+                                 1656388528
+                                 1655691154
+                                 1655657180
+                                 1654826782]}
  {:path-categories #{}
   :path "content/docs/recent-interests.md"
   :backlinks nil
@@ -98,9 +221,21 @@
   :links ["/docs/lifestyle-optimizations/keyboards-and-typing.md"
           "/docs/health-and-longevity/alt-health.md"]
   :size 4241
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755974875
+                                 1755412420
+                                 1755322345
+                                 1753153724
+                                 1751952396
+                                 1751950810
+                                 1749183445
+                                 1746494601
+                                 1743538888
+                                 1742167498
+                                 1740866322
+                                 1740865908]}
  {:path-categories #{"Books"}
   :path "content/docs/books/The-Black-Swan.md"
   :backlinks #{"content/docs/society/gerrymandering.md"}
@@ -112,9 +247,9 @@
   :dir? false
   :links []
   :size 213
-  :modtime 1756000346
+  :modtime 1756000670
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1668469041]}
  {:path-categories #{"Books"}
   :path "content/docs/books/The-Enigma-of-Reason.md"
   :backlinks #{"content/docs/understanding-the-world/what-to-believe.md"}
@@ -126,9 +261,11 @@
   :dir? false
   :links []
   :size 184
-  :modtime 1756000346
+  :modtime 1756000670
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1740866322
+                                 1734296474
+                                 1734296082]}
  {:path-categories #{"Books"}
   :path "content/docs/books/What's-Our-Problem?.md"
   :backlinks nil
@@ -140,9 +277,10 @@
   :dir? false
   :links []
   :size 76
-  :modtime 1756000346
+  :modtime 1756000670
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1734296474
+                                 1734296082]}
  {:path-categories #{"Books"}
   :path "content/docs/books/antifragile.md"
   :backlinks #{"content/docs/society/utopia.md"}
@@ -155,9 +293,10 @@
   :dir? false
   :links []
   :size 1391
-  :modtime 1756000346
+  :modtime 1756000670
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1667703247
+                                 1667452680]}
  {:path-categories #{"Books"}
   :path "content/docs/books/everyday-utopia.md"
   :backlinks #{"content/docs/society/communal-living.md"}
@@ -169,9 +308,10 @@
   :dir? false
   :links []
   :size 208
-  :modtime 1756000346
+  :modtime 1756000670
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1699041494
+                                 1698384423]}
  {:path-categories #{"Books"}
   :path "content/docs/books/fooled-by-randomness.md"
   :backlinks nil
@@ -184,9 +324,12 @@
   :dir? false
   :links ["/docs/books/the-open-society-and-its-enemies.md"]
   :size 314
-  :modtime 1756000346
+  :modtime 1756000670
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755322345
+                                 1667762893
+                                 1667703247
+                                 1667452680]}
  {:path-categories #{"Books"}
   :path "content/docs/books/the-beginning-of-infinity.md"
   :backlinks nil
@@ -199,9 +342,10 @@
   :dir? false
   :links []
   :size 494
-  :modtime 1756000346
+  :modtime 1756000670
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1667510508
+                                 1667452680]}
  {:path-categories #{"Books"}
   :path "content/docs/books/the-open-society-and-its-enemies.md"
   :backlinks #{"content/docs/books/fooled-by-randomness.md"}
@@ -214,9 +358,9 @@
   :dir? false
   :links []
   :size 188
-  :modtime 1756000346
+  :modtime 1756000670
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1667703247]}
  {:path-categories #{"Books"}
   :path "content/docs/books/why-greatness-cannot-be-planned.md"
   :backlinks #{"content/docs/manifesto.md"
@@ -233,9 +377,12 @@
   :dir? false
   :links []
   :size 381
-  :modtime 1756000346
+  :modtime 1756000670
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1698001732
+                                 1688412623
+                                 1667703247]}
  {:path-categories #{"Books"}
   :path "content/docs/books/zero-to-one.md"
   :backlinks #{"content/docs/understanding-the-world/influences.md"}
@@ -248,9 +395,9 @@
   :dir? false
   :links []
   :size 896
-  :modtime 1756000346
+  :modtime 1756000670
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1667452680]}
  {:path-categories #{"Climbing"}
   :path "content/docs/climbing/breaking-point.md"
   :backlinks nil
@@ -262,9 +409,13 @@
   :dir? false
   :links []
   :size 756
-  :modtime 1756000346
+  :modtime 1756000670
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1653110865]}
  {:path-categories #{"Climbing"}
   :path "content/docs/climbing/gym-sends.md"
   :backlinks nil
@@ -276,9 +427,11 @@
   :dir? false
   :links []
   :size 674
-  :modtime 1756000346
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755974875
+                                 1755409361]}
  {:path-categories #{"Climbing"}
   :path "content/docs/climbing/injuries.md"
   :backlinks nil
@@ -290,9 +443,10 @@
   :dir? false
   :links []
   :size 1215
-  :modtime 1756000346
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755409361]}
  {:path-categories #{"Climbing"}
   :path "content/docs/climbing/media.md"
   :backlinks nil
@@ -304,9 +458,16 @@
   :dir? false
   :links []
   :size 645
-  :modtime 1756000346
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1648002128
+                                 1647920983
+                                 1630546295
+                                 1613251448]}
  {:path-categories #{"Climbing"}
   :path "content/docs/climbing/resources.md"
   :backlinks nil
@@ -318,9 +479,16 @@
   :dir? false
   :links []
   :size 273
-  :modtime 1756000346
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755409361
+                                 1728452011
+                                 1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1653190047]}
  {:path-categories #{"Climbing"}
   :path "content/docs/climbing/routesetting.md"
   :backlinks nil
@@ -332,9 +500,10 @@
   :dir? false
   :links []
   :size 2092
-  :modtime 1756000346
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755409361]}
  {:path-categories #{"Climbing"}
   :path "content/docs/climbing/safety-checklist.md"
   :backlinks nil
@@ -346,9 +515,17 @@
   :dir? false
   :links []
   :size 3369
-  :modtime 1756000346
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1728452011
+                                 1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1651527431
+                                 1651527406
+                                 1651527222
+                                 1613251448]}
  {:path-categories #{"Climbing"}
   :path "content/docs/climbing/tips-and-tricks.md"
   :backlinks nil
@@ -360,9 +537,9 @@
   :dir? false
   :links []
   :size 314
-  :modtime 1756000346
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1667703247]}
  {:path-categories #{"Climbing"
                      "Cragging"}
   :path "content/docs/climbing/cragging/crag-of-the-20s.md"
@@ -376,9 +553,11 @@
   :dir? false
   :links []
   :size 1036
-  :modtime 1756000346
+  :modtime 1756000670
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755974875
+                                 1755409361]}
  {:path-categories #{"Climbing"
                      "Cragging"}
   :path "content/docs/climbing/cragging/little-si.md"
@@ -392,9 +571,11 @@
   :dir? false
   :links []
   :size 1661
-  :modtime 1756000346
+  :modtime 1756000670
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755974875
+                                 1755409361]}
  {:path-categories #{"Climbing"
                      "Event Reports"}
   :path "content/docs/climbing/event-reports/2019-10-7-namaste-wall-zion.md"
@@ -408,9 +589,17 @@
   :dir? false
   :links []
   :size 1968
-  :modtime 1756000346
+  :modtime 1756000670
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755409361
+                                 1662924312
+                                 1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1627965261
+                                 1627964978]}
  {:path-categories #{"Climbing"
                      "Event Reports"}
   :path "content/docs/climbing/event-reports/2020-8-10-lake-erie.md"
@@ -424,9 +613,14 @@
   :dir? false
   :links ["/"]
   :size 1357
-  :modtime 1756000346
+  :modtime 1756000670
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1662924312
+                                 1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1613251448]}
  {:path-categories #{"Climbing"
                      "Event Reports"}
   :path "content/docs/climbing/event-reports/2020-8-12-mile-high-club.md"
@@ -440,9 +634,16 @@
   :dir? false
   :links []
   :size 10731
-  :modtime 1756000346
+  :modtime 1756000670
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755409361
+                                 1662924312
+                                 1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1613251448]}
  {:path-categories #{"Climbing"
                      "Event Reports"}
   :path "content/docs/climbing/event-reports/2024-7-enchantments-prusik-peak.md"
@@ -456,9 +657,18 @@
   :dir? false
   :links []
   :size 17451
-  :modtime 1756000346
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755409361
+                                 1740866322
+                                 1740862760
+                                 1740859090
+                                 1740853128
+                                 1740814356
+                                 1740814083
+                                 1740813541
+                                 1740812280]}
  {:path-categories #{"Climbing"
                      "Event Reports"}
   :path "content/docs/climbing/event-reports/first-512.md"
@@ -472,9 +682,16 @@
   :dir? false
   :links []
   :size 283
-  :modtime 1756000346
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1742167498
+                                 1741372686
+                                 1662924312
+                                 1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1613251448]}
  {:path-categories #{"Datavis"}
   :path "content/docs/datavis/clerk-notebooks.md"
   :backlinks nil
@@ -486,9 +703,9 @@
   :dir? false
   :links []
   :size 258
-  :modtime 1756000346
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1660415829]}
  {:path-categories #{"Datavis"}
   :path "content/docs/datavis/inspiration.md"
   :backlinks nil
@@ -500,9 +717,12 @@
   :dir? false
   :links []
   :size 252
-  :modtime 1756000346
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1673989211
+                                 1673389295
+                                 1656990200
+                                 1656884509]}
  {:path-categories #{"Datavis"}
   :path "content/docs/datavis/reddit-tree.md"
   :backlinks nil
@@ -514,9 +734,18 @@
   :dir? false
   :links []
   :size 908
-  :modtime 1756000346
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1731474684
+                                 1731474274
+                                 1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1652387059
+                                 1648330076
+                                 1648000500
+                                 1642463614]}
  {:path-categories #{"Datavis"}
   :path "content/docs/datavis/seattle-rain.md"
   :backlinks nil
@@ -528,9 +757,14 @@
   :dir? false
   :links []
   :size 2149
-  :modtime 1756000346
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1654656439
+                                 1653846065
+                                 1629568468]}
  {:path-categories #{"Favorites"}
   :path "content/docs/favorites/favorite-music.md"
   :backlinks nil
@@ -542,9 +776,9 @@
   :dir? false
   :links []
   :size 1141
-  :modtime 1756000346
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1685382293]}
  {:path-categories #{"Favorites"}
   :path "content/docs/favorites/game-tier-lists.md"
   :backlinks nil
@@ -557,9 +791,15 @@
   :dir? false
   :links []
   :size 4234
-  :modtime 1756000346
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1740866322
+                                 1740862760
+                                 1687982056
+                                 1687141448
+                                 1685670901
+                                 1685392070
+                                 1685382293]}
  {:path-categories #{"Gaming"}
   :path "content/docs/gaming/buying-games.md"
   :backlinks nil
@@ -571,9 +811,13 @@
   :dir? false
   :links []
   :size 963
-  :modtime 1756000346
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1650924456]}
  {:path-categories #{"Gaming"}
   :path "content/docs/gaming/fps-principles.md"
   :backlinks nil
@@ -585,9 +829,17 @@
   :dir? false
   :links []
   :size 6886
-  :modtime 1756000346
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1691798373
+                                 1691113293
+                                 1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1637087126
+                                 1627964978
+                                 1625939328]}
  {:path-categories #{"Gaming"}
   :path "content/docs/gaming/microphone-setup.md"
   :backlinks nil
@@ -599,9 +851,12 @@
   :dir? false
   :links []
   :size 512
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1698001732
+                                 1697999319
+                                 1694020059
+                                 1693766264]}
  {:path-categories #{"Gaming"}
   :path "content/docs/gaming/monitor-notes.md"
   :backlinks nil
@@ -613,9 +868,10 @@
   :dir? false
   :links []
   :size 1651
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1698001732
+                                 1697999319]}
  {:path-categories #{"Gaming"}
   :path "content/docs/gaming/troubleshooting.md"
   :backlinks nil
@@ -627,9 +883,10 @@
   :dir? false
   :links []
   :size 302
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755967999]}
  {:path-categories #{"Gaming"
                      "Gamedev"}
   :path "content/docs/gaming/gamedev/bringing-players-together.md"
@@ -643,9 +900,10 @@
   :dir? false
   :links []
   :size 259
-  :modtime 1756000346
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Gamedev"}
   :path "content/docs/gaming/gamedev/common-patterns.md"
@@ -660,9 +918,11 @@
   :links ["/docs/gaming/games/tactics-rpg/fell-seal-arbiters-mark.md"
           "/docs/gaming/games/tactics-rpg/XCOM-2-+-War-of-the-Chosen.md"]
   :size 2536
-  :modtime 1756000346
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755449404
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Gamedev"}
   :path "content/docs/gaming/gamedev/gamedev-context.md"
@@ -676,9 +936,10 @@
   :dir? false
   :links []
   :size 403
-  :modtime 1756000346
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Gamedev"}
   :path "content/docs/gaming/gamedev/managing-player-failure.md"
@@ -692,9 +953,11 @@
   :dir? false
   :links ["/docs/gaming/games/tactics-rpg/iron-danger.md"]
   :size 1470
-  :modtime 1756000346
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755449404
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Gamedev"}
   :path "content/docs/gaming/gamedev/real-time-strategy.md"
@@ -710,9 +973,11 @@
           "/docs/gaming/games/Rimworld.md"
           "/docs/gaming/games/strategy/oxygen-not-included.md"]
   :size 697
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755449404
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Gamedev"}
   :path "content/docs/gaming/gamedev/social-games.md"
@@ -726,9 +991,10 @@
   :dir? false
   :links []
   :size 952
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Gamedev"}
   :path "content/docs/gaming/gamedev/useful-tools.md"
@@ -742,9 +1008,10 @@
   :dir? false
   :links []
   :size 267
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Gamedev"
                      "Game Ideas"}
@@ -760,9 +1027,10 @@
   :dir? false
   :links ["/"]
   :size 903
-  :modtime 1756000346
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Gamedev"
                      "Game Ideas"}
@@ -778,9 +1046,10 @@
   :dir? false
   :links []
   :size 1033
-  :modtime 1756000346
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Gamedev"
                      "Game Ideas"}
@@ -796,9 +1065,10 @@
   :dir? false
   :links ["/"]
   :size 374
-  :modtime 1756000346
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Gamedev"
                      "Game Ideas"}
@@ -814,9 +1084,10 @@
   :dir? false
   :links ["/"]
   :size 2144
-  :modtime 1756000346
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Gamedev"
                      "Game Ideas"}
@@ -832,9 +1103,10 @@
   :dir? false
   :links ["/"]
   :size 632
-  :modtime 1756000346
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Gamedev"
                      "Game Ideas"}
@@ -850,9 +1122,10 @@
   :dir? false
   :links []
   :size 820
-  :modtime 1756000346
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Gamedev"
                      "Mechanic Ideas"}
@@ -868,9 +1141,10 @@
   :dir? false
   :links []
   :size 505
-  :modtime 1756000346
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Gamedev"
                      "Mechanic Ideas"}
@@ -886,9 +1160,10 @@
   :dir? false
   :links ["/"]
   :size 579
-  :modtime 1756000346
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Gamedev"
                      "Mechanic Ideas"}
@@ -904,9 +1179,10 @@
   :dir? false
   :links ["/"]
   :size 985
-  :modtime 1756000346
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Gamedev"
                      "Mechanic Ideas"}
@@ -923,9 +1199,12 @@
   :links ["/docs/gaming/games/cooperative-rpg/dead-of-winter.md"
           "/"]
   :size 4056
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755449988
+                                 1755449404
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Gamedev"
                      "Mechanic Ideas"}
@@ -941,9 +1220,10 @@
   :dir? false
   :links ["/"]
   :size 3330
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Gamedev"
                      "Mechanic Ideas"}
@@ -959,9 +1239,10 @@
   :dir? false
   :links []
   :size 2859
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Gamedev"
                      "Mechanic Ideas"}
@@ -977,9 +1258,10 @@
   :dir? false
   :links ["/docs/books/why-greatness-cannot-be-planned.md"]
   :size 814
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Gamedev"
                      "My Games"}
@@ -995,9 +1277,10 @@
   :dir? false
   :links []
   :size 302
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755974875]}
  {:path-categories #{"Gaming"
                      "Gamedev"
                      "My Games"}
@@ -1013,9 +1296,10 @@
   :dir? false
   :links []
   :size 1644
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755974875]}
  {:path-categories #{"Gaming"
                      "Games"}
   :path "content/docs/gaming/games/Beat-Saber.md"
@@ -1030,9 +1314,10 @@
   :links ["/docs/feelings.md"
           "/docs/feelings.md"]
   :size 297
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Games"}
   :path "content/docs/gaming/games/Rimworld.md"
@@ -1047,9 +1332,10 @@
   :dir? false
   :links []
   :size 259
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Action Rpg"}
@@ -1065,9 +1351,10 @@
   :dir? false
   :links ["/"]
   :size 241
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Action Rpg"}
@@ -1083,9 +1370,10 @@
   :dir? false
   :links []
   :size 675
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755974875]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Competitive Fps"}
@@ -1102,9 +1390,10 @@
   :dir? false
   :links []
   :size 351
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Competitive Fps"}
@@ -1120,9 +1409,10 @@
   :dir? false
   :links ["/docs/feelings.md"]
   :size 4139
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Competitive Turn Based"}
@@ -1140,9 +1430,10 @@
   :dir? false
   :links []
   :size 611
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Competitive Turn Based"}
@@ -1158,9 +1449,10 @@
   :dir? false
   :links []
   :size 254
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755974875]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Competitive Turn Based"}
@@ -1176,9 +1468,10 @@
   :dir? false
   :links []
   :size 873
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755974875]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Competitive Turn Based"}
@@ -1194,9 +1487,11 @@
   :dir? false
   :links []
   :size 518
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755974875
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Cooperative Rpg"}
@@ -1212,9 +1507,10 @@
   :dir? false
   :links []
   :size 591
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755660745]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Cooperative Rpg"}
@@ -1231,9 +1527,11 @@
   :links ["/docs/gaming/gamedev/mechanic-ideas/limiting-collaboration.md"
           "/docs/feelings.md"]
   :size 1186
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755449988
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Puzzle"}
@@ -1250,9 +1548,10 @@
   :links ["/docs/feelings.md"
           "/docs/feelings.md"]
   :size 2093
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Roguelike"}
@@ -1271,9 +1570,10 @@
   :dir? false
   :links ["/docs/feelings.md"]
   :size 354
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Roguelike"}
@@ -1289,9 +1589,10 @@
   :dir? false
   :links []
   :size 131
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Roguelike"}
@@ -1307,9 +1608,10 @@
   :dir? false
   :links []
   :size 286
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Roguelike"}
@@ -1325,9 +1627,10 @@
   :dir? false
   :links []
   :size 345
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755450418]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Social"}
@@ -1343,9 +1646,10 @@
   :dir? false
   :links []
   :size 673
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Strategy"}
@@ -1362,9 +1666,10 @@
   :dir? false
   :links []
   :size 206
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Strategy"}
@@ -1380,9 +1685,10 @@
   :dir? false
   :links ["/docs/feelings.md"]
   :size 546
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Strategy"}
@@ -1398,9 +1704,10 @@
   :dir? false
   :links []
   :size 595
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Strategy"}
@@ -1419,9 +1726,10 @@
   :dir? false
   :links []
   :size 258
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Survival"}
@@ -1437,9 +1745,10 @@
   :dir? false
   :links []
   :size 200
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755974875]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Survival"}
@@ -1457,9 +1766,10 @@
   :dir? false
   :links []
   :size 197
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755974875]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Tactics Rpg"}
@@ -1478,9 +1788,10 @@
   :dir? false
   :links []
   :size 340
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Tactics Rpg"}
@@ -1498,9 +1809,12 @@
   :dir? false
   :links ["/docs/feelings.md"]
   :size 2615
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755497689
+                                 1755490538
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Tactics Rpg"}
@@ -1519,9 +1833,10 @@
   :dir? false
   :links []
   :size 278
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Tactics Rpg"}
@@ -1537,9 +1852,10 @@
   :dir? false
   :links []
   :size 157
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Tactics Rpg"}
@@ -1558,9 +1874,10 @@
   :dir? false
   :links []
   :size 918
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Tactics Rpg"}
@@ -1580,9 +1897,10 @@
   :dir? false
   :links []
   :size 1726
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Tactics Rpg"}
@@ -1600,9 +1918,10 @@
   :dir? false
   :links []
   :size 418
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Tactics Rpg"}
@@ -1618,9 +1937,10 @@
   :dir? false
   :links []
   :size 1192
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Tactics Rpg"}
@@ -1637,9 +1957,10 @@
   :dir? false
   :links []
   :size 397
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Tactics Rpg"}
@@ -1655,9 +1976,10 @@
   :dir? false
   :links []
   :size 293
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Tactics Rpg"}
@@ -1673,9 +1995,10 @@
   :dir? false
   :links []
   :size 191
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755974875]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Traditional Rpg"}
@@ -1691,9 +2014,10 @@
   :dir? false
   :links []
   :size 77
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Traditional Rpg"}
@@ -1709,9 +2033,10 @@
   :dir? false
   :links []
   :size 616
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Traditional Rpg"}
@@ -1727,9 +2052,10 @@
   :dir? false
   :links []
   :size 381
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Gaming"
                      "Games"
                      "Traditional Rpg"}
@@ -1745,9 +2071,10 @@
   :dir? false
   :links []
   :size 156
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755412331]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/aging-science.md"
   :backlinks nil
@@ -1765,9 +2092,22 @@
           "/docs/health-and-longevity/food/personal-food-habits.md"
           "/docs/health-and-longevity/chronic-stress.md"]
   :size 2124
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755975293
+                                 1755325517
+                                 1755322345
+                                 1659551782
+                                 1659551685
+                                 1659455881
+                                 1659113492
+                                 1658686636
+                                 1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1645759800]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/alt-health.md"
   :backlinks #{"content/docs/recent-interests.md"}
@@ -1780,9 +2120,19 @@
   :dir? false
   :links []
   :size 8432
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1740866322
+                                 1740862760
+                                 1740781684
+                                 1740688726
+                                 1739569784
+                                 1739397993
+                                 1739316639
+                                 1739311077
+                                 1739307275
+                                 1739307024
+                                 1739301360]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/avoiding-accidents.md"
   :backlinks nil
@@ -1794,9 +2144,13 @@
   :dir? false
   :links []
   :size 309
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1628225342]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/biomarker-correlator.md"
   :backlinks #{"content/docs/health-and-longevity/food/food.md"
@@ -1809,9 +2163,14 @@
   :dir? false
   :links []
   :size 347
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1729379357
+                                 1655691154
+                                 1655657180
+                                 1653846065
+                                 1643948898]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/causes-of-death.md"
   :backlinks nil
@@ -1823,9 +2182,19 @@
   :dir? false
   :links []
   :size 858
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1660415854
+                                 1660407081
+                                 1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1644947495
+                                 1644258034
+                                 1644257031
+                                 1642190195
+                                 1636757141]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/chronic-stress.md"
   :backlinks #{"content/docs/manifesto.md"
@@ -1838,9 +2207,13 @@
   :dir? false
   :links []
   :size 174
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1659113492
+                                 1655691154
+                                 1655657180
+                                 1653846065
+                                 1625939328]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/circadian-rhythm.md"
   :backlinks #{"content/docs/manifesto.md"}
@@ -1852,9 +2225,12 @@
   :dir? false
   :links []
   :size 167
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655691154
+                                 1655657180
+                                 1653846065
+                                 1625939328]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/continuous-glucose-monitoring.md"
   :backlinks #{"content/docs/health-and-longevity/tracking-health.md"
@@ -1867,9 +2243,12 @@
   :dir? false
   :links []
   :size 1549
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655691154
+                                 1655657180
+                                 1653846065
+                                 1642380817]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/dental-health.md"
   :backlinks nil
@@ -1881,9 +2260,13 @@
   :dir? false
   :links []
   :size 200
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1630906874]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/dna-testing.md"
   :backlinks nil
@@ -1895,9 +2278,14 @@
   :dir? false
   :links []
   :size 735
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1626638928
+                                 1625939328]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/exercise.md"
   :backlinks #{"content/docs/manifesto.md"
@@ -1910,9 +2298,13 @@
   :dir? false
   :links []
   :size 177
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1659113492
+                                 1655691154
+                                 1655657180
+                                 1653846065
+                                 1625939328]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/finding-care.md"
   :backlinks nil
@@ -1924,9 +2316,13 @@
   :dir? false
   :links []
   :size 340
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1651710952]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/health-behavior-change-pitfalls.md"
   :backlinks nil
@@ -1938,9 +2334,13 @@
   :dir? false
   :links []
   :size 4647
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755322345
+                                 1754518901
+                                 1754518760
+                                 1754513720
+                                 1754508968]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/influences.md"
   :backlinks nil
@@ -1952,9 +2352,27 @@
   :dir? false
   :links ["/docs/health-and-longevity/sens.md"]
   :size 9482
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755322345
+                                 1662926578
+                                 1662926531
+                                 1655757336
+                                 1655754535
+                                 1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1652841821
+                                 1652841359
+                                 1649892819
+                                 1649891471
+                                 1649891148
+                                 1649888725
+                                 1648052999
+                                 1636076936
+                                 1628657845
+                                 1625939328]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/misc-research.md"
   :backlinks nil
@@ -1966,9 +2384,14 @@
   :dir? false
   :links []
   :size 474
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1651100615
+                                 1651009056]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/my-physiological-states.md"
   :backlinks nil
@@ -1980,9 +2403,13 @@
   :dir? false
   :links []
   :size 701
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1634592875]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/posture.md"
   :backlinks nil
@@ -1994,9 +2421,9 @@
   :dir? false
   :links []
   :size 325
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1753893853]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/sens.md"
   :backlinks #{"content/docs/health-and-longevity/influences.md"}
@@ -2008,9 +2435,15 @@
   :dir? false
   :links ["/docs/understanding-the-world/what-to-believe.md"]
   :size 852
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755322345
+                                 1655757336
+                                 1655754535
+                                 1655691154
+                                 1655657180
+                                 1653846065
+                                 1653617509]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/sleep.md"
   :backlinks #{"content/docs/manifesto.md"
@@ -2025,9 +2458,25 @@
   :dir? false
   :links ["/docs/lifestyle-optimizations/task-tracking.md"]
   :size 6067
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755322345
+                                 1740862760
+                                 1675883847
+                                 1673301100
+                                 1672420121
+                                 1671234343
+                                 1671215957
+                                 1664948442
+                                 1659113492
+                                 1655691154
+                                 1655657180
+                                 1654961898
+                                 1653846065
+                                 1650215624
+                                 1644872453
+                                 1635187875
+                                 1625939328]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/theories-of-aging.md"
   :backlinks #{"content/docs/health-and-longevity/aging-science.md"}
@@ -2040,9 +2489,18 @@
   :dir? false
   :links []
   :size 2158
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1659551685
+                                 1659113492
+                                 1658686636
+                                 1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1653693799
+                                 1653686955
+                                 1653668045]}
  {:path-categories #{"Health And Longevity"}
   :path "content/docs/health-and-longevity/tracking-health.md"
   :backlinks #{"content/docs/lifelogging/what-and-why.md"}
@@ -2055,9 +2513,28 @@
   :links ["/docs/health-and-longevity/food/tracking-food.md"
           "/docs/health-and-longevity/continuous-glucose-monitoring.md"]
   :size 3684
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755975293
+                                 1755322345
+                                 1660415829
+                                 1659922160
+                                 1655691154
+                                 1655657180
+                                 1654792731
+                                 1653846065
+                                 1652329437
+                                 1649723719
+                                 1649723563
+                                 1647135002
+                                 1647131544
+                                 1646415418
+                                 1646360704
+                                 1644947630
+                                 1642463614
+                                 1637005580
+                                 1636076936]}
  {:path-categories #{"Health And Longevity"
                      "Food"}
   :path "content/docs/health-and-longevity/food/fasting.md"
@@ -2071,9 +2548,10 @@
   :dir? false
   :links []
   :size 6032
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755974875]}
  {:path-categories #{"Health And Longevity"
                      "Food"}
   :path "content/docs/health-and-longevity/food/food.md"
@@ -2090,9 +2568,11 @@
           "/docs/health-and-longevity/biomarker-correlator.md"
           "/docs/understanding-the-world/influences.md#the-beginning-of-infinity-by-david-deutschhttpsenwikipediaorgwikithe_beginning_of_infinity"]
   :size 17069
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755975293
+                                 1755974875]}
  {:path-categories #{"Health And Longevity"
                      "Food"}
   :path "content/docs/health-and-longevity/food/personal-food-habits.md"
@@ -2108,9 +2588,10 @@
   :dir? false
   :links ["/docs/health-and-longevity/food/personal-specific-food-notes.md"]
   :size 2913
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755974875]}
  {:path-categories #{"Health And Longevity"
                      "Food"}
   :path "content/docs/health-and-longevity/food/personal-specific-food-notes.md"
@@ -2124,9 +2605,10 @@
   :dir? false
   :links []
   :size 2623
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755974875]}
  {:path-categories #{"Health And Longevity"
                      "Food"}
   :path "content/docs/health-and-longevity/food/recipies.md"
@@ -2140,9 +2622,10 @@
   :dir? false
   :links []
   :size 10240
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755974875]}
  {:path-categories #{"Health And Longevity"
                      "Food"}
   :path "content/docs/health-and-longevity/food/supplements.md"
@@ -2156,9 +2639,10 @@
   :dir? false
   :links []
   :size 522
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755974875]}
  {:path-categories #{"Health And Longevity"
                      "Food"}
   :path "content/docs/health-and-longevity/food/tracking-food.md"
@@ -2172,9 +2656,10 @@
   :dir? false
   :links []
   :size 4243
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755974875]}
  {:path-categories #{"Health And Longevity"
                      "Food"}
   :path "content/docs/health-and-longevity/food/unhealthy-food.md"
@@ -2188,9 +2673,10 @@
   :dir? false
   :links []
   :size 405
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755974875]}
  {:path-categories #{"Hobbies"}
   :path "content/docs/hobbies/Lead-Climbing-in-a-Gym.md"
   :backlinks nil
@@ -2209,9 +2695,12 @@
           "/docs/feelings.md"
           "/docs/feelings.md"]
   :size 526
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755322345
+                                 1731450576
+                                 1667762893
+                                 1667762546]}
  {:path-categories #{"Hobbies"}
   :path "content/docs/hobbies/Yo-Yoing.md"
   :backlinks nil
@@ -2223,9 +2712,12 @@
   :dir? false
   :links ["/docs/feelings.md"]
   :size 225
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755322345
+                                 1731450576
+                                 1667762893
+                                 1667762546]}
  {:path-categories #{"Housing"}
   :path "content/docs/housing/home-energy-monitoring.md"
   :backlinks nil
@@ -2237,9 +2729,13 @@
   :dir? false
   :links []
   :size 884
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653845963
+                                 1652910474]}
  {:path-categories #{"Housing"}
   :path "content/docs/housing/projects.md"
   :backlinks nil
@@ -2251,9 +2747,15 @@
   :dir? false
   :links []
   :size 370
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1667703247
+                                 1667586520
+                                 1655753252
+                                 1655753185
+                                 1655657180
+                                 1653845963
+                                 1652910474]}
  {:path-categories #{"Hydroponics"}
   :path "content/docs/hydroponics/journal.md"
   :backlinks nil
@@ -2265,9 +2767,15 @@
   :dir? false
   :links []
   :size 1581
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1615331579
+                                 1614227864
+                                 1613251448]}
  {:path-categories #{"Hydroponics"}
   :path "content/docs/hydroponics/my-setup.md"
   :backlinks nil
@@ -2279,9 +2787,26 @@
   :dir? false
   :links []
   :size 4434
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1652910474
+                                 1627964978
+                                 1625972169
+                                 1618445330
+                                 1617931269
+                                 1614052114
+                                 1613627505
+                                 1613595589
+                                 1613438593
+                                 1613438586
+                                 1613364256
+                                 1613363733
+                                 1613363198
+                                 1613251448]}
  {:path-categories #{"Investing And Finances"}
   :path "content/docs/investing-and-finances/comprehensive-housing-return-estimator.md"
   :backlinks nil
@@ -2293,9 +2818,15 @@
   :dir? false
   :links []
   :size 12009
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1706730743
+                                 1704401356
+                                 1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1642380817]}
  {:path-categories #{"Investing And Finances"}
   :path "content/docs/investing-and-finances/financial-independence.md"
   :backlinks nil
@@ -2307,9 +2838,14 @@
   :dir? false
   :links []
   :size 812
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1628380027
+                                 1628301905]}
  {:path-categories #{"Investing And Finances"}
   :path "content/docs/investing-and-finances/housing.md"
   :backlinks nil
@@ -2321,9 +2857,13 @@
   :dir? false
   :links []
   :size 1582
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1627166059]}
  {:path-categories #{"Investing And Finances"}
   :path "content/docs/investing-and-finances/influences.md"
   :backlinks nil
@@ -2335,9 +2875,16 @@
   :dir? false
   :links ["/docs/understanding-the-world/influences.md"]
   :size 1435
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755322345
+                                 1655691154
+                                 1655657180
+                                 1653846065
+                                 1651798880
+                                 1651711670
+                                 1627252570
+                                 1627252280]}
  {:path-categories #{"Investing And Finances"}
   :path "content/docs/investing-and-finances/monthly-costs-of-car-ownership.md"
   :backlinks nil
@@ -2349,9 +2896,13 @@
   :dir? false
   :links []
   :size 542
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1628361867]}
  {:path-categories #{"Investing And Finances"}
   :path "content/docs/investing-and-finances/personal-portfolio.md"
   :backlinks nil
@@ -2363,9 +2914,19 @@
   :dir? false
   :links []
   :size 2717
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1710287368
+                                 1710287362
+                                 1709940869
+                                 1707447715
+                                 1673989211
+                                 1667452680
+                                 1666403666
+                                 1666403159
+                                 1666402636
+                                 1666332140
+                                 1666321068]}
  {:path-categories #{"Investing And Finances"}
   :path "content/docs/investing-and-finances/strategies.md"
   :backlinks nil
@@ -2377,9 +2938,27 @@
   :dir? false
   :links []
   :size 5390
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1669743672
+                                 1669230421
+                                 1662924312
+                                 1662788304
+                                 1662788267
+                                 1662494068
+                                 1658277343
+                                 1657997776
+                                 1656388528
+                                 1656368707
+                                 1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1652910474
+                                 1652816460
+                                 1628380768
+                                 1627252280
+                                 1627166059]}
  {:path-categories #{"Investing And Finances"}
   :path "content/docs/investing-and-finances/taxes.md"
   :backlinks nil
@@ -2391,9 +2970,16 @@
   :dir? false
   :links []
   :size 2849
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1665686620
+                                 1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1646895255
+                                 1641938479
+                                 1627252280]}
  {:path-categories #{"Lifelogging"}
   :path "content/docs/lifelogging/2025-update.md"
   :backlinks nil
@@ -2406,9 +2992,13 @@
   :links ["/docs/lifestyle-optimizations/daily-habits.md"
           "/docs/lifelogging/camera.md"]
   :size 5501
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755322345
+                                 1743191815
+                                 1743191502
+                                 1743190436
+                                 1743190382]}
  {:path-categories #{"Lifelogging"}
   :path "content/docs/lifelogging/browser-history.md"
   :backlinks nil
@@ -2420,9 +3010,10 @@
   :dir? false
   :links []
   :size 362
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755974875]}
  {:path-categories #{"Lifelogging"}
   :path "content/docs/lifelogging/camera.md"
   :backlinks #{"content/docs/lifelogging/2025-update.md"
@@ -2435,9 +3026,17 @@
   :dir? false
   :links []
   :size 1180
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1743190436
+                                 1675806456
+                                 1674081472
+                                 1655691154
+                                 1655657180
+                                 1653846065
+                                 1651956307
+                                 1649728795
+                                 1649723563]}
  {:path-categories #{"Lifelogging"}
   :path "content/docs/lifelogging/influences.md"
   :backlinks nil
@@ -2449,9 +3048,18 @@
   :dir? false
   :links []
   :size 656
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1689818925
+                                 1669743672
+                                 1668804614
+                                 1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1652816460
+                                 1651276893
+                                 1649872033]}
  {:path-categories #{"Lifelogging"}
   :path "content/docs/lifelogging/screenshot-logging.md"
   :backlinks nil
@@ -2463,9 +3071,11 @@
   :dir? false
   :links []
   :size 765
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1723670821
+                                 1723659833
+                                 1674081472]}
  {:path-categories #{"Lifelogging"}
   :path "content/docs/lifelogging/what-and-why.md"
   :backlinks #{"content/docs/lifestyle-optimizations/daily-habits.md"}
@@ -2482,9 +3092,20 @@
           "/docs/health-and-longevity/biomarker-correlator.md"
           "/docs/health-and-longevity/continuous-glucose-monitoring.md"]
   :size 8998
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755322345
+                                 1740866322
+                                 1729380199
+                                 1729379357
+                                 1729033555
+                                 1668804614
+                                 1655691154
+                                 1655657180
+                                 1653846065
+                                 1651596212
+                                 1651099242
+                                 1649723563]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/android-apps.md"
   :backlinks nil
@@ -2496,9 +3117,16 @@
   :dir? false
   :links []
   :size 1367
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1664948442
+                                 1664937384
+                                 1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1649286357
+                                 1630648367]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/being-competitive.md"
   :backlinks nil
@@ -2510,9 +3138,9 @@
   :dir? false
   :links []
   :size 1964
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1674070949]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/bike-commuting.md"
   :backlinks nil
@@ -2524,9 +3152,23 @@
   :dir? false
   :links []
   :size 8727
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1710287362
+                                 1707596110
+                                 1704233545
+                                 1704233430
+                                 1655753252
+                                 1655753185
+                                 1655657180
+                                 1654535652
+                                 1653846065
+                                 1649717684
+                                 1649294966
+                                 1649215476
+                                 1648864512
+                                 1648599868
+                                 1648595808]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/daily-habits.md"
   :backlinks #{"content/docs/lifelogging/2025-update.md"}
@@ -2541,9 +3183,30 @@
           "/docs/health-and-longevity/food/supplements.md"
           "/docs/lifelogging/what-and-why.md"]
   :size 2546
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755974875
+                                 1755322345
+                                 1751950810
+                                 1749183626
+                                 1749182856
+                                 1749182667
+                                 1746493962
+                                 1743190436
+                                 1742167498
+                                 1740947312
+                                 1740866322
+                                 1740862760
+                                 1740593638
+                                 1739824025
+                                 1739569784
+                                 1739397993
+                                 1739316639
+                                 1732841674
+                                 1731450576
+                                 1730581865
+                                 1729033555]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/daily-physiological-tricks.md"
   :backlinks nil
@@ -2557,9 +3220,36 @@
           "/docs/understanding-the-world/productive-conversations.md"
           "/docs/health-and-longevity/sleep.md"]
   :size 2534
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755322345
+                                 1739316639
+                                 1720029562
+                                 1720029553
+                                 1715134365
+                                 1715134343
+                                 1715101909
+                                 1692046758
+                                 1687197151
+                                 1686331697
+                                 1682182068
+                                 1682100733
+                                 1675446664
+                                 1673390090
+                                 1671658646
+                                 1671388521
+                                 1671234343
+                                 1669743672
+                                 1667685550
+                                 1664948442
+                                 1664936458
+                                 1664167827
+                                 1663622437
+                                 1663363785
+                                 1662925934
+                                 1662925602
+                                 1662788267
+                                 1662495370]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/elements-of-a-good-day.md"
   :backlinks nil
@@ -2571,9 +3261,10 @@
   :dir? false
   :links []
   :size 648
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1658277343
+                                 1657997776]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/experiences.md"
   :backlinks #{"content/docs/thought-experiments/mind-mapping-concept.md"}
@@ -2585,9 +3276,17 @@
   :dir? false
   :links ["/docs/thought-experiments/mind-mapping-concept.md"]
   :size 631
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755974875
+                                 1755322345
+                                 1667447590
+                                 1655691154
+                                 1655657180
+                                 1653846065
+                                 1653367488
+                                 1649215476]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/footwear.md"
   :backlinks nil
@@ -2600,9 +3299,10 @@
   :dir? false
   :links []
   :size 1153
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1749182667
+                                 1740947312]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/geographical-maps.md"
   :backlinks nil
@@ -2614,9 +3314,15 @@
   :dir? false
   :links []
   :size 268
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1667452680
+                                 1665881215
+                                 1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1649439956]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/hang-drying-clothes.md"
   :backlinks nil
@@ -2628,9 +3334,15 @@
   :dir? false
   :links []
   :size 2610
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655691154
+                                 1655658361
+                                 1655657180
+                                 1653846065
+                                 1647131544]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/home-network-and-internet-troubleshooting.md"
   :backlinks nil
@@ -2642,9 +3354,13 @@
   :dir? false
   :links []
   :size 820
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1642380817]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/house-diy.md"
   :backlinks nil
@@ -2656,9 +3372,10 @@
   :dir? false
   :links []
   :size 167
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1704401356
+                                 1704233545]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/keyboards-and-typing.md"
   :backlinks #{"content/docs/recent-interests.md"}
@@ -2671,9 +3388,21 @@
   :dir? false
   :links []
   :size 8373
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1740866322
+                                 1740782964
+                                 1740782450
+                                 1740781684
+                                 1731450576
+                                 1729380499
+                                 1729380199
+                                 1729379357
+                                 1728334241
+                                 1723670821
+                                 1723659833
+                                 1720030119
+                                 1720029553]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/life-advice.md"
   :backlinks nil
@@ -2685,9 +3414,13 @@
   :dir? false
   :links []
   :size 268
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1651276893]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/listening-to-books.md"
   :backlinks nil
@@ -2699,9 +3432,16 @@
   :dir? false
   :links []
   :size 895
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1683737709
+                                 1683575232
+                                 1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1653588803
+                                 1651168376]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/making-friends.md"
   :backlinks nil
@@ -2713,9 +3453,10 @@
   :dir? false
   :links []
   :size 134
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1671658646
+                                 1671235170]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/mice.md"
   :backlinks nil
@@ -2727,9 +3468,17 @@
   :dir? false
   :links []
   :size 2660
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755974875
+                                 1753415573
+                                 1753148154
+                                 1753148010
+                                 1751952396
+                                 1751907558
+                                 1751869555
+                                 1751868760]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/my-computer-configuration-dotfiles.md"
   :backlinks nil
@@ -2741,9 +3490,15 @@
   :dir? false
   :links []
   :size 6251
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1654023324
+                                 1653846065
+                                 1642463614
+                                 1642380817]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/no-ad-youtube-viewing.md"
   :backlinks nil
@@ -2755,9 +3510,13 @@
   :dir? false
   :links []
   :size 854
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1642380817]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/personal-data-management.md"
   :backlinks nil
@@ -2769,9 +3528,10 @@
   :dir? false
   :links []
   :size 690
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1686456666
+                                 1671660905]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/phone-case.md"
   :backlinks nil
@@ -2783,9 +3543,13 @@
   :dir? false
   :links []
   :size 1109
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1624337751]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/task-tracking.md"
   :backlinks #{"content/docs/health-and-longevity/sleep.md"
@@ -2798,9 +3562,13 @@
   :dir? false
   :links []
   :size 2331
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655691154
+                                 1655657180
+                                 1653846065
+                                 1645741892
+                                 1630642518]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/taut-line-hitch.md"
   :backlinks nil
@@ -2812,9 +3580,13 @@
   :dir? false
   :links []
   :size 539
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1628359895]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/this-website.md"
   :backlinks nil
@@ -2826,9 +3598,23 @@
   :dir? false
   :links []
   :size 1381
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1702414019
+                                 1700078474
+                                 1664936533
+                                 1663982789
+                                 1661886691
+                                 1661886667
+                                 1656388528
+                                 1656388399
+                                 1656368707
+                                 1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1652910474
+                                 1642380817]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/travel.md"
   :backlinks nil
@@ -2841,9 +3627,9 @@
   :dir? false
   :links []
   :size 241
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1736835711]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/vim-tricks.md"
   :backlinks nil
@@ -2855,9 +3641,15 @@
   :dir? false
   :links []
   :size 149
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1658277343
+                                 1657656160
+                                 1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1624337751]}
  {:path-categories #{"Lifestyle Optimizations"}
   :path "content/docs/lifestyle-optimizations/writing.md"
   :backlinks nil
@@ -2869,9 +3661,12 @@
   :dir? false
   :links []
   :size 1090
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1669743672
+                                 1668469041
+                                 1656388528
+                                 1656388399]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/absorbing-and-professing.md"
   :backlinks nil
@@ -2883,9 +3678,14 @@
   :dir? false
   :links []
   :size 7467
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1623390272
+                                 1617065396]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/behavior-change.md"
   :backlinks nil
@@ -2897,9 +3697,13 @@
   :dir? false
   :links []
   :size 593
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1653111519]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/brain-juice.md"
   :backlinks nil
@@ -2911,9 +3715,14 @@
   :dir? false
   :links []
   :size 491
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1624658504
+                                 1623646572]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/contentment.md"
   :backlinks nil
@@ -2925,9 +3734,13 @@
   :dir? false
   :links []
   :size 1530
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1628139697]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/creativity.md"
   :backlinks #{"content/docs/manifesto.md"
@@ -2943,9 +3756,29 @@
   :links ["/docs/gaming/gamedev/gamedev-context.md"
           "/docs/understanding-the-world/copyright-and-ip.md"]
   :size 3246
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755449404
+                                 1755322345
+                                 1684902342
+                                 1657997776
+                                 1656388528
+                                 1655691154
+                                 1655659991
+                                 1655657180
+                                 1653846065
+                                 1651276893
+                                 1648526444
+                                 1647920813
+                                 1633626892
+                                 1632246004
+                                 1628313528
+                                 1626378938
+                                 1625947021
+                                 1625939465
+                                 1625939328
+                                 1624337751]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/desires-and-deprivation.md"
   :backlinks nil
@@ -2957,9 +3790,13 @@
   :dir? false
   :links []
   :size 1165
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1631814970]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/education.md"
   :backlinks nil
@@ -2971,9 +3808,17 @@
   :dir? false
   :links []
   :size 6529
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1667066083
+                                 1655753252
+                                 1655753185
+                                 1655657180
+                                 1654534758
+                                 1653846065
+                                 1651097833
+                                 1647025208
+                                 1645742692]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/friendship.md"
   :backlinks nil
@@ -2985,9 +3830,9 @@
   :dir? false
   :links []
   :size 317
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1734063299]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/how-to-do-hard-tasks.md"
   :backlinks nil
@@ -2999,9 +3844,15 @@
   :dir? false
   :links ["/docs/mind/motivation.md"]
   :size 5091
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755322345
+                                 1667066083
+                                 1655691154
+                                 1655657180
+                                 1653846065
+                                 1651956280
+                                 1637430676]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/influences.md"
   :backlinks nil
@@ -3013,9 +3864,15 @@
   :dir? false
   :links []
   :size 1471
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1630546053
+                                 1625880346
+                                 1624337751]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/intelligence.md"
   :backlinks nil
@@ -3027,9 +3884,12 @@
   :dir? false
   :links []
   :size 1831
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1702414019
+                                 1701713683
+                                 1664936533
+                                 1664158460]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/motivation.md"
   :backlinks #{"content/docs/manifesto.md"
@@ -3044,9 +3904,29 @@
   :links ["/docs/mind/creativity.md"
           "/docs/mind/creativity.md"]
   :size 12746
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755995343
+                                 1755974875
+                                 1755322345
+                                 1729384063
+                                 1729104673
+                                 1665034717
+                                 1662925934
+                                 1655691154
+                                 1655657180
+                                 1653846065
+                                 1652989354
+                                 1649089933
+                                 1647920813
+                                 1643674263
+                                 1637430676
+                                 1635187875
+                                 1629339786
+                                 1625940076
+                                 1625939465
+                                 1625939328
+                                 1624337751]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/myers-briggs-personality-typing.md"
   :backlinks nil
@@ -3058,9 +3938,13 @@
   :dir? false
   :links []
   :size 1284
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1642380817]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/optimism.md"
   :backlinks #{"content/docs/potential-life-missions.md"
@@ -3073,9 +3957,12 @@
   :dir? false
   :links []
   :size 2319
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1698604706
+                                 1692662334
+                                 1659113492
+                                 1659025169]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/perspective.md"
   :backlinks #{"content/docs/understanding-the-world/what-to-believe.md"}
@@ -3087,9 +3974,12 @@
   :dir? false
   :links []
   :size 4885
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1659551821
+                                 1659551685
+                                 1658277343
+                                 1657997776]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/socializing.md"
   :backlinks nil
@@ -3101,9 +3991,11 @@
   :dir? false
   :links []
   :size 1302
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1733985863
+                                 1664936533
+                                 1664240164]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/standard-of-thought.md"
   :backlinks nil
@@ -3116,9 +4008,10 @@
   :dir? false
   :links []
   :size 2156
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1733864097
+                                 1733863870]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/things-to-do-when-unmotivated.md"
   :backlinks #{"content/docs/lifestyle-optimizations/daily-physiological-tricks.md"}
@@ -3130,9 +4023,21 @@
   :dir? false
   :links ["/docs/mind/motivation.md"]
   :size 2725
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755322345
+                                 1710287362
+                                 1664387927
+                                 1662925980
+                                 1662925934
+                                 1662925602
+                                 1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1653111519
+                                 1628379851
+                                 1628362943]}
  {:path-categories #{"Mind"}
   :path "content/docs/mind/working-with-others.md"
   :backlinks nil
@@ -3144,9 +4049,19 @@
   :dir? false
   :links []
   :size 7487
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1631562802
+                                 1630356900
+                                 1629525691
+                                 1629339786
+                                 1628632251
+                                 1628225587
+                                 1627319610]}
  {:path-categories #{"Morality"}
   :path "content/docs/morality/altruism.md"
   :backlinks nil
@@ -3158,9 +4073,12 @@
   :dir? false
   :links []
   :size 145
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1654406756]}
  {:path-categories #{"Morality"}
   :path "content/docs/morality/cancelling-high-contributors.md"
   :backlinks nil
@@ -3172,9 +4090,13 @@
   :dir? false
   :links []
   :size 1221
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1653110865]}
  {:path-categories #{"Morality"}
   :path "content/docs/morality/efficient-living-and-morality.md"
   :backlinks nil
@@ -3186,9 +4108,15 @@
   :dir? false
   :links []
   :size 6188
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1673301100
+                                 1673289798
+                                 1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1642380817]}
  {:path-categories #{"Morality"}
   :path "content/docs/morality/future.md"
   :backlinks nil
@@ -3200,9 +4128,10 @@
   :dir? false
   :links []
   :size 227
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1658277343
+                                 1658206871]}
  {:path-categories #{"Morality"}
   :path "content/docs/morality/right-to-risk.md"
   :backlinks nil
@@ -3214,9 +4143,16 @@
   :dir? false
   :links []
   :size 1520
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1643566176
+                                 1631833682
+                                 1631833395
+                                 1631832180]}
  {:path-categories #{"Morality"}
   :path "content/docs/morality/self-sacrificers.md"
   :backlinks nil
@@ -3228,9 +4164,12 @@
   :dir? false
   :links []
   :size 510
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1740866322
+                                 1740862760
+                                 1733864097
+                                 1733543092]}
  {:path-categories #{"Music"}
   :path "content/docs/music/music-library-management.md"
   :backlinks nil
@@ -3242,9 +4181,9 @@
   :dir? false
   :links []
   :size 2720
-  :modtime 1756000386
+  :modtime 1756000709
   :mode 420
-  :modification-unix-timestamps [0]}
+  :modification-unix-timestamps [1752514442]}
  {:path-categories #{"Music"}
   :path "content/docs/music/my-musical-interest-history.md"
   :backlinks nil
@@ -3256,9 +4195,13 @@
   :dir? false
   :links []
   :size 1944
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755322345
+                                 1755114058
+                                 1754599626
+                                 1742167498
+                                 1742166662]}
  {:path-categories #{"Society"}
   :path "content/docs/society/co-ops.md"
   :backlinks nil
@@ -3270,9 +4213,10 @@
   :dir? false
   :links []
   :size 4679
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1656388528
+                                 1656388399]}
  {:path-categories #{"Society"}
   :path "content/docs/society/communal-living.md"
   :backlinks nil
@@ -3284,9 +4228,12 @@
   :dir? false
   :links ["/docs/books/everyday-utopia.md"]
   :size 457
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755322345
+                                 1700078474
+                                 1699041494
+                                 1698384423]}
  {:path-categories #{"Society"}
   :path "content/docs/society/doom-and-how-to-avoid-it.md"
   :backlinks nil
@@ -3298,9 +4245,11 @@
   :dir? false
   :links []
   :size 2057
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1658509129
+                                 1656388528
+                                 1656388399]}
  {:path-categories #{"Society"}
   :path "content/docs/society/freedom-inequality-meritocracy.md"
   :backlinks nil
@@ -3312,9 +4261,10 @@
   :dir? false
   :links []
   :size 2818
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1663982789
+                                 1663623469]}
  {:path-categories #{"Society"}
   :path "content/docs/society/gerrymandering.md"
   :backlinks nil
@@ -3326,9 +4276,15 @@
   :dir? false
   :links ["/docs/books/The-Black-Swan.md"]
   :size 3920
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755322345
+                                 1667948337
+                                 1667948286
+                                 1667947978
+                                 1667947123
+                                 1667941051
+                                 1667937680]}
  {:path-categories #{"Society"}
   :path "content/docs/society/individuals-vs-groups.md"
   :backlinks nil
@@ -3340,9 +4296,11 @@
   :dir? false
   :links []
   :size 655
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1658509129
+                                 1656388528
+                                 1656388399]}
  {:path-categories #{"Society"}
   :path "content/docs/society/livelihood-traps.md"
   :backlinks nil
@@ -3355,9 +4313,14 @@
   :dir? false
   :links []
   :size 1518
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1740866322
+                                 1740862760
+                                 1740688726
+                                 1740678785
+                                 1740593638
+                                 1740030470]}
  {:path-categories #{"Society"}
   :path "content/docs/society/multi-job-normalization.md"
   :backlinks nil
@@ -3369,9 +4332,9 @@
   :dir? false
   :links []
   :size 741
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1674251134]}
  {:path-categories #{"Society"}
   :path "content/docs/society/politics.md"
   :backlinks nil
@@ -3383,9 +4346,11 @@
   :dir? false
   :links []
   :size 1428
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1658509129
+                                 1656388528
+                                 1656388399]}
  {:path-categories #{"Society"}
   :path "content/docs/society/shelter-in-the-storm.md"
   :backlinks nil
@@ -3397,9 +4362,10 @@
   :dir? false
   :links []
   :size 427
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1736835711
+                                 1736835384]}
  {:path-categories #{"Society"}
   :path "content/docs/society/solving-societal-problems.md"
   :backlinks nil
@@ -3411,9 +4377,16 @@
   :dir? false
   :links ["/docs/mind/optimism.md"]
   :size 9603
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755322345
+                                 1667066083
+                                 1659551685
+                                 1659113492
+                                 1659025169
+                                 1658509129
+                                 1656388528
+                                 1656388399]}
  {:path-categories #{"Society"}
   :path "content/docs/society/utopia.md"
   :backlinks #{"content/docs/potential-life-missions.md"
@@ -3429,9 +4402,22 @@
           "/docs/books/antifragile.md"
           "/docs/mind/creativity.md"]
   :size 10111
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755322345
+                                 1701207308
+                                 1697236141
+                                 1694020059
+                                 1691798344
+                                 1689646296
+                                 1667844143
+                                 1667762893
+                                 1667703247
+                                 1661792280
+                                 1658509129
+                                 1656990200
+                                 1656388528
+                                 1656388399]}
  {:path-categories #{"Society"}
   :path "content/docs/society/utopian-idea-management.md"
   :backlinks nil
@@ -3443,9 +4429,12 @@
   :dir? false
   :links ["/docs/society/utopia.md"]
   :size 2284
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755322345
+                                 1697236141
+                                 1694020059
+                                 1694019965]}
  {:path-categories #{"Software Dev"}
   :path "content/docs/software-dev/actionable-tips.md"
   :backlinks nil
@@ -3457,9 +4446,13 @@
   :dir? false
   :links []
   :size 434
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1642529832]}
  {:path-categories #{"Software Dev"}
   :path "content/docs/software-dev/auto-input-data-collection.md"
   :backlinks nil
@@ -3471,9 +4464,19 @@
   :dir? false
   :links []
   :size 11590
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1688672321
+                                 1688488756
+                                 1688414476
+                                 1688412623
+                                 1688412590
+                                 1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1643566176
+                                 1642635677]}
  {:path-categories #{"Software Dev"}
   :path "content/docs/software-dev/choosing-a-language.md"
   :backlinks nil
@@ -3485,9 +4488,17 @@
   :dir? false
   :links []
   :size 1239
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1700078474
+                                 1699041494
+                                 1659551685
+                                 1659124913
+                                 1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1626209569]}
  {:path-categories #{"Software Dev"}
   :path "content/docs/software-dev/complexity.md"
   :backlinks nil
@@ -3499,9 +4510,12 @@
   :dir? false
   :links []
   :size 1238
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1659551685
+                                 1659124913
+                                 1659113492
+                                 1659113460]}
  {:path-categories #{"Software Dev"}
   :path "content/docs/software-dev/design.md"
   :backlinks nil
@@ -3513,9 +4527,16 @@
   :dir? false
   :links []
   :size 2092
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1704232292
+                                 1703793258
+                                 1703198756
+                                 1703198727
+                                 1703198665
+                                 1703184965
+                                 1703184859
+                                 1703122441]}
  {:path-categories #{"Software Dev"}
   :path "content/docs/software-dev/functional-programming.md"
   :backlinks nil
@@ -3527,9 +4548,16 @@
   :dir? false
   :links []
   :size 1520
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1684276597
+                                 1655757336
+                                 1655754535
+                                 1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1647196682]}
  {:path-categories #{"Software Dev"}
   :path "content/docs/software-dev/getting-into-it.md"
   :backlinks nil
@@ -3541,9 +4569,10 @@
   :dir? false
   :links []
   :size 1265
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1700078474
+                                 1699041494]}
  {:path-categories #{"Software Dev"}
   :path "content/docs/software-dev/impact.md"
   :backlinks nil
@@ -3555,9 +4584,13 @@
   :dir? false
   :links []
   :size 190
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1627847421]}
  {:path-categories #{"Software Dev"}
   :path "content/docs/software-dev/influences.md"
   :backlinks nil
@@ -3569,9 +4602,20 @@
   :dir? false
   :links []
   :size 1600
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1736273893
+                                 1735342544
+                                 1659113492
+                                 1659113460
+                                 1656388528
+                                 1656095059
+                                 1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1627280699
+                                 1626209569]}
  {:path-categories #{"Software Dev"}
   :path "content/docs/software-dev/patterned-code.md"
   :backlinks nil
@@ -3583,9 +4627,13 @@
   :dir? false
   :links []
   :size 330
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1642121401]}
  {:path-categories #{"Thought Experiments"}
   :path "content/docs/thought-experiments/artificial-intelligence.md"
   :backlinks nil
@@ -3597,9 +4645,15 @@
   :dir? false
   :links []
   :size 2393
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1648766627
+                                 1646243696
+                                 1646242938]}
  {:path-categories #{"Thought Experiments"}
   :path "content/docs/thought-experiments/life-quests.md"
   :backlinks nil
@@ -3611,9 +4665,13 @@
   :dir? false
   :links []
   :size 381
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1651115636]}
  {:path-categories #{"Thought Experiments"}
   :path "content/docs/thought-experiments/mind-mapping-concept.md"
   :backlinks #{"content/docs/lifestyle-optimizations/experiences.md"}
@@ -3629,9 +4687,16 @@
           "/"
           "/"]
   :size 1833
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1662924312
+                                 1655691154
+                                 1655657180
+                                 1653846065
+                                 1653508418
+                                 1653433258
+                                 1653367488
+                                 1653360667]}
  {:path-categories #{"Thought Experiments"}
   :path "content/docs/thought-experiments/random-ideas.md"
   :backlinks nil
@@ -3643,9 +4708,28 @@
   :dir? false
   :links []
   :size 9254
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1697236141
+                                 1694034285
+                                 1667066083
+                                 1661202031
+                                 1661202005
+                                 1658554077
+                                 1658553735
+                                 1658277343
+                                 1658206871
+                                 1655753252
+                                 1655753185
+                                 1655657180
+                                 1654381598
+                                 1654023324
+                                 1653846065
+                                 1653190047
+                                 1650829356
+                                 1649785449
+                                 1649286357
+                                 1648862610]}
  {:path-categories #{"Thought Experiments"}
   :path "content/docs/thought-experiments/two-glasses.md"
   :backlinks nil
@@ -3657,9 +4741,13 @@
   :dir? false
   :links []
   :size 1737
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1633990351]}
  {:path-categories #{"Understanding The World"}
   :path "content/docs/understanding-the-world/applying-theories.md"
   :backlinks nil
@@ -3671,9 +4759,17 @@
   :dir? false
   :links []
   :size 4653
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1634594763
+                                 1631562802
+                                 1629341738
+                                 1629340712
+                                 1629339786]}
  {:path-categories #{"Understanding The World"}
   :path "content/docs/understanding-the-world/copyright-and-ip.md"
   :backlinks #{"content/docs/mind/creativity.md"}
@@ -3686,9 +4782,15 @@
   :links ["/docs/mind/creativity.md"
           "/docs/society/utopia.md"]
   :size 790
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755322345
+                                 1755277458
+                                 1721686505
+                                 1702414019
+                                 1656388528
+                                 1655691154
+                                 1655659991]}
  {:path-categories #{"Understanding The World"}
   :path "content/docs/understanding-the-world/great-explanations.md"
   :backlinks nil
@@ -3700,9 +4802,13 @@
   :dir? false
   :links []
   :size 283
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1649439956]}
  {:path-categories #{"Understanding The World"}
   :path "content/docs/understanding-the-world/influences.md"
   :backlinks #{"content/docs/investing-and-finances/influences.md"
@@ -3716,9 +4822,17 @@
   :links ["/docs/understanding-the-world/influences.md"
           "/docs/books/zero-to-one.md"]
   :size 959
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755322345
+                                 1667510508
+                                 1667452680
+                                 1655691154
+                                 1655657180
+                                 1653846065
+                                 1646971821
+                                 1632951015
+                                 1624337751]}
  {:path-categories #{"Understanding The World"}
   :path "content/docs/understanding-the-world/judging-decisions.md"
   :backlinks nil
@@ -3730,9 +4844,13 @@
   :dir? false
   :links []
   :size 2309
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1638937972]}
  {:path-categories #{"Understanding The World"}
   :path "content/docs/understanding-the-world/notetaking.md"
   :backlinks nil
@@ -3744,9 +4862,13 @@
   :dir? false
   :links []
   :size 1046
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1624337751]}
  {:path-categories #{"Understanding The World"}
   :path "content/docs/understanding-the-world/physics.md"
   :backlinks nil
@@ -3758,9 +4880,13 @@
   :dir? false
   :links []
   :size 396
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1625947450]}
  {:path-categories #{"Understanding The World"}
   :path "content/docs/understanding-the-world/predicting-the-future.md"
   :backlinks nil
@@ -3772,9 +4898,12 @@
   :dir? false
   :links ["/docs/understanding-the-world/working-with-complex-systems.md"]
   :size 406
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755322345
+                                 1667941051
+                                 1667937680
+                                 1667844143]}
  {:path-categories #{"Understanding The World"}
   :path "content/docs/understanding-the-world/productive-conversations.md"
   :backlinks #{"content/docs/lifestyle-optimizations/daily-physiological-tricks.md"}
@@ -3786,9 +4915,10 @@
   :dir? false
   :links []
   :size 816
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1664936533
+                                 1664901571]}
  {:path-categories #{"Understanding The World"}
   :path "content/docs/understanding-the-world/what-to-believe.md"
   :backlinks #{"content/docs/manifesto.md"
@@ -3806,9 +4936,29 @@
           "/docs/books/The-Enigma-of-Reason.md"
           "/docs/understanding-the-world/working-with-complex-systems.md"]
   :size 15027
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1755322345
+                                 1749182667
+                                 1740866322
+                                 1740862760
+                                 1670262823
+                                 1667762893
+                                 1667703247
+                                 1659922160
+                                 1659727276
+                                 1659551685
+                                 1659113492
+                                 1655691154
+                                 1655657180
+                                 1653846065
+                                 1649781155
+                                 1633021617
+                                 1633021101
+                                 1633020535
+                                 1629340059
+                                 1628657845
+                                 1624337751]}
  {:path-categories #{"Understanding The World"}
   :path "content/docs/understanding-the-world/working-with-complex-systems.md"
   :backlinks #{"content/docs/understanding-the-world/predicting-the-future.md"
@@ -3821,9 +4971,12 @@
   :dir? false
   :links []
   :size 872
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1667937680
+                                 1659551949
+                                 1659551821
+                                 1659551685]}
  {:path-categories #{"Visual Art"}
   :path "content/docs/visual-art/generative-art.md"
   :backlinks nil
@@ -3835,9 +4988,19 @@
   :dir? false
   :links ["/docs/visual-art/inspiration-and-resources.md"]
   :size 1563
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1669743672
+                                 1668204865
+                                 1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1649286357
+                                 1642463614
+                                 1632246553
+                                 1631990398
+                                 1631653235]}
  {:path-categories #{"Visual Art"}
   :path "content/docs/visual-art/inspiration-and-resources.md"
   :backlinks #{"content/docs/visual-art/generative-art.md"}
@@ -3849,9 +5012,19 @@
   :dir? false
   :links []
   :size 824
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}
+  :modification-unix-timestamps [1712860286
+                                 1668204865
+                                 1659113492
+                                 1659025169
+                                 1655753252
+                                 1655753185
+                                 1655657180
+                                 1654138836
+                                 1653846065
+                                 1652818831
+                                 1649439956]}
  {:path-categories #{"Visual Art"}
   :path "content/docs/visual-art/judging-art.md"
   :backlinks nil
@@ -3863,6 +5036,10 @@
   :dir? false
   :links []
   :size 591
-  :modtime 1756000347
+  :modtime 1756000671
   :mode 420
-  :modification-unix-timestamps [1756000326]}]
+  :modification-unix-timestamps [1655753252
+                                 1655753185
+                                 1655657180
+                                 1653846065
+                                 1631653235]}]
