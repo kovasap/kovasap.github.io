@@ -123,16 +123,16 @@ return new cljs.core.Symbol("website-helpers.notes","sync-url-params!","website-
 })()
 ]);
 
-cljs.core.filterv(cljs.core.some_QMARK_,new cljs.core.PersistentVector(null, 19, 5, cljs.core.PersistentVector.EMPTY_NODE, [null,null,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.common-components","dropdown-select-list","website-helpers.common-components/dropdown-select-list",-151451987,null),website_helpers.common_components.dropdown_select_list);
+cljs.core.filterv(cljs.core.some_QMARK_,new cljs.core.PersistentVector(null, 17, 5, cljs.core.PersistentVector.EMPTY_NODE, [(function (){
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.common-components","dropdown-select-list","website-helpers.common-components/dropdown-select-list",-151451987,null),website_helpers.common_components.dropdown_select_list);
 }));
 
-(website_helpers.common_components.dropdown_select_list = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47342 = type__33044__auto__;
-var G__47343 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.common-components","dropdown-select-list","website-helpers.common-components/dropdown-select-list",-151451987,null));
-var fexpr__47341 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47341.cljs$core$IFn$_invoke$arity$2 ? fexpr__47341.cljs$core$IFn$_invoke$arity$2(G__47342,G__47343) : fexpr__47341.call(null,G__47342,G__47343));
+(website_helpers.common_components.dropdown_select_list = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48109 = type__32935__auto__;
+var G__48110 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.common-components","dropdown-select-list","website-helpers.common-components/dropdown-select-list",-151451987,null));
+var fexpr__48108 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48108.cljs$core$IFn$_invoke$arity$2 ? fexpr__48108.cljs$core$IFn$_invoke$arity$2(G__48109,G__48110) : fexpr__48108.call(null,G__48109,G__48110));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"any","any",1705907423),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207)], null),new cljs.core.Keyword(null,"nil","nil",99600501)], null),new cljs.core.Keyword(null,"string","string",-1989541586)], null),website_helpers.schemas.ReagentComponent], null))], null),website_helpers.common_components.dropdown_select_list));
 
 console.log("..instrumented",new cljs.core.Symbol("website-helpers.common-components","dropdown-select-list","website-helpers.common-components/dropdown-select-list",-151451987,null));
@@ -140,15 +140,31 @@ console.log("..instrumented",new cljs.core.Symbol("website-helpers.common-compon
 return new cljs.core.Symbol("website-helpers.common-components","dropdown-select-list","website-helpers.common-components/dropdown-select-list",-151451987,null);
 })()
 ,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.utils","get-selected-vars","website-helpers.utils/get-selected-vars",-251330985,null),website_helpers.utils.get_selected_vars);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.notes","sync-url-params!","website-helpers.notes/sync-url-params!",-1536154594,null),website_helpers.notes.sync_url_params_BANG_);
 }));
 
-(website_helpers.utils.get_selected_vars = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47345 = type__33044__auto__;
-var G__47346 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.utils","get-selected-vars","website-helpers.utils/get-selected-vars",-251330985,null));
-var fexpr__47344 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47344.cljs$core$IFn$_invoke$arity$2 ? fexpr__47344.cljs$core$IFn$_invoke$arity$2(G__47345,G__47346) : fexpr__47344.call(null,G__47345,G__47346));
+(website_helpers.notes.sync_url_params_BANG_ = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48112 = type__32935__auto__;
+var G__48113 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.notes","sync-url-params!","website-helpers.notes/sync-url-params!",-1536154594,null));
+var fexpr__48111 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48111.cljs$core$IFn$_invoke$arity$2 ? fexpr__48111.cljs$core$IFn$_invoke$arity$2(G__48112,G__48113) : fexpr__48111.call(null,G__48112,G__48113));
+}),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"boolean","boolean",-1919418404)], null)], null),new cljs.core.Keyword(null,"nil","nil",99600501)], null))], null),website_helpers.notes.sync_url_params_BANG_));
+
+console.log("..instrumented",new cljs.core.Symbol("website-helpers.notes","sync-url-params!","website-helpers.notes/sync-url-params!",-1536154594,null));
+
+return new cljs.core.Symbol("website-helpers.notes","sync-url-params!","website-helpers.notes/sync-url-params!",-1536154594,null);
+})()
+,(function (){
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.utils","get-selected-vars","website-helpers.utils/get-selected-vars",-251330985,null),website_helpers.utils.get_selected_vars);
+}));
+
+(website_helpers.utils.get_selected_vars = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48115 = type__32935__auto__;
+var G__48116 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.utils","get-selected-vars","website-helpers.utils/get-selected-vars",-251330985,null));
+var fexpr__48114 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48114.cljs$core$IFn$_invoke$arity$2 ? fexpr__48114.cljs$core$IFn$_invoke$arity$2(G__48115,G__48116) : fexpr__48114.call(null,G__48115,G__48116));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"boolean","boolean",-1919418404)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"set","set",304602554),new cljs.core.Keyword(null,"string","string",-1989541586)], null)], null))], null),website_helpers.utils.get_selected_vars));
 
 console.log("..instrumented",new cljs.core.Symbol("website-helpers.utils","get-selected-vars","website-helpers.utils/get-selected-vars",-251330985,null));
@@ -156,15 +172,15 @@ console.log("..instrumented",new cljs.core.Symbol("website-helpers.utils","get-s
 return new cljs.core.Symbol("website-helpers.utils","get-selected-vars","website-helpers.utils/get-selected-vars",-251330985,null);
 })()
 ,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.utils","get-url-param-selections","website-helpers.utils/get-url-param-selections",-930310675,null),website_helpers.utils.get_url_param_selections);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.utils","get-url-param-selections","website-helpers.utils/get-url-param-selections",-930310675,null),website_helpers.utils.get_url_param_selections);
 }));
 
-(website_helpers.utils.get_url_param_selections = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47348 = type__33044__auto__;
-var G__47349 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.utils","get-url-param-selections","website-helpers.utils/get-url-param-selections",-930310675,null));
-var fexpr__47347 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47347.cljs$core$IFn$_invoke$arity$2 ? fexpr__47347.cljs$core$IFn$_invoke$arity$2(G__47348,G__47349) : fexpr__47347.call(null,G__47348,G__47349));
+(website_helpers.utils.get_url_param_selections = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48118 = type__32935__auto__;
+var G__48119 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.utils","get-url-param-selections","website-helpers.utils/get-url-param-selections",-930310675,null));
+var fexpr__48117 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48117.cljs$core$IFn$_invoke$arity$2 ? fexpr__48117.cljs$core$IFn$_invoke$arity$2(G__48118,G__48119) : fexpr__48117.call(null,G__48118,G__48119));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"set","set",304602554),new cljs.core.Keyword(null,"string","string",-1989541586)], null),new cljs.core.Keyword(null,"any","any",1705907423)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"boolean","boolean",-1919418404)], null)], null))], null),website_helpers.utils.get_url_param_selections));
 
 console.log("..instrumented",new cljs.core.Symbol("website-helpers.utils","get-url-param-selections","website-helpers.utils/get-url-param-selections",-930310675,null));
@@ -172,15 +188,15 @@ console.log("..instrumented",new cljs.core.Symbol("website-helpers.utils","get-u
 return new cljs.core.Symbol("website-helpers.utils","get-url-param-selections","website-helpers.utils/get-url-param-selections",-930310675,null);
 })()
 ,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.filterable-items","-accrete-mental-states","website-helpers.filterable-items/-accrete-mental-states",-1077703678,null),website_helpers.filterable_items._accrete_mental_states);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.filterable-items","-accrete-mental-states","website-helpers.filterable-items/-accrete-mental-states",-1077703678,null),website_helpers.filterable_items._accrete_mental_states);
 }));
 
-(website_helpers.filterable_items._accrete_mental_states = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47351 = type__33044__auto__;
-var G__47352 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","-accrete-mental-states","website-helpers.filterable-items/-accrete-mental-states",-1077703678,null));
-var fexpr__47350 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47350.cljs$core$IFn$_invoke$arity$2 ? fexpr__47350.cljs$core$IFn$_invoke$arity$2(G__47351,G__47352) : fexpr__47350.call(null,G__47351,G__47352));
+(website_helpers.filterable_items._accrete_mental_states = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48121 = type__32935__auto__;
+var G__48122 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","-accrete-mental-states","website-helpers.filterable-items/-accrete-mental-states",-1077703678,null));
+var fexpr__48120 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48120.cljs$core$IFn$_invoke$arity$2 ? fexpr__48120.cljs$core$IFn$_invoke$arity$2(G__48121,G__48122) : fexpr__48120.call(null,G__48121,G__48122));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),website_helpers.filterable_items.DataMap,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"tuple","tuple",-472667284),website_helpers.filterable_items.Name,website_helpers.filterable_items.Info], null)], null),website_helpers.filterable_items.DataMap], null))], null),website_helpers.filterable_items._accrete_mental_states));
 
 console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-items","-accrete-mental-states","website-helpers.filterable-items/-accrete-mental-states",-1077703678,null));
@@ -188,15 +204,15 @@ console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-it
 return new cljs.core.Symbol("website-helpers.filterable-items","-accrete-mental-states","website-helpers.filterable-items/-accrete-mental-states",-1077703678,null);
 })()
 ,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.filterable-items","calc-similarity","website-helpers.filterable-items/calc-similarity",-156053846,null),website_helpers.filterable_items.calc_similarity);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.filterable-items","calc-similarity","website-helpers.filterable-items/calc-similarity",-156053846,null),website_helpers.filterable_items.calc_similarity);
 }));
 
-(website_helpers.filterable_items.calc_similarity = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47354 = type__33044__auto__;
-var G__47355 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","calc-similarity","website-helpers.filterable-items/calc-similarity",-156053846,null));
-var fexpr__47353 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47353.cljs$core$IFn$_invoke$arity$2 ? fexpr__47353.cljs$core$IFn$_invoke$arity$2(G__47354,G__47355) : fexpr__47353.call(null,G__47354,G__47355));
+(website_helpers.filterable_items.calc_similarity = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48124 = type__32935__auto__;
+var G__48125 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","calc-similarity","website-helpers.filterable-items/calc-similarity",-156053846,null));
+var fexpr__48123 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48123.cljs$core$IFn$_invoke$arity$2 ? fexpr__48123.cljs$core$IFn$_invoke$arity$2(G__48124,G__48125) : fexpr__48123.call(null,G__48124,G__48125));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),website_helpers.filterable_items.Info,website_helpers.filterable_items.Info], null),new cljs.core.Keyword(null,"int","int",-1741416922)], null))], null),website_helpers.filterable_items.calc_similarity));
 
 console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-items","calc-similarity","website-helpers.filterable-items/calc-similarity",-156053846,null));
@@ -204,15 +220,15 @@ console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-it
 return new cljs.core.Symbol("website-helpers.filterable-items","calc-similarity","website-helpers.filterable-items/calc-similarity",-156053846,null);
 })()
 ,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.filterable-items","sort-by-tags","website-helpers.filterable-items/sort-by-tags",165675886,null),website_helpers.filterable_items.sort_by_tags);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.filterable-items","sort-by-tags","website-helpers.filterable-items/sort-by-tags",165675886,null),website_helpers.filterable_items.sort_by_tags);
 }));
 
-(website_helpers.filterable_items.sort_by_tags = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47357 = type__33044__auto__;
-var G__47358 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","sort-by-tags","website-helpers.filterable-items/sort-by-tags",165675886,null));
-var fexpr__47356 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47356.cljs$core$IFn$_invoke$arity$2 ? fexpr__47356.cljs$core$IFn$_invoke$arity$2(G__47357,G__47358) : fexpr__47356.call(null,G__47357,G__47358));
+(website_helpers.filterable_items.sort_by_tags = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48127 = type__32935__auto__;
+var G__48128 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","sort-by-tags","website-helpers.filterable-items/sort-by-tags",165675886,null));
+var fexpr__48126 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48126.cljs$core$IFn$_invoke$arity$2 ? fexpr__48126.cljs$core$IFn$_invoke$arity$2(G__48127,G__48128) : fexpr__48126.call(null,G__48127,G__48128));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),website_helpers.filterable_items.DataMap], null),website_helpers.filterable_items.DataMap], null))], null),website_helpers.filterable_items.sort_by_tags));
 
 console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-items","sort-by-tags","website-helpers.filterable-items/sort-by-tags",165675886,null));
@@ -220,15 +236,15 @@ console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-it
 return new cljs.core.Symbol("website-helpers.filterable-items","sort-by-tags","website-helpers.filterable-items/sort-by-tags",165675886,null);
 })()
 ,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.filterable-items","make-aggregated-items","website-helpers.filterable-items/make-aggregated-items",767288847,null),website_helpers.filterable_items.make_aggregated_items);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.filterable-items","make-aggregated-items","website-helpers.filterable-items/make-aggregated-items",767288847,null),website_helpers.filterable_items.make_aggregated_items);
 }));
 
-(website_helpers.filterable_items.make_aggregated_items = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47360 = type__33044__auto__;
-var G__47361 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","make-aggregated-items","website-helpers.filterable-items/make-aggregated-items",767288847,null));
-var fexpr__47359 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47359.cljs$core$IFn$_invoke$arity$2 ? fexpr__47359.cljs$core$IFn$_invoke$arity$2(G__47360,G__47361) : fexpr__47359.call(null,G__47360,G__47361));
+(website_helpers.filterable_items.make_aggregated_items = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48130 = type__32935__auto__;
+var G__48131 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","make-aggregated-items","website-helpers.filterable-items/make-aggregated-items",767288847,null));
+var fexpr__48129 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48129.cljs$core$IFn$_invoke$arity$2 ? fexpr__48129.cljs$core$IFn$_invoke$arity$2(G__48130,G__48131) : fexpr__48129.call(null,G__48130,G__48131));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),website_helpers.filterable_items.Experiences], null),website_helpers.schemas.ReagentComponent], null))], null),website_helpers.filterable_items.make_aggregated_items));
 
 console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-items","make-aggregated-items","website-helpers.filterable-items/make-aggregated-items",767288847,null));
@@ -236,15 +252,15 @@ console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-it
 return new cljs.core.Symbol("website-helpers.filterable-items","make-aggregated-items","website-helpers.filterable-items/make-aggregated-items",767288847,null);
 })()
 ,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.filterable-items","accrete-set","website-helpers.filterable-items/accrete-set",1480022799,null),website_helpers.filterable_items.accrete_set);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.filterable-items","accrete-set","website-helpers.filterable-items/accrete-set",1480022799,null),website_helpers.filterable_items.accrete_set);
 }));
 
-(website_helpers.filterable_items.accrete_set = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47363 = type__33044__auto__;
-var G__47364 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","accrete-set","website-helpers.filterable-items/accrete-set",1480022799,null));
-var fexpr__47362 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47362.cljs$core$IFn$_invoke$arity$2 ? fexpr__47362.cljs$core$IFn$_invoke$arity$2(G__47363,G__47364) : fexpr__47362.call(null,G__47363,G__47364));
+(website_helpers.filterable_items.accrete_set = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48133 = type__32935__auto__;
+var G__48134 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","accrete-set","website-helpers.filterable-items/accrete-set",1480022799,null));
+var fexpr__48132 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48132.cljs$core$IFn$_invoke$arity$2 ? fexpr__48132.cljs$core$IFn$_invoke$arity$2(G__48133,G__48134) : fexpr__48132.call(null,G__48133,G__48134));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"set","set",304602554),new cljs.core.Keyword(null,"any","any",1705907423)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"set","set",304602554),new cljs.core.Keyword(null,"any","any",1705907423)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"set","set",304602554),new cljs.core.Keyword(null,"any","any",1705907423)], null)], null))], null),website_helpers.filterable_items.accrete_set));
 
 console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-items","accrete-set","website-helpers.filterable-items/accrete-set",1480022799,null));
@@ -252,15 +268,15 @@ console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-it
 return new cljs.core.Symbol("website-helpers.filterable-items","accrete-set","website-helpers.filterable-items/accrete-set",1480022799,null);
 })()
 ,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.filterable-items","get-closest-name","website-helpers.filterable-items/get-closest-name",466398929,null),website_helpers.filterable_items.get_closest_name);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.filterable-items","get-closest-name","website-helpers.filterable-items/get-closest-name",466398929,null),website_helpers.filterable_items.get_closest_name);
 }));
 
-(website_helpers.filterable_items.get_closest_name = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47366 = type__33044__auto__;
-var G__47367 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","get-closest-name","website-helpers.filterable-items/get-closest-name",466398929,null));
-var fexpr__47365 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47365.cljs$core$IFn$_invoke$arity$2 ? fexpr__47365.cljs$core$IFn$_invoke$arity$2(G__47366,G__47367) : fexpr__47365.call(null,G__47366,G__47367));
+(website_helpers.filterable_items.get_closest_name = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48136 = type__32935__auto__;
+var G__48137 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","get-closest-name","website-helpers.filterable-items/get-closest-name",466398929,null));
+var fexpr__48135 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48135.cljs$core$IFn$_invoke$arity$2 ? fexpr__48135.cljs$core$IFn$_invoke$arity$2(G__48136,G__48137) : fexpr__48135.call(null,G__48136,G__48137));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),website_helpers.filterable_items.Name,website_helpers.filterable_items.Similarities], null),website_helpers.filterable_items.Name], null))], null),website_helpers.filterable_items.get_closest_name));
 
 console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-items","get-closest-name","website-helpers.filterable-items/get-closest-name",466398929,null));
@@ -268,15 +284,15 @@ console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-it
 return new cljs.core.Symbol("website-helpers.filterable-items","get-closest-name","website-helpers.filterable-items/get-closest-name",466398929,null);
 })()
 ,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.filterable-items","make-experience-map","website-helpers.filterable-items/make-experience-map",-194625324,null),website_helpers.filterable_items.make_experience_map);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.filterable-items","make-experience-map","website-helpers.filterable-items/make-experience-map",-194625324,null),website_helpers.filterable_items.make_experience_map);
 }));
 
-(website_helpers.filterable_items.make_experience_map = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47369 = type__33044__auto__;
-var G__47370 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","make-experience-map","website-helpers.filterable-items/make-experience-map",-194625324,null));
-var fexpr__47368 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47368.cljs$core$IFn$_invoke$arity$2 ? fexpr__47368.cljs$core$IFn$_invoke$arity$2(G__47369,G__47370) : fexpr__47368.call(null,G__47369,G__47370));
+(website_helpers.filterable_items.make_experience_map = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48139 = type__32935__auto__;
+var G__48140 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","make-experience-map","website-helpers.filterable-items/make-experience-map",-194625324,null));
+var fexpr__48138 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48138.cljs$core$IFn$_invoke$arity$2 ? fexpr__48138.cljs$core$IFn$_invoke$arity$2(G__48139,G__48140) : fexpr__48138.call(null,G__48139,G__48140));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),website_helpers.filterable_items.Experiences], null),website_helpers.filterable_items.DataMap], null))], null),website_helpers.filterable_items.make_experience_map));
 
 console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-items","make-experience-map","website-helpers.filterable-items/make-experience-map",-194625324,null));
@@ -284,15 +300,15 @@ console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-it
 return new cljs.core.Symbol("website-helpers.filterable-items","make-experience-map","website-helpers.filterable-items/make-experience-map",-194625324,null);
 })()
 ,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.filterable-items","aggregated-items","website-helpers.filterable-items/aggregated-items",1638560949,null),website_helpers.filterable_items.aggregated_items);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.filterable-items","aggregated-items","website-helpers.filterable-items/aggregated-items",1638560949,null),website_helpers.filterable_items.aggregated_items);
 }));
 
-(website_helpers.filterable_items.aggregated_items = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47372 = type__33044__auto__;
-var G__47373 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","aggregated-items","website-helpers.filterable-items/aggregated-items",1638560949,null));
-var fexpr__47371 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47371.cljs$core$IFn$_invoke$arity$2 ? fexpr__47371.cljs$core$IFn$_invoke$arity$2(G__47372,G__47373) : fexpr__47371.call(null,G__47372,G__47373));
+(website_helpers.filterable_items.aggregated_items = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48142 = type__32935__auto__;
+var G__48143 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","aggregated-items","website-helpers.filterable-items/aggregated-items",1638560949,null));
+var fexpr__48141 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48141.cljs$core$IFn$_invoke$arity$2 ? fexpr__48141.cljs$core$IFn$_invoke$arity$2(G__48142,G__48143) : fexpr__48141.call(null,G__48142,G__48143));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586),website_helpers.filterable_items.DataMap], null),website_helpers.schemas.ReagentComponent], null))], null),website_helpers.filterable_items.aggregated_items));
 
 console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-items","aggregated-items","website-helpers.filterable-items/aggregated-items",1638560949,null));
@@ -300,15 +316,15 @@ console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-it
 return new cljs.core.Symbol("website-helpers.filterable-items","aggregated-items","website-helpers.filterable-items/aggregated-items",1638560949,null);
 })()
 ,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.filterable-items","list-to-hiccup","website-helpers.filterable-items/list-to-hiccup",794805333,null),website_helpers.filterable_items.list_to_hiccup);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.filterable-items","list-to-hiccup","website-helpers.filterable-items/list-to-hiccup",794805333,null),website_helpers.filterable_items.list_to_hiccup);
 }));
 
-(website_helpers.filterable_items.list_to_hiccup = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47375 = type__33044__auto__;
-var G__47376 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","list-to-hiccup","website-helpers.filterable-items/list-to-hiccup",794805333,null));
-var fexpr__47374 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47374.cljs$core$IFn$_invoke$arity$2 ? fexpr__47374.cljs$core$IFn$_invoke$arity$2(G__47375,G__47376) : fexpr__47374.call(null,G__47375,G__47376));
+(website_helpers.filterable_items.list_to_hiccup = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48145 = type__32935__auto__;
+var G__48146 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","list-to-hiccup","website-helpers.filterable-items/list-to-hiccup",794805333,null));
+var fexpr__48144 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48144.cljs$core$IFn$_invoke$arity$2 ? fexpr__48144.cljs$core$IFn$_invoke$arity$2(G__48145,G__48146) : fexpr__48144.call(null,G__48145,G__48146));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"or","or",235744169),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.Keyword(null,"string","string",-1989541586)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"set","set",304602554),new cljs.core.Keyword(null,"string","string",-1989541586)], null)], null)], null),website_helpers.schemas.Hiccup], null))], null),website_helpers.filterable_items.list_to_hiccup));
 
 console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-items","list-to-hiccup","website-helpers.filterable-items/list-to-hiccup",794805333,null));
@@ -316,15 +332,15 @@ console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-it
 return new cljs.core.Symbol("website-helpers.filterable-items","list-to-hiccup","website-helpers.filterable-items/list-to-hiccup",794805333,null);
 })()
 ,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.filterable-items","prune-similarities","website-helpers.filterable-items/prune-similarities",-778577859,null),website_helpers.filterable_items.prune_similarities);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.filterable-items","prune-similarities","website-helpers.filterable-items/prune-similarities",-778577859,null),website_helpers.filterable_items.prune_similarities);
 }));
 
-(website_helpers.filterable_items.prune_similarities = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47378 = type__33044__auto__;
-var G__47379 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","prune-similarities","website-helpers.filterable-items/prune-similarities",-778577859,null));
-var fexpr__47377 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47377.cljs$core$IFn$_invoke$arity$2 ? fexpr__47377.cljs$core$IFn$_invoke$arity$2(G__47378,G__47379) : fexpr__47377.call(null,G__47378,G__47379));
+(website_helpers.filterable_items.prune_similarities = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48148 = type__32935__auto__;
+var G__48149 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","prune-similarities","website-helpers.filterable-items/prune-similarities",-778577859,null));
+var fexpr__48147 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48147.cljs$core$IFn$_invoke$arity$2 ? fexpr__48147.cljs$core$IFn$_invoke$arity$2(G__48148,G__48149) : fexpr__48147.call(null,G__48148,G__48149));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),website_helpers.filterable_items.Name,website_helpers.filterable_items.Similarities], null),website_helpers.filterable_items.Similarities], null))], null),website_helpers.filterable_items.prune_similarities));
 
 console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-items","prune-similarities","website-helpers.filterable-items/prune-similarities",-778577859,null));
@@ -332,15 +348,15 @@ console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-it
 return new cljs.core.Symbol("website-helpers.filterable-items","prune-similarities","website-helpers.filterable-items/prune-similarities",-778577859,null);
 })()
 ,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.filterable-items","get-all-similarities","website-helpers.filterable-items/get-all-similarities",-1327606914,null),website_helpers.filterable_items.get_all_similarities);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.filterable-items","get-all-similarities","website-helpers.filterable-items/get-all-similarities",-1327606914,null),website_helpers.filterable_items.get_all_similarities);
 }));
 
-(website_helpers.filterable_items.get_all_similarities = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47381 = type__33044__auto__;
-var G__47382 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","get-all-similarities","website-helpers.filterable-items/get-all-similarities",-1327606914,null));
-var fexpr__47380 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47380.cljs$core$IFn$_invoke$arity$2 ? fexpr__47380.cljs$core$IFn$_invoke$arity$2(G__47381,G__47382) : fexpr__47380.call(null,G__47381,G__47382));
+(website_helpers.filterable_items.get_all_similarities = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48151 = type__32935__auto__;
+var G__48152 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","get-all-similarities","website-helpers.filterable-items/get-all-similarities",-1327606914,null));
+var fexpr__48150 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48150.cljs$core$IFn$_invoke$arity$2 ? fexpr__48150.cljs$core$IFn$_invoke$arity$2(G__48151,G__48152) : fexpr__48150.call(null,G__48151,G__48152));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),website_helpers.filterable_items.DataMap], null),website_helpers.filterable_items.Similarities], null))], null),website_helpers.filterable_items.get_all_similarities));
 
 console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-items","get-all-similarities","website-helpers.filterable-items/get-all-similarities",-1327606914,null));
@@ -348,15 +364,15 @@ console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-it
 return new cljs.core.Symbol("website-helpers.filterable-items","get-all-similarities","website-helpers.filterable-items/get-all-similarities",-1327606914,null);
 })()
 ,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.filterable-items","make-tag-hiccup","website-helpers.filterable-items/make-tag-hiccup",-581203233,null),website_helpers.filterable_items.make_tag_hiccup);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.filterable-items","make-tag-hiccup","website-helpers.filterable-items/make-tag-hiccup",-581203233,null),website_helpers.filterable_items.make_tag_hiccup);
 }));
 
-(website_helpers.filterable_items.make_tag_hiccup = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47384 = type__33044__auto__;
-var G__47385 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","make-tag-hiccup","website-helpers.filterable-items/make-tag-hiccup",-581203233,null));
-var fexpr__47383 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47383.cljs$core$IFn$_invoke$arity$2 ? fexpr__47383.cljs$core$IFn$_invoke$arity$2(G__47384,G__47385) : fexpr__47383.call(null,G__47384,G__47385));
+(website_helpers.filterable_items.make_tag_hiccup = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48154 = type__32935__auto__;
+var G__48155 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","make-tag-hiccup","website-helpers.filterable-items/make-tag-hiccup",-581203233,null));
+var fexpr__48153 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48153.cljs$core$IFn$_invoke$arity$2 ? fexpr__48153.cljs$core$IFn$_invoke$arity$2(G__48154,G__48155) : fexpr__48153.call(null,G__48154,G__48155));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"set","set",304602554),website_helpers.filterable_items.Tag], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"set","set",304602554),website_helpers.filterable_items.Tag], null)], null),website_helpers.schemas.Hiccup], null))], null),website_helpers.filterable_items.make_tag_hiccup));
 
 console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-items","make-tag-hiccup","website-helpers.filterable-items/make-tag-hiccup",-581203233,null));
@@ -364,36 +380,20 @@ console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-it
 return new cljs.core.Symbol("website-helpers.filterable-items","make-tag-hiccup","website-helpers.filterable-items/make-tag-hiccup",-581203233,null);
 })()
 ,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.filterable-items","make-mental-state-map","website-helpers.filterable-items/make-mental-state-map",-982830241,null),website_helpers.filterable_items.make_mental_state_map);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.filterable-items","make-mental-state-map","website-helpers.filterable-items/make-mental-state-map",-982830241,null),website_helpers.filterable_items.make_mental_state_map);
 }));
 
-(website_helpers.filterable_items.make_mental_state_map = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47387 = type__33044__auto__;
-var G__47388 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","make-mental-state-map","website-helpers.filterable-items/make-mental-state-map",-982830241,null));
-var fexpr__47386 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47386.cljs$core$IFn$_invoke$arity$2 ? fexpr__47386.cljs$core$IFn$_invoke$arity$2(G__47387,G__47388) : fexpr__47386.call(null,G__47387,G__47388));
+(website_helpers.filterable_items.make_mental_state_map = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48157 = type__32935__auto__;
+var G__48158 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","make-mental-state-map","website-helpers.filterable-items/make-mental-state-map",-982830241,null));
+var fexpr__48156 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48156.cljs$core$IFn$_invoke$arity$2 ? fexpr__48156.cljs$core$IFn$_invoke$arity$2(G__48157,G__48158) : fexpr__48156.call(null,G__48157,G__48158));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),website_helpers.filterable_items.Experiences], null),website_helpers.filterable_items.DataMap], null))], null),website_helpers.filterable_items.make_mental_state_map));
 
 console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-items","make-mental-state-map","website-helpers.filterable-items/make-mental-state-map",-982830241,null));
 
 return new cljs.core.Symbol("website-helpers.filterable-items","make-mental-state-map","website-helpers.filterable-items/make-mental-state-map",-982830241,null);
-})()
-,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.notes","sync-url-params!","website-helpers.notes/sync-url-params!",-1536154594,null),website_helpers.notes.sync_url_params_BANG_);
-}));
-
-(website_helpers.notes.sync_url_params_BANG_ = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47390 = type__33044__auto__;
-var G__47391 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.notes","sync-url-params!","website-helpers.notes/sync-url-params!",-1536154594,null));
-var fexpr__47389 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47389.cljs$core$IFn$_invoke$arity$2 ? fexpr__47389.cljs$core$IFn$_invoke$arity$2(G__47390,G__47391) : fexpr__47389.call(null,G__47390,G__47391));
-}),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"boolean","boolean",-1919418404)], null)], null),new cljs.core.Keyword(null,"nil","nil",99600501)], null))], null),website_helpers.notes.sync_url_params_BANG_));
-
-console.log("..instrumented",new cljs.core.Symbol("website-helpers.notes","sync-url-params!","website-helpers.notes/sync-url-params!",-1536154594,null));
-
-return new cljs.core.Symbol("website-helpers.notes","sync-url-params!","website-helpers.notes/sync-url-params!",-1536154594,null);
 })()
 ], null));
 
@@ -487,16 +487,16 @@ return new cljs.core.Symbol("website-helpers.notes","sync-url-params!","website-
 })()
 ]);
 
-cljs.core.filterv(cljs.core.some_QMARK_,new cljs.core.PersistentVector(null, 19, 5, cljs.core.PersistentVector.EMPTY_NODE, [null,null,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.common-components","dropdown-select-list","website-helpers.common-components/dropdown-select-list",-151451987,null),website_helpers.common_components.dropdown_select_list);
+cljs.core.filterv(cljs.core.some_QMARK_,new cljs.core.PersistentVector(null, 17, 5, cljs.core.PersistentVector.EMPTY_NODE, [(function (){
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.common-components","dropdown-select-list","website-helpers.common-components/dropdown-select-list",-151451987,null),website_helpers.common_components.dropdown_select_list);
 }));
 
-(website_helpers.common_components.dropdown_select_list = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47393 = type__33044__auto__;
-var G__47394 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.common-components","dropdown-select-list","website-helpers.common-components/dropdown-select-list",-151451987,null));
-var fexpr__47392 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47392.cljs$core$IFn$_invoke$arity$2 ? fexpr__47392.cljs$core$IFn$_invoke$arity$2(G__47393,G__47394) : fexpr__47392.call(null,G__47393,G__47394));
+(website_helpers.common_components.dropdown_select_list = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48160 = type__32935__auto__;
+var G__48161 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.common-components","dropdown-select-list","website-helpers.common-components/dropdown-select-list",-151451987,null));
+var fexpr__48159 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48159.cljs$core$IFn$_invoke$arity$2 ? fexpr__48159.cljs$core$IFn$_invoke$arity$2(G__48160,G__48161) : fexpr__48159.call(null,G__48160,G__48161));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"any","any",1705907423),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207)], null),new cljs.core.Keyword(null,"nil","nil",99600501)], null),new cljs.core.Keyword(null,"string","string",-1989541586)], null),website_helpers.schemas.ReagentComponent], null))], null),website_helpers.common_components.dropdown_select_list));
 
 console.log("..instrumented",new cljs.core.Symbol("website-helpers.common-components","dropdown-select-list","website-helpers.common-components/dropdown-select-list",-151451987,null));
@@ -504,15 +504,31 @@ console.log("..instrumented",new cljs.core.Symbol("website-helpers.common-compon
 return new cljs.core.Symbol("website-helpers.common-components","dropdown-select-list","website-helpers.common-components/dropdown-select-list",-151451987,null);
 })()
 ,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.utils","get-selected-vars","website-helpers.utils/get-selected-vars",-251330985,null),website_helpers.utils.get_selected_vars);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.notes","sync-url-params!","website-helpers.notes/sync-url-params!",-1536154594,null),website_helpers.notes.sync_url_params_BANG_);
 }));
 
-(website_helpers.utils.get_selected_vars = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47396 = type__33044__auto__;
-var G__47397 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.utils","get-selected-vars","website-helpers.utils/get-selected-vars",-251330985,null));
-var fexpr__47395 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47395.cljs$core$IFn$_invoke$arity$2 ? fexpr__47395.cljs$core$IFn$_invoke$arity$2(G__47396,G__47397) : fexpr__47395.call(null,G__47396,G__47397));
+(website_helpers.notes.sync_url_params_BANG_ = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48163 = type__32935__auto__;
+var G__48164 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.notes","sync-url-params!","website-helpers.notes/sync-url-params!",-1536154594,null));
+var fexpr__48162 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48162.cljs$core$IFn$_invoke$arity$2 ? fexpr__48162.cljs$core$IFn$_invoke$arity$2(G__48163,G__48164) : fexpr__48162.call(null,G__48163,G__48164));
+}),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"boolean","boolean",-1919418404)], null)], null),new cljs.core.Keyword(null,"nil","nil",99600501)], null))], null),website_helpers.notes.sync_url_params_BANG_));
+
+console.log("..instrumented",new cljs.core.Symbol("website-helpers.notes","sync-url-params!","website-helpers.notes/sync-url-params!",-1536154594,null));
+
+return new cljs.core.Symbol("website-helpers.notes","sync-url-params!","website-helpers.notes/sync-url-params!",-1536154594,null);
+})()
+,(function (){
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.utils","get-selected-vars","website-helpers.utils/get-selected-vars",-251330985,null),website_helpers.utils.get_selected_vars);
+}));
+
+(website_helpers.utils.get_selected_vars = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48166 = type__32935__auto__;
+var G__48167 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.utils","get-selected-vars","website-helpers.utils/get-selected-vars",-251330985,null));
+var fexpr__48165 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48165.cljs$core$IFn$_invoke$arity$2 ? fexpr__48165.cljs$core$IFn$_invoke$arity$2(G__48166,G__48167) : fexpr__48165.call(null,G__48166,G__48167));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"boolean","boolean",-1919418404)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"set","set",304602554),new cljs.core.Keyword(null,"string","string",-1989541586)], null)], null))], null),website_helpers.utils.get_selected_vars));
 
 console.log("..instrumented",new cljs.core.Symbol("website-helpers.utils","get-selected-vars","website-helpers.utils/get-selected-vars",-251330985,null));
@@ -520,15 +536,15 @@ console.log("..instrumented",new cljs.core.Symbol("website-helpers.utils","get-s
 return new cljs.core.Symbol("website-helpers.utils","get-selected-vars","website-helpers.utils/get-selected-vars",-251330985,null);
 })()
 ,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.utils","get-url-param-selections","website-helpers.utils/get-url-param-selections",-930310675,null),website_helpers.utils.get_url_param_selections);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.utils","get-url-param-selections","website-helpers.utils/get-url-param-selections",-930310675,null),website_helpers.utils.get_url_param_selections);
 }));
 
-(website_helpers.utils.get_url_param_selections = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47399 = type__33044__auto__;
-var G__47400 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.utils","get-url-param-selections","website-helpers.utils/get-url-param-selections",-930310675,null));
-var fexpr__47398 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47398.cljs$core$IFn$_invoke$arity$2 ? fexpr__47398.cljs$core$IFn$_invoke$arity$2(G__47399,G__47400) : fexpr__47398.call(null,G__47399,G__47400));
+(website_helpers.utils.get_url_param_selections = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48169 = type__32935__auto__;
+var G__48170 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.utils","get-url-param-selections","website-helpers.utils/get-url-param-selections",-930310675,null));
+var fexpr__48168 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48168.cljs$core$IFn$_invoke$arity$2 ? fexpr__48168.cljs$core$IFn$_invoke$arity$2(G__48169,G__48170) : fexpr__48168.call(null,G__48169,G__48170));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"set","set",304602554),new cljs.core.Keyword(null,"string","string",-1989541586)], null),new cljs.core.Keyword(null,"any","any",1705907423)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"boolean","boolean",-1919418404)], null)], null))], null),website_helpers.utils.get_url_param_selections));
 
 console.log("..instrumented",new cljs.core.Symbol("website-helpers.utils","get-url-param-selections","website-helpers.utils/get-url-param-selections",-930310675,null));
@@ -536,15 +552,15 @@ console.log("..instrumented",new cljs.core.Symbol("website-helpers.utils","get-u
 return new cljs.core.Symbol("website-helpers.utils","get-url-param-selections","website-helpers.utils/get-url-param-selections",-930310675,null);
 })()
 ,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.filterable-items","-accrete-mental-states","website-helpers.filterable-items/-accrete-mental-states",-1077703678,null),website_helpers.filterable_items._accrete_mental_states);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.filterable-items","-accrete-mental-states","website-helpers.filterable-items/-accrete-mental-states",-1077703678,null),website_helpers.filterable_items._accrete_mental_states);
 }));
 
-(website_helpers.filterable_items._accrete_mental_states = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47402 = type__33044__auto__;
-var G__47403 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","-accrete-mental-states","website-helpers.filterable-items/-accrete-mental-states",-1077703678,null));
-var fexpr__47401 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47401.cljs$core$IFn$_invoke$arity$2 ? fexpr__47401.cljs$core$IFn$_invoke$arity$2(G__47402,G__47403) : fexpr__47401.call(null,G__47402,G__47403));
+(website_helpers.filterable_items._accrete_mental_states = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48172 = type__32935__auto__;
+var G__48173 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","-accrete-mental-states","website-helpers.filterable-items/-accrete-mental-states",-1077703678,null));
+var fexpr__48171 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48171.cljs$core$IFn$_invoke$arity$2 ? fexpr__48171.cljs$core$IFn$_invoke$arity$2(G__48172,G__48173) : fexpr__48171.call(null,G__48172,G__48173));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),website_helpers.filterable_items.DataMap,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"tuple","tuple",-472667284),website_helpers.filterable_items.Name,website_helpers.filterable_items.Info], null)], null),website_helpers.filterable_items.DataMap], null))], null),website_helpers.filterable_items._accrete_mental_states));
 
 console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-items","-accrete-mental-states","website-helpers.filterable-items/-accrete-mental-states",-1077703678,null));
@@ -552,15 +568,15 @@ console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-it
 return new cljs.core.Symbol("website-helpers.filterable-items","-accrete-mental-states","website-helpers.filterable-items/-accrete-mental-states",-1077703678,null);
 })()
 ,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.filterable-items","calc-similarity","website-helpers.filterable-items/calc-similarity",-156053846,null),website_helpers.filterable_items.calc_similarity);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.filterable-items","calc-similarity","website-helpers.filterable-items/calc-similarity",-156053846,null),website_helpers.filterable_items.calc_similarity);
 }));
 
-(website_helpers.filterable_items.calc_similarity = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47405 = type__33044__auto__;
-var G__47406 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","calc-similarity","website-helpers.filterable-items/calc-similarity",-156053846,null));
-var fexpr__47404 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47404.cljs$core$IFn$_invoke$arity$2 ? fexpr__47404.cljs$core$IFn$_invoke$arity$2(G__47405,G__47406) : fexpr__47404.call(null,G__47405,G__47406));
+(website_helpers.filterable_items.calc_similarity = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48175 = type__32935__auto__;
+var G__48176 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","calc-similarity","website-helpers.filterable-items/calc-similarity",-156053846,null));
+var fexpr__48174 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48174.cljs$core$IFn$_invoke$arity$2 ? fexpr__48174.cljs$core$IFn$_invoke$arity$2(G__48175,G__48176) : fexpr__48174.call(null,G__48175,G__48176));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),website_helpers.filterable_items.Info,website_helpers.filterable_items.Info], null),new cljs.core.Keyword(null,"int","int",-1741416922)], null))], null),website_helpers.filterable_items.calc_similarity));
 
 console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-items","calc-similarity","website-helpers.filterable-items/calc-similarity",-156053846,null));
@@ -568,15 +584,15 @@ console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-it
 return new cljs.core.Symbol("website-helpers.filterable-items","calc-similarity","website-helpers.filterable-items/calc-similarity",-156053846,null);
 })()
 ,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.filterable-items","sort-by-tags","website-helpers.filterable-items/sort-by-tags",165675886,null),website_helpers.filterable_items.sort_by_tags);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.filterable-items","sort-by-tags","website-helpers.filterable-items/sort-by-tags",165675886,null),website_helpers.filterable_items.sort_by_tags);
 }));
 
-(website_helpers.filterable_items.sort_by_tags = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47408 = type__33044__auto__;
-var G__47409 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","sort-by-tags","website-helpers.filterable-items/sort-by-tags",165675886,null));
-var fexpr__47407 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47407.cljs$core$IFn$_invoke$arity$2 ? fexpr__47407.cljs$core$IFn$_invoke$arity$2(G__47408,G__47409) : fexpr__47407.call(null,G__47408,G__47409));
+(website_helpers.filterable_items.sort_by_tags = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48178 = type__32935__auto__;
+var G__48179 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","sort-by-tags","website-helpers.filterable-items/sort-by-tags",165675886,null));
+var fexpr__48177 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48177.cljs$core$IFn$_invoke$arity$2 ? fexpr__48177.cljs$core$IFn$_invoke$arity$2(G__48178,G__48179) : fexpr__48177.call(null,G__48178,G__48179));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),website_helpers.filterable_items.DataMap], null),website_helpers.filterable_items.DataMap], null))], null),website_helpers.filterable_items.sort_by_tags));
 
 console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-items","sort-by-tags","website-helpers.filterable-items/sort-by-tags",165675886,null));
@@ -584,15 +600,15 @@ console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-it
 return new cljs.core.Symbol("website-helpers.filterable-items","sort-by-tags","website-helpers.filterable-items/sort-by-tags",165675886,null);
 })()
 ,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.filterable-items","make-aggregated-items","website-helpers.filterable-items/make-aggregated-items",767288847,null),website_helpers.filterable_items.make_aggregated_items);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.filterable-items","make-aggregated-items","website-helpers.filterable-items/make-aggregated-items",767288847,null),website_helpers.filterable_items.make_aggregated_items);
 }));
 
-(website_helpers.filterable_items.make_aggregated_items = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47411 = type__33044__auto__;
-var G__47412 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","make-aggregated-items","website-helpers.filterable-items/make-aggregated-items",767288847,null));
-var fexpr__47410 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47410.cljs$core$IFn$_invoke$arity$2 ? fexpr__47410.cljs$core$IFn$_invoke$arity$2(G__47411,G__47412) : fexpr__47410.call(null,G__47411,G__47412));
+(website_helpers.filterable_items.make_aggregated_items = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48181 = type__32935__auto__;
+var G__48182 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","make-aggregated-items","website-helpers.filterable-items/make-aggregated-items",767288847,null));
+var fexpr__48180 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48180.cljs$core$IFn$_invoke$arity$2 ? fexpr__48180.cljs$core$IFn$_invoke$arity$2(G__48181,G__48182) : fexpr__48180.call(null,G__48181,G__48182));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),website_helpers.filterable_items.Experiences], null),website_helpers.schemas.ReagentComponent], null))], null),website_helpers.filterable_items.make_aggregated_items));
 
 console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-items","make-aggregated-items","website-helpers.filterable-items/make-aggregated-items",767288847,null));
@@ -600,15 +616,15 @@ console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-it
 return new cljs.core.Symbol("website-helpers.filterable-items","make-aggregated-items","website-helpers.filterable-items/make-aggregated-items",767288847,null);
 })()
 ,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.filterable-items","accrete-set","website-helpers.filterable-items/accrete-set",1480022799,null),website_helpers.filterable_items.accrete_set);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.filterable-items","accrete-set","website-helpers.filterable-items/accrete-set",1480022799,null),website_helpers.filterable_items.accrete_set);
 }));
 
-(website_helpers.filterable_items.accrete_set = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47414 = type__33044__auto__;
-var G__47415 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","accrete-set","website-helpers.filterable-items/accrete-set",1480022799,null));
-var fexpr__47413 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47413.cljs$core$IFn$_invoke$arity$2 ? fexpr__47413.cljs$core$IFn$_invoke$arity$2(G__47414,G__47415) : fexpr__47413.call(null,G__47414,G__47415));
+(website_helpers.filterable_items.accrete_set = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48184 = type__32935__auto__;
+var G__48185 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","accrete-set","website-helpers.filterable-items/accrete-set",1480022799,null));
+var fexpr__48183 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48183.cljs$core$IFn$_invoke$arity$2 ? fexpr__48183.cljs$core$IFn$_invoke$arity$2(G__48184,G__48185) : fexpr__48183.call(null,G__48184,G__48185));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"set","set",304602554),new cljs.core.Keyword(null,"any","any",1705907423)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"set","set",304602554),new cljs.core.Keyword(null,"any","any",1705907423)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"set","set",304602554),new cljs.core.Keyword(null,"any","any",1705907423)], null)], null))], null),website_helpers.filterable_items.accrete_set));
 
 console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-items","accrete-set","website-helpers.filterable-items/accrete-set",1480022799,null));
@@ -616,15 +632,15 @@ console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-it
 return new cljs.core.Symbol("website-helpers.filterable-items","accrete-set","website-helpers.filterable-items/accrete-set",1480022799,null);
 })()
 ,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.filterable-items","get-closest-name","website-helpers.filterable-items/get-closest-name",466398929,null),website_helpers.filterable_items.get_closest_name);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.filterable-items","get-closest-name","website-helpers.filterable-items/get-closest-name",466398929,null),website_helpers.filterable_items.get_closest_name);
 }));
 
-(website_helpers.filterable_items.get_closest_name = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47417 = type__33044__auto__;
-var G__47418 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","get-closest-name","website-helpers.filterable-items/get-closest-name",466398929,null));
-var fexpr__47416 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47416.cljs$core$IFn$_invoke$arity$2 ? fexpr__47416.cljs$core$IFn$_invoke$arity$2(G__47417,G__47418) : fexpr__47416.call(null,G__47417,G__47418));
+(website_helpers.filterable_items.get_closest_name = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48187 = type__32935__auto__;
+var G__48188 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","get-closest-name","website-helpers.filterable-items/get-closest-name",466398929,null));
+var fexpr__48186 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48186.cljs$core$IFn$_invoke$arity$2 ? fexpr__48186.cljs$core$IFn$_invoke$arity$2(G__48187,G__48188) : fexpr__48186.call(null,G__48187,G__48188));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),website_helpers.filterable_items.Name,website_helpers.filterable_items.Similarities], null),website_helpers.filterable_items.Name], null))], null),website_helpers.filterable_items.get_closest_name));
 
 console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-items","get-closest-name","website-helpers.filterable-items/get-closest-name",466398929,null));
@@ -632,15 +648,15 @@ console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-it
 return new cljs.core.Symbol("website-helpers.filterable-items","get-closest-name","website-helpers.filterable-items/get-closest-name",466398929,null);
 })()
 ,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.filterable-items","make-experience-map","website-helpers.filterable-items/make-experience-map",-194625324,null),website_helpers.filterable_items.make_experience_map);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.filterable-items","make-experience-map","website-helpers.filterable-items/make-experience-map",-194625324,null),website_helpers.filterable_items.make_experience_map);
 }));
 
-(website_helpers.filterable_items.make_experience_map = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47420 = type__33044__auto__;
-var G__47421 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","make-experience-map","website-helpers.filterable-items/make-experience-map",-194625324,null));
-var fexpr__47419 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47419.cljs$core$IFn$_invoke$arity$2 ? fexpr__47419.cljs$core$IFn$_invoke$arity$2(G__47420,G__47421) : fexpr__47419.call(null,G__47420,G__47421));
+(website_helpers.filterable_items.make_experience_map = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48190 = type__32935__auto__;
+var G__48191 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","make-experience-map","website-helpers.filterable-items/make-experience-map",-194625324,null));
+var fexpr__48189 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48189.cljs$core$IFn$_invoke$arity$2 ? fexpr__48189.cljs$core$IFn$_invoke$arity$2(G__48190,G__48191) : fexpr__48189.call(null,G__48190,G__48191));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),website_helpers.filterable_items.Experiences], null),website_helpers.filterable_items.DataMap], null))], null),website_helpers.filterable_items.make_experience_map));
 
 console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-items","make-experience-map","website-helpers.filterable-items/make-experience-map",-194625324,null));
@@ -648,15 +664,15 @@ console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-it
 return new cljs.core.Symbol("website-helpers.filterable-items","make-experience-map","website-helpers.filterable-items/make-experience-map",-194625324,null);
 })()
 ,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.filterable-items","aggregated-items","website-helpers.filterable-items/aggregated-items",1638560949,null),website_helpers.filterable_items.aggregated_items);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.filterable-items","aggregated-items","website-helpers.filterable-items/aggregated-items",1638560949,null),website_helpers.filterable_items.aggregated_items);
 }));
 
-(website_helpers.filterable_items.aggregated_items = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47423 = type__33044__auto__;
-var G__47424 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","aggregated-items","website-helpers.filterable-items/aggregated-items",1638560949,null));
-var fexpr__47422 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47422.cljs$core$IFn$_invoke$arity$2 ? fexpr__47422.cljs$core$IFn$_invoke$arity$2(G__47423,G__47424) : fexpr__47422.call(null,G__47423,G__47424));
+(website_helpers.filterable_items.aggregated_items = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48193 = type__32935__auto__;
+var G__48194 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","aggregated-items","website-helpers.filterable-items/aggregated-items",1638560949,null));
+var fexpr__48192 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48192.cljs$core$IFn$_invoke$arity$2 ? fexpr__48192.cljs$core$IFn$_invoke$arity$2(G__48193,G__48194) : fexpr__48192.call(null,G__48193,G__48194));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586),website_helpers.filterable_items.DataMap], null),website_helpers.schemas.ReagentComponent], null))], null),website_helpers.filterable_items.aggregated_items));
 
 console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-items","aggregated-items","website-helpers.filterable-items/aggregated-items",1638560949,null));
@@ -664,15 +680,15 @@ console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-it
 return new cljs.core.Symbol("website-helpers.filterable-items","aggregated-items","website-helpers.filterable-items/aggregated-items",1638560949,null);
 })()
 ,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.filterable-items","list-to-hiccup","website-helpers.filterable-items/list-to-hiccup",794805333,null),website_helpers.filterable_items.list_to_hiccup);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.filterable-items","list-to-hiccup","website-helpers.filterable-items/list-to-hiccup",794805333,null),website_helpers.filterable_items.list_to_hiccup);
 }));
 
-(website_helpers.filterable_items.list_to_hiccup = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47426 = type__33044__auto__;
-var G__47427 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","list-to-hiccup","website-helpers.filterable-items/list-to-hiccup",794805333,null));
-var fexpr__47425 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47425.cljs$core$IFn$_invoke$arity$2 ? fexpr__47425.cljs$core$IFn$_invoke$arity$2(G__47426,G__47427) : fexpr__47425.call(null,G__47426,G__47427));
+(website_helpers.filterable_items.list_to_hiccup = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48196 = type__32935__auto__;
+var G__48197 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","list-to-hiccup","website-helpers.filterable-items/list-to-hiccup",794805333,null));
+var fexpr__48195 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48195.cljs$core$IFn$_invoke$arity$2 ? fexpr__48195.cljs$core$IFn$_invoke$arity$2(G__48196,G__48197) : fexpr__48195.call(null,G__48196,G__48197));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"or","or",235744169),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"sequential","sequential",-1082983960),new cljs.core.Keyword(null,"string","string",-1989541586)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"set","set",304602554),new cljs.core.Keyword(null,"string","string",-1989541586)], null)], null)], null),website_helpers.schemas.Hiccup], null))], null),website_helpers.filterable_items.list_to_hiccup));
 
 console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-items","list-to-hiccup","website-helpers.filterable-items/list-to-hiccup",794805333,null));
@@ -680,15 +696,15 @@ console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-it
 return new cljs.core.Symbol("website-helpers.filterable-items","list-to-hiccup","website-helpers.filterable-items/list-to-hiccup",794805333,null);
 })()
 ,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.filterable-items","prune-similarities","website-helpers.filterable-items/prune-similarities",-778577859,null),website_helpers.filterable_items.prune_similarities);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.filterable-items","prune-similarities","website-helpers.filterable-items/prune-similarities",-778577859,null),website_helpers.filterable_items.prune_similarities);
 }));
 
-(website_helpers.filterable_items.prune_similarities = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47429 = type__33044__auto__;
-var G__47430 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","prune-similarities","website-helpers.filterable-items/prune-similarities",-778577859,null));
-var fexpr__47428 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47428.cljs$core$IFn$_invoke$arity$2 ? fexpr__47428.cljs$core$IFn$_invoke$arity$2(G__47429,G__47430) : fexpr__47428.call(null,G__47429,G__47430));
+(website_helpers.filterable_items.prune_similarities = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48199 = type__32935__auto__;
+var G__48200 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","prune-similarities","website-helpers.filterable-items/prune-similarities",-778577859,null));
+var fexpr__48198 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48198.cljs$core$IFn$_invoke$arity$2 ? fexpr__48198.cljs$core$IFn$_invoke$arity$2(G__48199,G__48200) : fexpr__48198.call(null,G__48199,G__48200));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),website_helpers.filterable_items.Name,website_helpers.filterable_items.Similarities], null),website_helpers.filterable_items.Similarities], null))], null),website_helpers.filterable_items.prune_similarities));
 
 console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-items","prune-similarities","website-helpers.filterable-items/prune-similarities",-778577859,null));
@@ -696,15 +712,15 @@ console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-it
 return new cljs.core.Symbol("website-helpers.filterable-items","prune-similarities","website-helpers.filterable-items/prune-similarities",-778577859,null);
 })()
 ,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.filterable-items","get-all-similarities","website-helpers.filterable-items/get-all-similarities",-1327606914,null),website_helpers.filterable_items.get_all_similarities);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.filterable-items","get-all-similarities","website-helpers.filterable-items/get-all-similarities",-1327606914,null),website_helpers.filterable_items.get_all_similarities);
 }));
 
-(website_helpers.filterable_items.get_all_similarities = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47432 = type__33044__auto__;
-var G__47433 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","get-all-similarities","website-helpers.filterable-items/get-all-similarities",-1327606914,null));
-var fexpr__47431 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47431.cljs$core$IFn$_invoke$arity$2 ? fexpr__47431.cljs$core$IFn$_invoke$arity$2(G__47432,G__47433) : fexpr__47431.call(null,G__47432,G__47433));
+(website_helpers.filterable_items.get_all_similarities = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48202 = type__32935__auto__;
+var G__48203 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","get-all-similarities","website-helpers.filterable-items/get-all-similarities",-1327606914,null));
+var fexpr__48201 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48201.cljs$core$IFn$_invoke$arity$2 ? fexpr__48201.cljs$core$IFn$_invoke$arity$2(G__48202,G__48203) : fexpr__48201.call(null,G__48202,G__48203));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),website_helpers.filterable_items.DataMap], null),website_helpers.filterable_items.Similarities], null))], null),website_helpers.filterable_items.get_all_similarities));
 
 console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-items","get-all-similarities","website-helpers.filterable-items/get-all-similarities",-1327606914,null));
@@ -712,15 +728,15 @@ console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-it
 return new cljs.core.Symbol("website-helpers.filterable-items","get-all-similarities","website-helpers.filterable-items/get-all-similarities",-1327606914,null);
 })()
 ,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.filterable-items","make-tag-hiccup","website-helpers.filterable-items/make-tag-hiccup",-581203233,null),website_helpers.filterable_items.make_tag_hiccup);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.filterable-items","make-tag-hiccup","website-helpers.filterable-items/make-tag-hiccup",-581203233,null),website_helpers.filterable_items.make_tag_hiccup);
 }));
 
-(website_helpers.filterable_items.make_tag_hiccup = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47435 = type__33044__auto__;
-var G__47436 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","make-tag-hiccup","website-helpers.filterable-items/make-tag-hiccup",-581203233,null));
-var fexpr__47434 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47434.cljs$core$IFn$_invoke$arity$2 ? fexpr__47434.cljs$core$IFn$_invoke$arity$2(G__47435,G__47436) : fexpr__47434.call(null,G__47435,G__47436));
+(website_helpers.filterable_items.make_tag_hiccup = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48205 = type__32935__auto__;
+var G__48206 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","make-tag-hiccup","website-helpers.filterable-items/make-tag-hiccup",-581203233,null));
+var fexpr__48204 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48204.cljs$core$IFn$_invoke$arity$2 ? fexpr__48204.cljs$core$IFn$_invoke$arity$2(G__48205,G__48206) : fexpr__48204.call(null,G__48205,G__48206));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"set","set",304602554),website_helpers.filterable_items.Tag], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"set","set",304602554),website_helpers.filterable_items.Tag], null)], null),website_helpers.schemas.Hiccup], null))], null),website_helpers.filterable_items.make_tag_hiccup));
 
 console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-items","make-tag-hiccup","website-helpers.filterable-items/make-tag-hiccup",-581203233,null));
@@ -728,36 +744,20 @@ console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-it
 return new cljs.core.Symbol("website-helpers.filterable-items","make-tag-hiccup","website-helpers.filterable-items/make-tag-hiccup",-581203233,null);
 })()
 ,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.filterable-items","make-mental-state-map","website-helpers.filterable-items/make-mental-state-map",-982830241,null),website_helpers.filterable_items.make_mental_state_map);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__32937__32938__auto__){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__32937__32938__auto__,new cljs.core.Symbol("website-helpers.filterable-items","make-mental-state-map","website-helpers.filterable-items/make-mental-state-map",-982830241,null),website_helpers.filterable_items.make_mental_state_map);
 }));
 
-(website_helpers.filterable_items.make_mental_state_map = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47438 = type__33044__auto__;
-var G__47439 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","make-mental-state-map","website-helpers.filterable-items/make-mental-state-map",-982830241,null));
-var fexpr__47437 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47437.cljs$core$IFn$_invoke$arity$2 ? fexpr__47437.cljs$core$IFn$_invoke$arity$2(G__47438,G__47439) : fexpr__47437.call(null,G__47438,G__47439));
+(website_helpers.filterable_items.make_mental_state_map = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__32935__auto__,data__32936__auto__){
+var G__48208 = type__32935__auto__;
+var G__48209 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__32936__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.filterable-items","make-mental-state-map","website-helpers.filterable-items/make-mental-state-map",-982830241,null));
+var fexpr__48207 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
+return (fexpr__48207.cljs$core$IFn$_invoke$arity$2 ? fexpr__48207.cljs$core$IFn$_invoke$arity$2(G__48208,G__48209) : fexpr__48207.call(null,G__48208,G__48209));
 }),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),website_helpers.filterable_items.Experiences], null),website_helpers.filterable_items.DataMap], null))], null),website_helpers.filterable_items.make_mental_state_map));
 
 console.log("..instrumented",new cljs.core.Symbol("website-helpers.filterable-items","make-mental-state-map","website-helpers.filterable-items/make-mental-state-map",-982830241,null));
 
 return new cljs.core.Symbol("website-helpers.filterable-items","make-mental-state-map","website-helpers.filterable-items/make-mental-state-map",-982830241,null);
-})()
-,(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(malli.instrument.cljs.instrumented_vars,(function (p1__33046__33047__auto__){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__33046__33047__auto__,new cljs.core.Symbol("website-helpers.notes","sync-url-params!","website-helpers.notes/sync-url-params!",-1536154594,null),website_helpers.notes.sync_url_params_BANG_);
-}));
-
-(website_helpers.notes.sync_url_params_BANG_ = malli.core._instrument.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"report","report",1394055010),(function (type__33044__auto__,data__33045__auto__){
-var G__47441 = type__33044__auto__;
-var G__47442 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(data__33045__auto__,new cljs.core.Keyword(null,"fn-name","fn-name",-766594004),new cljs.core.Symbol("website-helpers.notes","sync-url-params!","website-helpers.notes/sync-url-params!",-1536154594,null));
-var fexpr__47440 = malli.dev.pretty.reporter.cljs$core$IFn$_invoke$arity$0();
-return (fexpr__47440.cljs$core$IFn$_invoke$arity$2 ? fexpr__47440.cljs$core$IFn$_invoke$arity$2(G__47441,G__47442) : fexpr__47440.call(null,G__47441,G__47442));
-}),new cljs.core.Keyword(null,"schema","schema",-1582001791),malli.core.function_schema.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"=>","=>",1841166128),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map-of","map-of",1189682355),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"boolean","boolean",-1919418404)], null)], null),new cljs.core.Keyword(null,"nil","nil",99600501)], null))], null),website_helpers.notes.sync_url_params_BANG_));
-
-console.log("..instrumented",new cljs.core.Symbol("website-helpers.notes","sync-url-params!","website-helpers.notes/sync-url-params!",-1536154594,null));
-
-return new cljs.core.Symbol("website-helpers.notes","sync-url-params!","website-helpers.notes/sync-url-params!",-1536154594,null);
 })()
 ], null));
 
