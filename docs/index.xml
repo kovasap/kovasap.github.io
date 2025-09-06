@@ -219,6 +219,20 @@
     </item>
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/computers/my-computer-configuration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kovasap.github.io/docs/computers/my-computer-configuration/</guid>
+      <description>&lt;h1 id=&#34;my-computing-environment&#34;&gt;&#xA;  My Computing Environment&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#my-computing-environment&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;My complete configuration files (&amp;ldquo;dotfiles&amp;rdquo;) can be found at&#xA;&lt;a href=&#34;https://github.com/kovasap/dotfiles&#34;&gt;https://github.com/kovasap/dotfiles&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;color-brightness&#34;&gt;&#xA;  Color and Brightness&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#color-brightness&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;temperature&#34;&gt;&#xA;  Temperature&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#temperature&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;I find that dim screens make it easier for me to read and work for longer&#xA;without straining or fatiguing my eyes.  Therefore, I generally keep my screen&#xA;at a low brightness level.&lt;/p&gt;&#xA;&lt;h4 id=&#34;on-linux&#34;&gt;&#xA;  On Linux&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#on-linux&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h4&gt;&#xA;&lt;p&gt;I use &lt;a href=&#34;http://jonls.dk/redshift/&#34;&gt;Redshift&lt;/a&gt; to&#xA;keep my screen at a low temperature (low 3000Ks).  Currently I use a constant&#xA;temperature all the time, as opposed to making the color lower at night.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://kovasap.github.io/docs/computers/switching-linux-drives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kovasap.github.io/docs/computers/switching-linux-drives/</guid>
+      <description>&lt;h1 id=&#34;switching-linux-drives&#34;&gt;&#xA;  Switching Linux Drives&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#switching-linux-drives&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;I wanted to switch my linux install to a new larger NVME drive I got.&#xA;This was harder than I expected.&lt;/p&gt;&#xA;&lt;p&gt;I followed &lt;a href=&#34;https://www.reddit.com/r/archlinux/comments/futij3/comment/fmfnlod/&#34;&gt;https://www.reddit.com/r/archlinux/comments/futij3/comment/fmfnlod/&lt;/a&gt;&#xA;(using &lt;a href=&#34;https://wiki.archlinux.org/title/Installation_guide#Partition_the_disks&#34;&gt;https://wiki.archlinux.org/title/Installation_guide#Partition_the_disks&lt;/a&gt;&#xA;to do step 1), but ran into a strange problem where when using&#xA;&lt;code&gt;arch-chroot&lt;/code&gt; to configure my new root system from the arch install medium I&#xA;could not see any drive UUIDS, making generating my &lt;code&gt;fstab&lt;/code&gt; file impossible.&lt;/p&gt;&#xA;&lt;p&gt;I ended up needing to generate the &lt;code&gt;fstab&lt;/code&gt; (with genfstab) OUTSIDE of the&#xA;chroot, then modifying it to specify the right mount points within the chroot.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/datavis/clerk-notebooks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://kovasap.github.io/docs/datavis/clerk-notebooks/</guid>
@@ -1203,13 +1217,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://kovasap.github.io/docs/lifestyle-optimizations/mice/</guid>
       <description>&lt;h1 id=&#34;mice&#34;&gt;&#xA;  Mice&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#mice&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;daily-drivers&#34;&gt;&#xA;  Daily Drivers&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#daily-drivers&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;corsair-darkstar-wireless-rgb&#34;&gt;&#xA;  Corsair DARKSTAR WIRELESS RGB&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#corsair-darkstar-wireless-rgb&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Expensive&lt;/li&gt;&#xA;&lt;li&gt;Has tilt gestures, but NOT usable on linux with build in memory customization&#xA;option.&lt;/li&gt;&#xA;&lt;li&gt;Many complaints about build/technical issues&#xA;&lt;ul&gt;&#xA;&lt;li&gt;I personally experienced a creeky side-to-side scroll wheel button&#xA;actuation, and the top left left-click button did not depress properly&#xA;when hitting the front part of it.&#xA;This is more annoying than it sounds.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;For me, this mouse felt pretty good in my hand.  If anything a bit big.&lt;/li&gt;&#xA;&lt;li&gt;Buttons are plentiful and easy to reach for the most part.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;logitech-m650-l&#34;&gt;&#xA;  Logitech M650 L&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#logitech-m650-l&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;I love the remarkably quiet clicking sound this mouse makes.&#xA;The feeling of where my hand grips the mouse is great too.&#xA;Otherwise it&amp;rsquo;s a bit small for my hand.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://kovasap.github.io/docs/lifestyle-optimizations/my-computer-configuration-dotfiles/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kovasap.github.io/docs/lifestyle-optimizations/my-computer-configuration-dotfiles/</guid>
-      <description>&lt;h1 id=&#34;my-computing-environment&#34;&gt;&#xA;  My Computing Environment&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#my-computing-environment&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;My complete configuration files (&amp;ldquo;dotfiles&amp;rdquo;) can be found at&#xA;&lt;a href=&#34;https://github.com/kovasap/dotfiles&#34;&gt;https://github.com/kovasap/dotfiles&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;color-brightness&#34;&gt;&#xA;  Color and Brightness&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#color-brightness&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;temperature&#34;&gt;&#xA;  Temperature&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#temperature&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;I find that dim screens make it easier for me to read and work for longer&#xA;without straining or fatiguing my eyes.  Therefore, I generally keep my screen&#xA;at a low brightness level.&lt;/p&gt;&#xA;&lt;h4 id=&#34;on-linux&#34;&gt;&#xA;  On Linux&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#on-linux&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h4&gt;&#xA;&lt;p&gt;I use &lt;a href=&#34;http://jonls.dk/redshift/&#34;&gt;Redshift&lt;/a&gt; to&#xA;keep my screen at a low temperature (low 3000Ks).  Currently I use a constant&#xA;temperature all the time, as opposed to making the color lower at night.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
