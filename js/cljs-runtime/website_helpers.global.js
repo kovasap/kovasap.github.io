@@ -1,4 +1,6 @@
 goog.provide('website_helpers.global');
+website_helpers.global.num_recently_modified_notes_to_highlight = reagent.core.atom.cljs$core$IFn$_invoke$arity$1((20));
+website_helpers.global.num_recently_created_notes_to_highlight = reagent.core.atom.cljs$core$IFn$_invoke$arity$1((10));
 website_helpers.global.show_unselected_nodes_in_graph_QMARK_ = reagent.core.atom.cljs$core$IFn$_invoke$arity$1(true);
 website_helpers.global.include_home_node_in_graph_QMARK_ = reagent.core.atom.cljs$core$IFn$_invoke$arity$1(false);
 website_helpers.global.graph_update_num = reagent.core.atom.cljs$core$IFn$_invoke$arity$1((0));

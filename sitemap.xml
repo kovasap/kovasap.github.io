@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kovasap.github.io/docs/about-me/</loc>
-    <lastmod>2025-08-28T10:09:34-07:00</lastmod>
-  </url><url>
     <loc>https://kovasap.github.io/docs/all/</loc>
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
   </url><url>
@@ -42,7 +39,7 @@
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/climbing/cragging/bobs-area/</loc>
-    <lastmod>2025-09-01T18:37:04-07:00</lastmod>
+    <lastmod>2025-09-05T22:14:25-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/climbing/cragging/crag-of-the-20s/</loc>
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
@@ -81,7 +78,7 @@
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/climbing/media/</loc>
-    <lastmod>2025-09-03T10:09:53-07:00</lastmod>
+    <lastmod>2025-09-05T22:14:25-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/climbing/resources/</loc>
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
@@ -102,7 +99,7 @@
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/datavis/reddit-tree/</loc>
-    <lastmod>2025-09-02T10:34:58-07:00</lastmod>
+    <lastmod>2025-09-05T22:14:25-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/datavis/seattle-rain/</loc>
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
@@ -126,9 +123,6 @@
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/favorites/game-tier-lists/</loc>
-    <lastmod>2025-08-28T10:09:34-07:00</lastmod>
-  </url><url>
-    <loc>https://kovasap.github.io/docs/feelings/</loc>
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/gaming/buying-games/</loc>
@@ -207,13 +201,13 @@
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/gaming/games/Beat-Saber/</loc>
-    <lastmod>2025-08-28T10:09:34-07:00</lastmod>
+    <lastmod>2025-09-05T22:25:07-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/gaming/games/competitive-fps/dark-and-darker/</loc>
-    <lastmod>2025-09-03T10:09:53-07:00</lastmod>
+    <lastmod>2025-09-05T22:14:25-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/gaming/games/competitive-fps/other-competitive-fps/</loc>
-    <lastmod>2025-08-28T10:09:34-07:00</lastmod>
+    <lastmod>2025-09-05T22:25:07-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/gaming/games/competitive-turn-based/chess/</loc>
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
@@ -231,10 +225,10 @@
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/gaming/games/cooperative-rpg/dead-of-winter/</loc>
-    <lastmod>2025-08-28T10:09:34-07:00</lastmod>
+    <lastmod>2025-09-05T22:25:07-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/gaming/games/puzzle/other-puzzle/</loc>
-    <lastmod>2025-08-28T10:09:34-07:00</lastmod>
+    <lastmod>2025-09-05T22:25:07-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/gaming/games/Rimworld/</loc>
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
@@ -243,7 +237,7 @@
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/gaming/games/roguelike/Islanders/</loc>
-    <lastmod>2025-08-28T10:09:34-07:00</lastmod>
+    <lastmod>2025-09-05T22:25:07-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/gaming/games/roguelike/other-roguelike/</loc>
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
@@ -258,7 +252,7 @@
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/gaming/games/strategy/other-strategy/</loc>
-    <lastmod>2025-08-28T10:09:34-07:00</lastmod>
+    <lastmod>2025-09-05T22:25:07-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/gaming/games/strategy/oxygen-not-included/</loc>
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
@@ -273,7 +267,7 @@
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/gaming/games/tactics-rpg/battle-brothers/</loc>
-    <lastmod>2025-09-02T10:34:58-07:00</lastmod>
+    <lastmod>2025-09-05T22:25:07-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/gaming/games/tactics-rpg/darkest-dungeon/</loc>
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
@@ -413,20 +407,14 @@
     <loc>https://kovasap.github.io/docs/health-and-longevity/tracking-health/</loc>
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
   </url><url>
-    <loc>https://kovasap.github.io/docs/hobbies/Lead-Climbing-in-a-Gym/</loc>
-    <lastmod>2025-08-28T10:09:34-07:00</lastmod>
-  </url><url>
-    <loc>https://kovasap.github.io/docs/hobbies/Yo-Yoing/</loc>
-    <lastmod>2025-08-28T10:09:34-07:00</lastmod>
-  </url><url>
     <loc>https://kovasap.github.io/docs/housing/aspirational-projects/</loc>
-    <lastmod>2025-08-28T10:09:34-07:00</lastmod>
+    <lastmod>2025-09-05T22:14:25-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/housing/home-energy-monitoring/</loc>
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/housing/rainwater/</loc>
-    <lastmod>2025-08-28T10:09:34-07:00</lastmod>
+    <lastmod>2025-09-05T22:14:25-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/hydroponics/journal/</loc>
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
@@ -557,8 +545,19 @@
     <loc>https://kovasap.github.io/docs/lifestyle-optimizations/writing/</loc>
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
   </url><url>
-    <loc>https://kovasap.github.io/docs/manifesto/</loc>
-    <lastmod>2025-08-28T10:09:34-07:00</lastmod>
+    <loc>https://kovasap.github.io/docs/me/about-me/</loc>
+    <lastmod>2025-09-05T22:14:25-07:00</lastmod>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/me/manifesto/</loc>
+    <lastmod>2025-09-05T22:14:25-07:00</lastmod>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/me/personal-drama/</loc>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/me/potential-life-missions/</loc>
+    <lastmod>2025-09-05T22:14:25-07:00</lastmod>
+  </url><url>
+    <loc>https://kovasap.github.io/docs/me/recent-interests/</loc>
+    <lastmod>2025-09-05T22:14:25-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/mind/absorbing-and-professing/</loc>
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
@@ -597,7 +596,7 @@
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/mind/meditation/</loc>
-    <lastmod>2025-09-03T10:09:53-07:00</lastmod>
+    <lastmod>2025-09-05T22:14:25-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/mind/motivation/</loc>
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
@@ -612,7 +611,7 @@
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/mind/pressure-and-integrity/</loc>
-    <lastmod>2025-09-02T13:00:41-07:00</lastmod>
+    <lastmod>2025-09-05T22:14:25-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/mind/socializing/</loc>
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
@@ -645,23 +644,15 @@
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/music/making-music/</loc>
-    <lastmod>2025-09-03T10:09:53-07:00</lastmod>
+    <lastmod>2025-09-05T22:14:25-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/music/music-discussions/</loc>
-    <lastmod>2025-08-28T10:09:34-07:00</lastmod>
+    <lastmod>2025-09-05T22:14:25-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/music/music-library-management/</loc>
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/music/my-musical-interest-history/</loc>
-    <lastmod>2025-08-28T10:09:34-07:00</lastmod>
-  </url><url>
-    <loc>https://kovasap.github.io/docs/personal-drama/</loc>
-  </url><url>
-    <loc>https://kovasap.github.io/docs/potential-life-missions/</loc>
-    <lastmod>2025-08-28T10:09:34-07:00</lastmod>
-  </url><url>
-    <loc>https://kovasap.github.io/docs/recent-interests/</loc>
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/society/co-ops/</loc>
@@ -748,6 +739,9 @@
     <loc>https://kovasap.github.io/docs/thought-experiments/two-glasses/</loc>
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
   </url><url>
+    <loc>https://kovasap.github.io/docs/toys/yo-yo/</loc>
+    <lastmod>2025-09-05T22:25:07-07:00</lastmod>
+  </url><url>
     <loc>https://kovasap.github.io/docs/understanding-the-world/applying-theories/</loc>
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
   </url><url>
@@ -767,7 +761,7 @@
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/understanding-the-world/opression/</loc>
-    <lastmod>2025-09-03T17:06:27-07:00</lastmod>
+    <lastmod>2025-09-05T22:14:25-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/understanding-the-world/physics/</loc>
     <lastmod>2025-08-28T10:09:34-07:00</lastmod>
@@ -800,9 +794,9 @@
     <lastmod>2022-06-20T12:25:27-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/docs/</loc>
-    <lastmod>2025-09-04T11:01:07-07:00</lastmod>
+    <lastmod>2025-09-05T22:25:07-07:00</lastmod>
   </url><url>
     <loc>https://kovasap.github.io/</loc>
-    <lastmod>2025-08-28T10:09:34-07:00</lastmod>
+    <lastmod>2025-09-05T22:14:25-07:00</lastmod>
   </url>
 </urlset>
