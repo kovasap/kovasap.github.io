@@ -5,7 +5,7 @@ goog.provide('clojure.core.protocols');
  */
 clojure.core.protocols.Datafiable = function(){};
 
-var clojure$core$protocols$Datafiable$datafy$dyn_33573 = (function (o){
+var clojure$core$protocols$Datafiable$datafy$dyn_33574 = (function (o){
 var x__5393__auto__ = (((o == null))?null:o);
 var m__5394__auto__ = (clojure.core.protocols.datafy[goog.typeOf(x__5393__auto__)]);
 if((!((m__5394__auto__ == null)))){
@@ -23,15 +23,15 @@ throw cljs.core.missing_protocol("Datafiable.datafy",o);
  * return a representation of o as data (default identity)
  */
 clojure.core.protocols.datafy = (function clojure$core$protocols$datafy(o){
-var temp__5821__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(cljs.core.meta(o),cljs.core.with_meta(new cljs.core.Symbol("clojure.core.protocols","datafy","clojure.core.protocols/datafy",707534751,null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword("cljs.analyzer","no-resolve","cljs.analyzer/no-resolve",-1872351017),true], null)));
-if(temp__5821__auto__){
-var meta_impl__5395__auto__ = temp__5821__auto__;
+var temp__5802__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(cljs.core.meta(o),cljs.core.with_meta(new cljs.core.Symbol("clojure.core.protocols","datafy","clojure.core.protocols/datafy",707534751,null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword("cljs.analyzer","no-resolve","cljs.analyzer/no-resolve",-1872351017),true], null)));
+if(temp__5802__auto__){
+var meta_impl__5395__auto__ = temp__5802__auto__;
 return (meta_impl__5395__auto__.cljs$core$IFn$_invoke$arity$1 ? meta_impl__5395__auto__.cljs$core$IFn$_invoke$arity$1(o) : meta_impl__5395__auto__.call(null,o));
 } else {
 if((((!((o == null)))) && ((!((o.clojure$core$protocols$Datafiable$datafy$arity$1 == null)))))){
 return o.clojure$core$protocols$Datafiable$datafy$arity$1(o);
 } else {
-return clojure$core$protocols$Datafiable$datafy$dyn_33573(o);
+return clojure$core$protocols$Datafiable$datafy$dyn_33574(o);
 }
 }
 });
@@ -72,9 +72,9 @@ throw cljs.core.missing_protocol("Navigable.nav",coll);
  * defaults to returning v.
  */
 clojure.core.protocols.nav = (function clojure$core$protocols$nav(coll,k,v){
-var temp__5821__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(cljs.core.meta(coll),cljs.core.with_meta(new cljs.core.Symbol("clojure.core.protocols","nav","clojure.core.protocols/nav",298936762,null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword("cljs.analyzer","no-resolve","cljs.analyzer/no-resolve",-1872351017),true], null)));
-if(temp__5821__auto__){
-var meta_impl__5395__auto__ = temp__5821__auto__;
+var temp__5802__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(cljs.core.meta(coll),cljs.core.with_meta(new cljs.core.Symbol("clojure.core.protocols","nav","clojure.core.protocols/nav",298936762,null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword("cljs.analyzer","no-resolve","cljs.analyzer/no-resolve",-1872351017),true], null)));
+if(temp__5802__auto__){
+var meta_impl__5395__auto__ = temp__5802__auto__;
 return (meta_impl__5395__auto__.cljs$core$IFn$_invoke$arity$3 ? meta_impl__5395__auto__.cljs$core$IFn$_invoke$arity$3(coll,k,v) : meta_impl__5395__auto__.call(null,coll,k,v));
 } else {
 if((((!((coll == null)))) && ((!((coll.clojure$core$protocols$Navigable$nav$arity$3 == null)))))){
