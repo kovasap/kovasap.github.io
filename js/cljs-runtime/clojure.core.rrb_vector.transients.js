@@ -30,25 +30,25 @@ return ret;
 clojure.core.rrb_vector.transients.push_tail_BANG_ = (function clojure$core$rrb_vector$transients$push_tail_BANG_(shift,cnt,root_edit,current_node,tail_node){
 var ret = clojure.core.rrb_vector.transients.ensure_editable(root_edit,current_node);
 if(clojure.core.rrb_vector.nodes.regular_QMARK_(ret)){
-var n_48388 = ret;
-var shift_48389__$1 = shift;
+var n_36396 = ret;
+var shift_36397__$1 = shift;
 while(true){
-var arr_48390 = n_48388.arr;
-var subidx_48391 = (((cnt - (1)) >> shift_48389__$1) & (31));
-if((shift_48389__$1 === (5))){
-(arr_48390[subidx_48391] = tail_node);
+var arr_36398 = n_36396.arr;
+var subidx_36399 = (((cnt - (1)) >> shift_36397__$1) & (31));
+if((shift_36397__$1 === (5))){
+(arr_36398[subidx_36399] = tail_node);
 } else {
-var child_48392 = (arr_48390[subidx_48391]);
-if((child_48392 == null)){
-(arr_48390[subidx_48391] = clojure.core.rrb_vector.trees.new_path(tail_node.arr,root_edit,(shift_48389__$1 - (5)),tail_node));
+var child_36400 = (arr_36398[subidx_36399]);
+if((child_36400 == null)){
+(arr_36398[subidx_36399] = clojure.core.rrb_vector.trees.new_path(tail_node.arr,root_edit,(shift_36397__$1 - (5)),tail_node));
 } else {
-var editable_child_48393 = clojure.core.rrb_vector.transients.ensure_editable(root_edit,child_48392);
-(arr_48390[subidx_48391] = editable_child_48393);
+var editable_child_36401 = clojure.core.rrb_vector.transients.ensure_editable(root_edit,child_36400);
+(arr_36398[subidx_36399] = editable_child_36401);
 
-var G__48394 = editable_child_48393;
-var G__48395 = (shift_48389__$1 - (5));
-n_48388 = G__48394;
-shift_48389__$1 = G__48395;
+var G__36402 = editable_child_36401;
+var G__36403 = (shift_36397__$1 - (5));
+n_36396 = G__36402;
+shift_36397__$1 = G__36403;
 continue;
 }
 }
@@ -63,12 +63,12 @@ var li = ((rngs[(32)]) - (1));
 var cret = (((shift === (5)))?null:(function (){var child = clojure.core.rrb_vector.transients.ensure_editable(root_edit,(arr[li]));
 var ccnt = ((((li > (0)))?((rngs[li]) - (rngs[(li - (1))])):(rngs[(0)])) + (32));
 if((!(clojure.core.rrb_vector.nodes.overflow_QMARK_(child,(shift - (5)),ccnt)))){
-var G__48370 = (shift - (5));
-var G__48371 = ccnt;
-var G__48372 = root_edit;
-var G__48373 = child;
-var G__48374 = tail_node;
-return (clojure.core.rrb_vector.transients.push_tail_BANG_.cljs$core$IFn$_invoke$arity$5 ? clojure.core.rrb_vector.transients.push_tail_BANG_.cljs$core$IFn$_invoke$arity$5(G__48370,G__48371,G__48372,G__48373,G__48374) : clojure.core.rrb_vector.transients.push_tail_BANG_.call(null,G__48370,G__48371,G__48372,G__48373,G__48374));
+var G__36378 = (shift - (5));
+var G__36379 = ccnt;
+var G__36380 = root_edit;
+var G__36381 = child;
+var G__36382 = tail_node;
+return (clojure.core.rrb_vector.transients.push_tail_BANG_.cljs$core$IFn$_invoke$arity$5 ? clojure.core.rrb_vector.transients.push_tail_BANG_.cljs$core$IFn$_invoke$arity$5(G__36378,G__36379,G__36380,G__36381,G__36382) : clojure.core.rrb_vector.transients.push_tail_BANG_.call(null,G__36378,G__36379,G__36380,G__36381,G__36382));
 } else {
 return null;
 }
@@ -81,9 +81,9 @@ if(cljs.core.truth_(cret)){
 return ret;
 } else {
 if((li >= (31))){
-var msg_48397 = ["Assigning index ",cljs.core.str.cljs$core$IFn$_invoke$arity$1((li + (1)))," of vector"," object array to become a node, when that"," index should only be used for storing"," range arrays."].join('');
-var data_48398 = new cljs.core.PersistentArrayMap(null, 7, [new cljs.core.Keyword(null,"shift","shift",997140064),shift,new cljs.core.Keyword(null,"cnd","cnd",-521882032),cnt,new cljs.core.Keyword(null,"current-node","current-node",-814308842),current_node,new cljs.core.Keyword(null,"tail-node","tail-node",-1373693221),tail_node,new cljs.core.Keyword(null,"rngs","rngs",-8039697),rngs,new cljs.core.Keyword(null,"li","li",723558921),li,new cljs.core.Keyword(null,"cret","cret",2090504467),cret], null);
-throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2(msg_48397,data_48398);
+var msg_36404 = ["Assigning index ",cljs.core.str.cljs$core$IFn$_invoke$arity$1((li + (1)))," of vector"," object array to become a node, when that"," index should only be used for storing"," range arrays."].join('');
+var data_36405 = new cljs.core.PersistentArrayMap(null, 7, [new cljs.core.Keyword(null,"shift","shift",997140064),shift,new cljs.core.Keyword(null,"cnd","cnd",-521882032),cnt,new cljs.core.Keyword(null,"current-node","current-node",-814308842),current_node,new cljs.core.Keyword(null,"tail-node","tail-node",-1373693221),tail_node,new cljs.core.Keyword(null,"rngs","rngs",-8039697),rngs,new cljs.core.Keyword(null,"li","li",723558921),li,new cljs.core.Keyword(null,"cret","cret",2090504467),cret], null);
+throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2(msg_36404,data_36405);
 } else {
 }
 
@@ -102,11 +102,11 @@ var ret = clojure.core.rrb_vector.transients.ensure_editable(root_edit,current_n
 if(clojure.core.rrb_vector.nodes.regular_QMARK_(ret)){
 var subidx = (((cnt - (2)) >> shift) & (31));
 if((shift > (5))){
-var child = (function (){var G__48375 = (shift - (5));
-var G__48376 = cnt;
-var G__48377 = root_edit;
-var G__48378 = (ret.arr[subidx]);
-return (clojure.core.rrb_vector.transients.pop_tail_BANG_.cljs$core$IFn$_invoke$arity$4 ? clojure.core.rrb_vector.transients.pop_tail_BANG_.cljs$core$IFn$_invoke$arity$4(G__48375,G__48376,G__48377,G__48378) : clojure.core.rrb_vector.transients.pop_tail_BANG_.call(null,G__48375,G__48376,G__48377,G__48378));
+var child = (function (){var G__36383 = (shift - (5));
+var G__36384 = cnt;
+var G__36385 = root_edit;
+var G__36386 = (ret.arr[subidx]);
+return (clojure.core.rrb_vector.transients.pop_tail_BANG_.cljs$core$IFn$_invoke$arity$4 ? clojure.core.rrb_vector.transients.pop_tail_BANG_.cljs$core$IFn$_invoke$arity$4(G__36383,G__36384,G__36385,G__36386) : clojure.core.rrb_vector.transients.pop_tail_BANG_.call(null,G__36383,G__36384,G__36385,G__36386));
 })();
 if((((child == null)) && ((subidx === (0))))){
 return null;
@@ -133,11 +133,11 @@ var subidx = ((rngs[(32)]) - (1));
 if((shift > (5))){
 var child = (ret.arr[subidx]);
 var child_cnt = (((subidx === (0)))?(rngs[(0)]):((rngs[subidx]) - (rngs[(subidx - (1))])));
-var new_child = (function (){var G__48379 = (shift - (5));
-var G__48380 = child_cnt;
-var G__48381 = root_edit;
-var G__48382 = child;
-return (clojure.core.rrb_vector.transients.pop_tail_BANG_.cljs$core$IFn$_invoke$arity$4 ? clojure.core.rrb_vector.transients.pop_tail_BANG_.cljs$core$IFn$_invoke$arity$4(G__48379,G__48380,G__48381,G__48382) : clojure.core.rrb_vector.transients.pop_tail_BANG_.call(null,G__48379,G__48380,G__48381,G__48382));
+var new_child = (function (){var G__36387 = (shift - (5));
+var G__36388 = child_cnt;
+var G__36389 = root_edit;
+var G__36390 = child;
+return (clojure.core.rrb_vector.transients.pop_tail_BANG_.cljs$core$IFn$_invoke$arity$4 ? clojure.core.rrb_vector.transients.pop_tail_BANG_.cljs$core$IFn$_invoke$arity$4(G__36387,G__36388,G__36389,G__36390) : clojure.core.rrb_vector.transients.pop_tail_BANG_.call(null,G__36387,G__36388,G__36389,G__36390));
 })();
 if((((new_child == null)) && ((subidx === (0))))){
 return null;
@@ -192,49 +192,49 @@ return ret;
 clojure.core.rrb_vector.transients.do_assoc_BANG_ = (function clojure$core$rrb_vector$transients$do_assoc_BANG_(shift,root_edit,current_node,i,val){
 var ret = clojure.core.rrb_vector.transients.ensure_editable(root_edit,current_node);
 if(clojure.core.rrb_vector.nodes.regular_QMARK_(ret)){
-var shift_48404__$1 = shift;
-var node_48405 = ret;
+var shift_36407__$1 = shift;
+var node_36408 = ret;
 while(true){
-if((shift_48404__$1 === (0))){
-var arr_48406 = node_48405.arr;
-(arr_48406[(i & (31))] = val);
+if((shift_36407__$1 === (0))){
+var arr_36409 = node_36408.arr;
+(arr_36409[(i & (31))] = val);
 } else {
-var arr_48407 = node_48405.arr;
-var subidx_48408 = ((i >> shift_48404__$1) & (31));
-var child_48409 = clojure.core.rrb_vector.transients.ensure_editable(root_edit,(arr_48407[subidx_48408]));
-(arr_48407[subidx_48408] = child_48409);
+var arr_36410 = node_36408.arr;
+var subidx_36411 = ((i >> shift_36407__$1) & (31));
+var child_36412 = clojure.core.rrb_vector.transients.ensure_editable(root_edit,(arr_36410[subidx_36411]));
+(arr_36410[subidx_36411] = child_36412);
 
-var G__48410 = (shift_48404__$1 - (5));
-var G__48411 = child_48409;
-shift_48404__$1 = G__48410;
-node_48405 = G__48411;
+var G__36413 = (shift_36407__$1 - (5));
+var G__36414 = child_36412;
+shift_36407__$1 = G__36413;
+node_36408 = G__36414;
 continue;
 }
 break;
 }
 } else {
-var arr_48412 = ret.arr;
-var rngs_48413 = clojure.core.rrb_vector.nodes.node_ranges(ret);
-var subidx_48414 = ((i >> shift) & (31));
-var subidx_48415__$1 = (function (){var subidx_48415__$1 = subidx_48414;
+var arr_36416 = ret.arr;
+var rngs_36417 = clojure.core.rrb_vector.nodes.node_ranges(ret);
+var subidx_36418 = ((i >> shift) & (31));
+var subidx_36419__$1 = (function (){var subidx_36419__$1 = subidx_36418;
 while(true){
-if((i < ((rngs_48413[subidx_48415__$1]) | (0)))){
-return subidx_48415__$1;
+if((i < ((rngs_36417[subidx_36419__$1]) | (0)))){
+return subidx_36419__$1;
 } else {
-var G__48417 = (subidx_48415__$1 + (1));
-subidx_48415__$1 = G__48417;
+var G__36421 = (subidx_36419__$1 + (1));
+subidx_36419__$1 = G__36421;
 continue;
 }
 break;
 }
 })();
-var i_48416__$1 = (((subidx_48415__$1 === (0)))?i:(i - (rngs_48413[(subidx_48415__$1 - (1))])));
-(arr_48412[subidx_48415__$1] = (function (){var G__48383 = (shift - (5));
-var G__48384 = root_edit;
-var G__48385 = (arr_48412[subidx_48415__$1]);
-var G__48386 = i_48416__$1;
-var G__48387 = val;
-return (clojure.core.rrb_vector.transients.do_assoc_BANG_.cljs$core$IFn$_invoke$arity$5 ? clojure.core.rrb_vector.transients.do_assoc_BANG_.cljs$core$IFn$_invoke$arity$5(G__48383,G__48384,G__48385,G__48386,G__48387) : clojure.core.rrb_vector.transients.do_assoc_BANG_.call(null,G__48383,G__48384,G__48385,G__48386,G__48387));
+var i_36420__$1 = (((subidx_36419__$1 === (0)))?i:(i - (rngs_36417[(subidx_36419__$1 - (1))])));
+(arr_36416[subidx_36419__$1] = (function (){var G__36391 = (shift - (5));
+var G__36392 = root_edit;
+var G__36393 = (arr_36416[subidx_36419__$1]);
+var G__36394 = i_36420__$1;
+var G__36395 = val;
+return (clojure.core.rrb_vector.transients.do_assoc_BANG_.cljs$core$IFn$_invoke$arity$5 ? clojure.core.rrb_vector.transients.do_assoc_BANG_.cljs$core$IFn$_invoke$arity$5(G__36391,G__36392,G__36393,G__36394,G__36395) : clojure.core.rrb_vector.transients.do_assoc_BANG_.call(null,G__36391,G__36392,G__36393,G__36394,G__36395));
 })());
 }
 
