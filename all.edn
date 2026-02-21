@@ -9,7 +9,7 @@
   :dir? false
   :links []
   :size 213
-  :modtime 1768935105
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1668469041]}
  {:path-categories #{"Books"}
@@ -23,7 +23,7 @@
   :dir? false
   :links []
   :size 184
-  :modtime 1768935105
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1740866322
                                  1734296474
@@ -39,7 +39,7 @@
   :dir? false
   :links []
   :size 77
-  :modtime 1768935105
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1758474249]}
  {:path-categories #{"Books"}
@@ -54,7 +54,7 @@
   :dir? false
   :links []
   :size 1391
-  :modtime 1768935105
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1667703247
                                  1667452680]}
@@ -69,7 +69,7 @@
   :dir? false
   :links []
   :size 208
-  :modtime 1768935105
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1699041494
                                  1698384423]}
@@ -85,7 +85,7 @@
   :dir? false
   :links ["/docs/books/the-open-society-and-its-enemies.md"]
   :size 314
-  :modtime 1768935105
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1667762893
@@ -103,7 +103,7 @@
   :dir? false
   :links []
   :size 494
-  :modtime 1768935105
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1667510508
                                  1667452680]}
@@ -119,7 +119,7 @@
   :dir? false
   :links []
   :size 188
-  :modtime 1768935105
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1667703247]}
  {:path-categories #{"Books"}
@@ -138,7 +138,7 @@
   :dir? false
   :links []
   :size 381
-  :modtime 1768935105
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1698001732
@@ -156,7 +156,7 @@
   :dir? false
   :links []
   :size 896
-  :modtime 1768935105
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1667452680]}
  {:path-categories #{"Climbing"}
@@ -170,7 +170,7 @@
   :dir? false
   :links []
   :size 756
-  :modtime 1768935105
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -188,7 +188,7 @@
   :dir? false
   :links []
   :size 674
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875
@@ -204,7 +204,7 @@
   :dir? false
   :links []
   :size 1215
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755409361]}
@@ -219,7 +219,7 @@
   :dir? false
   :links []
   :size 708
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1757135665
                                  1756919393
@@ -242,7 +242,7 @@
   :dir? false
   :links []
   :size 273
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755409361
@@ -263,7 +263,7 @@
   :dir? false
   :links []
   :size 2463
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1757654732
                                  1755995343
@@ -279,7 +279,7 @@
   :dir? false
   :links []
   :size 3369
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1728452011
                                  1655753252
@@ -301,7 +301,7 @@
   :dir? false
   :links []
   :size 314
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1667703247]}
  {:path-categories #{"Climbing"
@@ -317,7 +317,7 @@
   :dir? false
   :links []
   :size 328
-  :modtime 1768935105
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1757135665
                                  1756777024]}
@@ -334,7 +334,7 @@
   :dir? false
   :links []
   :size 1036
-  :modtime 1768935105
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875
@@ -352,7 +352,7 @@
   :dir? false
   :links []
   :size 2504
-  :modtime 1768935105
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1758045180
                                  1757394474
@@ -372,7 +372,7 @@
   :dir? false
   :links []
   :size 1968
-  :modtime 1768935105
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755409361
@@ -396,7 +396,7 @@
   :dir? false
   :links ["/"]
   :size 1357
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1662924312
                                  1655753252
@@ -417,7 +417,7 @@
   :dir? false
   :links []
   :size 10731
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755409361
@@ -440,7 +440,7 @@
   :dir? false
   :links []
   :size 17451
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755409361
@@ -465,7 +465,7 @@
   :dir? false
   :links []
   :size 283
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1742167498
                                  1741372686
@@ -487,7 +487,7 @@
   :dir? false
   :links []
   :size 6251
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1757188597]}
  {:path-categories #{"Computers"}
@@ -501,7 +501,7 @@
   :dir? false
   :links []
   :size 659
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1757188597]}
  {:path-categories #{"Datavis"}
@@ -515,7 +515,7 @@
   :dir? false
   :links []
   :size 258
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1660415829]}
  {:path-categories #{"Datavis"}
@@ -529,7 +529,7 @@
   :dir? false
   :links []
   :size 252
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1673989211
                                  1673389295
@@ -546,7 +546,7 @@
   :dir? false
   :links []
   :size 987
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1757135665
                                  1756834498
@@ -571,7 +571,7 @@
   :dir? false
   :links []
   :size 2149
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -590,7 +590,7 @@
   :dir? false
   :links []
   :size 963
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -608,7 +608,7 @@
   :dir? false
   :links []
   :size 6886
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1691798373
                                  1691113293
@@ -631,7 +631,7 @@
   :dir? false
   :links []
   :size 4225
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1757264782]}
  {:path-categories #{"Gaming"}
@@ -645,7 +645,7 @@
   :dir? false
   :links []
   :size 512
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1698001732
                                  1697999319
@@ -662,7 +662,7 @@
   :dir? false
   :links []
   :size 1651
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1698001732
                                  1697999319]}
@@ -677,7 +677,7 @@
   :dir? false
   :links []
   :size 302
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755967999]}
@@ -694,7 +694,7 @@
   :dir? false
   :links []
   :size 259
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -712,7 +712,7 @@
   :links ["/docs/gaming/games/tactics-rpg/fell-seal-arbiters-mark.md"
           "/docs/gaming/games/tactics-rpg/XCOM-2-+-War-of-the-Chosen.md"]
   :size 2536
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755449404
@@ -730,7 +730,7 @@
   :dir? false
   :links []
   :size 403
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -747,7 +747,7 @@
   :dir? false
   :links ["/docs/gaming/games/tactics-rpg/iron-danger.md"]
   :size 1470
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755449404
@@ -767,7 +767,7 @@
           "/docs/gaming/games/Rimworld.md"
           "/docs/gaming/games/strategy/oxygen-not-included.md"]
   :size 697
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755449404
@@ -785,7 +785,7 @@
   :dir? false
   :links []
   :size 952
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -802,7 +802,7 @@
   :dir? false
   :links []
   :size 267
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -821,7 +821,7 @@
   :dir? false
   :links ["/"]
   :size 903
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -840,7 +840,7 @@
   :dir? false
   :links []
   :size 1033
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -859,7 +859,7 @@
   :dir? false
   :links ["/"]
   :size 374
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -878,7 +878,7 @@
   :dir? false
   :links ["/"]
   :size 2144
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -897,7 +897,7 @@
   :dir? false
   :links ["/"]
   :size 632
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -916,7 +916,7 @@
   :dir? false
   :links []
   :size 820
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -935,7 +935,7 @@
   :dir? false
   :links []
   :size 505
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -954,7 +954,7 @@
   :dir? false
   :links ["/"]
   :size 579
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -973,7 +973,7 @@
   :dir? false
   :links ["/"]
   :size 985
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -993,7 +993,7 @@
   :links ["/docs/gaming/games/cooperative-rpg/dead-of-winter.md"
           "/"]
   :size 4056
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755449988
@@ -1014,7 +1014,7 @@
   :dir? false
   :links ["/"]
   :size 3330
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1033,7 +1033,7 @@
   :dir? false
   :links []
   :size 2859
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1052,7 +1052,7 @@
   :dir? false
   :links ["/docs/books/why-greatness-cannot-be-planned.md"]
   :size 814
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1071,7 +1071,7 @@
   :dir? false
   :links []
   :size 302
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875]}
@@ -1090,7 +1090,7 @@
   :dir? false
   :links []
   :size 1644
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875]}
@@ -1107,7 +1107,7 @@
   :dir? false
   :links []
   :size 178
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1757136307
                                  1755995343
@@ -1126,7 +1126,7 @@
   :dir? false
   :links []
   :size 259
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1145,7 +1145,7 @@
   :dir? false
   :links ["/"]
   :size 241
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1164,7 +1164,7 @@
   :dir? false
   :links []
   :size 675
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875]}
@@ -1183,7 +1183,7 @@
   :dir? false
   :links []
   :size 2821
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1758128453
                                  1757301229
@@ -1209,7 +1209,7 @@
   :dir? false
   :links []
   :size 4082
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1757136307
                                  1755995343
@@ -1231,7 +1231,7 @@
   :dir? false
   :links []
   :size 611
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1250,7 +1250,7 @@
   :dir? false
   :links []
   :size 254
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875]}
@@ -1269,7 +1269,7 @@
   :dir? false
   :links []
   :size 1120
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1757008867
                                  1755995343
@@ -1289,7 +1289,7 @@
   :dir? false
   :links []
   :size 518
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875
@@ -1309,7 +1309,7 @@
   :dir? false
   :links []
   :size 591
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755660745]}
@@ -1328,7 +1328,7 @@
   :dir? false
   :links ["/docs/gaming/gamedev/mechanic-ideas/limiting-collaboration.md"]
   :size 1117
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1757136307
                                  1755995343
@@ -1349,7 +1349,7 @@
   :dir? false
   :links []
   :size 1956
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1757136307
                                  1755995343
@@ -1372,7 +1372,7 @@
   :dir? false
   :links []
   :size 286
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1757136307
                                  1755995343
@@ -1392,7 +1392,7 @@
   :dir? false
   :links []
   :size 131
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1411,7 +1411,7 @@
   :dir? false
   :links []
   :size 286
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1430,7 +1430,7 @@
   :dir? false
   :links []
   :size 345
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755450418]}
@@ -1449,7 +1449,7 @@
   :dir? false
   :links []
   :size 673
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1469,7 +1469,7 @@
   :dir? false
   :links []
   :size 206
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1488,7 +1488,7 @@
   :dir? false
   :links []
   :size 478
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1757136307
                                  1755995343
@@ -1508,7 +1508,7 @@
   :dir? false
   :links []
   :size 595
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1530,7 +1530,7 @@
   :dir? false
   :links []
   :size 258
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1549,7 +1549,7 @@
   :dir? false
   :links []
   :size 200
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875]}
@@ -1570,7 +1570,7 @@
   :dir? false
   :links []
   :size 197
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875]}
@@ -1592,7 +1592,7 @@
   :dir? false
   :links []
   :size 340
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1613,7 +1613,7 @@
   :dir? false
   :links []
   :size 3890
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1759693675
                                  1758128453
@@ -1644,7 +1644,7 @@
   :dir? false
   :links []
   :size 278
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1663,7 +1663,7 @@
   :dir? false
   :links []
   :size 157
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1685,7 +1685,7 @@
   :dir? false
   :links []
   :size 918
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1708,7 +1708,7 @@
   :dir? false
   :links []
   :size 1726
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1729,7 +1729,7 @@
   :dir? false
   :links []
   :size 418
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1748,7 +1748,7 @@
   :dir? false
   :links []
   :size 1192
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1767,7 +1767,7 @@
   :dir? false
   :links []
   :size 2740
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1763968518
                                  1763845979]}
@@ -1787,7 +1787,7 @@
   :dir? false
   :links []
   :size 397
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1806,7 +1806,7 @@
   :dir? false
   :links []
   :size 293
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1825,7 +1825,7 @@
   :dir? false
   :links []
   :size 191
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875]}
@@ -1844,7 +1844,7 @@
   :dir? false
   :links []
   :size 77
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1863,7 +1863,7 @@
   :dir? false
   :links []
   :size 616
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1882,7 +1882,7 @@
   :dir? false
   :links []
   :size 381
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1901,7 +1901,7 @@
   :dir? false
   :links []
   :size 156
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755412331]}
@@ -1922,7 +1922,7 @@
           "/docs/health-and-longevity/food/personal-food-habits.md"
           "/docs/health-and-longevity/chronic-stress.md"]
   :size 2124
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755975293
@@ -1949,7 +1949,7 @@
   :dir? false
   :links []
   :size 8423
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1756002649
                                  1756002482
@@ -1975,7 +1975,7 @@
   :dir? false
   :links []
   :size 309
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -1994,7 +1994,7 @@
   :dir? false
   :links []
   :size 347
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1729379357
@@ -2013,7 +2013,7 @@
   :dir? false
   :links []
   :size 858
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1660415854
                                  1660407081
@@ -2038,7 +2038,7 @@
   :dir? false
   :links []
   :size 174
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1659113492
                                  1655691154
@@ -2056,7 +2056,7 @@
   :dir? false
   :links []
   :size 167
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655691154
                                  1655657180
@@ -2074,7 +2074,7 @@
   :dir? false
   :links []
   :size 1549
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655691154
                                  1655657180
@@ -2091,7 +2091,7 @@
   :dir? false
   :links []
   :size 200
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -2109,7 +2109,7 @@
   :dir? false
   :links []
   :size 735
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -2129,7 +2129,7 @@
   :dir? false
   :links []
   :size 177
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1659113492
                                  1655691154
@@ -2147,7 +2147,7 @@
   :dir? false
   :links []
   :size 340
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -2165,7 +2165,7 @@
   :dir? false
   :links []
   :size 4647
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1754518901
@@ -2183,7 +2183,7 @@
   :dir? false
   :links ["/docs/health-and-longevity/sens.md"]
   :size 9482
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1662926578
@@ -2215,7 +2215,7 @@
   :dir? false
   :links []
   :size 474
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -2234,7 +2234,7 @@
   :dir? false
   :links []
   :size 701
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -2252,7 +2252,7 @@
   :dir? false
   :links []
   :size 325
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1753893853]}
  {:path-categories #{"Health And Longevity"}
@@ -2266,7 +2266,7 @@
   :dir? false
   :links ["/docs/understanding-the-world/what-to-believe.md"]
   :size 852
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1655757336
@@ -2286,7 +2286,7 @@
   :dir? false
   :links []
   :size 90
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1757394591]}
  {:path-categories #{"Health And Longevity"}
@@ -2303,7 +2303,7 @@
   :dir? false
   :links ["/docs/lifestyle-optimizations/task-tracking.md"]
   :size 6067
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1740862760
@@ -2334,7 +2334,7 @@
   :dir? false
   :links []
   :size 2158
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1659551685
                                  1659113492
@@ -2358,7 +2358,7 @@
   :links ["/docs/health-and-longevity/food/tracking-food.md"
           "/docs/health-and-longevity/continuous-glucose-monitoring.md"]
   :size 3684
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755975293
@@ -2393,7 +2393,7 @@
   :dir? false
   :links []
   :size 6032
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875]}
@@ -2413,7 +2413,7 @@
           "/docs/health-and-longevity/biomarker-correlator.md"
           "/docs/understanding-the-world/influences.md#the-beginning-of-infinity-by-david-deutschhttpsenwikipediaorgwikithe_beginning_of_infinity"]
   :size 17069
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755975293
@@ -2433,7 +2433,7 @@
   :dir? false
   :links ["/docs/health-and-longevity/food/personal-specific-food-notes.md"]
   :size 2913
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875]}
@@ -2450,27 +2450,26 @@
   :dir? false
   :links []
   :size 2623
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875]}
  {:path-categories #{"Health And Longevity"
                      "Food"}
-  :path "content/docs/health-and-longevity/food/recipies.md"
+  :path "content/docs/health-and-longevity/food/recipes.md"
   :backlinks nil
-  :title "Recipies"
-  :markdown "---\nbacklinks-set: \ncategories-set: #{\"Health And Longevity\" \"Food\"}\n---\n# Recipies \n\n[Master Cooking\nSpreadsheet](https://docs.google.com/spreadsheets/d/1d25vAW2nD0BdffwPbQgmy4lRhBi30cJNHOyaC-B9dHM/edit#gid=0)\n\nCheck out https://www.reciperadar.com/#search for a good way to find recipies based on what you currently have.\n\n## Creating New Recipes\n\nIf you're interested in experimenting with new food combinations, one technique\nthat has served me pretty well I call the \"trifecta of flavor\".  The way it\nworks is you take two foods that go well together (e.g. banana and peanut\nbutter) and you add a third food that goes well with one of the foods but would\nbe weird to combine with the other (e.g. spinach in this case).  More often\nthan not, the result is actually pretty good!\n\n## Bread Machine\n\n### Black Bean Bread\n\n - 1  cup  water\n - 3/4  cup  beans\n - black, , dry, cooked, drained  \n - 1 1/2  tablespoons  applesauce\n - 1 1/2  tablespoons  honey\n - ¾  teaspoon  salt\n - 1 1/2  cups  whole-wheat flour\n - 1 1/2  cups  bread flour\n - 1 1/2  teaspoons  yeast, active dry\n\n Use whole wheat cycle on 1.5 lb loaf.\n\n\n## Microwave Breads\n\nVery flexible recipe, an example base:\n\n - One part unflavored pea protein powder\n - One part rolled oats\n - One part whole wheat flour\n\nAdd enough water to make a runny dough.  Microwave for ~10 minutes.\n\nThis recipe is pretty bland: I recommend adding more stuff for flavor, like:\n\n - Poppy seeds\n - Lemon Juice\n - Banana\n - Frozen Berries\n - Cocoa powder\n - Egg\n\n## Microwave Steam Bowls\n\nA really easy and convenient way to make some pretty tasty (and healthy!) food.\nThe basic premise is that you add your vegetables with a splash of water to a\nbowl, cover it with a plate, and microwave for 5-8 minutes. Then you add extra\nflavors and enjoy! It's easy to get creative with the cooking technique, but\nhere are some examples:\n\n### Carrots/Onions\n\nChop carrots and onions, add water and cook, finish with almond butter and\nsalt.  Add chia seeds optionally to soak up the water!\n\n### Thai Carrots/Onions\n\nSame recipe as before, but instead of almond butter, use natural (e.g. Adams)\npeanut butter with soy sauce, ginger, garlic, and optionally lime juice.\n\n### Honey Walnut Shrimp Inspired\n\nChop cabbage, add water and cook with brown rice, finish with walnuts and\nmayonnaise. \n\n## Potatoes\n\nPoke some holes in them, and just throw them into the microwave whole for 5-8\nminutes depending on size.\n\n## Oats\n\n - 1 cup rolled oats\n - 2 cups water\n - 1/4 tsp salt\n\nMicrowave for 3 mins.\n\nTo make overnight oats, use the same ratios, but just leave the oats in the\nfridge overnight instead of cooking. I highly recommend addng chia seeds and/or\ncoconut and/or some other kind of nut + some fruit when making overnight oats.\nYogurt is also good.\n\nSome good toppings:\n\n - Coffee (could even cook in coffee instead of water).\n - Chia seeds (~1-2 tbsp per cup dry oats)\n - Nutmeg\n - Cinnamon\n\n## Roasted Vegetables\n\nAll at 425F.\n\nVegetable      | Size     | Time (mins)\n---------      | -------- | -----------\nPotato         | 1/2 in   | 40 - 50\nZucchini       | 1/2 in   | 20\nBroccoli       | floret   | 20\nBrussel Sprout | halved   | 20\nTomato (roma)  | sliced   | 15\n\nSee also [this\nchart](https://www.myfrugalhome.com/vegetable-roasting-times-chart/).\n\nAdd thyme, rosemary, salt, garlic for extra flavor!  Add olive oil after or\nbefore.\n\n## Soup\n\nSaute (cook) onions, carrots, and/or celery for ~5 minutes in a soup pot with\nsome olive oil.  Add garlic and cook for ~1 more minute.\n\nNext, add a bunch of either stock or water with stock concentrate (e.g. \"Better\nThan Bullion\") and add chopped ingredients to boil based on this time table:\n\nIngredient      | Time (mins)\n---------       | -----------\nBeans           | 90-120 + presoaking overnight\nGreens          | 3-5\nGreen beans     | 3\nLentils         | 25\nPotatoes        | 20\nBarley          | 50\nPasta           | 8-12\nBrown Rice      | 45\nWhite Rice      | 15\n\nThis table is also accurate for just boiling anything - not necessarily as a\npart of a soup.\n\n## Grains and Beans\n\nI have an instant pot and use it to cook grains and beans more quickly.\n\nIngredient      | Time (mins)\n---------       | -----------\nChickpeas       | 28\n\nUse 1 tbsp salt to 1 lb dry beans.\nSoak dry beans overnight if possible.\nIf not, soak as long as you can and add 5-10 mins to the cooking time.\n\n## Popcorn\n\n - 1/4 - 1/2 cup kernels in a pan with some oil\n\nCook on high and shake frequently (every 10 secs).\n\nGood Toppings:\n\n - Nutritional Yeast\n - Cavenders Greek Seasoning\n - Olive oil\n\n\n## Ingredients\n\n### Flax Peanut Butter\n\nMixing ground flaxseed and natural peanut butter in around a 1:1 ratio makes a\ngreat nut butter!  You'll need to add some water to make it a paste (and not\njust powdery).  \n\nThis recipe has a good omega-3/6 ratio too.  Per 100g, peanut butter has 9.7g\nomega-6 and 0.3g omega-3 fatty acids.  Per 100g, flax seeds have 5.9g omega-6\nand 22.8g omega-3 fatty acids.  So combined, we have 23.1g omega3 and 15.6g\nomega-6, a **~1.5 ratio**!  Data was taken from NCCDB via Cronometer.\n\n## Desserts\n\n### Apple Oat Almond Cookies/Smoothie\n\n - 3 large apples\n - 1 cup rolled oats\n - 1 cup whole almonds (soaked for 1 hour)\n\n1. Preheat oven to 375F.\n2. Blend all ingredients in blender.\n3. Enjoy your smoothie!  Or...\n4. Pour cookie shapes onto baking sheet with parchment paper over it (or oiled,\n   haven't tried).\n5. Bake for 30+ mins depending on size of cookie, cool for 10 mins.\n\nFrom\n[vegevega.com](https://vegevega.com/healthy-3-ingredient-apple-almond-breakfast-cookies/)\n\n### Granola\n    \n - 3 cups rolled oats\n - 1 cup slivered almonds\n - 1 cup cashews\n - 3/4 cup shredded sweet coconut\n - 1/4 cup plus 2 tablespoons (3/8 cup) dark brown sugar\n - 1/4 cup plus 2 tablespoons (3/8 cup) maple syrup\n - 1/4 cup vegetable oil\n - 3/4 teaspoon salt\n - 1 cup raisins\n\nPreheat oven to 250 degrees F.\n\nIn a large bowl, combine the oats, nuts, coconut, and brown sugar.\n\nIn a separate bowl, combine maple syrup, oil, and salt. Combine both mixtures\nand pour onto 2 sheet pans. Cook for 1 hour and 15 minutes, stirring every 15\nminutes to achieve an even color.\n\nRemove from oven and transfer into a large bowl. Add raisins and mix until\nevenly distributed.\n\nRecipe courtesy of Alton Brown.\n\n\n### Sweet Potato Pancakes\n\nTODO find recipe that we used!\n\n\n### Flax Bread\n\n - 2 and 1/2 cups flaxseed meal\n - 1 tablespoon baking powder\n - 1/2 teaspoon salt (optional)\n - 1 and 1/3 cups water\n\n1. Preheat oven to 400 degrees F.\n1. Grease a 9×5-inch bread pan.\n1. Mix the flaxseed meal, baking powder and salt. Add water, stirring until\n   completely combined (the dough will be very thick, but moist).\n1. Bake for 60 to 65 minutes until risen and browned.\n\nFrom https://www.powerhungry.com/2019/06/2-ingredient-flax-sandwich-bread-vegan-keto-grain-free/.\n\nTODO Try adding carrots to this!\n\n\n### Banana Bread\n\n - 5 very ripe bananas, mashed\n - 1 egg\n - 1 tsp vanilla extract\n - 1 1/2 cups whole wheat pastry flour or almond flour + 1/6 cup flaxmeal\n - 1 tsp baking soda\n - 1/2 tsp ground cinnamon\n - 1/8 tsp sea salt\n - 1/2 cup raw walnuts, **chopped**\n - 1/2 tsp coconut oil, for greasing loaf pan\n\nPreheat oven to 350 degrees F and coat a 9x5 inch loaf pan with oil.\n\nIn a medium mixing bowl, mash the bananas then add everything else and mix.\n\nPour the mix into the prepared loaf pan.  Bake for 50-60 minutes, or until a\ntoothpick inserted comes out clean and top is golden brown\n\nInspired by https://www.asweetpeachef.com/banana-nut-bread/##wprm-recipe-container-29897\n\n\n### Strawberry Rhubarb Crisp\n\n**For the rhubarb:**\n - 3 cups rhubarb sliced\n - 1 cup applesauce unsweetened or ~1.5 apples chopped\n - 3 tablespoons almond flour\n\n**For the strawberries:**\n - 2 ½ cups chopped sweet strawberries or 4 cups halved frozen strawberries\n   microwaved until warm\n\n**For the topping:**\n - 1 ½ cups almond flour\n - 1 ½ cups rolled oats gluten-free if needed\n - splash of walnut oil\n - splash of maple syrup (probably not needed)\n\n1. Preheat oven to 375F.\n1. Combine rhubarb ingredients in bowl, then pout into 9x13 pan.\n1. Add strawberries onto rhubarb.\n1. Add topping onto strawberries.\n1. Bake for 35mins or more.  Sometimes mixing the crumble on top helps more\n   evenly brown.\n\nInspired by https://beautifulingredient.com/strawberry-rhubarb-crisp/##recipe.\n\n### Apple Crisp\n\nFilling:\n - ~5 apples\n - ~3 tbsp chia seeds\n - ~1 tbsp lemon juice\n - dusting of cinnamon\n\n Mix the above together in baking/pie pan, then mix the below in a separate\n container (after using it to melt the coconut oil) and layer it on top.\n\n Crisp:\n - ~1/3 cup chopped walnuts\n - ~3/4 cup rolled oats\n - ~2 tbsp melted coconut oil\n \n Bake at 400F for 45 minutes.\n\n### Creme Brulee\n\n - 2 cups heavy or light cream, or half-and-half\n - 1 vanilla bean, split lengthwise, or 1 teaspoon vanilla extract\n - 1/8 teaspoon salt\n - 5 egg yolks\n - 1/2 cup sugar, more for topping\n\n1. Heat oven to 325 degrees. In a saucepan, combine cream, vanilla bean and salt\n   and cook over low heat just until hot. Let sit for a few minutes, then\n   discard vanilla bean. (If using vanilla extract, add it now.)\n2. In a bowl, beat yolks and sugar together until light. Stir about a quarter of\n   the cream into this mixture, then pour sugar-egg mixture into cream and stir.\n   Pour into four 6-ounce ramekins and place ramekins in a baking dish; fill\n   dish with boiling water halfway up the sides of the dishes. Bake for 30 to 40\n   minutes, or until centers are barely set. Cool completely. Refrigerate for\n   several hours and up to a couple of days.\n3. When ready to serve, top each custard with about a teaspoon of sugar in a\n   thin layer. Place ramekins in a broiler 2 to 3 inches from heat source.  Turn\n   on broiler. Cook until sugar melts and browns or even blackens a bit, about 5\n   minutes. Serve within two hours.\n\n\n### Oil Pie Crust\n\n - 2 cups all purpose flour\n - 1/2 tsp salt\n - 1 tsp sugar\n - 2/8 tsp baking powder\n - 7 tbsp oil (e.g. vegetable)\n - 1/4 cup cold water\n\nWhisk together flour, salt, sugar, and baking powder.\n\nWhisk together oil and water, then pour over dry ingredients and mix.\n\nUse fork/hands to spread flour evenly into a pie pan.\n\nFill pie pan and bake!"
-  :name "recipies.md"
+  :title "Recipes"
+  :markdown "---\nbacklinks-set: \ncategories-set: #{\"Health And Longevity\" \"Food\"}\n---\n# Recipes \n\n[Master Cooking\nSpreadsheet](https://docs.google.com/spreadsheets/d/1d25vAW2nD0BdffwPbQgmy4lRhBi30cJNHOyaC-B9dHM/edit#gid=0)\n\nCheck out https://www.reciperadar.com/#search for a good way to find recipies based on what you currently have.\n\n## Creating New Recipes\n\nIf you're interested in experimenting with new food combinations, one technique\nthat has served me pretty well I call the \"trifecta of flavor\".  The way it\nworks is you take two foods that go well together (e.g. banana and peanut\nbutter) and you add a third food that goes well with one of the foods but would\nbe weird to combine with the other (e.g. spinach in this case).  More often\nthan not, the result is actually pretty good!\n\n## Bread Machine\n\n### Oat Wheat Bread\n\nExcellent texture, despite collapsing top.\n\n - 1.3 cups water, warm is better i think?\n - 1.5 tbsp brown sugar\n - 1.5 tbsp olive oil\n - 0.9 tsp 50/50 NaCl KCl\n - 1 cup rolled oats\n - 2.5 cups whole wheat flour\n - 1.5 tsp standard yeast that is not too old\n\nPut in bread pan in order listed, then use whole wheat cycle / 1.5 lb loaf.\n\n\n### Black Bean Bread\n\n - 1  cup  water\n - 3/4  cup  black beans, dry, cooked, drained  \n - 1 1/2  tablespoons  applesauce\n - 1 1/2  tablespoons  honey\n - ¾  teaspoon  salt\n - 1 1/2  cups  whole-wheat flour\n - 1 1/2  cups  bread flour\n - 1 1/2  teaspoons  yeast, active dry\n\n Use whole wheat cycle on 1.5 lb loaf.\n\n## Oats\n\n### Basic\n\n - 1 cup rolled oats\n - 2 cups water\n - 1/4 tsp salt\n\nMicrowave for 3 mins.\n\n### Creamy with Frozen Fruit\n\n - 0.6 cup rolled oats\n - 0.6 cup almond flour\n - water to cover\n - 1 tsp vanilla extract\n - 3ish cups frozen fruit\n\nMix everything, then add frozen fruit on top.\n\nMicrowave for 10 mins.\n\n### Overnight\n\nTo make overnight oats, use the same ratios, but just leave the oats in the\nfridge overnight instead of cooking. I highly recommend addng chia seeds and/or\ncoconut and/or some other kind of nut + some fruit when making overnight oats.\nYogurt is also good.\n\n\n## Microwave Breads\n\nVery flexible recipe, an example base:\n\n - One part unflavored pea protein powder\n - One part rolled oats\n - One part whole wheat flour\n\nAdd enough water to make a runny dough.\nMicrowave for ~5-10 minutes depending on water level and if you added frozen\nfruit or not.\n\nThis recipe is pretty bland: I recommend adding more stuff for flavor, like:\n\n - Poppy seeds\n - Lemon Juice\n - Banana\n - Frozen Berries\n - Cocoa powder\n - Egg\n\n## Microwave Steam Bowls\n\nA really easy and convenient way to make some pretty tasty (and healthy!) food.\nThe basic premise is that you add your vegetables with a splash of water to a\nbowl, cover it with a plate, and microwave for 5-8 minutes. Then you add extra\nflavors and enjoy! It's easy to get creative with the cooking technique, but\nhere are some examples:\n\n### Carrots/Onions\n\nChop carrots and onions, add water and cook, finish with almond butter and\nsalt.  Add chia seeds optionally to soak up the water!\n\n### Thai Carrots/Onions\n\nSame recipe as before, but instead of almond butter, use natural (e.g. Adams)\npeanut butter with soy sauce, ginger, garlic, and optionally lime juice.\n\n### Honey Walnut Shrimp Inspired\n\nChop cabbage, add water and cook with brown rice, finish with walnuts and\nmayonnaise. \n\n## Potatoes\n\nPoke some holes in them, and just throw them into the microwave whole for 5-8\nminutes depending on size.\n\n## Roasted Vegetables\n\nAll at 425F.\n\nVegetable      | Size     | Time (mins)\n---------      | -------- | -----------\nPotato         | 1/2 in   | 40 - 50\nZucchini       | 1/2 in   | 20\nBroccoli       | floret   | 20\nBrussel Sprout | halved   | 20\nTomato (roma)  | sliced   | 15\n\nSee also [this\nchart](https://www.myfrugalhome.com/vegetable-roasting-times-chart/).\n\nAdd thyme, rosemary, salt, garlic for extra flavor!  Add olive oil after or\nbefore.\n\n## Soup\n\nSaute (cook) onions, carrots, and/or celery for ~5 minutes in a soup pot with\nsome olive oil.  Add garlic and cook for ~1 more minute.\n\nNext, add a bunch of either stock or water with stock concentrate (e.g. \"Better\nThan Bullion\") and add chopped ingredients to boil based on this time table:\n\nIngredient      | Time (mins)\n---------       | -----------\nBeans           | 90-120 + presoaking overnight\nGreens          | 3-5\nGreen beans     | 3\nLentils         | 25\nPotatoes        | 20\nBarley          | 50\nPasta           | 8-12\nBrown Rice      | 45\nWhite Rice      | 15\n\nThis table is also accurate for just boiling anything - not necessarily as a\npart of a soup.\n\n## Grains and Beans\n\nI have an instant pot and use it to cook grains and beans more quickly.\n\nIngredient      | Time (mins)\n---------       | -----------\nChickpeas       | 28\n\nUse 1 tbsp salt to 1 lb dry beans.\nSoak dry beans overnight if possible.\nIf not, soak as long as you can and add 5-10 mins to the cooking time.\n\n## Ingredients\n\n### Flax Peanut Butter\n\nMixing ground flaxseed and natural peanut butter in around a 1:1 ratio makes a\ngreat nut butter!  You'll need to add some water to make it a paste (and not\njust powdery).  \n\nThis recipe has a good omega-3/6 ratio too.  Per 100g, peanut butter has 9.7g\nomega-6 and 0.3g omega-3 fatty acids.  Per 100g, flax seeds have 5.9g omega-6\nand 22.8g omega-3 fatty acids.  So combined, we have 23.1g omega3 and 15.6g\nomega-6, a **~1.5 ratio**!  Data was taken from NCCDB via Cronometer.\n\n## Desserts\n\n### Apple Oat Almond Cookies/Smoothie\n\n - 3 large apples\n - 1 cup rolled oats\n - 1 cup whole almonds (soaked for 1 hour)\n\n1. Preheat oven to 375F.\n2. Blend all ingredients in blender.\n3. Enjoy your smoothie!  Or...\n4. Pour cookie shapes onto baking sheet with parchment paper over it (or oiled,\n   haven't tried).\n5. Bake for 30+ mins depending on size of cookie, cool for 10 mins.\n\nFrom\n[vegevega.com](https://vegevega.com/healthy-3-ingredient-apple-almond-breakfast-cookies/)\n\n### Granola\n    \n - 3 cups rolled oats\n - 1 cup slivered almonds\n - 1 cup cashews\n - 3/4 cup shredded sweet coconut\n - 1/4 cup plus 2 tablespoons (3/8 cup) dark brown sugar\n - 1/4 cup plus 2 tablespoons (3/8 cup) maple syrup\n - 1/4 cup vegetable oil\n - 3/4 teaspoon salt\n - 1 cup raisins\n\nPreheat oven to 250 degrees F.\n\nIn a large bowl, combine the oats, nuts, coconut, and brown sugar.\n\nIn a separate bowl, combine maple syrup, oil, and salt. Combine both mixtures\nand pour onto 2 sheet pans. Cook for 1 hour and 15 minutes, stirring every 15\nminutes to achieve an even color.\n\nRemove from oven and transfer into a large bowl. Add raisins and mix until\nevenly distributed.\n\nRecipe courtesy of Alton Brown.\n\n\n### Flax Bread\n\n - 2 and 1/2 cups flaxseed meal\n - 1 tablespoon baking powder\n - 1/2 teaspoon salt (optional)\n - 1 and 1/3 cups water\n\n1. Preheat oven to 400 degrees F.\n1. Grease a 9×5-inch bread pan.\n1. Mix the flaxseed meal, baking powder and salt. Add water, stirring until\n   completely combined (the dough will be very thick, but moist).\n1. Bake for 60 to 65 minutes until risen and browned.\n\nFrom https://www.powerhungry.com/2019/06/2-ingredient-flax-sandwich-bread-vegan-keto-grain-free/.\n\nTODO Try adding carrots to this!\n\n\n### Banana Bread\n\n - 5 very ripe bananas, mashed\n - 1 egg\n - 1 tsp vanilla extract\n - 1 1/2 cups whole wheat pastry flour or almond flour + 1/6 cup flaxmeal\n - 1 tsp baking soda\n - 1/2 tsp ground cinnamon\n - 1/8 tsp sea salt\n - 1/2 cup raw walnuts, **chopped**\n - 1/2 tsp coconut oil, for greasing loaf pan\n\nPreheat oven to 350 degrees F and coat a 9x5 inch loaf pan with oil.\n\nIn a medium mixing bowl, mash the bananas then add everything else and mix.\n\nPour the mix into the prepared loaf pan.  Bake for 50-60 minutes, or until a\ntoothpick inserted comes out clean and top is golden brown\n\nInspired by https://www.asweetpeachef.com/banana-nut-bread/##wprm-recipe-container-29897\n\n\n### Strawberry Rhubarb Crisp\n\n**For the rhubarb:**\n - 3 cups rhubarb sliced\n - 1 cup applesauce unsweetened or ~1.5 apples chopped\n - 3 tablespoons almond flour\n\n**For the strawberries:**\n - 2 ½ cups chopped sweet strawberries or 4 cups halved frozen strawberries\n   microwaved until warm\n\n**For the topping:**\n - 1 ½ cups almond flour\n - 1 ½ cups rolled oats gluten-free if needed\n - splash of walnut oil\n - splash of maple syrup (probably not needed)\n\n1. Preheat oven to 375F.\n1. Combine rhubarb ingredients in bowl, then pout into 9x13 pan.\n1. Add strawberries onto rhubarb.\n1. Add topping onto strawberries.\n1. Bake for 35mins or more.  Sometimes mixing the crumble on top helps more\n   evenly brown.\n\nInspired by https://beautifulingredient.com/strawberry-rhubarb-crisp/##recipe.\n\n### Apple Crisp\n\nFilling:\n - ~5 apples\n - ~3 tbsp chia seeds\n - ~1 tbsp lemon juice\n - dusting of cinnamon\n\n Mix the above together in baking/pie pan, then mix the below in a separate\n container (after using it to melt the coconut oil) and layer it on top.\n\n Crisp:\n - ~1/3 cup chopped walnuts\n - ~3/4 cup rolled oats\n - ~2 tbsp melted coconut oil\n \n Bake at 400F for 45 minutes.\n\n### Creme Brulee\n\n - 2 cups heavy or light cream, or half-and-half\n - 1 vanilla bean, split lengthwise, or 1 teaspoon vanilla extract\n - 1/8 teaspoon salt\n - 5 egg yolks\n - 1/2 cup sugar, more for topping\n\n1. Heat oven to 325 degrees. In a saucepan, combine cream, vanilla bean and salt\n   and cook over low heat just until hot. Let sit for a few minutes, then\n   discard vanilla bean. (If using vanilla extract, add it now.)\n2. In a bowl, beat yolks and sugar together until light. Stir about a quarter of\n   the cream into this mixture, then pour sugar-egg mixture into cream and stir.\n   Pour into four 6-ounce ramekins and place ramekins in a baking dish; fill\n   dish with boiling water halfway up the sides of the dishes. Bake for 30 to 40\n   minutes, or until centers are barely set. Cool completely. Refrigerate for\n   several hours and up to a couple of days.\n3. When ready to serve, top each custard with about a teaspoon of sugar in a\n   thin layer. Place ramekins in a broiler 2 to 3 inches from heat source.  Turn\n   on broiler. Cook until sugar melts and browns or even blackens a bit, about 5\n   minutes. Serve within two hours.\n\n\n### Oil Pie Crust\n\n - 2 cups all purpose flour\n - 1/2 tsp salt\n - 1 tsp sugar\n - 2/8 tsp baking powder\n - 7 tbsp oil (e.g. vegetable)\n - 1/4 cup cold water\n\nWhisk together flour, salt, sugar, and baking powder.\n\nWhisk together oil and water, then pour over dry ingredients and mix.\n\nUse fork/hands to spread flour evenly into a pie pan.\n\nFill pie pan and bake!"
+  :name "recipes.md"
   :private false
   :categories #{"Health And Longevity"
                 "Food"}
   :dir? false
   :links []
-  :size 10240
-  :modtime 1768935106
+  :size 10501
+  :modtime 1771702346
   :mode 420
-  :modification-unix-timestamps [1755995343
-                                 1755974875]}
+  :modification-unix-timestamps [1771702318]}
  {:path-categories #{"Health And Longevity"
                      "Food"}
   :path "content/docs/health-and-longevity/food/supplements.md"
@@ -2484,7 +2483,7 @@
   :dir? false
   :links []
   :size 522
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875]}
@@ -2501,7 +2500,7 @@
   :dir? false
   :links []
   :size 4243
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875]}
@@ -2518,7 +2517,7 @@
   :dir? false
   :links []
   :size 405
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875]}
@@ -2533,7 +2532,7 @@
   :dir? false
   :links []
   :size 296
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1757135665
                                  1756400974
@@ -2550,7 +2549,7 @@
   :dir? false
   :links []
   :size 1099
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1757558461]}
  {:path-categories #{"Housing"}
@@ -2564,7 +2563,7 @@
   :dir? false
   :links []
   :size 884
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -2582,7 +2581,7 @@
   :dir? false
   :links []
   :size 637
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1757135665
                                  1756400974
@@ -2599,7 +2598,7 @@
   :dir? false
   :links []
   :size 1581
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -2619,7 +2618,7 @@
   :dir? false
   :links []
   :size 4434
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -2650,7 +2649,7 @@
   :dir? false
   :links []
   :size 12009
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1706730743
                                  1704401356
@@ -2670,7 +2669,7 @@
   :dir? false
   :links []
   :size 812
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -2689,7 +2688,7 @@
   :dir? false
   :links []
   :size 1582
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -2707,7 +2706,7 @@
   :dir? false
   :links ["/docs/understanding-the-world/influences.md"]
   :size 1435
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1655691154
@@ -2728,7 +2727,7 @@
   :dir? false
   :links []
   :size 542
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -2746,7 +2745,7 @@
   :dir? false
   :links []
   :size 2717
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1710287368
                                  1710287362
@@ -2770,7 +2769,7 @@
   :dir? false
   :links []
   :size 5390
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1669743672
                                  1669230421
@@ -2802,7 +2801,7 @@
   :dir? false
   :links []
   :size 2849
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1665686620
                                  1655753252
@@ -2824,7 +2823,7 @@
   :links ["/docs/lifestyle-optimizations/daily-habits.md"
           "/docs/lifelogging/camera.md"]
   :size 5501
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1743191815
@@ -2842,7 +2841,7 @@
   :dir? false
   :links []
   :size 362
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875]}
@@ -2858,7 +2857,7 @@
   :dir? false
   :links []
   :size 1180
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1743190436
                                  1675806456
@@ -2880,7 +2879,7 @@
   :dir? false
   :links []
   :size 656
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1689818925
                                  1669743672
@@ -2903,7 +2902,7 @@
   :dir? false
   :links []
   :size 765
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1723670821
                                  1723659833
@@ -2924,7 +2923,7 @@
           "/docs/health-and-longevity/biomarker-correlator.md"
           "/docs/health-and-longevity/continuous-glucose-monitoring.md"]
   :size 8998
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1740866322
@@ -2949,7 +2948,7 @@
   :dir? false
   :links []
   :size 1367
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1664948442
                                  1664937384
@@ -2970,7 +2969,7 @@
   :dir? false
   :links []
   :size 1964
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1674070949]}
  {:path-categories #{"Lifestyle Optimizations"}
@@ -2984,7 +2983,7 @@
   :dir? false
   :links []
   :size 8727
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1710287362
                                  1707596110
@@ -3015,7 +3014,7 @@
           "/docs/health-and-longevity/food/supplements.md"
           "/docs/lifelogging/what-and-why.md"]
   :size 2546
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875
@@ -3052,7 +3051,7 @@
           "/docs/understanding-the-world/productive-conversations.md"
           "/docs/health-and-longevity/sleep.md"]
   :size 2534
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1739316639
@@ -3093,7 +3092,7 @@
   :dir? false
   :links []
   :size 648
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1658277343
                                  1657997776]}
@@ -3108,7 +3107,7 @@
   :dir? false
   :links ["/docs/thought-experiments/mind-mapping-concept.md"]
   :size 631
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875
@@ -3130,7 +3129,7 @@
   :dir? false
   :links []
   :size 1144
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1756002649
                                  1756002482
@@ -3147,7 +3146,7 @@
   :dir? false
   :links []
   :size 268
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1667452680
                                  1665881215
@@ -3167,7 +3166,7 @@
   :dir? false
   :links []
   :size 2610
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -3187,7 +3186,7 @@
   :dir? false
   :links []
   :size 820
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -3205,7 +3204,7 @@
   :dir? false
   :links []
   :size 167
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1704401356
                                  1704233545]}
@@ -3220,7 +3219,7 @@
   :dir? false
   :links []
   :size 8364
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1756002649
                                  1756002482
@@ -3248,7 +3247,7 @@
   :dir? false
   :links []
   :size 268
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -3266,7 +3265,7 @@
   :dir? false
   :links []
   :size 895
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1683737709
                                  1683575232
@@ -3287,7 +3286,7 @@
   :dir? false
   :links []
   :size 134
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1671658646
                                  1671235170]}
@@ -3302,7 +3301,7 @@
   :dir? false
   :links []
   :size 2660
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875
@@ -3324,7 +3323,7 @@
   :dir? false
   :links []
   :size 854
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -3342,7 +3341,7 @@
   :dir? false
   :links []
   :size 690
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1686456666
                                  1671660905]}
@@ -3357,7 +3356,7 @@
   :dir? false
   :links []
   :size 1109
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -3376,7 +3375,7 @@
   :dir? false
   :links []
   :size 2331
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655691154
                                  1655657180
@@ -3394,7 +3393,7 @@
   :dir? false
   :links []
   :size 539
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -3412,7 +3411,7 @@
   :dir? false
   :links []
   :size 225
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1758475581
                                  1702414019
@@ -3441,7 +3440,7 @@
   :dir? false
   :links []
   :size 232
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1756002649
                                  1756002482
@@ -3457,7 +3456,7 @@
   :dir? false
   :links []
   :size 149
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1658277343
                                  1657656160
@@ -3477,7 +3476,7 @@
   :dir? false
   :links []
   :size 1090
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1669743672
                                  1668469041
@@ -3494,7 +3493,7 @@
   :dir? false
   :links []
   :size 67
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1757135665]}
  {:path-categories #{"Me"}
@@ -3516,7 +3515,7 @@
           "/docs/books/why-greatness-cannot-be-planned.md"
           "/docs/mind/motivation.md"]
   :size 11008
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1757135665]}
  {:path-categories #{"Me"}
@@ -3530,7 +3529,7 @@
   :dir? false
   :links []
   :size 49
-  :modtime 1768935131
+  :modtime 1771702373
   :mode 420
   :modification-unix-timestamps [0]}
  {:path-categories #{"Me"}
@@ -3546,7 +3545,7 @@
           "/docs/mind/optimism.md"
           "/docs/books/why-greatness-cannot-be-planned.md"]
   :size 3835
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1757135665]}
  {:path-categories #{"Me"}
@@ -3561,7 +3560,7 @@
   :links ["/docs/lifestyle-optimizations/keyboards-and-typing.md"
           "/docs/health-and-longevity/alt-health.md"]
   :size 12064
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1757264080
                                  1757135665]}
@@ -3576,7 +3575,7 @@
   :dir? false
   :links []
   :size 7467
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -3595,7 +3594,7 @@
   :dir? false
   :links []
   :size 593
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -3613,7 +3612,7 @@
   :dir? false
   :links []
   :size 491
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -3632,7 +3631,7 @@
   :dir? false
   :links []
   :size 1530
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -3654,7 +3653,7 @@
   :links ["/docs/gaming/gamedev/gamedev-context.md"
           "/docs/understanding-the-world/copyright-and-ip.md"]
   :size 3246
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755449404
@@ -3688,7 +3687,7 @@
   :dir? false
   :links []
   :size 1165
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -3706,7 +3705,7 @@
   :dir? false
   :links []
   :size 6529
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1667066083
                                  1655753252
@@ -3728,7 +3727,7 @@
   :dir? false
   :links []
   :size 317
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1734063299]}
  {:path-categories #{"Mind"}
@@ -3742,7 +3741,7 @@
   :dir? false
   :links ["/docs/mind/motivation.md"]
   :size 5091
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1667066083
@@ -3762,7 +3761,7 @@
   :dir? false
   :links []
   :size 1533
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1757264770
                                  1655753252
@@ -3783,7 +3782,7 @@
   :dir? false
   :links []
   :size 1831
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1702414019
                                  1701713683
@@ -3800,7 +3799,7 @@
   :dir? false
   :links []
   :size 140
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1757135665
                                  1756919393]}
@@ -3818,7 +3817,7 @@
   :links ["/docs/mind/creativity.md"
           "/docs/mind/creativity.md"]
   :size 12746
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755995343
                                  1755974875
@@ -3852,7 +3851,7 @@
   :dir? false
   :links []
   :size 1284
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -3871,7 +3870,7 @@
   :dir? false
   :links []
   :size 2319
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1698604706
                                  1692662334
@@ -3888,7 +3887,7 @@
   :dir? false
   :links []
   :size 4885
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1659551821
                                  1659551685
@@ -3905,7 +3904,7 @@
   :dir? false
   :links []
   :size 711
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1757135665
                                  1756843241]}
@@ -3920,7 +3919,7 @@
   :dir? false
   :links []
   :size 1302
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1733985863
                                  1664936533
@@ -3936,7 +3935,7 @@
   :dir? false
   :links []
   :size 2147
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1756002649
                                  1756002482
@@ -3953,7 +3952,7 @@
   :dir? false
   :links ["/docs/mind/motivation.md"]
   :size 2725
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1710287362
@@ -3979,7 +3978,7 @@
   :dir? false
   :links []
   :size 7487
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -4003,7 +4002,7 @@
   :dir? false
   :links []
   :size 145
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -4020,7 +4019,7 @@
   :dir? false
   :links []
   :size 1221
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -4038,7 +4037,7 @@
   :dir? false
   :links []
   :size 6188
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1673301100
                                  1673289798
@@ -4058,7 +4057,7 @@
   :dir? false
   :links []
   :size 227
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1658277343
                                  1658206871]}
@@ -4073,7 +4072,7 @@
   :dir? false
   :links []
   :size 1520
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -4094,7 +4093,7 @@
   :dir? false
   :links []
   :size 510
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1740866322
                                  1740862760
@@ -4111,7 +4110,7 @@
   :dir? false
   :links []
   :size 158
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1757135665
                                  1756919393]}
@@ -4126,7 +4125,7 @@
   :dir? false
   :links []
   :size 192
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1757135665
                                  1756242385]}
@@ -4141,7 +4140,7 @@
   :dir? false
   :links []
   :size 2720
-  :modtime 1768935131
+  :modtime 1771702373
   :mode 420
   :modification-unix-timestamps [1752514442]}
  {:path-categories #{"Music"}
@@ -4155,7 +4154,7 @@
   :dir? false
   :links []
   :size 2832
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1757264770
                                  1755322345
@@ -4174,7 +4173,7 @@
   :dir? false
   :links []
   :size 493
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1758475353
                                  1758475019
@@ -4194,7 +4193,7 @@
   :dir? false
   :links []
   :size 4679
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1656388528
                                  1656388399]}
@@ -4209,7 +4208,7 @@
   :dir? false
   :links ["/docs/books/everyday-utopia.md"]
   :size 457
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1700078474
@@ -4226,7 +4225,7 @@
   :dir? false
   :links []
   :size 2057
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1658509129
                                  1656388528
@@ -4242,7 +4241,7 @@
   :dir? false
   :links []
   :size 2818
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1663982789
                                  1663623469]}
@@ -4257,7 +4256,7 @@
   :dir? false
   :links ["/docs/books/The-Black-Swan.md"]
   :size 3920
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1667948337
@@ -4277,7 +4276,7 @@
   :dir? false
   :links []
   :size 655
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1658509129
                                  1656388528
@@ -4293,7 +4292,7 @@
   :dir? false
   :links []
   :size 3848
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1768935047
                                  1756002649
@@ -4315,7 +4314,7 @@
   :dir? false
   :links []
   :size 741
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1674251134]}
  {:path-categories #{"Society"}
@@ -4329,7 +4328,7 @@
   :dir? false
   :links []
   :size 1428
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1658509129
                                  1656388528
@@ -4345,7 +4344,7 @@
   :dir? false
   :links []
   :size 427
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1736835711
                                  1736835384]}
@@ -4360,7 +4359,7 @@
   :dir? false
   :links ["/docs/mind/optimism.md"]
   :size 9603
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1667066083
@@ -4385,7 +4384,7 @@
           "/docs/books/antifragile.md"
           "/docs/mind/creativity.md"]
   :size 10111
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1701207308
@@ -4412,7 +4411,7 @@
   :dir? false
   :links ["/docs/society/utopia.md"]
   :size 2284
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1697236141
@@ -4429,7 +4428,7 @@
   :dir? false
   :links []
   :size 434
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -4447,7 +4446,7 @@
   :dir? false
   :links []
   :size 11590
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1688672321
                                  1688488756
@@ -4471,7 +4470,7 @@
   :dir? false
   :links []
   :size 1239
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1700078474
                                  1699041494
@@ -4493,7 +4492,7 @@
   :dir? false
   :links []
   :size 1238
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1659551685
                                  1659124913
@@ -4510,7 +4509,7 @@
   :dir? false
   :links []
   :size 2092
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1704232292
                                  1703793258
@@ -4531,7 +4530,7 @@
   :dir? false
   :links []
   :size 1520
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1684276597
                                  1655757336
@@ -4552,7 +4551,7 @@
   :dir? false
   :links []
   :size 1265
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1700078474
                                  1699041494]}
@@ -4567,7 +4566,7 @@
   :dir? false
   :links []
   :size 190
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -4585,7 +4584,7 @@
   :dir? false
   :links []
   :size 1600
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1736273893
                                  1735342544
@@ -4610,7 +4609,7 @@
   :dir? false
   :links []
   :size 330
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -4628,7 +4627,7 @@
   :dir? false
   :links []
   :size 2393
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -4648,7 +4647,7 @@
   :dir? false
   :links []
   :size 381
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -4670,7 +4669,7 @@
           "/"
           "/"]
   :size 1833
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1662924312
                                  1655691154
@@ -4691,7 +4690,7 @@
   :dir? false
   :links []
   :size 9254
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1697236141
                                  1694034285
@@ -4724,7 +4723,7 @@
   :dir? false
   :links []
   :size 1737
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -4742,7 +4741,7 @@
   :dir? false
   :links []
   :size 17
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1757136307]}
  {:path-categories #{"Understanding The World"}
@@ -4756,7 +4755,7 @@
   :dir? false
   :links []
   :size 4653
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -4779,7 +4778,7 @@
   :links ["/docs/mind/creativity.md"
           "/docs/society/utopia.md"]
   :size 790
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1755277458
@@ -4799,7 +4798,7 @@
   :dir? false
   :links []
   :size 283
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -4819,7 +4818,7 @@
   :links ["/docs/understanding-the-world/influences.md"
           "/docs/books/zero-to-one.md"]
   :size 1007
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1757264527
                                  1755322345
@@ -4842,7 +4841,7 @@
   :dir? false
   :links []
   :size 2309
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -4860,7 +4859,7 @@
   :dir? false
   :links []
   :size 1046
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -4878,7 +4877,7 @@
   :dir? false
   :links []
   :size 716
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1757135665
                                  1756944387]}
@@ -4893,7 +4892,7 @@
   :dir? false
   :links []
   :size 396
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
@@ -4911,7 +4910,7 @@
   :dir? false
   :links ["/docs/understanding-the-world/working-with-complex-systems.md"]
   :size 406
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1667941051
@@ -4928,7 +4927,7 @@
   :dir? false
   :links []
   :size 816
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1664936533
                                  1664901571]}
@@ -4949,7 +4948,7 @@
           "/docs/books/The-Enigma-of-Reason.md"
           "/docs/understanding-the-world/working-with-complex-systems.md"]
   :size 15027
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1755322345
                                  1749182667
@@ -4984,7 +4983,7 @@
   :dir? false
   :links []
   :size 872
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1667937680
                                  1659551949
@@ -5001,7 +5000,7 @@
   :dir? false
   :links ["/docs/visual-art/inspiration-and-resources.md"]
   :size 1563
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1669743672
                                  1668204865
@@ -5025,7 +5024,7 @@
   :dir? false
   :links []
   :size 824
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1712860286
                                  1668204865
@@ -5049,7 +5048,7 @@
   :dir? false
   :links []
   :size 591
-  :modtime 1768935106
+  :modtime 1771702346
   :mode 420
   :modification-unix-timestamps [1655753252
                                  1655753185
