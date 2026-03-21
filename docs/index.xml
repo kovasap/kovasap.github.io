@@ -408,6 +408,13 @@
     </item>
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/gaming/gamedev/mechanic-ideas/positional-autobattling-combat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kovasap.github.io/docs/gaming/gamedev/mechanic-ideas/positional-autobattling-combat/</guid>
+      <description>&lt;h1 id=&#34;positional-autobattling-combat&#34;&gt;&#xA;  Positional Autobattling Combat&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#positional-autobattling-combat&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;inspiration&#34;&gt;&#xA;  Inspiration&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#inspiration&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;In many turn based tactics games there is a large amount of player effort spent&#xA;on manually moving characters and using abilities.&lt;/p&gt;&#xA;&lt;p&gt;I think that not all of these actions are really that interesting - what IS&#xA;interesting is the positional placement of units, and perhaps their &amp;ldquo;stance&amp;rdquo;&#xA;(are they attacking or defending).&lt;/p&gt;&#xA;&lt;h2 id=&#34;system&#34;&gt;&#xA;  System&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#system&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;All actions taken by characters are &amp;ldquo;cooldown based&amp;rdquo;.&#xA;Cooldowns are defined in terms of &amp;ldquo;ticks&amp;rdquo;; one tick will happen around every&#xA;0.25 - 0.5 seconds to give the game a more &amp;ldquo;turn based&amp;rdquo; feel.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/gaming/gamedev/mechanic-ideas/positional-turn-based-combat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://kovasap.github.io/docs/gaming/gamedev/mechanic-ideas/positional-turn-based-combat/</guid>
