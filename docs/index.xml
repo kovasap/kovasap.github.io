@@ -1731,6 +1731,13 @@
     </item>
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/software-dev/what-using-ai-is-like/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kovasap.github.io/docs/software-dev/what-using-ai-is-like/</guid>
+      <description>&lt;h1 id=&#34;using-ai-how-its-been-feeling&#34;&gt;&#xA;  Using AI: How it&amp;rsquo;s Been Feeling&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#using-ai-how-its-been-feeling&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;pre-ai&#34;&gt;&#xA;  Pre-AI&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#pre-ai&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Before AI coding agents got really good, my process of implementing some idea&#xA;into software looked something like this:&lt;/p&gt;&#xA;&lt;p&gt;First, I&amp;rsquo;d start reading about the part of the system I want to change.&#xA;Slowly I&amp;rsquo;d learn the code and APIs I might need to make my change to see what&amp;rsquo;s&#xA;possible.&#xA;Through this process I would build an incremental understanding of how all the&#xA;parts of the system fit together.&#xA;This would show me where to put my new code and how to wire it all up.&#xA;Then I would write my code, test it, and be satisfied with the result.&#xA;I&amp;rsquo;ll call this way of writing code &lt;strong&gt;Incremental Understanding&lt;/strong&gt;.&#xA;In this method using AI tooling like autocomplete and search/chat is really&#xA;useful and a valid part of this process as I&amp;rsquo;m defining it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/thought-experiments/artificial-intelligence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://kovasap.github.io/docs/thought-experiments/artificial-intelligence/</guid>
