@@ -9,6 +9,13 @@
     <atom:link href="https://kovasap.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
+      <link>https://kovasap.github.io/docs/all-posts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kovasap.github.io/docs/all-posts/</guid>
+      <description>&lt;h1 id=&#34;all-posts&#34;&gt;&#xA;  All Posts&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#all-posts&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;All posts on this site, ordered by last modification time.&lt;/p&gt;&#xA;&#xA;&#xA;&lt;div id=&#34;all_posts&#34;&gt;&#xA;    &lt;div id=&#34;all_posts&#34;&gt;&lt;/div&gt;&#xA;    &lt;script type=&#34;text/javascript&#34;&gt;&#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        website_helpers.core.render_to_element(&#xA;            website_helpers.recent_posts.all_posts(),&#xA;            &#34;all_posts&#34;);&#xA;    &lt;/script&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title></title>
       <link>https://kovasap.github.io/docs/all/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://kovasap.github.io/docs/all/</guid>
