@@ -10,9 +10,9 @@ devtools.hints.set_processed_errors_BANG_ = (function devtools$hints$set_process
 return cljs.core.vreset_BANG_(devtools.hints.processed_errors,val);
 });
 devtools.hints.get_processed_errors_BANG_ = (function devtools$hints$get_processed_errors_BANG_(){
-var temp__5802__auto__ = cljs.core.deref(devtools.hints.processed_errors);
-if(cljs.core.truth_(temp__5802__auto__)){
-var val = temp__5802__auto__;
+var temp__5821__auto__ = cljs.core.deref(devtools.hints.processed_errors);
+if(cljs.core.truth_(temp__5821__auto__)){
+var val = temp__5821__auto__;
 return val;
 } else {
 if((typeof WeakSet !== 'undefined')){
@@ -95,27 +95,27 @@ devtools.hints.error_object_sense = (function devtools$hints$error_object_sense(
 try{var native_stack_trace = error.stack;
 var stack_trace = devtools.hints.parse_stacktrace(native_stack_trace);
 var top_item = cljs.core.second(stack_trace);
-var map__22660 = top_item;
-var map__22660__$1 = cljs.core.__destructure_map(map__22660);
-var file = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__22660__$1,new cljs.core.Keyword(null,"file","file",-1269645878));
-var line = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__22660__$1,new cljs.core.Keyword(null,"line","line",212345235));
-var column = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__22660__$1,new cljs.core.Keyword(null,"column","column",2078222095));
+var map__28395 = top_item;
+var map__28395__$1 = cljs.core.__destructure_map(map__28395);
+var file = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__28395__$1,new cljs.core.Keyword(null,"file","file",-1269645878));
+var line = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__28395__$1,new cljs.core.Keyword(null,"line","line",212345235));
+var column = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__28395__$1,new cljs.core.Keyword(null,"column","column",2078222095));
 return devtools.hints.make_sense_of_the_error(error.message,file,line,column);
-}catch (e22659){var _e = e22659;
+}catch (e28377){var _e = e28377;
 return false;
 }});
 devtools.hints.type_error_to_string = (function devtools$hints$type_error_to_string(self){
-var temp__5802__auto___22674 = devtools.hints.get_processed_errors_BANG_();
-if(cljs.core.truth_(temp__5802__auto___22674)){
-var seen_errors_22675 = temp__5802__auto___22674;
-if(cljs.core.truth_(seen_errors_22675.has(self))){
+var temp__5821__auto___28427 = devtools.hints.get_processed_errors_BANG_();
+if(cljs.core.truth_(temp__5821__auto___28427)){
+var seen_errors_28429 = temp__5821__auto___28427;
+if(cljs.core.truth_(seen_errors_28429.has(self))){
 } else {
-seen_errors_22675.add(self);
+seen_errors_28429.add(self);
 
-var temp__5804__auto___22676 = devtools.hints.error_object_sense(self);
-if(cljs.core.truth_(temp__5804__auto___22676)){
-var sense_22677 = temp__5804__auto___22676;
-(self.message = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(self.message),", a sanity hint:\n",cljs.core.str.cljs$core$IFn$_invoke$arity$1(sense_22677)].join(''));
+var temp__5823__auto___28430 = devtools.hints.error_object_sense(self);
+if(cljs.core.truth_(temp__5823__auto___28430)){
+var sense_28431 = temp__5823__auto___28430;
+(self.message = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(self.message),", a sanity hint:\n",cljs.core.str.cljs$core$IFn$_invoke$arity$1(sense_28431)].join(''));
 } else {
 }
 }
@@ -127,9 +127,9 @@ return devtools.hints._STAR_original_type_error_prototype_to_string_STAR_.call(s
 devtools.hints.global_error_handler = (function devtools$hints$global_error_handler(message,url,line,column,error){
 var res = (cljs.core.truth_(devtools.hints._STAR_original_global_error_handler_STAR_)?devtools.hints._STAR_original_global_error_handler_STAR_.call(null,message,url,line,column,error):null);
 if(cljs.core.not(res)){
-var temp__5804__auto__ = devtools.hints.error_object_sense(error);
-if(cljs.core.truth_(temp__5804__auto__)){
-var sense = temp__5804__auto__;
+var temp__5823__auto__ = devtools.hints.error_object_sense(error);
+if(cljs.core.truth_(temp__5823__auto__)){
+var sense = temp__5823__auto__;
 devtools.context.get_console.call(null).info("A sanity hint for incoming uncaught error:\n",sense);
 
 return false;

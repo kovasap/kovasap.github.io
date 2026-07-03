@@ -4,8 +4,8 @@ var module$node_modules$react_dom$server_browser=shadow.js.require("module$node_
  * Turns a component into an HTML string.
  */
 reagent.dom.server.render_to_string = (function reagent$dom$server$render_to_string(var_args){
-var G__20729 = arguments.length;
-switch (G__20729) {
+var G__44044 = arguments.length;
+switch (G__44044) {
 case 1:
 return reagent.dom.server.render_to_string.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -27,12 +27,12 @@ return reagent.dom.server.render_to_string.cljs$core$IFn$_invoke$arity$2(compone
 (reagent.dom.server.render_to_string.cljs$core$IFn$_invoke$arity$2 = (function (component,compiler){
 reagent.ratom.flush_BANG_();
 
-var _STAR_non_reactive_STAR__orig_val__20730 = reagent.impl.util._STAR_non_reactive_STAR_;
-var _STAR_non_reactive_STAR__temp_val__20731 = true;
-(reagent.impl.util._STAR_non_reactive_STAR_ = _STAR_non_reactive_STAR__temp_val__20731);
+var _STAR_non_reactive_STAR__orig_val__44045 = reagent.impl.util._STAR_non_reactive_STAR_;
+var _STAR_non_reactive_STAR__temp_val__44046 = true;
+(reagent.impl.util._STAR_non_reactive_STAR_ = _STAR_non_reactive_STAR__temp_val__44046);
 
 try{return module$node_modules$react_dom$server_browser.renderToString(reagent.impl.protocols.as_element(compiler,component));
-}finally {(reagent.impl.util._STAR_non_reactive_STAR_ = _STAR_non_reactive_STAR__orig_val__20730);
+}finally {(reagent.impl.util._STAR_non_reactive_STAR_ = _STAR_non_reactive_STAR__orig_val__44045);
 }}));
 
 (reagent.dom.server.render_to_string.cljs$lang$maxFixedArity = 2);
@@ -41,8 +41,8 @@ try{return module$node_modules$react_dom$server_browser.renderToString(reagent.i
  * Turns a component into an HTML string, without data-react-id attributes, etc.
  */
 reagent.dom.server.render_to_static_markup = (function reagent$dom$server$render_to_static_markup(var_args){
-var G__20743 = arguments.length;
-switch (G__20743) {
+var G__44048 = arguments.length;
+switch (G__44048) {
 case 1:
 return reagent.dom.server.render_to_static_markup.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -64,12 +64,12 @@ return reagent.dom.server.render_to_static_markup.cljs$core$IFn$_invoke$arity$2(
 (reagent.dom.server.render_to_static_markup.cljs$core$IFn$_invoke$arity$2 = (function (component,compiler){
 reagent.ratom.flush_BANG_();
 
-var _STAR_non_reactive_STAR__orig_val__20748 = reagent.impl.util._STAR_non_reactive_STAR_;
-var _STAR_non_reactive_STAR__temp_val__20749 = true;
-(reagent.impl.util._STAR_non_reactive_STAR_ = _STAR_non_reactive_STAR__temp_val__20749);
+var _STAR_non_reactive_STAR__orig_val__44049 = reagent.impl.util._STAR_non_reactive_STAR_;
+var _STAR_non_reactive_STAR__temp_val__44050 = true;
+(reagent.impl.util._STAR_non_reactive_STAR_ = _STAR_non_reactive_STAR__temp_val__44050);
 
 try{return module$node_modules$react_dom$server_browser.renderToStaticMarkup(reagent.impl.protocols.as_element(compiler,component));
-}finally {(reagent.impl.util._STAR_non_reactive_STAR_ = _STAR_non_reactive_STAR__orig_val__20748);
+}finally {(reagent.impl.util._STAR_non_reactive_STAR_ = _STAR_non_reactive_STAR__orig_val__44049);
 }}));
 
 (reagent.dom.server.render_to_static_markup.cljs$lang$maxFixedArity = 2);
