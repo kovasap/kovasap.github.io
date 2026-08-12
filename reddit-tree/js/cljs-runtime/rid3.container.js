@@ -1,30 +1,30 @@
 goog.provide('rid3.container');
 rid3.container.piece_did_mount = (function rid3$container$piece_did_mount(piece,opts,prev_classes){
-var map__8790 = opts;
-var map__8790__$1 = cljs.core.__destructure_map(map__8790);
-var id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__8790__$1,new cljs.core.Keyword(null,"id","id",-1388402092));
-var ratom = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__8790__$1,new cljs.core.Keyword(null,"ratom","ratom",-126521267));
-var map__8792 = piece;
-var map__8792__$1 = cljs.core.__destructure_map(map__8792);
-var class$ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__8792__$1,new cljs.core.Keyword(null,"class","class",-2030961996));
-var did_mount = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__8792__$1,new cljs.core.Keyword(null,"did-mount","did-mount",918232960),(function (node,ratom__$1){
+var map__39883 = opts;
+var map__39883__$1 = cljs.core.__destructure_map(map__39883);
+var id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39883__$1,new cljs.core.Keyword(null,"id","id",-1388402092));
+var ratom = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39883__$1,new cljs.core.Keyword(null,"ratom","ratom",-126521267));
+var map__39884 = piece;
+var map__39884__$1 = cljs.core.__destructure_map(map__39884);
+var class$ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39884__$1,new cljs.core.Keyword(null,"class","class",-2030961996));
+var did_mount = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__39884__$1,new cljs.core.Keyword(null,"did-mount","did-mount",918232960),(function (node,ratom__$1){
 return node;
 }));
 var node = d3.select(rid3.util.node_selector(id,prev_classes));
-var G__8796 = node.append("g").attr("class",class$);
-var G__8797 = ratom;
-return (did_mount.cljs$core$IFn$_invoke$arity$2 ? did_mount.cljs$core$IFn$_invoke$arity$2(G__8796,G__8797) : did_mount.call(null,G__8796,G__8797));
+var G__39887 = node.append("g").attr("class",class$);
+var G__39888 = ratom;
+return (did_mount.cljs$core$IFn$_invoke$arity$2 ? did_mount.cljs$core$IFn$_invoke$arity$2(G__39887,G__39888) : did_mount.call(null,G__39887,G__39888));
 });
 rid3.container.piece_did_update = (function rid3$container$piece_did_update(piece,opts,prev_classes){
-var map__8802 = opts;
-var map__8802__$1 = cljs.core.__destructure_map(map__8802);
-var id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__8802__$1,new cljs.core.Keyword(null,"id","id",-1388402092));
-var ratom = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__8802__$1,new cljs.core.Keyword(null,"ratom","ratom",-126521267));
-var map__8803 = piece;
-var map__8803__$1 = cljs.core.__destructure_map(map__8803);
-var class$ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__8803__$1,new cljs.core.Keyword(null,"class","class",-2030961996));
-var did_mount = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__8803__$1,new cljs.core.Keyword(null,"did-mount","did-mount",918232960));
-var did_update = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__8803__$1,new cljs.core.Keyword(null,"did-update","did-update",-2143702256));
+var map__39891 = opts;
+var map__39891__$1 = cljs.core.__destructure_map(map__39891);
+var id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39891__$1,new cljs.core.Keyword(null,"id","id",-1388402092));
+var ratom = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39891__$1,new cljs.core.Keyword(null,"ratom","ratom",-126521267));
+var map__39892 = piece;
+var map__39892__$1 = cljs.core.__destructure_map(map__39892);
+var class$ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39892__$1,new cljs.core.Keyword(null,"class","class",-2030961996));
+var did_mount = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39892__$1,new cljs.core.Keyword(null,"did-mount","did-mount",918232960));
+var did_update = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39892__$1,new cljs.core.Keyword(null,"did-update","did-update",-2143702256));
 var did_update__$1 = (function (){var or__4212__auto__ = did_update;
 if(cljs.core.truth_(or__4212__auto__)){
 return or__4212__auto__;
